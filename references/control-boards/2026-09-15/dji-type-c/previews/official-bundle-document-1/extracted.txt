@@ -1,0 +1,120 @@
+
+
+=== PDF PAGE 1 ===
+        ART FILM - ADT
+
+
+
+
+
+                                                                                                                                                                                       R179   D12
+J30                                               J16                                       J5
+
+                                                                                                                                                SW3
+
+                                                                                                                                                                              R178 R177
+
+
+
+HOLE1                                                                                                           HOLE2
+
+                                                                                               LS1
+
+
+
+J20                C100                                                                                                 R65  D35D9
+                                                                                                                    L12                                                                                             J7       EDGE                     C101
+                                                                                                      D8
+                                                                                                 R58                                                                                                                                                   PCB
+                                                                                         C86C85                                                                                    D7                                                                                                 L6
+                  C96
+                                                       C198                                         D38                                                                                                                  C137                                                                                                                      R164                                                                          R166R167                                                                                  R184                   5V                      GND1                  C94J23
+                                    C29                                       C30                                                                                                                                      J31                                           C196
+                     R196                                                                                  R88                                                                                     R87                                                                                        R38                                                                                           R37                                                                                               R77               C191R195
+                                         L28
+                    R194                                      C195                                             C162                                                   C161             C181C180
+                                                                                              A15                                                                                                    TP2                                                                                                                                                                           R165
+                   C25                                                       C20R16                        C23                               C24
+J22                                                      C164
+                                       U13                                                                                                   R208R207R70                                                        R168                                                            C140                                                                                      C139               R198                  R200                                                                                                     L8                                                                               U12                               C22
+                                                                                                    D11                               C168
+          R193                                               X1                                          R17                                                            R180                                                                         C163                                                                             R182 R185                                      C26                                                                                                  R124R125                                                                                               J8
+                                                                                                  C109                D13                             D2                                                                  R1                               C113                          C114                                                                                                    R73R69                                         R3                                              R2                                                   C3J21
+                                                                                                                                                                 C104                                                           C141C142C144C143
+                                                                                                R79                                                                                                   R68 R78 R47 R45 R49                                                                                                      C105                                                                                                                       R172                                                                                                                            R171                                                                                                              R174                                                                                                                   R173                                                                                                   R170  R206
+
+
+                                     J1                        R75 R76                  J25
+HOLE3
+
+                                                       D14 C115 D15 C116                                                        R126C119D18 C120D19R127   C117 D16  D17 C118R128                                HOLE4
+
+
+J29               J2                                   U17                               J3                  SW4
+
+
+
+
+        ART FILM - ADT
+
+=== PDF PAGE 2 ===
+          ART FILM - ADB
+
+
+
+
+
+               J33                                                                                                                        D24 R132C126R131
+
+
+      R110
+   R34
+
+          Q9   C138           R108            R201R202R205 R204R203                                                                                                        D23C121C122D20C125R133
+
+                   Q4         Q8              R134R192C175D26   R191C174 D27   R190C173D28   R189C172 D29   R188C171 D30   R187C170 D31 R186C169D25
+                                            L11     C111
+                           R107 R106                R41                      R39
+                                                                                  C112
+                           R95                                C92       R104  C110C177
+                    Q7
+                                                                                                                                                                                   5V_M                                                                                                                    C192                                U14                                           U15
+                R100 R101                                                                                                                     C17                                                                          J27                                                                              PGND1  C16 C194                                                                                                                    C193
+
+                                                                                                            C14                                                                                                                    C15                     Q5       C91 R94R91                                           R92     C176 R105R102                                                                           R103           D5
+                      R40
+                R211     C84                         R42
+                                   L9                                                                              C108
+                                                                       C107
+                       D6                                                                                                                                            L66                                                 L10                                  C106                                                                                                                                                                     C197
+                                                       C5
+                     C34              C35                                                         R5
+                                                                                                                                                                    R183                                                                        Q1
+                                        Q2                           C41     R26R25                                                         R8R7               U4
+     R23                                                        C4                                                                                                     D34                           R24                                              R4                                                  R6    C40
+                                                                                      C6                                                D3
+                                      R66    C37
+              L3                                                                 C158                                                                   D33                                           C157
+    C36                                                                                                                                 R10                                            C43                                                     C56                                               R109                                                                                                                                             U16 GND2                                                                              C156                                                  C55                                          R64C46                          C135                               C54                        Q10                                                                                         C2                                                       C42R27     C39C38   3V3                                                                             C154                                                  C57                                    C45                               C149     D37
+                                  C150C155 TP10                                                                C134                                                      R175                                              R144C148                                                                                    R176                                                                                                            C9                                                                                                                      C10
+                                                                   Q3 TP11                                                       C89                                                          C153                                                                       C147
+                                                                                         C1                                                                                                                       C8                                                        R83R72                                                                C145                                                                   C146
+                  U11                                                                                                                                                                                      C167                              R209                                                    D10
+                                                                                                                         C11
+
+
+                                                                                                                  FB1
+
+
+                                                                                                                                                                              R210
+
+
+
+
+                                                                                                                  QR Code:
+
+        R71C87                                                                                                                                                               R129R130C124C123D21D22
+
+
+
+          ART FILM - ADB

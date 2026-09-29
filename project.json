@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "project_id": "h7ms-core-a1",
+  "name": "H7MS-Core-A1",
+  "project_type": "general-purpose-robotics-real-time-control-platform",
+  "status": "planning-interface-review",
+  "current_phase": "H0",
+  "hardware_revision": "A1",
+  "docs_version": "v0.7.4",
+  "last_updated": "2026-09-15",
+  "pin_plan": "v0.7",
+  "stack_interface": "v0.7",
+  "mcu": "STM32H743VIH6",
+  "package": "TFBGA100",
+  "clock_source": "8 MHz CMOS HSE bypass",
+  "related_projects": [],
+  "first_baseboard": null,
+  "design_authority": {
+    "pinout": "docs/H7MS-Core-A1_引脚配置.md",
+    "stack_interface": "docs/06_上下板接口规范.md",
+    "hardware": "docs/01_硬件设计.md",
+    "firmware": "docs/02_固件架构.md",
+    "requirements": "docs/10_通用控制平台需求基线.md"
+  },
+  "release_readiness": "not-authorized-for-fabrication",
+  "project_status_document": "docs/08_项目状态与待办.md",
+  "selection_record": "docs/07_主控选型与资源预算.md",
+  "architecture_research": "docs/09_机器人上下位机主控架构与资源调研.md",
+  "archive_index": "archives/README.md",
+  "archive_id": "H7MS-Core-A1_2026-09-11_docs-v0.7.1",
+  "archive_date": "2026-09-11",
+  "product_scope": "General-purpose real-time control core with configurable devices, protocol adapters and interface baseboards; independent of any specific robot or host computer.",
+  "baseboard_plan": "General-purpose reference and validation baseboard; product name and specifications pending.",
+  "requirements_document": "docs/10_通用控制平台需求基线.md",
+  "historical_references": [
+    "docs/03_XGO-Lite2底板与接管.md"
+  ],
+  "board_comparison": "docs/11_参考控制板共性需求与选型结论.md",
+  "board_reference_index": "references/control-boards/2026-09-15/README.md",
+  "board_reference_archives": "archives/2026-09-15_board-research/README.md"
+}

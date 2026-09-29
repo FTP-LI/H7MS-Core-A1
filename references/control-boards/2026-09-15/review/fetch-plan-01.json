@@ -1,0 +1,10 @@
+[
+  {"path":"dji-type-a/product-page.html","url":"https://www.robomaster.com/zh-CN/products/components/general/development-board"},
+  {"path":"dji-type-c/product-page.html","url":"https://www.robomaster.com/zh-CN/products/components/general/development-board-type-c"},
+  {"path":"dji-type-a/user-manual-official.pdf","url":"https://cdn-hz.robomaster.com/tem/RoboMaster%E5%BC%80%E5%8F%91%E7%89%88%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C.pdf"},
+  {"path":"dji-type-c/user-manual-official.pdf","url":"https://rm-static.djicdn.com/tem/35228/RoboMaster%20%20%E5%BC%80%E5%8F%91%E6%9D%BF%20C%20%E5%9E%8B%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C.pdf"},
+  {"path":"damiao-dm-mc02/repository-page.html","url":"https://gitee.com/kit-miao/dm-mc02"},
+  {"path":"damiao-dm-mc02/official-project-page.html","url":"https://oshwhub.com/dmbot/dm_mc02-h7-kai-fa-ban-pei-tao"},
+  {"path":"review/damiao-tree-response.json","url":"https://gitee.com/api/v5/repos/kit-miao/dm-mc02/git/trees/master?recursive=1"},
+  {"path":"review/c-board-link-discovery.html","url":"https://www.nianlee.top/post/robomaster-c-board-hardware-introduction-z1ohxhm"}
+]

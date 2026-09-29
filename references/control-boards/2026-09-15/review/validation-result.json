@@ -1,0 +1,21 @@
+{
+  "validated_at": "2026-09-15T08:45:42.397625+00:00",
+  "scope": "Document/source/archive integrity only; no hardware or firmware tests.",
+  "checks": {
+    "markdown_files": 29,
+    "repository_local_links": 206,
+    "indexed_source_and_preview_files": 82,
+    "user_original_dxf_files_verified": 7,
+    "archives_verified": 4,
+    "archive_content_files": 98,
+    "offline_archive_links": 89,
+    "synthesis_snapshot_verified": true,
+    "pin_plan_equal_git_head": true,
+    "interface_tables_equal_git_head": true,
+    "power_safety_sequence_equal_git_head": true,
+    "historical_zip_byte_equal_head_and_sidecars_text_equal_head": true,
+    "git_diff_check_passed": true
+  },
+  "errors": [],
+  "passed": true
+}

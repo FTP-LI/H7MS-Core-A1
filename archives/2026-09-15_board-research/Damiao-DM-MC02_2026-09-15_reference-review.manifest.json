@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "archive_id": "Damiao-DM-MC02_2026-09-15_reference-review",
+  "archive_root": "Damiao-DM-MC02_2026-09-15_reference-review/",
+  "date": "2026-09-15",
+  "board": "达妙DM-MC02",
+  "scope": "厂商项目页链接的Gitee仓库资料；V1.0-240124图纸与2025年V1.1手册版本不同。",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 821,
+      "sha256": "041edadf862f7fdd1c2351ad436678fae60d29db34e6c626cbd0772e20ae5e31"
+    },
+    {
+      "path": "assessment.md",
+      "bytes": 5303,
+      "sha256": "ca86064a3436eef557d296d1feeae16b0d4495d724cad887aeb43c5d9dddf68e",
+      "repository_path": "docs/reviews/2026-09-15/03_达妙DM-MC02评估.md",
+      "repository_sha256": "e7a78186a03d3df8907f4b55f8ba636627b7e929404607b9258a05513f27bff3",
+      "links_relocated": true
+    },
+    {
+      "path": "sources/README.md",
+      "bytes": 2050,
+      "sha256": "affbceef6901295ebefd8d3d39ff3debf8a727cd3f21a2b583c4668a47b484ce",
+      "repository_path": "references/control-boards/2026-09-15/damiao-dm-mc02/README.md",
+      "repository_sha256": "f7034bdcbb9cb9e021f68f09fda4141aa312b117ff5deae9c171ee1bb7db6af8",
+      "links_relocated": true
+    },
+    {
+      "path": "sources/official-project-page.html",
+      "bytes": 491385,
+      "sha256": "add6b294710d4f2a2fb838ac38e87ffdb9fce06c98576b1f7659ff41d35e4bcd",
+      "repository_path": "references/control-boards/2026-09-15/damiao-dm-mc02/official-project-page.html",
+      "repository_sha256": "add6b294710d4f2a2fb838ac38e87ffdb9fce06c98576b1f7659ff41d35e4bcd",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/previews/schematic-v1.0-240124/extracted.txt",
+      "bytes": 424442,
+      "sha256": "462c237dde861de63b1cef3097d037cd62611fca67f1bf8254f92d7a9de14f4e",
+      "repository_path": "references/control-boards/2026-09-15/damiao-dm-mc02/previews/schematic-v1.0-240124/extracted.txt",
+      "repository_sha256": "462c237dde861de63b1cef3097d037cd62611fca67f1bf8254f92d7a9de14f4e",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/previews/schematic-v1.0-240124/page-01.png",
+      "bytes": 306333,
+      "sha256": "460da15b3bc8ef7c2933e485fd11f959c447623596f497632806e6c8f83c49ca",
+      "repository_path": "references/control-boards/2026-09-15/damiao-dm-mc02/previews/schematic-v1.0-240124/page-01.png",
+      "repository_sha256": "460da15b3bc8ef7c2933e485fd11f959c447623596f497632806e6c8f83c49ca",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/previews/schematic-v1.0-240124/page-02.png",
+      "bytes": 174393,
+      "sha256": "5808f214199a33b501bf1d6f3ea62cc4d9f710477544e8a110d184e960eb6a89",
+      "repository_path": "references/control-boards/2026-09-15/damiao-dm-mc02/previews/schematic-v1.0-240124/page-02.png",
+      "repository_sha256": "5808f214199a33b501bf1d6f3ea62cc4d9f710477544e8a110d184e960eb6a89",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/previews/schematic-v1.0-240124/page-03.png",
+      "bytes": 157254,
+      "sha256": "a3cbb34423f53ee3e3a25185527c8721bc1fca8b620307d3bb5ec25c9cc01999",
+      "repository_path": "references/control-boards/2026-09-15/damiao-dm-mc02/previews/schematic-v1.0-240124/page-03.png",
+      "repository_sha256": "a3cbb34423f53ee3e3a25185527c8721bc1fca8b620307d3bb5ec25c9cc01999",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/previews/schematic-v1.0-240124/page-04.png",
+      "bytes": 140686,
+      "sha256": "bf60ae03a7e3f14727219033b610a28479694243d2a11cc3340167a361ff9f3a",
+      "repository_path": "references/control-boards/2026-09-15/damiao-dm-mc02/previews/schematic-v1.0-240124/page-04.png",
+      "repository_sha256": "bf60ae03a7e3f14727219033b610a28479694243d2a11cc3340167a361ff9f3a",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/previews/schematic-v1.0-240124/page-05.png",
+      "bytes": 144882,
+      "sha256": "1dc3044144e2b2b27487ac89e4db72b0078bae621b341736ac3facda0265b378",
+      "repository_path": "references/control-boards/2026-09-15/damiao-dm-mc02/previews/schematic-v1.0-240124/page-05.png",
+      "repository_sha256": "1dc3044144e2b2b27487ac89e4db72b0078bae621b341736ac3facda0265b378",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/previews/schematic-v1.0-240124/page-06.png",
+      "bytes": 168616,
+      "sha256": "22c0c4d717f6e7ee1d070ae9b481b09b587c7676cca6002c5d12ff7dc5fc12c6",
+      "repository_path": "references/control-boards/2026-09-15/damiao-dm-mc02/previews/schematic-v1.0-240124/page-06.png",
+      "repository_sha256": "22c0c4d717f6e7ee1d070ae9b481b09b587c7676cca6002c5d12ff7dc5fc12c6",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/previews/user-manual-v1.1/extracted.txt",
+      "bytes": 22611,
+      "sha256": "05b2ee3549e62fbabe95e6037af61676c75740bde7d1be2a669ab53a0c937ced",
+      "repository_path": "references/control-boards/2026-09-15/damiao-dm-mc02/previews/user-manual-v1.1/extracted.txt",
+      "repository_sha256": "05b2ee3549e62fbabe95e6037af61676c75740bde7d1be2a669ab53a0c937ced",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/previews/user-manual-v1.1/page-01.png",
+      "bytes": 463416,
+      "sha256": "3b349d5df832a070ffca85cfa1ed15e9b05369ff6e61c460222eed0c60549c97",
+      "repository_path": "references/control-boards/2026-09-15/damiao-dm-mc02/previews/user-manual-v1.1/page-01.png",
+      "repository_sha256": "3b349d5df832a070ffca85cfa1ed15e9b05369ff6e61c460222eed0c60549c97",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/repository-page.html",
+      "bytes": 1320,
+      "sha256": "808e45ef5874b93231e6af469e5a94f21cc3d6142f9e0605a3f2299339fceb82",
+      "repository_path": "references/control-boards/2026-09-15/damiao-dm-mc02/repository-page.html",
+      "repository_sha256": "808e45ef5874b93231e6af469e5a94f21cc3d6142f9e0605a3f2299339fceb82",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/schematic-v1.0-240124.pdf",
+      "bytes": 774588,
+      "sha256": "3c1ca47e807d6c4031aac10af605021e85e47bd56c65f664543bb947ad35595d",
+      "repository_path": "references/control-boards/2026-09-15/damiao-dm-mc02/schematic-v1.0-240124.pdf",
+      "repository_sha256": "3c1ca47e807d6c4031aac10af605021e85e47bd56c65f664543bb947ad35595d",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/source-index.json",
+      "bytes": 4553,
+      "sha256": "d5710c1c8b364a77541011443dab890cdadf0fa02c283310ca90e3cc8e70df3f",
+      "repository_path": "references/control-boards/2026-09-15/damiao-dm-mc02/source-index.json",
+      "repository_sha256": "de3a20492cbceb55089f67da17471e9f785a2181326e8f5d20593b854f04dfb4",
+      "links_relocated": true
+    },
+    {
+      "path": "sources/user-manual-v1.1.pdf",
+      "bytes": 2697008,
+      "sha256": "9fbc4cc2175301632c3bdf74800b26490480da93fe2210ebbc49769a9bc1eab2",
+      "repository_path": "references/control-boards/2026-09-15/damiao-dm-mc02/user-manual-v1.1.pdf",
+      "repository_sha256": "9fbc4cc2175301632c3bdf74800b26490480da93fe2210ebbc49769a9bc1eab2",
+      "links_relocated": false
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "archive_id": "DJI-A_2026-09-15_reference-review",
+  "archive_root": "DJI-A_2026-09-15_reference-review/",
+  "date": "2026-09-15",
+  "board": "DJI RoboMaster A型",
+  "scope": "官方手册＋第三方仓库保存的原厂格式原理图；原理图不是本次从DJI服务器取得。",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 839,
+      "sha256": "b53df6958998fb90cf6635d6993b3b1f79cc37530eb0dbd3b60268aa1bf66133"
+    },
+    {
+      "path": "assessment.md",
+      "bytes": 5050,
+      "sha256": "b8bfc22d56d4e557d1427fb93ec0a7ee374dbfaf5b8cf064eb192430e130ead2",
+      "repository_path": "docs/reviews/2026-09-15/01_DJI_A型评估.md",
+      "repository_sha256": "9b39cab30481b513b09ea693766978a28dad6a26c78bba2659b344f9173febca",
+      "links_relocated": true
+    },
+    {
+      "path": "sources/README.md",
+      "bytes": 2055,
+      "sha256": "3556e98936a787a78ff2c5042f728e2d22f0d4f4f9f8f342a286da57ac381b70",
+      "repository_path": "references/control-boards/2026-09-15/dji-type-a/README.md",
+      "repository_sha256": "8d02892fefee2321ae63f7ba5617d5aa8fb956ee759c67b2bb9cbd4669dd6f9e",
+      "links_relocated": true
+    },
+    {
+      "path": "sources/previews/schematic-original-via-mirror/extracted.txt",
+      "bytes": 421840,
+      "sha256": "196c1732f7e785f300886fa20cf3bfd3ff4fe9849905d79369d22e224a4a6401",
+      "repository_path": "references/control-boards/2026-09-15/dji-type-a/previews/schematic-original-via-mirror/extracted.txt",
+      "repository_sha256": "196c1732f7e785f300886fa20cf3bfd3ff4fe9849905d79369d22e224a4a6401",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/previews/schematic-original-via-mirror/page-01.png",
+      "bytes": 34206,
+      "sha256": "58c5d8f4f368b9d223627156368dafc257d1d2e3444749e5516919bd3c0a2bcb",
+      "repository_path": "references/control-boards/2026-09-15/dji-type-a/previews/schematic-original-via-mirror/page-01.png",
+      "repository_sha256": "58c5d8f4f368b9d223627156368dafc257d1d2e3444749e5516919bd3c0a2bcb",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/previews/schematic-original-via-mirror/page-02.png",
+      "bytes": 207544,
+      "sha256": "3c8d228a3e68ffc01e52910fac9ea6c430e847f2db494a968ecaaca7389a1029",
+      "repository_path": "references/control-boards/2026-09-15/dji-type-a/previews/schematic-original-via-mirror/page-02.png",
+      "repository_sha256": "3c8d228a3e68ffc01e52910fac9ea6c430e847f2db494a968ecaaca7389a1029",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/previews/schematic-original-via-mirror/page-03.png",
+      "bytes": 244368,
+      "sha256": "44c951a27ea8a69c62773b14d1e1e74ec0b95a0c67db4c5021b071ebd880cf5a",
+      "repository_path": "references/control-boards/2026-09-15/dji-type-a/previews/schematic-original-via-mirror/page-03.png",
+      "repository_sha256": "44c951a27ea8a69c62773b14d1e1e74ec0b95a0c67db4c5021b071ebd880cf5a",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/previews/schematic-original-via-mirror/page-04.png",
+      "bytes": 135640,
+      "sha256": "40610256f3a0065b1faa7ce2bae9ecd676ddd9982a2e113b2b844ac34c2f1dc7",
+      "repository_path": "references/control-boards/2026-09-15/dji-type-a/previews/schematic-original-via-mirror/page-04.png",
+      "repository_sha256": "40610256f3a0065b1faa7ce2bae9ecd676ddd9982a2e113b2b844ac34c2f1dc7",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/previews/schematic-original-via-mirror/page-05.png",
+      "bytes": 304996,
+      "sha256": "b26b6e1e97db70f73ceeaf7d070a4e411d8c1c61402c241cc1e797359bb40c2c",
+      "repository_path": "references/control-boards/2026-09-15/dji-type-a/previews/schematic-original-via-mirror/page-05.png",
+      "repository_sha256": "b26b6e1e97db70f73ceeaf7d070a4e411d8c1c61402c241cc1e797359bb40c2c",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/previews/schematic-original-via-mirror/page-06.png",
+      "bytes": 142387,
+      "sha256": "f407d5c7e55212da7cf6f017f23fecdee7ce16cefd6d0a5eedc1b4201d20faa1",
+      "repository_path": "references/control-boards/2026-09-15/dji-type-a/previews/schematic-original-via-mirror/page-06.png",
+      "repository_sha256": "f407d5c7e55212da7cf6f017f23fecdee7ce16cefd6d0a5eedc1b4201d20faa1",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/previews/schematic-original-via-mirror/page-07.png",
+      "bytes": 163120,
+      "sha256": "8a7e05cb2561c992248e41aba82b41304de5837d15f56cf0174557025c23c624",
+      "repository_path": "references/control-boards/2026-09-15/dji-type-a/previews/schematic-original-via-mirror/page-07.png",
+      "repository_sha256": "8a7e05cb2561c992248e41aba82b41304de5837d15f56cf0174557025c23c624",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/previews/schematic-original-via-mirror/page-08.png",
+      "bytes": 261603,
+      "sha256": "8a772b9de737daaa70c82f7139c500b9612d91bdce32738929f318a0fde8ca25",
+      "repository_path": "references/control-boards/2026-09-15/dji-type-a/previews/schematic-original-via-mirror/page-08.png",
+      "repository_sha256": "8a772b9de737daaa70c82f7139c500b9612d91bdce32738929f318a0fde8ca25",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/previews/schematic-original-via-mirror/page-09.png",
+      "bytes": 217210,
+      "sha256": "c103ad9386448117d6fcf59b6be46afc636e2aa98532212995e9e3d90e55917d",
+      "repository_path": "references/control-boards/2026-09-15/dji-type-a/previews/schematic-original-via-mirror/page-09.png",
+      "repository_sha256": "c103ad9386448117d6fcf59b6be46afc636e2aa98532212995e9e3d90e55917d",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/previews/schematic-original-via-mirror/page-10.png",
+      "bytes": 264160,
+      "sha256": "2d60be64774228e6d905da0eba1d4bba955f7f0cb8d1450c48d8fa9d3ea10578",
+      "repository_path": "references/control-boards/2026-09-15/dji-type-a/previews/schematic-original-via-mirror/page-10.png",
+      "repository_sha256": "2d60be64774228e6d905da0eba1d4bba955f7f0cb8d1450c48d8fa9d3ea10578",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/previews/user-manual-official/extracted.txt",
+      "bytes": 194150,
+      "sha256": "18956577cbf71e6489660586ee07f031d33cd54b0d62f42cf98e747edb94190a",
+      "repository_path": "references/control-boards/2026-09-15/dji-type-a/previews/user-manual-official/extracted.txt",
+      "repository_sha256": "18956577cbf71e6489660586ee07f031d33cd54b0d62f42cf98e747edb94190a",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/previews/user-manual-official/page-01.png",
+      "bytes": 16116,
+      "sha256": "93e21bc35e8df7ebbc1d04aca7d4db6af08447f2ec16cc16b2b841496d4fc573",
+      "repository_path": "references/control-boards/2026-09-15/dji-type-a/previews/user-manual-official/page-01.png",
+      "repository_sha256": "93e21bc35e8df7ebbc1d04aca7d4db6af08447f2ec16cc16b2b841496d4fc573",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/product-page.html",
+      "bytes": 153329,
+      "sha256": "1299c53645387ec1d9e3900cef443af78e655773f0f921119fc90794f0438d0a",
+      "repository_path": "references/control-boards/2026-09-15/dji-type-a/product-page.html",
+      "repository_sha256": "1299c53645387ec1d9e3900cef443af78e655773f0f921119fc90794f0438d0a",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/schematic-original-via-mirror.pdf",
+      "bytes": 390545,
+      "sha256": "4c565650f81a21053901d2b44796858d507faee81b6f8be77a153e750bc385ae",
+      "repository_path": "references/control-boards/2026-09-15/dji-type-a/schematic-original-via-mirror.pdf",
+      "repository_sha256": "4c565650f81a21053901d2b44796858d507faee81b6f8be77a153e750bc385ae",
+      "links_relocated": false
+    },
+    {
+      "path": "sources/source-index.json",
+      "bytes": 5174,
+      "sha256": "fbcf9730167d63d784b616100c4e7848fa1cffde172cee82e7bbd470d8de2a41",
+      "repository_path": "references/control-boards/2026-09-15/dji-type-a/source-index.json",
+      "repository_sha256": "4e5f695f18cbd1c3fde60416e5052385edf41181389803b1b2e582b6958bbeaa",
+      "links_relocated": true
+    },
+    {
+      "path": "sources/user-manual-official.pdf",
+      "bytes": 2840641,
+      "sha256": "d69117f9ac0beac85b027f1f0411b6e5f07749668db049cde5fea17e4843596f",
+      "repository_path": "references/control-boards/2026-09-15/dji-type-a/user-manual-official.pdf",
+      "repository_sha256": "d69117f9ac0beac85b027f1f0411b6e5f07749668db049cde5fea17e4843596f",
+      "links_relocated": false
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "board": "D_MAIN_2558",
+  "collected_on": "2026-09-15",
+  "scope": "用户提供的7份DXF；未提供PCB、BOM、固件及明确硬件版本。",
+  "assessment": "../../../../docs/reviews/2026-09-15/04_D_MAIN_2558评估.md",
+  "files": [
+    {
+      "path": "CAN+485.dxf",
+      "bytes": 737999,
+      "sha256": "a709abfb1b6d20a99cebabd4bb297b050949159e2c68e4cfbe70cb37c7849c9f",
+      "kind": "user-provided-original",
+      "original_path": "C:/Users/27348/Desktop/D_MAIN_2558/CAN+485.dxf",
+      "byte_identical_verified": true
+    },
+    {
+      "path": "Connectors.dxf",
+      "bytes": 687076,
+      "sha256": "9c0151041d9c6b3aa483dcfc0f8fd9f1feba68bb4949a244fd34ac340725946f",
+      "kind": "user-provided-original",
+      "original_path": "C:/Users/27348/Desktop/D_MAIN_2558/Connectors.dxf",
+      "byte_identical_verified": true
+    },
+    {
+      "path": "ETH.dxf",
+      "bytes": 307715,
+      "sha256": "958dabe90a21d88a85cf368ae86f5bf3f9971bb9e1f921ade57dea3dbe51df69",
+      "kind": "user-provided-original",
+      "original_path": "C:/Users/27348/Desktop/D_MAIN_2558/ETH.dxf",
+      "byte_identical_verified": true
+    },
+    {
+      "path": "IMU.dxf",
+      "bytes": 519780,
+      "sha256": "f93e548d2d4d4bba674c5ece01c0240c52aa82525a903159efd46c74f063f981",
+      "kind": "user-provided-original",
+      "original_path": "C:/Users/27348/Desktop/D_MAIN_2558/IMU.dxf",
+      "byte_identical_verified": true
+    },
+    {
+      "path": "JLink-OB+HUB.dxf",
+      "bytes": 467641,
+      "sha256": "3468f1e850ac4d9548f08f28d93282f19c57d91dfc270a7e64136b3c810218c9",
+      "kind": "user-provided-original",
+      "original_path": "C:/Users/27348/Desktop/D_MAIN_2558/JLink-OB+HUB.dxf",
+      "byte_identical_verified": true
+    },
+    {
+      "path": "MCU.dxf",
+      "bytes": 873667,
+      "sha256": "2f7837bf7d411d73919df5271d0cc34a636e9c1928577861248f842cce224347",
+      "kind": "user-provided-original",
+      "original_path": "C:/Users/27348/Desktop/D_MAIN_2558/MCU.dxf",
+      "byte_identical_verified": true
+    },
+    {
+      "path": "Power.dxf",
+      "bytes": 767550,
+      "sha256": "796ed843a5f1726e535d8262a0756a45d8ea98d06004a2411ea4ae567bc9cc89",
+      "kind": "user-provided-original",
+      "original_path": "C:/Users/27348/Desktop/D_MAIN_2558/Power.dxf",
+      "byte_identical_verified": true
+    },
+    {
+      "path": "previews/CAN+485.png",
+      "bytes": 637527,
+      "sha256": "d8a40ad198e604da65277f30f1ea426ca0a8e158571b0fedf751d701247f0e13",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/CAN+485.text.json",
+      "bytes": 73298,
+      "sha256": "3d0274f37d0cc84b6591f01bdb72dba09fe07336e08551df23ce7898325f021f",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/CAN+485.txt",
+      "bytes": 4180,
+      "sha256": "b856ac000adec6f8df7c299981fbab877a8428d3e46d9b8aa64283687ea6bdcb",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/Connectors.png",
+      "bytes": 603404,
+      "sha256": "cc35021c5e58e892a2b6a3ab449d393f9830d3bf3316325577e24b762ede07bd",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/Connectors.text.json",
+      "bytes": 73667,
+      "sha256": "96a9f9e0c7d43c08bd4400dfb93e5290914a4eec163ec5618517d863a7e9c6fb",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/Connectors.txt",
+      "bytes": 4154,
+      "sha256": "4399e8330de1ded237adfa8f80dc659367f894d5b572c579efc60a5c62846cf0",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/ETH.png",
+      "bytes": 278604,
+      "sha256": "06ad2a70d9a5179b7f6f6c54a4bab4678f7d5ee095f6106c9d130b0fce77cd9e",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/ETH.text.json",
+      "bytes": 16521,
+      "sha256": "c5898bb62dcfa3bf208082ad467fc6b9d21d759ad5bdff58a970c479a7e3ca1b",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/ETH.txt",
+      "bytes": 1161,
+      "sha256": "336113284e2d0278cc05adebda3780c45f31c8594d214143d01d6c7c66fef890",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/IMU.png",
+      "bytes": 429908,
+      "sha256": "fa463893ea298fcef2737eea18d6b5ac0140bf96a69145c664731fa0efb6cad0",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/IMU.text.json",
+      "bytes": 47266,
+      "sha256": "74720ac40a74307e4cff5c2249fc218b246524b09a04d97ed4539c1bfd8b6f64",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/IMU.txt",
+      "bytes": 2860,
+      "sha256": "2e1ffacd16eb26af35a79b1f378a72ac1421f4f7a586a4af501ab13bed2715f5",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/JLink-OB+HUB.png",
+      "bytes": 449751,
+      "sha256": "d085f080fde0fe1544195d8ec857d2300af653a8cebaf2b84cb1c1c5ffc8e294",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/JLink-OB+HUB.text.json",
+      "bytes": 39737,
+      "sha256": "5a4d565fdb4ea64c05ce825f0eda792fefbfea0cb3ff3173eb709c3c0531903e",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/JLink-OB+HUB.txt",
+      "bytes": 2456,
+      "sha256": "053183afbaedc17714588711526176ba163f2edce4f8164589222e9f2f903a31",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/MCU.png",
+      "bytes": 977052,
+      "sha256": "01b987941e77239337cb820cca781dd9ef7f2594d74496f17d7e196f105e88cd",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/MCU.text.json",
+      "bytes": 104702,
+      "sha256": "b2465dd8cb0d76979660f9ae839f206739c511562446a73711c0463bce593b89",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/MCU.txt",
+      "bytes": 7139,
+      "sha256": "be02847cc575d083c4ecac999a8e8fb03adc390b9ab140f4f9e8170913a68539",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/Power.png",
+      "bytes": 543296,
+      "sha256": "b0914f54735dad6335acc35d08f8040b1158f5a075d604eb7c7b1aab1aa8f18c",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/Power.text.json",
+      "bytes": 85445,
+      "sha256": "883f3fba2aa15ba167cf6c06a6f3087aa94f73acc20932bb11ab582f001e5a9b",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/Power.txt",
+      "bytes": 4561,
+      "sha256": "5f602935325d915da9ad9937a88317b161a47c844bf3bc71d27ac1cc34240b44",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    }
+  ]
+}

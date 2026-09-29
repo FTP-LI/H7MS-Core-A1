@@ -1,0 +1,22 @@
+# DJI RoboMaster A型资料索引
+
+采集日期：2026-09-15。官方手册＋第三方仓库保存的原厂格式原理图；原理图不是本次从DJI服务器取得。
+
+[独立评估](../../../../docs/reviews/2026-09-15/01_DJI_A型评估.md) · [文件来源与SHA-256](source-index.json)
+
+## 原始资料
+
+| 文件 | 来源/性质 |
+| --- | --- |
+| [product-page.html](product-page.html) | [原始下载地址](https://www.robomaster.com/zh-CN/products/components/general/development-board) |
+| [schematic-original-via-mirror.pdf](schematic-original-via-mirror.pdf) | [原始下载地址](https://raw.githubusercontent.com/Meta-Team/Datasheets/10be088ec22b27686bdee01c1b3cf64342d3da56/RM%202018%20%E5%BC%80%E5%8F%91%E6%9D%BF/RoboMaster%20%E5%BC%80%E5%8F%91%E6%9D%BFA%E5%9E%8B%20%E5%8E%9F%E7%90%86%E5%9B%BE.pdf)；第三方镜像，非本次官方直取 |
+| [user-manual-official.pdf](user-manual-official.pdf) | [原始下载地址](https://cdn-hz.robomaster.com/tem/RoboMaster%E5%BC%80%E5%8F%91%E7%89%88%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C.pdf) |
+
+## 预览与阅读规则
+
+预览和提取文本是本地生成的辅助材料。PDF原理图全部页面已渲染；用户手册仅渲染封面，但保存全文提取文本。DXF解析文字坐标并生成整页预览，部分原始符号文字重叠；精确连线以原文件和后续原生EDA/BOM复核为准。
+
+- schematic-original-via-mirror：[首张预览](previews/schematic-original-via-mirror/page-01.png)、[全文提取](previews/schematic-original-via-mirror/extracted.txt)；其他页面在同目录按页码命名。
+- user-manual-official：[首张预览](previews/user-manual-official/page-01.png)、[全文提取](previews/user-manual-official/extracted.txt)；其他页面在同目录按页码命名。
+
+原始PDF/DXF/ZIP保持下载或接收时字节，文件未因本次评估而修改。HTML只作来源快照，可能依赖网络脚本；不作为离线图纸或自动执行入口。第三方材料仍归原权利人，本次归档用于项目研究，不推定获得改版生产、商标或固件再分发许可。

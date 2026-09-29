@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-15",
+  "archives": [
+    {
+      "board": "DJI RoboMaster A型",
+      "file": "DJI-A_2026-09-15_reference-review.zip",
+      "bytes": 5166480,
+      "sha256": "522cda35c545c34544112714c01e2b43eec2ff7e57d84bb6a9031f9b745053c3",
+      "content_files": 20,
+      "manifest": "DJI-A_2026-09-15_reference-review.manifest.json",
+      "checksum": "DJI-A_2026-09-15_reference-review.sha256"
+    },
+    {
+      "board": "DJI RoboMaster C型",
+      "file": "DJI-C_2026-09-15_reference-review.zip",
+      "bytes": 4858433,
+      "sha256": "8aee29f8382ceb2dec1aca877db7d8b3e078fddaa3eeff65d80dafa0275c2286",
+      "content_files": 29,
+      "manifest": "DJI-C_2026-09-15_reference-review.manifest.json",
+      "checksum": "DJI-C_2026-09-15_reference-review.sha256"
+    },
+    {
+      "board": "达妙DM-MC02",
+      "file": "Damiao-DM-MC02_2026-09-15_reference-review.zip",
+      "bytes": 4230152,
+      "sha256": "1e4ed37f958e7cffeda562deab4084d43379cae3e697daf7aaa59fbc6bc1ac95",
+      "content_files": 17,
+      "manifest": "Damiao-DM-MC02_2026-09-15_reference-review.manifest.json",
+      "checksum": "Damiao-DM-MC02_2026-09-15_reference-review.sha256"
+    },
+    {
+      "board": "D_MAIN_2558",
+      "file": "D_MAIN_2558_2026-09-15_reference-review.zip",
+      "bytes": 4085434,
+      "sha256": "538f9afaffa00e7ea3386340cb27ed17d0ecb4cfa2a9555f873b303d417d5434",
+      "content_files": 32,
+      "manifest": "D_MAIN_2558_2026-09-15_reference-review.manifest.json",
+      "checksum": "D_MAIN_2558_2026-09-15_reference-review.sha256"
+    }
+  ],
+  "synthesis": {
+    "file": "synthesis.md",
+    "bytes": 12190,
+    "sha256": "049970bb2f9078a18ba05e313a3b2b3436b9566e91eaed7148ff070c1ed1b8c2",
+    "repository_path": "docs/11_参考控制板共性需求与选型结论.md",
+    "repository_sha256": "347d2f7973abd2f8d8cda6c5dcdc85c45c9debb8f098d9b98107b7aefeac909a",
+    "links_relocated": true
+  }
+}

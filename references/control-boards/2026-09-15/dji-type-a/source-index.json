@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "board": "DJI RoboMaster A型",
+  "collected_on": "2026-09-15",
+  "scope": "官方手册＋第三方仓库保存的原厂格式原理图；原理图不是本次从DJI服务器取得。",
+  "assessment": "../../../../docs/reviews/2026-09-15/01_DJI_A型评估.md",
+  "files": [
+    {
+      "path": "previews/schematic-original-via-mirror/extracted.txt",
+      "bytes": 421840,
+      "sha256": "196c1732f7e785f300886fa20cf3bfd3ff4fe9849905d79369d22e224a4a6401",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/schematic-original-via-mirror/page-01.png",
+      "bytes": 34206,
+      "sha256": "58c5d8f4f368b9d223627156368dafc257d1d2e3444749e5516919bd3c0a2bcb",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/schematic-original-via-mirror/page-02.png",
+      "bytes": 207544,
+      "sha256": "3c8d228a3e68ffc01e52910fac9ea6c430e847f2db494a968ecaaca7389a1029",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/schematic-original-via-mirror/page-03.png",
+      "bytes": 244368,
+      "sha256": "44c951a27ea8a69c62773b14d1e1e74ec0b95a0c67db4c5021b071ebd880cf5a",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/schematic-original-via-mirror/page-04.png",
+      "bytes": 135640,
+      "sha256": "40610256f3a0065b1faa7ce2bae9ecd676ddd9982a2e113b2b844ac34c2f1dc7",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/schematic-original-via-mirror/page-05.png",
+      "bytes": 304996,
+      "sha256": "b26b6e1e97db70f73ceeaf7d070a4e411d8c1c61402c241cc1e797359bb40c2c",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/schematic-original-via-mirror/page-06.png",
+      "bytes": 142387,
+      "sha256": "f407d5c7e55212da7cf6f017f23fecdee7ce16cefd6d0a5eedc1b4201d20faa1",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/schematic-original-via-mirror/page-07.png",
+      "bytes": 163120,
+      "sha256": "8a7e05cb2561c992248e41aba82b41304de5837d15f56cf0174557025c23c624",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/schematic-original-via-mirror/page-08.png",
+      "bytes": 261603,
+      "sha256": "8a772b9de737daaa70c82f7139c500b9612d91bdce32738929f318a0fde8ca25",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/schematic-original-via-mirror/page-09.png",
+      "bytes": 217210,
+      "sha256": "c103ad9386448117d6fcf59b6be46afc636e2aa98532212995e9e3d90e55917d",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/schematic-original-via-mirror/page-10.png",
+      "bytes": 264160,
+      "sha256": "2d60be64774228e6d905da0eba1d4bba955f7f0cb8d1450c48d8fa9d3ea10578",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/user-manual-official/extracted.txt",
+      "bytes": 194150,
+      "sha256": "18956577cbf71e6489660586ee07f031d33cd54b0d62f42cf98e747edb94190a",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "previews/user-manual-official/page-01.png",
+      "bytes": 16116,
+      "sha256": "93e21bc35e8df7ebbc1d04aca7d4db6af08447f2ec16cc16b2b841496d4fc573",
+      "kind": "derived-preview-or-text",
+      "authoritative": false
+    },
+    {
+      "path": "product-page.html",
+      "bytes": 153329,
+      "sha256": "1299c53645387ec1d9e3900cef443af78e655773f0f921119fc90794f0438d0a",
+      "kind": "downloaded-original",
+      "url": "https://www.robomaster.com/zh-CN/products/components/general/development-board",
+      "retrieved_at": "2026-09-15T08:26:31.635976+00:00",
+      "provenance": "publisher-or-official-host"
+    },
+    {
+      "path": "schematic-original-via-mirror.pdf",
+      "bytes": 390545,
+      "sha256": "4c565650f81a21053901d2b44796858d507faee81b6f8be77a153e750bc385ae",
+      "kind": "downloaded-original",
+      "url": "https://raw.githubusercontent.com/Meta-Team/Datasheets/10be088ec22b27686bdee01c1b3cf64342d3da56/RM%202018%20%E5%BC%80%E5%8F%91%E6%9D%BF/RoboMaster%20%E5%BC%80%E5%8F%91%E6%9D%BFA%E5%9E%8B%20%E5%8E%9F%E7%90%86%E5%9B%BE.pdf",
+      "retrieved_at": "2026-09-15T08:28:13.022941+00:00",
+      "provenance": "third-party-mirror-of-manufacturer-drawing",
+      "repository_commit": "10be088ec22b27686bdee01c1b3cf64342d3da56",
+      "git_blob_sha1": "13caccbdb16f9219a1e56287dc964a49f1e39a21",
+      "git_blob_verified": true
+    },
+    {
+      "path": "user-manual-official.pdf",
+      "bytes": 2840641,
+      "sha256": "d69117f9ac0beac85b027f1f0411b6e5f07749668db049cde5fea17e4843596f",
+      "kind": "downloaded-original",
+      "url": "https://cdn-hz.robomaster.com/tem/RoboMaster%E5%BC%80%E5%8F%91%E7%89%88%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C.pdf",
+      "retrieved_at": "2026-09-15T08:26:32.441298+00:00",
+      "provenance": "publisher-or-official-host"
+    }
+  ]
+}

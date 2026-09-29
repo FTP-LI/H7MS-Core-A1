@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "archive_id": "H7MS-Core-A1-DOC-v0.7-20260911",
+  "created_date": "2026-09-11",
+  "source_git_commit": "a313895e6f0785b6c3dcc8b0144dec3099ed7abd",
+  "project": "H7MS-Core-A1",
+  "scope": "version-controlled project information and planning artifacts",
+  "exclusions": [
+    "archives/*.zip",
+    "archives/*.manifest.json",
+    "archives/*.sha256",
+    ".git",
+    "external CAD/system images/datasets/videos/logs"
+  ],
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1615,
+      "sha256": "8F9037FC730AF631E4D5A67B02A3616EB58BE085BDEA45875AC366CD26D17660"
+    },
+    {
+      "path": "project.json",
+      "bytes": 1037,
+      "sha256": "44E0832BAFF2876578AF0DBE46992E13CF9D4BD589572410720BE76C6AA7BE53"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6207,
+      "sha256": "A2B4D3FE58DD2F2BA46110ADCAF0F1287A79019AADC4A425079EEF81F5FF7E81"
+    },
+    {
+      "path": "archives/README.md",
+      "bytes": 2457,
+      "sha256": "3A84C6A6231ED0B29A2AAAD5333C0EA2594B39A16EDBCFFA93AE8AD31790B939"
+    },
+    {
+      "path": "docs/00_阶段计划.md",
+      "bytes": 4346,
+      "sha256": "1C64E15C306F9CDD043ABB755CCAD7619F3EB173CFDDAC864325ACDB096B1565"
+    },
+    {
+      "path": "docs/01_硬件设计.md",
+      "bytes": 5318,
+      "sha256": "2015AB8BB98642D69F6BF03C00628998304232DB1228D46BE3C6208FD92E0E2D"
+    },
+    {
+      "path": "docs/02_固件架构.md",
+      "bytes": 4454,
+      "sha256": "9FBEC4653E887352177508F6FECAE82EDDFECC94D79A89223B02CEF39AAC69C0"
+    },
+    {
+      "path": "docs/03_XGO-Lite2底板与接管.md",
+      "bytes": 2968,
+      "sha256": "EAAB61D9C19C477216B83A26EDD5195DE5DE103AE79594FEA7375581F7887635"
+    },
+    {
+      "path": "docs/04_总结演示与验收.md",
+      "bytes": 2281,
+      "sha256": "A85EADBB42E5B17854375761AC3E02978AEC37B78E64C7C4E22389B69BB0804E"
+    },
+    {
+      "path": "docs/05_RL策略部署.md",
+      "bytes": 4270,
+      "sha256": "EB1B5DF0C45818ACC23C43C934F3E048B12BE4F5E49DED4D674EFD6D8293C445"
+    },
+    {
+      "path": "docs/06_上下板接口规范.md",
+      "bytes": 5082,
+      "sha256": "6846BB7D87BC443E49D759E207284B1CC82B8F03F1E94856332940037A762FEB"
+    },
+    {
+      "path": "docs/07_主控选型与资源预算.md",
+      "bytes": 6352,
+      "sha256": "B935CBD60283589CE08CFEC7A104853490FF43927DD2E788BEC54A70D0705083"
+    },
+    {
+      "path": "docs/08_项目状态与待办.md",
+      "bytes": 7807,
+      "sha256": "552BDB6CC86BB1EE6962518D10E6676F91F88CE5D931D08115E68EEB7958379F"
+    },
+    {
+      "path": "docs/99_项目归档索引.md",
+      "bytes": 5512,
+      "sha256": "04300B094F74B5F9F58437CF51D603193150EDB23A449C604A47C97BA0227D9F"
+    },
+    {
+      "path": "docs/H7MS-Core-A1_引脚配置.md",
+      "bytes": 14476,
+      "sha256": "EF4AACC58F78DEFEC14E49A2B80FC3B54008D316B92C41CBEB598F44A827C939"
+    }
+  ]
+}

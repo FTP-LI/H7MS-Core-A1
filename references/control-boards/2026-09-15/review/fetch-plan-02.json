@@ -1,0 +1,26 @@
+[
+  {
+    "path": "dji-type-c/schematic-and-layout-official.zip",
+    "url": "https://rm-static.djicdn.com/tem/35228/RoboMaster%20%E5%BC%80%E5%8F%91%E6%9D%BFC%E5%9E%8B%E5%8E%9F%E7%90%86%E5%9B%BE&%E4%BD%8D%E5%8F%B7%E5%9B%BE.zip"
+  },
+  {
+    "path": "review/dji-a-mirror-tree.json",
+    "url": "https://api.github.com/repos/Meta-Team/Datasheets/git/trees/master?recursive=1"
+  },
+  {
+    "path": "review/dji-a-detail-page.html",
+    "url": "https://www.robomaster.com/zh-CN/products/components/detail/1422"
+  },
+  {
+    "path": "review/damiao-master-commit.json",
+    "url": "https://gitee.com/api/v5/repos/kit-miao/dm-mc02/commits/master"
+  },
+  {
+    "path": "damiao-dm-mc02/schematic-v1.0-240124.pdf",
+    "url": "https://gitee.com/kit-miao/dm-mc02/raw/master/2D%E5%9B%BE%E7%BA%B8/%E5%8E%9F%E7%90%86%E5%9B%BE/CtrBoard-H7_V1.0-240124.pdf"
+  },
+  {
+    "path": "damiao-dm-mc02/user-manual-v1.1.pdf",
+    "url": "https://gitee.com/kit-miao/dm-mc02/raw/master/%E8%AF%B4%E6%98%8E%E4%B9%A6/%E8%BE%BE%E5%A6%99%E7%A7%91%E6%8A%80DM-MC-Board02%E7%94%B5%E6%9C%BA%E5%BC%80%E5%8F%91%E6%9D%BF%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%E4%B9%A6V1.1.pdf"
+  }
+]

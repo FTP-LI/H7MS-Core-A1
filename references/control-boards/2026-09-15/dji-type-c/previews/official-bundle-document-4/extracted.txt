@@ -1,0 +1,78 @@
+
+
+=== PDF PAGE 1 ===
+                               5                                                          4                                                          3                                                          2                                                          1
+
+
+
+
+
+                                                                                                                                                                                                       Heat_Power
+                                            TP1
+                                                 TP2           U1
+                                                       TP3                                                                  8                                                                                       16                           1                        SPI1_CLK                                                                                                                      INT1_Accel                                                                                    INT1                                                                  9  SCK                                                                                        1                              1                        SPI1_MOSI                                                                     SDI                                                                                    INT2                                 R1                                                33.0R                                                                                       12                                 1   15                       SPI1_MISO                                                                                                                 INT1_Gyro                                                                                                                                       0402 R2 0402 R8 0402 R3 0402 R4 0402 R9 0402 R5 0402 R6 0402 R10 0402 R7 0402 R11                                                        SDO1                                                                                    INT3                                      0402                                            TP4                                                                10                                                                                       13
+                                                        SDO2                                                                                    INT4D                                                                                                                                                                                                                                     D                                                                14                             1                         CS1_Accel                                                          CSB1                                                                  5                                                                                        3
+                             1                        CS1_Gyro                                                                                                        VCC_3V3_IMU                                                                                                                                                                                 430.0R        430.0R        430.0R        430.0R        430.0R        430.0R        430.0R        430.0R        430.0R        430.0R                                                          CSB2                                                                VDD                                                                                       11
+                                            TP5                         VDDIO            C1     C2                                                 D
+                                                                                                                                                                        Q3
+                                                                  7                     6          100.0nF  100.0nF
+                                                                  2  PS                                                                                                                                          G                                                             GND  4                  0402              0402                                                TIM10_CH1          R14   120.0R                                                     NC      GNDIO                                                                                                                                                                                         0402
+                                                                                                             S
+                                  PS接GND：使用SPI模式  BMI088                                                                                                        R13
+                                   PS接VDD：使用IIC模式                                                                                                                   10K                                                                                                                                                                                               0402                             YJL3400A
+
+                                                                                                                                                                                                 Load Imax:116.3mA
+                                                                                                                                   走线请按照至少500mA
+
+
+
+                                                                                                                                                                  PGND1
+
+
+
+
+C                                                                                                                                                                                            J1                                                         C
+
+                                                                                                                                     VCC_3V3_IMU                  1
+                                                                                                                                                                                 2
+                                                                                                                                                 SPI1_CLK                   3
+                                                                                                                                                         CS1_Accel                  4
+                                                                                                                                                 CS1_Gyro                   5
+                                                                                                                                                                  INT1_Accel                  6
+                                                                                                                                                            INT1_Gyro                  7
+                                                                                                                                                SPI1_MOSI                 8
+                                                                                                                                                SPI1_MISO                 9
+                                                                                                                                             TIM10_CH1                 10
+                                                                                                                                                            Heat_Power             11
+                                                                                                                                                                             12
+                                                                                                                                                                             13
+                                                                                                                               PGND1               14
+
+                                                                                                                                             14pin金手指
+
+
+
+
+
+B                                                                                                                                                                                                                                                       B
+
+
+
+
+
+                                                                                            www.robomasters.comwww.robomasters.comwww.robomasters.com
+A                                                                                                                                                                                                                                                       A
+
+
+
+
+                                                                                                                                                                                                                                                  TitleTitleTitle
+                                                                                                                                                                                  RoboMasterRoboMasterRoboMaster 开发板开发板开发板 CCC 型陀螺仪FPC小板型陀螺仪FPC小板型陀螺仪FPC小板
+
+                                                                                                                                                                                               SizeSizeSize     DocumentDocumentDocument NumberNumberNumber                                         RevRevRev
+                                                                                                                                                                  CustomCustomCustom<Doc><Doc><Doc>                                                            V1.0V1.0V1.0
+
+                                                                                                                                                                                                  Date:Date:Date:      Monday,Monday,Monday, DecemberDecemberDecember 09,09,09, 201920192019       SheetSheetSheet     111       ofofof     111
+
+
+                               5                                                          4                                                          3                                                          2                                                          1

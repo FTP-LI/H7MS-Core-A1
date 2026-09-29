@@ -1,0 +1,190 @@
+[
+  {
+    "file": "user-d-main-2558\\CAN+485.dxf",
+    "text_entities": 1147,
+    "dxf_version": "AC1021"
+  },
+  {
+    "file": "user-d-main-2558\\Connectors.dxf",
+    "text_entities": 1155,
+    "dxf_version": "AC1021"
+  },
+  {
+    "file": "user-d-main-2558\\ETH.dxf",
+    "text_entities": 253,
+    "dxf_version": "AC1021"
+  },
+  {
+    "file": "user-d-main-2558\\IMU.dxf",
+    "text_entities": 737,
+    "dxf_version": "AC1021"
+  },
+  {
+    "file": "user-d-main-2558\\JLink-OB+HUB.dxf",
+    "text_entities": 621,
+    "dxf_version": "AC1021"
+  },
+  {
+    "file": "user-d-main-2558\\MCU.dxf",
+    "text_entities": 1617,
+    "dxf_version": "AC1021"
+  },
+  {
+    "file": "user-d-main-2558\\Power.dxf",
+    "text_entities": 1335,
+    "dxf_version": "AC1021"
+  },
+  {
+    "file": "damiao-dm-mc02\\schematic-v1.0-240124.pdf",
+    "pages": 6,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "New Output",
+      "author": "",
+      "subject": "",
+      "keywords": "Altium",
+      "creator": "Altium Designer",
+      "producer": "llPDFLib 3.x",
+      "creationDate": "D:20240124000000",
+      "modDate": "D:20240127180111+08'00'",
+      "trapped": "",
+      "encryption": null
+    }
+  },
+  {
+    "file": "damiao-dm-mc02\\user-manual-v1.1.pdf",
+    "pages": 17,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "Administrator",
+      "subject": "",
+      "keywords": "",
+      "creator": "WPS 文字",
+      "producer": "",
+      "creationDate": "D:20250723164337+08'00'",
+      "modDate": "D:20250723164337+08'00'",
+      "trapped": "",
+      "encryption": null
+    }
+  },
+  {
+    "file": "dji-type-a\\schematic-original-via-mirror.pdf",
+    "pages": 10,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "Foxit Reader PDF Printer Version 7.1.0.112",
+      "creationDate": "D:20180410193855+08'00'",
+      "modDate": "D:20180410193855+08'00'",
+      "trapped": "",
+      "encryption": null
+    }
+  },
+  {
+    "file": "dji-type-a\\user-manual-official.pdf",
+    "pages": 35,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "Adobe InDesign CC (Macintosh)",
+      "producer": "Adobe PDF Library 10.0.1",
+      "creationDate": "D:20180413142405+08'00'",
+      "modDate": "D:20180413143335+08'00'",
+      "trapped": "",
+      "encryption": "Standard V4 R4 128-bit AES"
+    }
+  },
+  {
+    "file": "dji-type-c\\official-bundle-document-1.pdf",
+    "pages": 2,
+    "metadata": {
+      "format": "PDF 1.6",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "Allegro Design Publisher",
+      "producer": "Adobe PDF Library 8.0",
+      "creationDate": "D:20191120192737+08'00'",
+      "modDate": "D:20200103122135+08'00'",
+      "trapped": "",
+      "encryption": null
+    }
+  },
+  {
+    "file": "dji-type-c\\official-bundle-document-2.pdf",
+    "pages": 7,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "福昕PDF打印机 版本 8.3.0.0331",
+      "creationDate": "D:20191209153638+08'00'",
+      "modDate": "D:20191209153638+08'00'",
+      "trapped": "",
+      "encryption": null
+    }
+  },
+  {
+    "file": "dji-type-c\\official-bundle-document-3.pdf",
+    "pages": 2,
+    "metadata": {
+      "format": "PDF 1.6",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "Allegro Design Publisher",
+      "producer": "Adobe PDF Library 8.0",
+      "creationDate": "D:20191030175310+08'00'",
+      "modDate": "D:20191030175310+08'00'",
+      "trapped": "",
+      "encryption": null
+    }
+  },
+  {
+    "file": "dji-type-c\\official-bundle-document-4.pdf",
+    "pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "福昕PDF打印机 版本 8.3.0.0331",
+      "creationDate": "D:20191209144014+08'00'",
+      "modDate": "D:20191216182056+08'00'",
+      "trapped": "",
+      "encryption": null
+    }
+  },
+  {
+    "file": "dji-type-c\\user-manual-official.pdf",
+    "pages": 21,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "Adobe InDesign CC 14.0 (Macintosh)",
+      "producer": "Adobe PDF Library 15.0",
+      "creationDate": "D:20200114155420+08'00'",
+      "modDate": "D:20200114155539+08'00'",
+      "trapped": "",
+      "encryption": "Standard V4 R4 128-bit AES"
+    }
+  }
+]

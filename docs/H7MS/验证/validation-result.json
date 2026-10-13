@@ -1,0 +1,44 @@
+{
+  "status": "pass",
+  "checked_on": "2026-10-12",
+  "model": "STM32H735VGH6",
+  "package": "TFBGA100",
+  "assigned_signals": 75,
+  "balls": 100,
+  "ball_categories": {
+    "signal": 75,
+    "reserved": 2,
+    "power-system": 23
+  },
+  "exti_lines": [
+    4,
+    5,
+    9,
+    3,
+    6
+  ],
+  "native_can_controllers": 3,
+  "device_uarts": 4,
+  "connector_positions": 100,
+  "unchanged_original_pdf_dxf_xml": 26,
+  "reorganization_unchanged_noneditable_files": 110,
+  "docs_top_level_directories": [
+    "DJI A",
+    "DJI C",
+    "D_MAIN_2558",
+    "H7MS",
+    "OTA",
+    "达妙 DM-MC02"
+  ],
+  "ota_partition_capacity_arithmetic": "pass; not a qualified flash map",
+  "checked_markdown_files": 60,
+  "broken_local_links": [],
+  "limits": [
+    "not CubeMX",
+    "not EDA/ERC",
+    "not clock or DMA qualification",
+    "not PCB/SI/thermal qualification",
+    "not hardware or recovery test",
+    "not OTA implementation or power-failure test"
+  ]
+}

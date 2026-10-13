@@ -1,0 +1,52 @@
+{
+  "observed_date": "2026-10-11",
+  "timezone": "Asia/Shanghai",
+  "status": "Public displayed offers only; no checkout, RFQ, reservation or purchase performed.",
+  "user_procurement_input": {
+    "model": "STM32H735VGH6",
+    "statement": "用户表示可从别处买到合适的货源。",
+    "price": null,
+    "quantity": null,
+    "lead_time": null,
+    "independently_verified": false,
+    "decision_use": "Accept as a design assumption; public distributor shortages do not veto this candidate."
+  },
+  "offers": [
+    {
+      "model": "STM32H735VGH6", "vendor": "LCSC China", "vendor_code": "C5271179",
+      "url": "https://item.szlcsc.com/5997904.html",
+      "method": "Live rendered product and on-site search pages via browser",
+      "currency": "CNY", "tax": "Search table explicitly labels prices tax-inclusive; shipping not included here",
+      "unit_prices": {"1": 118.58, "10": 112.91, "30": 103.09, "100": 94.52},
+      "moq": 1, "displayed_stock": 0, "lead_time": null,
+      "notes": "需订货；详情页通用最快4小时发货文案不构成零库存SKU交期。另有嘉立创库存1的贴片服务链接，未作为可零售现货。"
+    },
+    {
+      "model": "STM32H723VGH6", "vendor": "LCSC China", "vendor_code": "C2848033",
+      "url": "https://item.szlcsc.com/3045688.html",
+      "method": "Live rendered product page via browser",
+      "currency": "CNY", "tax": "Retail displayed price; independent tax confirmation not performed in this detail page capture",
+      "unit_prices": {"2088": 314.465}, "moq": 2088,
+      "displayed_stock": 2088, "displayed_delivery": "订货3-5个工作日",
+      "notes": "页面库存与订货措辞同时存在；不是1片/10片样品报价，不推断本地仓即时发货。"
+    },
+    {
+      "model": "STM32H735VGH6", "vendor": "DigiKey US",
+      "url": "https://www.digikey.com/en/products/detail/stmicroelectronics/STM32H735VGH6/18086183",
+      "method": "Vendor page text retrieved through web tool, no checkout",
+      "currency": "USD", "tax_shipping": "Not a China landed tax-inclusive quote; page flags possible US tariff",
+      "unit_prices": {"1": 13.82, "10": 10.848, "100": 9.2887},
+      "displayed_stock": 0, "manufacturer_standard_lead_weeks": 52,
+      "estimated_in_stock_date": null, "packaging": "Bulk"
+    },
+    {
+      "model": "STM32H723VGH6", "vendor": "DigiKey US",
+      "url": "https://www.digikey.com/en/products/detail/stmicroelectronics/STM32H723VGH6/14305562",
+      "method": "Vendor page text retrieved through web tool, no checkout",
+      "currency": "USD", "tax_shipping": "Not a China landed tax-inclusive quote; page flags possible US tariff",
+      "unit_prices": {"1": 13.02, "10": 10.203, "100": 8.7236},
+      "displayed_stock": 0, "manufacturer_standard_lead_weeks": 52,
+      "estimated_in_stock_date": null, "packaging": "Tray"
+    }
+  ]
+}

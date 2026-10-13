@@ -1,0 +1,44 @@
+{
+  "observed_date": "2026-10-11",
+  "method": "web page text retrieval; not checkout quotes, not guaranteed live stock. Search snippets discarded when conflicting with opened pages. USD, tax/freight/import terms unverified; not directly comparable to prior China CNY quotes.",
+  "items": [
+    {
+      "part": "STM32H723ZGI6",
+      "url": "https://www.lcsc.com/product-detail/C730145.html",
+      "currency": "USD",
+      "prices": {
+        "1": 16.1823,
+        "10": 15.4272,
+        "30": 14.1191,
+        "100": 12.9776
+      },
+      "status": "Out of Stock; prices reference only"
+    },
+    {
+      "part": "STM32H725AGI6",
+      "url": "https://www.lcsc.com/product-detail/C730148.html",
+      "currency": "USD",
+      "prices": {
+        "1": 18.8219,
+        "10": 18.2652
+      },
+      "stock_observed": 1,
+      "note": "Search cache showed 13 and lower price; not used."
+    },
+    {
+      "part": "STM32H735AGI6",
+      "url": "https://www.digikey.com/en/products/detail/stmicroelectronics/STM32H735AGI6/18086291",
+      "currency": "USD",
+      "prices": {
+        "1": 15.96,
+        "10": 12.586,
+        "50": 11.2356,
+        "100": 10.8173,
+        "500": 10.1098
+      },
+      "stock_observed": 0,
+      "page_expected_receipt": "2026-11-09, 2496 pieces; not a commitment",
+      "page_standard_lead_time_weeks": 52
+    }
+  ]
+}

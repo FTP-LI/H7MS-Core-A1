@@ -1,0 +1,64 @@
+{
+  "observed_date": "2026-10-11",
+  "timezone": "Asia/Shanghai",
+  "merchant": "立创商城",
+  "method": "Read-only browser observation of rendered product detail pages; manually transcribed facts, not a full page archive",
+  "login_state": "not logged in",
+  "currency": "CNY",
+  "price_unit": "per component",
+  "tax_basis": "not independently verified for every product page",
+  "shipping_included": false,
+  "stock_scope": "商城商品详情库存总量; excludes separate 嘉立创SMT库存",
+  "quotes": [
+    {
+      "mpn": "STM32H723VGH6",
+      "merchant_code": "C2848033",
+      "url": "https://item.szlcsc.com/3045688.html",
+      "package": "TFBGA100",
+      "minimum_order_quantity": 2088,
+      "tiers": [{"quantity_from": 2088, "unit_price": 314.465}],
+      "displayed_stock_quantity": 2088,
+      "supply_text": "库存2088；订货3-5个工作日",
+      "single_piece_price": null
+    },
+    {
+      "mpn": "STM32H723VGT6",
+      "merchant_code": "C730142",
+      "url": "https://item.szlcsc.com/778097.html",
+      "package": "LQFP100",
+      "minimum_order_quantity": 1,
+      "tiers": [{"quantity_from": 1, "unit_price": 50.8}, {"quantity_from": 10, "unit_price": 45.53}, {"quantity_from": 30, "unit_price": 42.16}, {"quantity_from": 90, "unit_price": 38.9}],
+      "retail_on_hand": 0,
+      "lead_time": "unconfirmed"
+    },
+    {
+      "mpn": "STM32H723ZGT6",
+      "merchant_code": "C730146",
+      "url": "https://item.szlcsc.com/778101.html",
+      "package": "LQFP144",
+      "minimum_order_quantity": 1,
+      "tiers": [{"quantity_from": 1, "unit_price": 67.83}, {"quantity_from": 10, "unit_price": 61.62}, {"quantity_from": 30, "unit_price": 53.85}, {"quantity_from": 100, "unit_price": 50}],
+      "retail_on_hand": 27
+    },
+    {
+      "mpn": "STM32G473VET6",
+      "merchant_code": "C730122",
+      "url": "https://item.szlcsc.com/778077.html",
+      "package": "LQFP100",
+      "minimum_order_quantity": 1,
+      "tiers": [{"quantity_from": 1, "unit_price": 56.63}, {"quantity_from": 10, "unit_price": 50.18}, {"quantity_from": 30, "unit_price": 45.3}],
+      "retail_on_hand": 68
+    },
+    {
+      "mpn": "STM32G474VET6",
+      "merchant_code": "C431632",
+      "url": "https://item.szlcsc.com/428110.html",
+      "package": "LQFP100",
+      "minimum_order_quantity": 1,
+      "tiers": [{"quantity_from": 1, "unit_price": 109.76}, {"quantity_from": 10, "unit_price": 99.78}, {"quantity_from": 30, "unit_price": 96.16}, {"quantity_from": 90, "unit_price": 88.98}],
+      "retail_on_hand": 0,
+      "lead_time": "unconfirmed",
+      "separate_smt_stock_display": 37
+    }
+  ]
+}

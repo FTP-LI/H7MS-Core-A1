@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-11",
+  "scope": "Host/lower controller responsibilities and IMU processing; no board performance certification",
+  "images": [
+    {
+      "file": "user-sanpo-board.png",
+      "source_type": "user-attachment",
+      "original_filename": "codex-clipboard-de273842-eee1-4c14-9b6e-e8d483a3fdd0.png",
+      "bytes": 507263,
+      "sha256": "7e33753a046ef6d602809638fb3c3f1f51113178f22f7fccf2ba64896d55293d",
+      "pre_migration_file": "user-sanpo-board.png"
+    },
+    {
+      "file": "user-esp32s3-board.png",
+      "source_type": "user-attachment",
+      "original_filename": "codex-clipboard-e89fdf84-4817-41a6-8b59-1115be4a5871.png",
+      "bytes": 1080900,
+      "sha256": "22dbe644834dc197bbff97fe8ee4f94c30910e3d7ccccf769217dd239ee97575",
+      "pre_migration_file": "user-esp32s3-board.png"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "SANPO V4 custom firmware",
+      "url": "https://docs.sanporobot.com/v4/zh/custom_firmware_development.html",
+      "scope_or_version": "Two STM32F407; each handles two CAN and two RS485",
+      "offline_copy": false
+    },
+    {
+      "id": "S2",
+      "title": "SANPO V8 getting started",
+      "url": "https://docs.sanporobot.com/v8/zh/get_started.html",
+      "scope_or_version": "V8.1 documentation; G series and host/gateway roles",
+      "offline_copy": false
+    },
+    {
+      "id": "S3",
+      "title": "SANPO V8 interfaces",
+      "url": "https://docs.sanporobot.com/v8/zh/board_schematic.html",
+      "scope_or_version": "Two MCUs; schematic download link exists, PDF not archived in this review",
+      "offline_copy": false
+    },
+    {
+      "id": "S4",
+      "title": "Hiwonder ESP32-S3 board",
+      "url": "https://www.hiwonder.com/products/esp32-s3-development",
+      "scope_or_version": "Manufacturer marketing and nominal resources; no benchmark validation",
+      "offline_copy": false
+    },
+    {
+      "id": "S5",
+      "title": "XiaoZhi upstream",
+      "url": "https://github.com/78/xiaozhi-esp32",
+      "scope_or_version": "Default server and network audio; not proof of this board firmware version",
+      "offline_copy": false
+    },
+    {
+      "id": "S6",
+      "title": "PX4 system architecture",
+      "url": "https://docs.px4.io/v1.15/en/concept/px4_systems_architecture",
+      "scope_or_version": "v1.15",
+      "offline_copy": false
+    },
+    {
+      "id": "S7",
+      "title": "ROS 2 real-time background",
+      "url": "https://design.ros2.org/articles/realtime_background.html",
+      "scope_or_version": "Concepts and measurement methods; not a current platform certification",
+      "offline_copy": false
+    },
+    {
+      "id": "S8",
+      "title": "REP-145 official source",
+      "url": "https://raw.githubusercontent.com/ros-infrastructure/rep/master/rep-0145.rst",
+      "scope_or_version": "Draft; public ROS website blocked by access challenge",
+      "offline_copy": false
+    },
+    {
+      "id": "S9",
+      "title": "ROS 2 Imu message source",
+      "url": "https://raw.githubusercontent.com/ros2/common_interfaces/rolling/sensor_msgs/msg/Imu.msg",
+      "scope_or_version": "rolling",
+      "offline_copy": false
+    },
+    {
+      "id": "S10",
+      "title": "STM32G474 data sheet",
+      "url": "https://www.st.com/resource/en/datasheet/stm32g474ve.pdf",
+      "scope_or_version": "DS12288 Rev 6, November 2021; online text, not downloaded",
+      "offline_copy": false
+    },
+    {
+      "id": "S11",
+      "title": "STM32H723 data sheet",
+      "url": "https://www.st.com/resource/en/datasheet/stm32h723vg.pdf",
+      "scope_or_version": "Prior docs/12 review and references/mcu-comparison/2026-10-11",
+      "offline_copy": false
+    },
+    {
+      "id": "S12",
+      "title": "ESP32-S3 TWAI guide",
+      "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/twai.html",
+      "scope_or_version": "stable resolved to v6.1; one controller, no CAN FD",
+      "offline_copy": false
+    }
+  ]
+}

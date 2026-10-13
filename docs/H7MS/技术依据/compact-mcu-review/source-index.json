@@ -1,0 +1,67 @@
+{
+  "review_date": "2026-10-11",
+  "method": "Official XML downloaded without modification; datasheets and product pages read online. No new PDF or full webpage archive. GPIO AF XML and license are in the prior pin review archive.",
+  "sources": [
+    {
+      "file": "STM32H723VGHx.xml",
+      "url": "https://raw.githubusercontent.com/STMicroelectronics/STM32_open_pin_data/master/mcu/STM32H723VGHx.xml",
+      "sha256": "f5a9bd95a48d74c08fe9af5912e9bfae19d0cb2cd51477c91e6a705f2ed0ac5c",
+      "pre_migration_file": "STM32H723VGHx.xml"
+    },
+    {
+      "file": "STM32H723ZGIx.xml",
+      "url": "https://raw.githubusercontent.com/STMicroelectronics/STM32_open_pin_data/master/mcu/STM32H723ZGIx.xml",
+      "sha256": "a361a36ee989be2ea688a17fbd31be00905bd9fd711a79f9a45f3a85d9f18c05",
+      "pre_migration_file": "STM32H723ZGIx.xml"
+    },
+    {
+      "file": "STM32H725AGIx.xml",
+      "url": "https://raw.githubusercontent.com/STMicroelectronics/STM32_open_pin_data/master/mcu/STM32H725AGIx.xml",
+      "sha256": "5c9b291b911b81d3e08f58260df300d0d5c1dd056cc08f81d1416de24f49382e",
+      "pre_migration_file": "STM32H725AGIx.xml"
+    },
+    {
+      "file": "STM32H735AGIx.xml",
+      "url": "https://raw.githubusercontent.com/STMicroelectronics/STM32_open_pin_data/master/mcu/STM32H735AGIx.xml",
+      "sha256": "4a8576acba9ae713e2fb0efecbbf6ff362214e75a39b07cb047d4852ed091af8",
+      "pre_migration_file": "STM32H735AGIx.xml"
+    },
+    {
+      "file": "STM32H735VGHx.xml",
+      "url": "https://raw.githubusercontent.com/STMicroelectronics/STM32_open_pin_data/master/mcu/STM32H735VGHx.xml",
+      "sha256": "77f0397d22cba5afac15c6690e23454e442f3595a84949264cf09aa08c063658",
+      "pre_migration_file": "STM32H735VGHx.xml"
+    },
+    {
+      "file": "STM32H735IGKx.xml",
+      "url": "https://raw.githubusercontent.com/STMicroelectronics/STM32_open_pin_data/master/mcu/STM32H735IGKx.xml",
+      "sha256": "a9767e823681b14525afb9550fc2d89c6c6eab4278db5da2fac5df756803520c",
+      "pre_migration_file": "STM32H735IGKx.xml"
+    }
+  ],
+  "datasheets": [
+    {
+      "url": "https://www.st.com/resource/en/datasheet/stm32h723vg.pdf",
+      "version": "DS13313 Rev 5 May 2025"
+    },
+    {
+      "url": "https://www.st.com/resource/en/datasheet/stm32h725ag.pdf",
+      "version": "DS13311 Rev 5 November 2023"
+    },
+    {
+      "url": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf",
+      "version": "DS13312 Rev 4 November 2023"
+    }
+  ],
+  "limitations": [
+    "Static pin/AF review only; not CubeMX, PCB or hardware qualification.",
+    "H735/H725 power, boot, all errata and mixed-load operation are not fully reviewed.",
+    "N657Z0 is package-level research only; no Z0 pin allocation or boot NOR validation."
+  ],
+  "pitch_reference": {
+    "url": "https://www.kendryte.com/k230/en/v1.6/00_hardware/K230_Hardware_Design_Guide.html",
+    "table": "2-1",
+    "K230": "VFBGA390, 13x13 mm, 0.65 mm pitch",
+    "K230D": "LFBGA256, 11x11 mm, 0.65 mm pitch"
+  }
+}

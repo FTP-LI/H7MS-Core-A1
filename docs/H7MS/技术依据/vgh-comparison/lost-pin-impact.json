@@ -1,0 +1,160 @@
+{
+  "date": "2026-10-11",
+  "scope": "Exact VGH6 package pin loss, using archived official ST data; not loss of peripheral IP",
+  "lost_ports": [
+    {
+      "port": "PE14",
+      "H723_ball": "G7",
+      "signals": [
+        "FMC_D11",
+        "FMC_DA11",
+        "LTDC_CLK",
+        "SAI4_MCLK_B",
+        "SPI4_MOSI",
+        "TIM1_CH4",
+        "GPIO"
+      ]
+    },
+    {
+      "port": "PE11",
+      "H723_ball": "H6",
+      "signals": [
+        "ADC1_EXTI11",
+        "ADC2_EXTI11",
+        "ADC3_EXTI11",
+        "COMP2_INP",
+        "DFSDM1_CKIN4",
+        "FMC_D8",
+        "FMC_DA8",
+        "LTDC_G3",
+        "OCTOSPIM_P1_NCS",
+        "SAI4_SD_B",
+        "SPI4_NSS",
+        "TIM1_CH2",
+        "GPIO"
+      ]
+    },
+    {
+      "port": "PE15",
+      "H723_ball": "H7",
+      "signals": [
+        "ADC1_EXTI15",
+        "ADC2_EXTI15",
+        "ADC3_EXTI15",
+        "FMC_D12",
+        "FMC_DA12",
+        "LTDC_R7",
+        "TIM1_BKIN",
+        "TIM1_BKIN_COMP1",
+        "TIM1_BKIN_COMP2",
+        "USART10_CK",
+        "GPIO"
+      ]
+    },
+    {
+      "port": "PE12",
+      "H723_ball": "J6",
+      "signals": [
+        "COMP1_OUT",
+        "DFSDM1_DATIN5",
+        "FMC_D9",
+        "FMC_DA9",
+        "LTDC_B4",
+        "SAI4_SCK_B",
+        "SPI4_SCK",
+        "TIM1_CH3N",
+        "GPIO"
+      ]
+    },
+    {
+      "port": "PE13",
+      "H723_ball": "K6",
+      "signals": [
+        "COMP2_OUT",
+        "DFSDM1_CKIN5",
+        "FMC_D10",
+        "FMC_DA10",
+        "LTDC_DE",
+        "SAI4_FS_B",
+        "SPI4_MISO",
+        "TIM1_CH3",
+        "GPIO"
+      ]
+    }
+  ],
+  "remaining_alternatives": {
+    "TIM1_CH2": [
+      {
+        "port": "PA9",
+        "H735_ball": "E9",
+        "current_candidate_use": "VBUS_PRESENT"
+      }
+    ],
+    "TIM1_CH3": [
+      {
+        "port": "PA10",
+        "H735_ball": "E10",
+        "current_candidate_use": "UART2_DIR"
+      }
+    ],
+    "TIM1_CH3N": [
+      {
+        "port": "PB1",
+        "H735_ball": "K5",
+        "current_candidate_use": "unassigned"
+      },
+      {
+        "port": "PB15",
+        "H735_ball": "K10",
+        "current_candidate_use": "UART1_RX"
+      }
+    ],
+    "TIM1_CH4": [
+      {
+        "port": "PA11",
+        "H735_ball": "D10",
+        "current_candidate_use": "USB_DM"
+      }
+    ],
+    "TIM1_BKIN": [
+      {
+        "port": "PA6",
+        "H735_ball": "J3",
+        "current_candidate_use": "IMU_MISO"
+      },
+      {
+        "port": "PB12",
+        "H735_ball": "K8",
+        "current_candidate_use": "CAN2_RX"
+      }
+    ],
+    "SPI4_SCK": [
+      {
+        "port": "PE2",
+        "H735_ball": "A3",
+        "current_candidate_use": "NOR_IO2"
+      }
+    ],
+    "SPI4_MISO": [
+      {
+        "port": "PE5",
+        "H735_ball": "A2",
+        "current_candidate_use": "SD_DETECT_POLL"
+      }
+    ],
+    "SPI4_MOSI": [
+      {
+        "port": "PE6",
+        "H735_ball": "A1",
+        "current_candidate_use": "BASE_FAULT_N"
+      }
+    ],
+    "SPI4_NSS": [
+      {
+        "port": "PE4",
+        "H735_ball": "C3",
+        "current_candidate_use": "EXP_SPI_CS"
+      }
+    ]
+  }
+}

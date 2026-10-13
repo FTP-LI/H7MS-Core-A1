@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-11",
+  "selected_signals_each": 62,
+  "changed_balls_among_selected": 54,
+  "port_named_bonded_pads_not_datasheet_GPIO_count": {
+    "STM32H723VGH6": 82,
+    "STM32H735VGH6": 77
+  },
+  "H723_only_port_names": [
+    "PE11",
+    "PE12",
+    "PE13",
+    "PE14",
+    "PE15"
+  ],
+  "H735_only_port_names": [],
+  "H735_TIM1_CH4_pins": [
+    "PA11"
+  ],
+  "legacy_conflict": "H735VGH6 TIM1_CH4 has only PA11, already required for native USB DM.",
+  "legacy_full_signal_budget": {
+    "status": "Historical limit illustration only; user now requests DM/previous-H723 functional resources, not this complete H743 legacy set.",
+    "current_candidate": 62,
+    "remove_new_optional_second_IMU_CS": -1,
+    "restore_local_5V_ADC": 1,
+    "restore_aux_UART_TX_RX": 2,
+    "restore_SPI3_bus_plus_four_CS": 7,
+    "restore_TIM1_eight_signals": 8,
+    "restore_TIM2_four_signals": 4,
+    "restore_base_voltage_current_and_aux_ADC": 3,
+    "total_dedicated_signal_pads": 86,
+    "assumption": "All listed functions concurrent and independently bonded; LSE retained; no GPIO expander or interface sharing."
+  },
+  "qualification": "Static evidence only; USB PHY AF numbering, clock/DMA, electrical, routing, errata and mixed load remain unqualified."
+}

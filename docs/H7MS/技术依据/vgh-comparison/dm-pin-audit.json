@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-11",
+  "scope": "DM functional reference plus previous H723 candidate; not a connector/pin-compatible copy",
+  "models": {
+    "STM32H723VGH6": {
+      "assigned_signal_pads_including_oscillator_and_analog": 75,
+      "unassigned_port_names": [
+        "PB1",
+        "PE10",
+        "PE11",
+        "PE12",
+        "PE13",
+        "PE14",
+        "PE15"
+      ],
+      "static_check": "pass"
+    },
+    "STM32H735VGH6": {
+      "assigned_signal_pads_including_oscillator_and_analog": 75,
+      "unassigned_port_names": [
+        "PB1",
+        "PE10"
+      ],
+      "static_check": "pass"
+    }
+  },
+  "limitations": [
+    "No CubeMX, clock, DMA, electrical, routing or mixed-load qualification",
+    "PWM OUT1/2/3 share TIM2 period; OUT4 uses TIM1",
+    "SBUS substitutes AUX UART RX and requires a validated inversion scheme",
+    "DCMI camera is an alternative profile, not concurrent with this mapping",
+    "USB uses internal FS PHY; AF numbering for PHY not checked",
+    "75 includes oscillator and dedicated analog pads; not 75 ordinary GPIOs"
+  ]
+}

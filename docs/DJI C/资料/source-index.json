@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "board": "DJI RoboMaster C型",
+  "collected_on": "2026-09-15",
+  "scope": "官方手册＋官方CDN原理图/位号图ZIP，包含主板及IMU FPC小板。",
+  "assessment": "../总结分析报告.md",
+  "files": [
+    {
+      "path": "../原理图/official-bundle-document-1.pdf",
+      "bytes": 146645,
+      "sha256": "f76fbef43da8a0f6c7e418b159df74b382407a6d215108aa53da8d4d4b6c8ab1",
+      "kind": "extracted-original",
+      "container": "schematic-and-layout-official.zip",
+      "container_member": "RoboMaster 开发板C型原理图&位号图/RoboMaster 开发板 C 型位号图.pdf",
+      "byte_identical_verified": true,
+      "pre_migration_path": "official-bundle-document-1.pdf"
+    },
+    {
+      "path": "../原理图/official-bundle-document-2.pdf",
+      "bytes": 430633,
+      "sha256": "ea964d525c755057c5b59e244d8b68c5835f69ab0fa90d7bcf33dba2c171f6e6",
+      "kind": "extracted-original",
+      "container": "schematic-and-layout-official.zip",
+      "container_member": "RoboMaster 开发板C型原理图&位号图/RoBoMaster 开发板 C 型原理图.pdf",
+      "byte_identical_verified": true,
+      "pre_migration_path": "official-bundle-document-2.pdf"
+    },
+    {
+      "path": "../原理图/official-bundle-document-3.pdf",
+      "bytes": 20462,
+      "sha256": "6876330744c73499243d178bc8cc83f8e427e8b7605f8554f08cd1956bd3a480",
+      "kind": "extracted-original",
+      "container": "schematic-and-layout-official.zip",
+      "container_member": "RoboMaster 开发板C型原理图&位号图/RoboMaster 开发板 C 型陀螺仪FPC小板位号图.pdf",
+      "byte_identical_verified": true,
+      "pre_migration_path": "official-bundle-document-3.pdf"
+    },
+    {
+      "path": "../原理图/official-bundle-document-4.pdf",
+      "bytes": 62533,
+      "sha256": "180f2b6baa88c4a27aa7e282723daecad6a9afe8cf21f6fb0154efb4b34d858d",
+      "kind": "extracted-original",
+      "container": "schematic-and-layout-official.zip",
+      "container_member": "RoboMaster 开发板C型原理图&位号图/RoboMaster 开发板 C 型陀螺仪FPC小板原理图.pdf",
+      "byte_identical_verified": true,
+      "pre_migration_path": "official-bundle-document-4.pdf"
+    },
+    {
+      "path": "../预览/official-bundle-document-1/extracted.txt",
+      "bytes": 15260,
+      "sha256": "4b9dbf4a5190aaca6d32e47268dedd4dc3fd782f82970e1fb9a02d81cbcc5bcd",
+      "kind": "derived-preview-or-text",
+      "authoritative": false,
+      "pre_migration_path": "previews/official-bundle-document-1/extracted.txt"
+    },
+    {
+      "path": "../预览/official-bundle-document-1/page-01.png",
+      "bytes": 34678,
+      "sha256": "96548d8a05ca32aff48fc48b7f8a0e713aad4ae5c96df775db738643b37fd44e",
+      "kind": "derived-preview-or-text",
+      "authoritative": false,
+      "pre_migration_path": "previews/official-bundle-document-1/page-01.png"
+    },
+    {
+      "path": "../预览/official-bundle-document-1/page-02.png",
+      "bytes": 33503,
+      "sha256": "918a23b34618617163ac8ba29de40532069aa37f69448d282d100d4588b62c89",
+      "kind": "derived-preview-or-text",
+      "authoritative": false,
+      "pre_migration_path": "previews/official-bundle-document-1/page-02.png"
+    },
+    {
+      "path": "../预览/official-bundle-document-2/extracted.txt",
+      "bytes": 234299,
+      "sha256": "083cdefcdd24bc8ce89200e72c2c271ae0d8637dbfadac6d928b493eb19539a3",
+      "kind": "derived-preview-or-text",
+      "authoritative": false,
+      "pre_migration_path": "previews/official-bundle-document-2/extracted.txt"
+    },
+    {
+      "path": "../预览/official-bundle-document-2/page-01.png",
+      "bytes": 475034,
+      "sha256": "3555836eae76c81611c2c215404143cce4eb4aebeb26350d3856da5989386e38",
+      "kind": "derived-preview-or-text",
+      "authoritative": false,
+      "pre_migration_path": "previews/official-bundle-document-2/page-01.png"
+    },
+    {
+      "path": "../预览/official-bundle-document-2/page-02.png",
+      "bytes": 184540,
+      "sha256": "3a9c9f33820310c16b26d2a4abf54b764f62d7c7ae0f9ae76fad4a63ad78314b",
+      "kind": "derived-preview-or-text",
+      "authoritative": false,
+      "pre_migration_path": "previews/official-bundle-document-2/page-02.png"
+    },
+    {
+      "path": "../预览/official-bundle-document-2/page-03.png",
+      "bytes": 238439,
+      "sha256": "07715f28968976c70da3bd8daa6f630517483d475b4454ecc0d03f13a9f0c3f4",
+      "kind": "derived-preview-or-text",
+      "authoritative": false,
+      "pre_migration_path": "previews/official-bundle-document-2/page-03.png"
+    },
+    {
+      "path": "../预览/official-bundle-document-2/page-04.png",
+      "bytes": 217385,
+      "sha256": "c775e6c60176c96387488fc39d10f5a598454251186f98d966eec7efd146a6ac",
+      "kind": "derived-preview-or-text",
+      "authoritative": false,
+      "pre_migration_path": "previews/official-bundle-document-2/page-04.png"
+    },
+    {
+      "path": "../预览/official-bundle-document-2/page-05.png",
+      "bytes": 205577,
+      "sha256": "90ec4c670a3dba9b3f17442b5393e81460e15a77ec084e1b801e77a58e5cadb5",
+      "kind": "derived-preview-or-text",
+      "authoritative": false,
+      "pre_migration_path": "previews/official-bundle-document-2/page-05.png"
+    },
+    {
+      "path": "../预览/official-bundle-document-2/page-06.png",
+      "bytes": 103738,
+      "sha256": "5395951df5b94696469402455ca28e3c4a974f74bdb56b2d637159e40bedd4c3",
+      "kind": "derived-preview-or-text",
+      "authoritative": false,
+      "pre_migration_path": "previews/official-bundle-document-2/page-06.png"
+    },
+    {
+      "path": "../预览/official-bundle-document-2/page-07.png",
+      "bytes": 176313,
+      "sha256": "c24103dea4c932665ffe58ba088c41efa4fed536dbf6aeeed8ad75ad2547aed0",
+      "kind": "derived-preview-or-text",
+      "authoritative": false,
+      "pre_migration_path": "previews/official-bundle-document-2/page-07.png"
+    },
+    {
+      "path": "../预览/official-bundle-document-3/extracted.txt",
+      "bytes": 915,
+      "sha256": "27e28b691d3ceb83ce7a17ace016b53d89421716492d32483af5856124a67a3d",
+      "kind": "derived-preview-or-text",
+      "authoritative": false,
+      "pre_migration_path": "previews/official-bundle-document-3/extracted.txt"
+    },
+    {
+      "path": "../预览/official-bundle-document-3/page-01.png",
+      "bytes": 4772,
+      "sha256": "46907bf5aacb746df877ef4cdf0ecf00cce1dc2d30fba96fe2a65d863e1d0e38",
+      "kind": "derived-preview-or-text",
+      "authoritative": false,
+      "pre_migration_path": "previews/official-bundle-document-3/page-01.png"
+    },
+    {
+      "path": "../预览/official-bundle-document-3/page-02.png",
+      "bytes": 3313,
+      "sha256": "9fcf96c1f38eab71c975d6ffc9b10a9e6eb4b62e75024d517980c6fcbf70338a",
+      "kind": "derived-preview-or-text",
+      "authoritative": false,
+      "pre_migration_path": "previews/official-bundle-document-3/page-02.png"
+    },
+    {
+      "path": "../预览/official-bundle-document-4/extracted.txt",
+      "bytes": 11576,
+      "sha256": "b35ee2309837ec60e6d2d6de2cd4ae3931cf88993b54a28fd85479ac75b35d61",
+      "kind": "derived-preview-or-text",
+      "authoritative": false,
+      "pre_migration_path": "previews/official-bundle-document-4/extracted.txt"
+    },
+    {
+      "path": "../预览/official-bundle-document-4/page-01.png",
+      "bytes": 101599,
+      "sha256": "eddaf1dad07e5b494f78624068eac007c6d71080c0f03fc8083eb988e5949a0a",
+      "kind": "derived-preview-or-text",
+      "authoritative": false,
+      "pre_migration_path": "previews/official-bundle-document-4/page-01.png"
+    },
+    {
+      "path": "../预览/user-manual-official/extracted.txt",
+      "bytes": 61053,
+      "sha256": "0f1037ec21e5180ddf192a39d0b9b0ee3fc9d7eaa0770f89181dea83f050277e",
+      "kind": "derived-preview-or-text",
+      "authoritative": false,
+      "pre_migration_path": "previews/user-manual-official/extracted.txt"
+    },
+    {
+      "path": "../预览/user-manual-official/page-01.png",
+      "bytes": 68677,
+      "sha256": "0c25361bdcdc8ca4a9a4da24d9622edf3cd110014e7ab64ee8a5dbbccd458ee7",
+      "kind": "derived-preview-or-text",
+      "authoritative": false,
+      "pre_migration_path": "previews/user-manual-official/page-01.png"
+    },
+    {
+      "path": "../../../archives/2026-10-11_before-docs-v0.8.0/README.md",
+      "bytes": 157084,
+      "sha256": "3103d718fb2716cc702f0e66fbb716d35dd3c6449b47251ae02b58935d5e0dbd",
+      "kind": "downloaded-original",
+      "url": "https://www.robomaster.com/zh-CN/products/components/general/development-board-type-c",
+      "retrieved_at": "2026-09-15T08:26:31.625087+00:00",
+      "provenance": "publisher-or-official-host",
+      "pre_migration_path": "product-page.html",
+      "archive_member": "references/control-boards/2026-09-15/dji-type-c/product-page.html",
+      "archived_only": true
+    },
+    {
+      "path": "../../../archives/2026-10-11_before-docs-v0.8.0/README.md",
+      "bytes": 559148,
+      "sha256": "9ad82dccd58bf1b382d994dc21237a35f8414a87d7ea0bb77a0b8b3b22cfefed",
+      "kind": "downloaded-original",
+      "url": "https://rm-static.djicdn.com/tem/35228/RoboMaster%20%E5%BC%80%E5%8F%91%E6%9D%BFC%E5%9E%8B%E5%8E%9F%E7%90%86%E5%9B%BE&%E4%BD%8D%E5%8F%B7%E5%9B%BE.zip",
+      "retrieved_at": "2026-09-15T08:27:07.431421+00:00",
+      "provenance": "publisher-or-official-host",
+      "pre_migration_path": "schematic-and-layout-official.zip",
+      "archive_member": "references/control-boards/2026-09-15/dji-type-c/schematic-and-layout-official.zip",
+      "archived_only": true
+    },
+    {
+      "path": "user-manual-official.pdf",
+      "bytes": 1931377,
+      "sha256": "04353087264c7de85f163359c1d659c4d6b89604a0477628725c30c188f9bedb",
+      "kind": "downloaded-original",
+      "url": "https://rm-static.djicdn.com/tem/35228/RoboMaster%20%20%E5%BC%80%E5%8F%91%E6%9D%BF%20C%20%E5%9E%8B%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C.pdf",
+      "retrieved_at": "2026-09-15T08:26:31.865443+00:00",
+      "provenance": "publisher-or-official-host",
+      "pre_migration_path": "user-manual-official.pdf"
+    }
+  ],
+  "pre_migration_assessment": "../../../../docs/reviews/2026-09-15/02_DJI_C型评估.md"
+}

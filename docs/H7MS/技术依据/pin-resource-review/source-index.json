@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-11",
+  "scope": "H723VGT6 package pins and selected AFs; no CubeMX or hardware validation",
+  "files": [
+    {
+      "file": "STM32H723VGTx.xml",
+      "url": "https://raw.githubusercontent.com/STMicroelectronics/STM32_open_pin_data/master/mcu/STM32H723VGTx.xml",
+      "sha256": "601987014a6e79245c9c6ca8f34b280935e20d1fe25bfbe18a9ad1a1fcd51116",
+      "pre_migration_file": "STM32H723VGTx.xml"
+    },
+    {
+      "file": "GPIO-STM32H72_gpio_v1_0_Modes.xml",
+      "url": "https://raw.githubusercontent.com/STMicroelectronics/STM32_open_pin_data/master/mcu/IP/GPIO-STM32H72_gpio_v1_0_Modes.xml",
+      "sha256": "3589056b6537a909d273b6cd2a3acc3fe3faf8c07139ab02f95309ca0ee4c0bd",
+      "pre_migration_file": "GPIO-STM32H72_gpio_v1_0_Modes.xml"
+    },
+    {
+      "file": "ST_open_pin_data_LICENSE",
+      "url": "https://raw.githubusercontent.com/STMicroelectronics/STM32_open_pin_data/master/LICENSE",
+      "sha256": "2e80479026d27db007f8bdd190860e4b0452ca30d622ef4c04084b064418a096",
+      "pre_migration_file": "ST_open_pin_data_LICENSE"
+    },
+    {
+      "file": "H723_LCSC_Rev3.pdf",
+      "url": "https://atta.szlcsc.com/upload/public/pdf/source/20221107/3FC9BFF347BA16183E5CC96DF77651E2.pdf",
+      "sha256": "deda60ae6494b0651c5631c59004f1f1fcaa3f394ab2efbef8bb046fc6342adf",
+      "pre_migration_file": "H723_LCSC_Rev3.pdf"
+    }
+  ],
+  "current_datasheet": {
+    "url": "https://www.st.com/resource/en/datasheet/stm32h723vg.pdf",
+    "revision": "DS13313 Rev 5, May 2025",
+    "method": "online text, selected Tables 7/8 rows and revision history; binary download returned HTTP 567"
+  },
+  "local_pdf_note": "DS13313 Rev 3, December 2021, manufacturer document hosted by LCSC; rendered for visual table alignment, not the current electrical specification",
+  "usb_phy_example": "https://github.com/STMicroelectronics/STM32CubeH7/blob/master/Projects/NUCLEO-H723ZG/Applications/USB_Device/HID_Standalone/USB_Device/Target/usbd_conf.c",
+  "usb_vbus_guidance": "https://www.st.com/content/st_com/en/technical-documents/an4879-introduction-to-usb-hardware-and-pcb-guidelines-using-stm32-mcus-stmicroelectronics_asset/chunk-003-topic-an4879-vbus-sensing-detection.html"
+}

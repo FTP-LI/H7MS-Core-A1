@@ -1,0 +1,35 @@
+﻿reference,quantity,part,specification,placement,status,notes
+U1,1,STM32H735VGH6,TFBGA100 8x8mm p0.8,核心板,selected,3 native CAN; Direct SMPS
+L1,1,VLS252012HBX-2R2M-1,2.2uH 2.5x2.0x1.2mm,核心板,candidate,DCR<=102mOhm; validate thermal derating
+C1,1,待定MLCC,10uF 10V X5R/X7R 0603/0805,核心板,spec-only,SMPS input; effective capacitance/ESR pending
+C2,1,待定MLCC,100nF >=10V X7R 0402,核心板,spec-only,VDDSMPS
+C3,1,待定C0G,220pF >=25V C0G 0402 5%,核心板,spec-only,VLXSMPS to GND
+"C4,C5",2,待定MLCC,10uF 10V X5R/X7R 0603/0805,核心板,spec-only,VCORE output; ESR/DC bias validation
+"C6,C7",2,待定MLCC,100nF >=10V X7R 0402,核心板,spec-only,one per VCAP
+C_VDD,3,待定MLCC,100nF >=10V X7R 0402,核心板,spec-only,one per VDD
+C_VDD_BULK,1,待定MLCC,4.7uF >=10V X5R/X7R,核心板,spec-only,MCU VDD bulk
+C_A_REF_USB_BAT,4+4,待定MLCC,each rail 1uF + 100nF,核心板,spec-only,VDDA VREF+ VDD33USB VBAT
+U2,1,TPS62132RGTR,VQFN16 3x3mm fixed3.3V,核心板,candidate,not TPS62133
+L2,1,XFL4020-222MEC,2.2uH 4x4mm,核心板,candidate,5V to3.3V; derate output current
+C_U2_IN/OUT,1+1+1,待定MLCC,10uF/10V +100nF input;22uF/10V output,核心板,spec-only,effective C pending
+C_U2_SS/R_U2_PG,1+1,待定,3.3nF /100k,核心板,spec-only,softstart/powergood
+Y1,1,SG210STF 8.000000MHz L,2.5x2.0mm CMOS3.3V,核心板,configured-family,manufacturer X1G order code pending
+R_HSE/C_HSE,1+1,待定,22Ohm/100nF,核心板,spec-only,series resistor at oscillator
+"Y2,C_LSE",1+2,待定,32768Hz CL7pF; tuning capacitors,核心板,optional-DNP,AN2867 and startup test
+R_BOOT/R_RESET/C_RESET,1+1+1,待定,10k down/10k up/100nF,核心板,spec-only,BOOT0 A5 /NRST F2
+"J_SWD,JP_BOOT,SW_RESET",1+1+1,待定,Cortex10-pin1.27mm /jumper /button,核心板,mechanical-pending,SWO NC; VTref not power input
+U_IMU,1,BMI088,LGA16 3x4.5mm,核心板,candidate,SPI1 dual CS;2x100nF+1uF
+U_NOR,1,W25Q128JVPIQ,WSON8 6x5mm 128Mbit,核心板,candidate,3.3V;100nF+1uF
+J_TF,1,待定,microSD 4-bit with card detect,核心板,mechanical-pending,10uF+100nF;6 signal pins+detect
+J_USB,1,待定,USB-C USB2.0 Device,核心板,mechanical-pending,2x5.1k CC;self-powered baseline
+U_USB_ESD,1,USBLC6-2SC6,SOT23-6,核心板,candidate,check original pin drawing
+U_VBUS,1,SN74LVC1G17DBVR,SOT23-5,核心板,candidate,1k series+100k input pulldown+100nF
+U_CAN1..3,3,TCAN1042HGVDRBRQ1,VSON8 3x3mm,底板,candidate,5V VCC/3.3V VIO;independent STB
+U_RS4851..4,0..4,THVD1450DR,SOIC8,底板,configurable,3.3V; /RE+DE toDIR
+R_CAN_TERM/C_SPLIT,6+3,待定,2x60.4Ohm1%+4.7nF perbus,底板,selectable,only populate at bus ends
+TVS_CAN/CMC,3+3,待定,FD-capable protection and bypass footprints,底板,spec-pending,choose to environment voltage/ESD
+"J1,J2",2,待定,50 contacts each,核心板,mechanical-pending,provisional logical pin mapping
+"Q_HEAT,R_HEAT,NTC",1+4+1,待定,3.3V logic MOS;4x200Ohm1206;NTC10k,核心板,optional-DNP,overtemperature and thermal layout pending
+"U_RGB,LED,BUZZ_DRIVER",选装,SN74AHCT1G125等候选,5V TTL-compatible RGB driver,核心板,optional-DNP,PWM pins reserved;exact package pending
+U_USB_MUX/LIMIT,0,TPS2116 / TPS2553,optional USB service supply,核心板,not-fitted,USB power budget/limit values not frozen
+R_PULLS,按网表,待定,10k/47k/100k defaults per pin plan,核心及底板,spec-only,CS high;STB high;DIR/EN/PWM low

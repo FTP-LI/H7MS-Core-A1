@@ -1,0 +1,927 @@
+{
+  "project": "C:\\Users\\27348\\Desktop\\RL-Project\\H7MS-Core-A1",
+  "archive": "C:\\Users\\27348\\Desktop\\RL-Project\\H7MS-Core-A1\\archives\\2026-10-11_before-docs-v0.8.0\\H7MS-Core-A1_before-docs-v0.8.0.zip",
+  "snapshot_verified": true,
+  "entries": {
+    "CHANGELOG.md": {
+      "destination": "CHANGELOG.md",
+      "reason": "retain",
+      "sha256": "2b18f442bfa9a4c9b3580c9c34b80e3a9ecad360837c2d94a50e45fb70f0c846"
+    },
+    "project.json": {
+      "destination": "project.json",
+      "reason": "retain",
+      "sha256": "729f31b46b9ea76e27b56572baf09f502157e614a8aeecf8d2206b81aef812bb"
+    },
+    "README.md": {
+      "destination": "README.md",
+      "reason": "retain",
+      "sha256": "edb0d5f46869c1128e7d950eec8930bbdb7774ebd3f0108342348c36e18287fa"
+    },
+    "docs/00_阶段计划.md": {
+      "destination": null,
+      "reason": "archive-only: obsolete/overlapping v0.7 documents replaced by selected design",
+      "sha256": "a30589047ba400692fc97d648701645a552b2bb23efe68662a8284091baf6afc"
+    },
+    "docs/01_硬件设计.md": {
+      "destination": null,
+      "reason": "archive-only: obsolete/overlapping v0.7 documents replaced by selected design",
+      "sha256": "b1b3b05b91e0d8c53d1cd122ff45fc29d82fe0c27a71d0fd502ade1212c9a2db"
+    },
+    "docs/02_固件架构.md": {
+      "destination": null,
+      "reason": "archive-only: obsolete/overlapping v0.7 documents replaced by selected design",
+      "sha256": "8a5c17dba01b0d5c2fa1dae5f5f1bc92420cf5144f36e11325fc6e54b246cb02"
+    },
+    "docs/03_XGO-Lite2底板与接管.md": {
+      "destination": null,
+      "reason": "archive-only: obsolete/overlapping v0.7 documents replaced by selected design",
+      "sha256": "32bdb675a873d1f91e1d069d73cabcf7cef5cc466746d80b079605ed61c72b77"
+    },
+    "docs/04_总结演示与验收.md": {
+      "destination": null,
+      "reason": "archive-only: obsolete/overlapping v0.7 documents replaced by selected design",
+      "sha256": "d45259499616cf0489f9f26ce800a62958c327c077d753436eabc4e745685ea3"
+    },
+    "docs/05_RL策略部署.md": {
+      "destination": null,
+      "reason": "archive-only: obsolete/overlapping v0.7 documents replaced by selected design",
+      "sha256": "240f751e3aec0d3eb20f6200ff921b3ce93b812c64c2e38055f0a4c1c1cb4ae3"
+    },
+    "docs/06_上下板接口规范.md": {
+      "destination": null,
+      "reason": "archive-only: obsolete/overlapping v0.7 documents replaced by selected design",
+      "sha256": "9ae3d2a7572e0ec2e85a939b8674adbdf6f5649a96110ebdfd139cfac84c6939"
+    },
+    "docs/07_主控选型与资源预算.md": {
+      "destination": null,
+      "reason": "archive-only: obsolete/overlapping v0.7 documents replaced by selected design",
+      "sha256": "6b27fbe64fe55f13f1b1e9993304031c6450b19af7c5cf1201582d0a7643c000"
+    },
+    "docs/08_项目状态与待办.md": {
+      "destination": null,
+      "reason": "archive-only: obsolete/overlapping v0.7 documents replaced by selected design",
+      "sha256": "7435a11a2d56a15a1fc2974c138df76d95bfde2caf0e43e49dc04407f1b09e1a"
+    },
+    "docs/09_机器人上下位机主控架构与资源调研.md": {
+      "destination": "docs/共性研究/机器人上下位机主控架构与资源调研.md",
+      "reason": "retain",
+      "sha256": "b12552a0bd108dbc5385f5b9640574e1904cfa0ece2bd047ec7943e65bc51fbe"
+    },
+    "docs/10_通用控制平台需求基线.md": {
+      "destination": "docs/H7MS-Core-A1/需求基线.md",
+      "reason": "retain",
+      "sha256": "4cae41e584f2e4e6fdcd6bf3e96ed19db04219f6bf24b579dc685fcf0962d934"
+    },
+    "docs/11_参考控制板共性需求与选型结论.md": {
+      "destination": "docs/共性研究/参考控制板共性需求与选型结论.md",
+      "reason": "retain",
+      "sha256": "347d2f7973abd2f8d8cda6c5dcdc85c45c9debb8f098d9b98107b7aefeac909a"
+    },
+    "docs/12_H723与H743数据手册复核及选型判断.md": {
+      "destination": "docs/H7MS-Core-A1/对比与研究/H723与H743数据手册复核及选型判断.md",
+      "reason": "retain",
+      "sha256": "cafd5d29027d6c6e898cae0bf2212e91fb38f35a6525273937301d70c0e97873"
+    },
+    "docs/13_三路原生CAN与H723外部RAM方案.md": {
+      "destination": "docs/H7MS-Core-A1/对比与研究/三路原生CAN与H723外部RAM方案.md",
+      "reason": "retain",
+      "sha256": "2ac8f79ab700bfa9b6f93c324286dcd00c6c4b510210f42093cd6d233b8ee728"
+    },
+    "docs/14_上下位机职责与IMU处理边界.md": {
+      "destination": "docs/共性研究/上下位机职责与IMU处理边界.md",
+      "reason": "retain",
+      "sha256": "b3103c2a820b0b6cad554ff5a2c269a21c5060c81d46b6cddcf9a64d4bceb625"
+    },
+    "docs/15_STM32N657L0H3Q候选评估.md": {
+      "destination": "docs/H7MS-Core-A1/对比与研究/STM32N657L0H3Q候选评估.md",
+      "reason": "retain",
+      "sha256": "fe29b9d38f65ad4ad0abb109ec73b96c825e7b29e0301bb6257349efa7270cbd"
+    },
+    "docs/16_主控采购价格与封装取舍.md": {
+      "destination": "docs/H7MS-Core-A1/对比与研究/主控采购价格与封装取舍.md",
+      "reason": "retain",
+      "sha256": "b876da759f95b3be7831f074c58ab10ad218f1dbb1a3c8cddffb30761c668d66"
+    },
+    "docs/17_H723VGT6接口并发与H743替换评估.md": {
+      "destination": "docs/H7MS-Core-A1/对比与研究/H723VGT6接口并发与H743替换评估.md",
+      "reason": "retain",
+      "sha256": "9da01cc30e9d780da328534ada6054139bea6696aaecb43108b810c451dd15af"
+    },
+    "docs/18_小型化与高资源主控综合建议.md": {
+      "destination": "docs/H7MS-Core-A1/对比与研究/小型化与高资源主控综合建议.md",
+      "reason": "retain",
+      "sha256": "a0df33c772aa89d4aa72642685a828a352f0065b360af03eb911565e970dd54d"
+    },
+    "docs/19_H735VGH6与H723VGH6最终候选对比.md": {
+      "destination": "docs/H7MS-Core-A1/对比与研究/H735VGH6与H723VGH6最终候选对比.md",
+      "reason": "retain",
+      "sha256": "8f8aaeaf817358794076d17855fbba6dabe72030e0630764c560d1eb77c0f1c4"
+    },
+    "docs/99_项目归档索引.md": {
+      "destination": null,
+      "reason": "archive-only: obsolete/overlapping v0.7 documents replaced by selected design",
+      "sha256": "384c2a84e195c23988991679f3ebde5a0196bb7d27b57baee79370bd720a6584"
+    },
+    "docs/H7MS-Core-A1_引脚配置.md": {
+      "destination": null,
+      "reason": "archive-only: obsolete/overlapping v0.7 documents replaced by selected design",
+      "sha256": "41c0cdea2b4d8b6942ae406cf181b54b8c7dfbc74b89ff9453d9dd6220c091cc"
+    },
+    "docs/pin-candidates/STM32H723VGT6_interfaces.csv": {
+      "destination": "docs/H7MS-Core-A1/对比与研究/候选引脚/STM32H723VGT6_interfaces.csv",
+      "reason": "retain",
+      "sha256": "0878058b162d22cd4de2e00e72fd14afe6a074df755355022122e8c3c4430454"
+    },
+    "docs/pin-candidates/STM32H735_H723_VGH_DM_interfaces.csv": {
+      "destination": "docs/H7MS-Core-A1/对比与研究/候选引脚/STM32H735_H723_VGH_DM_interfaces.csv",
+      "reason": "retain",
+      "sha256": "65e3ee8ad5aaee51b25b67667d6f55fbb165f57e66835b547abf59e69ed467fc"
+    },
+    "docs/pin-candidates/STM32_compact_BGA_interfaces.csv": {
+      "destination": "docs/H7MS-Core-A1/对比与研究/候选引脚/STM32_compact_BGA_interfaces.csv",
+      "reason": "retain",
+      "sha256": "9159f54024567c9dc682fc516ea8c7662b618241e1fff26982bcecc1a3485afa"
+    },
+    "docs/reviews/2026-09-15/01_DJI_A型评估.md": {
+      "destination": "docs/DJI-A型/总结分析报告.md",
+      "reason": "retain",
+      "sha256": "9b39cab30481b513b09ea693766978a28dad6a26c78bba2659b344f9173febca"
+    },
+    "docs/reviews/2026-09-15/02_DJI_C型评估.md": {
+      "destination": "docs/DJI-C型/总结分析报告.md",
+      "reason": "retain",
+      "sha256": "5d01acbb623f48391db8fbb5ba59dff29080e5ce9f74aeed82b78e9ce61e4f17"
+    },
+    "docs/reviews/2026-09-15/03_达妙DM-MC02评估.md": {
+      "destination": "docs/达妙DM-MC02/总结分析报告.md",
+      "reason": "retain",
+      "sha256": "e7a78186a03d3df8907f4b55f8ba636627b7e929404607b9258a05513f27bff3"
+    },
+    "docs/reviews/2026-09-15/04_D_MAIN_2558评估.md": {
+      "destination": "docs/D_MAIN_2558/总结分析报告.md",
+      "reason": "retain",
+      "sha256": "27c007eb43c186b2180c45e899608c0dc20b789692e454a1c7b65d6e0ab20652"
+    },
+    "references/architecture-boundary/2026-10-11/README.md": {
+      "destination": "docs/H7MS-Core-A1/技术依据/architecture-boundary/README.md",
+      "reason": "retain",
+      "sha256": "4824894ed9887fc434359d341c999ed63a3513954eb5308f283b613966c1e0bb"
+    },
+    "references/architecture-boundary/2026-10-11/source-index.json": {
+      "destination": "docs/H7MS-Core-A1/技术依据/architecture-boundary/source-index.json",
+      "reason": "retain",
+      "sha256": "1c5b048ce9f45c5c4a20789f0a95a48a0f1a4c7bb5843e9f8db7d0a1ed5136ee"
+    },
+    "references/architecture-boundary/2026-10-11/user-esp32s3-board.png": {
+      "destination": "docs/H7MS-Core-A1/技术依据/architecture-boundary/user-esp32s3-board.png",
+      "reason": "retain",
+      "sha256": "22dbe644834dc197bbff97fe8ee4f94c30910e3d7ccccf769217dd239ee97575"
+    },
+    "references/architecture-boundary/2026-10-11/user-sanpo-board.png": {
+      "destination": "docs/H7MS-Core-A1/技术依据/architecture-boundary/user-sanpo-board.png",
+      "reason": "retain",
+      "sha256": "7e33753a046ef6d602809638fb3c3f1f51113178f22f7fccf2ba64896d55293d"
+    },
+    "references/compact-mcu-review/2026-10-11/check_compact_candidates.py": {
+      "destination": "docs/H7MS-Core-A1/技术依据/compact-mcu-review/check_compact_candidates.py",
+      "reason": "retain",
+      "sha256": "660c1deb0db0434462b7003bcc41576724d0e291f37fa80a6c4cdfd1eabfdbc4"
+    },
+    "references/compact-mcu-review/2026-10-11/quotes.json": {
+      "destination": "docs/H7MS-Core-A1/技术依据/compact-mcu-review/quotes.json",
+      "reason": "retain",
+      "sha256": "d0c83c9a486c23772a20ca68280d9d4a25c71beb35152f3170d22d07bcbdd321"
+    },
+    "references/compact-mcu-review/2026-10-11/README.md": {
+      "destination": "docs/H7MS-Core-A1/技术依据/compact-mcu-review/README.md",
+      "reason": "retain",
+      "sha256": "be9a9c036483bd02174f9b52bda4b7cf4c6b7cbecaec74f500b0259d7fbbe146"
+    },
+    "references/compact-mcu-review/2026-10-11/source-index.json": {
+      "destination": "docs/H7MS-Core-A1/技术依据/compact-mcu-review/source-index.json",
+      "reason": "retain",
+      "sha256": "28941b679a054825fd0f6f2cea063af70befb1b6a03fed3d5f1fa08213897fda"
+    },
+    "references/compact-mcu-review/2026-10-11/STM32H723VGHx.xml": {
+      "destination": "docs/H7MS-Core-A1/技术依据/compact-mcu-review/STM32H723VGHx.xml",
+      "reason": "retain",
+      "sha256": "f5a9bd95a48d74c08fe9af5912e9bfae19d0cb2cd51477c91e6a705f2ed0ac5c"
+    },
+    "references/compact-mcu-review/2026-10-11/STM32H723ZGIx.xml": {
+      "destination": "docs/H7MS-Core-A1/技术依据/compact-mcu-review/STM32H723ZGIx.xml",
+      "reason": "retain",
+      "sha256": "a361a36ee989be2ea688a17fbd31be00905bd9fd711a79f9a45f3a85d9f18c05"
+    },
+    "references/compact-mcu-review/2026-10-11/STM32H725AGIx.xml": {
+      "destination": "docs/H7MS-Core-A1/技术依据/compact-mcu-review/STM32H725AGIx.xml",
+      "reason": "retain",
+      "sha256": "5c9b291b911b81d3e08f58260df300d0d5c1dd056cc08f81d1416de24f49382e"
+    },
+    "references/compact-mcu-review/2026-10-11/STM32H735AGIx.xml": {
+      "destination": "docs/H7MS-Core-A1/技术依据/compact-mcu-review/STM32H735AGIx.xml",
+      "reason": "retain",
+      "sha256": "4a8576acba9ae713e2fb0efecbbf6ff362214e75a39b07cb047d4852ed091af8"
+    },
+    "references/compact-mcu-review/2026-10-11/STM32H735IGKx.xml": {
+      "destination": "docs/H7MS-Core-A1/技术依据/compact-mcu-review/STM32H735IGKx.xml",
+      "reason": "retain",
+      "sha256": "a9767e823681b14525afb9550fc2d89c6c6eab4278db5da2fac5df756803520c"
+    },
+    "references/compact-mcu-review/2026-10-11/STM32H735VGHx.xml": {
+      "destination": "docs/H7MS-Core-A1/技术依据/compact-mcu-review/STM32H735VGHx.xml",
+      "reason": "retain",
+      "sha256": "77f0397d22cba5afac15c6690e23454e442f3595a84949264cf09aa08c063658"
+    },
+    "references/compact-mcu-review/2026-10-11/ST_open_pin_data_LICENSE": {
+      "destination": null,
+      "reason": "deduplicated ST license, kept in pin-resource-review",
+      "sha256": "2e80479026d27db007f8bdd190860e4b0452ca30d622ef4c04084b064418a096"
+    },
+    "references/control-boards/2026-09-15/README.md": {
+      "destination": null,
+      "reason": "archive-only: retrieval intermediates replaced by board indexes",
+      "sha256": "e239f06efde442801307b4069d03c38a0b1888867d91b376e853eff0ca13667f"
+    },
+    "references/control-boards/2026-09-15/damiao-dm-mc02/official-project-page.html": {
+      "destination": null,
+      "reason": "archive-only: downloaded container/web cache",
+      "sha256": "add6b294710d4f2a2fb838ac38e87ffdb9fce06c98576b1f7659ff41d35e4bcd"
+    },
+    "references/control-boards/2026-09-15/damiao-dm-mc02/README.md": {
+      "destination": "docs/达妙DM-MC02/资料/来源说明.md",
+      "reason": "retain",
+      "sha256": "f7034bdcbb9cb9e021f68f09fda4141aa312b117ff5deae9c171ee1bb7db6af8"
+    },
+    "references/control-boards/2026-09-15/damiao-dm-mc02/repository-page.html": {
+      "destination": null,
+      "reason": "archive-only: downloaded container/web cache",
+      "sha256": "808e45ef5874b93231e6af469e5a94f21cc3d6142f9e0605a3f2299339fceb82"
+    },
+    "references/control-boards/2026-09-15/damiao-dm-mc02/schematic-v1.0-240124.pdf": {
+      "destination": "docs/达妙DM-MC02/原理图/schematic-v1.0-240124.pdf",
+      "reason": "retain",
+      "sha256": "3c1ca47e807d6c4031aac10af605021e85e47bd56c65f664543bb947ad35595d"
+    },
+    "references/control-boards/2026-09-15/damiao-dm-mc02/source-index.json": {
+      "destination": "docs/达妙DM-MC02/资料/source-index.json",
+      "reason": "retain",
+      "sha256": "de3a20492cbceb55089f67da17471e9f785a2181326e8f5d20593b854f04dfb4"
+    },
+    "references/control-boards/2026-09-15/damiao-dm-mc02/user-manual-v1.1.pdf": {
+      "destination": "docs/达妙DM-MC02/资料/user-manual-v1.1.pdf",
+      "reason": "retain",
+      "sha256": "9fbc4cc2175301632c3bdf74800b26490480da93fe2210ebbc49769a9bc1eab2"
+    },
+    "references/control-boards/2026-09-15/dji-type-a/product-page.html": {
+      "destination": null,
+      "reason": "archive-only: downloaded container/web cache",
+      "sha256": "1299c53645387ec1d9e3900cef443af78e655773f0f921119fc90794f0438d0a"
+    },
+    "references/control-boards/2026-09-15/dji-type-a/README.md": {
+      "destination": "docs/DJI-A型/资料/来源说明.md",
+      "reason": "retain",
+      "sha256": "8d02892fefee2321ae63f7ba5617d5aa8fb956ee759c67b2bb9cbd4669dd6f9e"
+    },
+    "references/control-boards/2026-09-15/dji-type-a/schematic-original-via-mirror.pdf": {
+      "destination": "docs/DJI-A型/原理图/schematic-original-via-mirror.pdf",
+      "reason": "retain",
+      "sha256": "4c565650f81a21053901d2b44796858d507faee81b6f8be77a153e750bc385ae"
+    },
+    "references/control-boards/2026-09-15/dji-type-a/source-index.json": {
+      "destination": "docs/DJI-A型/资料/source-index.json",
+      "reason": "retain",
+      "sha256": "4e5f695f18cbd1c3fde60416e5052385edf41181389803b1b2e582b6958bbeaa"
+    },
+    "references/control-boards/2026-09-15/dji-type-a/user-manual-official.pdf": {
+      "destination": "docs/DJI-A型/资料/user-manual-official.pdf",
+      "reason": "retain",
+      "sha256": "d69117f9ac0beac85b027f1f0411b6e5f07749668db049cde5fea17e4843596f"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/official-bundle-document-1.pdf": {
+      "destination": "docs/DJI-C型/原理图/official-bundle-document-1.pdf",
+      "reason": "retain",
+      "sha256": "f76fbef43da8a0f6c7e418b159df74b382407a6d215108aa53da8d4d4b6c8ab1"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/official-bundle-document-2.pdf": {
+      "destination": "docs/DJI-C型/原理图/official-bundle-document-2.pdf",
+      "reason": "retain",
+      "sha256": "ea964d525c755057c5b59e244d8b68c5835f69ab0fa90d7bcf33dba2c171f6e6"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/official-bundle-document-3.pdf": {
+      "destination": "docs/DJI-C型/原理图/official-bundle-document-3.pdf",
+      "reason": "retain",
+      "sha256": "6876330744c73499243d178bc8cc83f8e427e8b7605f8554f08cd1956bd3a480"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/official-bundle-document-4.pdf": {
+      "destination": "docs/DJI-C型/原理图/official-bundle-document-4.pdf",
+      "reason": "retain",
+      "sha256": "180f2b6baa88c4a27aa7e282723daecad6a9afe8cf21f6fb0154efb4b34d858d"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/product-page.html": {
+      "destination": null,
+      "reason": "archive-only: downloaded container/web cache",
+      "sha256": "3103d718fb2716cc702f0e66fbb716d35dd3c6449b47251ae02b58935d5e0dbd"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/README.md": {
+      "destination": "docs/DJI-C型/资料/来源说明.md",
+      "reason": "retain",
+      "sha256": "63bdf361adb4e5cb51e9f5e96c3240e16fa973b47eb4345824363db577a57c27"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/schematic-and-layout-official.zip": {
+      "destination": null,
+      "reason": "archive-only: downloaded container/web cache",
+      "sha256": "9ad82dccd58bf1b382d994dc21237a35f8414a87d7ea0bb77a0b8b3b22cfefed"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/source-index.json": {
+      "destination": "docs/DJI-C型/资料/source-index.json",
+      "reason": "retain",
+      "sha256": "89055102772c7a818c71a06ddf435b4967e57c730f713b3625e95a5c25ef5376"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/user-manual-official.pdf": {
+      "destination": "docs/DJI-C型/资料/user-manual-official.pdf",
+      "reason": "retain",
+      "sha256": "04353087264c7de85f163359c1d659c4d6b89604a0477628725c30c188f9bedb"
+    },
+    "references/control-boards/2026-09-15/review/archive_boards.py": {
+      "destination": null,
+      "reason": "archive-only: retrieval intermediates replaced by board indexes",
+      "sha256": "44139debde4f2b36ed127002eb3529b727bc91b0b5d55be75fe659cdced7d450"
+    },
+    "references/control-boards/2026-09-15/review/c-board-link-discovery.html": {
+      "destination": null,
+      "reason": "archive-only: retrieval intermediates replaced by board indexes",
+      "sha256": "5f15e3bbd6e0251e60e7886460c5309703fedf1954ac529735c403a165cdb388"
+    },
+    "references/control-boards/2026-09-15/review/damiao-master-commit.json": {
+      "destination": null,
+      "reason": "archive-only: retrieval intermediates replaced by board indexes",
+      "sha256": "10a5d53c521e9313b26b9ccfdefe9960d2c8b9926119d586f773f8fd70602412"
+    },
+    "references/control-boards/2026-09-15/review/damiao-tree-response.json": {
+      "destination": null,
+      "reason": "archive-only: retrieval intermediates replaced by board indexes",
+      "sha256": "20e4fcc981781cc771b53be95a4fddcfc035508b8a0f562e75b30791c82323d0"
+    },
+    "references/control-boards/2026-09-15/review/dji-a-detail-page.html": {
+      "destination": null,
+      "reason": "archive-only: retrieval intermediates replaced by board indexes",
+      "sha256": "6303cbce827873ab011ed1b366707b7b5b32b72c3f206f3558270a23d42df76b"
+    },
+    "references/control-boards/2026-09-15/review/dji-a-mirror-tree.json": {
+      "destination": null,
+      "reason": "archive-only: retrieval intermediates replaced by board indexes",
+      "sha256": "4bf974a7870c2c928d8102773503ee7ae5a1ade9f348131727db2c21d3bae731"
+    },
+    "references/control-boards/2026-09-15/review/download-log.json": {
+      "destination": null,
+      "reason": "archive-only: retrieval intermediates replaced by board indexes",
+      "sha256": "edc16335c5dbe57730eee463f39946fef66c63f85d6a12a1d47f39643f445a0f"
+    },
+    "references/control-boards/2026-09-15/review/fetch-plan-01.json": {
+      "destination": null,
+      "reason": "archive-only: retrieval intermediates replaced by board indexes",
+      "sha256": "47075b89d9d941de91d400310ea05f32281fcdd7e75dad256ad4ed2f5dd2777c"
+    },
+    "references/control-boards/2026-09-15/review/fetch-plan-02.json": {
+      "destination": null,
+      "reason": "archive-only: retrieval intermediates replaced by board indexes",
+      "sha256": "4479dd31f39b5efa465a705b461da202f1359679a1a6115f6929dae1dca79fc0"
+    },
+    "references/control-boards/2026-09-15/review/fetch-plan-03.json": {
+      "destination": null,
+      "reason": "archive-only: retrieval intermediates replaced by board indexes",
+      "sha256": "11510c7e72c2829f8643cf1a2db1b2302729307946c33107fe598348be57fc6e"
+    },
+    "references/control-boards/2026-09-15/review/fetch_public.py": {
+      "destination": null,
+      "reason": "archive-only: retrieval intermediates replaced by board indexes",
+      "sha256": "bb6813ae2b16124180eeb91011925332a3c8f0613e2d97008458e34097dcf499"
+    },
+    "references/control-boards/2026-09-15/review/index_sources.py": {
+      "destination": null,
+      "reason": "archive-only: retrieval intermediates replaced by board indexes",
+      "sha256": "3af1dba6094107b28b3b455aef066da0665a5e1591f60827fb6d836a107c9134"
+    },
+    "references/control-boards/2026-09-15/review/README.md": {
+      "destination": null,
+      "reason": "archive-only: retrieval intermediates replaced by board indexes",
+      "sha256": "f226cd7b82d6c2d73662ded81076c8b6c47dc55805948735745045f8075e9d1a"
+    },
+    "references/control-boards/2026-09-15/review/render-summary.json": {
+      "destination": null,
+      "reason": "archive-only: retrieval intermediates replaced by board indexes",
+      "sha256": "4ba285d27d4651b918b4b5adfb788fa561fba35ca21bce98a2e333450f4074c1"
+    },
+    "references/control-boards/2026-09-15/review/render_sources.py": {
+      "destination": null,
+      "reason": "archive-only: retrieval intermediates replaced by board indexes",
+      "sha256": "8f4fc49bccc03f6d1a945d207299460417744ae28d4c5ff0e9d3120a7a493b19"
+    },
+    "references/control-boards/2026-09-15/review/validate_research.py": {
+      "destination": null,
+      "reason": "archive-only: retrieval intermediates replaced by board indexes",
+      "sha256": "c492fc338c5691e21a890dd253f1fd4e19452e0590be731fae786d590f47f63a"
+    },
+    "references/control-boards/2026-09-15/review/validation-result.json": {
+      "destination": null,
+      "reason": "archive-only: retrieval intermediates replaced by board indexes",
+      "sha256": "092e00287646cfd32bfdff4ae498e8306ed133e1e7e861f9615e8b34725549c9"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/CAN+485.dxf": {
+      "destination": "docs/D_MAIN_2558/原理图/CAN+485.dxf",
+      "reason": "retain",
+      "sha256": "a709abfb1b6d20a99cebabd4bb297b050949159e2c68e4cfbe70cb37c7849c9f"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/Connectors.dxf": {
+      "destination": "docs/D_MAIN_2558/原理图/Connectors.dxf",
+      "reason": "retain",
+      "sha256": "9c0151041d9c6b3aa483dcfc0f8fd9f1feba68bb4949a244fd34ac340725946f"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/ETH.dxf": {
+      "destination": "docs/D_MAIN_2558/原理图/ETH.dxf",
+      "reason": "retain",
+      "sha256": "958dabe90a21d88a85cf368ae86f5bf3f9971bb9e1f921ade57dea3dbe51df69"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/IMU.dxf": {
+      "destination": "docs/D_MAIN_2558/原理图/IMU.dxf",
+      "reason": "retain",
+      "sha256": "f93e548d2d4d4bba674c5ece01c0240c52aa82525a903159efd46c74f063f981"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/JLink-OB+HUB.dxf": {
+      "destination": "docs/D_MAIN_2558/原理图/JLink-OB+HUB.dxf",
+      "reason": "retain",
+      "sha256": "3468f1e850ac4d9548f08f28d93282f19c57d91dfc270a7e64136b3c810218c9"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/MCU.dxf": {
+      "destination": "docs/D_MAIN_2558/原理图/MCU.dxf",
+      "reason": "retain",
+      "sha256": "2f7837bf7d411d73919df5271d0cc34a636e9c1928577861248f842cce224347"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/Power.dxf": {
+      "destination": "docs/D_MAIN_2558/原理图/Power.dxf",
+      "reason": "retain",
+      "sha256": "796ed843a5f1726e535d8262a0756a45d8ea98d06004a2411ea4ae567bc9cc89"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/README.md": {
+      "destination": "docs/D_MAIN_2558/资料/来源说明.md",
+      "reason": "retain",
+      "sha256": "8d1121f25c26f5a4be514e8d58c38eb3e4c53a6831086907ade648370c6cdf2c"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/source-index.json": {
+      "destination": "docs/D_MAIN_2558/资料/source-index.json",
+      "reason": "retain",
+      "sha256": "21c5a77836c6883dd753101c2ffee2eb4a01feb16e0eec74094f395b4fb8e559"
+    },
+    "references/control-boards/2026-09-15/damiao-dm-mc02/previews/schematic-v1.0-240124/extracted.txt": {
+      "destination": "docs/达妙DM-MC02/预览/schematic-v1.0-240124/extracted.txt",
+      "reason": "retain",
+      "sha256": "462c237dde861de63b1cef3097d037cd62611fca67f1bf8254f92d7a9de14f4e"
+    },
+    "references/control-boards/2026-09-15/damiao-dm-mc02/previews/schematic-v1.0-240124/page-01.png": {
+      "destination": "docs/达妙DM-MC02/预览/schematic-v1.0-240124/page-01.png",
+      "reason": "retain",
+      "sha256": "460da15b3bc8ef7c2933e485fd11f959c447623596f497632806e6c8f83c49ca"
+    },
+    "references/control-boards/2026-09-15/damiao-dm-mc02/previews/schematic-v1.0-240124/page-02.png": {
+      "destination": "docs/达妙DM-MC02/预览/schematic-v1.0-240124/page-02.png",
+      "reason": "retain",
+      "sha256": "5808f214199a33b501bf1d6f3ea62cc4d9f710477544e8a110d184e960eb6a89"
+    },
+    "references/control-boards/2026-09-15/damiao-dm-mc02/previews/schematic-v1.0-240124/page-03.png": {
+      "destination": "docs/达妙DM-MC02/预览/schematic-v1.0-240124/page-03.png",
+      "reason": "retain",
+      "sha256": "a3cbb34423f53ee3e3a25185527c8721bc1fca8b620307d3bb5ec25c9cc01999"
+    },
+    "references/control-boards/2026-09-15/damiao-dm-mc02/previews/schematic-v1.0-240124/page-04.png": {
+      "destination": "docs/达妙DM-MC02/预览/schematic-v1.0-240124/page-04.png",
+      "reason": "retain",
+      "sha256": "bf60ae03a7e3f14727219033b610a28479694243d2a11cc3340167a361ff9f3a"
+    },
+    "references/control-boards/2026-09-15/damiao-dm-mc02/previews/schematic-v1.0-240124/page-05.png": {
+      "destination": "docs/达妙DM-MC02/预览/schematic-v1.0-240124/page-05.png",
+      "reason": "retain",
+      "sha256": "1dc3044144e2b2b27487ac89e4db72b0078bae621b341736ac3facda0265b378"
+    },
+    "references/control-boards/2026-09-15/damiao-dm-mc02/previews/schematic-v1.0-240124/page-06.png": {
+      "destination": "docs/达妙DM-MC02/预览/schematic-v1.0-240124/page-06.png",
+      "reason": "retain",
+      "sha256": "22c0c4d717f6e7ee1d070ae9b481b09b587c7676cca6002c5d12ff7dc5fc12c6"
+    },
+    "references/control-boards/2026-09-15/damiao-dm-mc02/previews/user-manual-v1.1/extracted.txt": {
+      "destination": "docs/达妙DM-MC02/预览/user-manual-v1.1/extracted.txt",
+      "reason": "retain",
+      "sha256": "05b2ee3549e62fbabe95e6037af61676c75740bde7d1be2a669ab53a0c937ced"
+    },
+    "references/control-boards/2026-09-15/damiao-dm-mc02/previews/user-manual-v1.1/page-01.png": {
+      "destination": "docs/达妙DM-MC02/预览/user-manual-v1.1/page-01.png",
+      "reason": "retain",
+      "sha256": "3b349d5df832a070ffca85cfa1ed15e9b05369ff6e61c460222eed0c60549c97"
+    },
+    "references/control-boards/2026-09-15/dji-type-a/previews/schematic-original-via-mirror/extracted.txt": {
+      "destination": "docs/DJI-A型/预览/schematic-original-via-mirror/extracted.txt",
+      "reason": "retain",
+      "sha256": "196c1732f7e785f300886fa20cf3bfd3ff4fe9849905d79369d22e224a4a6401"
+    },
+    "references/control-boards/2026-09-15/dji-type-a/previews/schematic-original-via-mirror/page-01.png": {
+      "destination": "docs/DJI-A型/预览/schematic-original-via-mirror/page-01.png",
+      "reason": "retain",
+      "sha256": "58c5d8f4f368b9d223627156368dafc257d1d2e3444749e5516919bd3c0a2bcb"
+    },
+    "references/control-boards/2026-09-15/dji-type-a/previews/schematic-original-via-mirror/page-02.png": {
+      "destination": "docs/DJI-A型/预览/schematic-original-via-mirror/page-02.png",
+      "reason": "retain",
+      "sha256": "3c8d228a3e68ffc01e52910fac9ea6c430e847f2db494a968ecaaca7389a1029"
+    },
+    "references/control-boards/2026-09-15/dji-type-a/previews/schematic-original-via-mirror/page-03.png": {
+      "destination": "docs/DJI-A型/预览/schematic-original-via-mirror/page-03.png",
+      "reason": "retain",
+      "sha256": "44c951a27ea8a69c62773b14d1e1e74ec0b95a0c67db4c5021b071ebd880cf5a"
+    },
+    "references/control-boards/2026-09-15/dji-type-a/previews/schematic-original-via-mirror/page-04.png": {
+      "destination": "docs/DJI-A型/预览/schematic-original-via-mirror/page-04.png",
+      "reason": "retain",
+      "sha256": "40610256f3a0065b1faa7ce2bae9ecd676ddd9982a2e113b2b844ac34c2f1dc7"
+    },
+    "references/control-boards/2026-09-15/dji-type-a/previews/schematic-original-via-mirror/page-05.png": {
+      "destination": "docs/DJI-A型/预览/schematic-original-via-mirror/page-05.png",
+      "reason": "retain",
+      "sha256": "b26b6e1e97db70f73ceeaf7d070a4e411d8c1c61402c241cc1e797359bb40c2c"
+    },
+    "references/control-boards/2026-09-15/dji-type-a/previews/schematic-original-via-mirror/page-06.png": {
+      "destination": "docs/DJI-A型/预览/schematic-original-via-mirror/page-06.png",
+      "reason": "retain",
+      "sha256": "f407d5c7e55212da7cf6f017f23fecdee7ce16cefd6d0a5eedc1b4201d20faa1"
+    },
+    "references/control-boards/2026-09-15/dji-type-a/previews/schematic-original-via-mirror/page-07.png": {
+      "destination": "docs/DJI-A型/预览/schematic-original-via-mirror/page-07.png",
+      "reason": "retain",
+      "sha256": "8a7e05cb2561c992248e41aba82b41304de5837d15f56cf0174557025c23c624"
+    },
+    "references/control-boards/2026-09-15/dji-type-a/previews/schematic-original-via-mirror/page-08.png": {
+      "destination": "docs/DJI-A型/预览/schematic-original-via-mirror/page-08.png",
+      "reason": "retain",
+      "sha256": "8a772b9de737daaa70c82f7139c500b9612d91bdce32738929f318a0fde8ca25"
+    },
+    "references/control-boards/2026-09-15/dji-type-a/previews/schematic-original-via-mirror/page-09.png": {
+      "destination": "docs/DJI-A型/预览/schematic-original-via-mirror/page-09.png",
+      "reason": "retain",
+      "sha256": "c103ad9386448117d6fcf59b6be46afc636e2aa98532212995e9e3d90e55917d"
+    },
+    "references/control-boards/2026-09-15/dji-type-a/previews/schematic-original-via-mirror/page-10.png": {
+      "destination": "docs/DJI-A型/预览/schematic-original-via-mirror/page-10.png",
+      "reason": "retain",
+      "sha256": "2d60be64774228e6d905da0eba1d4bba955f7f0cb8d1450c48d8fa9d3ea10578"
+    },
+    "references/control-boards/2026-09-15/dji-type-a/previews/user-manual-official/extracted.txt": {
+      "destination": "docs/DJI-A型/预览/user-manual-official/extracted.txt",
+      "reason": "retain",
+      "sha256": "18956577cbf71e6489660586ee07f031d33cd54b0d62f42cf98e747edb94190a"
+    },
+    "references/control-boards/2026-09-15/dji-type-a/previews/user-manual-official/page-01.png": {
+      "destination": "docs/DJI-A型/预览/user-manual-official/page-01.png",
+      "reason": "retain",
+      "sha256": "93e21bc35e8df7ebbc1d04aca7d4db6af08447f2ec16cc16b2b841496d4fc573"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/previews/official-bundle-document-1/extracted.txt": {
+      "destination": "docs/DJI-C型/预览/official-bundle-document-1/extracted.txt",
+      "reason": "retain",
+      "sha256": "4b9dbf4a5190aaca6d32e47268dedd4dc3fd782f82970e1fb9a02d81cbcc5bcd"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/previews/official-bundle-document-1/page-01.png": {
+      "destination": "docs/DJI-C型/预览/official-bundle-document-1/page-01.png",
+      "reason": "retain",
+      "sha256": "96548d8a05ca32aff48fc48b7f8a0e713aad4ae5c96df775db738643b37fd44e"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/previews/official-bundle-document-1/page-02.png": {
+      "destination": "docs/DJI-C型/预览/official-bundle-document-1/page-02.png",
+      "reason": "retain",
+      "sha256": "918a23b34618617163ac8ba29de40532069aa37f69448d282d100d4588b62c89"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/previews/official-bundle-document-2/extracted.txt": {
+      "destination": "docs/DJI-C型/预览/official-bundle-document-2/extracted.txt",
+      "reason": "retain",
+      "sha256": "083cdefcdd24bc8ce89200e72c2c271ae0d8637dbfadac6d928b493eb19539a3"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/previews/official-bundle-document-2/page-01.png": {
+      "destination": "docs/DJI-C型/预览/official-bundle-document-2/page-01.png",
+      "reason": "retain",
+      "sha256": "3555836eae76c81611c2c215404143cce4eb4aebeb26350d3856da5989386e38"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/previews/official-bundle-document-2/page-02.png": {
+      "destination": "docs/DJI-C型/预览/official-bundle-document-2/page-02.png",
+      "reason": "retain",
+      "sha256": "3a9c9f33820310c16b26d2a4abf54b764f62d7c7ae0f9ae76fad4a63ad78314b"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/previews/official-bundle-document-2/page-03.png": {
+      "destination": "docs/DJI-C型/预览/official-bundle-document-2/page-03.png",
+      "reason": "retain",
+      "sha256": "07715f28968976c70da3bd8daa6f630517483d475b4454ecc0d03f13a9f0c3f4"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/previews/official-bundle-document-2/page-04.png": {
+      "destination": "docs/DJI-C型/预览/official-bundle-document-2/page-04.png",
+      "reason": "retain",
+      "sha256": "c775e6c60176c96387488fc39d10f5a598454251186f98d966eec7efd146a6ac"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/previews/official-bundle-document-2/page-05.png": {
+      "destination": "docs/DJI-C型/预览/official-bundle-document-2/page-05.png",
+      "reason": "retain",
+      "sha256": "90ec4c670a3dba9b3f17442b5393e81460e15a77ec084e1b801e77a58e5cadb5"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/previews/official-bundle-document-2/page-06.png": {
+      "destination": "docs/DJI-C型/预览/official-bundle-document-2/page-06.png",
+      "reason": "retain",
+      "sha256": "5395951df5b94696469402455ca28e3c4a974f74bdb56b2d637159e40bedd4c3"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/previews/official-bundle-document-2/page-07.png": {
+      "destination": "docs/DJI-C型/预览/official-bundle-document-2/page-07.png",
+      "reason": "retain",
+      "sha256": "c24103dea4c932665ffe58ba088c41efa4fed536dbf6aeeed8ad75ad2547aed0"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/previews/official-bundle-document-3/extracted.txt": {
+      "destination": "docs/DJI-C型/预览/official-bundle-document-3/extracted.txt",
+      "reason": "retain",
+      "sha256": "27e28b691d3ceb83ce7a17ace016b53d89421716492d32483af5856124a67a3d"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/previews/official-bundle-document-3/page-01.png": {
+      "destination": "docs/DJI-C型/预览/official-bundle-document-3/page-01.png",
+      "reason": "retain",
+      "sha256": "46907bf5aacb746df877ef4cdf0ecf00cce1dc2d30fba96fe2a65d863e1d0e38"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/previews/official-bundle-document-3/page-02.png": {
+      "destination": "docs/DJI-C型/预览/official-bundle-document-3/page-02.png",
+      "reason": "retain",
+      "sha256": "9fcf96c1f38eab71c975d6ffc9b10a9e6eb4b62e75024d517980c6fcbf70338a"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/previews/official-bundle-document-4/extracted.txt": {
+      "destination": "docs/DJI-C型/预览/official-bundle-document-4/extracted.txt",
+      "reason": "retain",
+      "sha256": "b35ee2309837ec60e6d2d6de2cd4ae3931cf88993b54a28fd85479ac75b35d61"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/previews/official-bundle-document-4/page-01.png": {
+      "destination": "docs/DJI-C型/预览/official-bundle-document-4/page-01.png",
+      "reason": "retain",
+      "sha256": "eddaf1dad07e5b494f78624068eac007c6d71080c0f03fc8083eb988e5949a0a"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/previews/user-manual-official/extracted.txt": {
+      "destination": "docs/DJI-C型/预览/user-manual-official/extracted.txt",
+      "reason": "retain",
+      "sha256": "0f1037ec21e5180ddf192a39d0b9b0ee3fc9d7eaa0770f89181dea83f050277e"
+    },
+    "references/control-boards/2026-09-15/dji-type-c/previews/user-manual-official/page-01.png": {
+      "destination": "docs/DJI-C型/预览/user-manual-official/page-01.png",
+      "reason": "retain",
+      "sha256": "0c25361bdcdc8ca4a9a4da24d9622edf3cd110014e7ab64ee8a5dbbccd458ee7"
+    },
+    "references/control-boards/2026-09-15/review/__pycache__/index_sources.cpython-312.pyc": {
+      "destination": null,
+      "reason": "archive-only: retrieval intermediates replaced by board indexes",
+      "sha256": "b7fd8b3913519a910a58c809ea1df607a8d9d5fa2507cd25168a4f0136be1c4b"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/previews/CAN+485.png": {
+      "destination": "docs/D_MAIN_2558/预览/CAN+485.png",
+      "reason": "retain",
+      "sha256": "d8a40ad198e604da65277f30f1ea426ca0a8e158571b0fedf751d701247f0e13"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/previews/CAN+485.text.json": {
+      "destination": "docs/D_MAIN_2558/预览/CAN+485.text.json",
+      "reason": "retain",
+      "sha256": "3d0274f37d0cc84b6591f01bdb72dba09fe07336e08551df23ce7898325f021f"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/previews/CAN+485.txt": {
+      "destination": "docs/D_MAIN_2558/预览/CAN+485.txt",
+      "reason": "retain",
+      "sha256": "b856ac000adec6f8df7c299981fbab877a8428d3e46d9b8aa64283687ea6bdcb"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/previews/Connectors.png": {
+      "destination": "docs/D_MAIN_2558/预览/Connectors.png",
+      "reason": "retain",
+      "sha256": "cc35021c5e58e892a2b6a3ab449d393f9830d3bf3316325577e24b762ede07bd"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/previews/Connectors.text.json": {
+      "destination": "docs/D_MAIN_2558/预览/Connectors.text.json",
+      "reason": "retain",
+      "sha256": "96a9f9e0c7d43c08bd4400dfb93e5290914a4eec163ec5618517d863a7e9c6fb"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/previews/Connectors.txt": {
+      "destination": "docs/D_MAIN_2558/预览/Connectors.txt",
+      "reason": "retain",
+      "sha256": "4399e8330de1ded237adfa8f80dc659367f894d5b572c579efc60a5c62846cf0"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/previews/ETH.png": {
+      "destination": "docs/D_MAIN_2558/预览/ETH.png",
+      "reason": "retain",
+      "sha256": "06ad2a70d9a5179b7f6f6c54a4bab4678f7d5ee095f6106c9d130b0fce77cd9e"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/previews/ETH.text.json": {
+      "destination": "docs/D_MAIN_2558/预览/ETH.text.json",
+      "reason": "retain",
+      "sha256": "c5898bb62dcfa3bf208082ad467fc6b9d21d759ad5bdff58a970c479a7e3ca1b"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/previews/ETH.txt": {
+      "destination": "docs/D_MAIN_2558/预览/ETH.txt",
+      "reason": "retain",
+      "sha256": "336113284e2d0278cc05adebda3780c45f31c8594d214143d01d6c7c66fef890"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/previews/IMU.png": {
+      "destination": "docs/D_MAIN_2558/预览/IMU.png",
+      "reason": "retain",
+      "sha256": "fa463893ea298fcef2737eea18d6b5ac0140bf96a69145c664731fa0efb6cad0"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/previews/IMU.text.json": {
+      "destination": "docs/D_MAIN_2558/预览/IMU.text.json",
+      "reason": "retain",
+      "sha256": "74720ac40a74307e4cff5c2249fc218b246524b09a04d97ed4539c1bfd8b6f64"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/previews/IMU.txt": {
+      "destination": "docs/D_MAIN_2558/预览/IMU.txt",
+      "reason": "retain",
+      "sha256": "2e1ffacd16eb26af35a79b1f378a72ac1421f4f7a586a4af501ab13bed2715f5"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/previews/JLink-OB+HUB.png": {
+      "destination": "docs/D_MAIN_2558/预览/JLink-OB+HUB.png",
+      "reason": "retain",
+      "sha256": "d085f080fde0fe1544195d8ec857d2300af653a8cebaf2b84cb1c1c5ffc8e294"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/previews/JLink-OB+HUB.text.json": {
+      "destination": "docs/D_MAIN_2558/预览/JLink-OB+HUB.text.json",
+      "reason": "retain",
+      "sha256": "5a4d565fdb4ea64c05ce825f0eda792fefbfea0cb3ff3173eb709c3c0531903e"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/previews/JLink-OB+HUB.txt": {
+      "destination": "docs/D_MAIN_2558/预览/JLink-OB+HUB.txt",
+      "reason": "retain",
+      "sha256": "053183afbaedc17714588711526176ba163f2edce4f8164589222e9f2f903a31"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/previews/MCU.png": {
+      "destination": "docs/D_MAIN_2558/预览/MCU.png",
+      "reason": "retain",
+      "sha256": "01b987941e77239337cb820cca781dd9ef7f2594d74496f17d7e196f105e88cd"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/previews/MCU.text.json": {
+      "destination": "docs/D_MAIN_2558/预览/MCU.text.json",
+      "reason": "retain",
+      "sha256": "b2465dd8cb0d76979660f9ae839f206739c511562446a73711c0463bce593b89"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/previews/MCU.txt": {
+      "destination": "docs/D_MAIN_2558/预览/MCU.txt",
+      "reason": "retain",
+      "sha256": "be02847cc575d083c4ecac999a8e8fb03adc390b9ab140f4f9e8170913a68539"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/previews/Power.png": {
+      "destination": "docs/D_MAIN_2558/预览/Power.png",
+      "reason": "retain",
+      "sha256": "b0914f54735dad6335acc35d08f8040b1158f5a075d604eb7c7b1aab1aa8f18c"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/previews/Power.text.json": {
+      "destination": "docs/D_MAIN_2558/预览/Power.text.json",
+      "reason": "retain",
+      "sha256": "883f3fba2aa15ba167cf6c06a6f3087aa94f73acc20932bb11ab582f001e5a9b"
+    },
+    "references/control-boards/2026-09-15/user-d-main-2558/previews/Power.txt": {
+      "destination": "docs/D_MAIN_2558/预览/Power.txt",
+      "reason": "retain",
+      "sha256": "5f602935325d915da9ad9937a88317b161a47c844bf3bc71d27ac1cc34240b44"
+    },
+    "references/mcu-comparison/2026-10-11/README.md": {
+      "destination": null,
+      "reason": "archive-only: previous H743 comparison evidence",
+      "sha256": "276e3cc252f9676a611672adb3d8c5fca393ece6a69063e146104686767208cf"
+    },
+    "references/mcu-comparison/2026-10-11/review_sources.py": {
+      "destination": null,
+      "reason": "archive-only: previous H743 comparison evidence",
+      "sha256": "7d0bd485d82b8c9c2d47d124492274f8da57f0ddaa3280ab6b57abf431d836c5"
+    },
+    "references/mcu-comparison/2026-10-11/RM0433_H743.download-url.txt": {
+      "destination": null,
+      "reason": "archive-only: previous H743 comparison evidence",
+      "sha256": "07a25e01a41a2ccc7827546629efad3dcee45944ddca13839298c4f7998ed329"
+    },
+    "references/mcu-comparison/2026-10-11/RM0433_H743.pdf": {
+      "destination": null,
+      "reason": "archive-only: previous H743 comparison evidence",
+      "sha256": "9ba54135736a47a302cdc28fdc7ca8f23c6eed5a646fa0a639af6ed2ad71336e"
+    },
+    "references/mcu-comparison/2026-10-11/source-index.json": {
+      "destination": null,
+      "reason": "archive-only: previous H743 comparison evidence",
+      "sha256": "3a3bfb2d9701ed937df4cabff67ad250f8d35f17f750eb6309922c1da3e1b0ae"
+    },
+    "references/mcu-pricing/2026-10-11/quotes.json": {
+      "destination": "docs/H7MS-Core-A1/技术依据/mcu-pricing/quotes.json",
+      "reason": "retain",
+      "sha256": "cf4fb27f3c4de340a17b5d643d4882f144666975c39f1873c587682ce9b2105e"
+    },
+    "references/pin-resource-review/2026-10-11/check_pin_candidate.py": {
+      "destination": "docs/H7MS-Core-A1/技术依据/pin-resource-review/check_pin_candidate.py",
+      "reason": "retain",
+      "sha256": "d8e03d31412e9f14a5ddad366c070f03c6c179f7208becdebc0bf8176918bfd4"
+    },
+    "references/pin-resource-review/2026-10-11/GPIO-STM32H72_gpio_v1_0_Modes.xml": {
+      "destination": "docs/H7MS-Core-A1/技术依据/pin-resource-review/GPIO-STM32H72_gpio_v1_0_Modes.xml",
+      "reason": "retain",
+      "sha256": "3589056b6537a909d273b6cd2a3acc3fe3faf8c07139ab02f95309ca0ee4c0bd"
+    },
+    "references/pin-resource-review/2026-10-11/H723_LCSC_Rev3.pdf": {
+      "destination": "docs/H7MS-Core-A1/技术依据/pin-resource-review/H723_LCSC_Rev3.pdf",
+      "reason": "retain",
+      "sha256": "deda60ae6494b0651c5631c59004f1f1fcaa3f394ab2efbef8bb046fc6342adf"
+    },
+    "references/pin-resource-review/2026-10-11/README.md": {
+      "destination": "docs/H7MS-Core-A1/技术依据/pin-resource-review/README.md",
+      "reason": "retain",
+      "sha256": "4abc99b85fffe0464418e196c2810972ac296e1d218e2f2fcebe608fe21765a0"
+    },
+    "references/pin-resource-review/2026-10-11/source-index.json": {
+      "destination": "docs/H7MS-Core-A1/技术依据/pin-resource-review/source-index.json",
+      "reason": "retain",
+      "sha256": "229201648e7137563fbb0d33c9723b88fe258f31f88d324986d9ae0bd472875f"
+    },
+    "references/pin-resource-review/2026-10-11/STM32H723VGTx.xml": {
+      "destination": "docs/H7MS-Core-A1/技术依据/pin-resource-review/STM32H723VGTx.xml",
+      "reason": "retain",
+      "sha256": "601987014a6e79245c9c6ca8f34b280935e20d1fe25bfbe18a9ad1a1fcd51116"
+    },
+    "references/pin-resource-review/2026-10-11/ST_open_pin_data_LICENSE": {
+      "destination": "docs/H7MS-Core-A1/技术依据/pin-resource-review/ST_open_pin_data_LICENSE",
+      "reason": "retain",
+      "sha256": "2e80479026d27db007f8bdd190860e4b0452ca30d622ef4c04084b064418a096"
+    },
+    "references/vgh-comparison/2026-10-11/all-100-balls.csv": {
+      "destination": "docs/H7MS-Core-A1/技术依据/vgh-comparison/all-100-balls.csv",
+      "reason": "retain",
+      "sha256": "5b1aba7364042713375af3a9d18c8f4c912cdab7e4a782ff9f202806eb20164c"
+    },
+    "references/vgh-comparison/2026-10-11/build_dm_candidates.py": {
+      "destination": "docs/H7MS-Core-A1/技术依据/vgh-comparison/build_dm_candidates.py",
+      "reason": "retain",
+      "sha256": "95e121553254ade2b00c98cc6874218fc11842a076fe8a9b448c25f482c07cb6"
+    },
+    "references/vgh-comparison/2026-10-11/compare_packages.py": {
+      "destination": "docs/H7MS-Core-A1/技术依据/vgh-comparison/compare_packages.py",
+      "reason": "retain",
+      "sha256": "7e0991b6e5e6ca2f0bc808ef42a6ca3cee8401495624d8f4072764fdeca3f472"
+    },
+    "references/vgh-comparison/2026-10-11/dm-pin-audit.json": {
+      "destination": "docs/H7MS-Core-A1/技术依据/vgh-comparison/dm-pin-audit.json",
+      "reason": "retain",
+      "sha256": "1294ae23b624aada3c94320ebee7ca7faaee1184519f8a44fd1adc1c33129751"
+    },
+    "references/vgh-comparison/2026-10-11/H735_LCSC_Rev3.pdf": {
+      "destination": "docs/H7MS-Core-A1/技术依据/vgh-comparison/H735_LCSC_Rev3.pdf",
+      "reason": "retain",
+      "sha256": "794380adb8b713fedbf41327f4679d60f3d08ebfedfc96cd7600338d502c61a6"
+    },
+    "references/vgh-comparison/2026-10-11/interfaces-side-by-side.csv": {
+      "destination": "docs/H7MS-Core-A1/技术依据/vgh-comparison/interfaces-side-by-side.csv",
+      "reason": "retain",
+      "sha256": "c665bbb9659bfe208f338ea39b419f94d2467b7eaa3d06b8c90b39a4f1fc0049"
+    },
+    "references/vgh-comparison/2026-10-11/lost-pin-impact.json": {
+      "destination": "docs/H7MS-Core-A1/技术依据/vgh-comparison/lost-pin-impact.json",
+      "reason": "retain",
+      "sha256": "f36d45038a97bf09ade2a09d88f0438d166c6bbf8f713a7ceec1c5c76b3eb3ab"
+    },
+    "references/vgh-comparison/2026-10-11/pin-audit.json": {
+      "destination": "docs/H7MS-Core-A1/技术依据/vgh-comparison/pin-audit.json",
+      "reason": "retain",
+      "sha256": "4ee0686413400e40423d92619eed64dfa52c55466a2213e55c64a19b501dd191"
+    },
+    "references/vgh-comparison/2026-10-11/quotes.json": {
+      "destination": "docs/H7MS-Core-A1/技术依据/vgh-comparison/quotes.json",
+      "reason": "retain",
+      "sha256": "4caf93728d9869468ad8565782bc21c2983dc940d237aa705937afc5deba74a9"
+    },
+    "references/vgh-comparison/2026-10-11/README.md": {
+      "destination": "docs/H7MS-Core-A1/技术依据/vgh-comparison/README.md",
+      "reason": "retain",
+      "sha256": "dfcf9a6081a1479846d31de9c5481eda02406c7defeff60d94eab92a2772c194"
+    },
+    "references/vgh-comparison/2026-10-11/source-index.json": {
+      "destination": "docs/H7MS-Core-A1/技术依据/vgh-comparison/source-index.json",
+      "reason": "retain",
+      "sha256": "868a6bbf5900a5f84af0283c754456f1704d03d1a3f52b5555d9a6f64ac25b6c"
+    },
+    "references/vgh-comparison/2026-10-11/user_SMPS_Figure17.png": {
+      "destination": "docs/H7MS-Core-A1/技术依据/vgh-comparison/user_SMPS_Figure17.png",
+      "reason": "retain",
+      "sha256": "83eaa28da5c7771a65f35ca2894d27cae60dc91861d7225c0df842ae3bba6b20"
+    },
+    "references/vgh-comparison/2026-10-11/previews/H723_Rev3_TFBGA100.png": {
+      "destination": "docs/H7MS-Core-A1/技术依据/vgh-comparison/previews/H723_Rev3_TFBGA100.png",
+      "reason": "retain",
+      "sha256": "64f8a1eda400c3a2988c00c737d97407c1943b1c8970b370a1fba3af90428fc1"
+    },
+    "references/vgh-comparison/2026-10-11/previews/H735_Rev3_current_table24.png": {
+      "destination": "docs/H7MS-Core-A1/技术依据/vgh-comparison/previews/H735_Rev3_current_table24.png",
+      "reason": "retain",
+      "sha256": "b4937a9da871bdd0b7b7a3e19db486ca321c0e3e5f4c6639e7cc54efcb5635c7"
+    },
+    "references/vgh-comparison/2026-10-11/previews/H735_Rev3_TFBGA100.png": {
+      "destination": "docs/H7MS-Core-A1/技术依据/vgh-comparison/previews/H735_Rev3_TFBGA100.png",
+      "reason": "retain",
+      "sha256": "a0b5c47ff693f495ed9252e378aa4c81e5a2eb45611d7e30a13cc40a63bb76b1"
+    }
+  }
+}

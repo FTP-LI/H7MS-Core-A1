@@ -1,0 +1,120 @@
+[
+  {
+    "path": "STM32H735_DS13312.pdf",
+    "url": "https://www.st.com/resource/en/datasheet/stm32h735ig.pdf",
+    "status": "unavailable",
+    "error": "567 Server Error: Unknown Status for url: https://www.st.com/resource/en/datasheet/stm32h735ig.pdf"
+  },
+  {
+    "path": "AN5419.pdf",
+    "url": "https://www.st.com/resource/en/application_note/dm00663674.pdf",
+    "status": "unavailable",
+    "error": "567 Server Error: Unknown Status for url: https://www.st.com/resource/en/application_note/dm00663674.pdf"
+  },
+  {
+    "path": "TPS62132.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/tps62133.pdf",
+    "bytes": 2536822,
+    "sha256": "f9b1af285622c0cf1a5991f9641a6e64c5e6d899e52cc0b1632808742019579f",
+    "status": "saved",
+    "retrieved_on": "2026-10-11"
+  },
+  {
+    "path": "TPS2116.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/tps2116.pdf",
+    "bytes": 2924080,
+    "sha256": "5babd88afb84e2e65c9c0da23b75f85758c0c730e34102a0fb746ac9573ed1d5",
+    "status": "saved",
+    "retrieved_on": "2026-10-11"
+  },
+  {
+    "path": "TPS2553.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/tps2553.pdf",
+    "bytes": 2091666,
+    "sha256": "88e453700cea2b263cdb5b44fce1e883e0f6d3b975457f879ac1423eeea42071",
+    "status": "saved",
+    "retrieved_on": "2026-10-11"
+  },
+  {
+    "path": "BMI088.pdf",
+    "url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf",
+    "bytes": 1368590,
+    "sha256": "53ab734dba49ac202fa6182fc2b545df6c6d7459c9fec6e851a1209e6bac417e",
+    "status": "saved",
+    "retrieved_on": "2026-10-11"
+  },
+  {
+    "path": "TCAN1042.pdf",
+    "url": "https://www.ti.com/lit/gpn/tcan1042hgv-q1",
+    "bytes": 2046885,
+    "sha256": "fe80d6638522457fc6f851911691dc70ad2546ebfb31237cd45305af0fb3705a",
+    "status": "saved",
+    "retrieved_on": "2026-10-11"
+  },
+  {
+    "path": "THVD1450.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/thvd1450.pdf",
+    "bytes": 2012884,
+    "sha256": "58ecc4cc07dd1d3206c2e67ffa734ad21a6d3a9e3c8c307068e6385bd79ee897",
+    "status": "saved",
+    "retrieved_on": "2026-10-11"
+  },
+  {
+    "path": "ASE.pdf",
+    "url": "https://abracon.com/Oscillators/ASE.pdf",
+    "status": "unavailable",
+    "error": "404 Client Error: Not Found for url: https://abracon.com/Oscillators/ASE.pdf"
+  },
+  {
+    "path": "SN74LVC1G17.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+    "bytes": 3015318,
+    "sha256": "c76fa723fac4502423967a1aa087dd669106b52b8de620c024b26e56f5d59309",
+    "status": "saved",
+    "retrieved_on": "2026-10-11"
+  },
+  {
+    "path": "USBLC6-2.pdf",
+    "url": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf",
+    "status": "unavailable",
+    "error": "567 Server Error: Unknown Status for url: https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+  },
+  {
+    "path": "VLS252012HBX-2R2M-1.html",
+    "url": "https://product.tdk.com/en/search/inductor/inductor/smd/info?part_no=VLS252012HBX-2R2M-1",
+    "status": "unavailable",
+    "error": "403 Client Error: Forbidden for url: https://product.tdk.com/en/search/inductor/inductor/smd/info?part_no=VLS252012HBX-2R2M-1"
+  },
+  {
+    "path": "SG-210STF.pdf",
+    "url": "https://download.epsondevice.com/td/pdf/brief/SG-210STF_en.pdf",
+    "status": "saved",
+    "bytes": 916955,
+    "sha256": "0d223ef1c34ffa51bc80dbdf38091a8cdf22a1a36acb5857b4e094231f3f0904",
+    "retrieved_on": "2026-10-11"
+  },
+  {
+    "path": "W25Q128JV_RevF.pdf",
+    "url": "https://www.winbond.com/resource-files/w25q128jv%20revf%2003272018%20plus.pdf",
+    "status": "saved",
+    "bytes": 2462647,
+    "sha256": "809f066e62bcde10b12c2202daf05f4776929ad7dc5f9d3b5131cdcc84502bc1",
+    "retrieved_on": "2026-10-11"
+  },
+  {
+    "path": "system_stm32h7xx.c",
+    "url": "https://raw.githubusercontent.com/STMicroelectronics/cmsis-device-h7/master/Source/Templates/system_stm32h7xx.c",
+    "status": "saved",
+    "bytes": 19751,
+    "sha256": "95a8fc5a6d765a78a8b6f0dd1fedc48994096df544e611e951c6c2e4426570e6",
+    "retrieved_on": "2026-10-11"
+  },
+  {
+    "path": "stm32h7xx_hal_pwr_ex.c",
+    "url": "https://raw.githubusercontent.com/STMicroelectronics/stm32h7xx-hal-driver/master/Src/stm32h7xx_hal_pwr_ex.c",
+    "status": "saved",
+    "bytes": 77070,
+    "sha256": "15469705b458ee696d3ca241ea85ec371c2463a5ac629ab9078d2912dab19c8c",
+    "retrieved_on": "2026-10-11"
+  }
+]

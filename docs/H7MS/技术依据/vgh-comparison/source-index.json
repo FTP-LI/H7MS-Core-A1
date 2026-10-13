@@ -1,0 +1,156 @@
+{
+  "observed_date": "2026-10-11",
+  "current_official_online_sources": [
+    {
+      "document": "DS13312 Rev4",
+      "date": "2023-11",
+      "url": "https://www.st.com/resource/en/datasheet/stm32h735ig.pdf",
+      "local_current_pdf_saved": false,
+      "reviewed_sections": "TFBGA100 capabilities, ballout/AF, power modes, Table24 current, mechanical package"
+    },
+    {
+      "document": "DS13313 Rev5",
+      "date": "2025-05",
+      "url": "https://www.st.com/resource/en/datasheet/stm32h723vg.pdf",
+      "local_current_pdf_saved": false,
+      "reviewed_sections": "TFBGA100 capabilities, ballout/AF, LDO, mechanical package"
+    },
+    {
+      "document": "AN5419 Rev3",
+      "date": "2026-01",
+      "url": "https://www.st.com/resource/en/application_note/an5419-getting-started-with-stm32h723733-stm32h725735-and-stm32h730-value-line-hardware-development-stmicroelectronics.pdf",
+      "local_current_pdf_saved": false,
+      "reviewed_sections": "Power configurations, Table2 components, SMPS and LDO requirements"
+    }
+  ],
+  "local_mirror": {
+    "path": "H735_LCSC_Rev3.pdf",
+    "document": "DS13312 Rev3",
+    "date": "2021-12",
+    "url": "https://atta.szlcsc.com/upload/public/pdf/source/20250630/4D669EFF30E971D5F167B6DEA5CFDC51.pdf",
+    "note": "Older ST datasheet mirror, not current Rev4. Used for disclosed visual cross-check.",
+    "pre_migration_path": "H735_LCSC_Rev3.pdf"
+  },
+  "reused_sources": [
+    "docs/H7MS/技术依据/compact-mcu-review/source-index.json",
+    "docs/H7MS/技术依据/pin-resource-review/README.md",
+    "docs/达妙 DM-MC02/原理图/schematic-v1.0-240124.pdf",
+    "docs/达妙 DM-MC02/资料/user-manual-v1.1.pdf"
+  ],
+  "file_hashes": [
+    {
+      "project_relative_path": "docs/H7MS/对比与研究/候选引脚/STM32H735_H723_VGH_DM_interfaces.csv",
+      "bytes": 10029,
+      "sha256": "65e3ee8ad5aaee51b25b67667d6f55fbb165f57e66835b547abf59e69ed467fc"
+    },
+    {
+      "project_relative_path": "docs/H7MS/技术依据/pin-resource-review/H723_LCSC_Rev3.pdf",
+      "bytes": 3172280,
+      "sha256": "deda60ae6494b0651c5631c59004f1f1fcaa3f394ab2efbef8bb046fc6342adf"
+    },
+    {
+      "project_relative_path": "docs/H7MS/技术依据/vgh-comparison/H735_LCSC_Rev3.pdf",
+      "bytes": 2562800,
+      "sha256": "794380adb8b713fedbf41327f4679d60f3d08ebfedfc96cd7600338d502c61a6"
+    },
+    {
+      "project_relative_path": "docs/H7MS/技术依据/vgh-comparison/README.md",
+      "bytes": 3509,
+      "sha256": "adb88f8638d160269676f661f245fc00698caaf596c40e829f4a4e141a50c343",
+      "pre_migration_sha256": "dfcf9a6081a1479846d31de9c5481eda02406c7defeff60d94eab92a2772c194",
+      "hash_updated_on": "2026-10-12"
+    },
+    {
+      "project_relative_path": "docs/H7MS/技术依据/vgh-comparison/all-100-balls.csv",
+      "bytes": 1537,
+      "sha256": "5b1aba7364042713375af3a9d18c8f4c912cdab7e4a782ff9f202806eb20164c"
+    },
+    {
+      "project_relative_path": "docs/H7MS/技术依据/vgh-comparison/build_dm_candidates.py",
+      "bytes": 4934,
+      "sha256": "bd88a78112aa899377e78e36c1575a604aca59478bcc6289fb63f589d93ef84f",
+      "pre_migration_sha256": "95e121553254ade2b00c98cc6874218fc11842a076fe8a9b448c25f482c07cb6",
+      "hash_updated_on": "2026-10-12"
+    },
+    {
+      "project_relative_path": "docs/H7MS/技术依据/vgh-comparison/compare_packages.py",
+      "bytes": 3832,
+      "sha256": "06ff166788456d3ad0f2d53c5300beef7e81ef7271dee36494a16f1b8b3c0aae",
+      "pre_migration_sha256": "7e0991b6e5e6ca2f0bc808ef42a6ca3cee8401495624d8f4072764fdeca3f472",
+      "hash_updated_on": "2026-10-12"
+    },
+    {
+      "project_relative_path": "docs/H7MS/技术依据/vgh-comparison/dm-pin-audit.json",
+      "bytes": 1115,
+      "sha256": "1294ae23b624aada3c94320ebee7ca7faaee1184519f8a44fd1adc1c33129751"
+    },
+    {
+      "project_relative_path": "docs/H7MS/技术依据/vgh-comparison/interfaces-side-by-side.csv",
+      "bytes": 2873,
+      "sha256": "c665bbb9659bfe208f338ea39b419f94d2467b7eaa3d06b8c90b39a4f1fc0049"
+    },
+    {
+      "project_relative_path": "docs/H7MS/技术依据/vgh-comparison/lost-pin-impact.json",
+      "bytes": 3253,
+      "sha256": "f36d45038a97bf09ade2a09d88f0438d166c6bbf8f713a7ceec1c5c76b3eb3ab"
+    },
+    {
+      "project_relative_path": "docs/H7MS/技术依据/vgh-comparison/pin-audit.json",
+      "bytes": 1292,
+      "sha256": "4ee0686413400e40423d92619eed64dfa52c55466a2213e55c64a19b501dd191"
+    },
+    {
+      "project_relative_path": "docs/H7MS/技术依据/vgh-comparison/previews/H723_Rev3_TFBGA100.png",
+      "bytes": 60885,
+      "sha256": "64f8a1eda400c3a2988c00c737d97407c1943b1c8970b370a1fba3af90428fc1"
+    },
+    {
+      "project_relative_path": "docs/H7MS/技术依据/vgh-comparison/previews/H735_Rev3_TFBGA100.png",
+      "bytes": 115437,
+      "sha256": "a0b5c47ff693f495ed9252e378aa4c81e5a2eb45611d7e30a13cc40a63bb76b1"
+    },
+    {
+      "project_relative_path": "docs/H7MS/技术依据/vgh-comparison/previews/H735_Rev3_current_table24.png",
+      "bytes": 160318,
+      "sha256": "b4937a9da871bdd0b7b7a3e19db486ca321c0e3e5f4c6639e7cc54efcb5635c7"
+    },
+    {
+      "project_relative_path": "docs/H7MS/技术依据/vgh-comparison/quotes.json",
+      "bytes": 2872,
+      "sha256": "4caf93728d9869468ad8565782bc21c2983dc940d237aa705937afc5deba74a9"
+    },
+    {
+      "project_relative_path": "docs/H7MS/技术依据/vgh-comparison/user_SMPS_Figure17.png",
+      "bytes": 153964,
+      "sha256": "83eaa28da5c7771a65f35ca2894d27cae60dc91861d7225c0df842ae3bba6b20"
+    }
+  ],
+  "user_supplied_image": {
+    "project_relative_path": "docs/H7MS/技术依据/vgh-comparison/user_SMPS_Figure17.png",
+    "original_name": "codex-clipboard-ceb7eb12-989c-42e7-8dbb-5ef166483ae7.png",
+    "received_date": "2026-10-11",
+    "description": "User screenshot of H735 Figure17 and Table16; unmodified copy"
+  },
+  "smps_startup_recovery_review": {
+    "date": "2026-10-11",
+    "sources": [
+      {
+        "url": "https://community.st.com/stm32-mcus-60/unable-to-connect-to-stm32h7-devices-26",
+        "scope": "ST employee guidance: supply configured once per POR, power-cycle and boot recovery"
+      },
+      {
+        "url": "https://community.st.com/stm32-mcus-60/how-can-i-recover-my-stm32h7-stm32h7rs-board-after-facing-a-power-configuration-deadlock-118",
+        "scope": "ST recovery procedure"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/STMicroelectronics/cmsis-device-h7/master/Source/Templates/system_stm32h7xx.c",
+        "scope": "Observed ExitRun0Mode and USE_PWR_DIRECT_SMPS_SUPPLY; moving master, not a pinned firmware dependency"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/STMicroelectronics/stm32h7xx-hal-driver/master/Src/stm32h7xx_hal_pwr_ex.c",
+        "scope": "Observed deprecated ConfigSupply API and locked-config guard; moving master, not a pinned firmware dependency"
+      }
+    ],
+    "limitation": "No firmware build, board changes, flash erase or hardware recovery performed. RM0468 download/open did not succeed; statements rely on AN5419, ST official guidance and driver source."
+  }
+}

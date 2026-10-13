@@ -1,0 +1,29 @@
+[
+  {
+    "path": "主板引脚标注图.pdf",
+    "url": "https://gitee.com/api/v5/repos/kit-miao/dm-mc02/git/blobs/eb18071474621e54dccabec61774a11eead94d93",
+    "git_blob_sha1": "eb18071474621e54dccabec61774a11eead94d93",
+    "sha256": "c0d76800238cea51618163bbc8af7c0bda4b233391140196b0d4a2541d11ad1a",
+    "bytes": 1760332,
+    "status": "saved",
+    "retrieved_on": "2026-10-11"
+  },
+  {
+    "path": "LCD模块原理图.pdf",
+    "url": "https://gitee.com/api/v5/repos/kit-miao/dm-mc02/git/blobs/f2b1672a058a6521afa4f8c22b6dc4bcb1089873",
+    "git_blob_sha1": "f2b1672a058a6521afa4f8c22b6dc4bcb1089873",
+    "sha256": "e38d4693032b4565001eedc5b17da644d9394280ba6107d9ddac89cc1355a2e9",
+    "bytes": 193276,
+    "status": "saved",
+    "retrieved_on": "2026-10-11"
+  },
+  {
+    "path": "主板结构模型.step",
+    "url": "https://gitee.com/api/v5/repos/kit-miao/dm-mc02/git/blobs/d1d67fc64435eb380289f214c5fd8665af0705c2",
+    "git_blob_sha1": "d1d67fc64435eb380289f214c5fd8665af0705c2",
+    "sha256": "cd8055098363ca79a72e8fdbf727b2685b54db5bb20c29e531e0ca1b0ff18a07",
+    "bytes": 39113347,
+    "status": "saved",
+    "retrieved_on": "2026-10-11"
+  }
+]

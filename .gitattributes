@@ -1,3 +1,6 @@
+# Make ordinary text consistent in clones and exported archives.
+* text=auto eol=lf
+
 # Preserve native EDA source bytes and exported archive checksums.
 *.epro binary
 *.epro2 binary

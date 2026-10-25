@@ -1,0 +1,62 @@
+[
+  {
+    "file": "TFM-footprint.pdf",
+    "url": "https://suddendocs.samtec.com/prints/tfm-1xx-x2-xxx-d-xx-footprint.pdf",
+    "sha256": "5e13fa9f20411989c8d8fd872be9e2e9e613d2eadd632afe91d04dbbb9106646",
+    "pages": 4
+  },
+  {
+    "file": "TFM-print.pdf",
+    "url": "https://suddendocs.samtec.com/prints/tfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf",
+    "sha256": "4e58e4227decf3e6e229b16ca7b711d9e672111ec1f53ea48887b822b292ede2",
+    "pages": 8
+  },
+  {
+    "file": "SFM-footprint.pdf",
+    "url": "https://suddendocs.samtec.com/prints/sf(x)-1xx-xx-xx-d-xx-footprint.pdf",
+    "sha256": "0d4930fb5e6384b7e054cdc0ef7f1a33d2170463fe78313089b089e3b9f7acf0",
+    "pages": 4
+  },
+  {
+    "file": "mated.pdf",
+    "url": "https://suddendocs.samtec.com/prints/xfm%20mated%20document-mkt.pdf",
+    "sha256": "3223a80cec477ee5531b86674ec3145e7637ec4adb5f53c89d59e89b1263005e",
+    "pages": 8
+  },
+  {
+    "file": "USB4105.pdf",
+    "url": "https://gct.co/files/drawings/usb4105.pdf",
+    "sha256": "fb331fbabee8392ed2937ed757c1610cb0f174b84625147c0b580a18eea8c0e5",
+    "pages": 2
+  },
+  {
+    "file": "SM712.pdf",
+    "url": "https://www.bourns.com/docs/product-datasheets/cdsot23-sm712.pdf",
+    "sha256": "75c1a765dbea8b5d7e57611b8787ce6b2856e57eef387b334bc0a894d91a19d2",
+    "pages": 5
+  },
+  {
+    "file": "SFM-print.pdf",
+    "url": "https://suddendocs.samtec.com/prints/sfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf",
+    "sha256": "b1e50a8c459289623b5991007ef65319fc21146099f6b13645f427e298e35ffe",
+    "pages": 5
+  },
+  {
+    "file": "CRCW-HP.pdf",
+    "url": "https://www.vishay.com/docs/20043/crcwhpe3.pdf",
+    "sha256": "994c2df0c2ac14ddcd74a019571ba05b28b1bef5f7754bff3bcca1f8e7694d5f",
+    "pages": 11
+  },
+  {
+    "file": "JST-XH.pdf",
+    "url": "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf",
+    "sha256": "9426b136902f11900825077535e5c65032b7fbc31ffb59c5e9e1f463bb20fb90",
+    "pages": 9
+  },
+  {
+    "file": "JST-VH.pdf",
+    "url": "https://www.jst-mfg.com/product/pdf/eng/eVH.pdf",
+    "sha256": "d51e669c597988b20c0963daf5bef7356cbd2104c1f867e9107c6fa6cd2b899c",
+    "pages": 6
+  }
+]

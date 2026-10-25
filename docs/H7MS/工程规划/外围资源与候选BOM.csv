@@ -1,0 +1,55 @@
+﻿reference,quantity,part,specification,placement,status,notes
+U1,1,STM32H735VGH6,TFBGA100 8x8mm p0.8,核心板,selected,3 native CAN; Direct SMPS
+L1,1,VLS252012HBX-2R2M-1,2.2uH 2.5x2.0x1.2mm,核心板,schematic-selected,DCR<=102mOhm; validate thermal derating
+C_SMPS_IN,1,GRM21BR61E106KA73L,10uF 25V X5R 0805,核心板,v0.9.3-selected,See 电源机械与40mm布局定版.md and 紧凑板装配清单.csv; not manufacturing release
+C_SMPS_HF,1,C1005X7R1H104K050BB,100nF 50V X7R 0402,核心板,v0.9.3-selected,See 电源机械与40mm布局定版.md and 紧凑板装配清单.csv; not manufacturing release
+C_SMPS_SW,1,C1608C0G1H221J080AA,220pF 50V C0G 0603,核心板,v0.9.3-selected,See 电源机械与40mm布局定版.md and 紧凑板装配清单.csv; not manufacturing release
+"C_VCORE1,C_VCORE2",2,GRM21BR61E106KA73L,2x10uF 25V X5R 0805; effective C qualification required,核心板,v0.9.3-selected,See 电源机械与40mm布局定版.md and 紧凑板装配清单.csv; not manufacturing release
+"C_VCAP_D8,C_VCAP_G6",2,C1005X7R1H104K050BB,100nF 50V X7R 0402,核心板,v0.9.3-selected,See 电源机械与40mm布局定版.md and 紧凑板装配清单.csv; not manufacturing release
+C_VDD,3,C1005X7R1H104K050BB,100nF 50V X7R 0402,核心板,v0.9.3-selected,See 电源机械与40mm布局定版.md and 紧凑板装配清单.csv; not manufacturing release
+C_VDD_BULK,1,GRM21BR61E106KA73L,10uF 25V X5R 0805,核心板,v0.9.3-selected,See 电源机械与40mm布局定版.md and 紧凑板装配清单.csv; not manufacturing release
+C_A_REF_USB_BAT,4+4,C1608X7R1C105K080AC / C1005X7R1H104K050BB,1uF16V0603 +100nF50V0402,核心板,v0.9.3-selected,See 电源机械与40mm布局定版.md and 紧凑板装配清单.csv; not manufacturing release
+U2,1,TPS62132RGTR,VQFN16 3x3mm fixed3.3V,核心板,schematic-selected,not TPS62133
+L2,1,XFL4020-222MEC,2.2uH 4x4mm,核心板,schematic-selected,5V to3.3V; derate output current
+C_BUCK_IN/OUT,3+4,GRM21BR61E106KA73L,input3x10uF/output4x10uF; separate100nF HF,核心板,v0.9.3-selected,See 电源机械与40mm布局定版.md and 紧凑板装配清单.csv; not manufacturing release
+C_BUCK_SS/R_BUCK_PG,1+1,C1608C0G1H103J080AA / 100k 1% 0402,10nF C0G; 5ms typical soft-start,核心板,v0.9.3-selected,See 电源机械与40mm布局定版.md and 紧凑板装配清单.csv; not manufacturing release
+Y1,1,X1G004171001500,2.5x2.0mm CMOS3.3V,核心板,schematic-selected,Epson SG-210STF 8.000000 MHz L; full ordering code verified
+R_HSE/C_HSE,1+1,22R 1% 0402 / C1005X7R1H104K050BB,22Ohm/100nF50V0402,核心板,v0.9.3-selected,See 电源机械与40mm布局定版.md and 紧凑板装配清单.csv; not manufacturing release
+"Y2,C_LSE",0,NOT_FITTED_NO_FOOTPRINT,32768Hz CL7pF; tuning capacitors,核心板,closed-not-in-A1,PC14/15 reserved; no LSE on compact A1
+R_BOOT/R_NRST/C_NRST,1+1+1,10k 1% 0402 / C1005X7R1H104K050BB,BOOT pulldown/NRST pullup/100nF,核心板,v0.9.3-selected,See 电源机械与40mm布局定版.md and 紧凑板装配清单.csv; not manufacturing release
+"J_SWD,SW_BOOT,SW_RESET,SW_AUX_RESET",1+3,FTSH-105-01-L-DV-007-K / EVQP7A01P,SWD pin7 absent; three normally-open buttons,核心板,v0.9.3-selected,See 电源机械与40mm布局定版.md and 紧凑板装配清单.csv; not manufacturing release
+U_IMU,1,BMI088,LGA16 3x4.5mm,核心板,schematic-selected,v0.9 SPI4 PE2/PE5/PE6; CS PE3/PE4; IRQ PC13/PD10
+U_NOR,1,W25Q128JVPIQ,WSON8 6x5mm 128Mbit,扩展板,profile-dependent,3.3V;100nF+1uF
+J_TF,1,DM3AT-SF-PEJM5,microSD 4-bit with card detect,BASE_IO,schematic-selected,microSD only on BASE_IO; no NOR implemented
+J_USB,1,USB4105-GF-A-120,USB-C USB2.0 Device,核心板,schematic-selected,v0.9.2 B4 drawing reviewed; 12 electrical pads + 4 shell slots + 2 NPTH
+U_USB_ESD,1,USBLC6-2SC6,SOT23-6,核心板,schematic-selected,check original pin drawing
+U_VBUS,1,SN74LVC1G17DBVR,SOT23-5,核心板,schematic-selected,1k series+100k input pulldown+100nF
+U_CAN1..3,3,TCAN1042HGVDRBRQ1,VSON8 3x3mm,核心板,schematic-selected,v0.9: all three transceivers on core; 5V VCC/3.3V VIO; independent STB; no fixed termination
+U_RS4851..4,0..4,THVD1450DR,SOIC8,底板,schematic-selected,3.3V; /RE+DE toDIR
+R_CAN_TERM/C_SPLIT,6+3,60.4R 1% 0805 / C1608C0G1H472J080AA,two60.4Ohm +4.7nF eachCAN; PCB solder jumper defaultOPEN,底板,v0.9.3-selected,See 电源机械与40mm布局定版.md and 紧凑板装配清单.csv; not manufacturing release
+TVS_CAN/CMC,3+3,"PESD2CANFD24V-T,215 / CMC bypass",FD-capable protection and bypass footprints,核心及扩展板,schematic-selected,core TVS fitted; extension TVS DNP; CMC not fitted
+"J1,J2",2,TFM-125-02-L-D-A-TR / SFM-125-02-L-D-A-TR,50 contacts each,核心板,schematic-selected,v0.9.2 physical map and land table; 6.30 mm fully mated; EDA/assembly sign-off pending
+"Q_HEAT,R_HEAT,NTC",1+4+1,DMN2056U-7 / RC1206FR-07200RL / NTCG163JF103FT1,200R1%1206 heater;60C independent cutoff,核心板,v0.9.3-selected,See 电源机械与40mm布局定版.md and 紧凑板装配清单.csv; not manufacturing release
+"U_RGB,LED,BUZZ_DRIVER",选装,SN74AHCT1G125等候选,5V TTL-compatible RGB driver,扩展板,profile-dependent,PWM pins reserved;exact package pending
+U_USB_MUX/LIMIT,0,TPS2116 / TPS2553,optional USB service supply,核心板,closed-not-in-A1,self-powered USB only; no service power path on A1
+R_PULLS,按网表,standard thick-film resistors,default0402 1%; precision ADC0.1%0603; termination0805/1206,核心及底板,value-package-defined,see per-net connections; commodity manufacturer AVL is purchasing choice; pulse resistors not substitutable
+U_TEMP/U_HEAT_POWER/U_HEAT_GATE,1+1+1,TMP302ADRLR / TPS22919DCKR / SN74LVC1G08DBVR,independent temperature sensing and heater power cutoff,核心板,schematic-selected,independent silicon thermostat; no second NTC; 60C trip 10C hysteresis; automatic recovery
+U_ETH/OSC_ETH/MAG/J_ETH,按NET配置,待选,RMII PHY/clock/magnetics/RJ45,扩展板,profile-dependent,NETWORK_GATEWAY; validate IO supply/reference clock/reset
+U_BASE_POWER/PROTECT,按底板,待选,wide input protection/buck/distribution/independent disable,扩展板,requirements-pending,input/peak current/regeneration requirements depend on robot
+AFE_ADC/DAC/PWM/ENCODER,按IO配置,待选,level conversion/filtering/protection/buffers,扩展板,profile-dependent,do not expose MCU directly to RS232/battery/motor power
+U_RESET,1,TPS3808G33DBVR,see v0.9.1 schematic connections,核心板,schematic-selected,3V3 supervisor; CT open; NRST wired-OR
+U_AUX,1,TPS2553DBVR-1,see v0.9.1 schematic connections,核心板,schematic-selected,45.3k 1% ILIM; 500mA design load; 519..644mA estimated limit
+U_AUX_MON/Q_BUS_ENABLE,2,TPS3808G33DBVR / DMN2056U-7,see v0.9.1 schematic connections,logical superset; split by 紧凑板装配清单.csv,schematic-selected,AUX valid delayed enable; OE high during ramp/fault
+U_SD_I2C_ISO,1,SN74CB3Q3245PWR,see v0.9.1 schematic connections,logical superset; split by 紧凑板装配清单.csv,schematic-selected,8 bit bidirectional SD/I2C isolation; Ioff; 3.3V signals only
+U_IO_BUF,19,SN74LVC1G125DBVR,see v0.9.1 schematic connections,logical superset; split by 紧凑板装配清单.csv,schematic-selected,8 UART TX/DIR +4 TTL RX option +2 HOST/RC RX +5 SPI RX; /OE=BUS_OE_N
+U_ENABLE/U_LOAD,2,SN74LVC1G08DBVR / TPS22919DCKR,see v0.9.1 schematic connections,logical superset; split by 紧凑板装配清单.csv,schematic-selected,NC ESTOP and PWR_EN; 5V dummy-load test only
+D_DEV1..4_485,4,CDSOT23-SM712,SOT23; line-side TVS,logical superset; split by 紧凑板装配清单.csv,schematic-selected,v0.9.2 connector/protection design; not hardware-qualified
+R_DEV1..4_A/B_SURGE,8,CRCW060310R0JNEAHP,10 ohm 5% pulse-proof 0603,logical superset; split by 紧凑板装配清单.csv,schematic-selected,v0.9.2 connector/protection design; not hardware-qualified
+J_CAN1..3/J_DEV1..4_485,7,B3B-XH-A(LF)(SN),2.50 mm PTH; XHP-3; SXH-001T-P0.6,logical superset; split by 紧凑板装配清单.csv,schematic-selected,v0.9.2 connector/protection design; not hardware-qualified
+J_PWR,1 per BASE,B2B-PH-SM4-TB(LF)(SN),PHR-2 / SPH-002T-P0.5S; AWG24; 2A; pin1=5V pin2=GND,logical superset; split by 紧凑板装配清单.csv,v0.9.3-selected,See 电源机械与40mm布局定版.md and 紧凑板装配清单.csv; not manufacturing release
+F1,1 per BASE,045102.5MRL,451 2.5A,see compact board allocation,v0.9.3-selected,See 电源机械与40mm布局定版.md
+SW_MAIN/U_MAIN,1+1 per BASE,JS102011SCQN / TPS22975DSGR,mechanical enable + 10nF CT soft-start,see compact board allocation,v0.9.3-selected,See 电源机械与40mm布局定版.md
+RV_PC0/RV_PC1,2,TC33X-2-103E,10k adjustable only,see compact board allocation,v0.9.3-selected,See 电源机械与40mm布局定版.md
+J_LINK,1,FTSH-106-01-L-DV,1.27mm2x6 SMT SPI,see compact board allocation,v0.9.3-selected,See 电源机械与40mm布局定版.md
+J_PWM,1,FTSH-104-01-L-DV,1.27mm2x4 SMT PWM bank,see compact board allocation,v0.9.3-selected,See 电源机械与40mm布局定版.md
+MECH_STACK,4+8,H7MS-MECH-M2-6P35-A1 / ISO4762 M2x4 A2-70,"custom6.35+/-0.03mm spacer,OD3.8; no washers",see compact board allocation,v0.9.3-selected,See 电源机械与40mm布局定版.md

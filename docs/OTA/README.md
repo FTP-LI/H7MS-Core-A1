@@ -2,7 +2,7 @@
 
 2026-10-12 · 对象：H7MS-Core-A1 / STM32H735VGH6 + Direct SMPS · 状态：方案建议，尚无固件实现或断电实测。
 
-**当前硬件具备实现 OTA 的基础，建议采用“Linux 上位机联网 + USB/UART 下发 + W25Q128 暂存 + MCU Bootloader 校验、安装和回退”。**不必为此更换主控或增加 ESP32，三路原生 CAN、IMU、四组设备串口等现有资源保持原规划。
+**采用配有 W25Q128 的存储扩展板时，建议使用“Linux 上位机联网 + USB/UART 下发 + NOR 暂存 + MCU Bootloader 校验、安装和回退”。**2026-10-13 的 [v0.9 工程规划](../H7MS/工程规划/README.md)已将 NOR/TF 移至扩展板，核心板本身不再默认具有外部暂存区；下列旧资源和分区论证需按所选配置重新验证，特别是缺板、掉电和启动恢复。
 
 H735 的 1 MiB 内部 Flash 是单 Bank，不能照搬双 Bank 无停机更新。W25Q128 的 16 MiB NOR 可以保存候选固件和恢复副本，但它不会增加运行 RAM，也不会自动带来断电恢复能力。下载可设计为低优先级后台任务；**内部 Flash 安装、试启动和回退必须进入停机维护阶段**。芯片依据见 [ST 数据手册 §3.3.1](https://www.st.com/resource/en/datasheet/stm32h735ig.pdf)及 [ST H7 产品手册](https://www.st.com/resource/en/brochure/brstm32h7.pdf)，具体工程推导见下列文档。
 

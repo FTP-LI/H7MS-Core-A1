@@ -1,0 +1,17 @@
+[
+  {
+    "file": "FTSH-pad.pdf",
+    "url": "https://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-footprint.pdf",
+    "sha256": "caa205b92560423f3b0aea9c69d6c38340d1b7f01b0655092994450e935edcb3"
+  },
+  {
+    "file": "FTSH-print.pdf",
+    "url": "https://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-mkt.pdf",
+    "sha256": "fccf00541693d43ebe960af7ad6c8ce28f4dd4e4f5c05c69564f53eefccd8d25"
+  },
+  {
+    "file": "EVQP7.pdf",
+    "url": "https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000C378.pdf",
+    "sha256": "a1ec47932a211ffa86d971e25b12b346fdd5b8b1aeafe5a1d91548962471a991"
+  }
+]

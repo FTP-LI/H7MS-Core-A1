@@ -1,0 +1,18 @@
+{
+  "status": "PASS-local-record-connectivity",
+  "components": 197,
+  "pins": 815,
+  "connected_pins": 805,
+  "nc_pins": 10,
+  "sheets": 11,
+  "negative_checks_detected": [
+    "missing-wire",
+    "wrong-net",
+    "missing-pin"
+  ],
+  "editor_import": "pending",
+  "editor_netlist": "pending",
+  "erc": "not-run",
+  "footprints": "unassigned",
+  "pcb": "not-created"
+}

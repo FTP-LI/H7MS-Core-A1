@@ -1,0 +1,1581 @@
+PAGE 1
+40
+35
+30
+25
+20
+15
+10
+5
+0
+Population
+-1.0
+-0.9
+-0.8
+-0.7
+-0.6
+-0.5
+-0.4
+-0.3
+-0.2
+-0.1
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+Accuracy (
+)
+C
+°
+Product
+Folder
+Order
+Now
+Technical
+Documents
+Tools &
+Software
+Support &
+Community
+An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications,
+intellectual property matters and other important disclaimers. PRODUCTION DATA.
+TMP302
+SBOS488E –JUNE 2009–REVISED DECEMBER 2018
+TMP302 Easy-to-Use, Low-Power, Low-Supply Temperature Switch in Micropackage
+1
+1
+Features
+1•
+Low Power: 15 μA (Maximum)
+•
+SOT563 Package: 1.6-mm × 1.6-mm × 0.6 mm
+•
+Trip-Point Accuracy: ±0.2°C (Typical) From +40°C
+to +125°C
+•
+Pin-Selectable Trip Points
+•
+Open-Drain Output
+•
+Pin-Selectable Hysteresis: 5°C and 10°C
+•
+Low Supply Voltage Range: 1.4 V to 3.6 V
+2
+Applications
+•
+Cell Phone Handsets
+•
+Portable Media Players
+•
+Consumer Electronics
+•
+Servers
+•
+Power-Supply Systems
+•
+DC-DC Modules
+•
+Thermal Monitoring
+•
+Electronic Protection Systems
+3
+Description
+The TMP302 device is a temperature switch in a
+micropackage (SOT563). The TMP302 offers low
+power (15-μA maximum) and ease-of-use through
+pin-selectable trip points and hysteresis.
+These devices require no additional components for
+operation;
+they
+can
+function
+independent
+of
+microprocessors or microcontrollers.
+The TMP302 is available in several different versions.
+For additional trip points, contact a TI representative.
+Device Information(1)
+PART NUMBER
+PACKAGE
+SELECTABLE TRIP
+POINTS (ºC)(2)
+TMP302A
+SOT (6)
+50, 55, 60, 65
+TMP302B
+SOT (6)
+70, 75, 80, 85
+TMP302C
+SOT (6)
+90, 95, 100, 105
+TMP302D
+SOT (6)
+110, 115, 120, 125
+(1) For all available packages, see the orderable addendum at
+the end of the data sheet.
+(2) For other available trip points, contact a TI representative.
+Trip Threshold Accuracy
+
+PAGE 2
+1
+TRIPSET0
+6
+ TRIPSET1
+2
+GND
+5
+ VS
+3
+OUT
+4
+ HYSTSET
+2
+TMP302
+SBOS488E –JUNE 2009–REVISED DECEMBER 2018
+www.ti.com
+Product Folder Links: TMP302
+Submit Documentation Feedback
+Copyright © 2009–2018, Texas Instruments Incorporated
+Table of Contents
+1
+Features.................................................................. 1
+2
+Applications ........................................................... 1
+3
+Description ............................................................. 1
+4
+Revision History..................................................... 2
+5
+Pin Configuration and Functions......................... 2
+6
+Specifications......................................................... 4
+6.1
+Absolute Maximum Ratings ...................................... 4
+6.2
+ESD Ratings.............................................................. 4
+6.3
+Recommended Operating Conditions....................... 4
+6.4
+Thermal Information.................................................. 4
+6.5
+Electrical Characteristics........................................... 5
+6.6
+Typical Characteristics.............................................. 5
+7
+Detailed Description .............................................. 7
+7.1
+Overview ................................................................... 7
+7.2
+Functional Block Diagram ......................................... 7
+7.3
+Feature Description................................................... 8
+7.4
+Device Functional Modes.......................................... 8
+8
+Application and Implementation .......................... 9
+8.1
+Application Information.............................................. 9
+8.2
+Typical Application ................................................... 9
+9
+Power Supply Recommendations...................... 11
+10
+Layout................................................................... 11
+10.1
+Layout Guidelines ................................................. 11
+10.2
+Layout Example .................................................... 11
+11
+Device and Documentation Support ................. 12
+11.1
+Receiving Notification of Documentation Updates 12
+11.2
+Community Resources.......................................... 12
+11.3
+Trademarks........................................................... 12
+11.4
+Electrostatic Discharge Caution............................ 12
+11.5
+Glossary................................................................ 12
+12
+Mechanical, Packaging, and Orderable
+Information ........................................................... 12
+4
+Revision History
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version.
+Changes from Revision D (October 2018) to Revision E
+Page
+•
+Changed the input pin supply voltage maximum value from: : VS + 0.5 and ≤4 V to: : VS + 0.3 and ≤4 V ......................... 4
+Changes from Revision B (December 2014) to Revision C
+Page
+•
+Changed device names by simplifying from TMP302A, TMP302B, TMP302C, and TMP302D to TMP302 ......................... 1
+•
+Added plus-minus symbol to Machine Model value in ESD Ratings table............................................................................. 4
+•
+Moved Specified Operating Temperature parameter from Electrical Characteristics table to Recommended
+Operating Conditions table ..................................................................................................................................................... 4
+•
+Added Community Resources section ................................................................................................................................. 12
+Changes from Revision A (September 2009) to Revision B
+Page
+•
+Added ESD Ratings table, Feature Description section, Device Functional Modes, Application and Implementation
+section, Power Supply Recommendations section, Layout section, Device and Documentation Support section, and
+Mechanical, Packaging, and Orderable Information section ................................................................................................. 1
+5
+Pin Configuration and Functions
+DRL Package
+6-Pin SOT
+Top View
+
+PAGE 3
+3
+TMP302
+www.ti.com
+SBOS488E –JUNE 2009–REVISED DECEMBER 2018
+Product Folder Links: TMP302
+Submit Documentation Feedback
+Copyright © 2009–2018, Texas Instruments Incorporated
+Pin Functions
+PIN
+TYPE
+DESCRIPTION
+NO.
+NAME
+1
+TRIPSET0
+Digital Input
+Used in combination with TRIPSET1 to select the temperature at which the device trips
+2
+GND
+Ground
+Ground
+3
+OUT
+Digital Output Open drain, active-low output
+4
+HYSTSET
+Digital Input
+Used to set amount of thermal hysteresis
+5
+VS
+Power
+Supply
+Power supply
+6
+TRIPSET1
+Digital Input
+Used in combination with TRIPSET0 to select the temperature at which the device trips
+
+PAGE 4
+4
+TMP302
+SBOS488E –JUNE 2009–REVISED DECEMBER 2018
+www.ti.com
+Product Folder Links: TMP302
+Submit Documentation Feedback
+Copyright © 2009–2018, Texas Instruments Incorporated
+(1)
+Stresses beyond those listed under Absolute Maximum Ratings may cause permanent damage to the device. These are stress ratings
+only, which do not imply functional operation of the device at these or any other conditions beyond those indicated under Recommended
+Operating Conditions. Exposure to absolute-maximum-rated conditions for extended periods may affect device reliability.
+6
+Specifications
+6.1
+Absolute Maximum Ratings
+over operating free-air temperature range (unless otherwise noted)(1)
+MIN
+MAX
+UNIT
+Voltage
+Supply
+4
+V
+Input pin (TRIPSET0, TRIPSET1, HYSTSET)
+–0.5
+VS + 0.3
+and ≤4
+Output pin (OUT)
+–0.5
+4
+Current
+Output pin (OUT)
+10
+mA
+Temperature
+Operating
+–55
+130
+°C
+Junction
+150
+Storage
+–60
+150
+(1)
+JEDEC document JEP155 states that 500-V HBM allows safe manufacturing with a standard ESD control process.
+(2)
+JEDEC document JEP157 states that 250-V CDM allows safe manufacturing with a standard ESD control process.
+6.2
+ESD Ratings
+VALUE
+UNIT
+V(ESD)
+Electrostatic discharge
+Human-body model (HBM), per ANSI/ESDA/JEDEC JS-001(1)
+±2000
+V
+Charged-device model (CDM), per JEDEC specification JESD22-C101(2)
+±1000
+Machine model (MM)
+±500
+6.3
+Recommended Operating Conditions
+over operating free-air temperature range (unless otherwise noted)
+MIN
+NOM
+MAX
+UNIT
+VS
+Power supply voltage
+1.4
+3.3
+3.6
+V
+Rpullup
+Pullup resistor connected fromOUT to VS
+10
+100
+kΩ
+TA
+Specified temperature
+–40
+125
+°C
+(1)
+For more information about traditional and new thermal metrics, see the Semiconductor and IC Package Thermal Metrics application
+report (SPRA953).
+6.4
+Thermal Information
+THERMAL METRIC(1)
+TMP302
+UNIT
+DRL (SOT)
+6 PINS
+RθJA
+Junction-to-ambient thermal resistance
+210.3
+°C/W
+RθJC(top)
+Junction-to-case (top) thermal resistance
+105.0
+°C/W
+RθJB
+Junction-to-board thermal resistance
+87.5
+°C/W
+ψJT
+Junction-to-top characterization parameter
+6.1
+°C/W
+ψJB
+Junction-to-board characterization parameter
+87.0
+°C/W
+
+PAGE 5
+2.0
+1.5
+1.0
+0.5
+0
+-0.5
+1.0
+1.5
+2.0
+-
+-
+-
+40
+50
+60
+70
+80
+90
+100
+110
+130
+Temperature ( C)
+°
+Trip Accuracy ( C)
+°
+120
+16
+14
+12
+10
+8
+6
+4
+2
+0
+-75
+-50
+-25
+0
+25
+50
+75
+100
+150
+Temperature ( C)
+°
+Quiescent Current (µA)
+125
+V = 3.6 V
+S
+V = 3.3 V
+S
+V = 1.4 V
+S
+5
+TMP302
+www.ti.com
+SBOS488E –JUNE 2009–REVISED DECEMBER 2018
+Product Folder Links: TMP302
+Submit Documentation Feedback
+Copyright © 2009–2018, Texas Instruments Incorporated
+6.5
+Electrical Characteristics
+At TA = –40°C to +125°C, and VS = 1.4 to 3.6 V (unless otherwise noted). 100% of all units are production tested at TA =
+25°C; overtemperature specifications are specified by design.
+PARAMETER
+TEST CONDITIONS
+MIN
+TYP
+MAX
+UNIT
+TEMPERATURE MEASUREMENT
+Trip point accuracy
+±0.2
+±2
+°C
+Trip point accuracy versus
+supply
+±0.2
+±0.5
+°C/V
+Trip point hysteresis
+HYSTSET = GND
+5
+°C
+HYSTSET = VS
+10
+°C
+TEMPERATURE TRIP POINT SET
+Temperature trip point set
+TRIPSET1 = GND, TRIPSET0 =
+GND
+Default
+°C
+TRIPSET1 = GND, TRIPSET0 = VS
+Default + 5
+°C
+TRIPSET1 = VS, TRIPSET0 = GND
+Default + 10
+°C
+TRIPSET1 = VS, TRIPSET0 = VS
+Default + 15
+°C
+HYSTERESIS SET INPUT
+VIH
+Input logic level high
+0.7 × VS
+VS
+V
+VIL
+Input logic level low
+–0.5
+0.3 × VS
+V
+II
+Input current
+0 < VI < 3.6 V
+1
+µA
+DIGITAL OUTPUT
+VOL
+Output logic level low
+VS > 2 V, IOL = 3 mA
+0
+0.4
+V
+VS < 2 V, IOL = 3 mA
+0
+0.2 × VS
+V
+POWER SUPPLY
+Operating Supply Range
+1.4
+3.6
+V
+IQ
+Quiescent Current
+TA = –40°C to +125°C
+8
+15
+µA
+VS = 3.3 V, TA = 50°C
+7
+µA
+6.6
+Typical Characteristics
+At TA = 25°C and VS = 3.3 V, unless otherwise noted.
+30 typical units
+Figure 1. Trip Accuracy Error vs Temperature
+Figure 2. Quiescent Current vs Temperature
+
+PAGE 6
+Voltage (2 V/div)
+Time (8 µs/div)
+OUT
+VS
+Voltage (2 V/div)
+Time (10 ms/div)
+OUT
+VS
+40
+35
+30
+25
+20
+15
+10
+5
+0
+Population
+-1.0
+-0.9
+-0.8
+-0.7
+-0.6
+-0.5
+-0.4
+-0.3
+-0.2
+-0.1
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+Accuracy (
+)
+C
+°
+400
+350
+300
+250
+200
+150
+100
+50
+0
+-75
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+Temperature ( C)
+°
+Output Logic Level Low (mV)
+120
+100
+80
+60
+40
+20
+0
+Temperature ( C)
+°
+0
+5
+10
+15
+20
+25
+30
+Time (s)
+100
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+Temperature ( C)
+°
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+200
+Time (s)
+6
+TMP302
+SBOS488E –JUNE 2009–REVISED DECEMBER 2018
+www.ti.com
+Product Folder Links: TMP302
+Submit Documentation Feedback
+Copyright © 2009–2018, Texas Instruments Incorporated
+Typical Characteristics (continued)
+At TA = 25°C and VS = 3.3 V, unless otherwise noted.
+Figure 3. Temperature Step Response in Perfluorinated
+Fluid at 100°C vs Time
+Figure 4. Thermal Step Response in Air at 100°C vs Time
+Figure 5. Trip Threshold Accuracy
+VS = 1.4 V
+IOL = 2 mA
+Figure 6. Output Logic-Level Low VOL vs Temperature
+Figure 7. Power-Up and Power-Down Response
+TMP302A, TA = 55°C
+TRIPSET1 = TRIPSET0 = GND
+Figure 8. Power-Up, Trip, and Power-Down Response
+
+PAGE 7
+TRIPSET0
+Temperature 
+Threshold and 
+Hysteresis
+Temperature 
+Sensor
+Comparator
+Alert
+Bias
+TRIPSET1
+GROUND
+OUT
+VS
+HYSTSET
+7
+TMP302
+www.ti.com
+SBOS488E –JUNE 2009–REVISED DECEMBER 2018
+Product Folder Links: TMP302
+Submit Documentation Feedback
+Copyright © 2009–2018, Texas Instruments Incorporated
+7
+Detailed Description
+7.1
+Overview
+The TMP302 temperature switch is optimal for ultra low-power applications that require accurate trip thresholds.
+A temperature switch is a device that issues an alert response when a temperature threshold is reached or
+exceeded. The trip thresholds are programmable to four different settings using the TRIPSET1 and TRIPSET0
+pins. Table 1 lists the pin settings versus trip points.
+Table 1. Trip Point versus TRIPSET1 and TRIPSET0
+TRIPSET1
+TRIPSET0
+TMP302A
+TMP302B
+TMP302C
+TMP302D
+GND
+GND
+50°C
+70°C
+90°C
+110°C
+GND
+VS
+55°C
+75°C
+95°C
+115°C
+VS
+GND
+60°C
+80°C
+100°C
+120°C
+VS
+VS
+65°C
+85°C
+105°C
+125°C
+7.2
+Functional Block Diagram
+
+PAGE 8
+OUT
+50°C
+60°C
+T(TRIP)
+VS
+8
+TMP302
+SBOS488E –JUNE 2009–REVISED DECEMBER 2018
+www.ti.com
+Product Folder Links: TMP302
+Submit Documentation Feedback
+Copyright © 2009–2018, Texas Instruments Incorporated
+7.3
+Feature Description
+7.3.1
+HYSTSET
+If the temperature trip threshold is crossed, the open-drain, active low output (OUT) goes low and does not return
+to the original high state (that is, VS) until the temperature returns to a value within a hysteresis window set by
+the HYSTSET pin. The HYSTSET pin allows the user to choose between a 5°C and a 10°C hysteresis window.
+Table 2 lists the hysteresis window that corresponds to the HYSTSET setting.
+Table 2. HYSTSET Window
+HYSTSET
+THRESHOLD HYSTERESIS
+GND
+5°C
+VS
+10°C
+For the specific case of the device, if the HYSTSET pin is set to 10°C (that is, connected to VS) and the device is
+configured with a 60°C trip point (TRIPSET1 = VS, TRIPSET0 = GND), when this threshold is exceeded the
+output does not return to the original high state until it reaches 50°C. This case is more clearly shown in Figure 9.
+Figure 9. TMP302A: HYSTSET = VS, TRIPSET1 = VS, TRIPSET0 = GND
+7.4
+Device Functional Modes
+The TMP302 family of devices has a single functional mode. Normal operation for the TMP302 family of devices
+occurs when the power-supply voltage applied between the VS pin and GND is within the specified operating
+range of 1.4 to 3.6 V. The temperature threshold is selected by connecting the TRIPSET0 and TRIPSET1 pins to
+either the GND or VS pins (see Table 1). Hysteresis is selected by connecting the HYSTSET pin to either the
+GND or VS pins (see Table 2). The output pin, OUT, remains high when the temperature is below the selected
+temperature threshold. The OUT pin remains low when the temperature is at or above the selected temperature
+threshold. The OUT pin returns from a low state back to the high state based upon the amount of selected
+hysteresis (see the HYSTSET section).
+
+PAGE 9
+TMP302
+TRIPSET0
+TRIPSET1
+HYSTSET
+GND
+VS
+OUT
+0.1 µF
+OUTPUT
+VS
+1.4 V to 3.6 V
+10 k
+9
+TMP302
+www.ti.com
+SBOS488E –JUNE 2009–REVISED DECEMBER 2018
+Product Folder Links: TMP302
+Submit Documentation Feedback
+Copyright © 2009–2018, Texas Instruments Incorporated
+8
+Application and Implementation
+NOTE
+Information in the following applications sections is not part of the TI component
+specification, and TI does not warrant its accuracy or completeness. TI’s customers are
+responsible for determining suitability of components for their purposes. Customers should
+validate and test their design implementation to confirm system functionality.
+8.1
+Application Information
+8.1.1
+Configuring the TMP302
+The TMP302 family of devices is simple to configure. The only external components that the device requires are
+a bypass capacitor and pullup resistor. Power-supply bypassing is strongly recommended. Use a 0.1-µF
+capacitor placed as close as possible to the supply pin. To minimize the internal power dissipation of the
+TMP302 family of devices, use a pullup resistor value greater than 10 kΩ from the OUT pin to the VS pin. Refer
+to Table 1 for trip-point temperature configuration. The TRIPSET pins can be toggled dynamically; however, the
+voltage of these pins must not exceed VS. To ensure a proper logic high, the voltage must not drop below 0.7 V
+× VS.
+8.2
+Typical Application
+Figure 10 shows the typical circuit configuration for the TMP302 family of devices. The TMP302 family of devices
+is configured for the default temperature threshold by connecting the TRIPSET0 and TRIPSET1 pins directly to
+ground. Connecting the HYSTSET pin to ground configures the device for 5°C of hysteresis. Place a 10-kΩ
+pullup resistor between the OUT and VS pins. Place a 0.1-µF bypass capacitor between the VS pin and ground,
+close to the TMP302 device.
+Figure 10. TMP302 Typical Application Schematic
+Figure 11 shows the most generic implementation of the TMP302 family of devices. Switches are shown
+connecting the TMPSET0, TMPSET1 and HYSTSET pins to either VS or ground. The use of switches is not
+strictly required; the switches are shown only to illustrate the various pin connection combinations. In practice,
+connecting the TMPSET0, TMPSET1 and HYSTSET pins to ground or directly to the VS pin is sufficient and
+minimizes space and cost. If additional flexibility is desired, connections from the TMPSET0, TMPSET1 and
+HYSTSET pins can be made through 0-Ω resistors which can be either populated or not populated depending
+upon the desired connection.
+
+PAGE 10
+TMP302
+TRIPSET0
+TRIPSET1
+HYSTSET
+GND
+VS
+OUT
+0.1 µF
+OUTPUT
+VS
+1.4 V to 3.6 V
+10 k
+10
+TMP302
+SBOS488E –JUNE 2009–REVISED DECEMBER 2018
+www.ti.com
+Product Folder Links: TMP302
+Submit Documentation Feedback
+Copyright © 2009–2018, Texas Instruments Incorporated
+Typical Application (continued)
+Figure 11. TMP302 Generic Application Schematic
+8.2.1
+Design Requirements
+Designing with the TMP302 family of devices is simple. The TMP302 family of devices is a temperature switch
+commonly used to signal a microprocessor in the event of an over temperature condition. The temperature at
+which the TMP302 family of devices issues an active low alert is determined by the configuration of the
+TRIPSET0 and TRIPSET1 pins. These two pins are digital inputs and must be tied either high or low, according
+to Table 1. The TMP302 family of devices issues an active low alert when the temperature threshold is
+exceeded. The device has built-in hysteresis to avoid the device from signaling the microprocessor as soon as
+the temperature drops below the temperature threshold. The amount of hysteresis is determined by the
+HYSTSET pin. This pin is a digital input and must be tied either high or low, according to Table 2.
+See Figure 10 and Figure 11 for typical circuit configurations.
+8.2.2
+Detailed Design Procedure
+Determine the threshold temperature and hysteresis required for the application. Connect the TMPSET0,
+TMPSET1, and HYSTSET pins according to the design requirements. Refer to Table 1 and Table 2. Use a 10-kΩ
+pullup resistor from the OUT pin to the VS pin. To minimize power, a larger-value pullup resistor can be used but
+must not exceed 100 kΩ. Place a 0.1-µF bypass capacitor close to the TMP302 device to reduce noise coupled
+from the power supply.
+8.2.3
+Application Curves
+Figure 12 and Figure 13 show the TMP302A power-on response with the ambient temperature less than 50°C
+and greater than 50°C respectively. The TMP302A was configured with trip point set to 50°C. The TMP302B,
+TMP302C, and TMP302D devices behave similarly with regards to power on response with TA below or above
+the trip point. Note that the OUT signal typically requires 35 ms following power on to become valid.
+
+PAGE 11
+TRIPSET0
+TRIPSET1
+GND
+OUT
+VS
+HYSTSET
+Heat Source
+0.1 µF
+VIA to Power Ground Plane
+Ground Plane for 
+Thermal 
+Coupling to Heat 
+Source
+Supply Voltage
+Output
+10 k
+Time (5 µs/div)
+Voltage (2 V/div)
+OUT
+VS
+Time (10 ms/div)
+Voltage (2 V/div)
+OUT
+VS
+11
+TMP302
+www.ti.com
+SBOS488E –JUNE 2009–REVISED DECEMBER 2018
+Product Folder Links: TMP302
+Submit Documentation Feedback
+Copyright © 2009–2018, Texas Instruments Incorporated
+Typical Application (continued)
+Figure 12. TMP302A Power-On Response,
+TA Less than 50°C
+Figure 13. TMP302A Power-On Response,
+TA Greater than 50°C
+9
+Power Supply Recommendations
+The TMP302 family of devices is designed to operate from a single power supply within the range 1.4 V and 3.6
+V. No specific power supply sequencing with respect to any of the input or output pins is required. The TMP302
+family of devices is fully functional within 35 ms of the voltage at the VS pin reaching or exceeding 1.4 V.
+10
+Layout
+10.1
+Layout Guidelines
+Place the power supply bypass capacitor as close as possible to the VS and GND pins. The recommended value
+for this bypass capacitor is 0.1-µF. Additional bypass capacitance can be added to compensate for noisy or high-
+impedance power supplies. Place a 10-kΩ pullup resistor from the open drain OUT pin to the power supply pin
+VS.
+10.2
+Layout Example
+Figure 14. Layout Example
+
+PAGE 12
+12
+TMP302
+SBOS488E –JUNE 2009–REVISED DECEMBER 2018
+www.ti.com
+Product Folder Links: TMP302
+Submit Documentation Feedback
+Copyright © 2009–2018, Texas Instruments Incorporated
+11
+Device and Documentation Support
+11.1
+Receiving Notification of Documentation Updates
+To receive notification of documentation updates, navigate to the device product folder on ti.com. In the upper
+right corner, click on Alert me to register and receive a weekly digest of any product information that has
+changed. For change details, review the revision history included in any revised document.
+11.2
+Community Resources
+The following links connect to TI community resources. Linked contents are provided "AS IS" by the respective
+contributors. They do not constitute TI specifications and do not necessarily reflect TI's views; see TI's Terms of
+Use.
+TI E2E™Online Community TI's Engineer-to-Engineer (E2E) Community. Created to foster collaboration
+among engineers. At e2e.ti.com, you can ask questions, share knowledge, explore ideas and help
+solve problems with fellow engineers.
+Design Support TI's Design Support Quickly find helpful E2E forums along with design support tools and
+contact information for technical support.
+11.3
+Trademarks
+E2E is a trademark of Texas Instruments.
+All other trademarks are the property of their respective owners.
+11.4
+Electrostatic Discharge Caution
+This integrated circuit can be damaged by ESD. Texas Instruments recommends that all integrated circuits be handled with
+appropriate precautions. Failure to observe proper handling and installation procedures can cause damage.
+ESD damage can range from subtle performance degradation to complete device failure. Precision integrated circuits may be more
+susceptible to damage because very small parametric changes could cause the device not to meet its published specifications.
+11.5
+Glossary
+SLYZ022 — TI Glossary.
+This glossary lists and explains terms, acronyms, and definitions.
+12
+Mechanical, Packaging, and Orderable Information
+The following pages include mechanical, packaging, and orderable information. This information is the most
+current data available for the designated devices. This data is subject to change without notice and revision of
+this document. For browser-based versions of this data sheet, refer to the left-hand navigation.
+
+PAGE 13
+PACKAGE OPTION ADDENDUM
+www.ti.com
+5-Mar-2026
+PACKAGING INFORMATION
+Orderable part number
+Status
+(1)
+Material type
+(2)
+Package | Pins
+Package qty | Carrier
+RoHS
+(3)
+Lead finish/
+Ball material
+(4)
+MSL rating/
+Peak reflow
+(5)
+Op temp (°C)
+Part marking
+(6)
+TMP302ADRLR
+Active
+Production
+SOT-5X3 (DRL) | 6
+4000 | LARGE T&R
+Yes
+NIPDAU | NIPDAUAG
+Level-1-260C-UNLIM
+-40 to 125
+OCP
+TMP302ADRLR.A
+Active
+Production
+SOT-5X3 (DRL) | 6
+4000 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 125
+OCP
+TMP302ADRLT
+Obsolete
+Production
+SOT-5X3 (DRL) | 6
+-
+-
+Call TI
+Call TI
+-40 to 125
+OCP
+TMP302BDRLR
+Active
+Production
+SOT-5X3 (DRL) | 6
+4000 | LARGE T&R
+Yes
+NIPDAU | NIPDAUAG
+Level-1-260C-UNLIM
+-40 to 125
+OCT
+TMP302BDRLR.A
+Active
+Production
+SOT-5X3 (DRL) | 6
+4000 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 125
+OCT
+TMP302BDRLR.B
+Active
+Production
+SOT-5X3 (DRL) | 6
+4000 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 125
+OCT
+TMP302BDRLT
+Obsolete
+Production
+SOT-5X3 (DRL) | 6
+-
+-
+Call TI
+Call TI
+-40 to 125
+OCT
+TMP302CDRLR
+Active
+Production
+SOT-5X3 (DRL) | 6
+4000 | LARGE T&R
+Yes
+NIPDAU | NIPDAUAG
+Level-1-260C-UNLIM
+-40 to 125
+OCR
+TMP302CDRLR.A
+Active
+Production
+SOT-5X3 (DRL) | 6
+4000 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 125
+OCR
+TMP302CDRLR.B
+Active
+Production
+SOT-5X3 (DRL) | 6
+4000 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 125
+OCR
+TMP302CDRLT
+Obsolete
+Production
+SOT-5X3 (DRL) | 6
+-
+-
+Call TI
+Call TI
+-40 to 125
+OCR
+TMP302DDRLR
+Active
+Production
+SOT-5X3 (DRL) | 6
+4000 | LARGE T&R
+Yes
+NIPDAU | NIPDAUAG
+Level-1-260C-UNLIM
+-40 to 125
+OCS
+TMP302DDRLR.A
+Active
+Production
+SOT-5X3 (DRL) | 6
+4000 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 125
+OCS
+TMP302DDRLR.B
+Active
+Production
+SOT-5X3 (DRL) | 6
+4000 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 125
+OCS
+TMP302DDRLT
+Obsolete
+Production
+SOT-5X3 (DRL) | 6
+-
+-
+Call TI
+Call TI
+-40 to 125
+OCS
+ 
+(1) Status:  For more details on status, see our product life cycle.
+ 
+(2) Material type:  When designated, preproduction parts are prototypes/experimental devices, and are not yet approved or released for full production. Testing and final process, including without limitation quality assurance,
+reliability performance testing, and/or process qualification, may not yet be complete, and this item is subject to further changes or possible discontinuation. If available for ordering, purchases will be subject to an additional
+waiver at checkout, and are intended for early internal evaluation purposes only. These items are sold without warranties of any kind.
+ 
+(3) RoHS values:  Yes, No, RoHS Exempt. See the TI RoHS Statement for additional information and value definition.
+ 
+(4) Lead finish/Ball material:  Parts may have multiple material finish options. Finish options are separated by a vertical ruled line. Lead finish/Ball material values may wrap to two lines if the finish value exceeds the maximum
+column width.
+ 
+(5) MSL rating/Peak reflow:  The moisture sensitivity level ratings and peak solder (reflow) temperatures. In the event that a part has multiple moisture sensitivity ratings, only the lowest level per JEDEC standards is shown.
+Refer to the shipping label for the actual reflow temperature that will be used to mount the part to the printed circuit board.
+ 
+(6) Part marking:  There may be an additional marking, which relates to the logo, the lot trace code information, or the environmental category of the part.
+Addendum-Page 1
+
+PAGE 14
+PACKAGE OPTION ADDENDUM
+www.ti.com
+5-Mar-2026
+ 
+Multiple part markings will be inside parentheses. Only one part marking contained in parentheses and separated by a "~" will appear on a part. If a line is indented then it is a continuation of the previous line and the two
+combined represent the entire part marking for that device.
+ 
+Important Information and Disclaimer:The information provided on this page represents TI's knowledge and belief as of the date that it is provided. TI bases its knowledge and belief on information provided by third parties, and
+makes no representation or warranty as to the accuracy of such information. Efforts are underway to better integrate information from third parties. TI has taken and continues to take reasonable steps to provide representative
+and accurate information but may not have conducted destructive testing or chemical analysis on incoming materials and chemicals. TI and TI suppliers consider certain information to be proprietary, and thus CAS numbers
+and other limited information may not be available for release.
+ 
+In no event shall TI's liability arising out of such information exceed the total purchase price of the TI part(s) at issue in this document sold by TI to Customer on an annual basis.
+ 
+ OTHER QUALIFIED VERSIONS OF TMP302 :
+• Automotive : TMP302-Q1
+ NOTE: Qualified Version Definitions:
+• Automotive - Q100 devices qualified for high-reliability automotive applications targeting zero defects
+Addendum-Page 2
+
+PAGE 15
+PACKAGE MATERIALS INFORMATION
+ 
+ 
+www.ti.com
+28-Aug-2026
+TAPE AND REEL INFORMATION
+Reel Width (W1)
+REEL DIMENSIONS
+A0
+B0
+K0
+W
+Dimension designed to accommodate the component length
+Dimension designed to accommodate the component thickness
+Overall width of the carrier tape
+Pitch between successive cavity centers
+Dimension designed to accommodate the component width
+TAPE DIMENSIONS
+K0
+ P1
+B0 W
+A0
+Cavity
+QUADRANT ASSIGNMENTS FOR PIN 1 ORIENTATION IN TAPE
+Pocket Quadrants
+Sprocket Holes
+Q1
+Q1
+Q2
+Q2
+Q3
+Q3
+Q4
+Q4
+User Direction of Feed
+P1
+Reel
+Diameter
+ 
+*All dimensions are nominal
+Device
+Package
+Type
+Package
+Drawing
+Pins
+SPQ
+Reel
+Diameter
+(mm)
+Reel
+Width
+W1 (mm)
+A0
+(mm)
+B0
+(mm)
+K0
+(mm)
+P1
+(mm)
+W
+(mm)
+Pin1
+Quadrant
+TMP302ADRLR
+SOT-5X3
+DRL
+6
+4000
+180.0
+8.4
+1.98
+1.78
+0.69
+4.0
+8.0
+Q3
+TMP302ADRLR
+SOT-5X3
+DRL
+6
+4000
+180.0
+8.4
+2.0
+1.8
+0.75
+4.0
+8.0
+Q3
+TMP302BDRLR
+SOT-5X3
+DRL
+6
+4000
+180.0
+8.4
+2.0
+1.8
+0.75
+4.0
+8.0
+Q3
+TMP302BDRLR
+SOT-5X3
+DRL
+6
+4000
+180.0
+8.4
+1.98
+1.78
+0.69
+4.0
+8.0
+Q3
+TMP302CDRLR
+SOT-5X3
+DRL
+6
+4000
+180.0
+8.4
+1.98
+1.78
+0.69
+4.0
+8.0
+Q3
+TMP302DDRLR
+SOT-5X3
+DRL
+6
+4000
+180.0
+8.4
+2.0
+1.8
+0.75
+4.0
+8.0
+Q3
+TMP302DDRLR
+SOT-5X3
+DRL
+6
+4000
+180.0
+8.4
+1.98
+1.78
+0.69
+4.0
+8.0
+Q3
+Pack Materials-Page 1
+
+PAGE 16
+PACKAGE MATERIALS INFORMATION
+ 
+ 
+www.ti.com
+28-Aug-2026
+TAPE AND REEL BOX DIMENSIONS
+Width (mm)
+W
+L
+H
+ 
+*All dimensions are nominal
+Device
+Package Type
+Package Drawing
+Pins
+SPQ
+Length (mm)
+Width (mm)
+Height (mm)
+TMP302ADRLR
+SOT-5X3
+DRL
+6
+4000
+202.0
+201.0
+28.0
+TMP302ADRLR
+SOT-5X3
+DRL
+6
+4000
+210.0
+185.0
+35.0
+TMP302BDRLR
+SOT-5X3
+DRL
+6
+4000
+210.0
+185.0
+35.0
+TMP302BDRLR
+SOT-5X3
+DRL
+6
+4000
+202.0
+201.0
+28.0
+TMP302CDRLR
+SOT-5X3
+DRL
+6
+4000
+202.0
+201.0
+28.0
+TMP302DDRLR
+SOT-5X3
+DRL
+6
+4000
+210.0
+185.0
+35.0
+TMP302DDRLR
+SOT-5X3
+DRL
+6
+4000
+202.0
+201.0
+28.0
+Pack Materials-Page 2
+
+PAGE 17
+www.ti.com
+PACKAGE OUTLINE
+1.7
+1.5
+4X 0.5
+2X 1
+6X 0.3
+0.1
+0.6 MAX
+6X 0.18
+0.08
+6X 0.4
+0.2
+0.05
+0.00 TYP
+6X 0.27
+0.15
+2X 0 -10
+2X 4 -15
+1.3
+1.1
+1.7
+1.5
+NOTE 3
+SOT - 0.6 mm max height
+DRL0006A
+PLASTIC SMALL OUTLINE
+4223266/F   11/2024
+NOTES: 
+ 
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+    per ASME Y14.5M.
+2. This drawing is subject to change without notice.
+3. This dimension does not include mold flash, protrusions, or gate burrs. Mold flash, protrusions, or gate burrs shall not
+    exceed 0.15 mm per side.
+4. Reference JEDEC registration MO-293 Variation UAAD
+1
+6
+PIN 1
+ID AREA
+3
+4
+SEATING PLANE
+0.05 C
+SCALE  8.000
+0.1
+C A B
+0.05
+C
+SYMM
+SYMM
+A
+B
+C
+
+PAGE 18
+www.ti.com
+EXAMPLE BOARD LAYOUT
+0.05 MAX
+AROUND
+0.05 MIN
+AROUND
+6X (0.67)
+6X (0.3)
+(1.48)
+4X (0.5)
+(R0.05) TYP
+4223266/F   11/2024
+SOT - 0.6 mm max height
+DRL0006A
+PLASTIC SMALL OUTLINE
+NOTES: (continued)
+ 
+5. Publication IPC-7351 may have alternate designs. 
+6. Solder mask tolerances between and around signal pads can vary based on board fabrication site.
+7. Land pattern design aligns to IPC-610, Bottom Termination Component (BTC) solder joint inspection criteria.
+SYMM
+LAND PATTERN EXAMPLE
+SCALE:30X
+SYMM
+1
+3
+4
+6
+SOLDER MASK
+OPENING
+METAL UNDER
+SOLDER MASK
+SOLDER MASK
+DEFINED
+METAL
+SOLDER MASK
+OPENING
+NON SOLDER MASK
+DEFINED
+(PREFERRED)
+SOLDERMASK DETAILS
+
+PAGE 19
+www.ti.com
+EXAMPLE STENCIL DESIGN
+(1.48)
+4X (0.5)
+6X (0.67)
+6X (0.3)
+(R0.05) TYP
+SOT - 0.6 mm max height
+DRL0006A
+PLASTIC SMALL OUTLINE
+4223266/F   11/2024
+NOTES: (continued)
+ 
+8. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+    design recommendations. 
+9. Board assembly site may have different recommendations for stencil design.
+ 
+SOLDER PASTE EXAMPLE
+BASED ON 0.1 mm THICK STENCIL
+SCALE:30X
+SYMM
+SYMM
+1
+3
+4
+6
+
+PAGE 20
+IMPORTANT NOTICE AND DISCLAIMER
+TI PROVIDES TECHNICAL AND RELIABILITY DATA (INCLUDING DATASHEETS), DESIGN RESOURCES (INCLUDING REFERENCE 
+DESIGNS), APPLICATION OR OTHER DESIGN ADVICE, WEB TOOLS, SAFETY INFORMATION, AND OTHER RESOURCES “AS IS” 
+AND WITH ALL FAULTS, AND DISCLAIMS ALL WARRANTIES, EXPRESS AND IMPLIED, INCLUDING WITHOUT LIMITATION ANY 
+IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD 
+PARTY INTELLECTUAL PROPERTY RIGHTS.
+These resources are intended for skilled developers designing with TI products. You are solely responsible for (1) selecting the appropriate 
+TI products for your application, (2) designing, validating and testing your application, and (3) ensuring your application meets applicable 
+standards, and any other safety, security, regulatory or other requirements.
+These resources are subject to change without notice. TI grants you permission to use these resources only for development of an 
+application that uses the TI products described in the resource. Other reproduction and display of these resources is prohibited. No license 
+is granted to any other TI intellectual property right or to any third party intellectual property right. TI disclaims responsibility for, and you fully 
+indemnify TI and its representatives against any claims, damages, costs, losses, and liabilities arising out of your use of these resources.
+TI’s products are provided subject to TI’s Terms of Sale, TI’s General Quality Guidelines, or other applicable terms available either on 
+ti.com or provided in conjunction with such TI products. TI’s provision of these resources does not expand or otherwise alter TI’s applicable 
+warranties or warranty disclaimers for TI products. Unless TI explicitly designates a product as custom or customer-specified, TI products 
+are standard, catalog, general purpose devices.
+TI objects to and rejects any additional or different terms you may propose.
+IMPORTANT NOTICE
+Copyright © 2026, Texas Instruments Incorporated
+Last updated 10/2025

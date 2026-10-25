@@ -1,0 +1,93 @@
+{
+  "version": "v0.9.3-design",
+  "date": "2026-10-16",
+  "board_mm": [
+    39.8,
+    39.8
+  ],
+  "outline_tolerance_mm": 0.1,
+  "corner_radius_mm": 1.0,
+  "board_thickness_mm": 1.6,
+  "core_layers": 6,
+  "base_layers": 4,
+  "board_names": [
+    "CORE",
+    "BASE_CAN",
+    "BASE_485",
+    "BASE_LINK",
+    "BASE_IO"
+  ],
+  "connector_centers_mm": [
+    [
+      19.9,
+      4.8
+    ],
+    [
+      19.9,
+      35.0
+    ]
+  ],
+  "mount_holes_mm": [
+    [
+      2.5,
+      11
+    ],
+    [
+      37.3,
+      11
+    ],
+    [
+      2.5,
+      28.8
+    ],
+    [
+      37.3,
+      28.0
+    ]
+  ],
+  "hole_diameter_mm": 2.2,
+  "hole_keepout_diameter_mm": 4.2,
+  "spacer_project_pn": "H7MS-MECH-M2-6P35-A1",
+  "spacer_length_mm": 6.35,
+  "spacer_tolerance_mm": 0.03,
+  "gap_min_mm": 6.32,
+  "gap_max_mm": 6.38,
+  "mating_max_gap_mm": 6.48,
+  "core_bottom_max_height_mm": 2.3,
+  "core_bottom_general_height_target_mm": 2.0,
+  "core_bottom_height_exceptions": {
+    "L301/L2": {
+      "mpn": "XFL4020-222MEC",
+      "datasheet_max_height_mm": 2.1,
+      "assembly_envelope_mm": 2.3,
+      "source": "https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3029cab51df3/xfl4020.pdf",
+      "note": "Actual selected MPN, not the XAL4030 name of the shared official footprint/3D model. 0.2 mm local solder/mounting allowance; global 0.5 mm clearance budget remains."
+    }
+  },
+  "base_top_max_height_mm": 1.8,
+  "assembly_clearance_budget_mm": 0.5,
+  "power": {
+    "core_3v3_ma": 450,
+    "aux_3v3_ma": 500,
+    "rail_3v3_max_v": 3.465,
+    "input_5v_min_v": 4.75,
+    "input_5v_max_v": 5.25,
+    "buck_efficiency_budget": 0.8,
+    "can_each_ma": 80,
+    "other_5v_ma": 15,
+    "heater_parallel_resistance_min_ohm": 49.5,
+    "dummy_parallel_resistance_min_ohm": 49.5,
+    "fuse_a": 2.5,
+    "fuse_continuous_factor": 0.75,
+    "fuse_temperature_factor_assumption": 0.9,
+    "ct_nf": 10,
+    "main_rise_typ_ms": 16.98,
+    "main_rise_acceptance_min_ms": 5.0,
+    "buck_ss_nf": 10,
+    "buck_ss_typ_ms": 5.0,
+    "smps_input_startup_max_ma": 420,
+    "aux_limit_upper_ma": 644,
+    "core_non_smps_ma": 50
+  },
+  "qualification": "design inputs only; no PCB/DRC/3D collision/thermal qualification"
+}

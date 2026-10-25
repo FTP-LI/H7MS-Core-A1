@@ -1,0 +1,27 @@
+[
+  {
+    "file": "TPS22975.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/tps22975.pdf",
+    "sha256": "5405dc9d901f39b4597c8c0d5e8e52d4caf43cd4e207dbc5be3be8aa9ca4af63"
+  },
+  {
+    "file": "Fuse451.pdf",
+    "url": "https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "CK-JS.pdf",
+    "url": "https://www.ckswitches.com/media/1422/js.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "C2012-page.html",
+    "url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X5R1E106K125AB",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "EVQP7.pdf",
+    "url": "https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000C378.pdf",
+    "error": "The read operation timed out"
+  }
+]

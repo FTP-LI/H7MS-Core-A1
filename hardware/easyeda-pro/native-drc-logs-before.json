@@ -1,0 +1,107 @@
+[
+  {
+    "type": "openProject",
+    "message": "H7MS-Core-A1",
+    "timestamp": 1792227745526
+  },
+  {
+    "type": "info",
+    "message": " <span class=\"i18n\" data-i18n-context=\"designRule\" i18n-params-objectid=\"&lt;span class=&quot;link&quot; data-log-find-id=&quot;4e967b36471ae3f4&quot; data-log-find-sheet=&quot;99ca7380f04ff3f3&quot; data-log-find-type=&quot;rect&quot; data-log-find-path=&quot;e83cf0959fa243f7847e15552d7a94a7&quot;&gt;$7I7&lt;/span&gt;\" i18n-params-uniqueid=\"gge125\">The Component {objectID} Unique ID is repeated with other component(s), and it is annotated a new Unique ID: {UniqueId} when generating the netlist.</span>",
+    "timestamp": 1792227954826
+  },
+  {
+    "type": "info",
+    "message": " <span class=\"i18n\" data-i18n-context=\"designRule\" i18n-params-objectid=\"&lt;span class=&quot;link&quot; data-log-find-id=&quot;b6170e167bd3bc0e&quot; data-log-find-sheet=&quot;99ca7380f04ff3f3&quot; data-log-find-type=&quot;rect&quot; data-log-find-path=&quot;e83cf0959fa243f7847e15552d7a94a7&quot;&gt;$7I8&lt;/span&gt;\" i18n-params-uniqueid=\"gge126\">The Component {objectID} Unique ID is repeated with other component(s), and it is annotated a new Unique ID: {UniqueId} when generating the netlist.</span>",
+    "timestamp": 1792227954826
+  },
+  {
+    "type": "info",
+    "message": " <span class=\"i18n\" data-i18n-context=\"designRule\" i18n-params-objectid=\"&lt;span class=&quot;link&quot; data-log-find-id=&quot;0422b97709eb4ce2&quot; data-log-find-sheet=&quot;99ca7380f04ff3f3&quot; data-log-find-type=&quot;rect&quot; data-log-find-path=&quot;e83cf0959fa243f7847e15552d7a94a7&quot;&gt;$7I9&lt;/span&gt;\" i18n-params-uniqueid=\"gge127\">The Component {objectID} Unique ID is repeated with other component(s), and it is annotated a new Unique ID: {UniqueId} when generating the netlist.</span>",
+    "timestamp": 1792227954826
+  },
+  {
+    "type": "info",
+    "message": " <span class=\"i18n\" data-i18n-context=\"designRule\" i18n-params-objectid=\"&lt;span class=&quot;link&quot; data-log-find-id=&quot;4de8f329b8c9a991&quot; data-log-find-sheet=&quot;99ca7380f04ff3f3&quot; data-log-find-type=&quot;rect&quot; data-log-find-path=&quot;e83cf0959fa243f7847e15552d7a94a7&quot;&gt;$7I10&lt;/span&gt;\" i18n-params-uniqueid=\"gge128\">The Component {objectID} Unique ID is repeated with other component(s), and it is annotated a new Unique ID: {UniqueId} when generating the netlist.</span>",
+    "timestamp": 1792227954826
+  },
+  {
+    "type": "info",
+    "message": " <span class=\"i18n\" data-i18n-context=\"designRule\" i18n-params-objectid=\"&lt;span class=&quot;link&quot; data-log-find-id=&quot;bd21a2bcce60cd00&quot; data-log-find-sheet=&quot;99ca7380f04ff3f3&quot; data-log-find-type=&quot;rect&quot; data-log-find-path=&quot;e83cf0959fa243f7847e15552d7a94a7&quot;&gt;$7I11&lt;/span&gt;\" i18n-params-uniqueid=\"gge129\">The Component {objectID} Unique ID is repeated with other component(s), and it is annotated a new Unique ID: {UniqueId} when generating the netlist.</span>",
+    "timestamp": 1792227954826
+  },
+  {
+    "type": "info",
+    "message": " <span class=\"i18n\" data-i18n-context=\"designRule\" i18n-params-objectid=\"&lt;span class=&quot;link&quot; data-log-find-id=&quot;1aa11d46d220ee29&quot; data-log-find-sheet=&quot;99ca7380f04ff3f3&quot; data-log-find-type=&quot;rect&quot; data-log-find-path=&quot;e83cf0959fa243f7847e15552d7a94a7&quot;&gt;$7I12&lt;/span&gt;\" i18n-params-uniqueid=\"gge130\">The Component {objectID} Unique ID is repeated with other component(s), and it is annotated a new Unique ID: {UniqueId} when generating the netlist.</span>",
+    "timestamp": 1792227954826
+  },
+  {
+    "type": "info",
+    "message": " <span class=\"i18n\" data-i18n-context=\"designRule\" i18n-params-objectid=\"&lt;span class=&quot;link&quot; data-log-find-id=&quot;6072acc7b0062f05&quot; data-log-find-sheet=&quot;99ca7380f04ff3f3&quot; data-log-find-type=&quot;rect&quot; data-log-find-path=&quot;e83cf0959fa243f7847e15552d7a94a7&quot;&gt;$7I13&lt;/span&gt;\" i18n-params-uniqueid=\"gge131\">The Component {objectID} Unique ID is repeated with other component(s), and it is annotated a new Unique ID: {UniqueId} when generating the netlist.</span>",
+    "timestamp": 1792227954826
+  },
+  {
+    "type": "info",
+    "message": " <span class=\"i18n\" data-i18n-context=\"designRule\" i18n-params-objectid=\"&lt;span class=&quot;link&quot; data-log-find-id=&quot;e7fd990e93b20072&quot; data-log-find-sheet=&quot;1aa8b044e5c18812&quot; data-log-find-type=&quot;rect&quot; data-log-find-path=&quot;e83cf0959fa243f7847e15552d7a94a7&quot;&gt;$8I4&lt;/span&gt;\" i18n-params-uniqueid=\"gge132\">The Component {objectID} Unique ID is repeated with other component(s), and it is annotated a new Unique ID: {UniqueId} when generating the netlist.</span>",
+    "timestamp": 1792227954826
+  },
+  {
+    "type": "info",
+    "message": " <span class=\"i18n\" data-i18n-context=\"designRule\" i18n-params-objectid=\"&lt;span class=&quot;link&quot; data-log-find-id=&quot;634f90fb03582890&quot; data-log-find-sheet=&quot;1aa8b044e5c18812&quot; data-log-find-type=&quot;rect&quot; data-log-find-path=&quot;e83cf0959fa243f7847e15552d7a94a7&quot;&gt;$8I5&lt;/span&gt;\" i18n-params-uniqueid=\"gge133\">The Component {objectID} Unique ID is repeated with other component(s), and it is annotated a new Unique ID: {UniqueId} when generating the netlist.</span>",
+    "timestamp": 1792227954826
+  },
+  {
+    "type": "info",
+    "message": " <span class=\"i18n\" data-i18n-context=\"designRule\" i18n-params-objectid=\"&lt;span class=&quot;link&quot; data-log-find-id=&quot;e528ffa4b53f997e&quot; data-log-find-sheet=&quot;1aa8b044e5c18812&quot; data-log-find-type=&quot;rect&quot; data-log-find-path=&quot;e83cf0959fa243f7847e15552d7a94a7&quot;&gt;$8I6&lt;/span&gt;\" i18n-params-uniqueid=\"gge134\">The Component {objectID} Unique ID is repeated with other component(s), and it is annotated a new Unique ID: {UniqueId} when generating the netlist.</span>",
+    "timestamp": 1792227954827
+  },
+  {
+    "type": "info",
+    "message": " <span class=\"i18n\" data-i18n-context=\"designRule\" i18n-params-objectid=\"&lt;span class=&quot;link&quot; data-log-find-id=&quot;e3003cdc64ad18ee&quot; data-log-find-sheet=&quot;1aa8b044e5c18812&quot; data-log-find-type=&quot;rect&quot; data-log-find-path=&quot;e83cf0959fa243f7847e15552d7a94a7&quot;&gt;$8I7&lt;/span&gt;\" i18n-params-uniqueid=\"gge135\">The Component {objectID} Unique ID is repeated with other component(s), and it is annotated a new Unique ID: {UniqueId} when generating the netlist.</span>",
+    "timestamp": 1792227954827
+  },
+  {
+    "type": "info",
+    "message": " <span class=\"i18n\" data-i18n-context=\"designRule\" i18n-params-objectid=\"&lt;span class=&quot;link&quot; data-log-find-id=&quot;22aa878f30e89807&quot; data-log-find-sheet=&quot;1aa8b044e5c18812&quot; data-log-find-type=&quot;rect&quot; data-log-find-path=&quot;e83cf0959fa243f7847e15552d7a94a7&quot;&gt;$8I8&lt;/span&gt;\" i18n-params-uniqueid=\"gge136\">The Component {objectID} Unique ID is repeated with other component(s), and it is annotated a new Unique ID: {UniqueId} when generating the netlist.</span>",
+    "timestamp": 1792227954827
+  },
+  {
+    "type": "info",
+    "message": " <span class=\"i18n\" data-i18n-context=\"designRule\" i18n-params-objectid=\"&lt;span class=&quot;link&quot; data-log-find-id=&quot;373432d584385af9&quot; data-log-find-sheet=&quot;1aa8b044e5c18812&quot; data-log-find-type=&quot;rect&quot; data-log-find-path=&quot;e83cf0959fa243f7847e15552d7a94a7&quot;&gt;$8I9&lt;/span&gt;\" i18n-params-uniqueid=\"gge137\">The Component {objectID} Unique ID is repeated with other component(s), and it is annotated a new Unique ID: {UniqueId} when generating the netlist.</span>",
+    "timestamp": 1792227954827
+  },
+  {
+    "type": "info",
+    "message": " <span class=\"i18n\" data-i18n-context=\"designRule\" i18n-params-objectid=\"&lt;span class=&quot;link&quot; data-log-find-id=&quot;de5bb1ceab070e18&quot; data-log-find-sheet=&quot;1aa8b044e5c18812&quot; data-log-find-type=&quot;rect&quot; data-log-find-path=&quot;e83cf0959fa243f7847e15552d7a94a7&quot;&gt;$8I10&lt;/span&gt;\" i18n-params-uniqueid=\"gge138\">The Component {objectID} Unique ID is repeated with other component(s), and it is annotated a new Unique ID: {UniqueId} when generating the netlist.</span>",
+    "timestamp": 1792227954827
+  },
+  {
+    "type": "info",
+    "message": " <span class=\"i18n\" data-i18n-context=\"designRule\" i18n-params-objectid=\"&lt;span class=&quot;link&quot; data-log-find-id=&quot;0143e6a05b785926&quot; data-log-find-sheet=&quot;1aa8b044e5c18812&quot; data-log-find-type=&quot;rect&quot; data-log-find-path=&quot;e83cf0959fa243f7847e15552d7a94a7&quot;&gt;$8I11&lt;/span&gt;\" i18n-params-uniqueid=\"gge139\">The Component {objectID} Unique ID is repeated with other component(s), and it is annotated a new Unique ID: {UniqueId} when generating the netlist.</span>",
+    "timestamp": 1792227954827
+  },
+  {
+    "type": "info",
+    "message": " <span class=\"i18n\" data-i18n-context=\"designRule\" i18n-params-objectid=\"&lt;span class=&quot;link&quot; data-log-find-id=&quot;1815fb82e94e2f3b&quot; data-log-find-sheet=&quot;1aa8b044e5c18812&quot; data-log-find-type=&quot;rect&quot; data-log-find-path=&quot;e83cf0959fa243f7847e15552d7a94a7&quot;&gt;$8I12&lt;/span&gt;\" i18n-params-uniqueid=\"gge140\">The Component {objectID} Unique ID is repeated with other component(s), and it is annotated a new Unique ID: {UniqueId} when generating the netlist.</span>",
+    "timestamp": 1792227954827
+  },
+  {
+    "type": "info",
+    "message": " <span class=\"i18n\" data-i18n-context=\"designRule\" i18n-params-objectid=\"&lt;span class=&quot;link&quot; data-log-find-id=&quot;899143a2822276db&quot; data-log-find-sheet=&quot;1aa8b044e5c18812&quot; data-log-find-type=&quot;rect&quot; data-log-find-path=&quot;e83cf0959fa243f7847e15552d7a94a7&quot;&gt;$8I13&lt;/span&gt;\" i18n-params-uniqueid=\"gge141\">The Component {objectID} Unique ID is repeated with other component(s), and it is annotated a new Unique ID: {UniqueId} when generating the netlist.</span>",
+    "timestamp": 1792227954827
+  },
+  {
+    "type": "info",
+    "message": " <span class=\"i18n\" data-i18n-context=\"designRule\" i18n-params-objectid=\"&lt;span class=&quot;link&quot; data-log-find-id=&quot;44bc086c576b7215&quot; data-log-find-sheet=&quot;1aa8b044e5c18812&quot; data-log-find-type=&quot;rect&quot; data-log-find-path=&quot;e83cf0959fa243f7847e15552d7a94a7&quot;&gt;$8I14&lt;/span&gt;\" i18n-params-uniqueid=\"gge142\">The Component {objectID} Unique ID is repeated with other component(s), and it is annotated a new Unique ID: {UniqueId} when generating the netlist.</span>",
+    "timestamp": 1792227954827
+  },
+  {
+    "type": "info",
+    "message": " <span class=\"i18n\" data-i18n-context=\"designRule\" i18n-params-objectid=\"&lt;span class=&quot;link&quot; data-log-find-id=&quot;3c3c0e4ae15ec8ce&quot; data-log-find-sheet=&quot;1aa8b044e5c18812&quot; data-log-find-type=&quot;rect&quot; data-log-find-path=&quot;e83cf0959fa243f7847e15552d7a94a7&quot;&gt;$8I15&lt;/span&gt;\" i18n-params-uniqueid=\"gge143\">The Component {objectID} Unique ID is repeated with other component(s), and it is annotated a new Unique ID: {UniqueId} when generating the netlist.</span>",
+    "timestamp": 1792227954827
+  },
+  {
+    "type": "info",
+    "message": " <span class=\"i18n\" data-i18n-context=\"designRule\" i18n-params-objectid=\"&lt;span class=&quot;link&quot; data-log-find-id=&quot;c441849fa4ec75b2&quot; data-log-find-sheet=&quot;1aa8b044e5c18812&quot; data-log-find-type=&quot;rect&quot; data-log-find-path=&quot;e83cf0959fa243f7847e15552d7a94a7&quot;&gt;$8I16&lt;/span&gt;\" i18n-params-uniqueid=\"gge144\">The Component {objectID} Unique ID is repeated with other component(s), and it is annotated a new Unique ID: {UniqueId} when generating the netlist.</span>",
+    "timestamp": 1792227954827
+  }
+]

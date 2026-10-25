@@ -1,0 +1,422 @@
+	
+TC33 – 3 mm SMD Trimpot® Trimming Potentiometer
+Features
+n Recommended for reflow soldering
+n Rotor design compatible with pick 
+and place and automatic adjustment 
+equipment
+n 3 mm size meets EIA/EIAJ standard 
+trimmer footprint 
+n RoHS compliant*
+n For trimmer applications/processing 
+guidelines, click here
+Additional Information
+Click these links for more information:
+PRODUCT 
+SELECTOR
+TECHNICAL
+LIBRARY
+INVENTORY
+SAMPLES
+CONTACT
+Electrical Characteristics
+Standard Resistance Range
+	 .......................100 ohms to 1 megohm
+	 
+(see standard resistance table)
+Resistance Tolerance.............±25 % std.
+Absolute Minimum Resistance
+ ≤ 1 K Ohms................... 20 ohms max.
+ >1 K Ohms..................2 % max. of TR
+Contact Resistance Variation.....5 % max.
+Resolution.................. Essentially infinite
+Adjustment Angle.................270 ° ± 20 °
+Environmental Characteristics
+Power Rating (50 VDC max.)
+	 70 °C..................................... 0.15 watt
+Temperature Range.... -40 °C to +100 °C
+Temperature Coefficient.....±250 ppm/°C
+Humidity......+40 °C ± 2 °C, 90-95 % RH
+TRS max..........................................±5 %
+Load Life
+	 ........@ 70 °C rated power 1000 hours
+	 
+TRS ±5 %
+Rotational Cycling
+	 ......................... 20 cycles, TRS ±10 %
+Physical Characteristics
+Torque................ 0.98-11.76 mN-m max.
+Mechanical Angle.....Continuous rotation 
+	 
+for Model TC33X-1
+Marking.......................Part marking code
+Standard Packaging....2500 pcs./7 ” reel
+Adjustment Tool..................... See note(1)
+Pushing Static Force....................<4.9 N
+(1)	Use an adjustment tool with the following 
+recommended measurements:
+	
+1.7 mm (.067 in.) cross slot
+	
+The recommended adjustment tool size 
+is not available from Bourns. Please 
+contact a Bourns representative for 
+further information.
+Product Dimensions
+Recommended Land Pattern
+Recommended Land Pattern
+1
+3
+CW
+CLOCKWISE
+CCW
+2
+WIPER
+DIMENSIONS: 
+MM
+ 
+(INCHES)
+TOLERANCES: ± 
+0.3       EXCEPT WHERE NOTED
+ 
+(.010)
+*RoHS Directive 2015/863, Mar. 31, 2015 and Annex 
+“Trimpot” is a trademark of Bourns, Inc.
+Specifications are subject to change without notice. Users should verify actual device performance in their specific 
+applications. The products described herein and this document are subject to specific legal disclaimers as set forth on the 
+last page of this document, and at www.bourns.com/docs/legal/disclaimer.pdf.
+WARNING  Cancer and 
+Reproductive Harm
+www.P65Warnings.ca.gov
+1.2
+(.047)
+0.7
+(.028)
+1.2
+(.047)
+1.5
+(.059)
+0.8
+(.031)
+1.2
+(.047)
+1.2
+(.047)
+1.6
+(.063)
+1.2
+(.047)
+0.7
+(.028)
+1.2
+(.047)
+1.5
+(.059)
+0.8
+(.031)
+1.2
+(.047)
+1.2
+(.047)
+1.6
+(.063)
+2.7
+(.106)
+2.1
+(.083)
+3.0
+(.118)
+3.7
+(.146)
+0.8
+(.031)
+0.65
+(.026)
+0.5
+(.020)
+3.8
+(.150)
+1.75
+(.069)
+1.0
+(.039)
+0.95
+(.037)
+1.2
+(.047)
+1.2
+(.047)
+2.0
+(.079)
+0.75
+(.030)
+1.5
+(.059)
+2.7
+(.106)
+0.8
+(.031)
+1.0
+(.039)
+0.9
+(.035)
+0.75
+(.030)
+1.5
+(.059)
+2.1
+(.083)
+3.0
+(.118)
+3.6
+(.142)
+0.65
+(.026)
+0.5
+(.020)
+3.8
+(.150)
+1.75
+(.069)
+2.0
+(.079)
+0~15
+2
+3
+1
+2
+3
+1
+SEE
+MOUNTING 
+NOTE
+BELOW
+Mounting Note:
+The gray area can be used to apply cement to hold the unit
+in place during board processing, if required.
+Mounting Note:
+The gray area can be used to apply cement to hold the unit
+in place during board processing, if required.
+SEE
+MOUNTING 
+NOTE
+BELOW
+TC33X-1
+TC33X-2
+
+	
+TC33 – 3 mm SMD Trimpot® Trimming Potentiometer
+Cautions
+•	Aqueous cleaning not recommended
+•	Flow soldering not recommended; 
+use reflow soldering
+•	Model TC33 is not designed to be used 
+with flux - use care with flux when 
+soldering
+•	It is not recommended to adjust the Model 
+TC33X-1 past the effective rotary angle.
+•	If an excessive force is applied to the 
+sliding part (the operating shaft) when 
+adjusting the resistance value, the sliding 
+part may be deformed or broken.
+Standard Resistance Table
+	
+Resistance	
+Resistance
+	
+(Ohms)	
+Code
+	
+100	
+101
+	
+200	
+201
+	
+500	
+501
+	
+1,000	
+102
+	
+2,000	
+202
+	
+5,000	
+502
+	
+10,000	
+103
+	
+20,000	
+203
+	
+50,000	
+503
+	
+100,000	
+104
+	
+200,000	
+204
+	
+500,000	
+504
+	
+1,000,000	
+105
+Popular distribution resistance values listed in 
+boldface.
+How To Order
+TC33  X  -  1  -  103  E
+Model
+Style
+Standard Product Indicator
+	
+-1 =	Continuous Rotation
+	
+-2 = 	Rotational Stop
+Resistance Code
+Embossed Tape Designator
+ 
+E =  2500 pcs./7 ˝ Reel
+ 
+G =  9000 pcs./13 ˝ Reel
+Tape and reel material meets Antistatic ANSI/
+ESD 5541-2003 packaging standards.
+Packaging Specifications
+TC33X-1, -2
+TAPE
+1.75 ± 0.1
+(.069 ± .004)
+1.55 ± 0.05
+(.061 ± .002)
+DIA.
+4.0 ± 0.1
+(.157 ± .004)
+4.0 ± 0.1
+(.157 ± .004)
+2.0 ± 0.1
+(.079 ± .004)
+0.06
+(.002)
+0.3
+(.012)
+1.7
+(.067)
+5.5
+(.217)
+8.0
+(.315)
+2.75
+(.108)
+3.5 ± 0.05
+(.138 ± .002)
+9.0 ± 1.0
+(.354 ± .039)
+REEL
+Meets EIA 481
+180.0 -3/+0
+(7.087 -.118/+0) DIA.
+11.4 ± 1.0
+(.449 ± .039)
+60.0 -0/+1.0
+(2.362 -0/+.039)
+DIA.
+13.0
+(.512) DIA.
+330.2 -3/+0
+(13.0 -.118/+0) DIA.
+-OR-
+DIMENSIONS:
+MM
+(INCHES)
+TOLERANCES: ± 
+0.3       EXCEPT WHERE NOTED
+ 
+(.012)
+Recommended Storage Conditions
+Temperature.......................+5 °C to +35 °C
+Humidity.......................... 45 % to 85 % RH
+Recommended Reflow Solder Profile
+Temperature (°C)
+Time (Seconds)
+EXIT
+180 SEC. (REF.)
+ROOM
+TEMPERATURE
+70 SEC.
+(REF.)
+150 °C (REF.)
+230 °C
+260 °C (MAX.)
+40 SEC.
+(MAX.)
+10 SEC.
+(MAX.)
+ENTRANCE
+Specifications are subject to change without notice.
+Users should verify actual device performance in their specific applications. 
+The products described herein and this document are subject to specific legal disclaimers as set forth on the last page of this document, and at www.bourns.com/docs/legal/disclaimer.pdf.
+REV. 08/19
+
+This legal disclaimer applies to purchasers and users of Bourns® products manufactured by or on behalf of Bourns, Inc. and its affiliates (collectively, 
+“Bourns”).
+Unless otherwise expressly indicated in writing, Bourns® products and data sheets relating thereto are subject to change without notice. Users should check 
+for and obtain the latest relevant information and verify that such information is current and complete before placing orders for Bourns® products.
+The characteristics and parameters of a Bourns® product set forth in its data sheet are based on laboratory conditions, and statements regarding the 
+suitability of products for certain “typical” applications are based on Bourns’ knowledge of typical requirements in generic applications. Bourns assumes 
+that “typical” applications include failsafe/backup features to address critical risks to users and are designed to allow rework of Bourns® product to 
+avoid scrap of a device solely due to malfunctioning Bourns® product. The characteristics and parameters of a Bourns® product in a user application 
+may vary from the data sheet characteristics and parameters due to (i) the combination of the Bourns® product with other components in the user’s 
+application, or (ii) the environment of the user application itself. The characteristics and parameters of a Bourns® product also can and do vary in 
+different applications and actual performance may vary over time. Thus, users should always verify the actual performance of the Bourns® product in 
+their specific devices and applications and make their own independent judgments regarding the suitability of Bourns® product and the amount of 
+additional test margin to design into their device or application to compensate for differences between laboratory and real-world conditions.
+Unless Bourns has explicitly designated an individual Bourns® product as meeting the requirements of a particular industry standard (e.g., IATF 
+16949) or a particular qualification (e.g., UL listed or recognized), Bourns is not responsible for any failure of an individual Bourns® product to meet 
+the requirements of such industry standard or particular qualification even if such industry standard or qualification is a “state of art”. Users of Bourns® 
+products are responsible for ensuring compliance with safety-related requirements and standards applicable to their devices or applications.
+Bourns® products are not recommended, authorized or intended for use in applications where failure or malfunction may result in personal injury, 
+death, or severe property or environmental damage, such as without limitation nuclear, life-critical medical and certain automotive and aviation 
+applications. Except as set forth in the bullet points below or unless expressly and specifically approved in writing on a case-by-case basis by an 
+authorized Bourns’ representative, use of any Bourns® products in such unauthorized high-risk applications is at the user’s sole risk.
+•	 Bourns considers implantable/invasive devices and devices/procedures designed as life-supporting or life-sustaining by the U.S. Food and Drug  
+	 Administration or equivalent organizations outside of the United States as “life-critical” medical applications. Bourns expressly identifies those  
+	 Bourns® standard products that are suitable for use in typical medical applications that are not life-critical in its publication entitled “Bourns  
+	 Medical Grade Component Guide.” 
+•	 Bourns expressly identifies those Bourns® standard products that are suitable for use in typical automotive applications associated with any  
+	 Automate Safety Integrity Level (ASIL) in its publication entitled “Bourns Automotive Grade Component Guide.” Bourns’ designation of Bourns®  
+	 product as compliant with the AEC-Q standard does not by itself mean that Bourns has approved such product for use in an automotive  
+	 application.
+•	 Bourns expressly identifies Bourns® standard products that are suitable for use in the typical aviation applications/systems requiring System  
+	 Design Assurance Level (RTCA DO-254 DAL) of C, D or E in its publication entitled “Bourns Civilian Aerospace/Aviation Grade Component Guide.”  
+	 Bourns does not test its products for compliance with United States Federal Aviation Administration standards or any other generally equivalent  
+	 governmental organization standard applicable to products designed or manufactured for use in aviation applications. Use of Bourns® standard  
+	 components in aviation applications associated with RTCA DO-254 DAL A or B without proper approval noted above shall be at the user’s sole  
+	 risk. 
+•	 Bourns will review and authorize on a case-by-case basis the use of Bourns® standard products which are at least AEC-Q compliant in space- 
+	 related civil applications (rockets, satellites) with a negotiated cross-waiver and indemnity agreement.
+The use and level of testing applicable to Bourns® custom products shall be negotiated on a case-by-case basis by Bourns and the user for which such 
+Bourns® custom products are specially designed. Absent a written agreement between Bourns and the user regarding the use and level of such testing, 
+the above provisions applicable to Bourns® standard products shall also apply to such Bourns® custom products.
+Use of Bourns® products or Bourns’ technology in military/defense applications must be reviewed with Bourns for compliance with applicable export 
+control laws and embargoes. Users shall not sell, transfer, export or re-export (which includes transfers within a country) any Bourns® products or 
+technology or technical data for use in activities which involve the design, development, production, use or stockpiling of nuclear, chemical or 
+biological weapons or missiles, nor shall they use Bourns® products or technology or technical data in any facility which engages in activities relating 
+to such devices. Further, Bourns® products and Bourns’ technology and technical data may not under any circumstance be exported or re-exported to 
+countries subject to international sanctions or embargoes. Bourns® products and technology may not, without prior authorization from Bourns and/or 
+the Government of a country where such product/technology is designed and/or manufactured, be resold, transferred, or re-exported (including within 
+the same country) to any party not eligible to receive commodities, software, and technical data originating in such country.
+To the maximum extent permitted by applicable law, Bourns disclaims (i) any and all liability for special, punitive, consequential, incidental or indirect 
+damages or lost revenues or lost profits, and (ii) any and all implied warranties (those not based on parameters specified in Bourns’ data sheets and/or 
+specifications), including implied warranties of fitness for particular purpose, non-infringement and merchantability.
+For your convenience, copies of this Legal Disclaimer Notice with German, Spanish, Japanese, Traditional Chinese and Simplified Chinese bilingual versions are 
+available at:
+	
+Web Page:	 https://www.bourns.com/legal/disclaimers-terms-and-policies
+	
+PDF:	 https://www.bourns.com/docs/Legal/disclaimer.pdf
+	
+Legal Disclaimer Notice
+K2540 05/26R

@@ -1,0 +1,208 @@
+{
+  "itemType": "Project",
+  "uuid": "e83cf0959fa243f7847e15552d7a94a7",
+  "friendlyName": "H7MS-Core-A1",
+  "name": "鹰瞰智翼-硬件部/H7MS-Core-A1",
+  "teamUuid": "9be0d2075df14a5bbeef5eb0453e5b94",
+  "folderUuid": "2664f7fd0bd9444da0a77ebf8c6ac31e",
+  "description": "",
+  "data": [
+    {
+      "itemType": "Board",
+      "name": "Board1",
+      "schematic": {
+        "itemType": "Schematic",
+        "uuid": "2121c62f1518d7c9",
+        "name": "Schematic1",
+        "page": [
+          {
+            "itemType": "Schematic Page",
+            "uuid": "d9b9b220117e6b4c",
+            "name": "P1",
+            "parentSchematicUuid": "2121c62f1518d7c9",
+            "showTitleBlock": true,
+            "titleBlockData": {
+              "Symbol": {
+                "showTitle": false,
+                "showValue": false,
+                "value": "Drawing-Symbol_A4"
+              },
+              "Company": {
+                "showTitle": false,
+                "showValue": false,
+                "value": "嘉立创EDA"
+              },
+              "Drawed": {
+                "showTitle": false,
+                "showValue": true,
+                "value": ""
+              },
+              "Reviewed": {
+                "showTitle": false,
+                "showValue": true,
+                "value": ""
+              },
+              "Part Number": {
+                "showTitle": false,
+                "showValue": true,
+                "value": ""
+              },
+              "Version": {
+                "showTitle": false,
+                "showValue": false,
+                "value": "V1.0"
+              },
+              "Page Size": {
+                "showTitle": false,
+                "showValue": false,
+                "value": "A4"
+              },
+              "@Project Name": {
+                "showTitle": false,
+                "showValue": false,
+                "value": "H7MS-Core-A1"
+              },
+              "@Update Date": {
+                "showTitle": false,
+                "showValue": false,
+                "value": "2026-08-30"
+              },
+              "@Create Date": {
+                "showTitle": false,
+                "showValue": false,
+                "value": "2026-08-30"
+              },
+              "Device": {
+                "showTitle": null,
+                "showValue": null,
+                "value": "Drawing-Symbol_A4"
+              },
+              "@Board Name": {
+                "showTitle": null,
+                "showValue": null,
+                "value": "Board1"
+              },
+              "@Page Name": {
+                "showTitle": null,
+                "showValue": null,
+                "value": "P1"
+              },
+              "@Create Time": {
+                "showTitle": null,
+                "showValue": null,
+                "value": "14:56:43"
+              },
+              "@Page Count": {
+                "showTitle": null,
+                "showValue": null,
+                "value": 1
+              },
+              "@Page No": {
+                "showTitle": null,
+                "showValue": null,
+                "value": 1
+              },
+              "@Schematic Name": {
+                "showTitle": null,
+                "showValue": null,
+                "value": "Schematic1"
+              },
+              "@Update Time": {
+                "showTitle": null,
+                "showValue": null,
+                "value": "17:16:11"
+              },
+              "@Assembly Variant": {
+                "showTitle": null,
+                "showValue": null,
+                "value": "Basic"
+              },
+              "Border": {
+                "showTitle": null,
+                "showValue": null,
+                "value": "1"
+              },
+              "Title Block Position": {
+                "showTitle": null,
+                "showValue": null,
+                "value": "3"
+              },
+              "Size": {
+                "showTitle": null,
+                "showValue": null,
+                "value": "A4"
+              },
+              "Width": {
+                "showTitle": null,
+                "showValue": null,
+                "value": "1170"
+              },
+              "Height": {
+                "showTitle": null,
+                "showValue": null,
+                "value": "825"
+              },
+              "Region Start": {
+                "showTitle": null,
+                "showValue": null,
+                "value": "1"
+              },
+              "X Region Count": {
+                "showTitle": null,
+                "showValue": null,
+                "value": "6"
+              },
+              "Y Region Count": {
+                "showTitle": null,
+                "showValue": null,
+                "value": "4"
+              },
+              "Blade Width": {
+                "showTitle": null,
+                "showValue": null,
+                "value": "10"
+              },
+              "Color": {
+                "showTitle": null,
+                "showValue": null,
+                "value": ""
+              },
+              "Title Block": {
+                "showTitle": null,
+                "showValue": null,
+                "value": "1"
+              },
+              "Name": {
+                "showTitle": null,
+                "showValue": null,
+                "value": ""
+              },
+              "Description": {
+                "showTitle": null,
+                "showValue": null,
+                "value": ""
+              },
+              "ID": {}
+            }
+          }
+        ],
+        "parentProjectUuid": "e83cf0959fa243f7847e15552d7a94a7",
+        "parentBoardName": "Board1"
+      },
+      "pcb": {
+        "itemType": "PCB",
+        "name": "PCB1",
+        "uuid": "497aabae1f192fa8",
+        "parentBoardName": "Board1",
+        "parentProjectUuid": "e83cf0959fa243f7847e15552d7a94a7"
+      },
+      "parentProjectUuid": "e83cf0959fa243f7847e15552d7a94a7"
+    },
+    {
+      "itemType": "Panel",
+      "uuid": "8676b375d82f40ad",
+      "name": "Panel1",
+      "parentProjectUuid": "e83cf0959fa243f7847e15552d7a94a7"
+    }
+  ]
+}

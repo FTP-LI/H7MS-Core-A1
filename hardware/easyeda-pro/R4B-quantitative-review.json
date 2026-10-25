@@ -1,0 +1,12 @@
+{
+  "output_V": 5.016064257028113,
+  "f_sw_kHz": 299.3375724035373,
+  "ILIM_min_mA": 518.7175733983265,
+  "ILIM_max_mA": 643.7550242227726,
+  "input_energy_mJ": 21.6576,
+  "input_charge_mC": 0.9024,
+  "allocated_5V_A": 1.665,
+  "remaining_5V_A": 0.33499999999999996,
+  "resource_AF_errors": [],
+  "manufacturing_ready": false
+}

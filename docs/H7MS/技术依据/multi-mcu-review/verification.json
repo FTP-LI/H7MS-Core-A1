@@ -1,0 +1,80 @@
+{
+  "performed_on": "2026-10-13",
+  "scope": "Static proposal review and arithmetic only; no firmware, EDA, electrical or timing qualification",
+  "selected_mcu": "STM32H735VGH6",
+  "deployment_modes": [
+    "same-baseboard",
+    "cabled-between-subsystems"
+  ],
+  "baseline_pin_files_modified": false,
+  "rs485_uart4_connector_check": "pass",
+  "spi_nss": {
+    "current_PE4_has_SPI3_NSS": false,
+    "candidate_PA15_ball": "C8",
+    "candidate_PA15_AF": 6,
+    "imu_second_cs_candidate": "PE4/C3",
+    "proposed_swap_unique_pins_and_balls": 75,
+    "proposed_swap_applied": false
+  },
+  "exti": {
+    "existing": [
+      4,
+      5,
+      9,
+      3,
+      6
+    ],
+    "candidate_ready": 1,
+    "candidate_sync": 10,
+    "collision": false
+  },
+  "rs485_budget": [
+    {
+      "baud": 3000000,
+      "wire_bytes_per_cycle": 260,
+      "gap_us_assumed": 40,
+      "cycle_us": 906.6666666666666,
+      "utilization_500Hz": 0.4533333333333333,
+      "utilization_1000Hz": 0.9066666666666666
+    },
+    {
+      "baud": 6000000,
+      "wire_bytes_per_cycle": 260,
+      "gap_us_assumed": 40,
+      "cycle_us": 473.3333333333333,
+      "utilization_500Hz": 0.23666666666666666,
+      "utilization_1000Hz": 0.47333333333333333
+    }
+  ],
+  "spi_budget": {
+    "frame_bytes_full_duplex": 128,
+    "sck_hz": 10000000,
+    "serialization_us": 102.4,
+    "excludes": "READY/NSS/software latency; response is precomputed snapshot"
+  },
+  "can_example": {
+    "motors_per_bus": 2,
+    "frames_per_motor_cycle": 2,
+    "assumed_bits_per_frame": 130,
+    "rate_hz": 1000,
+    "bitrate": 1000000,
+    "utilization": 0.52
+  },
+  "soak_test_hours_at_500Hz": 5.555555555555555,
+  "input_sha256": {
+    "数据/STM32H735VGH6_75信号.csv": "8f2b6c2e2b7ccbee678fdfc1a9ca3004dc69680522945e935563333a546effdb",
+    "数据/STM32H735VGH6_100球连接表.csv": "4830e2511b7f0a869fab1ced1fc3bee51f0abe5770284d7d1e380e919f72372b",
+    "数据/板间接口_J1_J2_草案.csv": "0fbd1dbaeff2f2b684f6207e34b1728b6f15b0a40533a6bc587c9f34a5979a8d",
+    "技术依据/compact-mcu-review/STM32H735VGHx.xml": "77f0397d22cba5afac15c6690e23454e442f3595a84949264cf09aa08c063658",
+    "技术依据/pin-resource-review/GPIO-STM32H72_gpio_v1_0_Modes.xml": "3589056b6537a909d273b6cd2a3acc3fe3faf8c07139ab02f95309ca0ee4c0bd"
+  },
+  "plan_validation": {
+    "status": "pass",
+    "checked_markdown_files": 62,
+    "broken_local_links": [],
+    "assigned_signals": 75,
+    "balls": 100,
+    "native_can_controllers": 3,
+    "note": "Existing validator embeds 2026-10-12; actual execution date is performed_on above. Output redirected to temporary directory to preserve baseline reports."
+  }
+}

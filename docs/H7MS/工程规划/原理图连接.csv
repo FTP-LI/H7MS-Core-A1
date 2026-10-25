@@ -1,0 +1,1314 @@
+﻿board,page,reference,part,pin,net,fit,notes
+CORE,C01,U1,STM32H735VGH6,A1,IMU_MOSI,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,A2,IMU_MISO,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,A3,IMU_SCK,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,A4,CAN1_RX,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,A5,BOOT0,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,A6,CAN2_RX,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,A7,EXP_PD6,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,A8,CAN1_STB,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,A9,EXP_PD2,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,A10,EXP_PC12,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,B1,LSE_IN,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,B2,LSE_OUT,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,B3,IMU_ACC_CS,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,B4,EXP_PE0,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,B5,EXP_PB7,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,B6,EXP_PB3,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,B7,CAN2_STB,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,B8,EXP_PD1,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,B9,EXP_PC11,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,B10,EXP_PC10,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,C1,GND,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,C2,3V3_D,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,C3,IMU_GYRO_CS,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,C4,EXP_PE1,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,C5,EXP_PB4,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,C6,CAN3_STB,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,C7,EXP_PD0,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,C8,EXP_PA15,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,C9,SWCLK,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,C10,SWDIO,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,D1,GND,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,D2,SMPS_SW,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,D3,3V3_D,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,D4,CAN2_TX,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,D5,GND,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,D6,3V3_D,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,D7,EXP_PD5,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,D8,VCORE,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,D9,USB_DP,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,D10,USB_DM,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,E1,3V3_D,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,E2,VCORE,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,E3,CAN1_TX,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,E4,IMU_ACC_IRQ,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,E5,3V3_D,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,E6,VCORE,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,E7,GND,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,E8,3V3_D,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,E9,VBUS_PRESENT,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,E10,EXP_PA10,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,F1,EXP_PC1,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,F2,NRST,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,F3,EXP_PC0,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,F4,LOCAL_5V_ADC,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,F5,GND,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,F6,3V3_D,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,F7,VCORE,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,F8,EXP_PC6,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,F9,EXP_PC9,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,F10,EXP_PA8,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,G1,HSE_IN,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,G2,HSE_RESERVED,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,G3,EXP_PA0,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,G4,IMU_HEATER_NTC,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,G5,EXP_PA3,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,G6,VCORE,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,G7,EXP_PD14,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,G8,EXP_PD15,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,G9,EXP_PC7,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,G10,EXP_PC8,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,H1,3V3_A,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,H2,GND,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,H3,EXP_PA2,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,H4,EXP_PC4,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,H5,EXP_PE7,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,H6,EXP_PE10,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,H7,EXP_PD11,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,H8,EXP_PD9,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,H9,CAN3_RX,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,H10,CAN3_TX,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,J1,3V3_A,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,J2,EXP_PA1,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,J3,EXP_PA6,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,J4,EXP_PC5,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,J5,EXP_PB2,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,J6,EXP_PE8,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,J7,EXP_PB11,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,J8,EXP_PB13,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,J9,EXP_PD8,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,J10,IMU_GYRO_IRQ,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,K1,EXP_PA4,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,K2,EXP_PA5,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,K3,EXP_PA7,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,K4,EXP_PB0,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,K5,EXP_PB1,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,K6,IMU_HEATER_PWM,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,K7,EXP_PB10,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,K8,EXP_PB12,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,K9,EXP_PB14,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,U1,STM32H735VGH6,K10,EXP_PB15,YES,all 100 balls; verify symbol and footprint independently
+CORE,C01,L1,VLS252012HBX-2R2M-1,1,SMPS_SW,YES,
+CORE,C01,L1,VLS252012HBX-2R2M-1,2,VCORE,YES,
+CORE,C01,C_SMPS_IN,GRM21BR61E106KA73L,1,3V3_D,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_SMPS_IN,GRM21BR61E106KA73L,2,GND,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_SMPS_HF,C1005X7R1H104K050BB,1,3V3_D,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_SMPS_HF,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_SMPS_SW,C1608C0G1H221J080AA,1,SMPS_SW,YES,220pF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_SMPS_SW,C1608C0G1H221J080AA,2,GND,YES,220pF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VCORE1,GRM21BR61E106KA73L,1,VCORE,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VCORE1,GRM21BR61E106KA73L,2,GND,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VCORE2,GRM21BR61E106KA73L,1,VCORE,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VCORE2,GRM21BR61E106KA73L,2,GND,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VCAP_D8,C1005X7R1H104K050BB,1,VCORE,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VCAP_D8,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VCAP_G6,C1005X7R1H104K050BB,1,VCORE,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VCAP_G6,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VDD_D6,C1005X7R1H104K050BB,1,3V3_D,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VDD_D6,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VDD_E5,C1005X7R1H104K050BB,1,3V3_D,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VDD_E5,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VDD_F6,C1005X7R1H104K050BB,1,3V3_D,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VDD_F6,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VDD_BULK,GRM21BR61E106KA73L,1,3V3_D,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VDD_BULK,GRM21BR61E106KA73L,2,GND,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C01,R_ANALOG,0R,1,3V3_D,YES,
+CORE,C01,R_ANALOG,0R,2,3V3_A,YES,
+CORE,C01,C_VDDA_BULK,C1608X7R1C105K080AC,1,3V3_A,YES,1uF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VDDA_BULK,C1608X7R1C105K080AC,2,GND,YES,1uF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VDDA_HF,C1005X7R1H104K050BB,1,3V3_A,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VDDA_HF,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VREF_BULK,C1608X7R1C105K080AC,1,3V3_A,YES,1uF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VREF_BULK,C1608X7R1C105K080AC,2,GND,YES,1uF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VREF_HF,C1005X7R1H104K050BB,1,3V3_A,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VREF_HF,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_USB_BULK,C1608X7R1C105K080AC,1,3V3_D,YES,1uF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_USB_BULK,C1608X7R1C105K080AC,2,GND,YES,1uF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_USB_HF,C1005X7R1H104K050BB,1,3V3_D,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_USB_HF,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VBAT_BULK,C1608X7R1C105K080AC,1,3V3_D,YES,1uF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VBAT_BULK,C1608X7R1C105K080AC,2,GND,YES,1uF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VBAT_HF,C1005X7R1H104K050BB,1,3V3_D,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C01,C_VBAT_HF,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C02,U2,TPS62132RGTR,1,BUCK_SW,YES,
+CORE,C02,U2,TPS62132RGTR,2,BUCK_SW,YES,
+CORE,C02,U2,TPS62132RGTR,3,BUCK_SW,YES,
+CORE,C02,U2,TPS62132RGTR,4,BUCK_PG,YES,
+CORE,C02,U2,TPS62132RGTR,5,GND,YES,
+CORE,C02,U2,TPS62132RGTR,6,GND,YES,
+CORE,C02,U2,TPS62132RGTR,7,GND,YES,
+CORE,C02,U2,TPS62132RGTR,8,GND,YES,
+CORE,C02,U2,TPS62132RGTR,9,BUCK_SS,YES,
+CORE,C02,U2,TPS62132RGTR,10,5V_IN,YES,
+CORE,C02,U2,TPS62132RGTR,11,5V_IN,YES,
+CORE,C02,U2,TPS62132RGTR,12,5V_IN,YES,
+CORE,C02,U2,TPS62132RGTR,13,5V_IN,YES,
+CORE,C02,U2,TPS62132RGTR,14,3V3_D,YES,
+CORE,C02,U2,TPS62132RGTR,15,GND,YES,
+CORE,C02,U2,TPS62132RGTR,16,GND,YES,
+CORE,C02,U2,TPS62132RGTR,EP,GND,YES,
+CORE,C02,L2,XFL4020-222MEC,1,BUCK_SW,YES,
+CORE,C02,L2,XFL4020-222MEC,2,3V3_D,YES,
+CORE,C02,C_BUCK_IN,GRM21BR61E106KA73L,1,5V_IN,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C02,C_BUCK_IN,GRM21BR61E106KA73L,2,GND,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C02,C_BUCK_IN2,GRM21BR61E106KA73L,1,5V_IN,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C02,C_BUCK_IN2,GRM21BR61E106KA73L,2,GND,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C02,C_BUCK_IN3,GRM21BR61E106KA73L,1,5V_IN,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C02,C_BUCK_IN3,GRM21BR61E106KA73L,2,GND,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C02,C_BUCK_HF,C1005X7R1H104K050BB,1,5V_IN,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C02,C_BUCK_HF,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C02,C_BUCK_OUT,GRM21BR61E106KA73L,1,3V3_D,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C02,C_BUCK_OUT,GRM21BR61E106KA73L,2,GND,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C02,C_BUCK_OUT2,GRM21BR61E106KA73L,1,3V3_D,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C02,C_BUCK_OUT2,GRM21BR61E106KA73L,2,GND,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C02,C_BUCK_OUT3,GRM21BR61E106KA73L,1,3V3_D,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C02,C_BUCK_OUT3,GRM21BR61E106KA73L,2,GND,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C02,C_BUCK_OUT4,GRM21BR61E106KA73L,1,3V3_D,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C02,C_BUCK_OUT4,GRM21BR61E106KA73L,2,GND,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C02,C_BUCK_SS,C1608C0G1H103J080AA,1,BUCK_SS,YES,10nF; see MLCC selection and effective-C acceptance table
+CORE,C02,C_BUCK_SS,C1608C0G1H103J080AA,2,GND,YES,10nF; see MLCC selection and effective-C acceptance table
+CORE,C02,R_BUCK_PG,100k,1,BUCK_PG,YES,
+CORE,C02,R_BUCK_PG,100k,2,3V3_D,YES,
+CORE,C02,U_AUX,TPS2553DBVR-1,1,3V3_D,YES,
+CORE,C02,U_AUX,TPS2553DBVR-1,2,GND,YES,
+CORE,C02,U_AUX,TPS2553DBVR-1,3,AUX_EN,YES,
+CORE,C02,U_AUX,TPS2553DBVR-1,4,AUX_FAULT_N,YES,
+CORE,C02,U_AUX,TPS2553DBVR-1,5,AUX_ILIM,YES,
+CORE,C02,U_AUX,TPS2553DBVR-1,6,3V3_AUX,YES,
+CORE,C02,R_AUX_EN,10k,1,AUX_EN,YES,
+CORE,C02,R_AUX_EN,10k,2,3V3_D,YES,
+CORE,C02,SW_AUX_RESET,EVQP7A01P,1L,AUX_EN,YES,vendor terminal 1 pair and terminal 2 pair; project L/R pad aliases
+CORE,C02,SW_AUX_RESET,EVQP7A01P,1R,AUX_EN,YES,vendor terminal 1 pair and terminal 2 pair; project L/R pad aliases
+CORE,C02,SW_AUX_RESET,EVQP7A01P,2L,GND,YES,vendor terminal 1 pair and terminal 2 pair; project L/R pad aliases
+CORE,C02,SW_AUX_RESET,EVQP7A01P,2R,GND,YES,vendor terminal 1 pair and terminal 2 pair; project L/R pad aliases
+CORE,C02,R_AUX_ILIM,45.3k 1%,1,AUX_ILIM,YES,
+CORE,C02,R_AUX_ILIM,45.3k 1%,2,GND,YES,
+CORE,C02,R_AUX_FAULT,10k,1,AUX_FAULT_N,YES,
+CORE,C02,R_AUX_FAULT,10k,2,3V3_D,YES,
+CORE,C02,C_AUX_IN,C1608X7R1C105K080AC,1,3V3_D,YES,1uF; see MLCC selection and effective-C acceptance table
+CORE,C02,C_AUX_IN,C1608X7R1C105K080AC,2,GND,YES,1uF; see MLCC selection and effective-C acceptance table
+CORE,C02,C_AUX_IN_HF,C1005X7R1H104K050BB,1,3V3_D,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C02,C_AUX_IN_HF,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C02,C_AUX_OUT,GRM21BR61E106KA73L,1,3V3_AUX,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C02,C_AUX_OUT,GRM21BR61E106KA73L,2,GND,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C02,C_AUX_OUT_HF,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C02,C_AUX_OUT_HF,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C03,Y1,X1G004171001500,1,3V3_D,YES,
+CORE,C03,Y1,X1G004171001500,2,GND,YES,
+CORE,C03,Y1,X1G004171001500,3,HSE_OUT,YES,
+CORE,C03,Y1,X1G004171001500,4,3V3_D,YES,
+CORE,C03,R_HSE,22R,1,HSE_OUT,YES,
+CORE,C03,R_HSE,22R,2,HSE_IN,YES,
+CORE,C03,C_HSE,C1005X7R1H104K050BB,1,3V3_D,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C03,C_HSE,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C03,U_RESET,TPS3808G33DBVR,1,NRST,YES,
+CORE,C03,U_RESET,TPS3808G33DBVR,2,GND,YES,
+CORE,C03,U_RESET,TPS3808G33DBVR,3,MR_N,YES,
+CORE,C03,U_RESET,TPS3808G33DBVR,4,NC,YES,
+CORE,C03,U_RESET,TPS3808G33DBVR,5,3V3_D,YES,
+CORE,C03,U_RESET,TPS3808G33DBVR,6,3V3_D,YES,
+CORE,C03,C_RESET_U,C1005X7R1H104K050BB,1,3V3_D,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C03,C_RESET_U,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C03,R_MR,10k,1,MR_N,YES,
+CORE,C03,R_MR,10k,2,3V3_D,YES,
+CORE,C03,SW_RESET,EVQP7A01P,1L,MR_N,YES,vendor terminal 1 pair and terminal 2 pair; project L/R pad aliases
+CORE,C03,SW_RESET,EVQP7A01P,1R,MR_N,YES,vendor terminal 1 pair and terminal 2 pair; project L/R pad aliases
+CORE,C03,SW_RESET,EVQP7A01P,2L,GND,YES,vendor terminal 1 pair and terminal 2 pair; project L/R pad aliases
+CORE,C03,SW_RESET,EVQP7A01P,2R,GND,YES,vendor terminal 1 pair and terminal 2 pair; project L/R pad aliases
+CORE,C03,R_NRST,10k,1,NRST,YES,
+CORE,C03,R_NRST,10k,2,3V3_D,YES,
+CORE,C03,C_NRST,C1005X7R1H104K050BB,1,NRST,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C03,C_NRST,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C03,R_BOOT,10k,1,BOOT0,YES,
+CORE,C03,R_BOOT,10k,2,GND,YES,
+CORE,C03,SW_BOOT,EVQP7A01P,1L,BOOT0,YES,vendor terminal 1 pair and terminal 2 pair; project L/R pad aliases
+CORE,C03,SW_BOOT,EVQP7A01P,1R,BOOT0,YES,vendor terminal 1 pair and terminal 2 pair; project L/R pad aliases
+CORE,C03,SW_BOOT,EVQP7A01P,2L,3V3_D,YES,vendor terminal 1 pair and terminal 2 pair; project L/R pad aliases
+CORE,C03,SW_BOOT,EVQP7A01P,2R,3V3_D,YES,vendor terminal 1 pair and terminal 2 pair; project L/R pad aliases
+CORE,C03,J_SWD,FTSH-105-01-L-DV-007-K,1,3V3_D,YES,"pin 7 physically omitted; VTref is sense only, no debugger power injection"
+CORE,C03,J_SWD,FTSH-105-01-L-DV-007-K,2,SWDIO,YES,"pin 7 physically omitted; VTref is sense only, no debugger power injection"
+CORE,C03,J_SWD,FTSH-105-01-L-DV-007-K,3,GND,YES,"pin 7 physically omitted; VTref is sense only, no debugger power injection"
+CORE,C03,J_SWD,FTSH-105-01-L-DV-007-K,4,SWCLK,YES,"pin 7 physically omitted; VTref is sense only, no debugger power injection"
+CORE,C03,J_SWD,FTSH-105-01-L-DV-007-K,5,GND,YES,"pin 7 physically omitted; VTref is sense only, no debugger power injection"
+CORE,C03,J_SWD,FTSH-105-01-L-DV-007-K,6,NC,YES,"pin 7 physically omitted; VTref is sense only, no debugger power injection"
+CORE,C03,J_SWD,FTSH-105-01-L-DV-007-K,8,NC,YES,"pin 7 physically omitted; VTref is sense only, no debugger power injection"
+CORE,C03,J_SWD,FTSH-105-01-L-DV-007-K,9,GND,YES,"pin 7 physically omitted; VTref is sense only, no debugger power injection"
+CORE,C03,J_SWD,FTSH-105-01-L-DV-007-K,10,NRST,YES,"pin 7 physically omitted; VTref is sense only, no debugger power injection"
+CORE,C04,R_IMU_POWER,0R,1,3V3_D,YES,
+CORE,C04,R_IMU_POWER,0R,2,3V3_IMU,YES,
+CORE,C04,U_IMU,BMI088,1,NC,YES,
+CORE,C04,U_IMU,BMI088,2,GND,YES,
+CORE,C04,U_IMU,BMI088,3,3V3_IMU,YES,
+CORE,C04,U_IMU,BMI088,4,GND,YES,
+CORE,C04,U_IMU,BMI088,5,IMU_GYRO_CS,YES,
+CORE,C04,U_IMU,BMI088,6,GND,YES,
+CORE,C04,U_IMU,BMI088,7,GND,YES,
+CORE,C04,U_IMU,BMI088,8,IMU_SCK_DEV,YES,
+CORE,C04,U_IMU,BMI088,9,IMU_MOSI_DEV,YES,
+CORE,C04,U_IMU,BMI088,10,IMU_MISO,YES,
+CORE,C04,U_IMU,BMI088,11,3V3_IMU,YES,
+CORE,C04,U_IMU,BMI088,12,IMU_GYRO_IRQ,YES,
+CORE,C04,U_IMU,BMI088,13,NC,YES,
+CORE,C04,U_IMU,BMI088,14,IMU_ACC_CS,YES,
+CORE,C04,U_IMU,BMI088,15,IMU_MISO,YES,
+CORE,C04,U_IMU,BMI088,16,IMU_ACC_IRQ,YES,
+CORE,C04,R_IMU_SCK,22R,1,IMU_SCK,YES,
+CORE,C04,R_IMU_SCK,22R,2,IMU_SCK_DEV,YES,
+CORE,C04,R_IMU_MOSI,22R,1,IMU_MOSI,YES,
+CORE,C04,R_IMU_MOSI,22R,2,IMU_MOSI_DEV,YES,
+CORE,C04,R_IMU_ACC_CS,10k,1,IMU_ACC_CS,YES,
+CORE,C04,R_IMU_ACC_CS,10k,2,3V3_IMU,YES,
+CORE,C04,R_IMU_GYRO_CS,10k,1,IMU_GYRO_CS,YES,
+CORE,C04,R_IMU_GYRO_CS,10k,2,3V3_IMU,YES,
+CORE,C04,C_IMU_VDD,C1005X7R1H104K050BB,1,3V3_IMU,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C04,C_IMU_VDD,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C04,C_IMU_VDDIO,C1005X7R1H104K050BB,1,3V3_IMU,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C04,C_IMU_VDDIO,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C04,C_IMU_BULK,C1608X7R1C105K080AC,1,3V3_IMU,YES,1uF; see MLCC selection and effective-C acceptance table
+CORE,C04,C_IMU_BULK,C1608X7R1C105K080AC,2,GND,YES,1uF; see MLCC selection and effective-C acceptance table
+CORE,C04,U_TEMP,TMP302ADRLR,1,GND,YES,
+CORE,C04,U_TEMP,TMP302ADRLR,2,GND,YES,
+CORE,C04,U_TEMP,TMP302ADRLR,3,TEMP_OK,YES,
+CORE,C04,U_TEMP,TMP302ADRLR,4,3V3_D,YES,
+CORE,C04,U_TEMP,TMP302ADRLR,5,3V3_D,YES,
+CORE,C04,U_TEMP,TMP302ADRLR,6,3V3_D,YES,
+CORE,C04,C_TEMP,C1005X7R1H104K050BB,1,3V3_D,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C04,C_TEMP,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C04,R_TEMP,10k,1,TEMP_OK,YES,
+CORE,C04,R_TEMP,10k,2,3V3_D,YES,
+CORE,C04,U_HEAT_GATE,SN74LVC1G08DBVR,1,TEMP_OK,YES,
+CORE,C04,U_HEAT_GATE,SN74LVC1G08DBVR,2,NRST,YES,
+CORE,C04,U_HEAT_GATE,SN74LVC1G08DBVR,3,GND,YES,
+CORE,C04,U_HEAT_GATE,SN74LVC1G08DBVR,4,HEAT_ALLOW,YES,
+CORE,C04,U_HEAT_GATE,SN74LVC1G08DBVR,5,3V3_D,YES,
+CORE,C04,C_U_HEAT_GATE,C1005X7R1H104K050BB,1,3V3_D,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C04,C_U_HEAT_GATE,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C04,R_HEAT_ALLOW,100k,1,HEAT_ALLOW,YES,
+CORE,C04,R_HEAT_ALLOW,100k,2,GND,YES,
+CORE,C04,U_HEAT_POWER,TPS22919DCKR,1,5V_IN,YES,
+CORE,C04,U_HEAT_POWER,TPS22919DCKR,2,GND,YES,
+CORE,C04,U_HEAT_POWER,TPS22919DCKR,3,HEAT_ALLOW,YES,
+CORE,C04,U_HEAT_POWER,TPS22919DCKR,4,NC,YES,
+CORE,C04,U_HEAT_POWER,TPS22919DCKR,5,U_HEAT_POWER_QOD,YES,
+CORE,C04,U_HEAT_POWER,TPS22919DCKR,6,HEAT_5V,YES,
+CORE,C04,R_U_HEAT_POWER_QOD,1k,1,U_HEAT_POWER_QOD,YES,
+CORE,C04,R_U_HEAT_POWER_QOD,1k,2,HEAT_5V,YES,
+CORE,C04,C_U_HEAT_POWER_IN,C1608X7R1C105K080AC,1,5V_IN,YES,1uF; see MLCC selection and effective-C acceptance table
+CORE,C04,C_U_HEAT_POWER_IN,C1608X7R1C105K080AC,2,GND,YES,1uF; see MLCC selection and effective-C acceptance table
+CORE,C04,C_U_HEAT_POWER_OUT,C1005X7R1H104K050BB,1,HEAT_5V,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C04,C_U_HEAT_POWER_OUT,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C04,R_HEAT1,RC1206FR-07200RL,1,HEAT_5V,YES,"200 ohm 1%, 0.25W at 70C; four in parallel"
+CORE,C04,R_HEAT1,RC1206FR-07200RL,2,HEAT_DRAIN,YES,"200 ohm 1%, 0.25W at 70C; four in parallel"
+CORE,C04,R_HEAT2,RC1206FR-07200RL,1,HEAT_5V,YES,"200 ohm 1%, 0.25W at 70C; four in parallel"
+CORE,C04,R_HEAT2,RC1206FR-07200RL,2,HEAT_DRAIN,YES,"200 ohm 1%, 0.25W at 70C; four in parallel"
+CORE,C04,R_HEAT3,RC1206FR-07200RL,1,HEAT_5V,YES,"200 ohm 1%, 0.25W at 70C; four in parallel"
+CORE,C04,R_HEAT3,RC1206FR-07200RL,2,HEAT_DRAIN,YES,"200 ohm 1%, 0.25W at 70C; four in parallel"
+CORE,C04,R_HEAT4,RC1206FR-07200RL,1,HEAT_5V,YES,"200 ohm 1%, 0.25W at 70C; four in parallel"
+CORE,C04,R_HEAT4,RC1206FR-07200RL,2,HEAT_DRAIN,YES,"200 ohm 1%, 0.25W at 70C; four in parallel"
+CORE,C04,Q_HEAT,DMN2056U-7,1,HEAT_GATE,YES,
+CORE,C04,Q_HEAT,DMN2056U-7,2,GND,YES,
+CORE,C04,Q_HEAT,DMN2056U-7,3,HEAT_DRAIN,YES,
+CORE,C04,R_HEAT_G,100R,1,IMU_HEATER_PWM,YES,
+CORE,C04,R_HEAT_G,100R,2,HEAT_GATE,YES,
+CORE,C04,R_HEAT_G_PD,100k,1,HEAT_GATE,YES,
+CORE,C04,R_HEAT_G_PD,100k,2,GND,YES,
+CORE,C04,R_NTC_TOP,10k 0.1%,1,3V3_A,YES,
+CORE,C04,R_NTC_TOP,10k 0.1%,2,NTC_NODE,YES,
+CORE,C04,NTC1,NTCG163JF103FT1,1,NTC_NODE,YES,
+CORE,C04,NTC1,NTCG163JF103FT1,2,GND,YES,
+CORE,C04,R_NTC_ADC,1k,1,NTC_NODE,YES,
+CORE,C04,R_NTC_ADC,1k,2,IMU_HEATER_NTC,YES,
+CORE,C04,C_NTC,C1608C0G1H103J080AA,1,IMU_HEATER_NTC,YES,10nF; see MLCC selection and effective-C acceptance table
+CORE,C04,C_NTC,C1608C0G1H103J080AA,2,GND,YES,10nF; see MLCC selection and effective-C acceptance table
+CORE,C04,R_V5_TOP,20k 0.1%,1,5V_IN,YES,
+CORE,C04,R_V5_TOP,20k 0.1%,2,V5_NODE,YES,
+CORE,C04,R_V5_BOT,10k 0.1%,1,V5_NODE,YES,
+CORE,C04,R_V5_BOT,10k 0.1%,2,GND,YES,
+CORE,C04,R_V5_ADC,1k,1,V5_NODE,YES,
+CORE,C04,R_V5_ADC,1k,2,LOCAL_5V_ADC,YES,
+CORE,C04,C_V5,C1608C0G1H103J080AA,1,LOCAL_5V_ADC,YES,10nF; see MLCC selection and effective-C acceptance table
+CORE,C04,C_V5,C1608C0G1H103J080AA,2,GND,YES,10nF; see MLCC selection and effective-C acceptance table
+CORE,C05,C_CAN_BULK,GRM21BR61E106KA73L,1,5V_IN,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C05,C_CAN_BULK,GRM21BR61E106KA73L,2,GND,YES,10uF; see MLCC selection and effective-C acceptance table
+CORE,C05,U_CAN1,TCAN1042HGVDRBRQ1,1,CAN1_TX,YES,
+CORE,C05,U_CAN1,TCAN1042HGVDRBRQ1,2,GND,YES,
+CORE,C05,U_CAN1,TCAN1042HGVDRBRQ1,3,5V_IN,YES,
+CORE,C05,U_CAN1,TCAN1042HGVDRBRQ1,4,CAN1_RX,YES,
+CORE,C05,U_CAN1,TCAN1042HGVDRBRQ1,5,3V3_D,YES,
+CORE,C05,U_CAN1,TCAN1042HGVDRBRQ1,6,CAN1_L,YES,
+CORE,C05,U_CAN1,TCAN1042HGVDRBRQ1,7,CAN1_H,YES,
+CORE,C05,U_CAN1,TCAN1042HGVDRBRQ1,8,CAN1_STB,YES,
+CORE,C05,U_CAN1,TCAN1042HGVDRBRQ1,EP,GND,YES,
+CORE,C05,R_CAN1_STB,10k,1,CAN1_STB,YES,
+CORE,C05,R_CAN1_STB,10k,2,3V3_D,YES,
+CORE,C05,R_CAN1_TX,10k,1,CAN1_TX,YES,
+CORE,C05,R_CAN1_TX,10k,2,3V3_D,YES,
+CORE,C05,C_CAN1_VCC,C1005X7R1H104K050BB,1,5V_IN,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C05,C_CAN1_VCC,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C05,C_CAN1_VIO,C1005X7R1H104K050BB,1,3V3_D,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C05,C_CAN1_VIO,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C05,D_CAN1,"PESD2CANFD24V-T,215",1,CAN1_L,YES,
+CORE,C05,D_CAN1,"PESD2CANFD24V-T,215",2,CAN1_H,YES,
+CORE,C05,D_CAN1,"PESD2CANFD24V-T,215",3,GND,YES,
+CORE,C05,U_CAN2,TCAN1042HGVDRBRQ1,1,CAN2_TX,YES,
+CORE,C05,U_CAN2,TCAN1042HGVDRBRQ1,2,GND,YES,
+CORE,C05,U_CAN2,TCAN1042HGVDRBRQ1,3,5V_IN,YES,
+CORE,C05,U_CAN2,TCAN1042HGVDRBRQ1,4,CAN2_RX,YES,
+CORE,C05,U_CAN2,TCAN1042HGVDRBRQ1,5,3V3_D,YES,
+CORE,C05,U_CAN2,TCAN1042HGVDRBRQ1,6,CAN2_L,YES,
+CORE,C05,U_CAN2,TCAN1042HGVDRBRQ1,7,CAN2_H,YES,
+CORE,C05,U_CAN2,TCAN1042HGVDRBRQ1,8,CAN2_STB,YES,
+CORE,C05,U_CAN2,TCAN1042HGVDRBRQ1,EP,GND,YES,
+CORE,C05,R_CAN2_STB,10k,1,CAN2_STB,YES,
+CORE,C05,R_CAN2_STB,10k,2,3V3_D,YES,
+CORE,C05,R_CAN2_TX,10k,1,CAN2_TX,YES,
+CORE,C05,R_CAN2_TX,10k,2,3V3_D,YES,
+CORE,C05,C_CAN2_VCC,C1005X7R1H104K050BB,1,5V_IN,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C05,C_CAN2_VCC,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C05,C_CAN2_VIO,C1005X7R1H104K050BB,1,3V3_D,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C05,C_CAN2_VIO,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C05,D_CAN2,"PESD2CANFD24V-T,215",1,CAN2_L,YES,
+CORE,C05,D_CAN2,"PESD2CANFD24V-T,215",2,CAN2_H,YES,
+CORE,C05,D_CAN2,"PESD2CANFD24V-T,215",3,GND,YES,
+CORE,C05,U_CAN3,TCAN1042HGVDRBRQ1,1,CAN3_TX,YES,
+CORE,C05,U_CAN3,TCAN1042HGVDRBRQ1,2,GND,YES,
+CORE,C05,U_CAN3,TCAN1042HGVDRBRQ1,3,5V_IN,YES,
+CORE,C05,U_CAN3,TCAN1042HGVDRBRQ1,4,CAN3_RX,YES,
+CORE,C05,U_CAN3,TCAN1042HGVDRBRQ1,5,3V3_D,YES,
+CORE,C05,U_CAN3,TCAN1042HGVDRBRQ1,6,CAN3_L,YES,
+CORE,C05,U_CAN3,TCAN1042HGVDRBRQ1,7,CAN3_H,YES,
+CORE,C05,U_CAN3,TCAN1042HGVDRBRQ1,8,CAN3_STB,YES,
+CORE,C05,U_CAN3,TCAN1042HGVDRBRQ1,EP,GND,YES,
+CORE,C05,R_CAN3_STB,10k,1,CAN3_STB,YES,
+CORE,C05,R_CAN3_STB,10k,2,3V3_D,YES,
+CORE,C05,R_CAN3_TX,10k,1,CAN3_TX,YES,
+CORE,C05,R_CAN3_TX,10k,2,3V3_D,YES,
+CORE,C05,C_CAN3_VCC,C1005X7R1H104K050BB,1,5V_IN,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C05,C_CAN3_VCC,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C05,C_CAN3_VIO,C1005X7R1H104K050BB,1,3V3_D,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C05,C_CAN3_VIO,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C05,D_CAN3,"PESD2CANFD24V-T,215",1,CAN3_L,YES,
+CORE,C05,D_CAN3,"PESD2CANFD24V-T,215",2,CAN3_H,YES,
+CORE,C05,D_CAN3,"PESD2CANFD24V-T,215",3,GND,YES,
+CORE,C06,J_USB,USB4105-GF-A-120,A1_B12,GND,YES,12 electrical lands + 4 plated shell slots; combined-pad aliases defined in connector pad table
+CORE,C06,J_USB,USB4105-GF-A-120,B1_A12,GND,YES,12 electrical lands + 4 plated shell slots; combined-pad aliases defined in connector pad table
+CORE,C06,J_USB,USB4105-GF-A-120,A4_B9,USB_VBUS,YES,12 electrical lands + 4 plated shell slots; combined-pad aliases defined in connector pad table
+CORE,C06,J_USB,USB4105-GF-A-120,B4_A9,USB_VBUS,YES,12 electrical lands + 4 plated shell slots; combined-pad aliases defined in connector pad table
+CORE,C06,J_USB,USB4105-GF-A-120,A5,USB_CC1,YES,12 electrical lands + 4 plated shell slots; combined-pad aliases defined in connector pad table
+CORE,C06,J_USB,USB4105-GF-A-120,B5,USB_CC2,YES,12 electrical lands + 4 plated shell slots; combined-pad aliases defined in connector pad table
+CORE,C06,J_USB,USB4105-GF-A-120,A6,USB_DP_CONN,YES,12 electrical lands + 4 plated shell slots; combined-pad aliases defined in connector pad table
+CORE,C06,J_USB,USB4105-GF-A-120,B6,USB_DP_CONN,YES,12 electrical lands + 4 plated shell slots; combined-pad aliases defined in connector pad table
+CORE,C06,J_USB,USB4105-GF-A-120,A7,USB_DM_CONN,YES,12 electrical lands + 4 plated shell slots; combined-pad aliases defined in connector pad table
+CORE,C06,J_USB,USB4105-GF-A-120,B7,USB_DM_CONN,YES,12 electrical lands + 4 plated shell slots; combined-pad aliases defined in connector pad table
+CORE,C06,J_USB,USB4105-GF-A-120,A8,NC,YES,12 electrical lands + 4 plated shell slots; combined-pad aliases defined in connector pad table
+CORE,C06,J_USB,USB4105-GF-A-120,B8,NC,YES,12 electrical lands + 4 plated shell slots; combined-pad aliases defined in connector pad table
+CORE,C06,J_USB,USB4105-GF-A-120,S1,USB_SHELL,YES,12 electrical lands + 4 plated shell slots; combined-pad aliases defined in connector pad table
+CORE,C06,J_USB,USB4105-GF-A-120,S2,USB_SHELL,YES,12 electrical lands + 4 plated shell slots; combined-pad aliases defined in connector pad table
+CORE,C06,J_USB,USB4105-GF-A-120,S3,USB_SHELL,YES,12 electrical lands + 4 plated shell slots; combined-pad aliases defined in connector pad table
+CORE,C06,J_USB,USB4105-GF-A-120,S4,USB_SHELL,YES,12 electrical lands + 4 plated shell slots; combined-pad aliases defined in connector pad table
+CORE,C06,R_CC1,5.1k 1%,1,USB_CC1,YES,
+CORE,C06,R_CC1,5.1k 1%,2,GND,YES,
+CORE,C06,R_CC2,5.1k 1%,1,USB_CC2,YES,
+CORE,C06,R_CC2,5.1k 1%,2,GND,YES,
+CORE,C06,R_USB_SHELL,0R,1,USB_SHELL,YES,
+CORE,C06,R_USB_SHELL,0R,2,GND,YES,
+CORE,C06,U_USB_ESD,USBLC6-2SC6,1,USB_DP_CONN,YES,
+CORE,C06,U_USB_ESD,USBLC6-2SC6,2,GND,YES,
+CORE,C06,U_USB_ESD,USBLC6-2SC6,3,USB_DM_CONN,YES,
+CORE,C06,U_USB_ESD,USBLC6-2SC6,4,USB_DM_CONN,YES,
+CORE,C06,U_USB_ESD,USBLC6-2SC6,5,USB_VBUS,YES,
+CORE,C06,U_USB_ESD,USBLC6-2SC6,6,USB_DP_CONN,YES,
+CORE,C06,R_USB_DP,0R,1,USB_DP_CONN,YES,
+CORE,C06,R_USB_DP,0R,2,USB_DP,YES,
+CORE,C06,R_USB_DM,0R,1,USB_DM_CONN,YES,
+CORE,C06,R_USB_DM,0R,2,USB_DM,YES,
+CORE,C06,C_USB_VBUS,C1005X7R1H104K050BB,1,USB_VBUS,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C06,C_USB_VBUS,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C06,U_VBUS,SN74LVC1G17DBVR,1,NC,YES,
+CORE,C06,U_VBUS,SN74LVC1G17DBVR,2,VBUS_SENSE,YES,
+CORE,C06,U_VBUS,SN74LVC1G17DBVR,3,GND,YES,
+CORE,C06,U_VBUS,SN74LVC1G17DBVR,4,VBUS_PRESENT,YES,
+CORE,C06,U_VBUS,SN74LVC1G17DBVR,5,3V3_D,YES,
+CORE,C06,R_VBUS_SER,1k,1,USB_VBUS,YES,
+CORE,C06,R_VBUS_SER,1k,2,VBUS_SENSE,YES,
+CORE,C06,R_VBUS_PD,100k,1,VBUS_SENSE,YES,
+CORE,C06,R_VBUS_PD,100k,2,GND,YES,
+CORE,C06,C_VBUS_U,C1005X7R1H104K050BB,1,3V3_D,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C06,C_VBUS_U,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+CORE,C07,J1,TFM-125-02-L-D-A-TR,1,CAN1_H,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,2,CAN1_L,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,3,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,4,CAN2_H,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,5,CAN2_L,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,6,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,7,CAN3_H,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,8,CAN3_L,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,9,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,10,5V_IN,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,11,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,12,5V_IN,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,13,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,14,5V_IN,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,15,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,16,5V_IN,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,17,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,18,5V_IN,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,19,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,20,5V_IN,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,21,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,22,3V3_AUX,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,23,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,24,3V3_AUX,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,25,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,26,EXP_PA0,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,27,EXP_PA1,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,28,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,29,EXP_PA10,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,30,EXP_PA15,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,31,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,32,EXP_PA2,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,33,EXP_PA3,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,34,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,35,EXP_PA4,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,36,EXP_PA5,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,37,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,38,EXP_PA6,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,39,EXP_PA7,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,40,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,41,EXP_PA8,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,42,EXP_PB0,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,43,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,44,EXP_PB1,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,45,EXP_PB10,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,46,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,47,EXP_PB11,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,48,EXP_PB12,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,49,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J1,TFM-125-02-L-D-A-TR,50,EXP_PB13,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,1,EXP_PB14,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,2,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,3,EXP_PB15,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,4,EXP_PB2,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,5,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,6,EXP_PB3,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,7,EXP_PB4,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,8,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,9,EXP_PB7,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,10,EXP_PC0,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,11,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,12,EXP_PC1,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,13,EXP_PC10,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,14,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,15,EXP_PC11,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,16,EXP_PC12,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,17,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,18,EXP_PC4,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,19,EXP_PC5,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,20,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,21,EXP_PC6,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,22,EXP_PC7,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,23,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,24,EXP_PC8,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,25,EXP_PC9,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,26,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,27,EXP_PD0,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,28,EXP_PD1,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,29,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,30,EXP_PD11,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,31,EXP_PD14,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,32,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,33,EXP_PD15,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,34,EXP_PD2,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,35,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,36,EXP_PD5,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,37,EXP_PD6,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,38,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,39,EXP_PD8,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,40,EXP_PD9,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,41,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,42,EXP_PE0,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,43,EXP_PE1,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,44,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,45,EXP_PE10,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,46,EXP_PE7,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,47,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,48,EXP_PE8,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,49,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,J2,TFM-125-02-L-D-A-TR,50,GND,YES,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,C07,TP_5V_IN,PCB_TP_0.8,1,5V_IN,YES,
+CORE,C07,TP_3V3_D,PCB_TP_0.8,1,3V3_D,YES,
+CORE,C07,TP_3V3_A,PCB_TP_0.8,1,3V3_A,YES,
+CORE,C07,TP_3V3_AUX,PCB_TP_0.8,1,3V3_AUX,YES,
+CORE,C07,TP_VCORE,PCB_TP_0.8,1,VCORE,YES,
+CORE,C07,TP_GND,PCB_TP_0.8,1,GND,YES,
+CORE,C07,TP_NRST,PCB_TP_0.8,1,NRST,YES,
+CORE,C07,TP_BOOT0,PCB_TP_0.8,1,BOOT0,YES,
+CORE,C07,TP_TEMP_OK,PCB_TP_0.8,1,TEMP_OK,YES,
+CORE,C07,TP_HEAT_ALLOW,PCB_TP_0.8,1,HEAT_ALLOW,YES,
+CORE,C07,TP_HEAT_5V,PCB_TP_0.8,1,HEAT_5V,YES,
+CORE,C07,TP_AUX_FAULT_N,PCB_TP_0.8,1,AUX_FAULT_N,YES,
+CORE,C07,TP_BUCK_PG,PCB_TP_0.8,1,BUCK_PG,YES,
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,1,CAN1_H,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,2,CAN1_L,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,3,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,4,CAN2_H,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,5,CAN2_L,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,6,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,7,CAN3_H,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,8,CAN3_L,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,9,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,10,5V_IN,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,11,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,12,5V_IN,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,13,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,14,5V_IN,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,15,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,16,5V_IN,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,17,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,18,5V_IN,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,19,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,20,5V_IN,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,21,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,22,3V3_AUX,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,23,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,24,3V3_AUX,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,25,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,26,EXP_PA0,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,27,EXP_PA1,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,28,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,29,EXP_PA10,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,30,EXP_PA15,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,31,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,32,EXP_PA2,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,33,EXP_PA3,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,34,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,35,EXP_PA4,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,36,EXP_PA5,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,37,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,38,EXP_PA6,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,39,EXP_PA7,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,40,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,41,EXP_PA8,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,42,EXP_PB0,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,43,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,44,EXP_PB1,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,45,EXP_PB10,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,46,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,47,EXP_PB11,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,48,EXP_PB12,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,49,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J1,SFM-125-02-L-D-A-TR,50,EXP_PB13,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,1,EXP_PB14,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,2,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,3,EXP_PB15,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,4,EXP_PB2,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,5,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,6,EXP_PB3,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,7,EXP_PB4,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,8,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,9,EXP_PB7,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,10,EXP_PC0,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,11,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,12,EXP_PC1,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,13,EXP_PC10,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,14,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,15,EXP_PC11,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,16,EXP_PC12,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,17,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,18,EXP_PC4,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,19,EXP_PC5,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,20,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,21,EXP_PC6,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,22,EXP_PC7,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,23,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,24,EXP_PC8,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,25,EXP_PC9,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,26,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,27,EXP_PD0,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,28,EXP_PD1,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,29,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,30,EXP_PD11,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,31,EXP_PD14,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,32,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,33,EXP_PD15,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,34,EXP_PD2,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,35,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,36,EXP_PD5,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,37,EXP_PD6,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,38,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,39,EXP_PD8,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,40,EXP_PD9,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,41,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,42,EXP_PE0,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,43,EXP_PE1,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,44,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,45,EXP_PE10,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,46,EXP_PE7,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,47,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,48,EXP_PE8,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,49,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J2,SFM-125-02-L-D-A-TR,50,GND,YES,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_DBG,B01,J_PWR,B2P-VH(LF)(SN),1,BENCH_5V,YES,"5V bench input only; VHR-2N housing, SVH-21T-P1.1 contacts; not reverse-polarity protection"
+BASE_DBG,B01,J_PWR,B2P-VH(LF)(SN),2,GND,YES,"5V bench input only; VHR-2N housing, SVH-21T-P1.1 contacts; not reverse-polarity protection"
+BASE_DBG,B01,F1,045102.5MRL,1,BENCH_5V,YES,"2.5A 451; backup fuse, not semiconductor current limiting"
+BASE_DBG,B01,F1,045102.5MRL,2,FUSED_5V,YES,"2.5A 451; backup fuse, not semiconductor current limiting"
+BASE_DBG,B01,SW_MAIN,JS102011SCQN,1,GND,YES,"vertical actuator SMT; 2 common; OFF=1-2; ON=2-3; enable only, never load current"
+BASE_DBG,B01,SW_MAIN,JS102011SCQN,2,MAIN_ON,YES,"vertical actuator SMT; 2 common; OFF=1-2; ON=2-3; enable only, never load current"
+BASE_DBG,B01,SW_MAIN,JS102011SCQN,3,FUSED_5V,YES,"vertical actuator SMT; 2 common; OFF=1-2; ON=2-3; enable only, never load current"
+BASE_DBG,B01,R_MAIN_ON_PD,100k,1,MAIN_ON,YES,
+BASE_DBG,B01,R_MAIN_ON_PD,100k,2,GND,YES,
+BASE_DBG,B01,U_MAIN,TPS22975DSGR,1,FUSED_5V,YES,
+BASE_DBG,B01,U_MAIN,TPS22975DSGR,2,FUSED_5V,YES,
+BASE_DBG,B01,U_MAIN,TPS22975DSGR,3,MAIN_ON,YES,
+BASE_DBG,B01,U_MAIN,TPS22975DSGR,4,FUSED_5V,YES,
+BASE_DBG,B01,U_MAIN,TPS22975DSGR,5,GND,YES,
+BASE_DBG,B01,U_MAIN,TPS22975DSGR,6,MAIN_CT,YES,
+BASE_DBG,B01,U_MAIN,TPS22975DSGR,7,5V_IN,YES,
+BASE_DBG,B01,U_MAIN,TPS22975DSGR,8,5V_IN,YES,
+BASE_DBG,B01,U_MAIN,TPS22975DSGR,EP,GND,YES,
+BASE_DBG,B01,C_MAIN_CT,C1608C0G1H103J080AA,1,MAIN_CT,YES,10nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B01,C_MAIN_CT,C1608C0G1H103J080AA,2,GND,YES,10nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B01,C_MAIN_IN,C1608X7R1C105K080AC,1,FUSED_5V,YES,1uF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B01,C_MAIN_IN,C1608X7R1C105K080AC,2,GND,YES,1uF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B01,C_MAIN_HF,C1005X7R1H104K050BB,1,FUSED_5V,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B01,C_MAIN_HF,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B01,C_BASE_5V,GRM21BR61E106KA73L,1,5V_IN,YES,10uF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B01,C_BASE_5V,GRM21BR61E106KA73L,2,GND,YES,10uF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B01,C_BASE_5V2,GRM21BR61E106KA73L,1,5V_IN,YES,10uF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B01,C_BASE_5V2,GRM21BR61E106KA73L,2,GND,YES,10uF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B01,C_BASE_5V3,GRM21BR61E106KA73L,1,5V_IN,YES,10uF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B01,C_BASE_5V3,GRM21BR61E106KA73L,2,GND,YES,10uF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B01,C_BASE_5V4,GRM21BR61E106KA73L,1,5V_IN,YES,10uF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B01,C_BASE_5V4,GRM21BR61E106KA73L,2,GND,YES,10uF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B01,C_BASE_AUX,GRM21BR61E106KA73L,1,3V3_AUX,YES,10uF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B01,C_BASE_AUX,GRM21BR61E106KA73L,2,GND,YES,10uF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B01,U_AUX_MON,TPS3808G33DBVR,1,AUX_READY,YES,
+BASE_DBG,B01,U_AUX_MON,TPS3808G33DBVR,2,GND,YES,
+BASE_DBG,B01,U_AUX_MON,TPS3808G33DBVR,3,3V3_AUX,YES,
+BASE_DBG,B01,U_AUX_MON,TPS3808G33DBVR,4,NC,YES,
+BASE_DBG,B01,U_AUX_MON,TPS3808G33DBVR,5,3V3_AUX,YES,
+BASE_DBG,B01,U_AUX_MON,TPS3808G33DBVR,6,3V3_AUX,YES,
+BASE_DBG,B01,C_AUX_MON,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B01,C_AUX_MON,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B01,R_AUX_READY_PU,10k,1,AUX_READY,YES,
+BASE_DBG,B01,R_AUX_READY_PU,10k,2,3V3_AUX,YES,
+BASE_DBG,B01,R_AUX_READY_PD,100k,1,AUX_READY,YES,
+BASE_DBG,B01,R_AUX_READY_PD,100k,2,GND,YES,
+BASE_DBG,B01,Q_BUS_ENABLE,DMN2056U-7,1,AUX_READY,YES,
+BASE_DBG,B01,Q_BUS_ENABLE,DMN2056U-7,2,GND,YES,
+BASE_DBG,B01,Q_BUS_ENABLE,DMN2056U-7,3,BUS_OE_N,YES,
+BASE_DBG,B01,R_BUS_OE_PU,10k,1,BUS_OE_N,YES,
+BASE_DBG,B01,R_BUS_OE_PU,10k,2,3V3_AUX,YES,
+BASE_DBG,B01,R_PWR_GOOD,100R,1,AUX_READY,YES,
+BASE_DBG,B01,R_PWR_GOOD,100R,2,EXP_PA10,YES,
+BASE_DBG,B01,U_SD_I2C_ISO,SN74CB3Q3245PWR,1,NC,YES,
+BASE_DBG,B01,U_SD_I2C_ISO,SN74CB3Q3245PWR,10,GND,YES,
+BASE_DBG,B01,U_SD_I2C_ISO,SN74CB3Q3245PWR,19,BUS_OE_N,YES,
+BASE_DBG,B01,U_SD_I2C_ISO,SN74CB3Q3245PWR,20,3V3_AUX,YES,
+BASE_DBG,B01,U_SD_I2C_ISO,SN74CB3Q3245PWR,2,EXP_PC8,YES,
+BASE_DBG,B01,U_SD_I2C_ISO,SN74CB3Q3245PWR,18,ISO_PC8,YES,
+BASE_DBG,B01,U_SD_I2C_ISO,SN74CB3Q3245PWR,3,EXP_PC9,YES,
+BASE_DBG,B01,U_SD_I2C_ISO,SN74CB3Q3245PWR,17,ISO_PC9,YES,
+BASE_DBG,B01,U_SD_I2C_ISO,SN74CB3Q3245PWR,4,EXP_PC10,YES,
+BASE_DBG,B01,U_SD_I2C_ISO,SN74CB3Q3245PWR,16,ISO_PC10,YES,
+BASE_DBG,B01,U_SD_I2C_ISO,SN74CB3Q3245PWR,5,EXP_PC11,YES,
+BASE_DBG,B01,U_SD_I2C_ISO,SN74CB3Q3245PWR,15,ISO_PC11,YES,
+BASE_DBG,B01,U_SD_I2C_ISO,SN74CB3Q3245PWR,6,EXP_PD2,YES,
+BASE_DBG,B01,U_SD_I2C_ISO,SN74CB3Q3245PWR,14,ISO_PD2,YES,
+BASE_DBG,B01,U_SD_I2C_ISO,SN74CB3Q3245PWR,7,EXP_PC12,YES,
+BASE_DBG,B01,U_SD_I2C_ISO,SN74CB3Q3245PWR,13,ISO_PC12,YES,
+BASE_DBG,B01,U_SD_I2C_ISO,SN74CB3Q3245PWR,8,EXP_PB10,YES,
+BASE_DBG,B01,U_SD_I2C_ISO,SN74CB3Q3245PWR,12,ISO_PB10,YES,
+BASE_DBG,B01,U_SD_I2C_ISO,SN74CB3Q3245PWR,9,EXP_PB11,YES,
+BASE_DBG,B01,U_SD_I2C_ISO,SN74CB3Q3245PWR,11,ISO_PB11,YES,
+BASE_DBG,B01,C_SD_I2C_ISO,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B01,C_SD_I2C_ISO,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B02,J_CAN1,B3B-XH-A(LF)(SN),1,CAN1_H,YES,
+BASE_DBG,B02,J_CAN1,B3B-XH-A(LF)(SN),2,CAN1_L,YES,
+BASE_DBG,B02,J_CAN1,B3B-XH-A(LF)(SN),3,GND,YES,
+BASE_DBG,B02,R_CAN1_TH,60.4R 1%,1,CAN1_H,YES,
+BASE_DBG,B02,R_CAN1_TH,60.4R 1%,2,CAN1_SPLIT,YES,
+BASE_DBG,B02,R_CAN1_TL,60.4R 1%,1,CAN1_SPLIT,YES,
+BASE_DBG,B02,R_CAN1_TL,60.4R 1%,2,CAN1_TERM_L,YES,
+BASE_DBG,B02,C_CAN1_SPLIT,C1608C0G1H472J080AA,1,CAN1_SPLIT,YES,4.7nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B02,C_CAN1_SPLIT,C1608C0G1H472J080AA,2,GND,YES,4.7nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B02,JP_CAN1_TERM,PCB_SJ2_OPEN,1,CAN1_TERM_L,OPEN,"PCB copper pads, no purchased component; solder bridge only at bus endpoints"
+BASE_DBG,B02,JP_CAN1_TERM,PCB_SJ2_OPEN,2,CAN1_L,OPEN,"PCB copper pads, no purchased component; solder bridge only at bus endpoints"
+BASE_DBG,B02,D_CAN1,"PESD2CANFD24V-T,215",1,CAN1_L,DNP,
+BASE_DBG,B02,D_CAN1,"PESD2CANFD24V-T,215",2,CAN1_H,DNP,
+BASE_DBG,B02,D_CAN1,"PESD2CANFD24V-T,215",3,GND,DNP,
+BASE_DBG,B02,J_CAN2,B3B-XH-A(LF)(SN),1,CAN2_H,YES,
+BASE_DBG,B02,J_CAN2,B3B-XH-A(LF)(SN),2,CAN2_L,YES,
+BASE_DBG,B02,J_CAN2,B3B-XH-A(LF)(SN),3,GND,YES,
+BASE_DBG,B02,R_CAN2_TH,60.4R 1%,1,CAN2_H,YES,
+BASE_DBG,B02,R_CAN2_TH,60.4R 1%,2,CAN2_SPLIT,YES,
+BASE_DBG,B02,R_CAN2_TL,60.4R 1%,1,CAN2_SPLIT,YES,
+BASE_DBG,B02,R_CAN2_TL,60.4R 1%,2,CAN2_TERM_L,YES,
+BASE_DBG,B02,C_CAN2_SPLIT,C1608C0G1H472J080AA,1,CAN2_SPLIT,YES,4.7nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B02,C_CAN2_SPLIT,C1608C0G1H472J080AA,2,GND,YES,4.7nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B02,JP_CAN2_TERM,PCB_SJ2_OPEN,1,CAN2_TERM_L,OPEN,"PCB copper pads, no purchased component; solder bridge only at bus endpoints"
+BASE_DBG,B02,JP_CAN2_TERM,PCB_SJ2_OPEN,2,CAN2_L,OPEN,"PCB copper pads, no purchased component; solder bridge only at bus endpoints"
+BASE_DBG,B02,D_CAN2,"PESD2CANFD24V-T,215",1,CAN2_L,DNP,
+BASE_DBG,B02,D_CAN2,"PESD2CANFD24V-T,215",2,CAN2_H,DNP,
+BASE_DBG,B02,D_CAN2,"PESD2CANFD24V-T,215",3,GND,DNP,
+BASE_DBG,B02,J_CAN3,B3B-XH-A(LF)(SN),1,CAN3_H,YES,
+BASE_DBG,B02,J_CAN3,B3B-XH-A(LF)(SN),2,CAN3_L,YES,
+BASE_DBG,B02,J_CAN3,B3B-XH-A(LF)(SN),3,GND,YES,
+BASE_DBG,B02,R_CAN3_TH,60.4R 1%,1,CAN3_H,YES,
+BASE_DBG,B02,R_CAN3_TH,60.4R 1%,2,CAN3_SPLIT,YES,
+BASE_DBG,B02,R_CAN3_TL,60.4R 1%,1,CAN3_SPLIT,YES,
+BASE_DBG,B02,R_CAN3_TL,60.4R 1%,2,CAN3_TERM_L,YES,
+BASE_DBG,B02,C_CAN3_SPLIT,C1608C0G1H472J080AA,1,CAN3_SPLIT,YES,4.7nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B02,C_CAN3_SPLIT,C1608C0G1H472J080AA,2,GND,YES,4.7nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B02,JP_CAN3_TERM,PCB_SJ2_OPEN,1,CAN3_TERM_L,OPEN,"PCB copper pads, no purchased component; solder bridge only at bus endpoints"
+BASE_DBG,B02,JP_CAN3_TERM,PCB_SJ2_OPEN,2,CAN3_L,OPEN,"PCB copper pads, no purchased component; solder bridge only at bus endpoints"
+BASE_DBG,B02,D_CAN3,"PESD2CANFD24V-T,215",1,CAN3_L,DNP,
+BASE_DBG,B02,D_CAN3,"PESD2CANFD24V-T,215",2,CAN3_H,DNP,
+BASE_DBG,B02,D_CAN3,"PESD2CANFD24V-T,215",3,GND,DNP,
+BASE_DBG,B03,U_DEV1_TXBUF,SN74LVC1G125DBVR,1,BUS_OE_N,YES,
+BASE_DBG,B03,U_DEV1_TXBUF,SN74LVC1G125DBVR,2,EXP_PB14,YES,
+BASE_DBG,B03,U_DEV1_TXBUF,SN74LVC1G125DBVR,3,GND,YES,
+BASE_DBG,B03,U_DEV1_TXBUF,SN74LVC1G125DBVR,4,DEV1_D,YES,
+BASE_DBG,B03,U_DEV1_TXBUF,SN74LVC1G125DBVR,5,3V3_AUX,YES,
+BASE_DBG,B03,C_U_DEV1_TXBUF,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,C_U_DEV1_TXBUF,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,U_DEV1_DIRBUF,SN74LVC1G125DBVR,1,BUS_OE_N,YES,
+BASE_DBG,B03,U_DEV1_DIRBUF,SN74LVC1G125DBVR,2,EXP_PA0,YES,
+BASE_DBG,B03,U_DEV1_DIRBUF,SN74LVC1G125DBVR,3,GND,YES,
+BASE_DBG,B03,U_DEV1_DIRBUF,SN74LVC1G125DBVR,4,DEV1_DIR,YES,
+BASE_DBG,B03,U_DEV1_DIRBUF,SN74LVC1G125DBVR,5,3V3_AUX,YES,
+BASE_DBG,B03,C_U_DEV1_DIRBUF,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,C_U_DEV1_DIRBUF,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,R_DEV1_DIR_PD,10k,1,EXP_PA0,YES,
+BASE_DBG,B03,R_DEV1_DIR_PD,10k,2,GND,YES,
+BASE_DBG,B03,R_DEV1_DE_PD,10k,1,DEV1_DIR,YES,
+BASE_DBG,B03,R_DEV1_DE_PD,10k,2,GND,YES,
+BASE_DBG,B03,U_DEV1,THVD1450DR,1,DEV1_R,YES,
+BASE_DBG,B03,U_DEV1,THVD1450DR,2,DEV1_DIR,YES,
+BASE_DBG,B03,U_DEV1,THVD1450DR,3,DEV1_DIR,YES,
+BASE_DBG,B03,U_DEV1,THVD1450DR,4,DEV1_D,YES,
+BASE_DBG,B03,U_DEV1,THVD1450DR,5,GND,YES,
+BASE_DBG,B03,U_DEV1,THVD1450DR,6,DEV1_A_IC,YES,
+BASE_DBG,B03,U_DEV1,THVD1450DR,7,DEV1_B_IC,YES,
+BASE_DBG,B03,U_DEV1,THVD1450DR,8,3V3_AUX,YES,
+BASE_DBG,B03,C_DEV1,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,C_DEV1,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,R_DEV1_R_PU,10k,1,DEV1_R,YES,RX idle while receiver disabled; pull-up on buffer supply domain
+BASE_DBG,B03,R_DEV1_R_PU,10k,2,3V3_AUX,YES,RX idle while receiver disabled; pull-up on buffer supply domain
+BASE_DBG,B03,R_DEV1_A_SURGE,CRCW060310R0JNEAHP,1,DEV1_A,YES,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_DBG,B03,R_DEV1_A_SURGE,CRCW060310R0JNEAHP,2,DEV1_A_IC,YES,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_DBG,B03,R_DEV1_B_SURGE,CRCW060310R0JNEAHP,1,DEV1_B,YES,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_DBG,B03,R_DEV1_B_SURGE,CRCW060310R0JNEAHP,2,DEV1_B_IC,YES,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_DBG,B03,D_DEV1_485,CDSOT23-SM712,1,DEV1_A,YES,"TVS at connector, before both series resistors; THVD1450 Figure 37 reference, board surge qualification pending"
+BASE_DBG,B03,D_DEV1_485,CDSOT23-SM712,2,DEV1_B,YES,"TVS at connector, before both series resistors; THVD1450 Figure 37 reference, board surge qualification pending"
+BASE_DBG,B03,D_DEV1_485,CDSOT23-SM712,3,GND,YES,"TVS at connector, before both series resistors; THVD1450 Figure 37 reference, board surge qualification pending"
+BASE_DBG,B03,R_DEV1_RXSEL,0R,1,DEV1_R,YES,
+BASE_DBG,B03,R_DEV1_RXSEL,0R,2,EXP_PB15,YES,
+BASE_DBG,B03,J_DEV1_485,B3B-XH-A(LF)(SN),1,DEV1_A,YES,A=TI non-inverting; cable end-to-end numbered continuity; no power pin
+BASE_DBG,B03,J_DEV1_485,B3B-XH-A(LF)(SN),2,DEV1_B,YES,A=TI non-inverting; cable end-to-end numbered continuity; no power pin
+BASE_DBG,B03,J_DEV1_485,B3B-XH-A(LF)(SN),3,GND,YES,A=TI non-inverting; cable end-to-end numbered continuity; no power pin
+BASE_DBG,B03,R_DEV1_TERM,120R 1%,1,DEV1_A,YES,
+BASE_DBG,B03,R_DEV1_TERM,120R 1%,2,DEV1_TERM,YES,
+BASE_DBG,B03,JP_DEV1_TERM,PCB_SJ2_OPEN,1,DEV1_TERM,OPEN,PCB copper pads; default unbridged
+BASE_DBG,B03,JP_DEV1_TERM,PCB_SJ2_OPEN,2,DEV1_B,OPEN,PCB copper pads; default unbridged
+BASE_DBG,B03,U_DEV1_TTLBUF,SN74LVC1G125DBVR,1,BUS_OE_N,YES,
+BASE_DBG,B03,U_DEV1_TTLBUF,SN74LVC1G125DBVR,2,DEV1_TTL_IN,YES,
+BASE_DBG,B03,U_DEV1_TTLBUF,SN74LVC1G125DBVR,3,GND,YES,
+BASE_DBG,B03,U_DEV1_TTLBUF,SN74LVC1G125DBVR,4,DEV1_TTL_BUF,YES,
+BASE_DBG,B03,U_DEV1_TTLBUF,SN74LVC1G125DBVR,5,3V3_AUX,YES,
+BASE_DBG,B03,C_U_DEV1_TTLBUF,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,C_U_DEV1_TTLBUF,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,R_DEV1_TTL_IN,1k,1,DEV1_TTL_RX,YES,
+BASE_DBG,B03,R_DEV1_TTL_IN,1k,2,DEV1_TTL_IN,YES,
+BASE_DBG,B03,R_DEV1_TTL_PU,100k,1,DEV1_TTL_IN,YES,
+BASE_DBG,B03,R_DEV1_TTL_PU,100k,2,3V3_AUX,YES,
+BASE_DBG,B03,R_DEV1_TTL_SEL,0R,1,DEV1_TTL_BUF,DNP,remove RXSEL for TTL mode
+BASE_DBG,B03,R_DEV1_TTL_SEL,0R,2,EXP_PB15,DNP,remove RXSEL for TTL mode
+BASE_DBG,B03,J_DEV1_TTL,B4B-XH-A(LF)(SN),1,GND,YES,pin4 reference only; not external power supply
+BASE_DBG,B03,J_DEV1_TTL,B4B-XH-A(LF)(SN),2,DEV1_D,YES,pin4 reference only; not external power supply
+BASE_DBG,B03,J_DEV1_TTL,B4B-XH-A(LF)(SN),3,DEV1_TTL_RX,YES,pin4 reference only; not external power supply
+BASE_DBG,B03,J_DEV1_TTL,B4B-XH-A(LF)(SN),4,3V3_AUX,YES,pin4 reference only; not external power supply
+BASE_DBG,B03,U_DEV2_TXBUF,SN74LVC1G125DBVR,1,BUS_OE_N,YES,
+BASE_DBG,B03,U_DEV2_TXBUF,SN74LVC1G125DBVR,2,EXP_PD5,YES,
+BASE_DBG,B03,U_DEV2_TXBUF,SN74LVC1G125DBVR,3,GND,YES,
+BASE_DBG,B03,U_DEV2_TXBUF,SN74LVC1G125DBVR,4,DEV2_D,YES,
+BASE_DBG,B03,U_DEV2_TXBUF,SN74LVC1G125DBVR,5,3V3_AUX,YES,
+BASE_DBG,B03,C_U_DEV2_TXBUF,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,C_U_DEV2_TXBUF,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,U_DEV2_DIRBUF,SN74LVC1G125DBVR,1,BUS_OE_N,YES,
+BASE_DBG,B03,U_DEV2_DIRBUF,SN74LVC1G125DBVR,2,EXP_PA1,YES,
+BASE_DBG,B03,U_DEV2_DIRBUF,SN74LVC1G125DBVR,3,GND,YES,
+BASE_DBG,B03,U_DEV2_DIRBUF,SN74LVC1G125DBVR,4,DEV2_DIR,YES,
+BASE_DBG,B03,U_DEV2_DIRBUF,SN74LVC1G125DBVR,5,3V3_AUX,YES,
+BASE_DBG,B03,C_U_DEV2_DIRBUF,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,C_U_DEV2_DIRBUF,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,R_DEV2_DIR_PD,10k,1,EXP_PA1,YES,
+BASE_DBG,B03,R_DEV2_DIR_PD,10k,2,GND,YES,
+BASE_DBG,B03,R_DEV2_DE_PD,10k,1,DEV2_DIR,YES,
+BASE_DBG,B03,R_DEV2_DE_PD,10k,2,GND,YES,
+BASE_DBG,B03,U_DEV2,THVD1450DR,1,DEV2_R,YES,
+BASE_DBG,B03,U_DEV2,THVD1450DR,2,DEV2_DIR,YES,
+BASE_DBG,B03,U_DEV2,THVD1450DR,3,DEV2_DIR,YES,
+BASE_DBG,B03,U_DEV2,THVD1450DR,4,DEV2_D,YES,
+BASE_DBG,B03,U_DEV2,THVD1450DR,5,GND,YES,
+BASE_DBG,B03,U_DEV2,THVD1450DR,6,DEV2_A_IC,YES,
+BASE_DBG,B03,U_DEV2,THVD1450DR,7,DEV2_B_IC,YES,
+BASE_DBG,B03,U_DEV2,THVD1450DR,8,3V3_AUX,YES,
+BASE_DBG,B03,C_DEV2,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,C_DEV2,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,R_DEV2_R_PU,10k,1,DEV2_R,YES,RX idle while receiver disabled; pull-up on buffer supply domain
+BASE_DBG,B03,R_DEV2_R_PU,10k,2,3V3_AUX,YES,RX idle while receiver disabled; pull-up on buffer supply domain
+BASE_DBG,B03,R_DEV2_A_SURGE,CRCW060310R0JNEAHP,1,DEV2_A,YES,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_DBG,B03,R_DEV2_A_SURGE,CRCW060310R0JNEAHP,2,DEV2_A_IC,YES,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_DBG,B03,R_DEV2_B_SURGE,CRCW060310R0JNEAHP,1,DEV2_B,YES,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_DBG,B03,R_DEV2_B_SURGE,CRCW060310R0JNEAHP,2,DEV2_B_IC,YES,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_DBG,B03,D_DEV2_485,CDSOT23-SM712,1,DEV2_A,YES,"TVS at connector, before both series resistors; THVD1450 Figure 37 reference, board surge qualification pending"
+BASE_DBG,B03,D_DEV2_485,CDSOT23-SM712,2,DEV2_B,YES,"TVS at connector, before both series resistors; THVD1450 Figure 37 reference, board surge qualification pending"
+BASE_DBG,B03,D_DEV2_485,CDSOT23-SM712,3,GND,YES,"TVS at connector, before both series resistors; THVD1450 Figure 37 reference, board surge qualification pending"
+BASE_DBG,B03,R_DEV2_RXSEL,0R,1,DEV2_R,YES,
+BASE_DBG,B03,R_DEV2_RXSEL,0R,2,EXP_PD6,YES,
+BASE_DBG,B03,J_DEV2_485,B3B-XH-A(LF)(SN),1,DEV2_A,YES,A=TI non-inverting; cable end-to-end numbered continuity; no power pin
+BASE_DBG,B03,J_DEV2_485,B3B-XH-A(LF)(SN),2,DEV2_B,YES,A=TI non-inverting; cable end-to-end numbered continuity; no power pin
+BASE_DBG,B03,J_DEV2_485,B3B-XH-A(LF)(SN),3,GND,YES,A=TI non-inverting; cable end-to-end numbered continuity; no power pin
+BASE_DBG,B03,R_DEV2_TERM,120R 1%,1,DEV2_A,YES,
+BASE_DBG,B03,R_DEV2_TERM,120R 1%,2,DEV2_TERM,YES,
+BASE_DBG,B03,JP_DEV2_TERM,PCB_SJ2_OPEN,1,DEV2_TERM,OPEN,PCB copper pads; default unbridged
+BASE_DBG,B03,JP_DEV2_TERM,PCB_SJ2_OPEN,2,DEV2_B,OPEN,PCB copper pads; default unbridged
+BASE_DBG,B03,U_DEV2_TTLBUF,SN74LVC1G125DBVR,1,BUS_OE_N,YES,
+BASE_DBG,B03,U_DEV2_TTLBUF,SN74LVC1G125DBVR,2,DEV2_TTL_IN,YES,
+BASE_DBG,B03,U_DEV2_TTLBUF,SN74LVC1G125DBVR,3,GND,YES,
+BASE_DBG,B03,U_DEV2_TTLBUF,SN74LVC1G125DBVR,4,DEV2_TTL_BUF,YES,
+BASE_DBG,B03,U_DEV2_TTLBUF,SN74LVC1G125DBVR,5,3V3_AUX,YES,
+BASE_DBG,B03,C_U_DEV2_TTLBUF,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,C_U_DEV2_TTLBUF,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,R_DEV2_TTL_IN,1k,1,DEV2_TTL_RX,YES,
+BASE_DBG,B03,R_DEV2_TTL_IN,1k,2,DEV2_TTL_IN,YES,
+BASE_DBG,B03,R_DEV2_TTL_PU,100k,1,DEV2_TTL_IN,YES,
+BASE_DBG,B03,R_DEV2_TTL_PU,100k,2,3V3_AUX,YES,
+BASE_DBG,B03,R_DEV2_TTL_SEL,0R,1,DEV2_TTL_BUF,DNP,remove RXSEL for TTL mode
+BASE_DBG,B03,R_DEV2_TTL_SEL,0R,2,EXP_PD6,DNP,remove RXSEL for TTL mode
+BASE_DBG,B03,J_DEV2_TTL,B4B-XH-A(LF)(SN),1,GND,YES,pin4 reference only; not external power supply
+BASE_DBG,B03,J_DEV2_TTL,B4B-XH-A(LF)(SN),2,DEV2_D,YES,pin4 reference only; not external power supply
+BASE_DBG,B03,J_DEV2_TTL,B4B-XH-A(LF)(SN),3,DEV2_TTL_RX,YES,pin4 reference only; not external power supply
+BASE_DBG,B03,J_DEV2_TTL,B4B-XH-A(LF)(SN),4,3V3_AUX,YES,pin4 reference only; not external power supply
+BASE_DBG,B03,U_DEV3_TXBUF,SN74LVC1G125DBVR,1,BUS_OE_N,YES,
+BASE_DBG,B03,U_DEV3_TXBUF,SN74LVC1G125DBVR,2,EXP_PD8,YES,
+BASE_DBG,B03,U_DEV3_TXBUF,SN74LVC1G125DBVR,3,GND,YES,
+BASE_DBG,B03,U_DEV3_TXBUF,SN74LVC1G125DBVR,4,DEV3_D,YES,
+BASE_DBG,B03,U_DEV3_TXBUF,SN74LVC1G125DBVR,5,3V3_AUX,YES,
+BASE_DBG,B03,C_U_DEV3_TXBUF,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,C_U_DEV3_TXBUF,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,U_DEV3_DIRBUF,SN74LVC1G125DBVR,1,BUS_OE_N,YES,
+BASE_DBG,B03,U_DEV3_DIRBUF,SN74LVC1G125DBVR,2,EXP_PD11,YES,
+BASE_DBG,B03,U_DEV3_DIRBUF,SN74LVC1G125DBVR,3,GND,YES,
+BASE_DBG,B03,U_DEV3_DIRBUF,SN74LVC1G125DBVR,4,DEV3_DIR,YES,
+BASE_DBG,B03,U_DEV3_DIRBUF,SN74LVC1G125DBVR,5,3V3_AUX,YES,
+BASE_DBG,B03,C_U_DEV3_DIRBUF,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,C_U_DEV3_DIRBUF,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,R_DEV3_DIR_PD,10k,1,EXP_PD11,YES,
+BASE_DBG,B03,R_DEV3_DIR_PD,10k,2,GND,YES,
+BASE_DBG,B03,R_DEV3_DE_PD,10k,1,DEV3_DIR,YES,
+BASE_DBG,B03,R_DEV3_DE_PD,10k,2,GND,YES,
+BASE_DBG,B03,U_DEV3,THVD1450DR,1,DEV3_R,YES,
+BASE_DBG,B03,U_DEV3,THVD1450DR,2,DEV3_DIR,YES,
+BASE_DBG,B03,U_DEV3,THVD1450DR,3,DEV3_DIR,YES,
+BASE_DBG,B03,U_DEV3,THVD1450DR,4,DEV3_D,YES,
+BASE_DBG,B03,U_DEV3,THVD1450DR,5,GND,YES,
+BASE_DBG,B03,U_DEV3,THVD1450DR,6,DEV3_A_IC,YES,
+BASE_DBG,B03,U_DEV3,THVD1450DR,7,DEV3_B_IC,YES,
+BASE_DBG,B03,U_DEV3,THVD1450DR,8,3V3_AUX,YES,
+BASE_DBG,B03,C_DEV3,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,C_DEV3,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,R_DEV3_R_PU,10k,1,DEV3_R,YES,RX idle while receiver disabled; pull-up on buffer supply domain
+BASE_DBG,B03,R_DEV3_R_PU,10k,2,3V3_AUX,YES,RX idle while receiver disabled; pull-up on buffer supply domain
+BASE_DBG,B03,R_DEV3_A_SURGE,CRCW060310R0JNEAHP,1,DEV3_A,YES,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_DBG,B03,R_DEV3_A_SURGE,CRCW060310R0JNEAHP,2,DEV3_A_IC,YES,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_DBG,B03,R_DEV3_B_SURGE,CRCW060310R0JNEAHP,1,DEV3_B,YES,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_DBG,B03,R_DEV3_B_SURGE,CRCW060310R0JNEAHP,2,DEV3_B_IC,YES,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_DBG,B03,D_DEV3_485,CDSOT23-SM712,1,DEV3_A,YES,"TVS at connector, before both series resistors; THVD1450 Figure 37 reference, board surge qualification pending"
+BASE_DBG,B03,D_DEV3_485,CDSOT23-SM712,2,DEV3_B,YES,"TVS at connector, before both series resistors; THVD1450 Figure 37 reference, board surge qualification pending"
+BASE_DBG,B03,D_DEV3_485,CDSOT23-SM712,3,GND,YES,"TVS at connector, before both series resistors; THVD1450 Figure 37 reference, board surge qualification pending"
+BASE_DBG,B03,R_DEV3_RXSEL,0R,1,DEV3_R,YES,
+BASE_DBG,B03,R_DEV3_RXSEL,0R,2,EXP_PD9,YES,
+BASE_DBG,B03,J_DEV3_485,B3B-XH-A(LF)(SN),1,DEV3_A,YES,A=TI non-inverting; cable end-to-end numbered continuity; no power pin
+BASE_DBG,B03,J_DEV3_485,B3B-XH-A(LF)(SN),2,DEV3_B,YES,A=TI non-inverting; cable end-to-end numbered continuity; no power pin
+BASE_DBG,B03,J_DEV3_485,B3B-XH-A(LF)(SN),3,GND,YES,A=TI non-inverting; cable end-to-end numbered continuity; no power pin
+BASE_DBG,B03,R_DEV3_TERM,120R 1%,1,DEV3_A,YES,
+BASE_DBG,B03,R_DEV3_TERM,120R 1%,2,DEV3_TERM,YES,
+BASE_DBG,B03,JP_DEV3_TERM,PCB_SJ2_OPEN,1,DEV3_TERM,OPEN,PCB copper pads; default unbridged
+BASE_DBG,B03,JP_DEV3_TERM,PCB_SJ2_OPEN,2,DEV3_B,OPEN,PCB copper pads; default unbridged
+BASE_DBG,B03,U_DEV3_TTLBUF,SN74LVC1G125DBVR,1,BUS_OE_N,YES,
+BASE_DBG,B03,U_DEV3_TTLBUF,SN74LVC1G125DBVR,2,DEV3_TTL_IN,YES,
+BASE_DBG,B03,U_DEV3_TTLBUF,SN74LVC1G125DBVR,3,GND,YES,
+BASE_DBG,B03,U_DEV3_TTLBUF,SN74LVC1G125DBVR,4,DEV3_TTL_BUF,YES,
+BASE_DBG,B03,U_DEV3_TTLBUF,SN74LVC1G125DBVR,5,3V3_AUX,YES,
+BASE_DBG,B03,C_U_DEV3_TTLBUF,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,C_U_DEV3_TTLBUF,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,R_DEV3_TTL_IN,1k,1,DEV3_TTL_RX,YES,
+BASE_DBG,B03,R_DEV3_TTL_IN,1k,2,DEV3_TTL_IN,YES,
+BASE_DBG,B03,R_DEV3_TTL_PU,100k,1,DEV3_TTL_IN,YES,
+BASE_DBG,B03,R_DEV3_TTL_PU,100k,2,3V3_AUX,YES,
+BASE_DBG,B03,R_DEV3_TTL_SEL,0R,1,DEV3_TTL_BUF,DNP,remove RXSEL for TTL mode
+BASE_DBG,B03,R_DEV3_TTL_SEL,0R,2,EXP_PD9,DNP,remove RXSEL for TTL mode
+BASE_DBG,B03,J_DEV3_TTL,B4B-XH-A(LF)(SN),1,GND,YES,pin4 reference only; not external power supply
+BASE_DBG,B03,J_DEV3_TTL,B4B-XH-A(LF)(SN),2,DEV3_D,YES,pin4 reference only; not external power supply
+BASE_DBG,B03,J_DEV3_TTL,B4B-XH-A(LF)(SN),3,DEV3_TTL_RX,YES,pin4 reference only; not external power supply
+BASE_DBG,B03,J_DEV3_TTL,B4B-XH-A(LF)(SN),4,3V3_AUX,YES,pin4 reference only; not external power supply
+BASE_DBG,B03,U_DEV4_TXBUF,SN74LVC1G125DBVR,1,BUS_OE_N,YES,
+BASE_DBG,B03,U_DEV4_TXBUF,SN74LVC1G125DBVR,2,EXP_PD1,YES,
+BASE_DBG,B03,U_DEV4_TXBUF,SN74LVC1G125DBVR,3,GND,YES,
+BASE_DBG,B03,U_DEV4_TXBUF,SN74LVC1G125DBVR,4,DEV4_D,YES,
+BASE_DBG,B03,U_DEV4_TXBUF,SN74LVC1G125DBVR,5,3V3_AUX,YES,
+BASE_DBG,B03,C_U_DEV4_TXBUF,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,C_U_DEV4_TXBUF,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,U_DEV4_DIRBUF,SN74LVC1G125DBVR,1,BUS_OE_N,YES,
+BASE_DBG,B03,U_DEV4_DIRBUF,SN74LVC1G125DBVR,2,EXP_PD15,YES,
+BASE_DBG,B03,U_DEV4_DIRBUF,SN74LVC1G125DBVR,3,GND,YES,
+BASE_DBG,B03,U_DEV4_DIRBUF,SN74LVC1G125DBVR,4,DEV4_DIR,YES,
+BASE_DBG,B03,U_DEV4_DIRBUF,SN74LVC1G125DBVR,5,3V3_AUX,YES,
+BASE_DBG,B03,C_U_DEV4_DIRBUF,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,C_U_DEV4_DIRBUF,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,R_DEV4_DIR_PD,10k,1,EXP_PD15,YES,
+BASE_DBG,B03,R_DEV4_DIR_PD,10k,2,GND,YES,
+BASE_DBG,B03,R_DEV4_DE_PD,10k,1,DEV4_DIR,YES,
+BASE_DBG,B03,R_DEV4_DE_PD,10k,2,GND,YES,
+BASE_DBG,B03,U_DEV4,THVD1450DR,1,DEV4_R,YES,
+BASE_DBG,B03,U_DEV4,THVD1450DR,2,DEV4_DIR,YES,
+BASE_DBG,B03,U_DEV4,THVD1450DR,3,DEV4_DIR,YES,
+BASE_DBG,B03,U_DEV4,THVD1450DR,4,DEV4_D,YES,
+BASE_DBG,B03,U_DEV4,THVD1450DR,5,GND,YES,
+BASE_DBG,B03,U_DEV4,THVD1450DR,6,DEV4_A_IC,YES,
+BASE_DBG,B03,U_DEV4,THVD1450DR,7,DEV4_B_IC,YES,
+BASE_DBG,B03,U_DEV4,THVD1450DR,8,3V3_AUX,YES,
+BASE_DBG,B03,C_DEV4,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,C_DEV4,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,R_DEV4_R_PU,10k,1,DEV4_R,YES,RX idle while receiver disabled; pull-up on buffer supply domain
+BASE_DBG,B03,R_DEV4_R_PU,10k,2,3V3_AUX,YES,RX idle while receiver disabled; pull-up on buffer supply domain
+BASE_DBG,B03,R_DEV4_A_SURGE,CRCW060310R0JNEAHP,1,DEV4_A,YES,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_DBG,B03,R_DEV4_A_SURGE,CRCW060310R0JNEAHP,2,DEV4_A_IC,YES,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_DBG,B03,R_DEV4_B_SURGE,CRCW060310R0JNEAHP,1,DEV4_B,YES,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_DBG,B03,R_DEV4_B_SURGE,CRCW060310R0JNEAHP,2,DEV4_B_IC,YES,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_DBG,B03,D_DEV4_485,CDSOT23-SM712,1,DEV4_A,YES,"TVS at connector, before both series resistors; THVD1450 Figure 37 reference, board surge qualification pending"
+BASE_DBG,B03,D_DEV4_485,CDSOT23-SM712,2,DEV4_B,YES,"TVS at connector, before both series resistors; THVD1450 Figure 37 reference, board surge qualification pending"
+BASE_DBG,B03,D_DEV4_485,CDSOT23-SM712,3,GND,YES,"TVS at connector, before both series resistors; THVD1450 Figure 37 reference, board surge qualification pending"
+BASE_DBG,B03,R_DEV4_RXSEL,0R,1,DEV4_R,YES,
+BASE_DBG,B03,R_DEV4_RXSEL,0R,2,EXP_PD0,YES,
+BASE_DBG,B03,J_DEV4_485,B3B-XH-A(LF)(SN),1,DEV4_A,YES,A=TI non-inverting; cable end-to-end numbered continuity; no power pin
+BASE_DBG,B03,J_DEV4_485,B3B-XH-A(LF)(SN),2,DEV4_B,YES,A=TI non-inverting; cable end-to-end numbered continuity; no power pin
+BASE_DBG,B03,J_DEV4_485,B3B-XH-A(LF)(SN),3,GND,YES,A=TI non-inverting; cable end-to-end numbered continuity; no power pin
+BASE_DBG,B03,R_DEV4_TERM,120R 1%,1,DEV4_A,YES,
+BASE_DBG,B03,R_DEV4_TERM,120R 1%,2,DEV4_TERM,YES,
+BASE_DBG,B03,JP_DEV4_TERM,PCB_SJ2_OPEN,1,DEV4_TERM,OPEN,PCB copper pads; default unbridged
+BASE_DBG,B03,JP_DEV4_TERM,PCB_SJ2_OPEN,2,DEV4_B,OPEN,PCB copper pads; default unbridged
+BASE_DBG,B03,U_DEV4_TTLBUF,SN74LVC1G125DBVR,1,BUS_OE_N,YES,
+BASE_DBG,B03,U_DEV4_TTLBUF,SN74LVC1G125DBVR,2,DEV4_TTL_IN,YES,
+BASE_DBG,B03,U_DEV4_TTLBUF,SN74LVC1G125DBVR,3,GND,YES,
+BASE_DBG,B03,U_DEV4_TTLBUF,SN74LVC1G125DBVR,4,DEV4_TTL_BUF,YES,
+BASE_DBG,B03,U_DEV4_TTLBUF,SN74LVC1G125DBVR,5,3V3_AUX,YES,
+BASE_DBG,B03,C_U_DEV4_TTLBUF,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,C_U_DEV4_TTLBUF,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,R_DEV4_TTL_IN,1k,1,DEV4_TTL_RX,YES,
+BASE_DBG,B03,R_DEV4_TTL_IN,1k,2,DEV4_TTL_IN,YES,
+BASE_DBG,B03,R_DEV4_TTL_PU,100k,1,DEV4_TTL_IN,YES,
+BASE_DBG,B03,R_DEV4_TTL_PU,100k,2,3V3_AUX,YES,
+BASE_DBG,B03,R_DEV4_TTL_SEL,0R,1,DEV4_TTL_BUF,DNP,remove RXSEL for TTL mode
+BASE_DBG,B03,R_DEV4_TTL_SEL,0R,2,EXP_PD0,DNP,remove RXSEL for TTL mode
+BASE_DBG,B03,J_DEV4_TTL,B4B-XH-A(LF)(SN),1,GND,YES,pin4 reference only; not external power supply
+BASE_DBG,B03,J_DEV4_TTL,B4B-XH-A(LF)(SN),2,DEV4_D,YES,pin4 reference only; not external power supply
+BASE_DBG,B03,J_DEV4_TTL,B4B-XH-A(LF)(SN),3,DEV4_TTL_RX,YES,pin4 reference only; not external power supply
+BASE_DBG,B03,J_DEV4_TTL,B4B-XH-A(LF)(SN),4,3V3_AUX,YES,pin4 reference only; not external power supply
+BASE_DBG,B03,J_HOST,B4B-XH-A(LF)(SN),1,GND,YES,pin4 reference only
+BASE_DBG,B03,J_HOST,B4B-XH-A(LF)(SN),2,EXP_PE1,YES,pin4 reference only
+BASE_DBG,B03,J_HOST,B4B-XH-A(LF)(SN),3,HOST_RX_EXT,YES,pin4 reference only
+BASE_DBG,B03,J_HOST,B4B-XH-A(LF)(SN),4,3V3_AUX,YES,pin4 reference only
+BASE_DBG,B03,R_HOST_IN,1k,1,HOST_RX_EXT,YES,
+BASE_DBG,B03,R_HOST_IN,1k,2,HOST_RX_IN,YES,
+BASE_DBG,B03,R_HOST_PU,100k,1,HOST_RX_IN,YES,
+BASE_DBG,B03,R_HOST_PU,100k,2,3V3_AUX,YES,
+BASE_DBG,B03,U_HOST_RXBUF,SN74LVC1G125DBVR,1,BUS_OE_N,YES,
+BASE_DBG,B03,U_HOST_RXBUF,SN74LVC1G125DBVR,2,HOST_RX_IN,YES,
+BASE_DBG,B03,U_HOST_RXBUF,SN74LVC1G125DBVR,3,GND,YES,
+BASE_DBG,B03,U_HOST_RXBUF,SN74LVC1G125DBVR,4,EXP_PE0,YES,
+BASE_DBG,B03,U_HOST_RXBUF,SN74LVC1G125DBVR,5,3V3_AUX,YES,
+BASE_DBG,B03,C_U_HOST_RXBUF,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,C_U_HOST_RXBUF,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,J_RC,B4B-XH-A(LF)(SN),1,GND,YES,pin4 reference only
+BASE_DBG,B03,J_RC,B4B-XH-A(LF)(SN),2,EXP_PE8,YES,pin4 reference only
+BASE_DBG,B03,J_RC,B4B-XH-A(LF)(SN),3,RC_RX_EXT,YES,pin4 reference only
+BASE_DBG,B03,J_RC,B4B-XH-A(LF)(SN),4,3V3_AUX,YES,pin4 reference only
+BASE_DBG,B03,R_RC_IN,1k,1,RC_RX_EXT,YES,
+BASE_DBG,B03,R_RC_IN,1k,2,RC_RX_IN,YES,
+BASE_DBG,B03,R_RC_PU,100k,1,RC_RX_IN,YES,
+BASE_DBG,B03,R_RC_PU,100k,2,3V3_AUX,YES,
+BASE_DBG,B03,U_RC_RXBUF,SN74LVC1G125DBVR,1,BUS_OE_N,YES,
+BASE_DBG,B03,U_RC_RXBUF,SN74LVC1G125DBVR,2,RC_RX_IN,YES,
+BASE_DBG,B03,U_RC_RXBUF,SN74LVC1G125DBVR,3,GND,YES,
+BASE_DBG,B03,U_RC_RXBUF,SN74LVC1G125DBVR,4,EXP_PE7,YES,
+BASE_DBG,B03,U_RC_RXBUF,SN74LVC1G125DBVR,5,3V3_AUX,YES,
+BASE_DBG,B03,C_U_RC_RXBUF,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B03,C_U_RC_RXBUF,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B04,U_LINK_SCK,SN74LVC1G125DBVR,1,BUS_OE_N,YES,
+BASE_DBG,B04,U_LINK_SCK,SN74LVC1G125DBVR,2,LINK_SCK,YES,
+BASE_DBG,B04,U_LINK_SCK,SN74LVC1G125DBVR,3,GND,YES,
+BASE_DBG,B04,U_LINK_SCK,SN74LVC1G125DBVR,4,LINK_SCK_IN_BUF,YES,
+BASE_DBG,B04,U_LINK_SCK,SN74LVC1G125DBVR,5,3V3_AUX,YES,
+BASE_DBG,B04,C_U_LINK_SCK,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B04,C_U_LINK_SCK,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B04,R_LINK_SCK_IDLE,100k,1,LINK_SCK,YES,
+BASE_DBG,B04,R_LINK_SCK_IDLE,100k,2,GND,YES,
+BASE_DBG,B04,R_LINK_SCK_OUT,22R,1,EXP_PB3,MASTER,OUT xor IN; default MASTER
+BASE_DBG,B04,R_LINK_SCK_OUT,22R,2,LINK_SCK,MASTER,OUT xor IN; default MASTER
+BASE_DBG,B04,R_LINK_SCK_IN,0R,1,LINK_SCK_IN_BUF,SLAVE,OUT xor IN; default MASTER
+BASE_DBG,B04,R_LINK_SCK_IN,0R,2,EXP_PB3,SLAVE,OUT xor IN; default MASTER
+BASE_DBG,B04,U_LINK_MOSI,SN74LVC1G125DBVR,1,BUS_OE_N,YES,
+BASE_DBG,B04,U_LINK_MOSI,SN74LVC1G125DBVR,2,LINK_MOSI,YES,
+BASE_DBG,B04,U_LINK_MOSI,SN74LVC1G125DBVR,3,GND,YES,
+BASE_DBG,B04,U_LINK_MOSI,SN74LVC1G125DBVR,4,LINK_MOSI_IN_BUF,YES,
+BASE_DBG,B04,U_LINK_MOSI,SN74LVC1G125DBVR,5,3V3_AUX,YES,
+BASE_DBG,B04,C_U_LINK_MOSI,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B04,C_U_LINK_MOSI,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B04,R_LINK_MOSI_IDLE,100k,1,LINK_MOSI,YES,
+BASE_DBG,B04,R_LINK_MOSI_IDLE,100k,2,GND,YES,
+BASE_DBG,B04,R_LINK_MOSI_OUT,22R,1,EXP_PB2,MASTER,OUT xor IN; default MASTER
+BASE_DBG,B04,R_LINK_MOSI_OUT,22R,2,LINK_MOSI,MASTER,OUT xor IN; default MASTER
+BASE_DBG,B04,R_LINK_MOSI_IN,0R,1,LINK_MOSI_IN_BUF,SLAVE,OUT xor IN; default MASTER
+BASE_DBG,B04,R_LINK_MOSI_IN,0R,2,EXP_PB2,SLAVE,OUT xor IN; default MASTER
+BASE_DBG,B04,U_LINK_MISO,SN74LVC1G125DBVR,1,BUS_OE_N,YES,
+BASE_DBG,B04,U_LINK_MISO,SN74LVC1G125DBVR,2,LINK_MISO,YES,
+BASE_DBG,B04,U_LINK_MISO,SN74LVC1G125DBVR,3,GND,YES,
+BASE_DBG,B04,U_LINK_MISO,SN74LVC1G125DBVR,4,LINK_MISO_IN_BUF,YES,
+BASE_DBG,B04,U_LINK_MISO,SN74LVC1G125DBVR,5,3V3_AUX,YES,
+BASE_DBG,B04,C_U_LINK_MISO,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B04,C_U_LINK_MISO,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B04,R_LINK_MISO_IDLE,100k,1,LINK_MISO,YES,
+BASE_DBG,B04,R_LINK_MISO_IDLE,100k,2,GND,YES,
+BASE_DBG,B04,R_LINK_MISO_OUT,22R,1,EXP_PB4,SLAVE,OUT xor IN; default MASTER
+BASE_DBG,B04,R_LINK_MISO_OUT,22R,2,LINK_MISO,SLAVE,OUT xor IN; default MASTER
+BASE_DBG,B04,R_LINK_MISO_IN,0R,1,LINK_MISO_IN_BUF,MASTER,OUT xor IN; default MASTER
+BASE_DBG,B04,R_LINK_MISO_IN,0R,2,EXP_PB4,MASTER,OUT xor IN; default MASTER
+BASE_DBG,B04,U_LINK_NSS,SN74LVC1G125DBVR,1,BUS_OE_N,YES,
+BASE_DBG,B04,U_LINK_NSS,SN74LVC1G125DBVR,2,LINK_NSS,YES,
+BASE_DBG,B04,U_LINK_NSS,SN74LVC1G125DBVR,3,GND,YES,
+BASE_DBG,B04,U_LINK_NSS,SN74LVC1G125DBVR,4,LINK_NSS_IN_BUF,YES,
+BASE_DBG,B04,U_LINK_NSS,SN74LVC1G125DBVR,5,3V3_AUX,YES,
+BASE_DBG,B04,C_U_LINK_NSS,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B04,C_U_LINK_NSS,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B04,R_LINK_NSS_IDLE,100k,1,LINK_NSS,YES,
+BASE_DBG,B04,R_LINK_NSS_IDLE,100k,2,3V3_AUX,YES,
+BASE_DBG,B04,R_LINK_NSS_OUT,22R,1,EXP_PA15,MASTER,OUT xor IN; default MASTER
+BASE_DBG,B04,R_LINK_NSS_OUT,22R,2,LINK_NSS,MASTER,OUT xor IN; default MASTER
+BASE_DBG,B04,R_LINK_NSS_IN,0R,1,LINK_NSS_IN_BUF,SLAVE,OUT xor IN; default MASTER
+BASE_DBG,B04,R_LINK_NSS_IN,0R,2,EXP_PA15,SLAVE,OUT xor IN; default MASTER
+BASE_DBG,B04,U_LINK_READY,SN74LVC1G125DBVR,1,BUS_OE_N,YES,
+BASE_DBG,B04,U_LINK_READY,SN74LVC1G125DBVR,2,LINK_READY,YES,
+BASE_DBG,B04,U_LINK_READY,SN74LVC1G125DBVR,3,GND,YES,
+BASE_DBG,B04,U_LINK_READY,SN74LVC1G125DBVR,4,LINK_READY_IN_BUF,YES,
+BASE_DBG,B04,U_LINK_READY,SN74LVC1G125DBVR,5,3V3_AUX,YES,
+BASE_DBG,B04,C_U_LINK_READY,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B04,C_U_LINK_READY,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B04,R_LINK_READY_IDLE,100k,1,LINK_READY,YES,
+BASE_DBG,B04,R_LINK_READY_IDLE,100k,2,GND,YES,
+BASE_DBG,B04,R_LINK_READY_OUT,22R,1,EXP_PB1,SLAVE,OUT xor IN; default MASTER
+BASE_DBG,B04,R_LINK_READY_OUT,22R,2,LINK_READY,SLAVE,OUT xor IN; default MASTER
+BASE_DBG,B04,R_LINK_READY_IN,0R,1,LINK_READY_IN_BUF,MASTER,OUT xor IN; default MASTER
+BASE_DBG,B04,R_LINK_READY_IN,0R,2,EXP_PB1,MASTER,OUT xor IN; default MASTER
+BASE_DBG,B04,J_LINK,TSW-106-07-L-D,1,LINK_SCK,YES,"2x6 2.54mm; odd signals / even GND; pin 1 marked, no power pin; MASTER/SLAVE assembly exclusive"
+BASE_DBG,B04,J_LINK,TSW-106-07-L-D,2,GND,YES,"2x6 2.54mm; odd signals / even GND; pin 1 marked, no power pin; MASTER/SLAVE assembly exclusive"
+BASE_DBG,B04,J_LINK,TSW-106-07-L-D,3,LINK_MOSI,YES,"2x6 2.54mm; odd signals / even GND; pin 1 marked, no power pin; MASTER/SLAVE assembly exclusive"
+BASE_DBG,B04,J_LINK,TSW-106-07-L-D,4,GND,YES,"2x6 2.54mm; odd signals / even GND; pin 1 marked, no power pin; MASTER/SLAVE assembly exclusive"
+BASE_DBG,B04,J_LINK,TSW-106-07-L-D,5,LINK_MISO,YES,"2x6 2.54mm; odd signals / even GND; pin 1 marked, no power pin; MASTER/SLAVE assembly exclusive"
+BASE_DBG,B04,J_LINK,TSW-106-07-L-D,6,GND,YES,"2x6 2.54mm; odd signals / even GND; pin 1 marked, no power pin; MASTER/SLAVE assembly exclusive"
+BASE_DBG,B04,J_LINK,TSW-106-07-L-D,7,LINK_NSS,YES,"2x6 2.54mm; odd signals / even GND; pin 1 marked, no power pin; MASTER/SLAVE assembly exclusive"
+BASE_DBG,B04,J_LINK,TSW-106-07-L-D,8,GND,YES,"2x6 2.54mm; odd signals / even GND; pin 1 marked, no power pin; MASTER/SLAVE assembly exclusive"
+BASE_DBG,B04,J_LINK,TSW-106-07-L-D,9,LINK_READY,YES,"2x6 2.54mm; odd signals / even GND; pin 1 marked, no power pin; MASTER/SLAVE assembly exclusive"
+BASE_DBG,B04,J_LINK,TSW-106-07-L-D,10,GND,YES,"2x6 2.54mm; odd signals / even GND; pin 1 marked, no power pin; MASTER/SLAVE assembly exclusive"
+BASE_DBG,B04,J_LINK,TSW-106-07-L-D,11,LINK_SYNC,YES,"2x6 2.54mm; odd signals / even GND; pin 1 marked, no power pin; MASTER/SLAVE assembly exclusive"
+BASE_DBG,B04,J_LINK,TSW-106-07-L-D,12,GND,YES,"2x6 2.54mm; odd signals / even GND; pin 1 marked, no power pin; MASTER/SLAVE assembly exclusive"
+BASE_DBG,B04,R_LINK_SYNC,22R,1,EXP_PA5,DNP,optional SYNC needs explicit role/receiver buffering
+BASE_DBG,B04,R_LINK_SYNC,22R,2,LINK_SYNC,DNP,optional SYNC needs explicit role/receiver buffering
+BASE_DBG,B04,R_NSS_PU,10k,1,EXP_PA15,YES,
+BASE_DBG,B04,R_NSS_PU,10k,2,3V3_AUX,YES,
+BASE_DBG,B04,R_READY_PD,100k,1,EXP_PB1,YES,
+BASE_DBG,B04,R_READY_PD,100k,2,GND,YES,
+BASE_DBG,B04,J_I2C,B4B-XH-A(LF)(SN),1,GND,YES,
+BASE_DBG,B04,J_I2C,B4B-XH-A(LF)(SN),2,3V3_AUX,YES,
+BASE_DBG,B04,J_I2C,B4B-XH-A(LF)(SN),3,ISO_PB10,YES,
+BASE_DBG,B04,J_I2C,B4B-XH-A(LF)(SN),4,ISO_PB11,YES,
+BASE_DBG,B04,R_I2C_PB10,4.7k,1,ISO_PB10,YES,
+BASE_DBG,B04,R_I2C_PB10,4.7k,2,3V3_AUX,YES,
+BASE_DBG,B04,R_I2C_PB11,4.7k,1,ISO_PB11,YES,
+BASE_DBG,B04,R_I2C_PB11,4.7k,2,3V3_AUX,YES,
+BASE_DBG,B04,TP_EXP_PA0,PCB_TP_0.8,1,EXP_PA0,YES,
+BASE_DBG,B04,TP_EXP_PA1,PCB_TP_0.8,1,EXP_PA1,YES,
+BASE_DBG,B04,TP_EXP_PA10,PCB_TP_0.8,1,EXP_PA10,YES,
+BASE_DBG,B04,TP_EXP_PA15,PCB_TP_0.8,1,EXP_PA15,YES,
+BASE_DBG,B04,TP_EXP_PA2,PCB_TP_0.8,1,EXP_PA2,YES,
+BASE_DBG,B04,TP_EXP_PA3,PCB_TP_0.8,1,EXP_PA3,YES,
+BASE_DBG,B04,TP_EXP_PA4,PCB_TP_0.8,1,EXP_PA4,YES,
+BASE_DBG,B04,TP_EXP_PA5,PCB_TP_0.8,1,EXP_PA5,YES,
+BASE_DBG,B04,TP_EXP_PA6,PCB_TP_0.8,1,EXP_PA6,YES,
+BASE_DBG,B04,TP_EXP_PA7,PCB_TP_0.8,1,EXP_PA7,YES,
+BASE_DBG,B04,TP_EXP_PA8,PCB_TP_0.8,1,EXP_PA8,YES,
+BASE_DBG,B04,TP_EXP_PB0,PCB_TP_0.8,1,EXP_PB0,YES,
+BASE_DBG,B04,TP_EXP_PB1,PCB_TP_0.8,1,EXP_PB1,YES,
+BASE_DBG,B04,TP_EXP_PB10,PCB_TP_0.8,1,EXP_PB10,YES,
+BASE_DBG,B04,TP_EXP_PB11,PCB_TP_0.8,1,EXP_PB11,YES,
+BASE_DBG,B04,TP_EXP_PB12,PCB_TP_0.8,1,EXP_PB12,YES,
+BASE_DBG,B04,TP_EXP_PB13,PCB_TP_0.8,1,EXP_PB13,YES,
+BASE_DBG,B04,TP_EXP_PB14,PCB_TP_0.8,1,EXP_PB14,YES,
+BASE_DBG,B04,TP_EXP_PB15,PCB_TP_0.8,1,EXP_PB15,YES,
+BASE_DBG,B04,TP_EXP_PB2,PCB_TP_0.8,1,EXP_PB2,YES,
+BASE_DBG,B04,TP_EXP_PB3,PCB_TP_0.8,1,EXP_PB3,YES,
+BASE_DBG,B04,TP_EXP_PB4,PCB_TP_0.8,1,EXP_PB4,YES,
+BASE_DBG,B04,TP_EXP_PB7,PCB_TP_0.8,1,EXP_PB7,YES,
+BASE_DBG,B04,TP_EXP_PC0,PCB_TP_0.8,1,EXP_PC0,YES,
+BASE_DBG,B04,TP_EXP_PC1,PCB_TP_0.8,1,EXP_PC1,YES,
+BASE_DBG,B04,TP_EXP_PC10,PCB_TP_0.8,1,EXP_PC10,YES,
+BASE_DBG,B04,TP_EXP_PC11,PCB_TP_0.8,1,EXP_PC11,YES,
+BASE_DBG,B04,TP_EXP_PC12,PCB_TP_0.8,1,EXP_PC12,YES,
+BASE_DBG,B04,TP_EXP_PC4,PCB_TP_0.8,1,EXP_PC4,YES,
+BASE_DBG,B04,TP_EXP_PC5,PCB_TP_0.8,1,EXP_PC5,YES,
+BASE_DBG,B04,TP_EXP_PC6,PCB_TP_0.8,1,EXP_PC6,YES,
+BASE_DBG,B04,TP_EXP_PC7,PCB_TP_0.8,1,EXP_PC7,YES,
+BASE_DBG,B04,TP_EXP_PC8,PCB_TP_0.8,1,EXP_PC8,YES,
+BASE_DBG,B04,TP_EXP_PC9,PCB_TP_0.8,1,EXP_PC9,YES,
+BASE_DBG,B04,TP_EXP_PD0,PCB_TP_0.8,1,EXP_PD0,YES,
+BASE_DBG,B04,TP_EXP_PD1,PCB_TP_0.8,1,EXP_PD1,YES,
+BASE_DBG,B04,TP_EXP_PD11,PCB_TP_0.8,1,EXP_PD11,YES,
+BASE_DBG,B04,TP_EXP_PD14,PCB_TP_0.8,1,EXP_PD14,YES,
+BASE_DBG,B04,TP_EXP_PD15,PCB_TP_0.8,1,EXP_PD15,YES,
+BASE_DBG,B04,TP_EXP_PD2,PCB_TP_0.8,1,EXP_PD2,YES,
+BASE_DBG,B04,TP_EXP_PD5,PCB_TP_0.8,1,EXP_PD5,YES,
+BASE_DBG,B04,TP_EXP_PD6,PCB_TP_0.8,1,EXP_PD6,YES,
+BASE_DBG,B04,TP_EXP_PD8,PCB_TP_0.8,1,EXP_PD8,YES,
+BASE_DBG,B04,TP_EXP_PD9,PCB_TP_0.8,1,EXP_PD9,YES,
+BASE_DBG,B04,TP_EXP_PE0,PCB_TP_0.8,1,EXP_PE0,YES,
+BASE_DBG,B04,TP_EXP_PE1,PCB_TP_0.8,1,EXP_PE1,YES,
+BASE_DBG,B04,TP_EXP_PE10,PCB_TP_0.8,1,EXP_PE10,YES,
+BASE_DBG,B04,TP_EXP_PE7,PCB_TP_0.8,1,EXP_PE7,YES,
+BASE_DBG,B04,TP_EXP_PE8,PCB_TP_0.8,1,EXP_PE8,YES,
+BASE_DBG,B05,J_SD,DM3AT-SF-PEJM5,1,ISO_PC10,YES,CD_A/CD_B use manufacturer drawing pads
+BASE_DBG,B05,J_SD,DM3AT-SF-PEJM5,2,ISO_PC11,YES,CD_A/CD_B use manufacturer drawing pads
+BASE_DBG,B05,J_SD,DM3AT-SF-PEJM5,3,ISO_PD2,YES,CD_A/CD_B use manufacturer drawing pads
+BASE_DBG,B05,J_SD,DM3AT-SF-PEJM5,4,3V3_AUX,YES,CD_A/CD_B use manufacturer drawing pads
+BASE_DBG,B05,J_SD,DM3AT-SF-PEJM5,5,SD_CLK,YES,CD_A/CD_B use manufacturer drawing pads
+BASE_DBG,B05,J_SD,DM3AT-SF-PEJM5,6,GND,YES,CD_A/CD_B use manufacturer drawing pads
+BASE_DBG,B05,J_SD,DM3AT-SF-PEJM5,7,ISO_PC8,YES,CD_A/CD_B use manufacturer drawing pads
+BASE_DBG,B05,J_SD,DM3AT-SF-PEJM5,8,ISO_PC9,YES,CD_A/CD_B use manufacturer drawing pads
+BASE_DBG,B05,J_SD,DM3AT-SF-PEJM5,CD_A,GND,YES,CD_A/CD_B use manufacturer drawing pads
+BASE_DBG,B05,J_SD,DM3AT-SF-PEJM5,CD_B,EXP_PA4,YES,CD_A/CD_B use manufacturer drawing pads
+BASE_DBG,B05,J_SD,DM3AT-SF-PEJM5,SHELL,GND,YES,CD_A/CD_B use manufacturer drawing pads
+BASE_DBG,B05,R_SD_CLK,22R,1,ISO_PC12,YES,
+BASE_DBG,B05,R_SD_CLK,22R,2,SD_CLK,YES,
+BASE_DBG,B05,R_SD_PU_PC8,10k,1,ISO_PC8,YES,
+BASE_DBG,B05,R_SD_PU_PC8,10k,2,3V3_AUX,YES,
+BASE_DBG,B05,R_SD_PU_PC9,10k,1,ISO_PC9,YES,
+BASE_DBG,B05,R_SD_PU_PC9,10k,2,3V3_AUX,YES,
+BASE_DBG,B05,R_SD_PU_PC10,10k,1,ISO_PC10,YES,
+BASE_DBG,B05,R_SD_PU_PC10,10k,2,3V3_AUX,YES,
+BASE_DBG,B05,R_SD_PU_PC11,10k,1,ISO_PC11,YES,
+BASE_DBG,B05,R_SD_PU_PC11,10k,2,3V3_AUX,YES,
+BASE_DBG,B05,R_SD_PU_PD2,10k,1,ISO_PD2,YES,
+BASE_DBG,B05,R_SD_PU_PD2,10k,2,3V3_AUX,YES,
+BASE_DBG,B05,R_SD_CD_PU,10k,1,EXP_PA4,YES,
+BASE_DBG,B05,R_SD_CD_PU,10k,2,3V3_AUX,YES,
+BASE_DBG,B05,C_SD_BULK,GRM21BR61E106KA73L,1,3V3_AUX,YES,10uF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B05,C_SD_BULK,GRM21BR61E106KA73L,2,GND,YES,10uF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B05,C_SD_HF,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B05,C_SD_HF,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B05,R_PWM_PC6,220R,1,EXP_PC6,YES,
+BASE_DBG,B05,R_PWM_PC6,220R,2,PWM_PC6,YES,
+BASE_DBG,B05,R_PWM_PC6_PD,100k,1,PWM_PC6,YES,
+BASE_DBG,B05,R_PWM_PC6_PD,100k,2,GND,YES,
+BASE_DBG,B05,J_PWM_PC6,B2B-XH-A(LF)(SN),1,PWM_PC6,YES,
+BASE_DBG,B05,J_PWM_PC6,B2B-XH-A(LF)(SN),2,GND,YES,
+BASE_DBG,B05,R_PWM_PC7,220R,1,EXP_PC7,YES,
+BASE_DBG,B05,R_PWM_PC7,220R,2,PWM_PC7,YES,
+BASE_DBG,B05,R_PWM_PC7_PD,100k,1,PWM_PC7,YES,
+BASE_DBG,B05,R_PWM_PC7_PD,100k,2,GND,YES,
+BASE_DBG,B05,J_PWM_PC7,B2B-XH-A(LF)(SN),1,PWM_PC7,YES,
+BASE_DBG,B05,J_PWM_PC7,B2B-XH-A(LF)(SN),2,GND,YES,
+BASE_DBG,B05,R_PWM_PA2,220R,1,EXP_PA2,YES,
+BASE_DBG,B05,R_PWM_PA2,220R,2,PWM_PA2,YES,
+BASE_DBG,B05,R_PWM_PA2_PD,100k,1,PWM_PA2,YES,
+BASE_DBG,B05,R_PWM_PA2_PD,100k,2,GND,YES,
+BASE_DBG,B05,J_PWM_PA2,B2B-XH-A(LF)(SN),1,PWM_PA2,YES,
+BASE_DBG,B05,J_PWM_PA2,B2B-XH-A(LF)(SN),2,GND,YES,
+BASE_DBG,B05,R_PWM_PA3,220R,1,EXP_PA3,YES,
+BASE_DBG,B05,R_PWM_PA3,220R,2,PWM_PA3,YES,
+BASE_DBG,B05,R_PWM_PA3_PD,100k,1,PWM_PA3,YES,
+BASE_DBG,B05,R_PWM_PA3_PD,100k,2,GND,YES,
+BASE_DBG,B05,J_PWM_PA3,B2B-XH-A(LF)(SN),1,PWM_PA3,YES,
+BASE_DBG,B05,J_PWM_PA3,B2B-XH-A(LF)(SN),2,GND,YES,
+BASE_DBG,B05,RV_PC0,TC33X-2-103E,1,GND,YES,"10k +/-25%; pin2 wiper; clockwise toward pin3 raises voltage; adjustment only, not precision reference"
+BASE_DBG,B05,RV_PC0,TC33X-2-103E,2,ADC_TEST_PC0,YES,"10k +/-25%; pin2 wiper; clockwise toward pin3 raises voltage; adjustment only, not precision reference"
+BASE_DBG,B05,RV_PC0,TC33X-2-103E,3,3V3_AUX,YES,"10k +/-25%; pin2 wiper; clockwise toward pin3 raises voltage; adjustment only, not precision reference"
+BASE_DBG,B05,R_ADC_PC0,1k,1,ADC_TEST_PC0,YES,
+BASE_DBG,B05,R_ADC_PC0,1k,2,EXP_PC0,YES,
+BASE_DBG,B05,C_ADC_PC0,C1608C0G1H103J080AA,1,EXP_PC0,YES,10nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B05,C_ADC_PC0,C1608C0G1H103J080AA,2,GND,YES,10nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B05,TP_ADC_PC0,PCB_TP_0.8,1,ADC_TEST_PC0,YES,remove potentiometer before external signal injection
+BASE_DBG,B05,RV_PC1,TC33X-2-103E,1,GND,YES,"10k +/-25%; pin2 wiper; clockwise toward pin3 raises voltage; adjustment only, not precision reference"
+BASE_DBG,B05,RV_PC1,TC33X-2-103E,2,ADC_TEST_PC1,YES,"10k +/-25%; pin2 wiper; clockwise toward pin3 raises voltage; adjustment only, not precision reference"
+BASE_DBG,B05,RV_PC1,TC33X-2-103E,3,3V3_AUX,YES,"10k +/-25%; pin2 wiper; clockwise toward pin3 raises voltage; adjustment only, not precision reference"
+BASE_DBG,B05,R_ADC_PC1,1k,1,ADC_TEST_PC1,YES,
+BASE_DBG,B05,R_ADC_PC1,1k,2,EXP_PC1,YES,
+BASE_DBG,B05,C_ADC_PC1,C1608C0G1H103J080AA,1,EXP_PC1,YES,10nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B05,C_ADC_PC1,C1608C0G1H103J080AA,2,GND,YES,10nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B05,TP_ADC_PC1,PCB_TP_0.8,1,ADC_TEST_PC1,YES,remove potentiometer before external signal injection
+BASE_DBG,B06,J_ESTOP,B2B-XH-A(LF)(SN),1,3V3_AUX,YES,external normally-closed contact; unplug means STOP
+BASE_DBG,B06,J_ESTOP,B2B-XH-A(LF)(SN),2,EXP_PA8,YES,external normally-closed contact; unplug means STOP
+BASE_DBG,B06,R_ESTOP_PD,10k,1,EXP_PA8,YES,
+BASE_DBG,B06,R_ESTOP_PD,10k,2,GND,YES,
+BASE_DBG,B06,R_ENABLE_PD,10k,1,EXP_PE10,YES,
+BASE_DBG,B06,R_ENABLE_PD,10k,2,GND,YES,
+BASE_DBG,B06,U_ENABLE,SN74LVC1G08DBVR,1,EXP_PE10,YES,
+BASE_DBG,B06,U_ENABLE,SN74LVC1G08DBVR,2,EXP_PA8,YES,
+BASE_DBG,B06,U_ENABLE,SN74LVC1G08DBVR,3,GND,YES,
+BASE_DBG,B06,U_ENABLE,SN74LVC1G08DBVR,4,LOAD_ENABLE,YES,
+BASE_DBG,B06,U_ENABLE,SN74LVC1G08DBVR,5,3V3_AUX,YES,
+BASE_DBG,B06,C_U_ENABLE,C1005X7R1H104K050BB,1,3V3_AUX,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B06,C_U_ENABLE,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B06,R_LOAD_EN_PD,100k,1,LOAD_ENABLE,YES,
+BASE_DBG,B06,R_LOAD_EN_PD,100k,2,GND,YES,
+BASE_DBG,B06,U_LOAD,TPS22919DCKR,1,5V_IN,YES,
+BASE_DBG,B06,U_LOAD,TPS22919DCKR,2,GND,YES,
+BASE_DBG,B06,U_LOAD,TPS22919DCKR,3,LOAD_ENABLE,YES,
+BASE_DBG,B06,U_LOAD,TPS22919DCKR,4,NC,YES,
+BASE_DBG,B06,U_LOAD,TPS22919DCKR,5,U_LOAD_QOD,YES,
+BASE_DBG,B06,U_LOAD,TPS22919DCKR,6,LOAD_5V,YES,
+BASE_DBG,B06,R_U_LOAD_QOD,1k,1,U_LOAD_QOD,YES,
+BASE_DBG,B06,R_U_LOAD_QOD,1k,2,LOAD_5V,YES,
+BASE_DBG,B06,C_U_LOAD_IN,C1608X7R1C105K080AC,1,5V_IN,YES,1uF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B06,C_U_LOAD_IN,C1608X7R1C105K080AC,2,GND,YES,1uF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B06,C_U_LOAD_OUT,C1005X7R1H104K050BB,1,LOAD_5V,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B06,C_U_LOAD_OUT,C1005X7R1H104K050BB,2,GND,YES,100nF; see MLCC selection and effective-C acceptance table
+BASE_DBG,B06,J_LOAD,B2B-XH-A(LF)(SN),1,LOAD_5V,YES,
+BASE_DBG,B06,J_LOAD,B2B-XH-A(LF)(SN),2,GND,YES,
+BASE_DBG,B06,R_LOAD,RC1206FR-07200RL,1,LOAD_5V,OPTION,four parallel 200 ohm; fit all four for 50 ohm 1W nominal dummy load
+BASE_DBG,B06,R_LOAD,RC1206FR-07200RL,2,GND,OPTION,four parallel 200 ohm; fit all four for 50 ohm 1W nominal dummy load
+BASE_DBG,B06,R_LOAD2,RC1206FR-07200RL,1,LOAD_5V,OPTION,four parallel 200 ohm; fit all four for 50 ohm 1W nominal dummy load
+BASE_DBG,B06,R_LOAD2,RC1206FR-07200RL,2,GND,OPTION,four parallel 200 ohm; fit all four for 50 ohm 1W nominal dummy load
+BASE_DBG,B06,R_LOAD3,RC1206FR-07200RL,1,LOAD_5V,OPTION,four parallel 200 ohm; fit all four for 50 ohm 1W nominal dummy load
+BASE_DBG,B06,R_LOAD3,RC1206FR-07200RL,2,GND,OPTION,four parallel 200 ohm; fit all four for 50 ohm 1W nominal dummy load
+BASE_DBG,B06,R_LOAD4,RC1206FR-07200RL,1,LOAD_5V,OPTION,four parallel 200 ohm; fit all four for 50 ohm 1W nominal dummy load
+BASE_DBG,B06,R_LOAD4,RC1206FR-07200RL,2,GND,OPTION,four parallel 200 ohm; fit all four for 50 ohm 1W nominal dummy load
+BASE_DBG,B06,R_STATUS_PB7_PU,10k,1,EXP_PB7,YES,
+BASE_DBG,B06,R_STATUS_PB7_PU,10k,2,3V3_AUX,YES,
+BASE_DBG,B06,R_STATUS_PB7_PD,100k,1,EXP_PB7,YES,
+BASE_DBG,B06,R_STATUS_PB7_PD,100k,2,GND,YES,
+BASE_DBG,B06,SW_FAULT,EVQP7A01P,1L,EXP_PB7,YES,vendor terminal 1 pair and terminal 2 pair; project L/R pad aliases
+BASE_DBG,B06,SW_FAULT,EVQP7A01P,1R,EXP_PB7,YES,vendor terminal 1 pair and terminal 2 pair; project L/R pad aliases
+BASE_DBG,B06,SW_FAULT,EVQP7A01P,2L,GND,YES,vendor terminal 1 pair and terminal 2 pair; project L/R pad aliases
+BASE_DBG,B06,SW_FAULT,EVQP7A01P,2R,GND,YES,vendor terminal 1 pair and terminal 2 pair; project L/R pad aliases

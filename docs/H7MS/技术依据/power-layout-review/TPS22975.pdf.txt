@@ -1,0 +1,2605 @@
+Input Voltage (V)
+On-Resistance (m:)
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+0
+5
+10
+15
+20
+25
+30
+35
+40
+D007
+-40 qC
+25 qC
+85 qC
+105 qC
+Power
+Supply
+OFF
+ON
+TPS22975
+VIN
+VOUT
+R L
+C L
+GND
+ON
+CT
+C IN
+VBIAS
+GND
+Power
+Supply
+CT
+Copyright © 2016, Texas Instruments Incorporated
+Product
+Folder
+Order
+Now
+Technical
+Documents
+Tools &
+Software
+Support &
+Community
+An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications,
+intellectual property matters and other important disclaimers. PRODUCTION DATA.
+TPS22975
+SLVSDD0B –MAY 2016–REVISED SEPTEMBER 2017
+TPS22975 5.7-V, 6-A, 16-mΩ On-Resistance Load Switch
+1
+1
+Features
+1•
+Integrated Single-Channel Load Switch
+•
+Input Voltage Range: 0.6 V to VBIAS
+•
+VBIAS Voltage Range: 2.5 V to 5.7 V
+•
+On-Resistance (RON)
+–
+RON = 16 mΩ(typical) at VIN = 0.6 V to 5.7 V,
+VBIAS = 5.7 V
+•
+6-A Maximum Continuous Switch Current
+•
+Low Quiescent Current
+–
+37 µA (typical) at VIN = VBIAS = 5 V
+•
+Low-Control Input-Threshold Enables Use of
+1.2-, 1.8-, 2.5-, and 3.3-V Logic
+•
+Configurable Rise Time
+•
+Thermal Shutdown
+•
+Quick-Output Discharge (QOD) (Optional)
+•
+SON 8-pin Package with Thermal Pad
+•
+ESD Performance Tested per JESD 22
+–
+2000-V HBM and 1000-V CDM
+2
+Applications
+•
+Ultrabook™
+•
+Notebooks and Netbooks
+•
+Tablet PC
+•
+Consumer Electronics
+•
+Set-top Boxes and Residential Gateways
+•
+Telecom Systems
+•
+Solid State Drives (SSDs)
+3
+Description
+The
+TPS22975
+product
+family
+consists
+of
+two
+devices: TPS22975 and TPS22975N. Each device is
+a
+single-channel
+load
+switch
+that
+provides
+a
+configurable rise time to minimize inrush current. The
+device contains an N-channel MOSFET that can
+operate over an input voltage range of 0.6 V to 5.7 V
+and can support a maximum continuous current of 6
+A. The switch is controlled by an on and off input
+(ON), which is capable of interfacing directly with low-
+voltage control signals. TPS22975 has an optional
+230-Ω on-chip load resistor for quick output discharge
+when switch is turned off.
+The TPS22975 is available in a small, space-saving
+2-mm × 2-mm 8-pin SON package (DSG) with
+integrated
+thermal
+pad
+allowing
+for
+high
+power
+dissipation. The device is characterized for operation
+over the free-air temperature range of –40°C to
++105°C.
+Device Information(1)
+PART NUMBER
+PACKAGE
+BODY SIZE (NOM)
+TPS22975
+TPS22975N
+WSON (8)
+2.00 mm × 2.00 mm
+(1) For all available packages, see the orderable addendum at
+the end of the data sheet.
+Simplified Schematic
+On-Resistance vs Input Voltage
+VBIAS = 5 V, IVOUT = –200 mA
+
+2
+TPS22975
+SLVSDD0B –MAY 2016–REVISED SEPTEMBER 2017
+www.ti.com
+Product Folder Links: TPS22975
+Submit Documentation Feedback
+Copyright © 2016–2017, Texas Instruments Incorporated
+Table of Contents
+1
+Features.................................................................. 1
+2
+Applications ........................................................... 1
+3
+Description ............................................................. 1
+4
+Revision History..................................................... 2
+5
+Device Comparison Table..................................... 3
+6
+Pin Configuration and Functions......................... 3
+7
+Specifications......................................................... 4
+7.1
+Absolute Maximum Ratings ...................................... 4
+7.2
+ESD Ratings.............................................................. 4
+7.3
+Recommended Operating Conditions....................... 4
+7.4
+Thermal Information.................................................. 5
+7.5
+Electrical Characteristics—VBIAS = 5 V..................... 5
+7.6
+Electrical Characteristics—VBIAS = 2.5 V.................. 6
+7.7
+Switching Characteristics.......................................... 7
+7.8
+Typical DC Characteristics........................................ 8
+7.9
+Typical AC Characteristics...................................... 10
+8
+Parameter Measurement Information ................ 13
+9
+Detailed Description ............................................ 14
+9.1
+Overview ................................................................. 14
+9.2
+Functional Block Diagram ....................................... 14
+9.3
+Feature Description................................................. 15
+9.4
+Device Functional Modes........................................ 15
+10
+Application and Implementation........................ 16
+10.1
+Application Information.......................................... 16
+10.2
+Typical Application ................................................ 16
+11
+Power Supply Recommendations ..................... 18
+12
+Layout................................................................... 19
+12.1
+Layout Guidelines ................................................. 19
+12.2
+Layout Example .................................................... 19
+12.3
+Thermal Considerations........................................ 19
+13
+Device and Documentation Support ................. 20
+13.1
+Device Support...................................................... 20
+13.2
+Related Documentation......................................... 20
+13.3
+Receiving Notification of Documentation Updates 20
+13.4
+Community Resources.......................................... 20
+13.5
+Trademarks........................................................... 20
+13.6
+Electrostatic Discharge Caution............................ 20
+13.7
+Glossary................................................................ 20
+14
+Mechanical, Packaging, and Orderable
+Information ........................................................... 20
+4
+Revision History
+Changes from Revision A (June 2016) to Revision B
+Page
+•
+Updated VIH in Recommended Operating Conditions ............................................................................................................ 4
+Changes from Original (May 2016) to Revision A
+Page
+•
+Changed device status from Product Preview to Production Data ....................................................................................... 1
+
+VIN
+VIN
+VBIAS
+VOUT
+VOUT
+CT
+GND
+ON
+1
+2
+3
+4
+8
+7
+6
+5
+VIN
+VIN
+ON
+VBIAS
+GND
+VOUT
+VOUT
+CT
+1
+2
+3
+4
+8
+7
+6
+5
+3
+TPS22975
+www.ti.com
+SLVSDD0B –MAY 2016–REVISED SEPTEMBER 2017
+Product Folder Links: TPS22975
+Submit Documentation Feedback
+Copyright © 2016–2017, Texas Instruments Incorporated
+5
+Device Comparison Table
+DEVICE
+RON AT VIN = VBIAS = 5 V
+(TYPICAL)
+QUICK-OUTPUT
+DISCHARGE
+MAXIMUM OUTPUT
+CURRENT
+ENABLE
+TPS22975
+16 mΩ
+Yes
+6 A
+Active high
+TPS22975N
+16 mΩ
+No
+6 A
+Active high
+6
+Pin Configuration and Functions
+DSG Package
+8-Pin (WSON)
+Top View
+DSG Package
+8-Pin (WSON)
+Bottom View
+Pin Functions
+PIN
+I/O
+DESCRIPTION
+NO.
+NAME
+1
+VIN
+I
+Switch input. Input bypass capacitor recommended for minimizing VIN dip. Must be connected to
+Pin 1 and Pin 2. See the Application and Implementation section for more information
+2
+3
+ON
+I
+Active high switch control input. Do not leave floating
+4
+VBIAS
+I
+Bias voltage. Power supply to the device. Recommended voltage range for this pin is 2.5 V to
+5.7 V. See the Application and Implementation section for more information
+5
+GND
+—
+Device ground
+6
+CT
+O
+Switch slew rate control. Can be left floating. See the Adjustable Rise Time section under
+Feature Description for more information
+7
+VOUT
+O
+Switch output
+8
+—
+Thermal Pad
+—
+Thermal pad (exposed center pad) to alleviate thermal stress. Tie to GND. See the Layout
+Example section for layout guidelines
+
+4
+TPS22975
+SLVSDD0B –MAY 2016–REVISED SEPTEMBER 2017
+www.ti.com
+Product Folder Links: TPS22975
+Submit Documentation Feedback
+Copyright © 2016–2017, Texas Instruments Incorporated
+(1)
+Stresses beyond those listed under Absolute Maximum Ratings may cause permanent damage to the device. These are stress ratings
+only, which do not imply functional operation of the device at these or any other conditions beyond those indicated under Recommended
+Operating Conditions. Exposure to absolute-maximum-rated conditions for extended periods may affect device reliability.
+7
+Specifications
+7.1
+Absolute Maximum Ratings
+Over operating free-air temperature range (unless otherwise noted)(1)
+MIN
+MAX
+UNIT
+VIN
+Input voltage
+–0.3
+6
+V
+VOUT
+Output voltage
+–0.3
+6
+V
+VBIAS
+Bias voltage
+–0.3
+6
+V
+VON
+On voltage
+–0.3
+6
+V
+IMAX
+Maximum continuous switch current
+6
+A
+IPLS
+Maximum pulsed switch current, pulse < 300 µs, 2% duty cycle
+8
+A
+TJ
+Maximum junction temperature
+125
+°C
+Tstg
+Storage temperature
+–65
+150
+°C
+(1)
+JEDEC document JEP155 states that 500-V HBM allows safe manufacturing with a standard ESD control process.
+(2)
+JEDEC document JEP157 states that 250-V CDM allows safe manufacturing with a standard ESD control process.
+7.2
+ESD Ratings
+VALUE
+UNIT
+V(ESD)
+Electrostatic discharge
+Human-body model (HBM), per ANSI/ESDA/JEDEC JS-001(1)
+±2000
+V
+Charged-device model (CDM), per JEDEC specification JESD22-C101(2)
+±1000
+(1)
+See the Application Information section.
+(2)
+In applications where high power dissipation and-or poor package thermal resistance is present, the maximum ambient temperature may
+have to be derated and device lifetime may be affected. Maximum ambient temperature (TA(max)) is dependent on the maximum
+operating junction temperature (TJ(max)), the maximum power dissipation of the device in the application (PD(max)), and the junction-to-
+ambient thermal resistance of the part-package in the application (θJA), and can be approximated by the following equation: TA (max) =
+TJ(max) – (θJA × PD(max)).
+7.3
+Recommended Operating Conditions
+MIN
+MAX
+UNIT
+VIN
+Input voltage
+0.6
+VBIAS
+V
+VBIAS
+Bias voltage
+2.5
+5.7
+V
+VON
+ON voltage
+0
+5.7
+V
+VOUT
+Output voltage
+VIN
+V
+VIH
+High-level input voltage, ON
+VBIAS = 2.5 V to 5 V, TA< 85°C
+1.05
+5.7
+V
+VBIAS = 2.5 V to 5 V, TA< 105°C
+1.1
+5.7
+VBIAS = 5 V to 5.7 V, TA< 105°C
+1.2
+5.7
+VIL
+Low-level input voltage, ON
+VBIAS = 2.5 V to 5.7 V
+0
+0.5
+V
+CIN
+Input capacitor
+1(1)
+µF
+TA
+Operating free-air temperature(1)(2)
+–40
+105
+°C
+
+5
+TPS22975
+www.ti.com
+SLVSDD0B –MAY 2016–REVISED SEPTEMBER 2017
+Product Folder Links: TPS22975
+Submit Documentation Feedback
+Copyright © 2016–2017, Texas Instruments Incorporated
+(1)
+For more information about traditional and new thermal metrics, see the Semiconductor and IC Package Thermal Metrics application
+report.
+7.4
+Thermal Information
+THERMAL METRIC(1)
+TPS22975
+UNIT
+DSG (WSON)
+8 PINS
+RθJA
+Junction-to-ambient thermal resistance
+74.8
+°C/W
+RθJC(top)
+Junction-to-case (top) thermal resistance
+81
+°C/W
+RθJB
+Junction-to-board thermal resistance
+44.7
+°C/W
+ψJT
+Junction-to-top characterization parameter
+3.9
+°C/W
+ψJB
+Junction-to-board characterization parameter
+45.1
+°C/W
+RθJC(bot)
+Junction-to-case (bottom) thermal resistance
+16.4
+°C/W
+(1)
+TPS22975 only
+7.5
+Electrical Characteristics—VBIAS = 5 V
+Unless otherwise noted, the specifications in the following table applies where VBIAS = 5 V. Typical values are for TA = 25 °C.
+PARAMETER
+TEST CONDITIONS
+TA
+MIN
+TYP
+MAX
+UNIT
+POWER SUPPLIES AND CURRENTS
+IQ, VBIAS
+VBIAS quiescent current
+IOUT = 0 A,
+VIN = VON = 5 V
+–40°C to +105°C
+37
+45
+µA
+ISD, VBIAS
+VBIAS shutdown current
+VON = VOUT = 0 V
+–40°C to +105°C
+2.3
+µA
+ISD, VIN
+VIN off-state supply current
+VON = VOUT = 0 V
+VIN = 5 V
+–40°C to +85°C
+0.005
+5
+µA
+–40°C to +105°C
+10
+VIN = 3.3 V
+–40°C to +85°C
+0.002
+1.5
+–40°C to +105°C
+3.5
+VIN = 1.8 V
+–40°C to +85°C
+0.002
+1
+–40°C to +105°C
+2
+VIN = 0.6 V
+–40°C to +85°C
+0.001
+0.5
+–40°C to +105°C
+1
+ION
+On-pin input leakage current
+VON = 5.5 V
+–40°C to +105°C
+0.1
+µA
+RESISTANCE CHARACTERISTICS
+RON
+On-resistance
+IOUT = –200 mA
+VIN = 5 V
+25°C
+16
+19
+mΩ
+–40°C to +85°C
+23
+–40°C to +105°C
+25
+VIN = 3.3 V
+25°C
+16
+19
+–40°C to +85°C
+23
+–40°C to +105°C
+25
+VIN = 1.8 V
+25°C
+16
+19
+–40°C to +85°C
+23
+–40°C to +105°C
+25
+VIN = 1.5 V
+25°C
+16
+19
+–40°C to +85°C
+23
+–40°C to +105°C
+25
+VIN = 1.05 V
+25°C
+16
+19
+–40°C to +85°C
+23
+–40°C to +105°C
+25
+VIN = 0.6 V
+25°C
+16
+19
+–40°C to +85°C
+23
+–40°C to +105°C
+25
+VON, HYS
+On-pin hysteresis
+VIN = 5 V
+25°C
+120
+mV
+RPD
+(1)
+Output pulldown resistance
+VIN = 5 V, VON = 0 V
+–40°C to +105°C
+230
+300
+Ω
+TSD
+Thermal shutdown
+Junction temperature rising
+160
+°C
+TSD, HYS
+Thermal shutdown hysteresis
+Junction temperature falling
+20
+°C
+
+6
+TPS22975
+SLVSDD0B –MAY 2016–REVISED SEPTEMBER 2017
+www.ti.com
+Product Folder Links: TPS22975
+Submit Documentation Feedback
+Copyright © 2016–2017, Texas Instruments Incorporated
+(1)
+TPS22975 only
+7.6
+Electrical Characteristics—VBIAS = 2.5 V
+Unless otherwise noted, the specifications in the following table applies where VBIAS = 2.5 V. Typical values are for TA = 25
+°C.
+PARAMETER
+TEST CONDITIONS
+TA
+MIN
+TYP
+MAX
+UNIT
+POWER SUPPLIES AND CURRENTS
+IQ, VBIAS
+VBIAS quiescent current
+IOUT = 0 mA,
+VIN = VON = 2.5 V
+–40°C to +105°C
+14
+20
+µA
+ISD, VBIAS
+VBIAS shutdown current
+VON = VOUT = 0 V
+–40°C to +105°C
+1
+µA
+ISD, VIN
+VIN off-state supply current
+VON = VOUT = 0 V
+VIN = 2.5 V
+–40°C to +85°C
+0.005
+1.3
+µA
+–40°C to +105°C
+2.6
+VIN = 1.8 V
+–40°C to +85°C
+0.002
+1
+–40°C to +105°C
+2
+VIN = 1.05 V
+–40°C to +85°C
+0.002
+0.8
+–40°C to +105°C
+1.5
+VIN = 0.6 V
+–40°C to +85°C
+0.001
+0.5
+–40°C to +105°C
+1
+ION
+On-pin input leakage current
+VON = 5.5 V
+–40°C to +105°C
+0.1
+µA
+RESISTANCE CHARACTERISTICS
+RON
+On-resistance
+IOUT = –200 mA
+VIN = 2.5 V
+25°C
+20
+26
+mΩ
+–40°C to +85°C
+32
+–40°C to +105°C
+34
+VIN = 1.8 V
+25°C
+18
+23
+–40°C to +85°C
+29
+–40°C to +105°C
+31
+VIN = 1.5 V
+25°C
+18
+22
+–40°C to +85°C
+28
+–40°C to +105°C
+30
+VIN = 1.2 V
+25°C
+17
+22
+–40°C to +85°C
+27
+–40°C to +105°C
+29
+VIN = 0.6 V
+25°C
+17
+21
+–40°C to +85°C
+26
+–40°C to +105°C
+27
+VON, HYS
+On-pin hysteresis
+VIN = 2.5 V
+25°C
+85
+mV
+RPD
+(1)
+Output pulldown resistance
+VIN = 2.5 V, VON = 0 V
+–40°C to +105°C
+230
+330
+Ω
+TSD
+Thermal shutdown
+Junction temperature rising
+160
+°C
+TSD, HYS
+Thermal shutdown hysteresis
+Junction temperature falling
+20
+°C
+
+7
+TPS22975
+www.ti.com
+SLVSDD0B –MAY 2016–REVISED SEPTEMBER 2017
+Product Folder Links: TPS22975
+Submit Documentation Feedback
+Copyright © 2016–2017, Texas Instruments Incorporated
+7.7
+Switching Characteristics
+PARAMETER
+TEST CONDITION
+MIN
+TYP
+MAX
+UNIT
+VIN = VBIAS = 5 V, TA = 25ºC (unless otherwise noted)
+tON
+Turnon time
+RL = 10 Ω, CL = 0.1 µF, CIN = 1 µF, CT = 1000 pF, VON = 5 V
+1450
+µs
+tOFF
+Turnoff time
+RL = 10 Ω, CL = 0.1 µF, CIN = 1 µF, CT = 1000 pF, VON = 5 V
+2
+tR
+VOUT rise time
+RL = 10 Ω, CL = 0.1 µF, CIN = 1 µF, CT = 1000 pF, VON = 5 V
+1750
+tF
+VOUT fall time
+RL = 10 Ω, CL = 0.1 µF, CIN = 1 µF, CT = 1000 pF, VON = 5 V
+2
+tD
+ON delay time
+RL = 10 Ω, CL = 0.1 µF, CIN = 1 µF, CT = 1000 pF, VON = 5 V
+600
+VIN = 0.6 V, VBIAS = 5 V, TA = 25ºC (unless otherwise noted)
+tON
+Turnon time
+RL = 10 Ω, CL = 0.1 µF, CIN = 1 µF, CT = 1000 pF, VON = 5 V
+620
+µs
+tOFF
+Turnoff time
+RL = 10 Ω, CL = 0.1 µF, CIN = 1 µF, CT = 1000 pF, VON = 5 V
+2
+tR
+VOUT rise time
+RL = 10 Ω, CL = 0.1 µF, CIN = 1 µF, CT = 1000 pF, VON = 5 V
+280
+tF
+VOUT fall time
+RL = 10 Ω, CL = 0.1 µF, CIN = 1 µF, CT = 1000 pF, VON = 5 V
+2
+tD
+ON delay time
+RL = 10 Ω, CL = 0.1 µF, CIN = 1 µF, CT = 1000 pF, VON = 5 V
+485
+VIN = VBIAS = 2.5 V, TA = 25ºC (unless otherwise noted)
+tON
+Turnon time
+RL = 10 Ω, CL = 0.1 µF, CIN = 1 µF, CT = 1000 pF, VON = 5 V
+2180
+µs
+tOFF
+Turnoff time
+RL = 10 Ω, CL = 0.1 µF, CIN = 1 µF, CT = 1000 pF, VON = 5 V
+2
+tR
+VOUT rise time
+RL = 10 Ω, CL = 0.1 µF, CIN = 1 µF, CT = 1000 pF, VON = 5 V
+2150
+tF
+VOUT fall time
+RL = 10 Ω, CL = 0.1 µF, CIN = 1 µF, CT = 1000 pF, VON = 5 V
+2
+tD
+ON delay time
+RL = 10 Ω, CL = 0.1 µF, CIN = 1 µF, CT = 1000 pF, VON = 5 V
+1120
+VIN = 0.6 V, VBIAS = 2.5 V, TA = 25ºC (unless otherwise noted)
+tON
+Turnon time
+RL = 10 Ω, CL = 0.1 µF, CIN = 1 µF, CT = 1000 pF, VON = 5 V
+1315
+µs
+tOFF
+Turnoff time
+RL = 10 Ω, CL = 0.1 µF, CIN = 1 µF, CT = 1000 pF, VON = 5 V
+3
+tR
+VOUT rise time
+RL = 10 Ω, CL = 0.1 µF, CIN = 1 µF, CT = 1000 pF, VON = 5 V
+650
+tF
+VOUT fall time
+RL = 10 Ω, CL = 0.1 µF, CIN = 1 µF, CT = 1000 pF, VON = 5 V
+2
+tD
+ON delay time
+RL = 10 Ω, CL = 0.1 µF, CIN = 1 µF, CT = 1000 pF, VON = 5 V
+975
+
+Ambient Temperature (qC)
+On-Resistance (m:)
+-40
+-10
+20
+50
+80
+110
+0
+5
+10
+15
+20
+25
+30
+D005
+VIN = 0.6 V
+VIN = 3.3 V
+VIN = 5 V
+Ambient Temperature (qC)
+On-Resistance (m:)
+-40
+-10
+20
+50
+80
+110
+0
+5
+10
+15
+20
+25
+30
+D006
+VIN = 0.6 V
+VIN = 1.8 V
+VIN = 2.5 V
+Bias Voltage (V)
+VBIAS Shutdown Current (PA)
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+6
+0
+0.5
+1
+1.5
+2
+2.5
+D003
+-40 qC
+25 qC
+85 qC
+105 qC
+Input Voltage (V)
+VIN Off-State Supply Current (PA)
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+D001
+D004
+-40 qC
+25 qC
+85 qC
+105 qC
+Bias Voltage (V)
+VBIAS Quiescent Current (PA)
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+10
+20
+30
+40
+50
+60
+D001
+-40 qC
+25 qC
+85 qC
+105 qC
+Input Voltage (V)
+VBIAS Quiescent Current (PA)
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+10
+20
+30
+40
+50
+60
+70
+D002
+-40 qC
+25 qC
+85 qC
+105 qC
+8
+TPS22975
+SLVSDD0B –MAY 2016–REVISED SEPTEMBER 2017
+www.ti.com
+Product Folder Links: TPS22975
+Submit Documentation Feedback
+Copyright © 2016–2017, Texas Instruments Incorporated
+7.8
+Typical DC Characteristics
+VIN = VBIAS
+VON = 5 V
+VOUT = 0 V
+Figure 1. VBIAS Quiescent Current vs Bias Voltage
+VBIAS = 5 V
+VON = 5 V
+VOUT = 0 V
+Figure 2. VBIAS Quiescent Current vs Input Voltage
+VIN = VBIAS
+VON = 0 V
+VOUT = 0 V
+Figure 3. VBIAS Shutdown Current vs Bias Voltage
+VBIAS = 5 V
+VON = 0 V
+VOUT = 0 V
+Figure 4. VIN Off-State Supply Current vs Input Voltage
+VBIAS = 5 V
+IOUT = –200 mA
+VON = 5 V
+Note:
+All three RON curves have the same
+values; therefore, only one line is visible.
+Figure 5. On-Resistance vs Ambient Temperature
+VBIAS = 2.5 V
+IOUT = –200 mA
+VON = 5 V
+Figure 6. On-Resistance vs Ambient Temperature
+
+Bias Voltage (V)
+On-Resistance (m:)
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+6
+0
+5
+10
+15
+20
+25
+D009
+VIN = 0.6 V
+VIN = 1.2 V
+VIN = 1.8 V
+VIN = 2.5 V
+Bias Voltage (V)
+Output Pull Down Resistence (:)
+2.5
+3
+3.5
+4
+4.5
+5
+5.5
+6
+235
+240
+245
+250
+255
+260
+265
+270
+275
+D001
+-40°C
+25°C
+85°C
+105°C
+Input Voltage (V)
+On-Resistance (m:)
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+0
+5
+10
+15
+20
+25
+30
+35
+40
+D007
+-40 qC
+25 qC
+85 qC
+105 qC
+Input Voltage (V)
+On-Resistance (m:)
+0.5
+1
+1.5
+2
+2.5
+0
+5
+10
+15
+20
+25
+30
+35
+40
+D009
+D008
+-40 qC
+25 qC
+85 qC
+105 qC
+9
+TPS22975
+www.ti.com
+SLVSDD0B –MAY 2016–REVISED SEPTEMBER 2017
+Product Folder Links: TPS22975
+Submit Documentation Feedback
+Copyright © 2016–2017, Texas Instruments Incorporated
+Typical DC Characteristics (continued)
+VBIAS = 5 V
+IOUT = –200 mA
+VON = 5 V
+Figure 7. On-Resistance vs Input Voltage
+VBIAS = 2.5 V
+IOUT = –200 mA
+VON = 5 V
+Figure 8. On-Resistance vs Input Voltage
+TA = 25°C
+IOUT = –200 mA
+VON = 5 V
+Figure 9. On-Resistance vs Bias Voltage
+VIN = 2.5 V
+VON = 0 V
+Figure 10. Output Pull Down Resistance vs Bias Voltage
+
+Input Voltage (V)
+Turnoff Time (us)
+0.5
+1
+1.5
+2
+2.5
+2.1
+2.2
+2.3
+2.4
+2.5
+2.6
+2.7
+2.8
+2.9
+3
+3.1
+3.2
+3.3
+D015
+-40 qC
+25 qC
+85 qC
+105 qC
+Input Voltage (V)
+Turnoff Time (us)
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+1.6
+1.7
+1.8
+1.9
+2
+2.1
+2.2
+2.3
+2.4
+D016
+-40 qC
+25 qC
+85 qC
+105 qC
+Input Voltage (V)
+Fall Time (us)
+0.5
+1
+1.5
+2
+2.5
+1.5
+1.7
+1.9
+2.1
+2.3
+2.5
+D013
+-40 qC
+25 qC
+85 qC
+105 qC
+Input Voltage (V)
+Fall Time (us)
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+1.5
+1.7
+1.9
+2.1
+2.3
+2.5
+D014
+-40 qC
+25 qC
+85 qC
+105 qC
+Input Voltage (V)
+Delay Time (us)
+0.5
+1
+1.5
+2
+2.5
+700
+900
+1100
+1300
+1500
+1700
+D011
+-40 qC
+25 qC
+85 qC
+105 qC
+Input Voltage (V)
+Delay Time (us)
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+300
+500
+700
+900
+D012
+-40 qC
+25 qC
+85 qC
+105 qC
+10
+TPS22975
+SLVSDD0B –MAY 2016–REVISED SEPTEMBER 2017
+www.ti.com
+Product Folder Links: TPS22975
+Submit Documentation Feedback
+Copyright © 2016–2017, Texas Instruments Incorporated
+7.9
+Typical AC Characteristics
+TA = 25°C, CT = 1000 pF, CIN = 1 µF, CL = 0.1 µF, RL = 10 Ω
+VBIAS = 2.5 V
+Figure 11. Delay Time vs Input Voltage
+VBIAS = 5 V
+Figure 12. Delay Time vs Input Voltage
+VBIAS = 2.5 V
+Figure 13. Fall Time vs Input Voltage
+VBIAS = 5 V
+Figure 14. Fall Time vs Input Voltage
+VBIAS = 2.5 V
+Figure 15. Turnoff Time vs Input Voltage
+VBIAS = 5 V
+Figure 16. Turnoff Time vs Input Voltage
+
+Input Voltage (V)
+Rise Time (us)
+0.5
+1
+1.5
+2
+2.5
+0
+500
+1000
+1500
+2000
+2500
+3000
+D019
+-40 qC
+25 qC
+85 qC
+105 qC
+Input Voltage (V)
+Rise Time (us)
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+0
+500
+1000
+1500
+2000
+2500
+D020
+-40 qC
+25 qC
+85 qC
+105 qC
+Input Voltage (V)
+Turnon Time (us)
+0.5
+1
+1.5
+2
+2.5
+0
+500
+1000
+1500
+2000
+2500
+3000
+D017
+-40 qC
+25 qC
+85 qC
+105 qC
+Input Voltage (V)
+Turnon Time (us)
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+0
+400
+800
+1200
+1600
+2000
+D018
+-40 qC
+25 qC
+85 qC
+105 qC
+11
+TPS22975
+www.ti.com
+SLVSDD0B –MAY 2016–REVISED SEPTEMBER 2017
+Product Folder Links: TPS22975
+Submit Documentation Feedback
+Copyright © 2016–2017, Texas Instruments Incorporated
+Typical AC Characteristics (continued)
+TA = 25°C, CT = 1000 pF, CIN = 1 µF, CL = 0.1 µF, RL = 10 Ω
+VBIAS = 2.5 V
+Figure 17. Turnon Time vs Input Voltage
+VBIAS = 5 V
+Figure 18. Turnon Time vs Input Voltage
+VBIAS = 2.5 V
+Figure 19. Rise Time vs Input Voltage
+VBIAS = 5 V
+Figure 20. Rise Time vs Input Voltage
+VIN = 0.6 V
+VBIAS = 2.5 V
+Figure 21. Turnon Response Time
+VIN = 0.6 V
+VBIAS = 5 V
+Figure 22. Turnon Response Time
+
+12
+TPS22975
+SLVSDD0B –MAY 2016–REVISED SEPTEMBER 2017
+www.ti.com
+Product Folder Links: TPS22975
+Submit Documentation Feedback
+Copyright © 2016–2017, Texas Instruments Incorporated
+Typical AC Characteristics (continued)
+TA = 25°C, CT = 1000 pF, CIN = 1 µF, CL = 0.1 µF, RL = 10 Ω
+VIN = 2.5 V
+VBIAS = 2.5 V
+Figure 23. Turnon Response Time
+VIN = 5 V
+VBIAS = 5 V
+Figure 24. Turnon Response Time
+VIN = 0.6 V
+VBIAS = 2.5 V
+Figure 25. Turnoff Response Time
+VIN = 0.6 V
+VBIAS = 5 V
+Figure 26. Turnoff Response Time
+VIN = 2.5 V
+VBIAS = 2.5 V
+Figure 27. Turnoff Response Time
+VIN = 5 V
+VBIAS = 5 V
+Figure 28. Turnoff Response Time
+
+tR
+tON
+tOFF
+90%
+90%
+10%
+10%
+VON
+VOUT
+VOUT
+50%
+50%
+50%
+50%
+tD
+10%
+tF
+Power
+Supply
+OFF
+ON
+TPS22975
+VIN
+VOUT
+R L
+C L
+GND
+ON
+CT
+C IN
+VBIAS
+GND
+Power
+Supply
+CT
+Copyright © 2016, Texas Instruments Incorporated
+13
+TPS22975
+www.ti.com
+SLVSDD0B –MAY 2016–REVISED SEPTEMBER 2017
+Product Folder Links: TPS22975
+Submit Documentation Feedback
+Copyright © 2016–2017, Texas Instruments Incorporated
+8
+Parameter Measurement Information
+A.
+Rise and fall times of the control signal are 100 ns.
+B.
+Turnoff times and fall times are dependent on the time constant at the load. For the TPS22975, the internal pull-down
+resistance RPD is enabled when the switch is disabled. The time constant is (RPD || RL) × CL.
+Figure 29. Test Circuit
+Figure 30. tON and tOFF Waveforms
+
+Charge
+Pump
+Control
+Logic
+VIN
+ON
+VOUT
+GND
+CT
+VBIAS
+TPS22975 Only
+Copyright © 2016, Texas Instruments Incorporated
+14
+TPS22975
+SLVSDD0B –MAY 2016–REVISED SEPTEMBER 2017
+www.ti.com
+Product Folder Links: TPS22975
+Submit Documentation Feedback
+Copyright © 2016–2017, Texas Instruments Incorporated
+9
+Detailed Description
+9.1
+Overview
+The TPS22975 device is a single-channel, 6-A load switch in an 8-pin SON package. To reduce the voltage drop
+in high current rails, the device implements an N-channel MOSFET. The device has a configurable slew rate for
+applications that require a specific rise-time.
+The device prevents downstream circuits from pulling high standby current from the supply by limiting the
+leakage current of the device when it is disabled. The integrated control logic, driver, power supply, and output
+discharge FET eliminates the need for any external components, which reduces solution size and bill of materials
+(BOM) count.
+9.2
+Functional Block Diagram
+
+T
+SR
+0.43
+C
+26
+ 
+u
+
+15
+TPS22975
+www.ti.com
+SLVSDD0B –MAY 2016–REVISED SEPTEMBER 2017
+Product Folder Links: TPS22975
+Submit Documentation Feedback
+Copyright © 2016–2017, Texas Instruments Incorporated
+(1)
+Typical Values at 25°C with a 25-V X7R 10% Ceramic Capacitor on CT
+9.3
+Feature Description
+9.3.1
+Adjustable Rise Time
+A capacitor to GND on the CT pin sets the slew rate. The voltage on the CT pin can be as high as 15 V;
+therefore, the minimum voltage rating for the CT capacitor must be 30 V for optimal performance. An
+approximate formula for the relationship between CT and slew rate when VBIAS is set to 5 V is shown in
+Equation 1. This equation accounts for 10% to 90% measurement on VOUT and does not apply for CT < 100 pF.
+Use Table 1 to determine rise times for when CT = 0 pF.
+where
+•
+SR is the slew rate (in µs/V)
+•
+CT is the capacitance value on the CT pin (in pF)
+•
+The units for the constant 26 are µs/V. The units for the constant 0.43 are µs/(V × pF).
+(1)
+Rise time can be calculated by multiplying the input voltage by the slew rate. Table 1 contains rise time values
+measured on a typical device. Rise times shown in Table 1 are only valid for the power-up sequence where VIN
+and VBIAS are already in steady state condition before the ON pin is asserted high.
+Table 1. Rise Time tR vs CT Capacitor
+CT (pF)
+RISE TIME (µs) 10% - 90%, CL = 0.1 µF, CIN = 1 µF, RL = 10 Ω, VBIAS = 5 V(1)
+VIN = 5 V
+VIN = 3.3 V
+VIN = 1.8 V
+VIN = 1.5 V
+VIN = 1.2 V
+VIN = 1.05 V
+VIN = 0.6 V
+0
+140
+105
+75
+65
+60
+55
+40
+220
+520
+360
+215
+185
+160
+140
+95
+470
+970
+660
+385
+330
+275
+240
+155
+1000
+1750
+1190
+700
+595
+495
+435
+275
+2200
+3875
+2615
+1520
+1290
+1070
+940
+595
+4700
+7580
+5110
+2950
+2510
+2075
+1830
+1150
+10000
+16980
+11485
+6650
+5635
+4685
+4110
+2595
+9.3.2
+Quick-Output Discharge (QOD) (Optional)
+The TPS22975 includes an optional QOD feature. When the switch is disabled, an internal discharge resistance
+is connected between VOUT and GND to remove the remaining charge from the output. This resistance has a
+typical value of 230 Ωand prevents the output from floating while the switch is disabled. For best results, it is
+recommended that the device gets disabled before VBIAS falls below the minimum recommended voltage.
+9.3.3
+Thermal Shutdown
+Thermal shutdown protects the part from internally or externally generated excessive temperatures. When the
+device temperature triggers TSD (typical 160°C), the switch is turned off. The switch automatically turns on again
+if the temperature of the die drops 20 degrees below the TSD threshold.
+9.4
+Device Functional Modes
+The Table 2 lists the VOUT pin states as determined by the ON pin.
+Table 2. VOUT Connection
+ON
+TPS22975
+TPS22975N
+L
+GND
+Open
+H
+VIN
+VIN
+
+Power
+Supply
+OFF
+ON
+TPS22975
+VIN
+VOUT
+R L
+C L
+GND
+ON
+CT
+C IN
+VBIAS
+GND
+Power
+Supply
+CT
+Copyright © 2016, Texas Instruments Incorporated
+16
+TPS22975
+SLVSDD0B –MAY 2016–REVISED SEPTEMBER 2017
+www.ti.com
+Product Folder Links: TPS22975
+Submit Documentation Feedback
+Copyright © 2016–2017, Texas Instruments Incorporated
+10
+Application and Implementation
+NOTE
+Information in the following applications sections is not part of the TI component
+specification, and TI does not warrant its accuracy or completeness. TI’s customers are
+responsible for determining suitability of components for their purposes. Customers should
+validate and test their design implementation to confirm system functionality.
+10.1
+Application Information
+10.1.1
+ON and OFF Control
+The ON pin controls the state of the switch. ON is active high and has a 1.2-V ON-pin enable threshold, making
+it capable of interfacing with low-voltage signals. The ON pin is compatible with standard GPIO logic thresholds.
+It can be used with any microcontroller with 1.2 V or higher GPIO voltage. This pin cannot be left floating and
+must be driven either high or low for proper functionality.
+10.1.2
+Input Capacitor (CIN) (Optional)
+To limit the voltage drop on the input supply caused by transient inrush currents when the switch turns on into a
+discharged load capacitor or short-circuit, a capacitor needs to be placed between VIN and GND. A 1-µF ceramic
+capacitor, CIN, placed close to the pins, is usually sufficient. Higher values of CIN can be used to further reduce
+the voltage drop during high current applications. When switching heavy loads, it is recommended to have an
+input capacitor about 10 times higher than the output capacitor (CL) to avoid excessive voltage drop.
+10.1.3
+Output Capacitor (CL) (Optional)
+Because of the integrated body diode in the NMOS switch, a CIN greater than CL is highly recommended. A CL
+greater than CIN can cause VOUT to exceed VIN when the system supply is removed. This could result in current
+flow through the body diode from VOUT to VIN. A CIN to CL ratio of 10 to 1 is recommended for minimizing VIN dip
+caused by inrush currents during startup; however, a 10 to 1 ratio for capacitance is not required for proper
+functionality of the device. A ratio smaller than 10 to 1 (such as 1 to 1) could cause slightly more VIN dip upon
+turn-on because of inrush currents. This can be mitigated by increasing the capacitance on the CT pin for a
+longer rise time (see the Adjustable Rise Time section).
+10.2
+Typical Application
+For optimal RON performance, it is recommended to have VIN ≤VBIAS. The device is functional if VIN > VBIAS but it
+exhibits RON greater than what is listed in the Electrical Characteristics—VBIAS = 5 V and Electrical
+Characteristics—VBIAS = 2.5 V tables.
+Figure 31 demonstrates how the TPS22975 can be used to power downstream modules.
+Figure 31. Powering a Downstream Module
+
+17
+TPS22975
+www.ti.com
+SLVSDD0B –MAY 2016–REVISED SEPTEMBER 2017
+Product Folder Links: TPS22975
+Submit Documentation Feedback
+Copyright © 2016–2017, Texas Instruments Incorporated
+Typical Application (continued)
+10.2.1
+Design Requirements
+DESIGN PARAMETER
+EXAMPLE VALUE
+VIN
+3.3 V
+VBIAS
+5 V
+CL
+22 µF
+Maximum Acceptable Inrush Current
+400 mA
+10.2.2
+Detailed Design Procedure
+10.2.2.1
+Inrush Current
+When the switch is enabled, the output capacitors must be charged up from 0 V to the set value (3.3 V in this
+example). This charge arrives in the form of inrush current. Inrush current can be calculated using Equation 2.
+Inrush Current = CL × dVOUT/dt
+Where:
+•
+CL is the output capacitance
+•
+dVOUT is the change in VOUT during the ramp up of the output voltage when device is enabled.
+•
+dt is the rise time in VOUT during the ramp up of the output voltage when the device is enabled.
+(2)
+The TPS22975 offers adjustable rise time for VOUT. This feature allows the user to control the inrush current
+during turnon. The appropriate rise time can be calculated using the design requirements and the inrush current
+equation as shown in Equation 3.
+400 mA = 22 µF × 3.3 V/dt
+(3)
+The value of dt is given by Equation 4.
+dt = 181.5 µs
+(4)
+To ensure an inrush current of less than 400 mA, choose a CT value that yields a rise time of more than 181.5
+µs. See the oscilloscope captures in the Application Curves section for an example of how the CT capacitor can
+be used to reduce inrush current.
+10.2.3
+Application Curves
+VBIAS = 5 V
+VIN = 3.3 V
+CL = 22 µF
+Figure 32. Inrush Current with CT = 0 pF
+VBIAS = 5 V
+VIN = 3.3 V
+CL = 22 µF
+Figure 33. Inrush Current with CT = 220 pF
+
+18
+TPS22975
+SLVSDD0B –MAY 2016–REVISED SEPTEMBER 2017
+www.ti.com
+Product Folder Links: TPS22975
+Submit Documentation Feedback
+Copyright © 2016–2017, Texas Instruments Incorporated
+11
+Power Supply Recommendations
+The supply to the device must be well regulated and placed as close to the device terminal as possible with the
+recommended 1-μF bypass capacitor. If the supply is located more than a few inches from the device terminals,
+additional bulk capacitance may be required in addition to the ceramic bypass capacitors. If additional bulk
+capacitance is required, an electrolytic, tantalum or ceramic capacitor of 1 μF may be sufficient.
+The TPS22975 operates regardless of power sequencing order. The order in which voltages are applied to VIN,
+VBIAS, and ON does not damage the device as long as the voltages do not exceed the absolute maximum
+operating conditions. If voltage is applied to ON before VIN, the slew rate of VOUT can not be controlled.
+
+J(max)
+A
+D(max)
+JA
+T
+T
+P
+-
+=
+θ
+Pin 1
+VIN
+VIN
+ON
+VBIAS
+VOUT
+VOUT
+CT
+GND
+VIA to GND
+(1)
+GND
+19
+TPS22975
+www.ti.com
+SLVSDD0B –MAY 2016–REVISED SEPTEMBER 2017
+Product Folder Links: TPS22975
+Submit Documentation Feedback
+Copyright © 2016–2017, Texas Instruments Incorporated
+12
+Layout
+12.1
+Layout Guidelines
+For best performance, all traces must be as short as possible. To be most effective, the input and output
+capacitors must be placed close to the device to minimize the effects that parasitic trace inductances may have
+on normal operation. Using wide traces for VIN, VOUT, and GND helps minimize the parasitic electrical effects
+along with minimizing the case to ambient thermal impedance. The CT trace must be as short as possible to
+reduce parasitic capacitance.
+12.2
+Layout Example
+Figure 34. Layout Recommendation
+12.3
+Thermal Considerations
+The maximum IC junction temperature must be restricted to 125°C under normal operating conditions. To
+calculate the maximum allowable dissipation, PD(max) , for a given ambient temperature, use Equation 5 as a
+guideline.
+where
+•
+PD(max) is the maximum allowable power dissipation
+•
+TJ(max) is the maximum allowable junction temperature (125°C for the TPS22975)
+•
+TA is the ambient temperature of the device
+•
+ΘJA is the junction to air thermal impedance. See the Thermal Information section. This parameter is highly
+dependent upon board layout.
+(5)
+In Figure 34, notice that the thermal vias are located under the exposed thermal pad of the device. This allows
+for thermal diffusion away from the device.
+
+20
+TPS22975
+SLVSDD0B –MAY 2016–REVISED SEPTEMBER 2017
+www.ti.com
+Product Folder Links: TPS22975
+Submit Documentation Feedback
+Copyright © 2016–2017, Texas Instruments Incorporated
+13
+Device and Documentation Support
+13.1
+Device Support
+13.1.1
+Developmental Support
+For the TPS22975 PSpice Transient Model, see SLVMBO6.
+13.2
+Related Documentation
+For related documentation see the following:
+•
+Fundamentals of On-Resistance in Load Switches, SLVA771
+•
+TPS22975 Load Switch Evaluation Module User's Guide, SLVUAR3
+13.3
+Receiving Notification of Documentation Updates
+To receive notification of documentation updates, navigate to the device product folder on ti.com. In the upper
+right corner, click on Alert me to register and receive a weekly digest of any product information that has
+changed. For change details, review the revision history included in any revised document.
+13.4
+Community Resources
+The following links connect to TI community resources. Linked contents are provided "AS IS" by the respective
+contributors. They do not constitute TI specifications and do not necessarily reflect TI's views; see TI's Terms of
+Use.
+TI E2E™Online Community TI's Engineer-to-Engineer (E2E) Community. Created to foster collaboration
+among engineers. At e2e.ti.com, you can ask questions, share knowledge, explore ideas and help
+solve problems with fellow engineers.
+Design Support TI's Design Support Quickly find helpful E2E forums along with design support tools and
+contact information for technical support.
+13.5
+Trademarks
+E2E is a trademark of Texas Instruments.
+Ultrabook is a trademark of Intel.
+All other trademarks are the property of their respective owners.
+13.6
+Electrostatic Discharge Caution
+This integrated circuit can be damaged by ESD. Texas Instruments recommends that all integrated circuits be handled with
+appropriate precautions. Failure to observe proper handling and installation procedures can cause damage.
+ESD damage can range from subtle performance degradation to complete device failure. Precision integrated circuits may be more
+susceptible to damage because very small parametric changes could cause the device not to meet its published specifications.
+13.7
+Glossary
+SLYZ022 — TI Glossary.
+This glossary lists and explains terms, acronyms, and definitions.
+14
+Mechanical, Packaging, and Orderable Information
+The following pages include mechanical, packaging, and orderable information. This information is the most
+current data available for the designated devices. This data is subject to change without notice and revision of
+this document. For browser-based versions of this data sheet, refer to the left-hand navigation.
+
+PACKAGE OPTION ADDENDUM
+www.ti.com
+31-Oct-2025
+PACKAGING INFORMATION
+Orderable part number
+Status
+(1)
+Material type
+(2)
+Package | Pins
+Package qty | Carrier
+RoHS
+(3)
+Lead finish/
+Ball material
+(4)
+MSL rating/
+Peak reflow
+(5)
+Op temp (°C)
+Part marking
+(6)
+TPS22975DSGR
+Active
+Production
+WSON (DSG) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 105
+13XH
+TPS22975DSGR.A
+Active
+Production
+WSON (DSG) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 105
+13XH
+TPS22975DSGRG4
+Active
+Production
+WSON (DSG) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 105
+13XH
+TPS22975DSGRG4.A
+Active
+Production
+WSON (DSG) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 105
+13XH
+TPS22975DSGT
+Active
+Production
+WSON (DSG) | 8
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 105
+13XH
+TPS22975DSGT.A
+Active
+Production
+WSON (DSG) | 8
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 105
+13XH
+TPS22975NDSGR
+Active
+Production
+WSON (DSG) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 105
+14YH
+TPS22975NDSGR.A
+Active
+Production
+WSON (DSG) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 105
+14YH
+TPS22975NDSGRG4
+Active
+Production
+WSON (DSG) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 105
+14YH
+TPS22975NDSGRG4.A
+Active
+Production
+WSON (DSG) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 105
+14YH
+TPS22975NDSGT
+Active
+Production
+WSON (DSG) | 8
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 105
+14YH
+TPS22975NDSGT.A
+Active
+Production
+WSON (DSG) | 8
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-40 to 105
+14YH
+ 
+(1) Status:  For more details on status, see our product life cycle.
+ 
+(2) Material type:  When designated, preproduction parts are prototypes/experimental devices, and are not yet approved or released for full production. Testing and final process, including without limitation quality assurance,
+reliability performance testing, and/or process qualification, may not yet be complete, and this item is subject to further changes or possible discontinuation. If available for ordering, purchases will be subject to an additional
+waiver at checkout, and are intended for early internal evaluation purposes only. These items are sold without warranties of any kind.
+ 
+(3) RoHS values:  Yes, No, RoHS Exempt. See the TI RoHS Statement for additional information and value definition.
+ 
+(4) Lead finish/Ball material:  Parts may have multiple material finish options. Finish options are separated by a vertical ruled line. Lead finish/Ball material values may wrap to two lines if the finish value exceeds the maximum
+column width.
+ 
+(5) MSL rating/Peak reflow:  The moisture sensitivity level ratings and peak solder (reflow) temperatures. In the event that a part has multiple moisture sensitivity ratings, only the lowest level per JEDEC standards is shown.
+Refer to the shipping label for the actual reflow temperature that will be used to mount the part to the printed circuit board.
+ 
+(6) Part marking:  There may be an additional marking, which relates to the logo, the lot trace code information, or the environmental category of the part.
+ 
+Multiple part markings will be inside parentheses. Only one part marking contained in parentheses and separated by a "~" will appear on a part. If a line is indented then it is a continuation of the previous line and the two
+combined represent the entire part marking for that device.
+Addendum-Page 1
+
+PACKAGE OPTION ADDENDUM
+www.ti.com
+31-Oct-2025
+ 
+Important Information and Disclaimer:The information provided on this page represents TI's knowledge and belief as of the date that it is provided. TI bases its knowledge and belief on information provided by third parties, and
+makes no representation or warranty as to the accuracy of such information. Efforts are underway to better integrate information from third parties. TI has taken and continues to take reasonable steps to provide representative
+and accurate information but may not have conducted destructive testing or chemical analysis on incoming materials and chemicals. TI and TI suppliers consider certain information to be proprietary, and thus CAS numbers
+and other limited information may not be available for release.
+ 
+In no event shall TI's liability arising out of such information exceed the total purchase price of the TI part(s) at issue in this document sold by TI to Customer on an annual basis.
+ 
+Addendum-Page 2
+
+PACKAGE MATERIALS INFORMATION
+ 
+ 
+www.ti.com
+18-Sep-2026
+TAPE AND REEL INFORMATION
+Reel Width (W1)
+REEL DIMENSIONS
+A0
+B0
+K0
+W
+Dimension designed to accommodate the component length
+Dimension designed to accommodate the component thickness
+Overall width of the carrier tape
+Pitch between successive cavity centers
+Dimension designed to accommodate the component width
+TAPE DIMENSIONS
+K0
+ P1
+B0 W
+A0
+Cavity
+QUADRANT ASSIGNMENTS FOR PIN 1 ORIENTATION IN TAPE
+Pocket Quadrants
+Sprocket Holes
+Q1
+Q1
+Q2
+Q2
+Q3
+Q3
+Q4
+Q4
+User Direction of Feed
+P1
+Reel
+Diameter
+ 
+*All dimensions are nominal
+Device
+Package
+Type
+Package
+Drawing
+Pins
+SPQ
+Reel
+Diameter
+(mm)
+Reel
+Width
+W1 (mm)
+A0
+(mm)
+B0
+(mm)
+K0
+(mm)
+P1
+(mm)
+W
+(mm)
+Pin1
+Quadrant
+TPS22975DSGR
+WSON
+DSG
+8
+3000
+180.0
+8.4
+2.3
+2.3
+1.15
+4.0
+8.0
+Q2
+TPS22975DSGR
+WSON
+DSG
+8
+3000
+180.0
+8.4
+2.3
+2.3
+1.15
+4.0
+8.0
+Q2
+TPS22975DSGRG4
+WSON
+DSG
+8
+3000
+180.0
+8.4
+2.3
+2.3
+1.15
+4.0
+8.0
+Q2
+TPS22975DSGT
+WSON
+DSG
+8
+250
+180.0
+8.4
+2.3
+2.3
+1.15
+4.0
+8.0
+Q2
+TPS22975DSGT
+WSON
+DSG
+8
+250
+180.0
+8.4
+2.3
+2.3
+1.15
+4.0
+8.0
+Q2
+TPS22975NDSGR
+WSON
+DSG
+8
+3000
+180.0
+8.4
+2.3
+2.3
+1.15
+4.0
+8.0
+Q2
+TPS22975NDSGR
+WSON
+DSG
+8
+3000
+180.0
+8.4
+2.3
+2.3
+1.15
+4.0
+8.0
+Q2
+TPS22975NDSGRG4
+WSON
+DSG
+8
+3000
+180.0
+8.4
+2.3
+2.3
+1.15
+4.0
+8.0
+Q2
+TPS22975NDSGT
+WSON
+DSG
+8
+250
+180.0
+8.4
+2.3
+2.3
+1.15
+4.0
+8.0
+Q2
+Pack Materials-Page 1
+
+PACKAGE MATERIALS INFORMATION
+ 
+ 
+www.ti.com
+18-Sep-2026
+TAPE AND REEL BOX DIMENSIONS
+Width (mm)
+W
+L
+H
+ 
+*All dimensions are nominal
+Device
+Package Type
+Package Drawing
+Pins
+SPQ
+Length (mm)
+Width (mm)
+Height (mm)
+TPS22975DSGR
+WSON
+DSG
+8
+3000
+182.0
+182.0
+20.0
+TPS22975DSGR
+WSON
+DSG
+8
+3000
+210.0
+185.0
+35.0
+TPS22975DSGRG4
+WSON
+DSG
+8
+3000
+182.0
+182.0
+20.0
+TPS22975DSGT
+WSON
+DSG
+8
+250
+210.0
+185.0
+35.0
+TPS22975DSGT
+WSON
+DSG
+8
+250
+182.0
+182.0
+20.0
+TPS22975NDSGR
+WSON
+DSG
+8
+3000
+210.0
+185.0
+35.0
+TPS22975NDSGR
+WSON
+DSG
+8
+3000
+182.0
+182.0
+20.0
+TPS22975NDSGRG4
+WSON
+DSG
+8
+3000
+182.0
+182.0
+20.0
+TPS22975NDSGT
+WSON
+DSG
+8
+250
+182.0
+182.0
+20.0
+Pack Materials-Page 2
+
+www.ti.com
+GENERIC PACKAGE VIEW
+This image is a representation of the package family, actual package may vary.
+Refer to the product data sheet for package details.
+WSON - 0.8 mm max height
+DSG 8
+PLASTIC SMALL OUTLINE - NO LEAD
+2 x 2, 0.5 mm pitch
+4224783/A
+
+www.ti.com
+PACKAGE OUTLINE
+C
+8X 0.32
+0.18
+1.6
+0.1
+2X
+1.5
+0.9
+0.1
+6X 0.5
+8X 0.4
+0.2
+0.05
+0.00
+0.8
+0.7
+A
+2.1
+1.9
+B
+2.1
+1.9
+0.32
+0.18
+0.4
+0.2
+(DIM A) TYP
+WSON - 0.8 mm max height
+DSG0008A
+PLASTIC SMALL OUTLINE - NO LEAD
+4218900/E   08/2022
+SIDE WALL 
+METAL THICKNESS
+DIM A
+OPTION 1
+OPTION 2
+0.1
+0.2
+PIN 1 INDEX AREA
+SEATING PLANE
+0.08 C
+1
+4
+5
+8
+X 0.25)
+(45
+PIN 1 ID
+0.1
+C A B
+0.05
+C
+THERMAL PAD
+EXPOSED
+9
+NOTES:
+ 
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+    per ASME Y14.5M. 
+2. This drawing is subject to change without notice. 
+3. The package thermal pad must be soldered to the printed circuit board for thermal and mechanical performance.
+SCALE  5.500
+ALTERNATIVE TERMINAL SHAPE
+TYPICAL
+
+www.ti.com
+EXAMPLE BOARD LAYOUT
+0.07 MIN
+ALL AROUND
+0.07 MAX
+ALL AROUND
+8X (0.25)
+(1.6)
+(1.9)
+6X (0.5)
+(0.9)
+(
+0.2) VIA
+TYP
+(0.55)
+8X (0.5)
+(R0.05) TYP
+WSON - 0.8 mm max height
+DSG0008A
+PLASTIC SMALL OUTLINE - NO LEAD
+4218900/E   08/2022
+SYMM
+1
+4
+5
+8
+LAND PATTERN EXAMPLE
+SCALE:20X
+SYMM
+9
+NOTES: (continued)
+ 
+4. This package is designed to be soldered to a thermal pad on the board. For more information, see Texas Instruments literature
+    number SLUA271 (www.ti.com/lit/slua271).
+5. Vias are optional depending on application, refer to device data sheet. If any vias are implemented, refer to their locations shown
+    on this view. It is recommended that vias under paste be filled, plugged or tented. 
+ 
+SOLDER MASK
+OPENING
+SOLDER MASK
+METAL UNDER
+SOLDER MASK
+DEFINED
+METAL
+SOLDER MASK
+OPENING
+SOLDER MASK DETAILS
+NON SOLDER MASK
+DEFINED
+(PREFERRED)
+
+www.ti.com
+EXAMPLE STENCIL DESIGN
+(R0.05) TYP
+8X (0.25)
+8X (0.5)
+(0.9)
+(0.7)
+(1.9)
+(0.45)
+6X (0.5)
+WSON - 0.8 mm max height
+DSG0008A
+PLASTIC SMALL OUTLINE - NO LEAD
+4218900/E   08/2022
+NOTES: (continued)
+ 
+6. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+    design recommendations. 
+ 
+SOLDER PASTE EXAMPLE
+BASED ON 0.125 mm THICK STENCIL
+ 
+EXPOSED PAD 9:
+ 87% PRINTED SOLDER COVERAGE BY AREA UNDER PACKAGE
+SCALE:25X
+SYMM
+1
+4
+5
+8
+METAL
+SYMM
+9
+
+IMPORTANT NOTICE AND DISCLAIMER
+TI PROVIDES TECHNICAL AND RELIABILITY DATA (INCLUDING DATASHEETS), DESIGN RESOURCES (INCLUDING REFERENCE 
+DESIGNS), APPLICATION OR OTHER DESIGN ADVICE, WEB TOOLS, SAFETY INFORMATION, AND OTHER RESOURCES “AS IS” 
+AND WITH ALL FAULTS, AND DISCLAIMS ALL WARRANTIES, EXPRESS AND IMPLIED, INCLUDING WITHOUT LIMITATION ANY 
+IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD 
+PARTY INTELLECTUAL PROPERTY RIGHTS.
+These resources are intended for skilled developers designing with TI products. You are solely responsible for (1) selecting the appropriate 
+TI products for your application, (2) designing, validating and testing your application, and (3) ensuring your application meets applicable 
+standards, and any other safety, security, regulatory or other requirements.
+These resources are subject to change without notice. TI grants you permission to use these resources only for development of an 
+application that uses the TI products described in the resource. Other reproduction and display of these resources is prohibited. No license 
+is granted to any other TI intellectual property right or to any third party intellectual property right. TI disclaims responsibility for, and you fully 
+indemnify TI and its representatives against any claims, damages, costs, losses, and liabilities arising out of your use of these resources.
+TI’s products are provided subject to TI’s Terms of Sale, TI’s General Quality Guidelines, or other applicable terms available either on 
+ti.com or provided in conjunction with such TI products. TI’s provision of these resources does not expand or otherwise alter TI’s applicable 
+warranties or warranty disclaimers for TI products. Unless TI explicitly designates a product as custom or customer-specified, TI products 
+are standard, catalog, general purpose devices.
+TI objects to and rejects any additional or different terms you may propose.
+IMPORTANT NOTICE
+Copyright © 2026, Texas Instruments Incorporated
+Last updated 10/2025

@@ -1,0 +1,49 @@
+{
+  "review_date": "2026-10-16",
+  "files": [
+    {
+      "file": "Murata-10u-25V.pdf",
+      "url": "https://www.farnell.com/datasheets/1747469.pdf",
+      "sha256": "2835550987c7b95437be5712c0f6b15a493305ce874b988c92937c17a9510e9b",
+      "pages": 2
+    },
+    {
+      "file": "AN5419.pdf",
+      "url": "https://www.st.com/resource/en/application_note/an5419-getting-started-with-stm32h723733-stm32h725735-and-stm32h730-value-line-hardware-development-stmicroelectronics.pdf",
+      "sha256": "94ab1c7d0ca0fae31f6227badfe48bc99c94d87516252bc7ebd5f38bc775ac30",
+      "pages": 52
+    },
+    {
+      "file": "TC33.pdf",
+      "url": "https://www.bourns.com/docs/product-datasheets/tc33.pdf",
+      "sha256": "b13258ee9f777b70198554ad4ed43cab2167b2bdf31bdcbe52c4956bfff1adbf",
+      "pages": 3
+    },
+    {
+      "file": "JST-PH.pdf",
+      "url": "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf",
+      "sha256": "447624f4f2f7d37c58c1eaa7ee314ad757fe7aff48f6186491ef6f69fbc00b96"
+    },
+    {
+      "file": "FTSH-pad.pdf",
+      "url": "https://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-footprint.pdf",
+      "sha256": "caa205b92560423f3b0aea9c69d6c38340d1b7f01b0655092994450e935edcb3"
+    },
+    {
+      "file": "FTSH-print.pdf",
+      "url": "https://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-mkt.pdf",
+      "sha256": "fccf00541693d43ebe960af7ad6c8ce28f4dd4e4f5c05c69564f53eefccd8d25"
+    },
+    {
+      "file": "EVQP7.pdf",
+      "url": "https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000C378.pdf",
+      "sha256": "a1ec47932a211ffa86d971e25b12b346fdd5b8b1aeafe5a1d91548962471a991"
+    },
+    {
+      "file": "TPS22975.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tps22975.pdf",
+      "sha256": "5405dc9d901f39b4597c8c0d5e8e52d4caf43cd4e207dbc5be3be8aa9ca4af63"
+    }
+  ],
+  "note": "Only verified saved source PDFs. sources*.json retain failed attempts; a landing-page PDF was rejected and removed. Web-only sources are listed in README."
+}

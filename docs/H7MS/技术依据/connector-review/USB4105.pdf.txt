@@ -1,0 +1,344 @@
+Specifications
+Material
+  Insulator: LCP, UL 94V-0, Black
+  Contact:  Copper Alloy
+  Shell: Stainless steel
+  Mid Plate: Stainless Steel
+Plating
+  Contact:
+    Contact Area: See Ordering Grid
+    Solder Tails: Gold Flash
+    Underplating: 50µ" min. Nickel All Over
+  Shell: 30µ" min. Nickel
+  Mid Plate: Clear
+Electrical
+  Current Rating: 
+5.00A collectively for VBUS pins
+6.25A collectively for GND pins
+1.25A for A5/B5 pin
+0.25A per pin for all other pins
+  Voltage Rating: 48V DC
+  Power Rating: 240W
+  Contact Resistance: 40mΩ max. initial.
+    50mΩ max. after test
+  Dielectric Withstanding Voltage: 100V AC
+  Insulation Resistance 100MΩ min.
+Mechanical & Environmental
+  Operating Temperature: -40°C to +85°C
+  Mating Force: 5 to 20 N.
+  Unmated Force: 6 to 20 N after test
+  Durability: 20,000 cycles
+Pin
+Signal
+Mating
+Sequence
+A1
+GND
+First
+A4
+VBUS
+First
+A5
+CC1
+Second
+A6
+Dp1
+Second
+A7
+Dn1
+Second
+A8
+SBU1
+Second
+A9
+VBUS
+First
+A12
+GND
+First
+SHELL
+GND
+Pin
+Signal
+Mating
+Sequence
+B12
+GND
+First
+B9
+VBUS
+First
+B8
+SBU2
+Second
+B7
+Dn2
+Second
+B6
+Dp2
+Second
+B5
+CC2
+Second
+B4
+VBUS
+First
+B1
+GND
+First
+SHELL
+GND
+Ordering Grid
+Request Samples
+and Quotation
+USB4105
+A
+Packing Options
+A = Tape & Reel
+XX
+Contact Plating
+GF = Gold Flash (standard)
+15 = 15µ" Gold
+30 = 30µ" Gold
+A
+1
+B
+C
+D
+2
+3
+E
+F
+G
+H
+6
+7
+8
+C
+4
+5
+3rd Angle Projection
+Units:
+Metric (mm)
+Tolerances (Except as Noted)
+X. ± 0.38
+X.X ± 0.30
+X.XX ± 0.15
+X.XXX ± 0.10
+Length
+Angle
+Product Description
+This drawing is confidential and
+copyright of Global Connector
+Technology, Ltd (GCT).
+This drawing must not be copied
+or disclosed without written
+consent. E & OE
+Not to
+Scale
+Drawn By
+CC
+Sheet No.
+1/2
+USB4105
+CC
+USB4105
+B PCN
+By
+Detail
+Revision
+Part Number
+Drawing Date
+4th October 2019
+Date
+X.±2°
+X.X±1°
+USB Type C Receptacle for USB 2.0
+SMT Type, PCB Top Mount
+B4
+18/12/23
+www.gct.co
+5.78
+8.64
+2.56±0.04
+8.34+0.06
+-0.02
+A12
+3.31
+2.60
+4.18
+0.80
+1.10
+0.10
+7.35
+3.68
+0.38
+2x 2.40
+6.40
+4x 0.45
+2x 0.25
+2x 0.75
+0.60
+A1 B12
+A4 B9
+B8
+A5
+B7
+A6
+A7
+B6
+A8
+B5
+B4 A9
+A12
+B1
+1.73
+1.30
+8.94
+2x Ø0.50
+16x 0.20
+2x 1.25
+2x 1.75
+B12
+B1
+Recommended PCB Layout
+As viewed from component side     Tolerance:±0.05mm
+Component Outline
+Solder Area
+8.64
+5.78
+6.40
+4.80
+3.50
+0.50
+12x 4.18
+2x 3.68
+2x 2.60
+4x 0.60
+4x 1.00
+2x 1.40
+2x 1.80
+2x 1.70
+2x 2.10
+2x Ø0.65
+4x 0.60
+8x 0.30
+12x 1.15
+PCB Edge
+A1 B12
+A4 B9
+B8
+A5
+B7
+A6
+A7
+B6
+A8
+B5
+B4 A9
+B1 A12
+A1
+1.85 Min
+Plug and Receptacle Mating View
+6.5 Max.
+GCT
+Plug
+S±0.15
+(0.95mm stake shown)
+XXX
+Shell Stake Length "S"
+Blank = 0.95mm
+060 = 0.60mm
+120 = 1.20mm
+
+Carton
+Paper Board
+Reel and Tape
+Ø330
+Ø13
+W+0.5
+165°~180°
+Direction of Unreeling
+ Peeling
+ Angle
+Label
+340
+340
+320
+Paper Board
+Vacuum Bag
+Pcs /
+Reel
+Reels /
+Carton
+Total
+Quantity
+800
+10
+8000 pcs
+Folder Paper Board
+A
+1
+B
+C
+D
+2
+3
+E
+F
+G
+H
+6
+7
+8
+C
+4
+5
+3rd Angle Projection
+Units:
+Metric (mm)
+Tolerances (Except as Noted)
+-
+Length
+Angle
+Product Description
+This drawing is confidential and
+copyright of Global Connector
+Technology, Ltd (GCT).
+This drawing must not be copied
+or disclosed without written
+consent. E & OE
+Not to
+Scale
+Drawn By
+CC
+Sheet No.
+2/2
+USB4105
+CC
+USB4105
+B PCN
+By
+Detail
+Revision
+Part Number
+Drawing Date
+4th October 2019
+Date
+-
+USB Type C Receptacle for USB 2.0
+SMT Type, PCB Top Mount
+B4
+18/12/23
+www.gct.co
+24.0
+1.75
+2.00
+4.00
+16.00
+Direction of Unreeling
+(20 Pockets)
+Unloaded Section
+Unloaded Section
+800 PCS
+(20 Pockets)

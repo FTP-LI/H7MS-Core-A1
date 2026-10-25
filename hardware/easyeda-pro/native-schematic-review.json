@@ -1,0 +1,167 @@
+{
+  "project_uuid": "e83cf0959fa243f7847e15552d7a94a7",
+  "date": "2026-10-17",
+  "changes": [
+    "8页功能分区重排，保留现有位号",
+    "去耦电容并联母线、分压和RC局部直连",
+    "USB网名移至引脚外侧，避免压字",
+    "三路CAN统一布局，并显示TX/STB网名",
+    "PH1/PC14/PC15按A1留空规划标记NC",
+    "NRST输出直接连接复位RC节点"
+  ],
+  "verification": {
+    "archive": "C:\\Users\\27348\\Desktop\\H7MS-Core-A1\\hardware\\easyeda-pro\\source-backup\\H7MS-schematic-reviewed-final-20261017.epro",
+    "sha256": "b1361f92ac98430c12f23238210d6a8d5f0f26fda88ce3d00bc626a149b24249",
+    "component_count": 137,
+    "pin_count": 564,
+    "official_footprint_instances": 117,
+    "purchased_components": 124,
+    "passive_package_counts": {
+      "C0805": 13,
+      "C0402": 33,
+      "R0805": 2,
+      "C0603": 7,
+      "R0402": 36,
+      "R1206": 4,
+      "R0603": 1
+    },
+    "errors": [],
+    "checks": "原生工程封装存在性、非空焊盘、精确引脚编号、连接计划一致性、USB焊盘/槽孔尺寸与阻焊/锡膏参数",
+    "editor_drc": {
+      "passed": false,
+      "api": "sch_Drc.check(true,false,true)",
+      "groups": [
+        {
+          "type": "warn",
+          "count": 1
+        }
+      ],
+      "ui_used": false,
+      "detail_supported": "severity/count only",
+      "client_version": "3.2.149.88089769",
+      "details": "当前3.2版API返回严重级别和数量，不返回规则与定位明细；非空告警结果不得声明DRC通过。"
+    },
+    "fabrication_ready": false
+  },
+  "native_backup": "C:\\Users\\27348\\Desktop\\H7MS-Core-A1\\hardware\\easyeda-pro\\source-backup\\H7MS-H735-final-20261017.epro2",
+  "native_backup_sha256": "e6fba02ef4d96dd01f5bbeb41154373fb7b720a875e0207607ed50b1824cbcd3",
+  "native_backup_pages": [
+    {
+      "page": "C01",
+      "source_records": 1196,
+      "wire_labels": 97,
+      "visible_wire_labels": 97,
+      "section_notes": 13
+    },
+    {
+      "page": "C01B",
+      "source_records": 961,
+      "wire_labels": 15,
+      "visible_wire_labels": 8,
+      "section_notes": 14
+    },
+    {
+      "page": "C02",
+      "source_records": 1251,
+      "wire_labels": 39,
+      "visible_wire_labels": 32,
+      "section_notes": 10
+    },
+    {
+      "page": "C03",
+      "source_records": 813,
+      "wire_labels": 31,
+      "visible_wire_labels": 27,
+      "section_notes": 18
+    },
+    {
+      "page": "C04",
+      "source_records": 1967,
+      "wire_labels": 68,
+      "visible_wire_labels": 57,
+      "section_notes": 12
+    },
+    {
+      "page": "C05",
+      "source_records": 1178,
+      "wire_labels": 50,
+      "visible_wire_labels": 43,
+      "section_notes": 10
+    },
+    {
+      "page": "C06",
+      "source_records": 834,
+      "wire_labels": 35,
+      "visible_wire_labels": 30,
+      "section_notes": 10
+    },
+    {
+      "page": "C07",
+      "source_records": 1279,
+      "wire_labels": 113,
+      "visible_wire_labels": 113,
+      "section_notes": 8
+    }
+  ],
+  "drc_before": [
+    {
+      "type": "warn",
+      "count": 10
+    }
+  ],
+  "drc_after": [
+    {
+      "type": "warn",
+      "count": 1
+    }
+  ],
+  "unresolved": [
+    "剩余1条原理图DRC警告：3.2.149 API只返回严重级别和数量，无规则和定位明细，未屏蔽规则，未声明通过",
+    "PCB保留原先29个器件，尚未同步当前137个原理图器件；未进行PCB布线DRC或投板验收"
+  ],
+  "preview": "review-native/H735-native-layout-review.pdf（由原生源码独立绘制的几何检查图，非编辑器PDF）",
+  "interaction": "固定H735工程UUID和目标窗口，通过API修改；无鼠标键盘或桌面焦点操作。一次DRC调用仅在目标后台窗口开启了结果面板。",
+  "live_snapshot_pages": [
+    {
+      "page": "C01",
+      "path": "C:\\Users\\27348\\Desktop\\H7MS-Core-A1\\hardware\\easyeda-pro\\review-native\\C01.esch",
+      "live_text_count": 7
+    },
+    {
+      "page": "C01B",
+      "path": "C:\\Users\\27348\\Desktop\\H7MS-Core-A1\\hardware\\easyeda-pro\\review-native\\C01B.esch",
+      "live_text_count": 7
+    },
+    {
+      "page": "C02",
+      "path": "C:\\Users\\27348\\Desktop\\H7MS-Core-A1\\hardware\\easyeda-pro\\review-native\\C02.esch",
+      "live_text_count": 5
+    },
+    {
+      "page": "C03",
+      "path": "C:\\Users\\27348\\Desktop\\H7MS-Core-A1\\hardware\\easyeda-pro\\review-native\\C03.esch",
+      "live_text_count": 6
+    },
+    {
+      "page": "C04",
+      "path": "C:\\Users\\27348\\Desktop\\H7MS-Core-A1\\hardware\\easyeda-pro\\review-native\\C04.esch",
+      "live_text_count": 6
+    },
+    {
+      "page": "C05",
+      "path": "C:\\Users\\27348\\Desktop\\H7MS-Core-A1\\hardware\\easyeda-pro\\review-native\\C05.esch",
+      "live_text_count": 5
+    },
+    {
+      "page": "C06",
+      "path": "C:\\Users\\27348\\Desktop\\H7MS-Core-A1\\hardware\\easyeda-pro\\review-native\\C06.esch",
+      "live_text_count": 5
+    },
+    {
+      "page": "C07",
+      "path": "C:\\Users\\27348\\Desktop\\H7MS-Core-A1\\hardware\\easyeda-pro\\review-native\\C07.esch",
+      "live_text_count": 4
+    }
+  ],
+  "native_backup_validation": "原生导出归档可读取并包含全部8页；未重新导入验证。live_snapshot_pages保存当前编辑器源码。"
+}

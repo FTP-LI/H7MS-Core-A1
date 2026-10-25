@@ -1,0 +1,85 @@
+{
+  "version": "v0.9.3-design",
+  "status": "pass-static-input-checks",
+  "connection_rows": 1918,
+  "components_by_board": {
+    "CORE": 135,
+    "BASE_CAN": 62,
+    "BASE_485": 102,
+    "BASE_LINK": 99,
+    "BASE_IO": 121
+  },
+  "mlcc_reference_rows": 132,
+  "placement_reservations": 99,
+  "reservation_overlaps": [],
+  "mating_contacts_checked": 500,
+  "auxiliary_land_rows_checked": 145,
+  "power": {
+    "conservative_all_functions_5v_a": 1.3334,
+    "fuse_continuous_budget_a": 1.6875,
+    "fuse_temp_factor_is_assumption": true,
+    "per_board": {
+      "BASE_CAN": {
+        "direct_5v_cap_max_budget_uf": 102.971,
+        "upstream_fused_cap_max_budget_uf": 1.391,
+        "main_3v3_cap_max_budget_uf": 85.893,
+        "aux_cap_max_budget_uf": 25.932,
+        "main_slew_current_a": 0.0865,
+        "startup_input_budget_a": 1.2077
+      },
+      "BASE_485": {
+        "direct_5v_cap_max_budget_uf": 102.971,
+        "upstream_fused_cap_max_budget_uf": 1.391,
+        "main_3v3_cap_max_budget_uf": 85.893,
+        "aux_cap_max_budget_uf": 27.324,
+        "main_slew_current_a": 0.0865,
+        "startup_input_budget_a": 1.2077
+      },
+      "BASE_LINK": {
+        "direct_5v_cap_max_budget_uf": 102.971,
+        "upstream_fused_cap_max_budget_uf": 1.391,
+        "main_3v3_cap_max_budget_uf": 85.893,
+        "aux_cap_max_budget_uf": 27.45,
+        "main_slew_current_a": 0.0865,
+        "startup_input_budget_a": 1.2077
+      },
+      "BASE_IO": {
+        "direct_5v_cap_max_budget_uf": 104.236,
+        "upstream_fused_cap_max_budget_uf": 1.391,
+        "main_3v3_cap_max_budget_uf": 85.893,
+        "aux_cap_max_budget_uf": 38.582,
+        "main_slew_current_a": 0.0876,
+        "startup_input_budget_a": 1.2088
+      }
+    },
+    "mlcc_single_10u_effective_estimate_uf": {
+      "5.25V": 3.4425,
+      "3.465V": 4.8195,
+      "1.3V": 6.5408
+    },
+    "startup_pulse_example_i2t_a2s": 0.0768,
+    "fuse_nominal_melting_i2t_a2s": 1.029
+  },
+  "unresolved_qualification": [
+    "manufacturer MLCC DC-bias/temperature combined limits and SMPS loop margin",
+    "loaded power ramps and hot-plug before soft-start switch",
+    "temperature derating and fuse coordination",
+    "exact land placement, PTH annuli, 3D plugs and screwdriver access",
+    "BGA routing, EDA/ERC and DRC",
+    "simultaneous peripheral load across separate compact variants"
+  ],
+  "not_claimed": [
+    "completed schematic",
+    "fabrication-ready PCB",
+    "every component individually placed",
+    "manufacturing test or EMC qualification"
+  ],
+  "sha256": {
+    "紧凑板原理图连接.csv": "df03692fc53dbc9030fbfd03c9fa18d3245df70ffc4c875bf0d42f1a266bcf52",
+    "紧凑板装配清单.csv": "8f7ca832d7cb0d92f9d28c9138bf2f658249c49874034184d645d361b8bc15b6",
+    "MLCC逐位选型.csv": "225137befa2b4a5162b2102fcc8e4ed4679c31634cb79a085e25c4e7bed7219c",
+    "布局区域与机械坐标.csv": "3e50b801a19b043085c6d8f8b0639cd6a55318e53e4e0b54aa223f83e1c4d416",
+    "紧凑板设计参数.json": "bc77a9b1778ef7198005bafa738e276405a66057d677116d6b282c4a71c23a6c",
+    "辅助器件焊盘.csv": "cfd465b0e51a2d483594e2c530749fff6411449822fa7542336785118c34a2ca"
+  }
+}

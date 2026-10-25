@@ -1,0 +1,79 @@
+{
+  "libraryUuid": "e5af7ca27c24475d8c8223cdd36b7089",
+  "supplierId": "C428721",
+  "source": "reference-pdfs/xt30upb.pdf",
+  "change": "Official copper diameter 2.50 mm and 5.00 mm pitch retained; drill 1.80 -> 1.90 mm. Straight body/silk edges retained; decorative arcs omitted. No PTH stencil openings.",
+  "footprintUuid": "24512a5fa4bd4fa1a8b2eb527c8c9ca0",
+  "pads": [
+    {
+      "async": true,
+      "primitiveType": "Pad",
+      "layer": 12,
+      "padNumber": "1",
+      "x": -98.425,
+      "y": 0,
+      "rotation": 0,
+      "pad": [
+        "ELLIPSE",
+        98.4,
+        98.4
+      ],
+      "net": "",
+      "hole": [
+        "ROUND",
+        74.80314960629921
+      ],
+      "holeOffsetX": 0,
+      "holeOffsetY": 0,
+      "holeRotation": 0,
+      "metallization": true,
+      "padType": 0,
+      "specialPad": [],
+      "solderMaskAndPasteMaskExpansion": {
+        "topSolderMask": 0.019685,
+        "bottomSolderMask": 0.019685,
+        "topPasteMask": -10,
+        "bottomPasteMask": -10
+      },
+      "heatWelding": {},
+      "primitiveLock": false,
+      "primitiveId": "ac5227d0f71be2d4"
+    },
+    {
+      "async": true,
+      "primitiveType": "Pad",
+      "layer": 12,
+      "padNumber": "2",
+      "x": 98.425,
+      "y": 0,
+      "rotation": 0,
+      "pad": [
+        "ELLIPSE",
+        98.4,
+        98.4
+      ],
+      "net": "",
+      "hole": [
+        "ROUND",
+        74.80314960629921
+      ],
+      "holeOffsetX": 0,
+      "holeOffsetY": 0,
+      "holeRotation": 0,
+      "metallization": true,
+      "padType": 0,
+      "specialPad": [],
+      "solderMaskAndPasteMaskExpansion": {
+        "topSolderMask": 0.019685,
+        "bottomSolderMask": 0.019685,
+        "topPasteMask": -10,
+        "bottomPasteMask": -10
+      },
+      "heatWelding": {},
+      "primitiveLock": false,
+      "primitiveId": "475bb0bf9784f3a2"
+    }
+  ],
+  "geometrySaved": true,
+  "deviceUuid": "ae12f629b0f84a8c877a1096a37fc4f9"
+}

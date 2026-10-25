@@ -1,0 +1,36 @@
+{
+  "archive": "C:\\Users\\27348\\Desktop\\H7MS-Core-A1\\hardware\\easyeda-pro\\H7MS-H735-R4B.epro",
+  "sha256": "55bca24ce3e6424bbf2981897a3fd1778aafae92e22d139977f574c39f695adc",
+  "component_count": 212,
+  "pin_count": 740,
+  "official_footprint_instances": 191,
+  "purchased_components": 198,
+  "passive_package_counts": {
+    "C0805": 14,
+    "C0402": 37,
+    "R0805": 2,
+    "C0603": 9,
+    "R0402": 65,
+    "R1206": 7,
+    "R0603": 1,
+    "C1210": 4,
+    "C1206": 3
+  },
+  "errors": [],
+  "checks": "原生工程封装存在性、非空焊盘、精确引脚编号、连接计划一致性、USB4145信号焊盘/外壳槽孔尺寸；钢网工艺与完整机械装配尚待审核",
+  "editor_drc": {
+    "passed": false,
+    "api": "sch_Drc.check(true,false,true)",
+    "groups": [
+      {
+        "type": "warn",
+        "count": 1
+      }
+    ],
+    "ui_used": false,
+    "detail_supported": "severity/count only",
+    "client_version": "3.2.149.88089769",
+    "details": "当前3.2版API只返回级别和数量。旧版4位号供应商属性告警清单不能代表本次结果；未屏蔽规则，未声称告警已清零。"
+  },
+  "fabrication_ready": false
+}

@@ -1,0 +1,1214 @@
+{
+  "config": {
+    "title": "H7MS-H735-A1-Schematic-Draft",
+    "cbbProject": false
+  },
+  "boards": {
+    "CORE": {
+      "schematic": "49461955a123dfad37d01aee61015399"
+    },
+    "BASE_CAN": {
+      "schematic": "67bb06ff4bf3c1f34a9e96a11c0cff81"
+    }
+  },
+  "devices": {
+    "862d5ee47a5a15cb": {
+      "uuid": "862d5ee47a5a15cb",
+      "title": "Drawing-Symbol_A4",
+      "description": "",
+      "attributes": {
+        "Symbol": "e036605d91bc95da",
+        "Footprint": "",
+        "@Board Name": "",
+        "@Page Name": "",
+        "@Create Date": "",
+        "@Create Time": "",
+        "@Page Count": "",
+        "@Page No": "",
+        "@Project Name": "",
+        "@Schematic Name": "",
+        "@Update Date": "",
+        "@Update Time": "",
+        "@Assembly Variant": "",
+        "Company": "嘉立创EDA",
+        "Drawed": "",
+        "Page Size": "A4",
+        "Reviewed": "",
+        "Version": "V1.0",
+        "Border": "1",
+        "Title Block Position": "3",
+        "Size": "A4",
+        "Width": "1170",
+        "Height": "825",
+        "Region Start": "1",
+        "X Region Count": "6",
+        "Y Region Count": "4",
+        "Blade Width": "10",
+        "Color": "",
+        "Title Block": "1",
+        "Part Number": "",
+        "Name": "",
+        "Description": ""
+      },
+      "images": null,
+      "tag": {},
+      "source": "91bd00ddc2fa8d87",
+      "version": "1788073004274",
+      "symbol_type": 20
+    },
+    "15b3e0ba846b42f6dd0386a02461fa0b": {
+      "uuid": "15b3e0ba846b42f6dd0386a02461fa0b",
+      "title": "STM32H735VGH6",
+      "attributes": {
+        "Symbol": "f50c3f5a98542fab93002de08538986d",
+        "Designator": "U?",
+        "Manufacturer Part": "STM32H735VGH6",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "ffeff2f2e5d0245d7bbd999b6a7dab90": {
+      "uuid": "ffeff2f2e5d0245d7bbd999b6a7dab90",
+      "title": "VLS252012HBX-2R2M-1",
+      "attributes": {
+        "Symbol": "1599929e195f9838e258c33509f11ed0",
+        "Designator": "L?",
+        "Manufacturer Part": "VLS252012HBX-2R2M-1",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "c6ca1aaf0b299565974bb261385d3545": {
+      "uuid": "c6ca1aaf0b299565974bb261385d3545",
+      "title": "GRM21BR61E106KA73L",
+      "attributes": {
+        "Symbol": "44f0b2d40880a2de7c665bd96829ab74",
+        "Designator": "C?",
+        "Manufacturer Part": "GRM21BR61E106KA73L",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "468790ddd4a13180ef3781326cd987ae": {
+      "uuid": "468790ddd4a13180ef3781326cd987ae",
+      "title": "C1005X7R1H104K050BB",
+      "attributes": {
+        "Symbol": "68239f65374af5ff104b8098cf5cce95",
+        "Designator": "C?",
+        "Manufacturer Part": "C1005X7R1H104K050BB",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "655820f66b7dff1d4190e3771c859a28": {
+      "uuid": "655820f66b7dff1d4190e3771c859a28",
+      "title": "C1608C0G1H221J080AA",
+      "attributes": {
+        "Symbol": "3d996eacf9cb268e939710681ce0357f",
+        "Designator": "C?",
+        "Manufacturer Part": "C1608C0G1H221J080AA",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "8068aadb0fa026db0af3b7b7fae85dc0": {
+      "uuid": "8068aadb0fa026db0af3b7b7fae85dc0",
+      "title": "0R",
+      "attributes": {
+        "Symbol": "3ea1e0479ef5644841962c205c2fee29",
+        "Designator": "R?",
+        "Manufacturer Part": "0R",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "8a9fbd68b895655b656789f42b57c27d": {
+      "uuid": "8a9fbd68b895655b656789f42b57c27d",
+      "title": "C1608X7R1C105K080AC",
+      "attributes": {
+        "Symbol": "d274d013888a1cf283e0d304838996af",
+        "Designator": "C?",
+        "Manufacturer Part": "C1608X7R1C105K080AC",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "7968882e5e5ff18ad7711f7eaefb2df8": {
+      "uuid": "7968882e5e5ff18ad7711f7eaefb2df8",
+      "title": "TPS62132RGTR",
+      "attributes": {
+        "Symbol": "7c265801491c2c4ba17079a7266d9769",
+        "Designator": "U?",
+        "Manufacturer Part": "TPS62132RGTR",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "7254eb90ee8c3f0f11bad4319a925c6c": {
+      "uuid": "7254eb90ee8c3f0f11bad4319a925c6c",
+      "title": "XFL4020-222MEC",
+      "attributes": {
+        "Symbol": "d31ca6b535c08ec63adbbdcdce75bb73",
+        "Designator": "L?",
+        "Manufacturer Part": "XFL4020-222MEC",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "a0c415e3dc072930d5fcc3efd3ba60a2": {
+      "uuid": "a0c415e3dc072930d5fcc3efd3ba60a2",
+      "title": "C1608C0G1H103J080AA",
+      "attributes": {
+        "Symbol": "9c93df21baf13721548d4b14f333c09f",
+        "Designator": "C?",
+        "Manufacturer Part": "C1608C0G1H103J080AA",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "4c8023d8f6debda4bb8f54e9e42709f5": {
+      "uuid": "4c8023d8f6debda4bb8f54e9e42709f5",
+      "title": "100k",
+      "attributes": {
+        "Symbol": "1734a282920b2850b7ca552bc737b1cf",
+        "Designator": "R?",
+        "Manufacturer Part": "100k",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "a3f3a7fac26a031007ad1908d9e4f635": {
+      "uuid": "a3f3a7fac26a031007ad1908d9e4f635",
+      "title": "TPS2553DBVR-1",
+      "attributes": {
+        "Symbol": "8898219390d75acb6bf1c108b2e5986f",
+        "Designator": "U?",
+        "Manufacturer Part": "TPS2553DBVR-1",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "7415b9ac337f82eec6ab4c9b41eeb52b": {
+      "uuid": "7415b9ac337f82eec6ab4c9b41eeb52b",
+      "title": "10k",
+      "attributes": {
+        "Symbol": "634ea3871e1d7b4e4926ad14afac731f",
+        "Designator": "R?",
+        "Manufacturer Part": "10k",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "3cf1f2670aa926c3db02b98f21274ebe": {
+      "uuid": "3cf1f2670aa926c3db02b98f21274ebe",
+      "title": "EVQP7A01P",
+      "attributes": {
+        "Symbol": "e3695d4cf3285461e27c9d7c44146e49",
+        "Designator": "SW?",
+        "Manufacturer Part": "EVQP7A01P",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "ac9016bb8687be8d353669dd40587622": {
+      "uuid": "ac9016bb8687be8d353669dd40587622",
+      "title": "45.3k 1%",
+      "attributes": {
+        "Symbol": "c9f190b5875fa11803b9e9a6a4336fbf",
+        "Designator": "R?",
+        "Manufacturer Part": "45.3k 1%",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "0d34aa26592ab12eb3526cde99d6a6ea": {
+      "uuid": "0d34aa26592ab12eb3526cde99d6a6ea",
+      "title": "X1G004171001500",
+      "attributes": {
+        "Symbol": "0f93f33670e3b35edb2f00d1a8c6bd44",
+        "Designator": "Y?",
+        "Manufacturer Part": "X1G004171001500",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "684db3719326feb4f671e195b11b45d9": {
+      "uuid": "684db3719326feb4f671e195b11b45d9",
+      "title": "22R",
+      "attributes": {
+        "Symbol": "b297a5c48319afc8d39fe8004039ac17",
+        "Designator": "R?",
+        "Manufacturer Part": "22R",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "ef5b096ee0465fe1b5855d07a0662c8d": {
+      "uuid": "ef5b096ee0465fe1b5855d07a0662c8d",
+      "title": "TPS3808G33DBVR",
+      "attributes": {
+        "Symbol": "9e87ed5fefc3aff46d3ff11b1dc7a09d",
+        "Designator": "U?",
+        "Manufacturer Part": "TPS3808G33DBVR",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "400c9df8833c8c0579afda4460ee90c8": {
+      "uuid": "400c9df8833c8c0579afda4460ee90c8",
+      "title": "FTSH-105-01-L-DV-007-K",
+      "attributes": {
+        "Symbol": "340b6e77023cd94d13b3463534be7f03",
+        "Designator": "J?",
+        "Manufacturer Part": "FTSH-105-01-L-DV-007-K",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "afaf3800b5fb87288d0a110a0b132841": {
+      "uuid": "afaf3800b5fb87288d0a110a0b132841",
+      "title": "BMI088",
+      "attributes": {
+        "Symbol": "701bc22776c0a20b97ee16f6d6027544",
+        "Designator": "U?",
+        "Manufacturer Part": "BMI088",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "9e6c85ebc58c383057ada3b73e1d22c0": {
+      "uuid": "9e6c85ebc58c383057ada3b73e1d22c0",
+      "title": "TMP302ADRLR",
+      "attributes": {
+        "Symbol": "9ee60fd20080da36d0654054a2c97755",
+        "Designator": "U?",
+        "Manufacturer Part": "TMP302ADRLR",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "ec51fc4d9db474b5468f860cf410e7e8": {
+      "uuid": "ec51fc4d9db474b5468f860cf410e7e8",
+      "title": "SN74LVC1G08DBVR",
+      "attributes": {
+        "Symbol": "bf6cd5536c8fbc5770b183ef5954d096",
+        "Designator": "U?",
+        "Manufacturer Part": "SN74LVC1G08DBVR",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "6e93fd3db6c20f382bf12fe9018b67ae": {
+      "uuid": "6e93fd3db6c20f382bf12fe9018b67ae",
+      "title": "TPS22919DCKR",
+      "attributes": {
+        "Symbol": "91f8dadd420df1cde06d17200043e16a",
+        "Designator": "U?",
+        "Manufacturer Part": "TPS22919DCKR",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "6db07ad94f3da9b77d8337529f7ce1dd": {
+      "uuid": "6db07ad94f3da9b77d8337529f7ce1dd",
+      "title": "1k",
+      "attributes": {
+        "Symbol": "a0ff18883a4ea9f2ded878b360e9aa90",
+        "Designator": "R?",
+        "Manufacturer Part": "1k",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "e5f07d8527160b9de74d0abdbe280d96": {
+      "uuid": "e5f07d8527160b9de74d0abdbe280d96",
+      "title": "RC1206FR-07200RL",
+      "attributes": {
+        "Symbol": "5faf920e5f90abcd0ed6a93f2b05ecdc",
+        "Designator": "R?",
+        "Manufacturer Part": "RC1206FR-07200RL",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "c5557e9fc9fc5664e60257de606bf40b": {
+      "uuid": "c5557e9fc9fc5664e60257de606bf40b",
+      "title": "DMN2056U-7",
+      "attributes": {
+        "Symbol": "26dc0e421ad9ce18fb60d86d2f55fb8c",
+        "Designator": "Q?",
+        "Manufacturer Part": "DMN2056U-7",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "7211a516d5ca21da0e9c89d766df7c17": {
+      "uuid": "7211a516d5ca21da0e9c89d766df7c17",
+      "title": "100R",
+      "attributes": {
+        "Symbol": "c4ab5b1788608313d5d7ad253012f67a",
+        "Designator": "R?",
+        "Manufacturer Part": "100R",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "164340ad389c25ecfec6a0902c766c6c": {
+      "uuid": "164340ad389c25ecfec6a0902c766c6c",
+      "title": "10k 0.1%",
+      "attributes": {
+        "Symbol": "1ac8e6bd79dc733ef3f5519dad323367",
+        "Designator": "R?",
+        "Manufacturer Part": "10k 0.1%",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "243c1298793ca20b3274b12f03575972": {
+      "uuid": "243c1298793ca20b3274b12f03575972",
+      "title": "NTCG163JF103FT1",
+      "attributes": {
+        "Symbol": "5f7a095363681776df13f794cba0a703",
+        "Designator": "NTC?",
+        "Manufacturer Part": "NTCG163JF103FT1",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "bfb14fe2688e21f399f4a1431947d99e": {
+      "uuid": "bfb14fe2688e21f399f4a1431947d99e",
+      "title": "20k 0.1%",
+      "attributes": {
+        "Symbol": "bf7a2c8bb89fb40c3b0aa3bfe5a6566d",
+        "Designator": "R?",
+        "Manufacturer Part": "20k 0.1%",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "a06a3f058a91b06043016d0c2abc6e3f": {
+      "uuid": "a06a3f058a91b06043016d0c2abc6e3f",
+      "title": "TCAN1042HGVDRBRQ1",
+      "attributes": {
+        "Symbol": "154ea4e9831567b8df080f3f01454a8c",
+        "Designator": "U?",
+        "Manufacturer Part": "TCAN1042HGVDRBRQ1",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "0b25f009a724b4bb53f124a2cc97cfb4": {
+      "uuid": "0b25f009a724b4bb53f124a2cc97cfb4",
+      "title": "PESD2CANFD24V-T,215",
+      "attributes": {
+        "Symbol": "74f089089fc11131aa88623e99acad3a",
+        "Designator": "D?",
+        "Manufacturer Part": "PESD2CANFD24V-T,215",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "c7d40114316f65a69edee2c09cd48eaa": {
+      "uuid": "c7d40114316f65a69edee2c09cd48eaa",
+      "title": "USB4105-GF-A-120",
+      "attributes": {
+        "Symbol": "29f25d6617c8cf6593eaa82696a1ba43",
+        "Designator": "J?",
+        "Manufacturer Part": "USB4105-GF-A-120",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "1a2896779c6b33427a8585e059690166": {
+      "uuid": "1a2896779c6b33427a8585e059690166",
+      "title": "5.1k 1%",
+      "attributes": {
+        "Symbol": "99d3987de8ca07164e10e06a6c279eed",
+        "Designator": "R?",
+        "Manufacturer Part": "5.1k 1%",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "ed5664df37faa8e715ff7601f62db556": {
+      "uuid": "ed5664df37faa8e715ff7601f62db556",
+      "title": "USBLC6-2SC6",
+      "attributes": {
+        "Symbol": "68365536555c9885940f5591d0cb813a",
+        "Designator": "U?",
+        "Manufacturer Part": "USBLC6-2SC6",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "932084a224db9176976c49c4835d632f": {
+      "uuid": "932084a224db9176976c49c4835d632f",
+      "title": "SN74LVC1G17DBVR",
+      "attributes": {
+        "Symbol": "3d0c86474c2510c42bdb1f38ed8cccfe",
+        "Designator": "U?",
+        "Manufacturer Part": "SN74LVC1G17DBVR",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "0d0ab9f51e2d14299440cee333362448": {
+      "uuid": "0d0ab9f51e2d14299440cee333362448",
+      "title": "TFM-125-02-L-D-A-TR",
+      "attributes": {
+        "Symbol": "65613746ccbf4c15409049b03d2857ec",
+        "Designator": "J?",
+        "Manufacturer Part": "TFM-125-02-L-D-A-TR",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "3a26acae033f7753dd9b858b9270b4cc": {
+      "uuid": "3a26acae033f7753dd9b858b9270b4cc",
+      "title": "PCB_TP_0.8",
+      "attributes": {
+        "Symbol": "64ba60014048532880b642f73c5edab1",
+        "Designator": "TP?",
+        "Manufacturer Part": "PCB_TP_0.8",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "474b75bd5812e17b96fd51e4e21c2588": {
+      "uuid": "474b75bd5812e17b96fd51e4e21c2588",
+      "title": "SFM-125-02-L-D-A-TR",
+      "attributes": {
+        "Symbol": "8de86b979aece407c37c2fa65a7f4092",
+        "Designator": "J?",
+        "Manufacturer Part": "SFM-125-02-L-D-A-TR",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "7bef1f9e0139251f31882a44fb296d4d": {
+      "uuid": "7bef1f9e0139251f31882a44fb296d4d",
+      "title": "B2B-PH-SM4-TB(LF)(SN)",
+      "attributes": {
+        "Symbol": "91c7b08c7fe0a63493f706b0375be08b",
+        "Designator": "J?",
+        "Manufacturer Part": "B2B-PH-SM4-TB(LF)(SN)",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "3abe1247f03ed81698b76194ccdd9076": {
+      "uuid": "3abe1247f03ed81698b76194ccdd9076",
+      "title": "045102.5MRL",
+      "attributes": {
+        "Symbol": "197dbd23481d69d99e483508a6d100fb",
+        "Designator": "F?",
+        "Manufacturer Part": "045102.5MRL",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "e701e67d2f6f47b8702b049de4dc9d2d": {
+      "uuid": "e701e67d2f6f47b8702b049de4dc9d2d",
+      "title": "JS102011SCQN",
+      "attributes": {
+        "Symbol": "211c738cdaf92d7c3346ec57ee08b23d",
+        "Designator": "SW?",
+        "Manufacturer Part": "JS102011SCQN",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "5077ecf313a2c6f1f9060b6567567c14": {
+      "uuid": "5077ecf313a2c6f1f9060b6567567c14",
+      "title": "TPS22975DSGR",
+      "attributes": {
+        "Symbol": "9e47adf4d08131521109862a25bd7896",
+        "Designator": "U?",
+        "Manufacturer Part": "TPS22975DSGR",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "997a3c95e922430edc2f66ba01ca4a54": {
+      "uuid": "997a3c95e922430edc2f66ba01ca4a54",
+      "title": "B3B-XH-A(LF)(SN)",
+      "attributes": {
+        "Symbol": "1cf72d3e53038854e4d30a12763cc652",
+        "Designator": "J?",
+        "Manufacturer Part": "B3B-XH-A(LF)(SN)",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "c4c45a8225dc2d7ccc70739522f80126": {
+      "uuid": "c4c45a8225dc2d7ccc70739522f80126",
+      "title": "60.4R 1%",
+      "attributes": {
+        "Symbol": "a1f15ea0c3c7a8a849079d6c553fd56d",
+        "Designator": "R?",
+        "Manufacturer Part": "60.4R 1%",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "1cf4a54f73ba742e177c89d0530de6ce": {
+      "uuid": "1cf4a54f73ba742e177c89d0530de6ce",
+      "title": "C1608C0G1H472J080AA",
+      "attributes": {
+        "Symbol": "646d0a1d851ee132990c49518bd7b441",
+        "Designator": "C?",
+        "Manufacturer Part": "C1608C0G1H472J080AA",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "41704a36d9f19847f8168832d0e97ae5": {
+      "uuid": "41704a36d9f19847f8168832d0e97ae5",
+      "title": "PCB_SJ2_OPEN",
+      "attributes": {
+        "Symbol": "05794c45070cadcd9f194a21f598e622",
+        "Designator": "JP?",
+        "Manufacturer Part": "PCB_SJ2_OPEN",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "6b6e82a4e690c2f4a9b4099d9db33209": {
+      "uuid": "6b6e82a4e690c2f4a9b4099d9db33209",
+      "title": "SN74LVC1G125DBVR",
+      "attributes": {
+        "Symbol": "6521f530ffb3e5bc299a532b53bdeb73",
+        "Designator": "U?",
+        "Manufacturer Part": "SN74LVC1G125DBVR",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "b56202f5cdf6bb7e176baf4df9cb0731": {
+      "uuid": "b56202f5cdf6bb7e176baf4df9cb0731",
+      "title": "THVD1450DR",
+      "attributes": {
+        "Symbol": "b5dc03df9465b69a6e078eddabc2d876",
+        "Designator": "U?",
+        "Manufacturer Part": "THVD1450DR",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "f14a057f1edc6f80f5924a73a010cb64": {
+      "uuid": "f14a057f1edc6f80f5924a73a010cb64",
+      "title": "CRCW060310R0JNEAHP",
+      "attributes": {
+        "Symbol": "6460eccdccd71a8822159d2ba07beff5",
+        "Designator": "R?",
+        "Manufacturer Part": "CRCW060310R0JNEAHP",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "f65a03ca5da27ec8ca34247a5b193223": {
+      "uuid": "f65a03ca5da27ec8ca34247a5b193223",
+      "title": "CDSOT23-SM712",
+      "attributes": {
+        "Symbol": "5696dbfd7c7a5f9bec3d0de502a58f77",
+        "Designator": "D?",
+        "Manufacturer Part": "CDSOT23-SM712",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "3d0e56d7d8a4ed7038718b54b1a6b457": {
+      "uuid": "3d0e56d7d8a4ed7038718b54b1a6b457",
+      "title": "120R 1%",
+      "attributes": {
+        "Symbol": "7f514b05384bb2976bc71fdaa12b68b6",
+        "Designator": "R?",
+        "Manufacturer Part": "120R 1%",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    },
+    "7ac96180fc7da2fabc478691f06b8698": {
+      "uuid": "7ac96180fc7da2fabc478691f06b8698",
+      "title": "B2B-XH-A(LF)(SN)",
+      "attributes": {
+        "Symbol": "18da7c455c192a9dbcf940e6240275a7",
+        "Designator": "J?",
+        "Manufacturer Part": "B2B-XH-A(LF)(SN)",
+        "Footprint Status": "UNASSIGNED - LIBRARY REVIEW REQUIRED",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes"
+      },
+      "symbol_type": 2
+    }
+  },
+  "symbols": {
+    "e036605d91bc95da": {
+      "uuid": "e036605d91bc95da",
+      "title": "Drawing-Symbol_A4",
+      "display_title": "Drawing-Symbol_A4",
+      "docType": 20,
+      "type": 20,
+      "description": "",
+      "desc": "",
+      "source": "dae013dc9fb24993ad62a51f9f80d9cd|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1763433565736"
+    },
+    "f50c3f5a98542fab93002de08538986d": {
+      "uuid": "f50c3f5a98542fab93002de08538986d",
+      "title": "STM32H735VGH6",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "1599929e195f9838e258c33509f11ed0": {
+      "uuid": "1599929e195f9838e258c33509f11ed0",
+      "title": "VLS252012HBX-2R2M-1",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "44f0b2d40880a2de7c665bd96829ab74": {
+      "uuid": "44f0b2d40880a2de7c665bd96829ab74",
+      "title": "GRM21BR61E106KA73L",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "68239f65374af5ff104b8098cf5cce95": {
+      "uuid": "68239f65374af5ff104b8098cf5cce95",
+      "title": "C1005X7R1H104K050BB",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "3d996eacf9cb268e939710681ce0357f": {
+      "uuid": "3d996eacf9cb268e939710681ce0357f",
+      "title": "C1608C0G1H221J080AA",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "3ea1e0479ef5644841962c205c2fee29": {
+      "uuid": "3ea1e0479ef5644841962c205c2fee29",
+      "title": "0R",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "d274d013888a1cf283e0d304838996af": {
+      "uuid": "d274d013888a1cf283e0d304838996af",
+      "title": "C1608X7R1C105K080AC",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "7c265801491c2c4ba17079a7266d9769": {
+      "uuid": "7c265801491c2c4ba17079a7266d9769",
+      "title": "TPS62132RGTR",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "d31ca6b535c08ec63adbbdcdce75bb73": {
+      "uuid": "d31ca6b535c08ec63adbbdcdce75bb73",
+      "title": "XFL4020-222MEC",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "9c93df21baf13721548d4b14f333c09f": {
+      "uuid": "9c93df21baf13721548d4b14f333c09f",
+      "title": "C1608C0G1H103J080AA",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "1734a282920b2850b7ca552bc737b1cf": {
+      "uuid": "1734a282920b2850b7ca552bc737b1cf",
+      "title": "100k",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "8898219390d75acb6bf1c108b2e5986f": {
+      "uuid": "8898219390d75acb6bf1c108b2e5986f",
+      "title": "TPS2553DBVR-1",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "634ea3871e1d7b4e4926ad14afac731f": {
+      "uuid": "634ea3871e1d7b4e4926ad14afac731f",
+      "title": "10k",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "e3695d4cf3285461e27c9d7c44146e49": {
+      "uuid": "e3695d4cf3285461e27c9d7c44146e49",
+      "title": "EVQP7A01P",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "c9f190b5875fa11803b9e9a6a4336fbf": {
+      "uuid": "c9f190b5875fa11803b9e9a6a4336fbf",
+      "title": "45.3k 1%",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "0f93f33670e3b35edb2f00d1a8c6bd44": {
+      "uuid": "0f93f33670e3b35edb2f00d1a8c6bd44",
+      "title": "X1G004171001500",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "b297a5c48319afc8d39fe8004039ac17": {
+      "uuid": "b297a5c48319afc8d39fe8004039ac17",
+      "title": "22R",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "9e87ed5fefc3aff46d3ff11b1dc7a09d": {
+      "uuid": "9e87ed5fefc3aff46d3ff11b1dc7a09d",
+      "title": "TPS3808G33DBVR",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "340b6e77023cd94d13b3463534be7f03": {
+      "uuid": "340b6e77023cd94d13b3463534be7f03",
+      "title": "FTSH-105-01-L-DV-007-K",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "701bc22776c0a20b97ee16f6d6027544": {
+      "uuid": "701bc22776c0a20b97ee16f6d6027544",
+      "title": "BMI088",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "9ee60fd20080da36d0654054a2c97755": {
+      "uuid": "9ee60fd20080da36d0654054a2c97755",
+      "title": "TMP302ADRLR",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "bf6cd5536c8fbc5770b183ef5954d096": {
+      "uuid": "bf6cd5536c8fbc5770b183ef5954d096",
+      "title": "SN74LVC1G08DBVR",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "91f8dadd420df1cde06d17200043e16a": {
+      "uuid": "91f8dadd420df1cde06d17200043e16a",
+      "title": "TPS22919DCKR",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "a0ff18883a4ea9f2ded878b360e9aa90": {
+      "uuid": "a0ff18883a4ea9f2ded878b360e9aa90",
+      "title": "1k",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "5faf920e5f90abcd0ed6a93f2b05ecdc": {
+      "uuid": "5faf920e5f90abcd0ed6a93f2b05ecdc",
+      "title": "RC1206FR-07200RL",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "26dc0e421ad9ce18fb60d86d2f55fb8c": {
+      "uuid": "26dc0e421ad9ce18fb60d86d2f55fb8c",
+      "title": "DMN2056U-7",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "c4ab5b1788608313d5d7ad253012f67a": {
+      "uuid": "c4ab5b1788608313d5d7ad253012f67a",
+      "title": "100R",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "1ac8e6bd79dc733ef3f5519dad323367": {
+      "uuid": "1ac8e6bd79dc733ef3f5519dad323367",
+      "title": "10k 0.1%",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "5f7a095363681776df13f794cba0a703": {
+      "uuid": "5f7a095363681776df13f794cba0a703",
+      "title": "NTCG163JF103FT1",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "bf7a2c8bb89fb40c3b0aa3bfe5a6566d": {
+      "uuid": "bf7a2c8bb89fb40c3b0aa3bfe5a6566d",
+      "title": "20k 0.1%",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "154ea4e9831567b8df080f3f01454a8c": {
+      "uuid": "154ea4e9831567b8df080f3f01454a8c",
+      "title": "TCAN1042HGVDRBRQ1",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "74f089089fc11131aa88623e99acad3a": {
+      "uuid": "74f089089fc11131aa88623e99acad3a",
+      "title": "PESD2CANFD24V-T,215",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "29f25d6617c8cf6593eaa82696a1ba43": {
+      "uuid": "29f25d6617c8cf6593eaa82696a1ba43",
+      "title": "USB4105-GF-A-120",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "99d3987de8ca07164e10e06a6c279eed": {
+      "uuid": "99d3987de8ca07164e10e06a6c279eed",
+      "title": "5.1k 1%",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "68365536555c9885940f5591d0cb813a": {
+      "uuid": "68365536555c9885940f5591d0cb813a",
+      "title": "USBLC6-2SC6",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "3d0c86474c2510c42bdb1f38ed8cccfe": {
+      "uuid": "3d0c86474c2510c42bdb1f38ed8cccfe",
+      "title": "SN74LVC1G17DBVR",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "65613746ccbf4c15409049b03d2857ec": {
+      "uuid": "65613746ccbf4c15409049b03d2857ec",
+      "title": "TFM-125-02-L-D-A-TR",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "64ba60014048532880b642f73c5edab1": {
+      "uuid": "64ba60014048532880b642f73c5edab1",
+      "title": "PCB_TP_0.8",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "8de86b979aece407c37c2fa65a7f4092": {
+      "uuid": "8de86b979aece407c37c2fa65a7f4092",
+      "title": "SFM-125-02-L-D-A-TR",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "91c7b08c7fe0a63493f706b0375be08b": {
+      "uuid": "91c7b08c7fe0a63493f706b0375be08b",
+      "title": "B2B-PH-SM4-TB(LF)(SN)",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "197dbd23481d69d99e483508a6d100fb": {
+      "uuid": "197dbd23481d69d99e483508a6d100fb",
+      "title": "045102.5MRL",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "211c738cdaf92d7c3346ec57ee08b23d": {
+      "uuid": "211c738cdaf92d7c3346ec57ee08b23d",
+      "title": "JS102011SCQN",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "9e47adf4d08131521109862a25bd7896": {
+      "uuid": "9e47adf4d08131521109862a25bd7896",
+      "title": "TPS22975DSGR",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "1cf72d3e53038854e4d30a12763cc652": {
+      "uuid": "1cf72d3e53038854e4d30a12763cc652",
+      "title": "B3B-XH-A(LF)(SN)",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "a1f15ea0c3c7a8a849079d6c553fd56d": {
+      "uuid": "a1f15ea0c3c7a8a849079d6c553fd56d",
+      "title": "60.4R 1%",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "646d0a1d851ee132990c49518bd7b441": {
+      "uuid": "646d0a1d851ee132990c49518bd7b441",
+      "title": "C1608C0G1H472J080AA",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "05794c45070cadcd9f194a21f598e622": {
+      "uuid": "05794c45070cadcd9f194a21f598e622",
+      "title": "PCB_SJ2_OPEN",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "6521f530ffb3e5bc299a532b53bdeb73": {
+      "uuid": "6521f530ffb3e5bc299a532b53bdeb73",
+      "title": "SN74LVC1G125DBVR",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "b5dc03df9465b69a6e078eddabc2d876": {
+      "uuid": "b5dc03df9465b69a6e078eddabc2d876",
+      "title": "THVD1450DR",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "6460eccdccd71a8822159d2ba07beff5": {
+      "uuid": "6460eccdccd71a8822159d2ba07beff5",
+      "title": "CRCW060310R0JNEAHP",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "5696dbfd7c7a5f9bec3d0de502a58f77": {
+      "uuid": "5696dbfd7c7a5f9bec3d0de502a58f77",
+      "title": "CDSOT23-SM712",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "7f514b05384bb2976bc71fdaa12b68b6": {
+      "uuid": "7f514b05384bb2976bc71fdaa12b68b6",
+      "title": "120R 1%",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    },
+    "18da7c455c192a9dbcf940e6240275a7": {
+      "uuid": "18da7c455c192a9dbcf940e6240275a7",
+      "title": "B2B-XH-A(LF)(SN)",
+      "docType": 2,
+      "type": 2,
+      "version": "1"
+    }
+  },
+  "footprints": {},
+  "schematics": {
+    "49461955a123dfad37d01aee61015399": {
+      "name": "CORE",
+      "sheets": [
+        {
+          "uuid": "6fbfe02556ec8f31be4668e895a0ce81",
+          "id": 1,
+          "name": "C01 MCU and Direct SMPS",
+          "display_title": "C01 MCU and Direct SMPS"
+        },
+        {
+          "uuid": "1d0da7da0dc397c792e0008078fa9383",
+          "id": 2,
+          "name": "C02 3V3 buck and AUX limiter",
+          "display_title": "C02 3V3 buck and AUX limiter"
+        },
+        {
+          "uuid": "dc04c20d32b999c63cb334c8fd2cb7b5",
+          "id": 3,
+          "name": "C03 Clock reset boot and SWD",
+          "display_title": "C03 Clock reset boot and SWD"
+        },
+        {
+          "uuid": "bd0e7e06af87c09da7055b5a5d5c6eb8",
+          "id": 4,
+          "name": "C04 IMU heater and analog sensing",
+          "display_title": "C04 IMU heater and analog sensing"
+        },
+        {
+          "uuid": "a0896df01135881faf7020cd113844b8",
+          "id": 5,
+          "name": "C05 Three CAN physical interfaces",
+          "display_title": "C05 Three CAN physical interfaces"
+        },
+        {
+          "uuid": "0eb5e4adb2846013011f47ff1a7fb0d6",
+          "id": 6,
+          "name": "C06 USB FS Device",
+          "display_title": "C06 USB FS Device"
+        },
+        {
+          "uuid": "0cd8b8abc619e553b9435bb28d64f82d",
+          "id": 7,
+          "name": "C07 Core stack interface and test points",
+          "display_title": "C07 Core stack interface and test points"
+        }
+      ]
+    },
+    "67bb06ff4bf3c1f34a9e96a11c0cff81": {
+      "name": "BASE_CAN",
+      "sheets": [
+        {
+          "uuid": "e545daecb36fac44db835d53ce4c302b",
+          "id": 1,
+          "name": "B01 Power entry and stack interface",
+          "display_title": "B01 Power entry and stack interface"
+        },
+        {
+          "uuid": "2f07acfa4fdc7131ef91acf1b1442b56",
+          "id": 2,
+          "name": "B02 CAN connectors and termination",
+          "display_title": "B02 CAN connectors and termination"
+        },
+        {
+          "uuid": "236c6ae5e52a29a26e47511934a77f16",
+          "id": 3,
+          "name": "B03 DEV4 RS485",
+          "display_title": "B03 DEV4 RS485"
+        },
+        {
+          "uuid": "1a72e572de574292cbaff0468d58aafd",
+          "id": 4,
+          "name": "B06 Stop input and fault injection",
+          "display_title": "B06 Stop input and fault injection"
+        }
+      ]
+    }
+  },
+  "pcbs": {},
+  "panels": {}
+}

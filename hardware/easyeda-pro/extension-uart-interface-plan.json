@@ -1,0 +1,324 @@
+[
+  {
+    "reference": "J_UART4",
+    "page": "C08",
+    "part": "BM04B-GHS-TBT(LF)(SN)",
+    "supplierId": "C161692",
+    "pins": {
+      "1": "GND",
+      "2": "5V_PORT",
+      "3": "UART4_TX_CONN",
+      "4": "UART4_RX_CONN",
+      "5": "GND",
+      "6": "GND"
+    },
+    "notes": "GH1.25 top entry: 1 GND / 2 +5V_PORT / 3 MCU_TX / 4 MCU_RX. 3.3V logic. 5V budget shared."
+  },
+  {
+    "reference": "R_UART4_TX",
+    "page": "C08",
+    "part": "RC0402FR-07100RL",
+    "supplierId": "C106232",
+    "pins": {
+      "1": "UART4_TX",
+      "2": "UART4_TX_CONN"
+    }
+  },
+  {
+    "reference": "R_UART4_RX",
+    "page": "C08",
+    "part": "RC0402FR-07100RL",
+    "supplierId": "C106232",
+    "pins": {
+      "1": "UART4_RX",
+      "2": "UART4_RX_CONN"
+    }
+  },
+  {
+    "reference": "D_UART4",
+    "page": "C08",
+    "part": "TPD2E2U06DCKR",
+    "supplierId": "C1855726",
+    "pins": {
+      "1": "UART4_TX_CONN",
+      "2": "UART4_RX_CONN",
+      "3": "GND"
+    }
+  },
+  {
+    "reference": "J_UART5",
+    "page": "C08",
+    "part": "BM04B-GHS-TBT(LF)(SN)",
+    "supplierId": "C161692",
+    "pins": {
+      "1": "GND",
+      "2": "5V_PORT",
+      "3": "UART5_TX_CONN",
+      "4": "UART5_RX_CONN",
+      "5": "GND",
+      "6": "GND"
+    },
+    "notes": "GH1.25 top entry: 1 GND / 2 +5V_PORT / 3 MCU_TX / 4 MCU_RX. 3.3V logic. 5V budget shared."
+  },
+  {
+    "reference": "R_UART5_TX",
+    "page": "C08",
+    "part": "RC0402FR-07100RL",
+    "supplierId": "C106232",
+    "pins": {
+      "1": "UART5_TX",
+      "2": "UART5_TX_CONN"
+    }
+  },
+  {
+    "reference": "R_UART5_RX",
+    "page": "C08",
+    "part": "RC0402FR-07100RL",
+    "supplierId": "C106232",
+    "pins": {
+      "1": "UART5_RX",
+      "2": "UART5_RX_CONN"
+    }
+  },
+  {
+    "reference": "D_UART5",
+    "page": "C08",
+    "part": "TPD2E2U06DCKR",
+    "supplierId": "C1855726",
+    "pins": {
+      "1": "UART5_TX_CONN",
+      "2": "UART5_RX_CONN",
+      "3": "GND"
+    }
+  },
+  {
+    "reference": "J_UART7",
+    "page": "C08",
+    "part": "BM04B-GHS-TBT(LF)(SN)",
+    "supplierId": "C161692",
+    "pins": {
+      "1": "GND",
+      "2": "5V_PORT",
+      "3": "UART7_TX_CONN",
+      "4": "UART7_RX_CONN",
+      "5": "GND",
+      "6": "GND"
+    },
+    "notes": "GH1.25 top entry: 1 GND / 2 +5V_PORT / 3 MCU_TX / 4 MCU_RX. 3.3V logic. 5V budget shared."
+  },
+  {
+    "reference": "R_UART7_TX",
+    "page": "C08",
+    "part": "RC0402FR-07100RL",
+    "supplierId": "C106232",
+    "pins": {
+      "1": "UART7_TX",
+      "2": "UART7_TX_CONN"
+    }
+  },
+  {
+    "reference": "R_UART7_RX",
+    "page": "C08",
+    "part": "RC0402FR-07100RL",
+    "supplierId": "C106232",
+    "pins": {
+      "1": "UART7_RX",
+      "2": "UART7_RX_CONN"
+    }
+  },
+  {
+    "reference": "D_UART7",
+    "page": "C08",
+    "part": "TPD2E2U06DCKR",
+    "supplierId": "C1855726",
+    "pins": {
+      "1": "UART7_TX_CONN",
+      "2": "UART7_RX_CONN",
+      "3": "GND"
+    }
+  },
+  {
+    "reference": "J_UART8",
+    "page": "C08",
+    "part": "BM04B-GHS-TBT(LF)(SN)",
+    "supplierId": "C161692",
+    "pins": {
+      "1": "GND",
+      "2": "5V_PORT",
+      "3": "UART8_TX_CONN",
+      "4": "UART8_RX_CONN",
+      "5": "GND",
+      "6": "GND"
+    },
+    "notes": "GH1.25 top entry: 1 GND / 2 +5V_PORT / 3 MCU_TX / 4 MCU_RX. 3.3V logic. 5V budget shared."
+  },
+  {
+    "reference": "R_UART8_TX",
+    "page": "C08",
+    "part": "RC0402FR-07100RL",
+    "supplierId": "C106232",
+    "pins": {
+      "1": "UART8_TX",
+      "2": "UART8_TX_CONN"
+    }
+  },
+  {
+    "reference": "R_UART8_RX",
+    "page": "C08",
+    "part": "RC0402FR-07100RL",
+    "supplierId": "C106232",
+    "pins": {
+      "1": "UART8_RX",
+      "2": "UART8_RX_CONN"
+    }
+  },
+  {
+    "reference": "D_UART8",
+    "page": "C08",
+    "part": "TPD2E2U06DCKR",
+    "supplierId": "C1855726",
+    "pins": {
+      "1": "UART8_TX_CONN",
+      "2": "UART8_RX_CONN",
+      "3": "GND"
+    }
+  },
+  {
+    "reference": "J_UART9",
+    "page": "C08",
+    "part": "BM04B-GHS-TBT(LF)(SN)",
+    "supplierId": "C161692",
+    "pins": {
+      "1": "GND",
+      "2": "5V_PORT",
+      "3": "UART9_TX_CONN",
+      "4": "UART9_RX_CONN",
+      "5": "GND",
+      "6": "GND"
+    },
+    "notes": "GH1.25 top entry: 1 GND / 2 +5V_PORT / 3 MCU_TX / 4 MCU_RX. 3.3V logic. 5V budget shared."
+  },
+  {
+    "reference": "R_UART9_TX",
+    "page": "C08",
+    "part": "RC0402FR-07100RL",
+    "supplierId": "C106232",
+    "pins": {
+      "1": "UART9_TX",
+      "2": "UART9_TX_CONN"
+    }
+  },
+  {
+    "reference": "R_UART9_RX",
+    "page": "C08",
+    "part": "RC0402FR-07100RL",
+    "supplierId": "C106232",
+    "pins": {
+      "1": "UART9_RX",
+      "2": "UART9_RX_CONN"
+    }
+  },
+  {
+    "reference": "D_UART9",
+    "page": "C08",
+    "part": "TPD2E2U06DCKR",
+    "supplierId": "C1855726",
+    "pins": {
+      "1": "UART9_TX_CONN",
+      "2": "UART9_RX_CONN",
+      "3": "GND"
+    }
+  },
+  {
+    "reference": "J_USART10",
+    "page": "C08",
+    "part": "BM04B-GHS-TBT(LF)(SN)",
+    "supplierId": "C161692",
+    "pins": {
+      "1": "GND",
+      "2": "5V_PORT",
+      "3": "USART10_TX_CONN",
+      "4": "USART10_RX_CONN",
+      "5": "GND",
+      "6": "GND"
+    },
+    "notes": "GH1.25 top entry: 1 GND / 2 +5V_PORT / 3 MCU_TX / 4 MCU_RX. 3.3V logic. 5V budget shared."
+  },
+  {
+    "reference": "R_USART10_TX",
+    "page": "C08",
+    "part": "RC0402FR-07100RL",
+    "supplierId": "C106232",
+    "pins": {
+      "1": "USART10_TX",
+      "2": "USART10_TX_CONN"
+    }
+  },
+  {
+    "reference": "R_USART10_RX",
+    "page": "C08",
+    "part": "RC0402FR-07100RL",
+    "supplierId": "C106232",
+    "pins": {
+      "1": "USART10_RX",
+      "2": "USART10_RX_CONN"
+    }
+  },
+  {
+    "reference": "D_USART10",
+    "page": "C08",
+    "part": "TPD2E2U06DCKR",
+    "supplierId": "C1855726",
+    "pins": {
+      "1": "USART10_TX_CONN",
+      "2": "USART10_RX_CONN",
+      "3": "GND"
+    }
+  },
+  {
+    "reference": "J_LPUART1",
+    "page": "C08",
+    "part": "BM04B-GHS-TBT(LF)(SN)",
+    "supplierId": "C161692",
+    "pins": {
+      "1": "GND",
+      "2": "5V_PORT",
+      "3": "LPUART1_TX_CONN",
+      "4": "LPUART1_RX_CONN",
+      "5": "GND",
+      "6": "GND"
+    },
+    "notes": "GH1.25 top entry: 1 GND / 2 +5V_PORT / 3 MCU_TX / 4 MCU_RX. 3.3V logic. 5V budget shared."
+  },
+  {
+    "reference": "R_LPUART1_TX",
+    "page": "C08",
+    "part": "RC0402FR-07100RL",
+    "supplierId": "C106232",
+    "pins": {
+      "1": "LPUART1_TX",
+      "2": "LPUART1_TX_CONN"
+    }
+  },
+  {
+    "reference": "R_LPUART1_RX",
+    "page": "C08",
+    "part": "RC0402FR-07100RL",
+    "supplierId": "C106232",
+    "pins": {
+      "1": "LPUART1_RX",
+      "2": "LPUART1_RX_CONN"
+    }
+  },
+  {
+    "reference": "D_LPUART1",
+    "page": "C08",
+    "part": "TPD2E2U06DCKR",
+    "supplierId": "C1855726",
+    "pins": {
+      "1": "LPUART1_TX_CONN",
+      "2": "LPUART1_RX_CONN",
+      "3": "GND"
+    }
+  }
+]

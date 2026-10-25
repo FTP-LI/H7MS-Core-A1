@@ -1,0 +1,69 @@
+GRM21BR61E106KA73#
+“#” indicates a package specification code.
+  
+  
+  
+  
+< List of part numbers with package codes >
+GRM21BR61E106KA73L  ,  GRM21BR61E106KA73K
+Shape
+L size
+2.0 ±0.15mm 
+W size
+1.25 ±0.15mm 
+T size
+1.25 ±0.15mm 
+External terminal width e
+0.2 to 0.7mm 
+Distance between external terminals g
+0.7mm min. 
+Size code in mm(inch)
+2012 (0805) 
+Specifications
+Capacitance
+10µF ±10% 
+Rated voltage
+25Vdc 
+Temperature characteristics (complied standard)
+X5R(EIA) 
+Capacitance change rate
+±15.0% 
+Temperature range of temperature characteristics
+-55 to 85℃ 
+Operating temperature range
+-55 to 85℃ 
+References
+Packaging
+Specifications
+Minimum quantity
+L
+φ180mm Embossed taping
+3000
+K
+φ330mm Embossed taping
+10000
+Mass (typ.)
+1 piece
+19mg
+φ180mm Reel
+108g
+1 of 2
+1.This datasheet is downloaded from the website of Murata Manufacturing Co., Ltd. Therefore, it’s specifications are subject to change or our products in it may be discontinued
+without advance notice. Please check with our sales representatives or product engineers before ordering.
+2.This datasheet has only typical specifications because there is no space for detailed specifications.
+Therefore, please review our product specifications or consult the approval sheet for product specifications before ordering.
+URL : http://www.murata.co.jp/
+Last updated: 2013/09/23
+
+Chart of characteristic data (The charts below may show another part number which shares its characteristics.)
+Frequency characteristics (ESR, Impedance)
+S parameter (Smith chart S11)
+DC bias characteristics
+AC voltage characteristics
+Capacitance - temperature characteristics
+Calorific property by ripple current
+2 of 2
+Last updated: 2013/09/23
+This PDF data has only typical specifications because there is no space for detailed specifications.
+Therefore, please reviewour product specifications or consult the approval sheet for product specifications
+before ordering.

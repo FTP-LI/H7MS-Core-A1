@@ -1,0 +1,520 @@
+﻿board,reference,part,fit,page,notes
+CORE,U1,STM32H735VGH6,YES,C01,all 100 balls; verify symbol and footprint independently
+CORE,L1,VLS252012HBX-2R2M-1,YES,C01,
+CORE,C_SMPS_IN,GRM21BR61E106KA73L,YES,C01,10uF; see MLCC selection and effective-C acceptance table
+CORE,C_SMPS_HF,C1005X7R1H104K050BB,YES,C01,100nF; see MLCC selection and effective-C acceptance table
+CORE,C_SMPS_SW,C1608C0G1H221J080AA,YES,C01,220pF; see MLCC selection and effective-C acceptance table
+CORE,C_VCORE1,GRM21BR61E106KA73L,YES,C01,10uF; see MLCC selection and effective-C acceptance table
+CORE,C_VCORE2,GRM21BR61E106KA73L,YES,C01,10uF; see MLCC selection and effective-C acceptance table
+CORE,C_VCAP_D8,C1005X7R1H104K050BB,YES,C01,100nF; see MLCC selection and effective-C acceptance table
+CORE,C_VCAP_G6,C1005X7R1H104K050BB,YES,C01,100nF; see MLCC selection and effective-C acceptance table
+CORE,C_VDD_D6,C1005X7R1H104K050BB,YES,C01,100nF; see MLCC selection and effective-C acceptance table
+CORE,C_VDD_E5,C1005X7R1H104K050BB,YES,C01,100nF; see MLCC selection and effective-C acceptance table
+CORE,C_VDD_F6,C1005X7R1H104K050BB,YES,C01,100nF; see MLCC selection and effective-C acceptance table
+CORE,C_VDD_BULK,GRM21BR61E106KA73L,YES,C01,10uF; see MLCC selection and effective-C acceptance table
+CORE,R_ANALOG,0R,YES,C01,
+CORE,C_VDDA_BULK,C1608X7R1C105K080AC,YES,C01,1uF; see MLCC selection and effective-C acceptance table
+CORE,C_VDDA_HF,C1005X7R1H104K050BB,YES,C01,100nF; see MLCC selection and effective-C acceptance table
+CORE,C_VREF_BULK,C1608X7R1C105K080AC,YES,C01,1uF; see MLCC selection and effective-C acceptance table
+CORE,C_VREF_HF,C1005X7R1H104K050BB,YES,C01,100nF; see MLCC selection and effective-C acceptance table
+CORE,C_USB_BULK,C1608X7R1C105K080AC,YES,C01,1uF; see MLCC selection and effective-C acceptance table
+CORE,C_USB_HF,C1005X7R1H104K050BB,YES,C01,100nF; see MLCC selection and effective-C acceptance table
+CORE,C_VBAT_BULK,C1608X7R1C105K080AC,YES,C01,1uF; see MLCC selection and effective-C acceptance table
+CORE,C_VBAT_HF,C1005X7R1H104K050BB,YES,C01,100nF; see MLCC selection and effective-C acceptance table
+CORE,U2,TPS62132RGTR,YES,C02,
+CORE,L2,XFL4020-222MEC,YES,C02,
+CORE,C_BUCK_IN,GRM21BR61E106KA73L,YES,C02,10uF; see MLCC selection and effective-C acceptance table
+CORE,C_BUCK_IN2,GRM21BR61E106KA73L,YES,C02,10uF; see MLCC selection and effective-C acceptance table
+CORE,C_BUCK_IN3,GRM21BR61E106KA73L,YES,C02,10uF; see MLCC selection and effective-C acceptance table
+CORE,C_BUCK_HF,C1005X7R1H104K050BB,YES,C02,100nF; see MLCC selection and effective-C acceptance table
+CORE,C_BUCK_OUT,GRM21BR61E106KA73L,YES,C02,10uF; see MLCC selection and effective-C acceptance table
+CORE,C_BUCK_OUT2,GRM21BR61E106KA73L,YES,C02,10uF; see MLCC selection and effective-C acceptance table
+CORE,C_BUCK_OUT3,GRM21BR61E106KA73L,YES,C02,10uF; see MLCC selection and effective-C acceptance table
+CORE,C_BUCK_OUT4,GRM21BR61E106KA73L,YES,C02,10uF; see MLCC selection and effective-C acceptance table
+CORE,C_BUCK_SS,C1608C0G1H103J080AA,YES,C02,10nF; see MLCC selection and effective-C acceptance table
+CORE,R_BUCK_PG,100k,YES,C02,
+CORE,U_AUX,TPS2553DBVR-1,YES,C02,
+CORE,R_AUX_EN,10k,YES,C02,
+CORE,SW_AUX_RESET,EVQP7A01P,YES,C02,vendor terminal 1 pair and terminal 2 pair; project L/R pad aliases
+CORE,R_AUX_ILIM,45.3k 1%,YES,C02,
+CORE,R_AUX_FAULT,10k,YES,C02,
+CORE,C_AUX_IN,C1608X7R1C105K080AC,YES,C02,1uF; see MLCC selection and effective-C acceptance table
+CORE,C_AUX_IN_HF,C1005X7R1H104K050BB,YES,C02,100nF; see MLCC selection and effective-C acceptance table
+CORE,C_AUX_OUT,GRM21BR61E106KA73L,YES,C02,10uF; see MLCC selection and effective-C acceptance table
+CORE,C_AUX_OUT_HF,C1005X7R1H104K050BB,YES,C02,100nF; see MLCC selection and effective-C acceptance table
+CORE,Y1,X1G004171001500,YES,C03,
+CORE,R_HSE,22R,YES,C03,
+CORE,C_HSE,C1005X7R1H104K050BB,YES,C03,100nF; see MLCC selection and effective-C acceptance table
+CORE,U_RESET,TPS3808G33DBVR,YES,C03,
+CORE,C_RESET_U,C1005X7R1H104K050BB,YES,C03,100nF; see MLCC selection and effective-C acceptance table
+CORE,R_MR,10k,YES,C03,
+CORE,SW_RESET,EVQP7A01P,YES,C03,vendor terminal 1 pair and terminal 2 pair; project L/R pad aliases
+CORE,R_NRST,10k,YES,C03,
+CORE,C_NRST,C1005X7R1H104K050BB,YES,C03,100nF; see MLCC selection and effective-C acceptance table
+CORE,R_BOOT,10k,YES,C03,
+CORE,SW_BOOT,EVQP7A01P,YES,C03,vendor terminal 1 pair and terminal 2 pair; project L/R pad aliases
+CORE,J_SWD,FTSH-105-01-L-DV-007-K,YES,C03,"pin 7 physically omitted; VTref is sense only, no debugger power injection"
+CORE,R_IMU_POWER,0R,YES,C04,
+CORE,U_IMU,BMI088,YES,C04,
+CORE,R_IMU_SCK,22R,YES,C04,
+CORE,R_IMU_MOSI,22R,YES,C04,
+CORE,R_IMU_ACC_CS,10k,YES,C04,
+CORE,R_IMU_GYRO_CS,10k,YES,C04,
+CORE,C_IMU_VDD,C1005X7R1H104K050BB,YES,C04,100nF; see MLCC selection and effective-C acceptance table
+CORE,C_IMU_VDDIO,C1005X7R1H104K050BB,YES,C04,100nF; see MLCC selection and effective-C acceptance table
+CORE,C_IMU_BULK,C1608X7R1C105K080AC,YES,C04,1uF; see MLCC selection and effective-C acceptance table
+CORE,U_TEMP,TMP302ADRLR,YES,C04,
+CORE,C_TEMP,C1005X7R1H104K050BB,YES,C04,100nF; see MLCC selection and effective-C acceptance table
+CORE,R_TEMP,10k,YES,C04,
+CORE,U_HEAT_GATE,SN74LVC1G08DBVR,YES,C04,
+CORE,C_U_HEAT_GATE,C1005X7R1H104K050BB,YES,C04,100nF; see MLCC selection and effective-C acceptance table
+CORE,R_HEAT_ALLOW,100k,YES,C04,
+CORE,U_HEAT_POWER,TPS22919DCKR,YES,C04,
+CORE,R_U_HEAT_POWER_QOD,1k,YES,C04,
+CORE,C_U_HEAT_POWER_IN,C1608X7R1C105K080AC,YES,C04,1uF; see MLCC selection and effective-C acceptance table
+CORE,C_U_HEAT_POWER_OUT,C1005X7R1H104K050BB,YES,C04,100nF; see MLCC selection and effective-C acceptance table
+CORE,R_HEAT1,RC1206FR-07200RL,YES,C04,"200 ohm 1%, 0.25W at 70C; four in parallel"
+CORE,R_HEAT2,RC1206FR-07200RL,YES,C04,"200 ohm 1%, 0.25W at 70C; four in parallel"
+CORE,R_HEAT3,RC1206FR-07200RL,YES,C04,"200 ohm 1%, 0.25W at 70C; four in parallel"
+CORE,R_HEAT4,RC1206FR-07200RL,YES,C04,"200 ohm 1%, 0.25W at 70C; four in parallel"
+CORE,Q_HEAT,DMN2056U-7,YES,C04,
+CORE,R_HEAT_G,100R,YES,C04,
+CORE,R_HEAT_G_PD,100k,YES,C04,
+CORE,R_NTC_TOP,10k 0.1%,YES,C04,
+CORE,NTC1,NTCG163JF103FT1,YES,C04,
+CORE,R_NTC_ADC,1k,YES,C04,
+CORE,C_NTC,C1608C0G1H103J080AA,YES,C04,10nF; see MLCC selection and effective-C acceptance table
+CORE,R_V5_TOP,20k 0.1%,YES,C04,
+CORE,R_V5_BOT,10k 0.1%,YES,C04,
+CORE,R_V5_ADC,1k,YES,C04,
+CORE,C_V5,C1608C0G1H103J080AA,YES,C04,10nF; see MLCC selection and effective-C acceptance table
+CORE,C_CAN_BULK,GRM21BR61E106KA73L,YES,C05,10uF; see MLCC selection and effective-C acceptance table
+CORE,U_CAN1,TCAN1042HGVDRBRQ1,YES,C05,
+CORE,R_CAN1_STB,10k,YES,C05,
+CORE,R_CAN1_TX,10k,YES,C05,
+CORE,C_CAN1_VCC,C1005X7R1H104K050BB,YES,C05,100nF; see MLCC selection and effective-C acceptance table
+CORE,C_CAN1_VIO,C1005X7R1H104K050BB,YES,C05,100nF; see MLCC selection and effective-C acceptance table
+CORE,D_CAN1,"PESD2CANFD24V-T,215",YES,C05,
+CORE,U_CAN2,TCAN1042HGVDRBRQ1,YES,C05,
+CORE,R_CAN2_STB,10k,YES,C05,
+CORE,R_CAN2_TX,10k,YES,C05,
+CORE,C_CAN2_VCC,C1005X7R1H104K050BB,YES,C05,100nF; see MLCC selection and effective-C acceptance table
+CORE,C_CAN2_VIO,C1005X7R1H104K050BB,YES,C05,100nF; see MLCC selection and effective-C acceptance table
+CORE,D_CAN2,"PESD2CANFD24V-T,215",YES,C05,
+CORE,U_CAN3,TCAN1042HGVDRBRQ1,YES,C05,
+CORE,R_CAN3_STB,10k,YES,C05,
+CORE,R_CAN3_TX,10k,YES,C05,
+CORE,C_CAN3_VCC,C1005X7R1H104K050BB,YES,C05,100nF; see MLCC selection and effective-C acceptance table
+CORE,C_CAN3_VIO,C1005X7R1H104K050BB,YES,C05,100nF; see MLCC selection and effective-C acceptance table
+CORE,D_CAN3,"PESD2CANFD24V-T,215",YES,C05,
+CORE,J_USB,USB4105-GF-A-120,YES,C06,12 electrical lands + 4 plated shell slots; combined-pad aliases defined in connector pad table
+CORE,R_CC1,5.1k 1%,YES,C06,
+CORE,R_CC2,5.1k 1%,YES,C06,
+CORE,R_USB_SHELL,0R,YES,C06,
+CORE,U_USB_ESD,USBLC6-2SC6,YES,C06,
+CORE,R_USB_DP,0R,YES,C06,
+CORE,R_USB_DM,0R,YES,C06,
+CORE,C_USB_VBUS,C1005X7R1H104K050BB,YES,C06,100nF; see MLCC selection and effective-C acceptance table
+CORE,U_VBUS,SN74LVC1G17DBVR,YES,C06,
+CORE,R_VBUS_SER,1k,YES,C06,
+CORE,R_VBUS_PD,100k,YES,C06,
+CORE,C_VBUS_U,C1005X7R1H104K050BB,YES,C06,100nF; see MLCC selection and effective-C acceptance table
+CORE,J1,TFM-125-02-L-D-A-TR,YES,C07,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,J2,TFM-125-02-L-D-A-TR,YES,C07,v0.9.2 contact i = manufacturer pin i; CORE bottom; see physical pad coordinates
+CORE,TP_5V_IN,PCB_TP_0.8,YES,C07,
+CORE,TP_3V3_D,PCB_TP_0.8,YES,C07,
+CORE,TP_3V3_A,PCB_TP_0.8,YES,C07,
+CORE,TP_3V3_AUX,PCB_TP_0.8,YES,C07,
+CORE,TP_VCORE,PCB_TP_0.8,YES,C07,
+CORE,TP_GND,PCB_TP_0.8,YES,C07,
+CORE,TP_NRST,PCB_TP_0.8,YES,C07,
+CORE,TP_BOOT0,PCB_TP_0.8,YES,C07,
+CORE,TP_TEMP_OK,PCB_TP_0.8,YES,C07,
+CORE,TP_HEAT_ALLOW,PCB_TP_0.8,YES,C07,
+CORE,TP_HEAT_5V,PCB_TP_0.8,YES,C07,
+CORE,TP_AUX_FAULT_N,PCB_TP_0.8,YES,C07,
+CORE,TP_BUCK_PG,PCB_TP_0.8,YES,C07,
+BASE_CAN,J1,SFM-125-02-L-D-A-TR,YES,B01,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_CAN,J2,SFM-125-02-L-D-A-TR,YES,B01,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_CAN,J_PWR,B2B-PH-SM4-TB(LF)(SN),YES,B01,compact A1: 2A with AWG24; PHR-2 + SPH-002T-P0.5S; pin1=5V pin2=GND; SMT anchors mechanical only; differs from logical BASE_DBG VH
+BASE_CAN,F1,045102.5MRL,YES,B01,"2.5A 451; backup fuse, not semiconductor current limiting"
+BASE_CAN,SW_MAIN,JS102011SCQN,YES,B01,"vertical actuator SMT; 2 common; OFF=1-2; ON=2-3; enable only, never load current"
+BASE_CAN,R_MAIN_ON_PD,100k,YES,B01,
+BASE_CAN,U_MAIN,TPS22975DSGR,YES,B01,
+BASE_CAN,C_MAIN_CT,C1608C0G1H103J080AA,YES,B01,10nF; see MLCC selection and effective-C acceptance table
+BASE_CAN,C_MAIN_IN,C1608X7R1C105K080AC,YES,B01,1uF; see MLCC selection and effective-C acceptance table
+BASE_CAN,C_MAIN_HF,C1005X7R1H104K050BB,YES,B01,100nF; see MLCC selection and effective-C acceptance table
+BASE_CAN,C_BASE_5V,GRM21BR61E106KA73L,YES,B01,10uF; see MLCC selection and effective-C acceptance table
+BASE_CAN,C_BASE_5V2,GRM21BR61E106KA73L,YES,B01,10uF; see MLCC selection and effective-C acceptance table
+BASE_CAN,C_BASE_5V3,GRM21BR61E106KA73L,YES,B01,10uF; see MLCC selection and effective-C acceptance table
+BASE_CAN,C_BASE_5V4,GRM21BR61E106KA73L,YES,B01,10uF; see MLCC selection and effective-C acceptance table
+BASE_CAN,C_BASE_AUX,GRM21BR61E106KA73L,YES,B01,10uF; see MLCC selection and effective-C acceptance table
+BASE_CAN,U_AUX_MON,TPS3808G33DBVR,YES,B01,
+BASE_CAN,C_AUX_MON,C1005X7R1H104K050BB,YES,B01,100nF; see MLCC selection and effective-C acceptance table
+BASE_CAN,R_AUX_READY_PU,10k,YES,B01,
+BASE_CAN,R_AUX_READY_PD,100k,YES,B01,
+BASE_CAN,Q_BUS_ENABLE,DMN2056U-7,YES,B01,
+BASE_CAN,R_BUS_OE_PU,10k,YES,B01,
+BASE_CAN,R_PWR_GOOD,100R,YES,B01,
+BASE_CAN,J_CAN1,B3B-XH-A(LF)(SN),YES,B02,
+BASE_CAN,R_CAN1_TH,60.4R 1%,YES,B02,
+BASE_CAN,R_CAN1_TL,60.4R 1%,YES,B02,
+BASE_CAN,C_CAN1_SPLIT,C1608C0G1H472J080AA,YES,B02,4.7nF; see MLCC selection and effective-C acceptance table
+BASE_CAN,JP_CAN1_TERM,PCB_SJ2_OPEN,OPEN,B02,"PCB copper pads, no purchased component; solder bridge only at bus endpoints"
+BASE_CAN,D_CAN1,"PESD2CANFD24V-T,215",DNP,B02,
+BASE_CAN,J_CAN2,B3B-XH-A(LF)(SN),YES,B02,
+BASE_CAN,R_CAN2_TH,60.4R 1%,YES,B02,
+BASE_CAN,R_CAN2_TL,60.4R 1%,YES,B02,
+BASE_CAN,C_CAN2_SPLIT,C1608C0G1H472J080AA,YES,B02,4.7nF; see MLCC selection and effective-C acceptance table
+BASE_CAN,JP_CAN2_TERM,PCB_SJ2_OPEN,OPEN,B02,"PCB copper pads, no purchased component; solder bridge only at bus endpoints"
+BASE_CAN,D_CAN2,"PESD2CANFD24V-T,215",DNP,B02,
+BASE_CAN,J_CAN3,B3B-XH-A(LF)(SN),YES,B02,
+BASE_CAN,R_CAN3_TH,60.4R 1%,YES,B02,
+BASE_CAN,R_CAN3_TL,60.4R 1%,YES,B02,
+BASE_CAN,C_CAN3_SPLIT,C1608C0G1H472J080AA,YES,B02,4.7nF; see MLCC selection and effective-C acceptance table
+BASE_CAN,JP_CAN3_TERM,PCB_SJ2_OPEN,OPEN,B02,"PCB copper pads, no purchased component; solder bridge only at bus endpoints"
+BASE_CAN,D_CAN3,"PESD2CANFD24V-T,215",DNP,B02,
+BASE_CAN,U_DEV4_TXBUF,SN74LVC1G125DBVR,YES,B03,
+BASE_CAN,C_U_DEV4_TXBUF,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_CAN,U_DEV4_DIRBUF,SN74LVC1G125DBVR,YES,B03,
+BASE_CAN,C_U_DEV4_DIRBUF,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_CAN,R_DEV4_DIR_PD,10k,YES,B03,
+BASE_CAN,R_DEV4_DE_PD,10k,YES,B03,
+BASE_CAN,U_DEV4,THVD1450DR,YES,B03,
+BASE_CAN,C_DEV4,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_CAN,R_DEV4_R_PU,10k,YES,B03,RX idle while receiver disabled; pull-up on buffer supply domain
+BASE_CAN,R_DEV4_A_SURGE,CRCW060310R0JNEAHP,YES,B03,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_CAN,R_DEV4_B_SURGE,CRCW060310R0JNEAHP,YES,B03,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_CAN,D_DEV4_485,CDSOT23-SM712,YES,B03,"TVS at connector, before both series resistors; THVD1450 Figure 37 reference, board surge qualification pending"
+BASE_CAN,R_DEV4_RXSEL,0R,YES,B03,
+BASE_CAN,J_DEV4_485,B3B-XH-A(LF)(SN),YES,B03,A=TI non-inverting; cable end-to-end numbered continuity; no power pin
+BASE_CAN,R_DEV4_TERM,120R 1%,YES,B03,
+BASE_CAN,JP_DEV4_TERM,PCB_SJ2_OPEN,OPEN,B03,PCB copper pads; default unbridged
+BASE_CAN,J_ESTOP,B2B-XH-A(LF)(SN),YES,B06,external normally-closed contact; unplug means STOP
+BASE_CAN,R_ESTOP_PD,10k,YES,B06,
+BASE_CAN,R_ENABLE_PD,10k,YES,B06,
+BASE_CAN,R_STATUS_PB7_PU,10k,YES,B06,
+BASE_CAN,R_STATUS_PB7_PD,100k,YES,B06,
+BASE_CAN,SW_FAULT,EVQP7A01P,YES,B06,vendor terminal 1 pair and terminal 2 pair; project L/R pad aliases
+BASE_485,J1,SFM-125-02-L-D-A-TR,YES,B01,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_485,J2,SFM-125-02-L-D-A-TR,YES,B01,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_485,J_PWR,B2B-PH-SM4-TB(LF)(SN),YES,B01,compact A1: 2A with AWG24; PHR-2 + SPH-002T-P0.5S; pin1=5V pin2=GND; SMT anchors mechanical only; differs from logical BASE_DBG VH
+BASE_485,F1,045102.5MRL,YES,B01,"2.5A 451; backup fuse, not semiconductor current limiting"
+BASE_485,SW_MAIN,JS102011SCQN,YES,B01,"vertical actuator SMT; 2 common; OFF=1-2; ON=2-3; enable only, never load current"
+BASE_485,R_MAIN_ON_PD,100k,YES,B01,
+BASE_485,U_MAIN,TPS22975DSGR,YES,B01,
+BASE_485,C_MAIN_CT,C1608C0G1H103J080AA,YES,B01,10nF; see MLCC selection and effective-C acceptance table
+BASE_485,C_MAIN_IN,C1608X7R1C105K080AC,YES,B01,1uF; see MLCC selection and effective-C acceptance table
+BASE_485,C_MAIN_HF,C1005X7R1H104K050BB,YES,B01,100nF; see MLCC selection and effective-C acceptance table
+BASE_485,C_BASE_5V,GRM21BR61E106KA73L,YES,B01,10uF; see MLCC selection and effective-C acceptance table
+BASE_485,C_BASE_5V2,GRM21BR61E106KA73L,YES,B01,10uF; see MLCC selection and effective-C acceptance table
+BASE_485,C_BASE_5V3,GRM21BR61E106KA73L,YES,B01,10uF; see MLCC selection and effective-C acceptance table
+BASE_485,C_BASE_5V4,GRM21BR61E106KA73L,YES,B01,10uF; see MLCC selection and effective-C acceptance table
+BASE_485,C_BASE_AUX,GRM21BR61E106KA73L,YES,B01,10uF; see MLCC selection and effective-C acceptance table
+BASE_485,U_AUX_MON,TPS3808G33DBVR,YES,B01,
+BASE_485,C_AUX_MON,C1005X7R1H104K050BB,YES,B01,100nF; see MLCC selection and effective-C acceptance table
+BASE_485,R_AUX_READY_PU,10k,YES,B01,
+BASE_485,R_AUX_READY_PD,100k,YES,B01,
+BASE_485,Q_BUS_ENABLE,DMN2056U-7,YES,B01,
+BASE_485,R_BUS_OE_PU,10k,YES,B01,
+BASE_485,R_PWR_GOOD,100R,YES,B01,
+BASE_485,U_DEV1_TXBUF,SN74LVC1G125DBVR,YES,B03,
+BASE_485,C_U_DEV1_TXBUF,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_485,U_DEV1_DIRBUF,SN74LVC1G125DBVR,YES,B03,
+BASE_485,C_U_DEV1_DIRBUF,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_485,R_DEV1_DIR_PD,10k,YES,B03,
+BASE_485,R_DEV1_DE_PD,10k,YES,B03,
+BASE_485,U_DEV1,THVD1450DR,YES,B03,
+BASE_485,C_DEV1,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_485,R_DEV1_R_PU,10k,YES,B03,RX idle while receiver disabled; pull-up on buffer supply domain
+BASE_485,R_DEV1_A_SURGE,CRCW060310R0JNEAHP,YES,B03,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_485,R_DEV1_B_SURGE,CRCW060310R0JNEAHP,YES,B03,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_485,D_DEV1_485,CDSOT23-SM712,YES,B03,"TVS at connector, before both series resistors; THVD1450 Figure 37 reference, board surge qualification pending"
+BASE_485,R_DEV1_RXSEL,0R,YES,B03,
+BASE_485,J_DEV1_485,B3B-XH-A(LF)(SN),YES,B03,A=TI non-inverting; cable end-to-end numbered continuity; no power pin
+BASE_485,R_DEV1_TERM,120R 1%,YES,B03,
+BASE_485,JP_DEV1_TERM,PCB_SJ2_OPEN,OPEN,B03,PCB copper pads; default unbridged
+BASE_485,U_DEV2_TXBUF,SN74LVC1G125DBVR,YES,B03,
+BASE_485,C_U_DEV2_TXBUF,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_485,U_DEV2_DIRBUF,SN74LVC1G125DBVR,YES,B03,
+BASE_485,C_U_DEV2_DIRBUF,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_485,R_DEV2_DIR_PD,10k,YES,B03,
+BASE_485,R_DEV2_DE_PD,10k,YES,B03,
+BASE_485,U_DEV2,THVD1450DR,YES,B03,
+BASE_485,C_DEV2,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_485,R_DEV2_R_PU,10k,YES,B03,RX idle while receiver disabled; pull-up on buffer supply domain
+BASE_485,R_DEV2_A_SURGE,CRCW060310R0JNEAHP,YES,B03,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_485,R_DEV2_B_SURGE,CRCW060310R0JNEAHP,YES,B03,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_485,D_DEV2_485,CDSOT23-SM712,YES,B03,"TVS at connector, before both series resistors; THVD1450 Figure 37 reference, board surge qualification pending"
+BASE_485,R_DEV2_RXSEL,0R,YES,B03,
+BASE_485,J_DEV2_485,B3B-XH-A(LF)(SN),YES,B03,A=TI non-inverting; cable end-to-end numbered continuity; no power pin
+BASE_485,R_DEV2_TERM,120R 1%,YES,B03,
+BASE_485,JP_DEV2_TERM,PCB_SJ2_OPEN,OPEN,B03,PCB copper pads; default unbridged
+BASE_485,U_DEV3_TXBUF,SN74LVC1G125DBVR,YES,B03,
+BASE_485,C_U_DEV3_TXBUF,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_485,U_DEV3_DIRBUF,SN74LVC1G125DBVR,YES,B03,
+BASE_485,C_U_DEV3_DIRBUF,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_485,R_DEV3_DIR_PD,10k,YES,B03,
+BASE_485,R_DEV3_DE_PD,10k,YES,B03,
+BASE_485,U_DEV3,THVD1450DR,YES,B03,
+BASE_485,C_DEV3,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_485,R_DEV3_R_PU,10k,YES,B03,RX idle while receiver disabled; pull-up on buffer supply domain
+BASE_485,R_DEV3_A_SURGE,CRCW060310R0JNEAHP,YES,B03,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_485,R_DEV3_B_SURGE,CRCW060310R0JNEAHP,YES,B03,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_485,D_DEV3_485,CDSOT23-SM712,YES,B03,"TVS at connector, before both series resistors; THVD1450 Figure 37 reference, board surge qualification pending"
+BASE_485,R_DEV3_RXSEL,0R,YES,B03,
+BASE_485,J_DEV3_485,B3B-XH-A(LF)(SN),YES,B03,A=TI non-inverting; cable end-to-end numbered continuity; no power pin
+BASE_485,R_DEV3_TERM,120R 1%,YES,B03,
+BASE_485,JP_DEV3_TERM,PCB_SJ2_OPEN,OPEN,B03,PCB copper pads; default unbridged
+BASE_485,U_DEV4_TXBUF,SN74LVC1G125DBVR,YES,B03,
+BASE_485,C_U_DEV4_TXBUF,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_485,U_DEV4_DIRBUF,SN74LVC1G125DBVR,YES,B03,
+BASE_485,C_U_DEV4_DIRBUF,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_485,R_DEV4_DIR_PD,10k,YES,B03,
+BASE_485,R_DEV4_DE_PD,10k,YES,B03,
+BASE_485,U_DEV4,THVD1450DR,YES,B03,
+BASE_485,C_DEV4,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_485,R_DEV4_R_PU,10k,YES,B03,RX idle while receiver disabled; pull-up on buffer supply domain
+BASE_485,R_DEV4_A_SURGE,CRCW060310R0JNEAHP,YES,B03,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_485,R_DEV4_B_SURGE,CRCW060310R0JNEAHP,YES,B03,10 ohm 5% pulse-proof; do not substitute ordinary 0603
+BASE_485,D_DEV4_485,CDSOT23-SM712,YES,B03,"TVS at connector, before both series resistors; THVD1450 Figure 37 reference, board surge qualification pending"
+BASE_485,R_DEV4_RXSEL,0R,YES,B03,
+BASE_485,J_DEV4_485,B3B-XH-A(LF)(SN),YES,B03,A=TI non-inverting; cable end-to-end numbered continuity; no power pin
+BASE_485,R_DEV4_TERM,120R 1%,YES,B03,
+BASE_485,JP_DEV4_TERM,PCB_SJ2_OPEN,OPEN,B03,PCB copper pads; default unbridged
+BASE_485,J_HOST,B4B-XH-A(LF)(SN),YES,B03,pin4 reference only
+BASE_485,R_HOST_IN,1k,YES,B03,
+BASE_485,R_HOST_PU,100k,YES,B03,
+BASE_485,U_HOST_RXBUF,SN74LVC1G125DBVR,YES,B03,
+BASE_485,C_U_HOST_RXBUF,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_485,J_RC,B4B-XH-A(LF)(SN),YES,B03,pin4 reference only
+BASE_485,R_RC_IN,1k,YES,B03,
+BASE_485,R_RC_PU,100k,YES,B03,
+BASE_485,U_RC_RXBUF,SN74LVC1G125DBVR,YES,B03,
+BASE_485,C_U_RC_RXBUF,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_485,J_ESTOP,B2B-XH-A(LF)(SN),YES,B06,external normally-closed contact; unplug means STOP
+BASE_485,R_ESTOP_PD,10k,YES,B06,
+BASE_485,R_ENABLE_PD,10k,YES,B06,
+BASE_485,R_STATUS_PB7_PU,10k,YES,B06,
+BASE_485,R_STATUS_PB7_PD,100k,YES,B06,
+BASE_485,SW_FAULT,EVQP7A01P,YES,B06,vendor terminal 1 pair and terminal 2 pair; project L/R pad aliases
+BASE_LINK,J1,SFM-125-02-L-D-A-TR,YES,B01,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_LINK,J2,SFM-125-02-L-D-A-TR,YES,B01,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_LINK,J_PWR,B2B-PH-SM4-TB(LF)(SN),YES,B01,compact A1: 2A with AWG24; PHR-2 + SPH-002T-P0.5S; pin1=5V pin2=GND; SMT anchors mechanical only; differs from logical BASE_DBG VH
+BASE_LINK,F1,045102.5MRL,YES,B01,"2.5A 451; backup fuse, not semiconductor current limiting"
+BASE_LINK,SW_MAIN,JS102011SCQN,YES,B01,"vertical actuator SMT; 2 common; OFF=1-2; ON=2-3; enable only, never load current"
+BASE_LINK,R_MAIN_ON_PD,100k,YES,B01,
+BASE_LINK,U_MAIN,TPS22975DSGR,YES,B01,
+BASE_LINK,C_MAIN_CT,C1608C0G1H103J080AA,YES,B01,10nF; see MLCC selection and effective-C acceptance table
+BASE_LINK,C_MAIN_IN,C1608X7R1C105K080AC,YES,B01,1uF; see MLCC selection and effective-C acceptance table
+BASE_LINK,C_MAIN_HF,C1005X7R1H104K050BB,YES,B01,100nF; see MLCC selection and effective-C acceptance table
+BASE_LINK,C_BASE_5V,GRM21BR61E106KA73L,YES,B01,10uF; see MLCC selection and effective-C acceptance table
+BASE_LINK,C_BASE_5V2,GRM21BR61E106KA73L,YES,B01,10uF; see MLCC selection and effective-C acceptance table
+BASE_LINK,C_BASE_5V3,GRM21BR61E106KA73L,YES,B01,10uF; see MLCC selection and effective-C acceptance table
+BASE_LINK,C_BASE_5V4,GRM21BR61E106KA73L,YES,B01,10uF; see MLCC selection and effective-C acceptance table
+BASE_LINK,C_BASE_AUX,GRM21BR61E106KA73L,YES,B01,10uF; see MLCC selection and effective-C acceptance table
+BASE_LINK,U_AUX_MON,TPS3808G33DBVR,YES,B01,
+BASE_LINK,C_AUX_MON,C1005X7R1H104K050BB,YES,B01,100nF; see MLCC selection and effective-C acceptance table
+BASE_LINK,R_AUX_READY_PU,10k,YES,B01,
+BASE_LINK,R_AUX_READY_PD,100k,YES,B01,
+BASE_LINK,Q_BUS_ENABLE,DMN2056U-7,YES,B01,
+BASE_LINK,R_BUS_OE_PU,10k,YES,B01,
+BASE_LINK,R_PWR_GOOD,100R,YES,B01,
+BASE_LINK,U_DEV1_TXBUF,SN74LVC1G125DBVR,YES,B03,
+BASE_LINK,C_U_DEV1_TXBUF,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_LINK,U_DEV1_TTLBUF,SN74LVC1G125DBVR,YES,B03,
+BASE_LINK,C_U_DEV1_TTLBUF,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_LINK,R_DEV1_TTL_IN,1k,YES,B03,
+BASE_LINK,R_DEV1_TTL_PU,100k,YES,B03,
+BASE_LINK,R_DEV1_TTL_SEL,0R,YES,B03,remove RXSEL for TTL mode
+BASE_LINK,J_DEV1_TTL,B4B-XH-A(LF)(SN),YES,B03,pin4 reference only; not external power supply
+BASE_LINK,U_DEV2_TXBUF,SN74LVC1G125DBVR,YES,B03,
+BASE_LINK,C_U_DEV2_TXBUF,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_LINK,U_DEV2_TTLBUF,SN74LVC1G125DBVR,YES,B03,
+BASE_LINK,C_U_DEV2_TTLBUF,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_LINK,R_DEV2_TTL_IN,1k,YES,B03,
+BASE_LINK,R_DEV2_TTL_PU,100k,YES,B03,
+BASE_LINK,R_DEV2_TTL_SEL,0R,YES,B03,remove RXSEL for TTL mode
+BASE_LINK,J_DEV2_TTL,B4B-XH-A(LF)(SN),YES,B03,pin4 reference only; not external power supply
+BASE_LINK,U_DEV3_TXBUF,SN74LVC1G125DBVR,YES,B03,
+BASE_LINK,C_U_DEV3_TXBUF,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_LINK,U_DEV3_TTLBUF,SN74LVC1G125DBVR,YES,B03,
+BASE_LINK,C_U_DEV3_TTLBUF,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_LINK,R_DEV3_TTL_IN,1k,YES,B03,
+BASE_LINK,R_DEV3_TTL_PU,100k,YES,B03,
+BASE_LINK,R_DEV3_TTL_SEL,0R,YES,B03,remove RXSEL for TTL mode
+BASE_LINK,J_DEV3_TTL,B4B-XH-A(LF)(SN),YES,B03,pin4 reference only; not external power supply
+BASE_LINK,U_DEV4_TXBUF,SN74LVC1G125DBVR,YES,B03,
+BASE_LINK,C_U_DEV4_TXBUF,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_LINK,U_DEV4_TTLBUF,SN74LVC1G125DBVR,YES,B03,
+BASE_LINK,C_U_DEV4_TTLBUF,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_LINK,R_DEV4_TTL_IN,1k,YES,B03,
+BASE_LINK,R_DEV4_TTL_PU,100k,YES,B03,
+BASE_LINK,R_DEV4_TTL_SEL,0R,YES,B03,remove RXSEL for TTL mode
+BASE_LINK,J_DEV4_TTL,B4B-XH-A(LF)(SN),YES,B03,pin4 reference only; not external power supply
+BASE_LINK,J_HOST,B4B-XH-A(LF)(SN),YES,B03,pin4 reference only
+BASE_LINK,R_HOST_IN,1k,YES,B03,
+BASE_LINK,R_HOST_PU,100k,YES,B03,
+BASE_LINK,U_HOST_RXBUF,SN74LVC1G125DBVR,YES,B03,
+BASE_LINK,C_U_HOST_RXBUF,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_LINK,J_RC,B4B-XH-A(LF)(SN),YES,B03,pin4 reference only
+BASE_LINK,R_RC_IN,1k,YES,B03,
+BASE_LINK,R_RC_PU,100k,YES,B03,
+BASE_LINK,U_RC_RXBUF,SN74LVC1G125DBVR,YES,B03,
+BASE_LINK,C_U_RC_RXBUF,C1005X7R1H104K050BB,YES,B03,100nF; see MLCC selection and effective-C acceptance table
+BASE_LINK,U_LINK_SCK,SN74LVC1G125DBVR,YES,B04,
+BASE_LINK,C_U_LINK_SCK,C1005X7R1H104K050BB,YES,B04,100nF; see MLCC selection and effective-C acceptance table
+BASE_LINK,R_LINK_SCK_IDLE,100k,YES,B04,
+BASE_LINK,R_LINK_SCK_OUT,22R,MASTER,B04,OUT xor IN; default MASTER
+BASE_LINK,R_LINK_SCK_IN,0R,SLAVE,B04,OUT xor IN; default MASTER
+BASE_LINK,U_LINK_MOSI,SN74LVC1G125DBVR,YES,B04,
+BASE_LINK,C_U_LINK_MOSI,C1005X7R1H104K050BB,YES,B04,100nF; see MLCC selection and effective-C acceptance table
+BASE_LINK,R_LINK_MOSI_IDLE,100k,YES,B04,
+BASE_LINK,R_LINK_MOSI_OUT,22R,MASTER,B04,OUT xor IN; default MASTER
+BASE_LINK,R_LINK_MOSI_IN,0R,SLAVE,B04,OUT xor IN; default MASTER
+BASE_LINK,U_LINK_MISO,SN74LVC1G125DBVR,YES,B04,
+BASE_LINK,C_U_LINK_MISO,C1005X7R1H104K050BB,YES,B04,100nF; see MLCC selection and effective-C acceptance table
+BASE_LINK,R_LINK_MISO_IDLE,100k,YES,B04,
+BASE_LINK,R_LINK_MISO_OUT,22R,SLAVE,B04,OUT xor IN; default MASTER
+BASE_LINK,R_LINK_MISO_IN,0R,MASTER,B04,OUT xor IN; default MASTER
+BASE_LINK,U_LINK_NSS,SN74LVC1G125DBVR,YES,B04,
+BASE_LINK,C_U_LINK_NSS,C1005X7R1H104K050BB,YES,B04,100nF; see MLCC selection and effective-C acceptance table
+BASE_LINK,R_LINK_NSS_IDLE,100k,YES,B04,
+BASE_LINK,R_LINK_NSS_OUT,22R,MASTER,B04,OUT xor IN; default MASTER
+BASE_LINK,R_LINK_NSS_IN,0R,SLAVE,B04,OUT xor IN; default MASTER
+BASE_LINK,U_LINK_READY,SN74LVC1G125DBVR,YES,B04,
+BASE_LINK,C_U_LINK_READY,C1005X7R1H104K050BB,YES,B04,100nF; see MLCC selection and effective-C acceptance table
+BASE_LINK,R_LINK_READY_IDLE,100k,YES,B04,
+BASE_LINK,R_LINK_READY_OUT,22R,SLAVE,B04,OUT xor IN; default MASTER
+BASE_LINK,R_LINK_READY_IN,0R,MASTER,B04,OUT xor IN; default MASTER
+BASE_LINK,J_LINK,FTSH-106-01-L-DV,YES,B04,compact SPI: 2x6 1.27mm SMT; unchanged electrical pin sequence; not compatible with previous 2.54mm cable
+BASE_LINK,R_LINK_SYNC,22R,DNP,B04,optional SYNC needs explicit role/receiver buffering
+BASE_LINK,R_NSS_PU,10k,YES,B04,
+BASE_LINK,R_READY_PD,100k,YES,B04,
+BASE_LINK,J_ESTOP,B2B-XH-A(LF)(SN),YES,B06,external normally-closed contact; unplug means STOP
+BASE_LINK,R_ESTOP_PD,10k,YES,B06,
+BASE_LINK,R_ENABLE_PD,10k,YES,B06,
+BASE_LINK,R_STATUS_PB7_PU,10k,YES,B06,
+BASE_LINK,R_STATUS_PB7_PD,100k,YES,B06,
+BASE_LINK,SW_FAULT,EVQP7A01P,YES,B06,vendor terminal 1 pair and terminal 2 pair; project L/R pad aliases
+BASE_IO,J1,SFM-125-02-L-D-A-TR,YES,B01,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_IO,J2,SFM-125-02-L-D-A-TR,YES,B01,v0.9.2 contact i = manufacturer pin i; BASE top; SFM numbering is mirrored in X versus TFM component view
+BASE_IO,J_PWR,B2B-PH-SM4-TB(LF)(SN),YES,B01,compact A1: 2A with AWG24; PHR-2 + SPH-002T-P0.5S; pin1=5V pin2=GND; SMT anchors mechanical only; differs from logical BASE_DBG VH
+BASE_IO,F1,045102.5MRL,YES,B01,"2.5A 451; backup fuse, not semiconductor current limiting"
+BASE_IO,SW_MAIN,JS102011SCQN,YES,B01,"vertical actuator SMT; 2 common; OFF=1-2; ON=2-3; enable only, never load current"
+BASE_IO,R_MAIN_ON_PD,100k,YES,B01,
+BASE_IO,U_MAIN,TPS22975DSGR,YES,B01,
+BASE_IO,C_MAIN_CT,C1608C0G1H103J080AA,YES,B01,10nF; see MLCC selection and effective-C acceptance table
+BASE_IO,C_MAIN_IN,C1608X7R1C105K080AC,YES,B01,1uF; see MLCC selection and effective-C acceptance table
+BASE_IO,C_MAIN_HF,C1005X7R1H104K050BB,YES,B01,100nF; see MLCC selection and effective-C acceptance table
+BASE_IO,C_BASE_5V,GRM21BR61E106KA73L,YES,B01,10uF; see MLCC selection and effective-C acceptance table
+BASE_IO,C_BASE_5V2,GRM21BR61E106KA73L,YES,B01,10uF; see MLCC selection and effective-C acceptance table
+BASE_IO,C_BASE_5V3,GRM21BR61E106KA73L,YES,B01,10uF; see MLCC selection and effective-C acceptance table
+BASE_IO,C_BASE_5V4,GRM21BR61E106KA73L,YES,B01,10uF; see MLCC selection and effective-C acceptance table
+BASE_IO,C_BASE_AUX,GRM21BR61E106KA73L,YES,B01,10uF; see MLCC selection and effective-C acceptance table
+BASE_IO,U_AUX_MON,TPS3808G33DBVR,YES,B01,
+BASE_IO,C_AUX_MON,C1005X7R1H104K050BB,YES,B01,100nF; see MLCC selection and effective-C acceptance table
+BASE_IO,R_AUX_READY_PU,10k,YES,B01,
+BASE_IO,R_AUX_READY_PD,100k,YES,B01,
+BASE_IO,Q_BUS_ENABLE,DMN2056U-7,YES,B01,
+BASE_IO,R_BUS_OE_PU,10k,YES,B01,
+BASE_IO,R_PWR_GOOD,100R,YES,B01,
+BASE_IO,U_SD_I2C_ISO,SN74CB3Q3245PWR,YES,B01,
+BASE_IO,C_SD_I2C_ISO,C1005X7R1H104K050BB,YES,B01,100nF; see MLCC selection and effective-C acceptance table
+BASE_IO,J_I2C,B4B-XH-A(LF)(SN),YES,B04,
+BASE_IO,R_I2C_PB10,4.7k,YES,B04,
+BASE_IO,R_I2C_PB11,4.7k,YES,B04,
+BASE_IO,TP_EXP_PA0,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PA1,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PA10,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PA15,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PA2,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PA3,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PA4,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PA5,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PA6,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PA7,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PA8,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PB0,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PB1,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PB10,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PB11,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PB12,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PB13,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PB14,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PB15,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PB2,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PB3,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PB4,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PB7,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PC0,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PC1,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PC10,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PC11,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PC12,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PC4,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PC5,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PC6,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PC7,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PC8,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PC9,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PD0,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PD1,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PD11,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PD14,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PD15,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PD2,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PD5,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PD6,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PD8,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PD9,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PE0,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PE1,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PE10,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PE7,PCB_TP_0.8,YES,B04,
+BASE_IO,TP_EXP_PE8,PCB_TP_0.8,YES,B04,
+BASE_IO,J_SD,DM3AT-SF-PEJM5,YES,B05,CD_A/CD_B use manufacturer drawing pads
+BASE_IO,R_SD_CLK,22R,YES,B05,
+BASE_IO,R_SD_PU_PC8,10k,YES,B05,
+BASE_IO,R_SD_PU_PC9,10k,YES,B05,
+BASE_IO,R_SD_PU_PC10,10k,YES,B05,
+BASE_IO,R_SD_PU_PC11,10k,YES,B05,
+BASE_IO,R_SD_PU_PD2,10k,YES,B05,
+BASE_IO,R_SD_CD_PU,10k,YES,B05,
+BASE_IO,C_SD_BULK,GRM21BR61E106KA73L,YES,B05,10uF; see MLCC selection and effective-C acceptance table
+BASE_IO,C_SD_HF,C1005X7R1H104K050BB,YES,B05,100nF; see MLCC selection and effective-C acceptance table
+BASE_IO,R_PWM_PC6,220R,YES,B05,
+BASE_IO,R_PWM_PC6_PD,100k,YES,B05,
+BASE_IO,R_PWM_PC7,220R,YES,B05,
+BASE_IO,R_PWM_PC7_PD,100k,YES,B05,
+BASE_IO,R_PWM_PA2,220R,YES,B05,
+BASE_IO,R_PWM_PA2_PD,100k,YES,B05,
+BASE_IO,R_PWM_PA3,220R,YES,B05,
+BASE_IO,R_PWM_PA3_PD,100k,YES,B05,
+BASE_IO,RV_PC0,TC33X-2-103E,YES,B05,"10k +/-25%; pin2 wiper; clockwise toward pin3 raises voltage; adjustment only, not precision reference"
+BASE_IO,R_ADC_PC0,1k,YES,B05,
+BASE_IO,C_ADC_PC0,C1608C0G1H103J080AA,YES,B05,10nF; see MLCC selection and effective-C acceptance table
+BASE_IO,TP_ADC_PC0,PCB_TP_0.8,YES,B05,remove potentiometer before external signal injection
+BASE_IO,RV_PC1,TC33X-2-103E,YES,B05,"10k +/-25%; pin2 wiper; clockwise toward pin3 raises voltage; adjustment only, not precision reference"
+BASE_IO,R_ADC_PC1,1k,YES,B05,
+BASE_IO,C_ADC_PC1,C1608C0G1H103J080AA,YES,B05,10nF; see MLCC selection and effective-C acceptance table
+BASE_IO,TP_ADC_PC1,PCB_TP_0.8,YES,B05,remove potentiometer before external signal injection
+BASE_IO,J_ESTOP,B2B-XH-A(LF)(SN),YES,B06,external normally-closed contact; unplug means STOP
+BASE_IO,R_ESTOP_PD,10k,YES,B06,
+BASE_IO,R_ENABLE_PD,10k,YES,B06,
+BASE_IO,U_ENABLE,SN74LVC1G08DBVR,YES,B06,
+BASE_IO,C_U_ENABLE,C1005X7R1H104K050BB,YES,B06,100nF; see MLCC selection and effective-C acceptance table
+BASE_IO,R_LOAD_EN_PD,100k,YES,B06,
+BASE_IO,U_LOAD,TPS22919DCKR,YES,B06,
+BASE_IO,R_U_LOAD_QOD,1k,YES,B06,
+BASE_IO,C_U_LOAD_IN,C1608X7R1C105K080AC,YES,B06,1uF; see MLCC selection and effective-C acceptance table
+BASE_IO,C_U_LOAD_OUT,C1005X7R1H104K050BB,YES,B06,100nF; see MLCC selection and effective-C acceptance table
+BASE_IO,J_LOAD,B2B-XH-A(LF)(SN),YES,B06,
+BASE_IO,R_LOAD,RC1206FR-07200RL,OPTION,B06,four parallel 200 ohm; fit all four for 50 ohm 1W nominal dummy load
+BASE_IO,R_LOAD2,RC1206FR-07200RL,OPTION,B06,four parallel 200 ohm; fit all four for 50 ohm 1W nominal dummy load
+BASE_IO,R_LOAD3,RC1206FR-07200RL,OPTION,B06,four parallel 200 ohm; fit all four for 50 ohm 1W nominal dummy load
+BASE_IO,R_LOAD4,RC1206FR-07200RL,OPTION,B06,four parallel 200 ohm; fit all four for 50 ohm 1W nominal dummy load
+BASE_IO,R_STATUS_PB7_PU,10k,YES,B06,
+BASE_IO,R_STATUS_PB7_PD,100k,YES,B06,
+BASE_IO,SW_FAULT,EVQP7A01P,YES,B06,vendor terminal 1 pair and terminal 2 pair; project L/R pad aliases
+BASE_IO,J_PWM,FTSH-104-01-L-DV,YES,B05,"compact 1.27mm 2x4 SMT PWM bank; odd pins PC6/PC7/PA2/PA3, even GND; no servo power"

@@ -1,0 +1,616 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1654" height="1169" viewBox="0 0 1654 1169">
+<rect width="1654" height="1169" fill="white"/>
+<rect x="15" y="15" width="1624" height="1139" fill="none" stroke="#9c2938"/>
+<text x="35" y="59" font-size="18" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">CORE / C07 / Core stack interface and test points</text>
+<text x="35" y="89" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">SCHEMATIC DRAFT | Footprints pending | NC pins intentionally unwired | Not for fabrication</text>
+<text x="220" y="136.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">J1</text>
+<text x="220" y="149.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">TFM-125-02-L-D-A-TR</text>
+<line x1="155.0" y1="169.0" x2="120.0" y2="169.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="167.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">CAN1_H</text>
+<line x1="155.0" y1="184.0" x2="120.0" y2="184.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="182.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">CAN1_L</text>
+<line x1="155.0" y1="199.0" x2="120.0" y2="199.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="197.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">GND</text>
+<line x1="155.0" y1="214.0" x2="120.0" y2="214.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="212.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">CAN2_H</text>
+<line x1="155.0" y1="229.0" x2="120.0" y2="229.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="227.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">CAN2_L</text>
+<line x1="155.0" y1="244.0" x2="120.0" y2="244.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="242.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">GND</text>
+<line x1="155.0" y1="259.0" x2="120.0" y2="259.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="257.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">CAN3_H</text>
+<line x1="155.0" y1="274.0" x2="120.0" y2="274.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="272.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">CAN3_L</text>
+<line x1="155.0" y1="289.0" x2="120.0" y2="289.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="287.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">GND</text>
+<line x1="155.0" y1="304.0" x2="120.0" y2="304.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="302.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">5V_IN</text>
+<line x1="155.0" y1="319.0" x2="120.0" y2="319.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="317.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">GND</text>
+<line x1="155.0" y1="334.0" x2="120.0" y2="334.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="332.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">5V_IN</text>
+<line x1="155.0" y1="349.0" x2="120.0" y2="349.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="347.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">GND</text>
+<line x1="155.0" y1="364.0" x2="120.0" y2="364.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="362.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">5V_IN</text>
+<line x1="155.0" y1="379.0" x2="120.0" y2="379.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="377.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">GND</text>
+<line x1="155.0" y1="394.0" x2="120.0" y2="394.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="392.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">5V_IN</text>
+<line x1="155.0" y1="409.0" x2="120.0" y2="409.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="407.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">GND</text>
+<line x1="155.0" y1="424.0" x2="120.0" y2="424.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="422.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">5V_IN</text>
+<line x1="155.0" y1="439.0" x2="120.0" y2="439.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="437.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">GND</text>
+<line x1="155.0" y1="454.0" x2="120.0" y2="454.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="452.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">5V_IN</text>
+<line x1="155.0" y1="469.0" x2="120.0" y2="469.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="467.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">GND</text>
+<line x1="155.0" y1="484.0" x2="120.0" y2="484.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="482.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_AUX</text>
+<line x1="155.0" y1="499.0" x2="120.0" y2="499.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="497.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">GND</text>
+<line x1="155.0" y1="514.0" x2="120.0" y2="514.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="512.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_AUX</text>
+<line x1="155.0" y1="529.0" x2="120.0" y2="529.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="527.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">GND</text>
+<line x1="285.0" y1="169.0" x2="320.0" y2="169.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="167.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PA0</text>
+<line x1="285.0" y1="184.0" x2="320.0" y2="184.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="182.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PA1</text>
+<line x1="285.0" y1="199.0" x2="320.0" y2="199.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="197.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<line x1="285.0" y1="214.0" x2="320.0" y2="214.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="212.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PA10</text>
+<line x1="285.0" y1="229.0" x2="320.0" y2="229.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="227.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PA15</text>
+<line x1="285.0" y1="244.0" x2="320.0" y2="244.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="242.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<line x1="285.0" y1="259.0" x2="320.0" y2="259.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="257.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PA2</text>
+<line x1="285.0" y1="274.0" x2="320.0" y2="274.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="272.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PA3</text>
+<line x1="285.0" y1="289.0" x2="320.0" y2="289.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="287.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<line x1="285.0" y1="304.0" x2="320.0" y2="304.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="302.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PA4</text>
+<line x1="285.0" y1="319.0" x2="320.0" y2="319.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="317.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PA5</text>
+<line x1="285.0" y1="334.0" x2="320.0" y2="334.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="332.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<line x1="285.0" y1="349.0" x2="320.0" y2="349.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="347.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PA6</text>
+<line x1="285.0" y1="364.0" x2="320.0" y2="364.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="362.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PA7</text>
+<line x1="285.0" y1="379.0" x2="320.0" y2="379.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="377.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<line x1="285.0" y1="394.0" x2="320.0" y2="394.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="392.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PA8</text>
+<line x1="285.0" y1="409.0" x2="320.0" y2="409.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="407.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PB0</text>
+<line x1="285.0" y1="424.0" x2="320.0" y2="424.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="422.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<line x1="285.0" y1="439.0" x2="320.0" y2="439.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="437.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PB1</text>
+<line x1="285.0" y1="454.0" x2="320.0" y2="454.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="452.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PB10</text>
+<line x1="285.0" y1="469.0" x2="320.0" y2="469.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="467.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<line x1="285.0" y1="484.0" x2="320.0" y2="484.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="482.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PB11</text>
+<line x1="285.0" y1="499.0" x2="320.0" y2="499.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="497.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PB12</text>
+<line x1="285.0" y1="514.0" x2="320.0" y2="514.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="512.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<line x1="285.0" y1="529.0" x2="320.0" y2="529.0" stroke="#19804a" stroke-width="1"/>
+<text x="320.0" y="527.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PB13</text>
+<text x="615" y="136.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">J2</text>
+<text x="615" y="149.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">TFM-125-02-L-D-A-TR</text>
+<line x1="550.0" y1="169.0" x2="515.0" y2="169.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="167.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PB14</text>
+<line x1="550.0" y1="184.0" x2="515.0" y2="184.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="182.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">GND</text>
+<line x1="550.0" y1="199.0" x2="515.0" y2="199.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="197.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PB15</text>
+<line x1="550.0" y1="214.0" x2="515.0" y2="214.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="212.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PB2</text>
+<line x1="550.0" y1="229.0" x2="515.0" y2="229.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="227.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">GND</text>
+<line x1="550.0" y1="244.0" x2="515.0" y2="244.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="242.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PB3</text>
+<line x1="550.0" y1="259.0" x2="515.0" y2="259.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="257.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PB4</text>
+<line x1="550.0" y1="274.0" x2="515.0" y2="274.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="272.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">GND</text>
+<line x1="550.0" y1="289.0" x2="515.0" y2="289.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="287.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PB7</text>
+<line x1="550.0" y1="304.0" x2="515.0" y2="304.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="302.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PC0</text>
+<line x1="550.0" y1="319.0" x2="515.0" y2="319.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="317.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">GND</text>
+<line x1="550.0" y1="334.0" x2="515.0" y2="334.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="332.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PC1</text>
+<line x1="550.0" y1="349.0" x2="515.0" y2="349.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="347.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PC10</text>
+<line x1="550.0" y1="364.0" x2="515.0" y2="364.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="362.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">GND</text>
+<line x1="550.0" y1="379.0" x2="515.0" y2="379.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="377.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PC11</text>
+<line x1="550.0" y1="394.0" x2="515.0" y2="394.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="392.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PC12</text>
+<line x1="550.0" y1="409.0" x2="515.0" y2="409.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="407.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">GND</text>
+<line x1="550.0" y1="424.0" x2="515.0" y2="424.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="422.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PC4</text>
+<line x1="550.0" y1="439.0" x2="515.0" y2="439.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="437.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PC5</text>
+<line x1="550.0" y1="454.0" x2="515.0" y2="454.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="452.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">GND</text>
+<line x1="550.0" y1="469.0" x2="515.0" y2="469.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="467.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PC6</text>
+<line x1="550.0" y1="484.0" x2="515.0" y2="484.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="482.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PC7</text>
+<line x1="550.0" y1="499.0" x2="515.0" y2="499.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="497.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">GND</text>
+<line x1="550.0" y1="514.0" x2="515.0" y2="514.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="512.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PC8</text>
+<line x1="550.0" y1="529.0" x2="515.0" y2="529.0" stroke="#19804a" stroke-width="1"/>
+<text x="515.0" y="527.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PC9</text>
+<line x1="680.0" y1="169.0" x2="715.0" y2="169.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="167.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<line x1="680.0" y1="184.0" x2="715.0" y2="184.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="182.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PD0</text>
+<line x1="680.0" y1="199.0" x2="715.0" y2="199.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="197.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PD1</text>
+<line x1="680.0" y1="214.0" x2="715.0" y2="214.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="212.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<line x1="680.0" y1="229.0" x2="715.0" y2="229.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="227.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PD11</text>
+<line x1="680.0" y1="244.0" x2="715.0" y2="244.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="242.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PD14</text>
+<line x1="680.0" y1="259.0" x2="715.0" y2="259.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="257.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<line x1="680.0" y1="274.0" x2="715.0" y2="274.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="272.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PD15</text>
+<line x1="680.0" y1="289.0" x2="715.0" y2="289.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="287.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PD2</text>
+<line x1="680.0" y1="304.0" x2="715.0" y2="304.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="302.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<line x1="680.0" y1="319.0" x2="715.0" y2="319.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="317.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PD5</text>
+<line x1="680.0" y1="334.0" x2="715.0" y2="334.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="332.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PD6</text>
+<line x1="680.0" y1="349.0" x2="715.0" y2="349.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="347.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<line x1="680.0" y1="364.0" x2="715.0" y2="364.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="362.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PD8</text>
+<line x1="680.0" y1="379.0" x2="715.0" y2="379.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="377.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PD9</text>
+<line x1="680.0" y1="394.0" x2="715.0" y2="394.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="392.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<line x1="680.0" y1="409.0" x2="715.0" y2="409.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="407.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PE0</text>
+<line x1="680.0" y1="424.0" x2="715.0" y2="424.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="422.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PE1</text>
+<line x1="680.0" y1="439.0" x2="715.0" y2="439.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="437.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<line x1="680.0" y1="454.0" x2="715.0" y2="454.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="452.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PE10</text>
+<line x1="680.0" y1="469.0" x2="715.0" y2="469.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="467.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PE7</text>
+<line x1="680.0" y1="484.0" x2="715.0" y2="484.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="482.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<line x1="680.0" y1="499.0" x2="715.0" y2="499.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="497.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PE8</text>
+<line x1="680.0" y1="514.0" x2="715.0" y2="514.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="512.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<line x1="680.0" y1="529.0" x2="715.0" y2="529.0" stroke="#19804a" stroke-width="1"/>
+<text x="715.0" y="527.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<text x="1010" y="136.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">TP_5V_IN</text>
+<text x="1010" y="149.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">PCB_TP_0.8</text>
+<line x1="945.0" y1="174.0" x2="910.0" y2="174.0" stroke="#19804a" stroke-width="1"/>
+<text x="910.0" y="172.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">5V_IN</text>
+<text x="1405" y="136.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">TP_3V3_D</text>
+<text x="1405" y="149.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">PCB_TP_0.8</text>
+<line x1="1340.0" y1="174.0" x2="1305.0" y2="174.0" stroke="#19804a" stroke-width="1"/>
+<text x="1305.0" y="172.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_D</text>
+<text x="1010" y="216.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">TP_3V3_A</text>
+<text x="1010" y="229.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">PCB_TP_0.8</text>
+<line x1="945.0" y1="254.0" x2="910.0" y2="254.0" stroke="#19804a" stroke-width="1"/>
+<text x="910.0" y="252.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_A</text>
+<text x="1405" y="216.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">TP_3V3_AUX</text>
+<text x="1405" y="229.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">PCB_TP_0.8</text>
+<line x1="1340.0" y1="254.0" x2="1305.0" y2="254.0" stroke="#19804a" stroke-width="1"/>
+<text x="1305.0" y="252.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_AUX</text>
+<text x="1010" y="296.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">TP_VCORE</text>
+<text x="1010" y="309.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">PCB_TP_0.8</text>
+<line x1="945.0" y1="334.0" x2="910.0" y2="334.0" stroke="#19804a" stroke-width="1"/>
+<text x="910.0" y="332.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">VCORE</text>
+<text x="1405" y="296.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">TP_GND</text>
+<text x="1405" y="309.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">PCB_TP_0.8</text>
+<line x1="1340.0" y1="334.0" x2="1305.0" y2="334.0" stroke="#19804a" stroke-width="1"/>
+<text x="1305.0" y="332.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">GND</text>
+<text x="1010" y="376.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">TP_NRST</text>
+<text x="1010" y="389.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">PCB_TP_0.8</text>
+<line x1="945.0" y1="414.0" x2="910.0" y2="414.0" stroke="#19804a" stroke-width="1"/>
+<text x="910.0" y="412.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">NRST</text>
+<text x="1405" y="376.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">TP_BOOT0</text>
+<text x="1405" y="389.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">PCB_TP_0.8</text>
+<line x1="1340.0" y1="414.0" x2="1305.0" y2="414.0" stroke="#19804a" stroke-width="1"/>
+<text x="1305.0" y="412.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">BOOT0</text>
+<text x="1010" y="456.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">TP_TEMP_OK</text>
+<text x="1010" y="469.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">PCB_TP_0.8</text>
+<line x1="945.0" y1="494.0" x2="910.0" y2="494.0" stroke="#19804a" stroke-width="1"/>
+<text x="910.0" y="492.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">TEMP_OK</text>
+<text x="1405" y="456.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">TP_HEAT_ALLOW</text>
+<text x="1405" y="469.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">PCB_TP_0.8</text>
+<line x1="1340.0" y1="494.0" x2="1305.0" y2="494.0" stroke="#19804a" stroke-width="1"/>
+<text x="1305.0" y="492.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">HEAT_ALLOW</text>
+<text x="1010" y="536.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">TP_HEAT_5V</text>
+<text x="1010" y="549.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">PCB_TP_0.8</text>
+<line x1="945.0" y1="574.0" x2="910.0" y2="574.0" stroke="#19804a" stroke-width="1"/>
+<text x="910.0" y="572.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">HEAT_5V</text>
+<text x="1405" y="536.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">TP_AUX_FAULT_N</text>
+<text x="1405" y="549.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">PCB_TP_0.8</text>
+<line x1="1340.0" y1="574.0" x2="1305.0" y2="574.0" stroke="#19804a" stroke-width="1"/>
+<text x="1305.0" y="572.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">AUX_FAULT_N</text>
+<text x="220" y="566.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">TP_BUCK_PG</text>
+<text x="220" y="579.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">PCB_TP_0.8</text>
+<line x1="155.0" y1="604.0" x2="120.0" y2="604.0" stroke="#19804a" stroke-width="1"/>
+<text x="120.0" y="602.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">BUCK_PG</text>
+<rect x="170.0" y="159.0" width="100.0" height="380.0" fill="none" stroke="#9c2938"/>
+<line x1="155.0" y1="169.0" x2="170.0" y2="169.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="171.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<text x="160.0" y="166.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<line x1="155.0" y1="184.0" x2="170.0" y2="184.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="186.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">2</text>
+<text x="160.0" y="181.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">2</text>
+<line x1="155.0" y1="199.0" x2="170.0" y2="199.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="201.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">3</text>
+<text x="160.0" y="196.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">3</text>
+<line x1="155.0" y1="214.0" x2="170.0" y2="214.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="216.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">4</text>
+<text x="160.0" y="211.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">4</text>
+<line x1="155.0" y1="229.0" x2="170.0" y2="229.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="231.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">5</text>
+<text x="160.0" y="226.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">5</text>
+<line x1="155.0" y1="244.0" x2="170.0" y2="244.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="246.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">6</text>
+<text x="160.0" y="241.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">6</text>
+<line x1="155.0" y1="259.0" x2="170.0" y2="259.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="261.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">7</text>
+<text x="160.0" y="256.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">7</text>
+<line x1="155.0" y1="274.0" x2="170.0" y2="274.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="276.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">8</text>
+<text x="160.0" y="271.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">8</text>
+<line x1="155.0" y1="289.0" x2="170.0" y2="289.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="291.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">9</text>
+<text x="160.0" y="286.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">9</text>
+<line x1="155.0" y1="304.0" x2="170.0" y2="304.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="306.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">10</text>
+<text x="160.0" y="301.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">10</text>
+<line x1="155.0" y1="319.0" x2="170.0" y2="319.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="321.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">11</text>
+<text x="160.0" y="316.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">11</text>
+<line x1="155.0" y1="334.0" x2="170.0" y2="334.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="336.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">12</text>
+<text x="160.0" y="331.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">12</text>
+<line x1="155.0" y1="349.0" x2="170.0" y2="349.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="351.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">13</text>
+<text x="160.0" y="346.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">13</text>
+<line x1="155.0" y1="364.0" x2="170.0" y2="364.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="366.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">14</text>
+<text x="160.0" y="361.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">14</text>
+<line x1="155.0" y1="379.0" x2="170.0" y2="379.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="381.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">15</text>
+<text x="160.0" y="376.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">15</text>
+<line x1="155.0" y1="394.0" x2="170.0" y2="394.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="396.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">16</text>
+<text x="160.0" y="391.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">16</text>
+<line x1="155.0" y1="409.0" x2="170.0" y2="409.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="411.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">17</text>
+<text x="160.0" y="406.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">17</text>
+<line x1="155.0" y1="424.0" x2="170.0" y2="424.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="426.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">18</text>
+<text x="160.0" y="421.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">18</text>
+<line x1="155.0" y1="439.0" x2="170.0" y2="439.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="441.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">19</text>
+<text x="160.0" y="436.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">19</text>
+<line x1="155.0" y1="454.0" x2="170.0" y2="454.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="456.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">20</text>
+<text x="160.0" y="451.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">20</text>
+<line x1="155.0" y1="469.0" x2="170.0" y2="469.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="471.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">21</text>
+<text x="160.0" y="466.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">21</text>
+<line x1="155.0" y1="484.0" x2="170.0" y2="484.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="486.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">22</text>
+<text x="160.0" y="481.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">22</text>
+<line x1="155.0" y1="499.0" x2="170.0" y2="499.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="501.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">23</text>
+<text x="160.0" y="496.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">23</text>
+<line x1="155.0" y1="514.0" x2="170.0" y2="514.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="516.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">24</text>
+<text x="160.0" y="511.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">24</text>
+<line x1="155.0" y1="529.0" x2="170.0" y2="529.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="531.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">25</text>
+<text x="160.0" y="526.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">25</text>
+<line x1="285.0" y1="169.0" x2="270.0" y2="169.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="171.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">26</text>
+<text x="280.0" y="166.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">26</text>
+<line x1="285.0" y1="184.0" x2="270.0" y2="184.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="186.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">27</text>
+<text x="280.0" y="181.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">27</text>
+<line x1="285.0" y1="199.0" x2="270.0" y2="199.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="201.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">28</text>
+<text x="280.0" y="196.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">28</text>
+<line x1="285.0" y1="214.0" x2="270.0" y2="214.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="216.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">29</text>
+<text x="280.0" y="211.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">29</text>
+<line x1="285.0" y1="229.0" x2="270.0" y2="229.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="231.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">30</text>
+<text x="280.0" y="226.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">30</text>
+<line x1="285.0" y1="244.0" x2="270.0" y2="244.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="246.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">31</text>
+<text x="280.0" y="241.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">31</text>
+<line x1="285.0" y1="259.0" x2="270.0" y2="259.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="261.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">32</text>
+<text x="280.0" y="256.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">32</text>
+<line x1="285.0" y1="274.0" x2="270.0" y2="274.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="276.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">33</text>
+<text x="280.0" y="271.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">33</text>
+<line x1="285.0" y1="289.0" x2="270.0" y2="289.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="291.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">34</text>
+<text x="280.0" y="286.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">34</text>
+<line x1="285.0" y1="304.0" x2="270.0" y2="304.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="306.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">35</text>
+<text x="280.0" y="301.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">35</text>
+<line x1="285.0" y1="319.0" x2="270.0" y2="319.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="321.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">36</text>
+<text x="280.0" y="316.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">36</text>
+<line x1="285.0" y1="334.0" x2="270.0" y2="334.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="336.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">37</text>
+<text x="280.0" y="331.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">37</text>
+<line x1="285.0" y1="349.0" x2="270.0" y2="349.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="351.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">38</text>
+<text x="280.0" y="346.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">38</text>
+<line x1="285.0" y1="364.0" x2="270.0" y2="364.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="366.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">39</text>
+<text x="280.0" y="361.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">39</text>
+<line x1="285.0" y1="379.0" x2="270.0" y2="379.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="381.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">40</text>
+<text x="280.0" y="376.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">40</text>
+<line x1="285.0" y1="394.0" x2="270.0" y2="394.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="396.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">41</text>
+<text x="280.0" y="391.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">41</text>
+<line x1="285.0" y1="409.0" x2="270.0" y2="409.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="411.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">42</text>
+<text x="280.0" y="406.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">42</text>
+<line x1="285.0" y1="424.0" x2="270.0" y2="424.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="426.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">43</text>
+<text x="280.0" y="421.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">43</text>
+<line x1="285.0" y1="439.0" x2="270.0" y2="439.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="441.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">44</text>
+<text x="280.0" y="436.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">44</text>
+<line x1="285.0" y1="454.0" x2="270.0" y2="454.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="456.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">45</text>
+<text x="280.0" y="451.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">45</text>
+<line x1="285.0" y1="469.0" x2="270.0" y2="469.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="471.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">46</text>
+<text x="280.0" y="466.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">46</text>
+<line x1="285.0" y1="484.0" x2="270.0" y2="484.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="486.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">47</text>
+<text x="280.0" y="481.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">47</text>
+<line x1="285.0" y1="499.0" x2="270.0" y2="499.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="501.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">48</text>
+<text x="280.0" y="496.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">48</text>
+<line x1="285.0" y1="514.0" x2="270.0" y2="514.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="516.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">49</text>
+<text x="280.0" y="511.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">49</text>
+<line x1="285.0" y1="529.0" x2="270.0" y2="529.0" stroke="#9c2938" stroke-width="1"/>
+<text x="266.0" y="531.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">50</text>
+<text x="280.0" y="526.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">50</text>
+<rect x="565.0" y="159.0" width="100.0" height="380.0" fill="none" stroke="#9c2938"/>
+<line x1="550.0" y1="169.0" x2="565.0" y2="169.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="171.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<text x="555.0" y="166.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<line x1="550.0" y1="184.0" x2="565.0" y2="184.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="186.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">2</text>
+<text x="555.0" y="181.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">2</text>
+<line x1="550.0" y1="199.0" x2="565.0" y2="199.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="201.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">3</text>
+<text x="555.0" y="196.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">3</text>
+<line x1="550.0" y1="214.0" x2="565.0" y2="214.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="216.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">4</text>
+<text x="555.0" y="211.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">4</text>
+<line x1="550.0" y1="229.0" x2="565.0" y2="229.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="231.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">5</text>
+<text x="555.0" y="226.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">5</text>
+<line x1="550.0" y1="244.0" x2="565.0" y2="244.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="246.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">6</text>
+<text x="555.0" y="241.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">6</text>
+<line x1="550.0" y1="259.0" x2="565.0" y2="259.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="261.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">7</text>
+<text x="555.0" y="256.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">7</text>
+<line x1="550.0" y1="274.0" x2="565.0" y2="274.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="276.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">8</text>
+<text x="555.0" y="271.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">8</text>
+<line x1="550.0" y1="289.0" x2="565.0" y2="289.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="291.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">9</text>
+<text x="555.0" y="286.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">9</text>
+<line x1="550.0" y1="304.0" x2="565.0" y2="304.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="306.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">10</text>
+<text x="555.0" y="301.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">10</text>
+<line x1="550.0" y1="319.0" x2="565.0" y2="319.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="321.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">11</text>
+<text x="555.0" y="316.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">11</text>
+<line x1="550.0" y1="334.0" x2="565.0" y2="334.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="336.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">12</text>
+<text x="555.0" y="331.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">12</text>
+<line x1="550.0" y1="349.0" x2="565.0" y2="349.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="351.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">13</text>
+<text x="555.0" y="346.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">13</text>
+<line x1="550.0" y1="364.0" x2="565.0" y2="364.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="366.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">14</text>
+<text x="555.0" y="361.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">14</text>
+<line x1="550.0" y1="379.0" x2="565.0" y2="379.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="381.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">15</text>
+<text x="555.0" y="376.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">15</text>
+<line x1="550.0" y1="394.0" x2="565.0" y2="394.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="396.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">16</text>
+<text x="555.0" y="391.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">16</text>
+<line x1="550.0" y1="409.0" x2="565.0" y2="409.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="411.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">17</text>
+<text x="555.0" y="406.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">17</text>
+<line x1="550.0" y1="424.0" x2="565.0" y2="424.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="426.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">18</text>
+<text x="555.0" y="421.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">18</text>
+<line x1="550.0" y1="439.0" x2="565.0" y2="439.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="441.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">19</text>
+<text x="555.0" y="436.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">19</text>
+<line x1="550.0" y1="454.0" x2="565.0" y2="454.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="456.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">20</text>
+<text x="555.0" y="451.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">20</text>
+<line x1="550.0" y1="469.0" x2="565.0" y2="469.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="471.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">21</text>
+<text x="555.0" y="466.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">21</text>
+<line x1="550.0" y1="484.0" x2="565.0" y2="484.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="486.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">22</text>
+<text x="555.0" y="481.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">22</text>
+<line x1="550.0" y1="499.0" x2="565.0" y2="499.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="501.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">23</text>
+<text x="555.0" y="496.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">23</text>
+<line x1="550.0" y1="514.0" x2="565.0" y2="514.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="516.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">24</text>
+<text x="555.0" y="511.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">24</text>
+<line x1="550.0" y1="529.0" x2="565.0" y2="529.0" stroke="#9c2938" stroke-width="1"/>
+<text x="569.0" y="531.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">25</text>
+<text x="555.0" y="526.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">25</text>
+<line x1="680.0" y1="169.0" x2="665.0" y2="169.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="171.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">26</text>
+<text x="675.0" y="166.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">26</text>
+<line x1="680.0" y1="184.0" x2="665.0" y2="184.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="186.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">27</text>
+<text x="675.0" y="181.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">27</text>
+<line x1="680.0" y1="199.0" x2="665.0" y2="199.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="201.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">28</text>
+<text x="675.0" y="196.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">28</text>
+<line x1="680.0" y1="214.0" x2="665.0" y2="214.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="216.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">29</text>
+<text x="675.0" y="211.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">29</text>
+<line x1="680.0" y1="229.0" x2="665.0" y2="229.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="231.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">30</text>
+<text x="675.0" y="226.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">30</text>
+<line x1="680.0" y1="244.0" x2="665.0" y2="244.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="246.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">31</text>
+<text x="675.0" y="241.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">31</text>
+<line x1="680.0" y1="259.0" x2="665.0" y2="259.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="261.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">32</text>
+<text x="675.0" y="256.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">32</text>
+<line x1="680.0" y1="274.0" x2="665.0" y2="274.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="276.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">33</text>
+<text x="675.0" y="271.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">33</text>
+<line x1="680.0" y1="289.0" x2="665.0" y2="289.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="291.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">34</text>
+<text x="675.0" y="286.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">34</text>
+<line x1="680.0" y1="304.0" x2="665.0" y2="304.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="306.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">35</text>
+<text x="675.0" y="301.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">35</text>
+<line x1="680.0" y1="319.0" x2="665.0" y2="319.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="321.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">36</text>
+<text x="675.0" y="316.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">36</text>
+<line x1="680.0" y1="334.0" x2="665.0" y2="334.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="336.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">37</text>
+<text x="675.0" y="331.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">37</text>
+<line x1="680.0" y1="349.0" x2="665.0" y2="349.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="351.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">38</text>
+<text x="675.0" y="346.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">38</text>
+<line x1="680.0" y1="364.0" x2="665.0" y2="364.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="366.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">39</text>
+<text x="675.0" y="361.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">39</text>
+<line x1="680.0" y1="379.0" x2="665.0" y2="379.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="381.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">40</text>
+<text x="675.0" y="376.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">40</text>
+<line x1="680.0" y1="394.0" x2="665.0" y2="394.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="396.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">41</text>
+<text x="675.0" y="391.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">41</text>
+<line x1="680.0" y1="409.0" x2="665.0" y2="409.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="411.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">42</text>
+<text x="675.0" y="406.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">42</text>
+<line x1="680.0" y1="424.0" x2="665.0" y2="424.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="426.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">43</text>
+<text x="675.0" y="421.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">43</text>
+<line x1="680.0" y1="439.0" x2="665.0" y2="439.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="441.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">44</text>
+<text x="675.0" y="436.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">44</text>
+<line x1="680.0" y1="454.0" x2="665.0" y2="454.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="456.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">45</text>
+<text x="675.0" y="451.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">45</text>
+<line x1="680.0" y1="469.0" x2="665.0" y2="469.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="471.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">46</text>
+<text x="675.0" y="466.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">46</text>
+<line x1="680.0" y1="484.0" x2="665.0" y2="484.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="486.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">47</text>
+<text x="675.0" y="481.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">47</text>
+<line x1="680.0" y1="499.0" x2="665.0" y2="499.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="501.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">48</text>
+<text x="675.0" y="496.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">48</text>
+<line x1="680.0" y1="514.0" x2="665.0" y2="514.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="516.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">49</text>
+<text x="675.0" y="511.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">49</text>
+<line x1="680.0" y1="529.0" x2="665.0" y2="529.0" stroke="#9c2938" stroke-width="1"/>
+<text x="661.0" y="531.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">50</text>
+<text x="675.0" y="526.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">50</text>
+<rect x="960.0" y="159.0" width="100.0" height="30.0" fill="none" stroke="#9c2938"/>
+<line x1="945.0" y1="174.0" x2="960.0" y2="174.0" stroke="#9c2938" stroke-width="1"/>
+<text x="964.0" y="176.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<text x="950.0" y="171.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<rect x="1355.0" y="159.0" width="100.0" height="30.0" fill="none" stroke="#9c2938"/>
+<line x1="1340.0" y1="174.0" x2="1355.0" y2="174.0" stroke="#9c2938" stroke-width="1"/>
+<text x="1359.0" y="176.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<text x="1345.0" y="171.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<rect x="960.0" y="239.0" width="100.0" height="30.0" fill="none" stroke="#9c2938"/>
+<line x1="945.0" y1="254.0" x2="960.0" y2="254.0" stroke="#9c2938" stroke-width="1"/>
+<text x="964.0" y="256.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<text x="950.0" y="251.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<rect x="1355.0" y="239.0" width="100.0" height="30.0" fill="none" stroke="#9c2938"/>
+<line x1="1340.0" y1="254.0" x2="1355.0" y2="254.0" stroke="#9c2938" stroke-width="1"/>
+<text x="1359.0" y="256.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<text x="1345.0" y="251.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<rect x="960.0" y="319.0" width="100.0" height="30.0" fill="none" stroke="#9c2938"/>
+<line x1="945.0" y1="334.0" x2="960.0" y2="334.0" stroke="#9c2938" stroke-width="1"/>
+<text x="964.0" y="336.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<text x="950.0" y="331.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<rect x="1355.0" y="319.0" width="100.0" height="30.0" fill="none" stroke="#9c2938"/>
+<line x1="1340.0" y1="334.0" x2="1355.0" y2="334.0" stroke="#9c2938" stroke-width="1"/>
+<text x="1359.0" y="336.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<text x="1345.0" y="331.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<rect x="960.0" y="399.0" width="100.0" height="30.0" fill="none" stroke="#9c2938"/>
+<line x1="945.0" y1="414.0" x2="960.0" y2="414.0" stroke="#9c2938" stroke-width="1"/>
+<text x="964.0" y="416.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<text x="950.0" y="411.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<rect x="1355.0" y="399.0" width="100.0" height="30.0" fill="none" stroke="#9c2938"/>
+<line x1="1340.0" y1="414.0" x2="1355.0" y2="414.0" stroke="#9c2938" stroke-width="1"/>
+<text x="1359.0" y="416.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<text x="1345.0" y="411.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<rect x="960.0" y="479.0" width="100.0" height="30.0" fill="none" stroke="#9c2938"/>
+<line x1="945.0" y1="494.0" x2="960.0" y2="494.0" stroke="#9c2938" stroke-width="1"/>
+<text x="964.0" y="496.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<text x="950.0" y="491.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<rect x="1355.0" y="479.0" width="100.0" height="30.0" fill="none" stroke="#9c2938"/>
+<line x1="1340.0" y1="494.0" x2="1355.0" y2="494.0" stroke="#9c2938" stroke-width="1"/>
+<text x="1359.0" y="496.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<text x="1345.0" y="491.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<rect x="960.0" y="559.0" width="100.0" height="30.0" fill="none" stroke="#9c2938"/>
+<line x1="945.0" y1="574.0" x2="960.0" y2="574.0" stroke="#9c2938" stroke-width="1"/>
+<text x="964.0" y="576.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<text x="950.0" y="571.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<rect x="1355.0" y="559.0" width="100.0" height="30.0" fill="none" stroke="#9c2938"/>
+<line x1="1340.0" y1="574.0" x2="1355.0" y2="574.0" stroke="#9c2938" stroke-width="1"/>
+<text x="1359.0" y="576.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<text x="1345.0" y="571.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<rect x="170.0" y="589.0" width="100.0" height="30.0" fill="none" stroke="#9c2938"/>
+<line x1="155.0" y1="604.0" x2="170.0" y2="604.0" stroke="#9c2938" stroke-width="1"/>
+<text x="174.0" y="606.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<text x="160.0" y="601.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">1</text>
+<text x="35" y="1110" font-family="Arial" font-size="12">Local EDA-record preview. Not an editor-rendered PDF. Footprints / ERC / PCB not released.</text></svg>

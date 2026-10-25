@@ -1,0 +1,1384 @@
+{
+    "version": "2.0.0",
+    "components": {
+        "gge1": {
+            "props": {
+                "Unique ID": "gge1",
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "6e3fc57abdc57e00",
+                "Designator": "U1",
+                "Device": "ed11344f5025dcfe",
+                "LCSC Part Name": "高性能和带 DP-FPU 的 DSP、配备 1 MByte 闪存和 564 KBytes RAM 的 Arm Cortex-M7 微控制器、550 MHz CPU、L1 缓存、外部内存接口、SMPS、包括加密加速器在内的外围设备子集",
+                "Supplier Part": "C5271179",
+                "Manufacturer": "ST(意法半导体)",
+                "Manufacturer Part": "STM32H735VGH6",
+                "Supplier Footprint": "TFBGA-100(8x8)",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "https://item.szlcsc.com/datasheet/STM32H735VGH6/5997904.html",
+                "Supplier": "LCSC",
+                "Footprint": "a551f6b95673460a",
+                "3D Model": "2064ab6941b249018902a4432cf735a7|0819f05c4eef4c71ace90d822a990e87",
+                "3D Model Title": "BGA-100_L8.0-W8.0-P0.80-R10-C10-BL",
+                "3D Model Transform": "314.96,314.96,0,90,0,0,0,0,0",
+                "CPU Core": "ARM Cortex-M7",
+                "CPU Maximum Speed": "550MHz",
+                "Core Size": "32 Bit",
+                "Program Storage Size": "1MB",
+                "Program Memory Type": "FLASH",
+                "RAM Size": "560KB",
+                "EEPROM": "-",
+                "Number of I/O": "74",
+                "Oscillator Type": "内置+外置",
+                "Voltage - Supply": "1.62V~3.6V",
+                "Operating Temperature": "-40℃~+85℃",
+                "Name": "={Manufacturer Part}",
+                "Description": "CPU内核:ARM Cortex-M7;CPU最大主频:550MHz;CPU位数:32 Bit;",
+                "Reuse Block": "",
+                "Group ID": "",
+                "Channel ID": "$1I79",
+                "DeviceName": "STM32H735VGH6",
+                "FootprintName": "BGA-100_L8.0-W8.0-P0.80-R10-C10-BL"
+            },
+            "pinInfoMap": {
+                "G1": {
+                    "name": "PH0-OSC_IN",
+                    "number": "G1",
+                    "net": "HSE_IN",
+                    "props": {
+                        "Pin Number": "G1"
+                    }
+                },
+                "G2": {
+                    "name": "PH1-OSC_OUT",
+                    "number": "G2",
+                    "net": "HSE_RESERVED",
+                    "props": {
+                        "Pin Number": "G2"
+                    }
+                },
+                "D8": {
+                    "name": "VCAP",
+                    "number": "D8",
+                    "net": "VCORE",
+                    "props": {
+                        "Pin Number": "D8"
+                    }
+                },
+                "G6": {
+                    "name": "VCAP",
+                    "number": "G6",
+                    "net": "VCORE",
+                    "props": {
+                        "Pin Number": "G6"
+                    }
+                },
+                "A5": {
+                    "name": "BOOT0",
+                    "number": "A5",
+                    "net": "BOOT0",
+                    "props": {
+                        "Pin Number": "A5"
+                    }
+                },
+                "F2": {
+                    "name": "NRST",
+                    "number": "F2",
+                    "net": "NRST",
+                    "props": {
+                        "Pin Number": "F2"
+                    }
+                },
+                "C2": {
+                    "name": "VBAT",
+                    "number": "C2",
+                    "net": "3V3_D",
+                    "props": {
+                        "Pin Number": "C2"
+                    }
+                },
+                "E2": {
+                    "name": "VFBSMPS",
+                    "number": "E2",
+                    "net": "VCORE",
+                    "props": {
+                        "Pin Number": "E2"
+                    }
+                },
+                "D2": {
+                    "name": "VLXSMPS",
+                    "number": "D2",
+                    "net": "SMPS_SW",
+                    "props": {
+                        "Pin Number": "D2"
+                    }
+                },
+                "J1": {
+                    "name": "VREF+",
+                    "number": "J1",
+                    "net": "3V3_A",
+                    "props": {
+                        "Pin Number": "J1"
+                    }
+                },
+                "B4": {
+                    "name": "PE0",
+                    "number": "B4",
+                    "net": "EXP_PE0",
+                    "props": {
+                        "Pin Number": "B4"
+                    }
+                },
+                "C4": {
+                    "name": "PE1",
+                    "number": "C4",
+                    "net": "EXP_PE1",
+                    "props": {
+                        "Pin Number": "C4"
+                    }
+                },
+                "A3": {
+                    "name": "PE2",
+                    "number": "A3",
+                    "net": "IMU_SCK",
+                    "props": {
+                        "Pin Number": "A3"
+                    }
+                },
+                "B3": {
+                    "name": "PE3",
+                    "number": "B3",
+                    "net": "IMU_ACC_CS",
+                    "props": {
+                        "Pin Number": "B3"
+                    }
+                },
+                "C3": {
+                    "name": "PE4",
+                    "number": "C3",
+                    "net": "IMU_GYRO_CS",
+                    "props": {
+                        "Pin Number": "C3"
+                    }
+                },
+                "A2": {
+                    "name": "PE5",
+                    "number": "A2",
+                    "net": "IMU_MISO",
+                    "props": {
+                        "Pin Number": "A2"
+                    }
+                },
+                "A1": {
+                    "name": "PE6",
+                    "number": "A1",
+                    "net": "IMU_MOSI",
+                    "props": {
+                        "Pin Number": "A1"
+                    }
+                },
+                "H5": {
+                    "name": "PE7",
+                    "number": "H5",
+                    "net": "EXP_PE7",
+                    "props": {
+                        "Pin Number": "H5"
+                    }
+                },
+                "J6": {
+                    "name": "PE8",
+                    "number": "J6",
+                    "net": "EXP_PE8",
+                    "props": {
+                        "Pin Number": "J6"
+                    }
+                },
+                "K6": {
+                    "name": "PE9",
+                    "number": "K6",
+                    "net": "IMU_HEATER_PWM",
+                    "props": {
+                        "Pin Number": "K6"
+                    }
+                },
+                "H6": {
+                    "name": "PE10",
+                    "number": "H6",
+                    "net": "EXP_PE10",
+                    "props": {
+                        "Pin Number": "H6"
+                    }
+                },
+                "G3": {
+                    "name": "PA0",
+                    "number": "G3",
+                    "net": "EXP_PA0",
+                    "props": {
+                        "Pin Number": "G3"
+                    }
+                },
+                "J2": {
+                    "name": "PA1",
+                    "number": "J2",
+                    "net": "EXP_PA1",
+                    "props": {
+                        "Pin Number": "J2"
+                    }
+                },
+                "H3": {
+                    "name": "PA2",
+                    "number": "H3",
+                    "net": "EXP_PA2",
+                    "props": {
+                        "Pin Number": "H3"
+                    }
+                },
+                "G5": {
+                    "name": "PA3",
+                    "number": "G5",
+                    "net": "EXP_PA3",
+                    "props": {
+                        "Pin Number": "G5"
+                    }
+                },
+                "K1": {
+                    "name": "PA4",
+                    "number": "K1",
+                    "net": "EXP_PA4",
+                    "props": {
+                        "Pin Number": "K1"
+                    }
+                },
+                "K2": {
+                    "name": "PA5",
+                    "number": "K2",
+                    "net": "EXP_PA5",
+                    "props": {
+                        "Pin Number": "K2"
+                    }
+                },
+                "J3": {
+                    "name": "PA6",
+                    "number": "J3",
+                    "net": "EXP_PA6",
+                    "props": {
+                        "Pin Number": "J3"
+                    }
+                },
+                "K3": {
+                    "name": "PA7",
+                    "number": "K3",
+                    "net": "EXP_PA7",
+                    "props": {
+                        "Pin Number": "K3"
+                    }
+                },
+                "F10": {
+                    "name": "PA8",
+                    "number": "F10",
+                    "net": "EXP_PA8",
+                    "props": {
+                        "Pin Number": "F10"
+                    }
+                },
+                "E9": {
+                    "name": "PA9",
+                    "number": "E9",
+                    "net": "VBUS_PRESENT",
+                    "props": {
+                        "Pin Number": "E9"
+                    }
+                },
+                "E10": {
+                    "name": "PA10",
+                    "number": "E10",
+                    "net": "EXP_PA10",
+                    "props": {
+                        "Pin Number": "E10"
+                    }
+                },
+                "D10": {
+                    "name": "PA11",
+                    "number": "D10",
+                    "net": "USB_DM",
+                    "props": {
+                        "Pin Number": "D10"
+                    }
+                },
+                "D9": {
+                    "name": "PA12",
+                    "number": "D9",
+                    "net": "USB_DP",
+                    "props": {
+                        "Pin Number": "D9"
+                    }
+                },
+                "C10": {
+                    "name": "PA13",
+                    "number": "C10",
+                    "net": "SWDIO",
+                    "props": {
+                        "Pin Number": "C10"
+                    }
+                },
+                "C9": {
+                    "name": "PA14",
+                    "number": "C9",
+                    "net": "SWCLK",
+                    "props": {
+                        "Pin Number": "C9"
+                    }
+                },
+                "C8": {
+                    "name": "PA15",
+                    "number": "C8",
+                    "net": "EXP_PA15",
+                    "props": {
+                        "Pin Number": "C8"
+                    }
+                },
+                "C1": {
+                    "name": "VSS",
+                    "number": "C1",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "C1"
+                    }
+                },
+                "D5": {
+                    "name": "VSS",
+                    "number": "D5",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "D5"
+                    }
+                },
+                "E7": {
+                    "name": "VSS",
+                    "number": "E7",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "E7"
+                    }
+                },
+                "F5": {
+                    "name": "VSS",
+                    "number": "F5",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "F5"
+                    }
+                },
+                "H2": {
+                    "name": "VSSA",
+                    "number": "H2",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "H2"
+                    }
+                },
+                "D1": {
+                    "name": "VSSSMPS",
+                    "number": "D1",
+                    "net": "GND",
+                    "props": {
+                        "Pin Number": "D1"
+                    }
+                },
+                "D3": {
+                    "name": "PDR_ON",
+                    "number": "D3",
+                    "net": "3V3_D",
+                    "props": {
+                        "Pin Number": "D3"
+                    }
+                },
+                "G8": {
+                    "name": "PD15",
+                    "number": "G8",
+                    "net": "EXP_PD15",
+                    "props": {
+                        "Pin Number": "G8"
+                    }
+                },
+                "G7": {
+                    "name": "PD14",
+                    "number": "G7",
+                    "net": "EXP_PD14",
+                    "props": {
+                        "Pin Number": "G7"
+                    }
+                },
+                "H10": {
+                    "name": "PD13",
+                    "number": "H10",
+                    "net": "CAN3_TX",
+                    "props": {
+                        "Pin Number": "H10"
+                    }
+                },
+                "H9": {
+                    "name": "PD12",
+                    "number": "H9",
+                    "net": "CAN3_RX",
+                    "props": {
+                        "Pin Number": "H9"
+                    }
+                },
+                "H7": {
+                    "name": "PD11",
+                    "number": "H7",
+                    "net": "EXP_PD11",
+                    "props": {
+                        "Pin Number": "H7"
+                    }
+                },
+                "J10": {
+                    "name": "PD10",
+                    "number": "J10",
+                    "net": "IMU_GYRO_IRQ",
+                    "props": {
+                        "Pin Number": "J10"
+                    }
+                },
+                "H8": {
+                    "name": "PD9",
+                    "number": "H8",
+                    "net": "EXP_PD9",
+                    "props": {
+                        "Pin Number": "H8"
+                    }
+                },
+                "J9": {
+                    "name": "PD8",
+                    "number": "J9",
+                    "net": "EXP_PD8",
+                    "props": {
+                        "Pin Number": "J9"
+                    }
+                },
+                "C6": {
+                    "name": "PD7",
+                    "number": "C6",
+                    "net": "CAN3_STB",
+                    "props": {
+                        "Pin Number": "C6"
+                    }
+                },
+                "A7": {
+                    "name": "PD6",
+                    "number": "A7",
+                    "net": "EXP_PD6",
+                    "props": {
+                        "Pin Number": "A7"
+                    }
+                },
+                "D7": {
+                    "name": "PD5",
+                    "number": "D7",
+                    "net": "EXP_PD5",
+                    "props": {
+                        "Pin Number": "D7"
+                    }
+                },
+                "B7": {
+                    "name": "PD4",
+                    "number": "B7",
+                    "net": "CAN2_STB",
+                    "props": {
+                        "Pin Number": "B7"
+                    }
+                },
+                "A8": {
+                    "name": "PD3",
+                    "number": "A8",
+                    "net": "CAN1_STB",
+                    "props": {
+                        "Pin Number": "A8"
+                    }
+                },
+                "A9": {
+                    "name": "PD2",
+                    "number": "A9",
+                    "net": "EXP_PD2",
+                    "props": {
+                        "Pin Number": "A9"
+                    }
+                },
+                "B8": {
+                    "name": "PD1",
+                    "number": "B8",
+                    "net": "EXP_PD1",
+                    "props": {
+                        "Pin Number": "B8"
+                    }
+                },
+                "C7": {
+                    "name": "PD0",
+                    "number": "C7",
+                    "net": "EXP_PD0",
+                    "props": {
+                        "Pin Number": "C7"
+                    }
+                },
+                "B2": {
+                    "name": "PC15-OSC32_OUT",
+                    "number": "B2",
+                    "net": "LSE_OUT",
+                    "props": {
+                        "Pin Number": "B2"
+                    }
+                },
+                "B1": {
+                    "name": "PC14-OSC32_IN",
+                    "number": "B1",
+                    "net": "LSE_IN",
+                    "props": {
+                        "Pin Number": "B1"
+                    }
+                },
+                "E4": {
+                    "name": "PC13",
+                    "number": "E4",
+                    "net": "IMU_ACC_IRQ",
+                    "props": {
+                        "Pin Number": "E4"
+                    }
+                },
+                "A10": {
+                    "name": "PC12",
+                    "number": "A10",
+                    "net": "EXP_PC12",
+                    "props": {
+                        "Pin Number": "A10"
+                    }
+                },
+                "B9": {
+                    "name": "PC11",
+                    "number": "B9",
+                    "net": "EXP_PC11",
+                    "props": {
+                        "Pin Number": "B9"
+                    }
+                },
+                "B10": {
+                    "name": "PC10",
+                    "number": "B10",
+                    "net": "EXP_PC10",
+                    "props": {
+                        "Pin Number": "B10"
+                    }
+                },
+                "F9": {
+                    "name": "PC9",
+                    "number": "F9",
+                    "net": "EXP_PC9",
+                    "props": {
+                        "Pin Number": "F9"
+                    }
+                },
+                "G10": {
+                    "name": "PC8",
+                    "number": "G10",
+                    "net": "EXP_PC8",
+                    "props": {
+                        "Pin Number": "G10"
+                    }
+                },
+                "G9": {
+                    "name": "PC7",
+                    "number": "G9",
+                    "net": "EXP_PC7",
+                    "props": {
+                        "Pin Number": "G9"
+                    }
+                },
+                "F8": {
+                    "name": "PC6",
+                    "number": "F8",
+                    "net": "EXP_PC6",
+                    "props": {
+                        "Pin Number": "F8"
+                    }
+                },
+                "J4": {
+                    "name": "PC5",
+                    "number": "J4",
+                    "net": "EXP_PC5",
+                    "props": {
+                        "Pin Number": "J4"
+                    }
+                },
+                "H4": {
+                    "name": "PC4",
+                    "number": "H4",
+                    "net": "EXP_PC4",
+                    "props": {
+                        "Pin Number": "H4"
+                    }
+                },
+                "G4": {
+                    "name": "PC3_C",
+                    "number": "G4",
+                    "net": "IMU_HEATER_NTC",
+                    "props": {
+                        "Pin Number": "G4"
+                    }
+                },
+                "F4": {
+                    "name": "PC2_C",
+                    "number": "F4",
+                    "net": "LOCAL_5V_ADC",
+                    "props": {
+                        "Pin Number": "F4"
+                    }
+                },
+                "F1": {
+                    "name": "PC1",
+                    "number": "F1",
+                    "net": "EXP_PC1",
+                    "props": {
+                        "Pin Number": "F1"
+                    }
+                },
+                "F3": {
+                    "name": "PC0",
+                    "number": "F3",
+                    "net": "EXP_PC0",
+                    "props": {
+                        "Pin Number": "F3"
+                    }
+                },
+                "K10": {
+                    "name": "PB15",
+                    "number": "K10",
+                    "net": "EXP_PB15",
+                    "props": {
+                        "Pin Number": "K10"
+                    }
+                },
+                "K9": {
+                    "name": "PB14",
+                    "number": "K9",
+                    "net": "EXP_PB14",
+                    "props": {
+                        "Pin Number": "K9"
+                    }
+                },
+                "J8": {
+                    "name": "PB13",
+                    "number": "J8",
+                    "net": "EXP_PB13",
+                    "props": {
+                        "Pin Number": "J8"
+                    }
+                },
+                "K8": {
+                    "name": "PB12",
+                    "number": "K8",
+                    "net": "EXP_PB12",
+                    "props": {
+                        "Pin Number": "K8"
+                    }
+                },
+                "J7": {
+                    "name": "PB11",
+                    "number": "J7",
+                    "net": "EXP_PB11",
+                    "props": {
+                        "Pin Number": "J7"
+                    }
+                },
+                "K7": {
+                    "name": "PB10",
+                    "number": "K7",
+                    "net": "EXP_PB10",
+                    "props": {
+                        "Pin Number": "K7"
+                    }
+                },
+                "E3": {
+                    "name": "PB9",
+                    "number": "E3",
+                    "net": "CAN1_TX",
+                    "props": {
+                        "Pin Number": "E3"
+                    }
+                },
+                "A4": {
+                    "name": "PB8",
+                    "number": "A4",
+                    "net": "CAN1_RX",
+                    "props": {
+                        "Pin Number": "A4"
+                    }
+                },
+                "B5": {
+                    "name": "PB7",
+                    "number": "B5",
+                    "net": "EXP_PB7",
+                    "props": {
+                        "Pin Number": "B5"
+                    }
+                },
+                "D4": {
+                    "name": "PB6",
+                    "number": "D4",
+                    "net": "CAN2_TX",
+                    "props": {
+                        "Pin Number": "D4"
+                    }
+                },
+                "A6": {
+                    "name": "PB5",
+                    "number": "A6",
+                    "net": "CAN2_RX",
+                    "props": {
+                        "Pin Number": "A6"
+                    }
+                },
+                "C5": {
+                    "name": "PB4",
+                    "number": "C5",
+                    "net": "EXP_PB4",
+                    "props": {
+                        "Pin Number": "C5"
+                    }
+                },
+                "B6": {
+                    "name": "PB3",
+                    "number": "B6",
+                    "net": "EXP_PB3",
+                    "props": {
+                        "Pin Number": "B6"
+                    }
+                },
+                "J5": {
+                    "name": "PB2",
+                    "number": "J5",
+                    "net": "EXP_PB2",
+                    "props": {
+                        "Pin Number": "J5"
+                    }
+                },
+                "K5": {
+                    "name": "PB1",
+                    "number": "K5",
+                    "net": "EXP_PB1",
+                    "props": {
+                        "Pin Number": "K5"
+                    }
+                },
+                "K4": {
+                    "name": "PB0",
+                    "number": "K4",
+                    "net": "EXP_PB0",
+                    "props": {
+                        "Pin Number": "K4"
+                    }
+                },
+                "E1": {
+                    "name": "VDDSMPS",
+                    "number": "E1",
+                    "net": "3V3_D",
+                    "props": {
+                        "Pin Number": "E1"
+                    }
+                },
+                "F7": {
+                    "name": "VDDLDO",
+                    "number": "F7",
+                    "net": "VCORE",
+                    "props": {
+                        "Pin Number": "F7"
+                    }
+                },
+                "E6": {
+                    "name": "VDDLDO",
+                    "number": "E6",
+                    "net": "VCORE",
+                    "props": {
+                        "Pin Number": "E6"
+                    }
+                },
+                "H1": {
+                    "name": "VDDA",
+                    "number": "H1",
+                    "net": "3V3_A",
+                    "props": {
+                        "Pin Number": "H1"
+                    }
+                },
+                "E8": {
+                    "name": "VDD33USB",
+                    "number": "E8",
+                    "net": "3V3_D",
+                    "props": {
+                        "Pin Number": "E8"
+                    }
+                },
+                "F6": {
+                    "name": "VDD",
+                    "number": "F6",
+                    "net": "3V3_D",
+                    "props": {
+                        "Pin Number": "F6"
+                    }
+                },
+                "E5": {
+                    "name": "VDD",
+                    "number": "E5",
+                    "net": "3V3_D",
+                    "props": {
+                        "Pin Number": "E5"
+                    }
+                },
+                "D6": {
+                    "name": "VDD",
+                    "number": "D6",
+                    "net": "3V3_D",
+                    "props": {
+                        "Pin Number": "D6"
+                    }
+                }
+            }
+        }
+    },
+    "designRule": {
+        "trackPhysics": {
+            "copperThickness1oz": {
+                "name": "copperThickness1oz",
+                "isDefault": true,
+                "unit": "mm",
+                "strokeValue": {
+                    "common": {
+                        "min": 0.127,
+                        "max": 2.54,
+                        "default": 0.254
+                    }
+                }
+            },
+            "copperThickness2oz": {
+                "name": "copperThickness2oz",
+                "isDefault": false,
+                "unit": "mm",
+                "strokeValue": {
+                    "common": {
+                        "min": 0.203,
+                        "max": 2.54,
+                        "default": 0.254
+                    }
+                }
+            }
+        },
+        "netRule": {
+            "IMU_MOSI": {
+                "net": "IMU_MOSI",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "HSE_IN": {
+                "net": "HSE_IN",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "HSE_RESERVED": {
+                "net": "HSE_RESERVED",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "VCORE": {
+                "net": "VCORE",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "BOOT0": {
+                "net": "BOOT0",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "NRST": {
+                "net": "NRST",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "3V3_D": {
+                "net": "3V3_D",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "SMPS_SW": {
+                "net": "SMPS_SW",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "3V3_A": {
+                "net": "3V3_A",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PE0": {
+                "net": "EXP_PE0",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PE1": {
+                "net": "EXP_PE1",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "IMU_SCK": {
+                "net": "IMU_SCK",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "IMU_ACC_CS": {
+                "net": "IMU_ACC_CS",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "IMU_GYRO_CS": {
+                "net": "IMU_GYRO_CS",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "IMU_MISO": {
+                "net": "IMU_MISO",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PE7": {
+                "net": "EXP_PE7",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PE8": {
+                "net": "EXP_PE8",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "IMU_HEATER_PWM": {
+                "net": "IMU_HEATER_PWM",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PE10": {
+                "net": "EXP_PE10",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PA0": {
+                "net": "EXP_PA0",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PA1": {
+                "net": "EXP_PA1",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PA2": {
+                "net": "EXP_PA2",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PA3": {
+                "net": "EXP_PA3",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PA4": {
+                "net": "EXP_PA4",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PA5": {
+                "net": "EXP_PA5",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PA6": {
+                "net": "EXP_PA6",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PA7": {
+                "net": "EXP_PA7",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PA8": {
+                "net": "EXP_PA8",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "VBUS_PRESENT": {
+                "net": "VBUS_PRESENT",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PA10": {
+                "net": "EXP_PA10",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "USB_DM": {
+                "net": "USB_DM",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "USB_DP": {
+                "net": "USB_DP",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "SWDIO": {
+                "net": "SWDIO",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "SWCLK": {
+                "net": "SWCLK",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PA15": {
+                "net": "EXP_PA15",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GND": {
+                "net": "GND",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PD15": {
+                "net": "EXP_PD15",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PD14": {
+                "net": "EXP_PD14",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "CAN3_TX": {
+                "net": "CAN3_TX",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "CAN3_RX": {
+                "net": "CAN3_RX",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PD11": {
+                "net": "EXP_PD11",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "IMU_GYRO_IRQ": {
+                "net": "IMU_GYRO_IRQ",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PD9": {
+                "net": "EXP_PD9",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PD8": {
+                "net": "EXP_PD8",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "CAN3_STB": {
+                "net": "CAN3_STB",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PD6": {
+                "net": "EXP_PD6",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PD5": {
+                "net": "EXP_PD5",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "CAN2_STB": {
+                "net": "CAN2_STB",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "CAN1_STB": {
+                "net": "CAN1_STB",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PD2": {
+                "net": "EXP_PD2",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PD1": {
+                "net": "EXP_PD1",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PD0": {
+                "net": "EXP_PD0",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "LSE_OUT": {
+                "net": "LSE_OUT",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "LSE_IN": {
+                "net": "LSE_IN",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "IMU_ACC_IRQ": {
+                "net": "IMU_ACC_IRQ",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PC12": {
+                "net": "EXP_PC12",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PC11": {
+                "net": "EXP_PC11",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PC10": {
+                "net": "EXP_PC10",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PC9": {
+                "net": "EXP_PC9",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PC8": {
+                "net": "EXP_PC8",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PC7": {
+                "net": "EXP_PC7",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PC6": {
+                "net": "EXP_PC6",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PC5": {
+                "net": "EXP_PC5",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PC4": {
+                "net": "EXP_PC4",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "IMU_HEATER_NTC": {
+                "net": "IMU_HEATER_NTC",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "LOCAL_5V_ADC": {
+                "net": "LOCAL_5V_ADC",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PC1": {
+                "net": "EXP_PC1",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PC0": {
+                "net": "EXP_PC0",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PB15": {
+                "net": "EXP_PB15",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PB14": {
+                "net": "EXP_PB14",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PB13": {
+                "net": "EXP_PB13",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PB12": {
+                "net": "EXP_PB12",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PB11": {
+                "net": "EXP_PB11",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PB10": {
+                "net": "EXP_PB10",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "CAN1_TX": {
+                "net": "CAN1_TX",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "CAN1_RX": {
+                "net": "CAN1_RX",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PB7": {
+                "net": "EXP_PB7",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "CAN2_TX": {
+                "net": "CAN2_TX",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "CAN2_RX": {
+                "net": "CAN2_RX",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PB4": {
+                "net": "EXP_PB4",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PB3": {
+                "net": "EXP_PB3",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PB2": {
+                "net": "EXP_PB2",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PB1": {
+                "net": "EXP_PB1",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "EXP_PB0": {
+                "net": "EXP_PB0",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            }
+        }
+    },
+    "differentialPair": {},
+    "netClass": {},
+    "equalLengthNetGroup": {}
+}

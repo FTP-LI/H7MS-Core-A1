@@ -1,0 +1,1395 @@
+CRCW-HP e3
+www.vishay.com
+Vishay Draloric
+  
+ 
+Revision: 17-Mar-2026
+1
+Document Number: 20043
+For technical questions, contact: thickfilmchip@vishay.com
+THIS DOCUMENT IS SUBJECT TO CHANGE WITHOUT NOTICE. THE PRODUCTS DESCRIBED HEREIN AND THIS DOCUMENT
+ARE SUBJECT TO SPECIFIC DISCLAIMERS, SET FORTH AT www.vishay.com/doc?91000
+Pulse Proof, High Power Thick Film Chip Resistors
+LINKS TO ADDITIONAL RESOURCES
+The pulse proof, high power thick film chip resistors series 
+is the perfect choice for most fields of power measurement 
+electronics where reliability, stability, high power rating and 
+excellent pulse load performance are of major concern. 
+Typical applications include battery management systems 
+in automotive appliances.
+FEATURES
+• Excellent pulse load capability
+• Enhanced power rating
+• Double side printed resistor element
+• AEC-Q200 qualified
+• SnPb termination version is available (please see 
+www.vishay.com/doc?20115)
+• Material categorization: for definitions of compliance 
+please see www.vishay.com/doc?99912
+APPLICATIONS
+• Automotive
+• Industrial
+• Commercial
+• High power
+Notes
+(1) Please refer to APPLICATION INFORMATION below
+(2) CRCW0402-HP resistors feature a single side printed resistive layer only, except jumpers
+(3) Specified power rating requires a thermal resistance of Rth ≤ 110 K/W
+APPLICATION INFORMATION
+When the resistor dissipates power, a temperature rise above the ambient temperature occurs, dependent on the thermal 
+resistance of the assembled resistor together with the printed circuit board. The rated dissipation applies only if the permitted 
+film temperature is not exceeded.
+These resistors do not feature a limited lifetime when operated within the permissible limits. However, resistance value drift 
+increasing over operating time may result in exceeding a limit acceptable to the specific application, thereby establishing a 
+functional lifetime.
+3
+D
+3
+D
+3D Models
+TECHNICAL SPECIFICATIONS
+DESCRIPTION
+CRCW0402-
+HP e3
+CRCW0603-
+HP e3
+CRCW0805-
+HP e3
+CRCW1206-
+HP e3
+CRCW1210-
+HP e3
+CRCW1218-
+HP e3
+CRCW2010-
+HP e3
+CRCW2512-
+HP e3
+Imperial size
+0402
+0603
+0805
+1206
+1210
+1218
+2010
+2512
+Metric size code
+RR1005M
+RR1608M
+RR2012M
+RR3216M
+RR3225M
+RR3246M
+RR5025M
+RR6332M
+Resistance range
+1 Ω to 1 MΩ; jumper (0 Ω)
+Resistance tolerance
+± 5 %; ± 1 %; ± 0.5 %
+Temperature coefficient
+± 200 ppm/K; ± 100 ppm/K
+Rated dissipation, P70 (1)
+0.2 W (2)
+0.33 W
+0.5 W
+0.75 W (3)
+0.75 W
+1.5 W
+1.0 W
+1.5 W
+Rated dissipation
+0.33 W
+0.75 W
+1.5 W
+1.5 W
+2.5 W
+3.5 W
+1.75 W
+2 W
+at terminal part temperature ϑt
+105 °C
+Operating voltage, 
+Umax. ACRMS/DC
+50 V
+75 V
+150 V
+200 V
+200 V
+200 V
+400 V
+500 V
+Permissible film temperature, 
+ϑF max. (1)
+155 °C
+Operating temperature range
+-55 °C to +155 °C
+Max. resistance change 
+at P70 for resistance range, 
+|ΔR/R| after:
+1000 h
+≤ 2.0 %
+8000 h
+≤ 4.0 %
+Permissible voltage 
+against ambient (insulation):
+1 min, Uins
+75 V
+100 V
+200 V
+300 V
+300 V
+300 V
+300 V
+300 V
+Failure rate: FIT observed
+≤ 0.1 x 10-9/h
+
+CRCW-HP e3
+www.vishay.com
+Vishay Draloric
+  
+ 
+Revision: 17-Mar-2026
+2
+Document Number: 20043
+For technical questions, contact: thickfilmchip@vishay.com
+THIS DOCUMENT IS SUBJECT TO CHANGE WITHOUT NOTICE. THE PRODUCTS DESCRIBED HEREIN AND THIS DOCUMENT
+ARE SUBJECT TO SPECIFIC DISCLAIMERS, SET FORTH AT www.vishay.com/doc?91000
+Note
+•
+The temperature coefficient of resistance (TCR) is not specified for 0 Ω jumpers
+TEMPERATURE COEFFICIENT AND RESISTANCE RANGE
+TYPE / SIZE
+TCR
+TOLERANCE
+RESISTANCE
+E-SERIES
+CRCW0402-HP e3
+± 200 ppm/K
+± 5 %
+1 Ω to 1 MΩ
+E24
+± 100 ppm/K
+± 1 %
+1 Ω to 1 MΩ
+E24; E96
+± 0.5 %
+Jumper, Imax. = 3 A
+≤ 10 mΩ
+0 Ω
+-
+CRCW0603-HP e3
+± 200 ppm/K
+± 5 %
+1 Ω to 1 MΩ
+E24
+± 100 ppm/K
+± 1 %
+1 Ω to 1 MΩ
+E24; E96
+± 0.5 %
+Jumper, Imax. = 5 A
+≤ 8 mΩ
+0 Ω
+-
+CRCW0805-HP e3
+± 200 ppm/K
+± 5 %
+1 Ω to 1 MΩ
+E24
+± 100 ppm/K
+± 1 %
+1 Ω to 1 MΩ
+E24; E96
+± 0.5 %
+Jumper, Imax. = 6 A
+≤ 5 mΩ
+0 Ω
+-
+CRCW1206-HP e3
+± 200 ppm/K
+± 5 %
+1 Ω to 1 MΩ
+E24
+± 100 ppm/K
+± 1 %
+1 Ω to 1 MΩ
+E24; E96
+± 0.5 %
+Jumper, Imax. = 10 A
+≤ 5 mΩ
+0 Ω
+-
+CRCW1210-HP e3
+± 200 ppm/K
+± 5 %
+1 Ω to 1 MΩ
+E24
+± 100 ppm/K
+± 1 %
+1 Ω to 1 MΩ
+E24; E96
+± 0.5 %
+Jumper, Imax. = 12 A
+≤ 4 mΩ
+0 Ω
+-
+CRCW1218-HP e3
+± 200 ppm/K
+± 5 %
+1 Ω to 1 MΩ
+E24
+± 100 ppm/K
+± 1 %
+1 Ω to 1 MΩ
+E24; E96
+± 0.5 %
+Jumper, Imax. = 20 A
+≤ 4 mΩ
+0 Ω
+-
+CRCW2010-HP e3
+± 200 ppm/K
+± 5 %
+1 Ω to 1 MΩ
+E24
+± 100 ppm/K
+± 1 %
+1 Ω to 1 MΩ
+E24; E96
+± 0.5 %
+Jumper, Imax. = 12 A
+≤ 5 mΩ
+0 Ω
+-
+CRCW2512-HP e3
+± 200 ppm/K
+± 5 %
+1 Ω to 1 MΩ
+E24
+± 100 ppm/K
+± 1 %
+1 Ω to 1 MΩ
+E24; E96
+± 0.5 %
+Jumper, Imax. = 16 A
+≤ 5 mΩ
+0 Ω
+-
+PACKAGING
+TYPE / SIZE
+CODE
+QUANTITY
+PACKAGING STYLE
+WIDTH
+PITCH
+PACKAGING 
+DIMENSIONS
+CRCW0402-HP e3
+ED = ET7
+10 000
+Paper tape acc. to
+IEC 60286-3, type 1a
+8 mm
+2 mm
+Ø 180 mm / 7"
+EE = EF4
+50 000
+Ø 330 mm / 13"
+CRCW0603-HP e3
+EI = ET2
+5000
+2 mm
+Ø 180 mm / 7"
+ED = ET3
+10 000
+Ø 180 mm / 7"
+EE = ET8
+50 000
+Ø 330 mm / 13"
+EA = ET1
+5000
+4 mm
+Ø 180 mm / 7"
+EC = ET6
+20 000
+Ø 330 mm / 13"
+CRCW0805-HP e3
+EA = ET1
+5000
+4 mm
+Ø 180 mm / 7"
+EC = ET6
+20 000
+Ø 330 mm / 13"
+CRCW1206-HP e3
+EA = ET1
+5000
+4 mm
+Ø 180 mm / 7"
+EC = ET6
+20 000
+Ø 330 mm / 13"
+CRCW1210-HP e3
+EA = ET1
+5000
+4 mm
+Ø 180 mm / 7"
+EC = ET6
+20 000
+Ø 330 mm / 13"
+CRCW1218-HP e3
+EK = ET9
+4000
+Blister tape acc. to
+IEC 60286-3, type 2a
+12 mm
+4 mm
+Ø 180 mm / 7"
+CRCW2010-HP e3
+EF = E02
+4000
+4 mm
+Ø 180 mm / 7"
+EJ = E08
+16 000
+4 mm
+Ø 330 mm / 13"
+CRCW2512-HP e3
+EG = E67
+2000
+8 mm
+Ø 180 mm / 7"
+EH = E82
+4000
+4 mm
+
+CRCW-HP e3
+www.vishay.com
+Vishay Draloric
+  
+ 
+Revision: 17-Mar-2026
+3
+Document Number: 20043
+For technical questions, contact: thickfilmchip@vishay.com
+THIS DOCUMENT IS SUBJECT TO CHANGE WITHOUT NOTICE. THE PRODUCTS DESCRIBED HEREIN AND THIS DOCUMENT
+ARE SUBJECT TO SPECIFIC DISCLAIMERS, SET FORTH AT www.vishay.com/doc?91000
+PART NUMBER AND PRODUCT DESCRIPTION
+Part Number: CRCW0603562RFKEAHP 
+Part Number: CRCW06030000Z0EAHP
+TYPE / SIZE
+VALUE
+TOLERANCE
+TCR
+PACKAGING
+SPECIAL
+CRCW0402
+CRCW0603
+CRCW0805
+CRCW1206
+CRCW1210
+CRCW1218
+CRCW2010
+CRCW2512
+R = decimal
+K = thousand
+M = million
+0000 = jumper
+D = ± 0.5 %
+F = ± 1 %
+J = ± 5 %
+Z = jumper
+K = ± 100 ppm/K
+N = ± 200 ppm/K
+0 = jumper
+EA, EC, ED, EE, 
+EF, EG, EI, EJ, 
+EH, EK
+Up to 2 digits
+HP = pulse proof, 
+high power
+Product Description: CRCW0603-HP 100 562R 1 % ET1 e3 
+Product Description: CRCW0603-HP 0R0 ET1 e3
+CRCW0603-HP
+100
+562R
+1 %
+ET1
+e3
+TYPE / SIZE
+TCR
+RESISTANCE VALUE
+TOLERANCE 
+PACKAGING
+LEAD 
+CRCW0402-HP
+CRCW0603-HP
+CRCW0805-HP
+CRCW1206-HP
+CRCW1210-HP
+CRCW1218-HP
+CRCW2010-HP
+CRCW2512-HP
+± 100 ppm/K
+± 200 ppm/K
+10R = 10 Ω
+562R = 562 Ω
+10K = 10 kΩ
+1M = 1 MΩ
+0R0 = jumper
+± 0.5 %
+± 1 %
+± 5 %
+ET1, ET2, ET3, 
+ET6, ET7, ET8,
+ET9, EF4, E02, 
+E08, E67, E82
+e3 = pure tin
+termination 
+finish
+C
+R
+C
+W
+0
+6
+0
+3
+5
+6
+2
+R
+F
+K
+E
+A
+H
+P
+
+CRCW-HP e3
+www.vishay.com
+Vishay Draloric
+  
+ 
+Revision: 17-Mar-2026
+4
+Document Number: 20043
+For technical questions, contact: thickfilmchip@vishay.com
+THIS DOCUMENT IS SUBJECT TO CHANGE WITHOUT NOTICE. THE PRODUCTS DESCRIBED HEREIN AND THIS DOCUMENT
+ARE SUBJECT TO SPECIFIC DISCLAIMERS, SET FORTH AT www.vishay.com/doc?91000
+DESCRIPTION
+Production is strictly controlled and follows an extensive set 
+of instructions established for reproducibility. A cermet film
+ 
+layer and a glass-over are deposited on both sides of a high 
+grade (Al2O3) ceramic substrate with its prepared inner 
+contacts on both sides. A special laser is used to achieve 
+the target value by smoothly fine trimming the resistive layer 
+without damaging the ceramics. The resistor elements are 
+covered by a protective coating designed for electrical, 
+mechanical and climatic protection. The terminations 
+receive a final pure matte tin on nickel plating.
+The result of the determined production is verified by an 
+extensive testing procedure on 100 % of the individual chip 
+resistors. Only accepted products are laid directly into the 
+tape in accordance with IEC 60286-3 Type 1a and 
+Type 2a (1).
+ASSEMBLY
+The resistors are suitable for processing on automatic SMD 
+assembly systems. They are suitable for automatic 
+soldering wave, reflow or vapor phase as shown in 
+IEC 61760-1 (1). The encapsulation is resistant to all 
+cleaning solvents commonly used in the electronics 
+industry, including alcohols, esters and aqueous solutions. 
+The suitability of conformal coatings, potting compounds 
+and their processes, if applied, shall be qualified by 
+appropriate means to ensure the long-term stability of the 
+whole system.
+The resistors are RoHS-compliant, the pure matte tin plating 
+provides 
+compatibility 
+with 
+lead 
+(Pb)-free 
+and 
+lead-containing 
+soldering 
+processes. 
+Solderability 
+is 
+specified for 2 years after production or requalification. The 
+permitted storage time is 20 years. The immunity of the 
+plating against tin whisker growth has been proven under 
+extensive testing.
+MATERIALS
+Vishay acknowledges the following systems for the 
+regulation of hazardous substances:
+• IEC 62474, Material Declaration for Products of and for the 
+Electrotechnical Industry, with the list of declarable 
+substances given therein (2)
+• The Global Automotive Declarable Substance List 
+(GADSL) (3)
+• The REACH regulation (1907/2006/EC) and the related list 
+of substances with very high concern (SVHC) (4) for its 
+supply chain
+The products do not contain any of the banned 
+substances as per IEC 62474, GADSL, or the SVHC list, 
+see www.vishay.com/how/leadfree.
+Hence the products fully comply with the following 
+directives:
+• 2000/53/EC End-of-Life Vehicle Directive (ELV) and 
+Annex II (ELV II)
+• 2011/65/EU Restriction of the Use of Hazardous 
+Substances 
+Directive 
+(RoHS) 
+with 
+amendment 
+2015/863/EU
+• 2012/19/EU Waste Electrical and Electronic Equipment 
+Directive (WEEE)
+Vishay pursues the elimination of conflict minerals from its 
+supply chain, see the Conflict Minerals Policy at 
+www.vishay.com/doc?49037.
+APPROVALS
+The resistors are qualified according to AEC-Q200. 
+Where applicable, the resistors are tested in accordance 
+with 
+EN 140401-802 
+which 
+refers 
+to 
+EN 60115-1, 
+EN 60115-8 and the variety of environmental test 
+procedures of the IEC 60068 (1) series.
+RELATED PRODUCTS
+For more information about products with superior surge 
+and pulse performance please refer to datasheet: 
+D/CRCW-IF e3, Pulse Proof Thick Film Chip Resistors 
+www.vishay.com/doc?20024.
+For thick film resistors with standard requirements for power 
+rating, please refer to datasheet:
+D/CRCW 
+e3, 
+Standard 
+Thick 
+Film 
+Chip 
+www.vishay.com/doc?20035.
+For anti-surge products and high power rating, please refer 
+to datasheet:
+RCS e3, Anti-Surge High Power Thick Film Chip Resistors 
+www.vishay.com/doc?20065.
+The CRCW-HP with SnPb termination plating is designed 
+for applications where lead bearing terminations, high 
+power and high pulse capabilities are mandatory. For 
+ordering CRCW-HP with SnPb terminations, please 
+refer 
+to 
+latest 
+edition 
+of 
+datasheet 
+CRCW-HP 
+(www.vishay.com/doc?20115).
+Notes
+(1) The quoted IEC standards are also released as EN standards with the same number and identical contents
+(2) The IEC 62474 list of declarable substances is maintained in a dedicated database, which is available at http://std.iec.ch/iec62474
+(3) The Global Automotive Declarable Substance List (GADSL) is maintained by the American Chemistry Council and available at www.gadsl.org
+(4) The SVHC list is maintained by the European Chemical Agency (ECHA) and available at http://echa.europa.eu/candidate-list-table
+
+CRCW-HP e3
+www.vishay.com
+Vishay Draloric
+  
+ 
+Revision: 17-Mar-2026
+5
+Document Number: 20043
+For technical questions, contact: thickfilmchip@vishay.com
+THIS DOCUMENT IS SUBJECT TO CHANGE WITHOUT NOTICE. THE PRODUCTS DESCRIBED HEREIN AND THIS DOCUMENT
+ARE SUBJECT TO SPECIFIC DISCLAIMERS, SET FORTH AT www.vishay.com/doc?91000
+FUNCTIONAL PERFORMANCE
+Single Pulse
+Maximum pulse load, single pulse; applicable if 
+→ 0 and n < 1000 and Û ≤ Ûmax.;
+for permissible resistance change equivalent to 8000 h operation
+Continuous Pulse
+Maximum pulse load, continuous pulses; applicable if 
+≤ P (ϑamb) and Û ≤ Ûmax.;
+for permissible resistance change equivalent to 8000 h operation
+10
+100
+1000
+10000
+0.01
+0.1
+1
+10
+100
+1000
+ 10 000
+0.000001
+0.00001
+0.0001
+0.001
+0.01
+0.1
+1
+10
+100
+Axis Title
+1st line
+2nd line
+^                               2nd line
+Pmax. - Pulse Load (W)
+ti - Pulse Duration (s)
+CRCW1218-HP
+CRCW2010-HP
+CRCW1210-HP
+CRCW1206-HP
+CRCW0805-HP
+CRCW0603-HP
+CRCW0402-HP
+CRCW2512-HP
+P
+10
+100
+1000
+10000
+0.01
+0.1
+1
+10
+100
+1000
+ 10 000
+0.000001
+0.00001
+0.0001
+0.001
+0.01
+0.1
+1
+10
+100
+Axis Title
+1st line
+2nd line
+^                               2nd line
+Pmax. - Pulse Load (W)
+ti - Pulse Duration (s)
+CRCW1218-HP
+CRCW2010-HP
+CRCW1210-HP
+CRCW1206-HP
+CRCW0805-HP
+CRCW0603-HP
+CRCW0402-HP
+CRCW2512-HP
+P
+
+CRCW-HP e3
+www.vishay.com
+Vishay Draloric
+  
+ 
+Revision: 17-Mar-2026
+6
+Document Number: 20043
+For technical questions, contact: thickfilmchip@vishay.com
+THIS DOCUMENT IS SUBJECT TO CHANGE WITHOUT NOTICE. THE PRODUCTS DESCRIBED HEREIN AND THIS DOCUMENT
+ARE SUBJECT TO SPECIFIC DISCLAIMERS, SET FORTH AT www.vishay.com/doc?91000
+Pulse Voltage
+Maximum pulse voltage, single and continuous pulses; applicable if 
+; 
+for permissible resistance change equivalent to 8000 h operation
+Derating
+10
+100
+1000
+10000
+0
+200
+400
+600
+800
+1000
+1200
+1400
+1600
+1800
+2000
+0.000001
+0.00001
+0.0001
+0.001
+0.01
+0.1
+1
+10
+Axis Title
+1st line
+2nd line
+^                                  2nd line
+Umax. - Pulse Voltage (V)
+ti - Pulse Duration (s)
+▬▬▬CRCW2512-HP
+▬▬▬CRCW2010-HP
+▬▬▬CRCW1206-HP,
+▬▬▬CRCW1210-HP,
+▬▬▬CRCW1218-HP
+▬▬▬CRCW0805-HP
+▬▬▬CRCW0603-HP
+▬▬▬CRCW0402-HP
+Pˆ
+Pˆ
+max.
+≤
+10
+100
+1000
+10000
+0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+1.4
+1.6
+1.8
+-70
+-60
+-50
+-40
+-30
+-20
+-10
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+160
+Axis Title
+1st line
+2nd line
+2nd line
+P - Power Dissipation (W)
+ϑamb - Ambient Temperature (°C)
+▬▬▬CRCW1218-HP,
+▬▬▬CRCW2512-HP
+▬▬▬CRCW2010-HP
+▬▬▬CRCW1206-HP,
+▬▬▬CRCW1210-HP
+▬▬▬CRCW0805-HP
+▬▬▬CRCW0603-HP
+▬▬▬CRCW0402-HP
+10
+100
+1000
+10000
+0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+4.5
+5.0
+5.5
+6.0
+Axis Title
+1st line
+2nd line
+2nd line
+P - Power Dissipation (W)
+ϑt - Terminal Part Temperature (°C)
+▬▬▬CRCW1218-HP
+▬▬▬CRCW1210-HP
+▬▬▬CRCW2512-HP
+▬▬▬CRCW2010-HP
+▬▬▬CRCW0805-HP,
+▬▬▬CRCW1206-HP
+▬▬▬CRCW0603-HP
+▬▬▬CRCW0402-HP
+105
+-50
+0
+50
+150
+
+CRCW-HP e3
+www.vishay.com
+Vishay Draloric
+  
+ 
+Revision: 17-Mar-2026
+7
+Document Number: 20043
+For technical questions, contact: thickfilmchip@vishay.com
+THIS DOCUMENT IS SUBJECT TO CHANGE WITHOUT NOTICE. THE PRODUCTS DESCRIBED HEREIN AND THIS DOCUMENT
+ARE SUBJECT TO SPECIFIC DISCLAIMERS, SET FORTH AT www.vishay.com/doc?91000
+TESTS AND REQUIREMENTS
+All executed tests are carried out in accordance with the 
+following specifications:
+EN 60115-1, generic specification
+EN 60115-8, sectional specification
+EN 140401-802, detail specification
+IEC 60068-2-xx, test methods
+The parameters stated in the Test Procedures and 
+Requirements table are based on the required tests 
+and permitted limits of EN 140401-802. The table presents 
+only the most important tests, for the full test schedule refer 
+to the documents listed above. However, some additional 
+tests and a number of improvements against those 
+minimum requirements have been included.
+The testing also covers most of the requirements specified 
+by EIA/IS-703 and JIS-C-5201-1.
+The tests are carried out under standard atmospheric 
+conditions in accordance with IEC 60068-1, 4.3, whereupon 
+the following values are applied:
+Temperature: 15 °C to 35 °C
+Relative humidity: 25 % to 75 %
+Air pressure: 86 kPa to 106 kPa (860 mbar to 1060 mbar).
+A climatic category LCT / UCT / 56 is applied, defined by the 
+lower category temperature (LCT), the upper category 
+temperature (UCT), and the duration of exposure in the 
+damp heat, steady state test (56 days).
+The components are mounted for testing on boards in 
+accordance with EN 60115-8, 5.2.2 unless otherwise 
+specified.
+TEST PROCEDURES AND REQUIREMENTS
+EN 60115-1 
+CLAUSE
+IEC 
+60068-2 (1)
+TEST 
+METHOD
+TEST
+PROCEDURE
+REQUIREMENTS
+PERMISSIBLE CHANGE (ΔR)
+Stability for product types:
+STABILITY CLASS 2 OR BETTER
+CRCW-HP e3
+1 Ω to 1 MΩ
+6.1
+-
+Measurements of 
+resistance and 
+tolerance
+-
+± 0.5 %; ± 1 %; ± 5 %
+6.2
+-
+Temperature
+coefficient of 
+resistance
+(20 / -55 / 20) °C and 
+(20 / 155 / 20) °C
+± 100 ppm/K; ± 200 ppm/K
+7.1
+-
+Endurance at rated 
+temperature 70 °C
+U = 
+ or U = Umax.;
+whichever is the less severe;
+1.5 h on; 0.5 h off
+70 °C; 1000 h
+± (2 % R + 0.1 Ω)
+70 °C; 8000 h
+± (4 % R + 0.1 Ω)
+7.3
+-
+Endurance at
+maximum 
+temperature
+155 °C, 1000 h
+± (2 % R + 0.1 Ω)
+10.4
+78 (Cab)
+Damp heat,
+steady state
+(40 ± 2) °C; 56 days;
+(93 ± 3) % RH;
+± (1 % R + 0.05 Ω)
+10.5
+67 (Cy)
+Damp heat,
+steady state,
+accelerated
+(85 ± 2) °C; (85 ± 5) % RH;
+U = 
+ ≤ 100 V;
+1000 h
+± (2 % R + 0.1 Ω)
+10.3
+-
+Climatic sequence:
+-
+± (2 % R + 0.1 Ω)
+10.3.4.2
+2 (Bb)
+Dry heat
+125 °C; 16 h 
+10.3.4.3
+30 (Db)
+Damp heat, cyclic
+55 °C; 24 h; ≥ 90 % RH;
+1 cycle
+10.3.4.4
+1 (Ab)
+Cold
+-55 °C; 2 h
+10.3.4.5
+13 (M)
+Low air pressure
+8.5 kPa; 2 h; (25 ± 10) °C
+10.3.4.6
+30 (Db)
+Damp heat, cyclic
+55 °C; 24 h;
+≥ 90 % RH; 
+5 cycles
+10.3.4.7
+-
+DC load
+U = 
+ ≤ Umax.; 1 min
+-
+1 (Aa)
+Cold
+-55 °C; 2 h
+± (0.5 % R + 0.05 Ω)
+P70 x R
+0.1 x P85 x R
+P70 x R
+
+CRCW-HP e3
+www.vishay.com
+Vishay Draloric
+  
+ 
+Revision: 17-Mar-2026
+8
+Document Number: 20043
+For technical questions, contact: thickfilmchip@vishay.com
+THIS DOCUMENT IS SUBJECT TO CHANGE WITHOUT NOTICE. THE PRODUCTS DESCRIBED HEREIN AND THIS DOCUMENT
+ARE SUBJECT TO SPECIFIC DISCLAIMERS, SET FORTH AT www.vishay.com/doc?91000
+Note
+(1) The quoted IEC standards are also released as EN standards with the same number and identical contents
+10.1
+14 (Na)
+Rapid change of
+temperature
+30 min at -55 °C and
+30 min at 125 °C;
+1000 cycles
+± (1 % R + 0.05 Ω)
+no visible damage
+8.1
+-
+Short-term overload
+U = 2.5 x 
+ ≤ 2 x Umax.;
+whichever is the less severe;
+5 s
+± (2 % R + 0.05 Ω)
+8.2
+-
+Single pulse high 
+voltage overload
+Severity no. 4:
+U = 10 x 
+ or
+U = 2 x Umax.;
+whichever is the less severe;
+10 pulses 10 μs/700 μs 
+± (1 % R + 0.05 Ω)
+no visible damage
+8.4
+-
+Periodic electric 
+overload
+U = 
+ or
+U = 2 x Umax.;
+whichever is the less severe;
+0.1 s on; 2.5 s off;
+1000 cycles
+± (1 % R + 0.05 Ω)
+no visible damage
+8.5
+-
+Electrostatic 
+discharge 
+(human body model) 
+IEC 61340-3-1 (1);
+3 pos. + 3 neg. discharges;
+ESD voltage acc. to the size
+± (1 % R + 0.05 Ω)
+9.11
+6 (Fc)
+Vibration
+Endurance by sweeping;
+10 Hz to 2000 Hz;
+no resonance;
+amplitude ≤ 1.5 mm or
+≤ 200 m/s2;
+7.5 h
+± (0.5 % R + 0.05 Ω)
+no visible damage
+11.1
+58 (Td)
+Solderability
+Solder bath method;
+Sn60Pb40
+non-activated flux;
+(235 ± 5) °C;
+(2 ± 0.2) s
+Good tinning (≥ 95 % covered)
+no visible damage
+Solder bath method;
+Sn96.5Ag3Cu0.5
+non-activated flux;
+(245 ± 5) °C;
+(3 ± 0.3) s
+11.2
+58 (Td)
+Resistance to
+soldering heat
+Solder bath method
+(260 ± 5) °C;
+(10 ± 1) s
+± (0.5 % R + 0.05 Ω)
+11.3
+45 (XA)
+Component solvent 
+resistance
+Isopropyl alcohol;
++50 °C; method 2
+No visible damage
+9.7
+21 (Uu3)
+Shear
+(adhesion)
+CRCW0402-HP and 
+CRCW0603-HP: 9 N
+No visible damage
+CRCW0805-HP to 
+CRCW2512-HP: 45 N
+9.8
+21 (Uu1)
+Substrate bending
+Depth 2 mm;
+3 times
+± (0.25 % R + 0.05 Ω)
+no visible damage, no open circuit in bent position
+12.2
+-
+Voltage proof
+U = 1.4 x Uins; 60 s
+No flashover or breakdown
+12.4
+-
+Flammability,
+needle flame test
+IEC 60695-11-5 (1);
+10 s
+No burning after 30 s
+TEST PROCEDURES AND REQUIREMENTS
+EN 60115-1 
+CLAUSE
+IEC 
+60068-2 (1)
+TEST 
+METHOD
+TEST
+PROCEDURE
+REQUIREMENTS
+PERMISSIBLE CHANGE (ΔR)
+Stability for product types:
+STABILITY CLASS 2 OR BETTER
+CRCW-HP e3
+1 Ω to 1 MΩ
+P70 x R
+P70 x R 
+15 x P70 x R
+
+CRCW-HP e3
+www.vishay.com
+Vishay Draloric
+  
+ 
+Revision: 17-Mar-2026
+9
+Document Number: 20043
+For technical questions, contact: thickfilmchip@vishay.com
+THIS DOCUMENT IS SUBJECT TO CHANGE WITHOUT NOTICE. THE PRODUCTS DESCRIBED HEREIN AND THIS DOCUMENT
+ARE SUBJECT TO SPECIFIC DISCLAIMERS, SET FORTH AT www.vishay.com/doc?91000
+DIMENSIONS
+SOLDER PAD DIMENSIONS
+Notes
+•
+The given solder pad dimensions reflect the considerations for board design and assembly as outlined e.g in standards IEC 61188-5-x (1) or 
+in publication IPC-7351.
+Still, the given solder pad dimensions will be found adequate for most general applications
+(1) The quoted IEC standards are also released as EN standards with the same number and identical contents
+DIMENSIONS AND MASS
+TYPE / SIZE
+L
+(mm)
+W
+(mm)
+H
+(mm)
+T1
+(mm)
+T2
+(mm)
+MASS
+(mg)
+CRCW0402-HP e3
+1.0 ± 0.05
+0.5 ± 0.05
+0.3 ± 0.10
+0.25 ± 0.10
+0.2 ± 0.10
+0.65
+CRCW0603-HP e3
+1.6 ± 0.10
+0.85 ± 0.10
+0.45 ± 0.10
+0.3 ± 0.20
+0.3 ± 0.20
+2
+CRCW0805-HP e3
+2.0 ± 0.15
+1.25 ± 0.15
+0.5 ± 0.10
+0.4 ± 0.20
+0.35 ± 0.20
+5.5
+CRCW1206-HP e3
+3.1 ± 0.20
+1.6 ± 0.15
+0.5 ± 0.15
+0.5 ± 0.20
+0.45 ± 0.20
+10
+CRCW1210-HP e3
+ 3.2 ± 0.20
+2.5 ± 0.20
+0.6 ± 0.10
+0.45 ± 0.20
+0.4 ± 0.20
+18
+CRCW1218-HP e3
+3.1 ± 0.20
+4.6 ± 0.20
+0.6 ± 0.10
+0.45 ± 0.20
+0.4 ± 0.20
+31
+CRCW2010-HP e3
+ 5.0 ± 0.15
+2.5 ± 0.15
+0.6 ± 0.10
+0.6 ± 0.20
+0.6 ± 0.20
+25.5
+CRCW2512-HP e3
+ 6.3 ± 0.20
+3.15 ± 0.15
+0.6 ± 0.10
+0.6 ± 0.20
+0.6 ± 0.20
+42
+RECOMMENDED SOLDER PAD DIMENSIONS
+TYPE / SIZE
+WAVE SOLDERING
+REFLOW SOLDERING
+G
+(mm)
+Y
+(mm)
+X
+(mm)
+Z
+(mm)
+G
+(mm)
+Y
+(mm)
+X
+(mm)
+Z
+(mm)
+CRCW0402-HP e3
+-
+-
+-
+-
+0.45
+0.6
+0.6
+1.65
+CRCW0603-HP e3
+0.65
+1.10
+1.25
+2.85
+0.75
+0.75
+1.00
+2.25
+CRCW0805-HP e3
+0.90
+1.30
+1.60
+3.50
+1.00
+0.95
+1.45
+2.90
+CRCW1206-HP e3
+1.40
+1.40
+1.95
+4.20
+1.50
+1.05
+1.8
+3.60
+CRCW1210-HP e3
+1.80
+1.45
+2.95
+4.70
+1.70
+1.10
+2.80
+3.90
+CRCW1218-HP e3
+1.60
+1.50
+5.10
+4.60
+1.70
+1.10
+4.90
+3.90
+CRCW2010-HP e3
+3.60
+1.65
+2.85
+6.90
+3.70
+1.20
+2.70
+6.10
+CRCW2512-HP e3
+4.90
+1.60
+3.50
+8.10
+5.00
+1.25
+3.35
+7.50
+G
+X
+Y
+Z
+
+CRCW-HP e3
+www.vishay.com
+Vishay Draloric
+  
+ 
+Revision: 17-Mar-2026
+10
+Document Number: 20043
+For technical questions, contact: thickfilmchip@vishay.com
+THIS DOCUMENT IS SUBJECT TO CHANGE WITHOUT NOTICE. THE PRODUCTS DESCRIBED HEREIN AND THIS DOCUMENT
+ARE SUBJECT TO SPECIFIC DISCLAIMERS, SET FORTH AT www.vishay.com/doc?91000
+REVISION HISTORY
+REVISION DATE
+DESCRIPTION
+05-Feb-2026
+Page 1: 
+- Adding rated dissipation at terminal part temperature of 105 °C to “Technical Specifications” table
+- Adding SnPb termination version to “Features”
+Page 4:
+- Pure matte tin termination update
+Page 6:
+- Added Derating curve for terminal part temperature (ϑt)
+Pages 7 to 8:
+- Update of EN clauses to new revision of EN 60115-1
+Page 10: 
+- Introduction of “Revision History”
+17-Mar-2026
+Page 2, “Packaging” table: 
+- EE packaging code updated from 10 000 to 50 000
+
+Legal Disclaimer Notice
+www.vishay.com
+Vishay
+   
+ 
+Revision: 01-Jan-2026
+1
+Document Number: 91000
+THIS DOCUMENT IS SUBJECT TO CHANGE WITHOUT NOTICE. THE PRODUCTS DESCRIBED HEREIN AND THIS DOCUMENT
+ARE SUBJECT TO SPECIFIC DISCLAIMERS, SET FORTH AT www.vishay.com/doc?91000
+Disclaimer
+ALL PRODUCT, PRODUCT SPECIFICATIONS AND DATA ARE SUBJECT TO CHANGE WITHOUT NOTICE TO IMPROVE 
+RELIABILITY, FUNCTION OR DESIGN OR OTHERWISE. 
+Vishay Intertechnology, Inc., its affiliates, agents, and employees, and all persons acting on its or their behalf (collectively, 
+“Vishay”), disclaim any and all liability for any errors, inaccuracies or incompleteness contained in any datasheet or in any other 
+disclosure relating to any product.
+Vishay makes no warranty, representation or guarantee regarding the suitability of the products for any particular purpose or 
+the continuing production of any product. To the maximum extent permitted by applicable law, Vishay disclaims (i) any and all 
+liability arising out of the application or use of any product, (ii) any and all liability, including without limitation special, 
+consequential or incidental damages, and (iii) any and all implied warranties, including warranties of fitness for particular 
+purpose, non-infringement and merchantability.
+Statements regarding the suitability of products for certain types of applications are based on Vishay's knowledge of typical 
+requirements that are often placed on Vishay products in generic applications. Such statements are not binding statements 
+about the suitability of products for a particular application. It is the customer's responsibility to validate that a particular product 
+with the properties described in the product specification is suitable for use in a particular application. Parameters provided in 
+datasheets and / or specifications may vary in different applications and performance may vary over time. All operating 
+parameters, including typical parameters, must be validated for each customer application by the customer's technical experts. 
+Product specifications do not expand or otherwise modify Vishay's terms and conditions of purchase, including but not limited 
+to the warranty expressed therein.
+Hyperlinks included in this datasheet may direct users to third-party websites. These links are provided as a convenience and 
+for informational purposes only. Inclusion of these hyperlinks does not constitute an endorsement or an approval by Vishay of 
+any of the products, services or opinions of the corporation, organization or individual associated with the third-party website. 
+Vishay disclaims any and all liability and bears no responsibility for the accuracy, legality or content of the third-party website 
+or for that of subsequent links.
+Vishay products are not designed for use in life-saving or life-sustaining applications or any application in which the failure of 
+the Vishay product could result in personal injury or death unless specifically qualified in writing by Vishay. Customers using or 
+selling Vishay products not expressly indicated for use in such applications do so at their own risk. Please contact authorized 
+Vishay personnel to obtain written terms and conditions regarding products designed for such applications.
+No license, express or implied, by estoppel or otherwise, to any intellectual property rights is granted by this document or by 
+any conduct of Vishay. Product names and markings noted herein may be trademarks of their respective owners.
+© 2026 VISHAY INTERTECHNOLOGY, INC. ALL RIGHTS RESERVED

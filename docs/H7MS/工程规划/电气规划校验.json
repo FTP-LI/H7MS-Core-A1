@@ -1,0 +1,429 @@
+{
+  "version": "v0.9.3-design",
+  "clock_config_version": "v0.9.1-design",
+  "checked_at": "2026-10-16T14:25:49.379604+00:00",
+  "status": "pass",
+  "clocks_hz": {
+    "CPU": 480000000,
+    "FDCAN": 80000000,
+    "SPI123": 80000000,
+    "SPI45": 80000000,
+    "USB": 48000000,
+    "ADC": 24000000,
+    "SDMMC": 48000000,
+    "OCTOSPI": 40000000,
+    "HCLK": 240000000,
+    "PCLK": 120000000,
+    "TIMER": 240000000
+  },
+  "dma": {
+    "CORE_BRINGUP": {
+      "streams": 3,
+      "free": 13,
+      "requests": {
+        "DMA2_Stream0": {
+          "request": "ADC3",
+          "dmamux1_id": 115
+        },
+        "DMA2_Stream1": {
+          "request": "SPI4_RX",
+          "dmamux1_id": 83
+        },
+        "DMA2_Stream2": {
+          "request": "SPI4_TX",
+          "dmamux1_id": 84
+        }
+      }
+    },
+    "RM_STANDARD": {
+      "streams": 13,
+      "free": 3,
+      "requests": {
+        "DMA2_Stream0": {
+          "request": "ADC3",
+          "dmamux1_id": 115
+        },
+        "DMA2_Stream1": {
+          "request": "SPI4_RX",
+          "dmamux1_id": 83
+        },
+        "DMA2_Stream2": {
+          "request": "SPI4_TX",
+          "dmamux1_id": 84
+        },
+        "DMA1_Stream0": {
+          "request": "SPI3_RX",
+          "dmamux1_id": 61
+        },
+        "DMA1_Stream1": {
+          "request": "SPI3_TX",
+          "dmamux1_id": 62
+        },
+        "DMA1_Stream2": {
+          "request": "UART4_RX",
+          "dmamux1_id": 63
+        },
+        "DMA1_Stream3": {
+          "request": "UART4_TX",
+          "dmamux1_id": 64
+        },
+        "DMA1_Stream4": {
+          "request": "UART8_RX",
+          "dmamux1_id": 81
+        },
+        "DMA1_Stream5": {
+          "request": "UART8_TX",
+          "dmamux1_id": 82
+        },
+        "DMA1_Stream6": {
+          "request": "USART1_RX",
+          "dmamux1_id": 41
+        },
+        "DMA1_Stream7": {
+          "request": "USART2_RX",
+          "dmamux1_id": 43
+        },
+        "DMA2_Stream3": {
+          "request": "USART3_RX",
+          "dmamux1_id": 45
+        },
+        "DMA2_Stream4": {
+          "request": "UART7_RX",
+          "dmamux1_id": 79
+        }
+      }
+    },
+    "DUAL_SPI": {
+      "streams": 13,
+      "free": 3,
+      "requests": {
+        "DMA2_Stream0": {
+          "request": "ADC3",
+          "dmamux1_id": 115
+        },
+        "DMA2_Stream1": {
+          "request": "SPI4_RX",
+          "dmamux1_id": 83
+        },
+        "DMA2_Stream2": {
+          "request": "SPI4_TX",
+          "dmamux1_id": 84
+        },
+        "DMA1_Stream0": {
+          "request": "SPI3_RX",
+          "dmamux1_id": 61
+        },
+        "DMA1_Stream1": {
+          "request": "SPI3_TX",
+          "dmamux1_id": 62
+        },
+        "DMA1_Stream2": {
+          "request": "UART4_RX",
+          "dmamux1_id": 63
+        },
+        "DMA1_Stream3": {
+          "request": "UART4_TX",
+          "dmamux1_id": 64
+        },
+        "DMA1_Stream4": {
+          "request": "UART8_RX",
+          "dmamux1_id": 81
+        },
+        "DMA1_Stream5": {
+          "request": "UART8_TX",
+          "dmamux1_id": 82
+        },
+        "DMA1_Stream6": {
+          "request": "USART1_RX",
+          "dmamux1_id": 41
+        },
+        "DMA1_Stream7": {
+          "request": "USART2_RX",
+          "dmamux1_id": 43
+        },
+        "DMA2_Stream3": {
+          "request": "USART3_RX",
+          "dmamux1_id": 45
+        },
+        "DMA2_Stream4": {
+          "request": "UART7_RX",
+          "dmamux1_id": 79
+        }
+      }
+    },
+    "MEMORY_LOGGER": {
+      "streams": 12,
+      "free": 4,
+      "requests": {
+        "DMA2_Stream0": {
+          "request": "ADC3",
+          "dmamux1_id": 115
+        },
+        "DMA2_Stream1": {
+          "request": "SPI4_RX",
+          "dmamux1_id": 83
+        },
+        "DMA2_Stream2": {
+          "request": "SPI4_TX",
+          "dmamux1_id": 84
+        },
+        "DMA1_Stream0": {
+          "request": "SPI3_RX",
+          "dmamux1_id": 61
+        },
+        "DMA1_Stream1": {
+          "request": "SPI3_TX",
+          "dmamux1_id": 62
+        },
+        "DMA1_Stream2": {
+          "request": "UART4_RX",
+          "dmamux1_id": 63
+        },
+        "DMA1_Stream3": {
+          "request": "UART4_TX",
+          "dmamux1_id": 64
+        },
+        "DMA1_Stream4": {
+          "request": "UART8_RX",
+          "dmamux1_id": 81
+        },
+        "DMA1_Stream5": {
+          "request": "UART8_TX",
+          "dmamux1_id": 82
+        },
+        "DMA1_Stream7": {
+          "request": "USART2_RX",
+          "dmamux1_id": 43
+        },
+        "DMA2_Stream3": {
+          "request": "USART3_RX",
+          "dmamux1_id": 45
+        },
+        "DMA2_Stream4": {
+          "request": "UART7_RX",
+          "dmamux1_id": 79
+        }
+      }
+    },
+    "NETWORK_GATEWAY": {
+      "streams": 14,
+      "free": 2,
+      "requests": {
+        "DMA2_Stream0": {
+          "request": "ADC3",
+          "dmamux1_id": 115
+        },
+        "DMA2_Stream1": {
+          "request": "SPI4_RX",
+          "dmamux1_id": 83
+        },
+        "DMA2_Stream2": {
+          "request": "SPI4_TX",
+          "dmamux1_id": 84
+        },
+        "DMA1_Stream0": {
+          "request": "SPI3_RX",
+          "dmamux1_id": 61
+        },
+        "DMA1_Stream1": {
+          "request": "SPI3_TX",
+          "dmamux1_id": 62
+        },
+        "DMA1_Stream2": {
+          "request": "UART4_RX",
+          "dmamux1_id": 63
+        },
+        "DMA1_Stream3": {
+          "request": "UART4_TX",
+          "dmamux1_id": 64
+        },
+        "DMA1_Stream4": {
+          "request": "UART8_RX",
+          "dmamux1_id": 81
+        },
+        "DMA1_Stream5": {
+          "request": "UART8_TX",
+          "dmamux1_id": 82
+        },
+        "DMA1_Stream6": {
+          "request": "USART1_RX",
+          "dmamux1_id": 41
+        },
+        "DMA1_Stream7": {
+          "request": "USART2_RX",
+          "dmamux1_id": 43
+        },
+        "DMA2_Stream3": {
+          "request": "USART3_RX",
+          "dmamux1_id": 45
+        },
+        "DMA2_Stream4": {
+          "request": "UART7_RX",
+          "dmamux1_id": 79
+        },
+        "DMA2_Stream6": {
+          "request": "USART6_RX",
+          "dmamux1_id": 71
+        }
+      }
+    },
+    "SERIAL_IO": {
+      "streams": 16,
+      "free": 0,
+      "requests": {
+        "DMA2_Stream0": {
+          "request": "ADC3",
+          "dmamux1_id": 115
+        },
+        "DMA2_Stream1": {
+          "request": "SPI4_RX",
+          "dmamux1_id": 83
+        },
+        "DMA2_Stream2": {
+          "request": "SPI4_TX",
+          "dmamux1_id": 84
+        },
+        "DMA1_Stream0": {
+          "request": "SPI3_RX",
+          "dmamux1_id": 61
+        },
+        "DMA1_Stream1": {
+          "request": "SPI3_TX",
+          "dmamux1_id": 62
+        },
+        "DMA1_Stream2": {
+          "request": "UART4_RX",
+          "dmamux1_id": 63
+        },
+        "DMA1_Stream3": {
+          "request": "UART4_TX",
+          "dmamux1_id": 64
+        },
+        "DMA1_Stream4": {
+          "request": "UART8_RX",
+          "dmamux1_id": 81
+        },
+        "DMA1_Stream5": {
+          "request": "UART8_TX",
+          "dmamux1_id": 82
+        },
+        "DMA1_Stream6": {
+          "request": "USART1_RX",
+          "dmamux1_id": 41
+        },
+        "DMA1_Stream7": {
+          "request": "USART2_RX",
+          "dmamux1_id": 43
+        },
+        "DMA2_Stream3": {
+          "request": "USART3_RX",
+          "dmamux1_id": 45
+        },
+        "DMA2_Stream4": {
+          "request": "UART7_RX",
+          "dmamux1_id": 79
+        },
+        "DMA2_Stream5": {
+          "request": "UART5_RX",
+          "dmamux1_id": 65
+        },
+        "DMA2_Stream6": {
+          "request": "USART6_RX",
+          "dmamux1_id": 71
+        },
+        "DMA2_Stream7": {
+          "request": "UART9_RX",
+          "dmamux1_id": 116
+        }
+      }
+    },
+    "MOTOR_LAB": {
+      "streams": 10,
+      "free": 6,
+      "requests": {
+        "DMA2_Stream0": {
+          "request": "ADC3",
+          "dmamux1_id": 115
+        },
+        "DMA2_Stream1": {
+          "request": "SPI4_RX",
+          "dmamux1_id": 83
+        },
+        "DMA2_Stream2": {
+          "request": "SPI4_TX",
+          "dmamux1_id": 84
+        },
+        "DMA1_Stream2": {
+          "request": "UART4_RX",
+          "dmamux1_id": 63
+        },
+        "DMA1_Stream3": {
+          "request": "UART4_TX",
+          "dmamux1_id": 64
+        },
+        "DMA1_Stream4": {
+          "request": "UART8_RX",
+          "dmamux1_id": 81
+        },
+        "DMA1_Stream5": {
+          "request": "UART8_TX",
+          "dmamux1_id": 82
+        },
+        "DMA1_Stream7": {
+          "request": "USART2_RX",
+          "dmamux1_id": 43
+        },
+        "DMA2_Stream3": {
+          "request": "USART3_RX",
+          "dmamux1_id": 45
+        },
+        "DMA2_Stream4": {
+          "request": "UART7_RX",
+          "dmamux1_id": 79
+        }
+      }
+    }
+  },
+  "fdcan_ram": {
+    "words_per_instance": 624,
+    "total_used_words": 1872,
+    "last_end_exclusive": 2160,
+    "capacity_words": 2560
+  },
+  "connections": {
+    "pin_connections": 1313,
+    "components_by_board": {
+      "CORE": 135,
+      "BASE_DBG": 269
+    },
+    "mcu_balls": 100,
+    "stack_contacts_checked": 100,
+    "physical_land_rows": 301,
+    "limitations": "selected net and pad-coordinate invariants only; no EDA footprint/DRC, full ERC or transient simulation"
+  },
+  "negative_checks": {
+    "usb_wrong_frequency": "rejected",
+    "duplicate_dma_stream": "rejected",
+    "fdcan_ram_overlap": "rejected",
+    "wrong_vddldo": "rejected",
+    "both_spi_directions": "rejected",
+    "usb_cc_short": "rejected",
+    "rs485_tvs_after_resistor": "rejected",
+    "stack_wrong_net": "rejected"
+  },
+  "sources_sha256": {
+    "时钟DMA配置.json": "c94ea2e4560962550b593f69435e57a47358013e06eceaa410ff766f4650566b",
+    "资源配置.json": "6036536acc11428f5fd28fc8e5deaa2adcb51271a395556f2ed95a65e46152e2",
+    "原理图连接.csv": "a597ce91cf6c4d75efad2d3b30297ef53082cf20a6a4b5ac8d20df49aeb09a15",
+    "连接器与保护器件焊盘.csv": "a9bc3767c46be6d6f7068771a84ee460de6f5ca41b6782538267a900162c3d25",
+    "板间实体针序.csv": "c481768321b3ddc4cb1d1dab886013a2a3a2b28b3d4686c99b44a89d306c36be",
+    "dma.h": "564d6d26015155743f4990a354d26124d5d434673813c75df5da9572e4ac2eae"
+  },
+  "not_performed": [
+    "CubeMX generation",
+    "firmware compilation",
+    "EDA/ERC/netlist export",
+    "PCB/SI/EMC/thermal",
+    "hardware timing and fault tests"
+  ]
+}

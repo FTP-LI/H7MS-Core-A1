@@ -1,0 +1,632 @@
+[
+  {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "9c93fbd7e1383959",
+    "componentType": "sheet",
+    "x": 0,
+    "y": 0,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "component": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "66fae9ba28cb7885",
+      "name": "Drawing-Symbol_A4"
+    }
+  },
+  {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "101f8bce8811a860",
+    "componentType": "part",
+    "x": 210,
+    "y": 980,
+    "subPartName": "USB4105-GF-A-120.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "component": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "2ffb7bc58c9db239",
+      "name": "USB4105-GF-A-120"
+    },
+    "symbol": {
+      "uuid": "60a41fe1f99661a1",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "USB4105-GF-A-120"
+    },
+    "footprint": {
+      "uuid": "99682cca4c0ccebf",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "USB-C-SMD_MC-311D"
+    },
+    "designator": "J_USB",
+    "name": "USB4105-GF-A-120",
+    "uniqueId": "gge118",
+    "manufacturer": "GCT",
+    "manufacturerId": "USB4105-GF-A-120",
+    "supplier": "LCSC",
+    "supplierId": "C5184243",
+    "otherProperty": {
+      "LCSC Part Name": "Type-C 母",
+      "Supplier Footprint": "SMD",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/USB4105-GF-A-120/5849584.html",
+      "Connector Type": "Type-C",
+      "Protocol Standard": "USB 2.0",
+      "Gender": "母",
+      "Mounting Type": "-",
+      "Number of Contacts": "16P",
+      "Number of Ports": "1",
+      "Current Rating-Power": "5A",
+      "Voltage Rating": "48V",
+      "Connect-Disconnect Life": "-",
+      "Supplementary Features": "-",
+      "Center Height": "-",
+      "Length": "-",
+      "Detection color": "黑色",
+      "Operating Temperature": "-40℃~+85℃",
+      "Description": "连接器类型:Type-C;协议标准:USB 2.0;公母:母;安装方式:-;触点数量:16P;端口数量:1;额定电流 - 电源:5A;工作温度:-40℃~+85℃;"
+    }
+  },
+  {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "ac762557be7c9cfe",
+    "componentType": "part",
+    "x": 570,
+    "y": 980,
+    "subPartName": "RC0402FR-075K1L.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "component": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "fb9c448059be37a7",
+      "name": "RC0402FR-075K1L"
+    },
+    "symbol": {
+      "uuid": "c03d7f1c0e58db5c",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "RC0402FR-075K1L"
+    },
+    "footprint": {
+      "uuid": "447d462c1ae401d9",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "R0402"
+    },
+    "designator": "R_CC1",
+    "name": "5.1kΩ",
+    "uniqueId": "gge119",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-075K1L",
+    "supplier": "LCSC",
+    "supplierId": "C105872",
+    "otherProperty": {
+      "LCSC Part Name": "厚膜电阻 5.1kΩ ±1% 62.5mW",
+      "Supplier Footprint": "0402",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-075K1L/107087.html",
+      "Type": "厚膜电阻",
+      "Value": "5.1kΩ",
+      "Tolerance": "±1%",
+      "Power(Watts)": "62.5mW",
+      "Voltage-Supply(Max)": "50V",
+      "Temperature Coefficient": "±100ppm/℃",
+      "Operating Temperature": "-55℃~+155℃",
+      "Description": "电阻类型:厚膜电阻;阻值:5.1kΩ;精度:±1%;功率:62.5mW;工作电压:50V;温度系数:±100ppm/℃;"
+    }
+  },
+  {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "da2fe3aac3b00eff",
+    "componentType": "part",
+    "x": 930,
+    "y": 980,
+    "subPartName": "RC0402FR-075K1L.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "component": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "fb9c448059be37a7",
+      "name": "RC0402FR-075K1L"
+    },
+    "symbol": {
+      "uuid": "c03d7f1c0e58db5c",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "RC0402FR-075K1L"
+    },
+    "footprint": {
+      "uuid": "447d462c1ae401d9",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "R0402"
+    },
+    "designator": "R_CC2",
+    "name": "5.1kΩ",
+    "uniqueId": "gge120",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-075K1L",
+    "supplier": "LCSC",
+    "supplierId": "C105872",
+    "otherProperty": {
+      "LCSC Part Name": "厚膜电阻 5.1kΩ ±1% 62.5mW",
+      "Supplier Footprint": "0402",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-075K1L/107087.html",
+      "Type": "厚膜电阻",
+      "Value": "5.1kΩ",
+      "Tolerance": "±1%",
+      "Power(Watts)": "62.5mW",
+      "Voltage-Supply(Max)": "50V",
+      "Temperature Coefficient": "±100ppm/℃",
+      "Operating Temperature": "-55℃~+155℃",
+      "Description": "电阻类型:厚膜电阻;阻值:5.1kΩ;精度:±1%;功率:62.5mW;工作电压:50V;温度系数:±100ppm/℃;"
+    }
+  },
+  {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "b92334776e233372",
+    "componentType": "part",
+    "x": 1290,
+    "y": 980,
+    "subPartName": "RC0402JR-070RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "component": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "89d6d9203256356c",
+      "name": "RC0402JR-070RL"
+    },
+    "symbol": {
+      "uuid": "c0168ba8837bc333",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "RC0402JR-070RL"
+    },
+    "footprint": {
+      "uuid": "447d462c1ae401d9",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "R0402"
+    },
+    "designator": "R_USB_SHELL",
+    "name": "0Ω",
+    "uniqueId": "gge121",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402JR-070RL",
+    "supplier": "LCSC",
+    "supplierId": "C60485",
+    "otherProperty": {
+      "LCSC Part Name": "厚膜电阻 0Ω ±5% 62.5mW",
+      "Supplier Footprint": "0402",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/RC0402JR-070RL/61537.html",
+      "Type": "厚膜电阻",
+      "Value": "0Ω",
+      "Tolerance": "±5%",
+      "Power(Watts)": "62.5mW",
+      "Voltage-Supply(Max)": "50V",
+      "Temperature Coefficient": "-",
+      "Operating Temperature": "-55℃~+155℃",
+      "Description": "电阻类型:厚膜电阻;阻值:0Ω;精度:±5%;功率:62.5mW;工作电压:50V;温度系数:-;"
+    }
+  },
+  {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "427c3d20da04423a",
+    "componentType": "part",
+    "x": 210,
+    "y": 840,
+    "subPartName": "USBLC6-2SC6.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "component": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "16a103f560c4de0a",
+      "name": "USBLC6-2SC6_C7519"
+    },
+    "symbol": {
+      "uuid": "ab00feec831794c9",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "USBLC6-2SC6"
+    },
+    "footprint": {
+      "uuid": "460a40a28a9cb081",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+    },
+    "designator": "U_USB_ESD",
+    "name": "USBLC6-2SC6",
+    "uniqueId": "gge122",
+    "manufacturer": "ST(意法半导体)",
+    "manufacturerId": "USBLC6-2SC6",
+    "supplier": "LCSC",
+    "supplierId": "C7519",
+    "otherProperty": {
+      "LCSC Part Name": "单向ESD 5.25V截止 峰值脉冲电流：5A",
+      "Supplier Footprint": "SOT-23-6L",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/USBLC6-2SC6/7996.html",
+      "Polarity": "单向",
+      "Reverse Stand-Off Voltage (Vrwm)": "5.25V",
+      "Clamping Voltage": "17V",
+      "Peak Pulse Current (Ipp)": "5A",
+      "Voltage - Breakdown": "6V",
+      "Reverse Leakage Current (Ir)": "150nA",
+      "Number of Channels": "双路",
+      "Operating Temperature": "-40℃~+125℃",
+      "level of protection": "IEC 61000-4-2",
+      "Type": "ESD",
+      "Junction Capacitance": "3.5pF",
+      "Description": "极性:单向;反向截止电压(Vrwm):5.25V;钳位电压:17V;峰值脉冲电流(Ipp):5A;击穿电压(VBR):6V;"
+    }
+  },
+  {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "4e967b36471ae3f4",
+    "componentType": "part",
+    "x": 570,
+    "y": 840,
+    "subPartName": "RC0402JR-070RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "component": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "89d6d9203256356c",
+      "name": "RC0402JR-070RL"
+    },
+    "symbol": {
+      "uuid": "c0168ba8837bc333",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "RC0402JR-070RL"
+    },
+    "footprint": {
+      "uuid": "447d462c1ae401d9",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "R0402"
+    },
+    "designator": "R_USB_DP",
+    "name": "0Ω",
+    "uniqueId": "gge125",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402JR-070RL",
+    "supplier": "LCSC",
+    "supplierId": "C60485",
+    "otherProperty": {
+      "LCSC Part Name": "厚膜电阻 0Ω ±5% 62.5mW",
+      "Supplier Footprint": "0402",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/RC0402JR-070RL/61537.html",
+      "Type": "厚膜电阻",
+      "Value": "0Ω",
+      "Tolerance": "±5%",
+      "Power(Watts)": "62.5mW",
+      "Voltage-Supply(Max)": "50V",
+      "Temperature Coefficient": "-",
+      "Operating Temperature": "-55℃~+155℃",
+      "Description": "电阻类型:厚膜电阻;阻值:0Ω;精度:±5%;功率:62.5mW;工作电压:50V;温度系数:-;"
+    }
+  },
+  {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "b6170e167bd3bc0e",
+    "componentType": "part",
+    "x": 930,
+    "y": 840,
+    "subPartName": "RC0402JR-070RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "component": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "89d6d9203256356c",
+      "name": "RC0402JR-070RL"
+    },
+    "symbol": {
+      "uuid": "c0168ba8837bc333",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "RC0402JR-070RL"
+    },
+    "footprint": {
+      "uuid": "447d462c1ae401d9",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "R0402"
+    },
+    "designator": "R_USB_DM",
+    "name": "0Ω",
+    "uniqueId": "gge126",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402JR-070RL",
+    "supplier": "LCSC",
+    "supplierId": "C60485",
+    "otherProperty": {
+      "LCSC Part Name": "厚膜电阻 0Ω ±5% 62.5mW",
+      "Supplier Footprint": "0402",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/RC0402JR-070RL/61537.html",
+      "Type": "厚膜电阻",
+      "Value": "0Ω",
+      "Tolerance": "±5%",
+      "Power(Watts)": "62.5mW",
+      "Voltage-Supply(Max)": "50V",
+      "Temperature Coefficient": "-",
+      "Operating Temperature": "-55℃~+155℃",
+      "Description": "电阻类型:厚膜电阻;阻值:0Ω;精度:±5%;功率:62.5mW;工作电压:50V;温度系数:-;"
+    }
+  },
+  {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "0422b97709eb4ce2",
+    "componentType": "part",
+    "x": 1290,
+    "y": 840,
+    "subPartName": "C1005X7R1H104K050BB.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "component": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "395a7f292b34a6e3",
+      "name": "C1005X7R1H104K050BB"
+    },
+    "symbol": {
+      "uuid": "acac8097b6bf5f74",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "C1005X7R1H104K050BB"
+    },
+    "footprint": {
+      "uuid": "f8a7670310b2ce18",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "C0402"
+    },
+    "designator": "C_USB_VBUS",
+    "name": "100nF 50V",
+    "uniqueId": "gge127",
+    "manufacturer": "TDK",
+    "manufacturerId": "C1005X7R1H104K050BB",
+    "supplier": "LCSC",
+    "supplierId": "C2181015",
+    "otherProperty": {
+      "LCSC Part Name": "100nF ±10% 50V",
+      "Supplier Footprint": "0402",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/C1005X7R1H104K050BB/2273082.html",
+      "Value": "100nF",
+      "Tolerance": "±10%",
+      "Voltage Rating": "50V",
+      "Temperature Coefficient": "X7R",
+      "Description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;"
+    }
+  },
+  {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "4de8f329b8c9a991",
+    "componentType": "part",
+    "x": 210,
+    "y": 700,
+    "subPartName": "SN74LVC1G17DBVR.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "component": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "55a5a8c0e9bdd3f5",
+      "name": "SN74LVC1G17DBVR"
+    },
+    "symbol": {
+      "uuid": "093437f3901f2336",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "SN74LVC1G17DBVR"
+    },
+    "footprint": {
+      "uuid": "08d3bfa6a810b9ee",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
+    },
+    "designator": "U_VBUS",
+    "name": "SN74LVC1G17DBVR",
+    "uniqueId": "gge128",
+    "manufacturer": "TI(德州仪器)",
+    "manufacturerId": "SN74LVC1G17DBVR",
+    "supplier": "LCSC",
+    "supplierId": "C7836",
+    "otherProperty": {
+      "LCSC Part Name": "单施密特触发器缓冲器",
+      "Supplier Footprint": "SOT-23-5",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://www.ti.com/cn/lit/ds/symlink/sn74lvc1g17.pdf",
+      "Input type": "施密特触发器",
+      "output type": "推挽式",
+      "Voltage - Supply": "1.65V~5.5V",
+      "Number of Elements": "1",
+      "Number of Bits per Element": "1",
+      "Channel Type": "单向",
+      "Current - Output Low(IOL)": "32mA",
+      "Current - Output High(IOH)": "32mA",
+      "Logic Family": "74LVC",
+      "Operating Temperature": "-40℃~+125℃",
+      "Quiescent Current": "10uA",
+      "Propagation Delay": "4.6ns@3.3V,15pF",
+      "Features": "掉电隔离；电平转换",
+      "Description": "输入类型:施密特触发器;工作电压:1.65V~5.5V;元件数:1;每个元件位数:1;灌电流(IOL):32mA;拉电流(IOH):32mA;"
+    }
+  },
+  {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "bd21a2bcce60cd00",
+    "componentType": "part",
+    "x": 570,
+    "y": 700,
+    "subPartName": "RC0402FR-071KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "component": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "deb6fa81fb03dbd3",
+      "name": "RC0402FR-071KL"
+    },
+    "symbol": {
+      "uuid": "44f124e84d9e6bbe",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "RC0402FR-071KL"
+    },
+    "footprint": {
+      "uuid": "447d462c1ae401d9",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "R0402"
+    },
+    "designator": "R_VBUS_SER",
+    "name": "1kΩ",
+    "uniqueId": "gge129",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-071KL",
+    "supplier": "LCSC",
+    "supplierId": "C106235",
+    "otherProperty": {
+      "LCSC Part Name": "厚膜电阻 1kΩ ±1% 62.5mW",
+      "Supplier Footprint": "0402",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-071KL/107450.html",
+      "Type": "厚膜电阻",
+      "Value": "1kΩ",
+      "Tolerance": "±1%",
+      "Power(Watts)": "62.5mW",
+      "Voltage-Supply(Max)": "50V",
+      "Temperature Coefficient": "±100ppm/℃",
+      "Operating Temperature": "-55℃~+155℃",
+      "Description": "电阻类型:厚膜电阻;阻值:1kΩ;精度:±1%;功率:62.5mW;工作电压:50V;温度系数:±100ppm/℃;"
+    }
+  },
+  {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "1aa11d46d220ee29",
+    "componentType": "part",
+    "x": 930,
+    "y": 700,
+    "subPartName": "RC0402FR-07100KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "component": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "243cbae2e8d7da0d",
+      "name": "RC0402FR-07100KL"
+    },
+    "symbol": {
+      "uuid": "5a839181e5c6fce6",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "RC0402FR-07100KL"
+    },
+    "footprint": {
+      "uuid": "447d462c1ae401d9",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "R0402"
+    },
+    "designator": "R_VBUS_PD",
+    "name": "100kΩ",
+    "uniqueId": "gge130",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-07100KL",
+    "supplier": "LCSC",
+    "supplierId": "C60491",
+    "otherProperty": {
+      "LCSC Part Name": "厚膜电阻 100kΩ ±1% 62.5mW",
+      "Supplier Footprint": "0402",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-07100KL/61543.html",
+      "Type": "厚膜电阻",
+      "Value": "100kΩ",
+      "Tolerance": "±1%",
+      "Power(Watts)": "62.5mW",
+      "Voltage-Supply(Max)": "50V",
+      "Temperature Coefficient": "±100ppm/℃",
+      "Operating Temperature": "-55℃~+155℃",
+      "Description": "电阻类型:厚膜电阻;阻值:100kΩ;精度:±1%;功率:62.5mW;工作电压:50V;温度系数:±100ppm/℃;"
+    }
+  },
+  {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "6072acc7b0062f05",
+    "componentType": "part",
+    "x": 1290,
+    "y": 700,
+    "subPartName": "C1005X7R1H104K050BB.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "component": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "395a7f292b34a6e3",
+      "name": "C1005X7R1H104K050BB"
+    },
+    "symbol": {
+      "uuid": "acac8097b6bf5f74",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "C1005X7R1H104K050BB"
+    },
+    "footprint": {
+      "uuid": "f8a7670310b2ce18",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "C0402"
+    },
+    "designator": "C_VBUS_U",
+    "name": "100nF 50V",
+    "uniqueId": "gge131",
+    "manufacturer": "TDK",
+    "manufacturerId": "C1005X7R1H104K050BB",
+    "supplier": "LCSC",
+    "supplierId": "C2181015",
+    "otherProperty": {
+      "LCSC Part Name": "100nF ±10% 50V",
+      "Supplier Footprint": "0402",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/C1005X7R1H104K050BB/2273082.html",
+      "Value": "100nF",
+      "Tolerance": "±10%",
+      "Voltage Rating": "50V",
+      "Temperature Coefficient": "X7R",
+      "Description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;"
+    }
+  }
+]

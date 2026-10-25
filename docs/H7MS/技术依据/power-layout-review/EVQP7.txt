@@ -1,0 +1,525 @@
+ANCTB21E　201903-Fd
+ 1 
+LQGXVWULDOSDQDVRQLFFRPDFH
+
+Design and speciﬁ cations are each subject to change without notice. Ask factory for the current technical speciﬁ cations before purchase and/or use.
+Should a safety concern arise regarding this product, please be sure to contact us immediately.
+© Panasonic Corporation 2019
+Light Touch Switches/EVQP7/P3/9P7
+1
+2
+3
+4
+5
+6
+7
+8
+9
+ Type
+Snap action / Push-on type SPST
+Electrical
+Rating
+Contact Resistance
+500 mΩ max.
+Insulation Resistance
+100 MΩ min. (at 100 V DC)
+Dielectric Withstanding Voltage
+250 V AC for 1 minute
+Bouncing
+10 ms max. (ON, OFF)
+Mechanical
+Operating Force
+1.6 N, 2.2 N
+Push Travel
+0.2 mm
+Push Strength
+30 N (1 minute)
+Endurance
+Operating Life
+100,000 cycles min.
+Operating Temperature
+–20 °C to +70 °C
+Storage Temperature
+–40 °C to +85 °C (Bulk)
+–20 °C to +60 °C (Taping)
+Minimum Quantity/Packing Unit
+5,000 pcs.
+Embossed Taping (Reel Pack)
+Quantity/Carton
+25,000 pcs.
+■ Speciﬁcations
+3.5 mm×2.9 mm Side-operational SMD
+Light Touch Switches
+Type: EVQP7/EVQP3/EVQ9P7
+■ Explanation of Part Numbers
+■ Features
+●External dimensions : 3.5 mm×2.9 mm, Height 1.35 mm
+●A wide range of terminal type : L-shape, J-bent, Straight
+●High mount ability
+●Push plate strength enhanced type
+■ Recommended Applications
+●Operation switches for portable electronic equipment
+(Mobile phones, Digital still cameras, Camcorders,
+Portable audio players, etc.)
+Product Code
+Product Height
+Type・Operating Force
+P9
+73P
+10 μA 2 V DC to 50 mA 12 V DC (Resistive load)
+
+Panasonic Corporation Electromechanical Control Business Division
+industrial.panasonic.com/ac/e/
+ 2 
+Design and speciﬁ cations are each subject to change without notice. Ask factory for the current technical speciﬁ cations before purchase and/or use.
+Should a safety concern arise regarding this product, please be sure to contact us immediately.
+ANCTB21E　201903-Fd
+© Panasonic Corporation 2019
+Light Touch Switches/EVQP7/P3/9P7
+4.7
+1.48±0.1
+0.62±0.1
+1.35
+2.9
+1.6
+3.55
+1.7
+0.5±0.1
+3.5
+(2.8)
+0.4±0.1
+2.5±0.1
+1.1±0.1
+R0.2
+2.2±0.1
+5.0±0.1
+2
+Knob
+1
+2
+1
+A
+B
+C
+Circuit diagram
+PWB land pattern for reference
+Either A or B or C type
+will be used because of 
+variwty of molding dies.
+1,
+2,
+1,
+2,
+5.0±0.1
+2.2±0.1
+2.5±0.1
+0.4±0.1
+3.5
+0.5±0.1
+1.7
+3.55
+2.9
+1.35
+0.62±0.1
+1.48±0.1
+4.7
+(2.8)
+1.8±0.1
+-0.1
++0
+φ0.65
+φ0.2
+0.2
+0.5
+1.8±0.05
+-0
++0.2
+2-φ0.7
+1,
+2,
+1,
+2,
+2
+1
+2
+1
+Circuit diagram
+PWB land pattern for reference
+1.6
+Knob
+1.1±0.1
+R0.2
+Either A or B type
+will be used because of 
+variwty of molding dies.
+A
+B
+■ Dimensions in mm (not to scale)
+No. 1
+Part Numbers
+Operating Force
+Height
+Push Plate Color
+Operating Life
+EVQP7A01P
+2.2 N
+1.35 mm
+Black
+100,000 cycles
+100,000 cycles
+100,000 cycles
+100,000 cycles
+EVQP7J01P
+1.6 N
+1.35 mm
+Black
+Part Numbers
+Operating Force
+Height
+Push Plate Color
+Operating Life
+EVQP7C01P
+2.2 N
+1.35 mm
+Black
+EVQP7L01P
+1.6 N
+1.35 mm
+Black
+No. 2
+EVQP7A
+EVQP7J
+(Embossed Taping)
+With straight terminals
+Without boss
+EVQP7C
+EVQP7L
+(Embossed Taping)
+With straight terminals
+With boss
+General dimension tolerance : ± 0.2
+( )dimensions are reference dimensions.
+General dimension tolerance : ± 0.2
+( )dimensions are reference dimensions.
+
+Panasonic Corporation Electromechanical Control Business Division
+industrial.panasonic.com/ac/e/
+ 3 
+Design and speciﬁ cations are each subject to change without notice. Ask factory for the current technical speciﬁ cations before purchase and/or use.
+Should a safety concern arise regarding this product, please be sure to contact us immediately.
+ANCTB21E　201903-Fd
+© Panasonic Corporation 2019
+Light Touch Switches/EVQP7/P3/9P7
+2
+1
+2
+1
+Circuit diagram
+PWB land pattern for reference
+1.6
+Knob
+1.1±0.1
+R0.2
+Either A or B or C type
+will be used because of 
+variwty of molding dies.
+A
+B
+C
+3.5
+0.5±0.1
+3.55
+2.9
+0.62±0.1
+1.48±0.1
+1.7
+1.35
+0.6
+–0.2
+0
+4.3
+5.0±0.1
+2.2±0.1
+2.5±0.1
+0.4±0.1
+(2.8)
+1,
+2,
+1,
+2,
+3.5
+–0
++0.2
+2-φ0.7
+1.48±0.1
+0.62±0.1
+2.9
+3.55
+0.5±0.1
+0.5
+0.2
+1.35
+-0.2
++0
+4.3
+0.6
+1.8±0.05
+φ0.2
+–0.1
++0
+φ0.65
+1.8±0.1
+(2.8)
+0.4±0.1
+2.5±0.1
+2.2±0.1
+5.0±0.1
+2
+1
+2
+1
+Circuit diagram
+PWB land pattern for reference
+1.6
+Knob
+1.1±0.1
+R0.2
+Either A or B type will be used because of 
+variwty of molding dies.
+A
+B
+1,
+2,
+1,
+2,
+1.7
+■ Dimensions in mm (not to scale)
+No. 3
+Part Numbers
+Operating Force
+Height
+Push Plate Color
+Operating Life
+EVQP7B01P
+2.2 N
+1.35 mm
+Black
+EVQP7K01P
+1.6 N
+1.35 mm
+Black
+Part Numbers
+Operating Force
+Height
+Push Plate Color
+Operating Life
+EVQP7D01P
+2.2 N
+1.35 mm
+Black
+EVQP7M01P
+1.6 N
+1.35 mm
+Black
+No. 4
+EVQP7B
+EVQP7K
+(Embossed Taping)
+With J-bent terminals
+Without boss
+EVQP7D
+EVQP7M
+(Embossed Taping)
+With J-bent terminals
+With boss
+100,000 cycles
+100,000 cycles
+100,000 cycles
+100,000 cycles
+General dimension tolerance : ± 0.2
+( )dimensions are reference dimensions.
+General dimension tolerance : ± 0.2
+( )dimensions are reference dimensions.
+
+Panasonic Corporation Electromechanical Control Business Division
+industrial.panasonic.com/ac/e/
+ 4 
+Design and speciﬁ cations are each subject to change without notice. Ask factory for the current technical speciﬁ cations before purchase and/or use.
+Should a safety concern arise regarding this product, please be sure to contact us immediately.
+ANCTB21E　201903-Fd
+© Panasonic Corporation 2019
+Light Touch Switches/EVQP7/P3/9P7
+180
+ 260
+MAX.
+150
+230
+90±30
+40±10
+(Normal Temp.)
+Operation Top (°C)
+Soldering Time (s)
+Fan or Normal Temp.
+Circuit diagram
+PWB land pattern for reference
+1.7
+0.5±0.1
+0.62±0.1
+3.55
+2.9
+1.48±0.1
+0.5±0.1
+0.62±0.1
+1.1±0.1
+3.9
+1.35
+0.6
+φ0.6+0.1
+–0
+2.2±0.1
+4.05±0.1
+5.5±0.1
+0.4±0.1
+2.5±0.1
+0.8±0.1
+4.7
+3.5
+’
+’
+’
+’
+(2.8)
+0.1 max.
+Through Hole
+1.6
+Knob
+R0.2
+Either A or B or C type
+will be used because of 
+variwty of molding dies.
+A
+B
+C
+■ Recommended Reﬂow Soldering Conditions
+P2 P0
+P1
+t2
+t1
+φD0
+A
+B
+Feeding hole
+Chip component
+Tape running direction
+Chip pocket
+F
+W
+E
+Tape width=12.0 mm
+●Embossed Carrier Taping
+Unit: mm
+Part No.
+Height
+A
+B
+W
+F
+E
+P1
+P2
+P0
+D0 Dia.
+t1
+t2
+EVQP7, EVQP3
+EVQ9P7
+1.35
+5.2±0.2
+4.5±0.2
+12.0±0.3
+5.5±0.1
+1.75±0.10
+8.0±0.1
+2.0±0.1
+4.0±0.1
+1.5
++0.1
+0.3±0.1
+1.5±0.2
+–0
+Unit: mm
+●Straight terminals, L-shape terminals type
+●J-bent type
+Part Numbers
+Operating Force
+Height
+Push Plate Color
+Operating Life
+EVQP3401P
+2.2 N
+1.35 mm
+Black
+EVQ9P701P
+1.6 N
+1.35 mm
+Black
+No. 5
+■ Dimensions in mm (not to scale)
+EVQP3
+EVQ9P
+(Embossed Taping)
+With L-shape terminals
+Without boss
+Part No.
+Height
+A
+B
+W
+F
+E
+P1
+P2
+P0
+D0 Dia.
+t1
+t2
+EVQP7, EVQP3
+1.35
+4.5±0.2
+4.5±0.2
+12.0±0.3
+5.5±0.1
+1.75±0.10
+8.0±0.1
+2.0±0.1
+4.0±0.1
+1.5
++0.1
+0.3±0.1
+1.5±0.2
+–0
+100,000 cycles
+100,000 cycles
+General dimension tolerance : ± 0.2
+( )dimensions are reference dimensions.
+Taping condition : Lack of products in the middle of taping should be
+one MAX, but total quantity speciﬁed in the 
+speciﬁcations should be secured.
+Peeling off strength of top tape : It should be within 0.2N to 1.0N at 
+165 degree in peeling off angle.
+Joint of carrier tape : One joint per one reel may exist.
+
+Please contact ..........
+©Panasonic Corporation 2019
+Electromechanical Control Business Division
+1006, Oaza Kadoma, Kadoma-shi, Osaka 571-8506, Japan
+industrial.panasonic.com/ac/e/
+ANCTB21E-1   201903-Fd
+Specifications are subject to change without notice.
+Safety Precautions
+Requests to customers
+When using our products, no matter what sort of equipment they might be used for, be sure to
+confirm the applications and environmental conditions with our specifications in advance.
+Please refer to "the latest product specifications" when designing your product.
+Requests to customers :
+https://industrial.panasonic.com/ac/e/salespolicies/

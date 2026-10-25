@@ -1,0 +1,257 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="2760" viewBox="0 0 1200 2760">
+<rect width="1200" height="2760" fill="#f3f6fa"/>
+<style>text{font-family:Arial,Microsoft YaHei,sans-serif;fill:#17304a} .tiny{font-size:10px}.label{font-size:13px}</style>
+<text x="40" y="35" font-size="24">H7MS A1 — 39.8 × 39.8 mm placement reservations</text>
+<text x="40" y="60" font-size="14">TOP / BOTTOM shown in the SAME assembly top-view coordinates. Regions are not routed footprints.</text>
+<text x="40" y="100" font-size="21">CORE</text>
+<text x="65" y="128" font-size="16">TOP</text><rect x="65" y="140" width="398" height="398" rx="10" fill="white" stroke="#17304a" stroke-width="2"/>
+<circle cx="90.0" cy="250" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="90.0" cy="250" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="438.0" cy="250" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="438.0" cy="250" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="90.0" cy="428.0" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="90.0" cy="428.0" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="438.0" cy="420.0" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="438.0" cy="420.0" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<rect x="225.0" y="260.0" width="140" height="140" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>U1 body 8x8 at 23,19; local SMPS loop placed first; no claim of completed BGA escape</title>
+<text x="295" y="322.0" text-anchor="middle" class="tiny">U1</text>
+<text x="295" y="334.0" text-anchor="middle" class="tiny">L1</text>
+<text x="295" y="346.0" text-anchor="middle" class="tiny">local decoupling</text>
+<rect x="100.0" y="285.0" width="110" height="110" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>thermal region; BMI088 near 9,20; four 1206 resistors around sensor; separate from buck</title>
+<text x="155" y="326.0" text-anchor="middle" class="tiny">IMU</text>
+<text x="155" y="338.0" text-anchor="middle" class="tiny">heater</text>
+<text x="155" y="350.0" text-anchor="middle" class="tiny">NTC</text>
+<text x="155" y="362.0" text-anchor="middle" class="tiny">TMP302</text>
+<rect x="260.0" y="215.0" width="50" height="30" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>short HSE to MCU, no LSE footprint</title>
+<text x="285" y="222.0" text-anchor="middle" class="tiny">Y1</text>
+<text x="285" y="234.0" text-anchor="middle" class="tiny">R_HSE</text>
+<text x="285" y="246.0" text-anchor="middle" class="tiny">C_HSE</text>
+<rect x="125.0" y="210.0" width="80" height="40" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>low-noise control circuitry</title>
+<text x="165" y="222.0" text-anchor="middle" class="tiny">RESET</text>
+<text x="165" y="234.0" text-anchor="middle" class="tiny">supervisor</text>
+<text x="165" y="246.0" text-anchor="middle" class="tiny">pulls</text>
+<rect x="383.0" y="289.0" width="80.0" height="100" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>mouth east at X39.8; signal-pad datum X32.445 Y19.9; rear pad edge X31.87; local +Y maps to global +X</title>
+<text x="423.0" y="343.0" text-anchor="middle" class="tiny">J_USB</text>
+<rect x="329.0" y="159.0" width="72.0" height="72.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>top access; nine populated contacts; leave mating-cable clearance above</title>
+<text x="365" y="199.0" text-anchor="middle" class="tiny">J_SWD</text>
+<rect x="93.0" y="141.0" width="54.0" height="38.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>actuator north</title>
+<text x="120.0" y="164.0" text-anchor="middle" class="tiny">SW_RESET</text>
+<rect x="163.0" y="141.0" width="54.0" height="38.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>actuator north</title>
+<text x="190.0" y="164.0" text-anchor="middle" class="tiny">SW_BOOT</text>
+<rect x="233.0" y="141.0" width="54.0" height="38.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>actuator north</title>
+<text x="260.0" y="158.0" text-anchor="middle" class="tiny">SW_AUX_RE</text>
+<text x="260.0" y="170.0" text-anchor="middle" class="tiny">SET</text>
+<rect x="116.0" y="435.0" width="70" height="70" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>U_CAN1 + ESD + RC</title>
+<text x="151.0" y="474.0" text-anchor="middle" class="tiny">CAN1 cell</text>
+<rect x="200.0" y="435.0" width="70" height="70" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>U_CAN2 + ESD + RC</title>
+<text x="235" y="474.0" text-anchor="middle" class="tiny">CAN2 cell</text>
+<rect x="290.0" y="435.0" width="70" height="70" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>U_CAN3 + ESD + RC</title>
+<text x="325" y="474.0" text-anchor="middle" class="tiny">CAN3 cell</text>
+<text x="65" y="562" class="label">X → / Y ↓ · mm · dashed red: mounting keepout</text>
+<text x="645" y="128" font-size="16">BOTTOM</text><rect x="645" y="140" width="398" height="398" rx="10" fill="white" stroke="#17304a" stroke-width="2"/>
+<rect x="660.0" y="156.25" width="368.0" height="63.5" rx="3" fill="#bdd7f5" stroke="#6d849a"/><title>center is mating-array datum; exact lands from v0.9.2; peg holes pass through PCB</title>
+<text x="844.0" y="192.0" text-anchor="middle" class="tiny">J1</text>
+<rect x="660.0" y="458.25" width="368.0" height="63.5" rx="3" fill="#bdd7f5" stroke="#6d849a"/><title>center is mating-array datum; exact lands from v0.9.2; peg holes pass through PCB</title>
+<text x="844.0" y="494.0" text-anchor="middle" class="tiny">J2</text>
+<circle cx="670.0" cy="250" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="670.0" cy="250" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="1018.0" cy="250" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="1018.0" cy="250" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="670.0" cy="428.0" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="670.0" cy="428.0" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="1018.0" cy="420.0" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="1018.0" cy="420.0" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<rect x="960.0" y="300.0" width="70" height="80" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>close to J_USB; keep differential pair short</title>
+<text x="995" y="338.0" text-anchor="middle" class="tiny">USB ESD</text>
+<text x="995" y="350.0" text-anchor="middle" class="tiny">VBUS buffer</text>
+<rect x="815.0" y="225.0" width="140" height="80" rx="3" fill="#f5e8ba" stroke="#6d849a"/><title>112mm2 reservation includes L2, U2, seven0805 capacitors and SS/HF/PG; max2mm; do not place below IMU</title>
+<text x="885" y="257.0" text-anchor="middle" class="tiny">BUCK</text>
+<text x="885" y="269.0" text-anchor="middle" class="tiny">L2</text>
+<text x="885" y="281.0" text-anchor="middle" class="tiny">Cin/Cout</text>
+<rect x="835.0" y="310.0" width="120" height="120" rx="3" fill="#f5e8ba" stroke="#6d849a"/><title>max1.5mm component height; passives may move within reservation during escape</title>
+<text x="895" y="362.0" text-anchor="middle" class="tiny">AUX</text>
+<text x="895" y="374.0" text-anchor="middle" class="tiny">heater logic</text>
+<text x="895" y="386.0" text-anchor="middle" class="tiny">analog RC</text>
+<rect x="705.0" y="424.0" width="100" height="30" rx="3" fill="#f5e8ba" stroke="#6d849a"/><title>bare ENIG pads; access when separated or via fixture</title>
+<text x="755" y="443.0" text-anchor="middle" class="tiny">13 core probe pads</text>
+<text x="645" y="562" class="label">X → / Y ↓ · mm · dashed red: mounting keepout</text>
+<text x="40" y="625" font-size="21">BASE_CAN</text>
+<text x="65" y="653" font-size="16">TOP</text><rect x="65" y="665" width="398" height="398" rx="10" fill="white" stroke="#17304a" stroke-width="2"/>
+<rect x="80.0" y="681.25" width="368.0" height="63.5" rx="3" fill="#bdd7f5" stroke="#6d849a"/><title>center is mating-array datum; exact lands from v0.9.2; peg holes pass through PCB</title>
+<text x="264.0" y="717.0" text-anchor="middle" class="tiny">J1</text>
+<rect x="80.0" y="983.25" width="368.0" height="63.5" rx="3" fill="#bdd7f5" stroke="#6d849a"/><title>center is mating-array datum; exact lands from v0.9.2; peg holes pass through PCB</title>
+<text x="264.0" y="1019.0" text-anchor="middle" class="tiny">J2</text>
+<circle cx="90.0" cy="775" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="90.0" cy="775" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="438.0" cy="775" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="438.0" cy="775" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="90.0" cy="953.0" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="90.0" cy="953.0" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="438.0" cy="945.0" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="438.0" cy="945.0" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<rect x="115.0" y="763.0" width="80" height="200" rx="3" fill="#f5e8ba" stroke="#6d849a"/><title>U_MAIN, CT, input/output capacitors, U_AUX_MON; allow underside header PTH keepouts within cell</title>
+<text x="155" y="855.0" text-anchor="middle" class="tiny">Power</text>
+<text x="155" y="867.0" text-anchor="middle" class="tiny">AUX monitor</text>
+<text x="155" y="879.0" text-anchor="middle" class="tiny">cell</text>
+<rect x="220.0" y="763.0" width="130" height="200" rx="3" fill="#f5e8ba" stroke="#6d849a"/><title>SOIC8 + TX/DIR buffers + TVS + pulse resistors; connector TVS first</title>
+<text x="285" y="867.0" text-anchor="middle" class="tiny">DEV4 RS485 cell</text>
+<text x="65" y="1087" class="label">X → / Y ↓ · mm · dashed red: mounting keepout</text>
+<text x="645" y="653" font-size="16">BOTTOM</text><rect x="645" y="665" width="398" height="398" rx="10" fill="white" stroke="#17304a" stroke-width="2"/>
+<circle cx="670.0" cy="775" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="670.0" cy="775" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="1018.0" cy="775" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="1018.0" cy="775" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="670.0" cy="953.0" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="670.0" cy="953.0" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="1018.0" cy="945.0" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="1018.0" cy="945.0" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<rect x="685.0" y="670.0" width="90" height="80" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>SMT PH; not the previous VH PTH; pin1 marked; cable exits downward</title>
+<text x="730.0" y="714.0" text-anchor="middle" class="tiny">J_PWR</text>
+<rect x="805.0" y="690.0" width="80" height="40" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>replaceable by soldering, 451 2.5A</title>
+<text x="845" y="714.0" text-anchor="middle" class="tiny">F1</text>
+<rect x="895.5" y="991.0" width="95.0" height="68.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>SC vertical actuator, underside access; 3 SMT terminals; no locating-hole variant</title>
+<text x="943.0" y="1029.0" text-anchor="middle" class="tiny">SW_MAIN</text>
+<rect x="918.0" y="666.0" width="54.0" height="38.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>side push north, no through holes</title>
+<text x="945" y="689.0" text-anchor="middle" class="tiny">SW_FAULT</text>
+<rect x="692.5" y="750.0" width="105.0" height="70.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard</title>
+<text x="745" y="789.0" text-anchor="middle" class="tiny">J_CAN1</text>
+<rect x="832.5" y="750.0" width="105.0" height="70.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard</title>
+<text x="885" y="789.0" text-anchor="middle" class="tiny">J_CAN2</text>
+<rect x="692.5" y="840.0" width="105.0" height="70.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard</title>
+<text x="745" y="879.0" text-anchor="middle" class="tiny">J_CAN3</text>
+<rect x="832.5" y="840.0" width="105.0" height="70.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard</title>
+<text x="885" y="879.0" text-anchor="middle" class="tiny">J_DEV4_485</text>
+<rect x="705.0" y="930.0" width="80" height="70.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard</title>
+<text x="745" y="969.0" text-anchor="middle" class="tiny">J_ESTOP</text>
+<text x="645" y="1087" class="label">X → / Y ↓ · mm · dashed red: mounting keepout</text>
+<text x="40" y="1150" font-size="21">BASE_485</text>
+<text x="65" y="1178" font-size="16">TOP</text><rect x="65" y="1190" width="398" height="398" rx="10" fill="white" stroke="#17304a" stroke-width="2"/>
+<rect x="80.0" y="1206.25" width="368.0" height="63.5" rx="3" fill="#bdd7f5" stroke="#6d849a"/><title>center is mating-array datum; exact lands from v0.9.2; peg holes pass through PCB</title>
+<text x="264.0" y="1242.0" text-anchor="middle" class="tiny">J1</text>
+<rect x="80.0" y="1508.25" width="368.0" height="63.5" rx="3" fill="#bdd7f5" stroke="#6d849a"/><title>center is mating-array datum; exact lands from v0.9.2; peg holes pass through PCB</title>
+<text x="264.0" y="1544.0" text-anchor="middle" class="tiny">J2</text>
+<circle cx="90.0" cy="1300" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="90.0" cy="1300" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="438.0" cy="1300" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="438.0" cy="1300" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="90.0" cy="1478.0" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="90.0" cy="1478.0" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="438.0" cy="1470.0" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="438.0" cy="1470.0" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<rect x="115.0" y="1288.0" width="80" height="200" rx="3" fill="#f5e8ba" stroke="#6d849a"/><title>U_MAIN, CT, input/output capacitors, U_AUX_MON; allow underside header PTH keepouts within cell; HOST/RC receive buffers may share this cell; dense RS485 pull resistors may use underside gaps</title>
+<text x="155" y="1380.0" text-anchor="middle" class="tiny">Power</text>
+<text x="155" y="1392.0" text-anchor="middle" class="tiny">AUX monitor</text>
+<text x="155" y="1404.0" text-anchor="middle" class="tiny">cell</text>
+<rect x="215.0" y="1288.0" width="110" height="200" rx="3" fill="#f5e8ba" stroke="#6d849a"/><title>two SOIC8, buffers, TVS, RC; no components on PTH annuli</title>
+<text x="270.0" y="1392.0" text-anchor="middle" class="tiny">DEV1/2 RS485 cells</text>
+<rect x="335.0" y="1288.0" width="80" height="200" rx="3" fill="#f5e8ba" stroke="#6d849a"/><title>two SOIC8 plus interface buffers; detailed packing required before PCB release</title>
+<text x="375" y="1386.0" text-anchor="middle" class="tiny">DEV3/4</text>
+<text x="375" y="1398.0" text-anchor="middle" class="tiny">HOST/RC cells</text>
+<text x="65" y="1612" class="label">X → / Y ↓ · mm · dashed red: mounting keepout</text>
+<text x="645" y="1178" font-size="16">BOTTOM</text><rect x="645" y="1190" width="398" height="398" rx="10" fill="white" stroke="#17304a" stroke-width="2"/>
+<circle cx="670.0" cy="1300" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="670.0" cy="1300" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="1018.0" cy="1300" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="1018.0" cy="1300" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="670.0" cy="1478.0" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="670.0" cy="1478.0" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="1018.0" cy="1470.0" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="1018.0" cy="1470.0" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<rect x="685.0" y="1195.0" width="90" height="80" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>SMT PH; not the previous VH PTH; pin1 marked; cable exits downward</title>
+<text x="730.0" y="1239.0" text-anchor="middle" class="tiny">J_PWR</text>
+<rect x="805.0" y="1215.0" width="80" height="40" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>replaceable by soldering, 451 2.5A</title>
+<text x="845" y="1239.0" text-anchor="middle" class="tiny">F1</text>
+<rect x="895.5" y="1516.0" width="95.0" height="68.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>SC vertical actuator, underside access; 3 SMT terminals; no locating-hole variant</title>
+<text x="943.0" y="1554.0" text-anchor="middle" class="tiny">SW_MAIN</text>
+<rect x="918.0" y="1191.0" width="54.0" height="38.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>side push north, no through holes</title>
+<text x="945" y="1214.0" text-anchor="middle" class="tiny">SW_FAULT</text>
+<rect x="692.5" y="1275.0" width="105.0" height="70.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard</title>
+<text x="745" y="1314.0" text-anchor="middle" class="tiny">J_DEV1_485</text>
+<rect x="832.5" y="1275.0" width="105.0" height="70.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard</title>
+<text x="885" y="1314.0" text-anchor="middle" class="tiny">J_DEV2_485</text>
+<rect x="692.5" y="1365.0" width="105.0" height="70.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard</title>
+<text x="745" y="1404.0" text-anchor="middle" class="tiny">J_DEV3_485</text>
+<rect x="832.5" y="1365.0" width="105.0" height="70.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard</title>
+<text x="885" y="1404.0" text-anchor="middle" class="tiny">J_DEV4_485</text>
+<rect x="692.0" y="1445.0" width="130" height="70.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard</title>
+<text x="757.0" y="1484.0" text-anchor="middle" class="tiny">J_HOST</text>
+<rect x="830.0" y="1445.0" width="130" height="70.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard</title>
+<text x="895" y="1484.0" text-anchor="middle" class="tiny">J_RC</text>
+<rect x="956.0" y="1355.0" width="78.0" height="70.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard</title>
+<text x="995" y="1394.0" text-anchor="middle" class="tiny">J_ESTOP</text>
+<text x="645" y="1612" class="label">X → / Y ↓ · mm · dashed red: mounting keepout</text>
+<text x="40" y="1675" font-size="21">BASE_LINK</text>
+<text x="65" y="1703" font-size="16">TOP</text><rect x="65" y="1715" width="398" height="398" rx="10" fill="white" stroke="#17304a" stroke-width="2"/>
+<rect x="80.0" y="1731.25" width="368.0" height="63.5" rx="3" fill="#bdd7f5" stroke="#6d849a"/><title>center is mating-array datum; exact lands from v0.9.2; peg holes pass through PCB</title>
+<text x="264.0" y="1767.0" text-anchor="middle" class="tiny">J1</text>
+<rect x="80.0" y="2033.25" width="368.0" height="63.5" rx="3" fill="#bdd7f5" stroke="#6d849a"/><title>center is mating-array datum; exact lands from v0.9.2; peg holes pass through PCB</title>
+<text x="264.0" y="2069.0" text-anchor="middle" class="tiny">J2</text>
+<circle cx="90.0" cy="1825" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="90.0" cy="1825" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="438.0" cy="1825" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="438.0" cy="1825" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="90.0" cy="2003.0" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="90.0" cy="2003.0" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="438.0" cy="1995.0" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="438.0" cy="1995.0" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<rect x="115.0" y="1813.0" width="80" height="200" rx="3" fill="#f5e8ba" stroke="#6d849a"/><title>U_MAIN, CT, input/output capacitors, U_AUX_MON; allow underside header PTH keepouts within cell</title>
+<text x="155" y="1905.0" text-anchor="middle" class="tiny">Power</text>
+<text x="155" y="1917.0" text-anchor="middle" class="tiny">AUX monitor</text>
+<text x="155" y="1929.0" text-anchor="middle" class="tiny">cell</text>
+<rect x="215.0" y="1813.0" width="200" height="200" rx="3" fill="#f5e8ba" stroke="#6d849a"/><title>all SN74LVC1G125; master/slave resistors exclusive; no RS485 receiver connected</title>
+<text x="315" y="1911.0" text-anchor="middle" class="tiny">SPI</text>
+<text x="315" y="1923.0" text-anchor="middle" class="tiny">TTL buffer cells</text>
+<text x="65" y="2137" class="label">X → / Y ↓ · mm · dashed red: mounting keepout</text>
+<text x="645" y="1703" font-size="16">BOTTOM</text><rect x="645" y="1715" width="398" height="398" rx="10" fill="white" stroke="#17304a" stroke-width="2"/>
+<circle cx="670.0" cy="1825" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="670.0" cy="1825" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="1018.0" cy="1825" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="1018.0" cy="1825" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="670.0" cy="2003.0" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="670.0" cy="2003.0" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="1018.0" cy="1995.0" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="1018.0" cy="1995.0" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<rect x="685.0" y="1720.0" width="90" height="80" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>SMT PH; not the previous VH PTH; pin1 marked; cable exits downward</title>
+<text x="730.0" y="1764.0" text-anchor="middle" class="tiny">J_PWR</text>
+<rect x="805.0" y="1740.0" width="80" height="40" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>replaceable by soldering, 451 2.5A</title>
+<text x="845" y="1764.0" text-anchor="middle" class="tiny">F1</text>
+<rect x="895.5" y="2041.0" width="95.0" height="68.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>SC vertical actuator, underside access; 3 SMT terminals; no locating-hole variant</title>
+<text x="943.0" y="2079.0" text-anchor="middle" class="tiny">SW_MAIN</text>
+<rect x="918.0" y="1716.0" width="54.0" height="38.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>side push north, no through holes</title>
+<text x="945" y="1739.0" text-anchor="middle" class="tiny">SW_FAULT</text>
+<rect x="692.0" y="1800.0" width="130" height="70.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard</title>
+<text x="757.0" y="1839.0" text-anchor="middle" class="tiny">J_DEV1_TTL</text>
+<rect x="832.0" y="1800.0" width="130" height="70.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard</title>
+<text x="897.0" y="1839.0" text-anchor="middle" class="tiny">J_DEV2_TTL</text>
+<rect x="692.0" y="1890.0" width="130" height="70.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard</title>
+<text x="757.0" y="1929.0" text-anchor="middle" class="tiny">J_DEV3_TTL</text>
+<rect x="832.0" y="1890.0" width="130" height="70.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard</title>
+<text x="897.0" y="1929.0" text-anchor="middle" class="tiny">J_DEV4_TTL</text>
+<rect x="692.0" y="1970.0" width="130" height="70.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard</title>
+<text x="757.0" y="2009.0" text-anchor="middle" class="tiny">J_HOST</text>
+<rect x="830.0" y="1970.0" width="130" height="70.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard</title>
+<text x="895" y="2009.0" text-anchor="middle" class="tiny">J_RC</text>
+<rect x="963.0" y="1880.0" width="78.0" height="70.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard</title>
+<text x="1002.0" y="1919.0" text-anchor="middle" class="tiny">J_ESTOP</text>
+<rect x="753.0" y="2041.0" width="84.0" height="70.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>FTSH-106-01-L-DV 1.27mm SMT; no TH tails; 12 pins odd signal/even ground; mating cable exits down</title>
+<text x="795" y="2080.0" text-anchor="middle" class="tiny">J_LINK</text>
+<text x="645" y="2137" class="label">X → / Y ↓ · mm · dashed red: mounting keepout</text>
+<text x="40" y="2200" font-size="21">BASE_IO</text>
+<text x="65" y="2228" font-size="16">TOP</text><rect x="65" y="2240" width="398" height="398" rx="10" fill="white" stroke="#17304a" stroke-width="2"/>
+<rect x="80.0" y="2256.25" width="368.0" height="63.5" rx="3" fill="#bdd7f5" stroke="#6d849a"/><title>center is mating-array datum; exact lands from v0.9.2; peg holes pass through PCB</title>
+<text x="264.0" y="2292.0" text-anchor="middle" class="tiny">J1</text>
+<rect x="80.0" y="2558.25" width="368.0" height="63.5" rx="3" fill="#bdd7f5" stroke="#6d849a"/><title>center is mating-array datum; exact lands from v0.9.2; peg holes pass through PCB</title>
+<text x="264.0" y="2594.0" text-anchor="middle" class="tiny">J2</text>
+<circle cx="90.0" cy="2350" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="90.0" cy="2350" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="438.0" cy="2350" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="438.0" cy="2350" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="90.0" cy="2528.0" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="90.0" cy="2528.0" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="438.0" cy="2520.0" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="438.0" cy="2520.0" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<rect x="115.0" y="2338.0" width="80" height="200" rx="3" fill="#f5e8ba" stroke="#6d849a"/><title>U_MAIN, CT, input/output capacitors, U_AUX_MON; allow underside header PTH keepouts within cell</title>
+<text x="155" y="2430.0" text-anchor="middle" class="tiny">Power</text>
+<text x="155" y="2442.0" text-anchor="middle" class="tiny">AUX monitor</text>
+<text x="155" y="2454.0" text-anchor="middle" class="tiny">cell</text>
+<rect x="215.0" y="2338.0" width="200" height="200" rx="3" fill="#f5e8ba" stroke="#6d849a"/><title>TSSOP20, gates and local RC; dummy resistors kept away from core IMU</title>
+<text x="315" y="2430.0" text-anchor="middle" class="tiny">SD/I2C isolation</text>
+<text x="315" y="2442.0" text-anchor="middle" class="tiny">ADC</text>
+<text x="315" y="2454.0" text-anchor="middle" class="tiny">load gate</text>
+<rect x="109.0" y="2624.0" width="310" height="12.0" rx="3" fill="#f5e8ba" stroke="#6d849a"/><title>49 pads split: 25 north at y0.8, 24 south at y39.0, pitch1.27, dia0.8; TOP fixture access before stacking</title>
+<text x="264.0" y="2634.0" text-anchor="middle" class="tiny">24 south probe pads</text>
+<rect x="107.5" y="2242.0" width="313.0" height="12.0" rx="3" fill="#f5e8ba" stroke="#6d849a"/><title>25 bare pads, 1.27 pitch; 24 remaining pads at south edge</title>
+<text x="264.0" y="2252.0" text-anchor="middle" class="tiny">25 north probe pads</text>
+<text x="65" y="2662" class="label">X → / Y ↓ · mm · dashed red: mounting keepout</text>
+<text x="645" y="2228" font-size="16">BOTTOM</text><rect x="645" y="2240" width="398" height="398" rx="10" fill="white" stroke="#17304a" stroke-width="2"/>
+<circle cx="670.0" cy="2350" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="670.0" cy="2350" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="1018.0" cy="2350" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="1018.0" cy="2350" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="670.0" cy="2528.0" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="670.0" cy="2528.0" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<circle cx="1018.0" cy="2520.0" r="21" fill="none" stroke="#d26363" stroke-dasharray="3 2"/><circle cx="1018.0" cy="2520.0" r="11" fill="#f3f6fa" stroke="#7f8da0"/>
+<rect x="685.0" y="2245.0" width="90" height="80" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>SMT PH; not the previous VH PTH; pin1 marked; cable exits downward</title>
+<text x="730.0" y="2289.0" text-anchor="middle" class="tiny">J_PWR</text>
+<rect x="805.0" y="2265.0" width="80" height="40" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>replaceable by soldering, 451 2.5A</title>
+<text x="845" y="2289.0" text-anchor="middle" class="tiny">F1</text>
+<rect x="895.5" y="2566.0" width="95.0" height="68.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>SC vertical actuator, underside access; 3 SMT terminals; no locating-hole variant</title>
+<text x="943.0" y="2604.0" text-anchor="middle" class="tiny">SW_MAIN</text>
+<rect x="828.0" y="2581.0" width="54.0" height="38.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>side push north, no through holes</title>
+<text x="855" y="2604.0" text-anchor="middle" class="tiny">SW_FAULT</text>
+<rect x="693.0" y="2350.0" width="160" height="160" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>microSD insertion west; exact DM3AT shell and card travel checked in 3D</title>
+<text x="773.0" y="2434.0" text-anchor="middle" class="tiny">J_SD</text>
+<rect x="865.0" y="2495.0" width="80" height="70.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard</title>
+<text x="905" y="2534.0" text-anchor="middle" class="tiny">J_ESTOP</text>
+<rect x="865.0" y="2325.0" width="80" height="70.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard</title>
+<text x="905" y="2364.0" text-anchor="middle" class="tiny">J_LOAD</text>
+<rect x="860.0" y="2415.0" width="130" height="70.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard</title>
+<text x="925" y="2454.0" text-anchor="middle" class="tiny">J_I2C</text>
+<rect x="705.0" y="2572.5" width="100" height="45.0" rx="3" fill="#f5e8ba" stroke="#6d849a"/><title>two TC33X-2-103E, adjustment from underside</title>
+<text x="755" y="2593.0" text-anchor="middle" class="tiny">RV_PC0</text>
+<text x="755" y="2605.0" text-anchor="middle" class="tiny">RV_PC1</text>
+<rect x="912.5" y="2250.0" width="65.0" height="70.0" rx="3" fill="#d3eadf" stroke="#6d849a"/><title>FTSH-104-01-L-DV 2x4 SMT; four PWM plus four GND; no motor power</title>
+<text x="945" y="2289.0" text-anchor="middle" class="tiny">J_PWM</text>
+<text x="645" y="2662" class="label">X → / Y ↓ · mm · dashed red: mounting keepout</text>
+</svg>

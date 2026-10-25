@@ -1,0 +1,824 @@
+{
+  "U1": {
+    "x": 23,
+    "y": 20,
+    "layer": 1,
+    "rotation": 0
+  },
+  "J1": {
+    "x": 19.9,
+    "y": 4.8,
+    "layer": 2,
+    "rotation": 180
+  },
+  "J2": {
+    "x": 19.9,
+    "y": 35,
+    "layer": 2,
+    "rotation": 180
+  },
+  "J_USB": {
+    "x": 32.445,
+    "y": 19.9,
+    "layer": 1,
+    "rotation": 90
+  },
+  "J_SWD": {
+    "x": 30,
+    "y": 5.5,
+    "layer": 1,
+    "rotation": 0
+  },
+  "SW_RESET": {
+    "x": 5.5,
+    "y": 2.2,
+    "layer": 1,
+    "rotation": 0
+  },
+  "SW_BOOT": {
+    "x": 12.5,
+    "y": 2.2,
+    "layer": 1,
+    "rotation": 0
+  },
+  "SW_AUX_RESET": {
+    "x": 19.5,
+    "y": 2.2,
+    "layer": 1,
+    "rotation": 0
+  },
+  "U_RESET": {
+    "x": 8,
+    "y": 9,
+    "layer": 1,
+    "rotation": 0
+  },
+  "C_RESET_U": {
+    "x": 5.9,
+    "y": 11.8,
+    "layer": 1,
+    "rotation": 0
+  },
+  "R_MR": {
+    "x": 8.2,
+    "y": 12,
+    "layer": 1,
+    "rotation": 0
+  },
+  "R_NRST": {
+    "x": 10.4,
+    "y": 12,
+    "layer": 1,
+    "rotation": 0
+  },
+  "C_NRST": {
+    "x": 11,
+    "y": 9,
+    "layer": 1,
+    "rotation": 0
+  },
+  "R_BOOT": {
+    "x": 13.2,
+    "y": 5,
+    "layer": 1,
+    "rotation": 0
+  },
+  "Y1": {
+    "x": 20,
+    "y": 11,
+    "layer": 1,
+    "rotation": 0
+  },
+  "C_HSE": {
+    "x": 16.7,
+    "y": 11,
+    "layer": 1,
+    "rotation": 0
+  },
+  "R_HSE": {
+    "x": 21.5,
+    "y": 13.4,
+    "layer": 1,
+    "rotation": 0
+  },
+  "U_IMU": {
+    "x": 9,
+    "y": 20,
+    "layer": 1,
+    "rotation": 0
+  },
+  "U_TEMP": {
+    "x": 9,
+    "y": 23.8,
+    "layer": 1,
+    "rotation": 0
+  },
+  "NTC1": {
+    "x": 9,
+    "y": 16.2,
+    "layer": 1,
+    "rotation": 0
+  },
+  "R_HEAT1": {
+    "x": 5.3,
+    "y": 20,
+    "layer": 1,
+    "rotation": 90
+  },
+  "R_HEAT2": {
+    "x": 12.7,
+    "y": 20,
+    "layer": 1,
+    "rotation": 90
+  },
+  "R_HEAT3": {
+    "x": 9,
+    "y": 13.6,
+    "layer": 1,
+    "rotation": 0
+  },
+  "R_HEAT4": {
+    "x": 9,
+    "y": 26.7,
+    "layer": 1,
+    "rotation": 0
+  },
+  "C_IMU_VDD": {
+    "x": 5.9,
+    "y": 16.3,
+    "layer": 1,
+    "rotation": 0
+  },
+  "C_IMU_VDDIO": {
+    "x": 12.100000000000001,
+    "y": 16.3,
+    "layer": 1,
+    "rotation": 0
+  },
+  "C_IMU_BULK": {
+    "x": 13.3,
+    "y": 13.8,
+    "layer": 1,
+    "rotation": 0
+  },
+  "R_IMU_POWER": {
+    "x": 13.3,
+    "y": 11.5,
+    "layer": 1,
+    "rotation": 0
+  },
+  "R_IMU_ACC_CS": {
+    "x": 6.2,
+    "y": 24,
+    "layer": 1,
+    "rotation": 0
+  },
+  "R_IMU_GYRO_CS": {
+    "x": 12.2,
+    "y": 24,
+    "layer": 1,
+    "rotation": 0
+  },
+  "R_IMU_SCK": {
+    "x": 15.8,
+    "y": 18.4,
+    "layer": 1,
+    "rotation": 90
+  },
+  "R_IMU_MOSI": {
+    "x": 15.8,
+    "y": 21,
+    "layer": 1,
+    "rotation": 0
+  },
+  "C_TEMP": {
+    "x": 13.5,
+    "y": 25.8,
+    "layer": 1,
+    "rotation": 0
+  },
+  "R_TEMP": {
+    "x": 5.5,
+    "y": 25.8,
+    "layer": 1,
+    "rotation": 0
+  },
+  "Q_HEAT": {
+    "x": 13,
+    "y": 29.6,
+    "layer": 1,
+    "rotation": 0
+  },
+  "R_HEAT_G": {
+    "x": 16.2,
+    "y": 29.8,
+    "layer": 1,
+    "rotation": 0
+  },
+  "R_HEAT_G_PD": {
+    "x": 15.8,
+    "y": 32.5,
+    "layer": 1,
+    "rotation": 0
+  },
+  "U_CAN1": {
+    "x": 8.5,
+    "y": 33,
+    "layer": 1,
+    "rotation": 0
+  },
+  "D_CAN1": {
+    "x": 8.5,
+    "y": 37.3,
+    "layer": 1,
+    "rotation": 0
+  },
+  "C_CAN1_VCC": {
+    "x": 5.9,
+    "y": 32.2,
+    "layer": 1,
+    "rotation": 90
+  },
+  "C_CAN1_VIO": {
+    "x": 11.1,
+    "y": 32.2,
+    "layer": 1,
+    "rotation": 90
+  },
+  "R_CAN1_TX": {
+    "x": 7.4,
+    "y": 30.1,
+    "layer": 1,
+    "rotation": 0
+  },
+  "R_CAN1_STB": {
+    "x": 9.6,
+    "y": 30.1,
+    "layer": 1,
+    "rotation": 0
+  },
+  "U_CAN2": {
+    "x": 20,
+    "y": 33,
+    "layer": 1,
+    "rotation": 0
+  },
+  "D_CAN2": {
+    "x": 20,
+    "y": 37.3,
+    "layer": 1,
+    "rotation": 0
+  },
+  "C_CAN2_VCC": {
+    "x": 17.4,
+    "y": 32.2,
+    "layer": 1,
+    "rotation": 90
+  },
+  "C_CAN2_VIO": {
+    "x": 22.6,
+    "y": 32.2,
+    "layer": 1,
+    "rotation": 90
+  },
+  "R_CAN2_TX": {
+    "x": 18.9,
+    "y": 30.1,
+    "layer": 1,
+    "rotation": 0
+  },
+  "R_CAN2_STB": {
+    "x": 21.1,
+    "y": 30.1,
+    "layer": 1,
+    "rotation": 0
+  },
+  "U_CAN3": {
+    "x": 31,
+    "y": 33,
+    "layer": 1,
+    "rotation": 0
+  },
+  "D_CAN3": {
+    "x": 31,
+    "y": 37.3,
+    "layer": 1,
+    "rotation": 0
+  },
+  "C_CAN3_VCC": {
+    "x": 28.4,
+    "y": 32.2,
+    "layer": 1,
+    "rotation": 90
+  },
+  "C_CAN3_VIO": {
+    "x": 33.6,
+    "y": 32.2,
+    "layer": 1,
+    "rotation": 90
+  },
+  "R_CAN3_TX": {
+    "x": 29.9,
+    "y": 30.1,
+    "layer": 1,
+    "rotation": 0
+  },
+  "R_CAN3_STB": {
+    "x": 32.1,
+    "y": 30.1,
+    "layer": 1,
+    "rotation": 0
+  },
+  "C_CAN_BULK": {
+    "x": 25,
+    "y": 37,
+    "layer": 1,
+    "rotation": 0
+  },
+  "L1": {
+    "x": 21.5,
+    "y": 26.2,
+    "layer": 1,
+    "rotation": 0
+  },
+  "C_SMPS_SW": {
+    "x": 21.7,
+    "y": 23,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_SMPS_IN": {
+    "x": 17.5,
+    "y": 25.9,
+    "layer": 1,
+    "rotation": 0
+  },
+  "C_SMPS_HF": {
+    "x": 19.5,
+    "y": 23,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_VCORE1": {
+    "x": 25.5,
+    "y": 25.8,
+    "layer": 1,
+    "rotation": 0
+  },
+  "C_VCORE2": {
+    "x": 25.5,
+    "y": 28,
+    "layer": 1,
+    "rotation": 0
+  },
+  "C_VCAP_D8": {
+    "x": 21.3,
+    "y": 19,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_VCAP_G6": {
+    "x": 24.2,
+    "y": 18.7,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_VDD_D6": {
+    "x": 20.0,
+    "y": 21.2,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_VDD_E5": {
+    "x": 22.4,
+    "y": 21.2,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_VDD_F6": {
+    "x": 24.4,
+    "y": 21.7,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_VDD_BULK": {
+    "x": 29.7,
+    "y": 24.4,
+    "layer": 1,
+    "rotation": 0
+  },
+  "R_ANALOG": {
+    "x": 30,
+    "y": 27.3,
+    "layer": 1,
+    "rotation": 0
+  },
+  "C_VDDA_BULK": {
+    "x": 28,
+    "y": 24,
+    "layer": 2,
+    "rotation": 90
+  },
+  "C_VDDA_HF": {
+    "x": 27,
+    "y": 18.8,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_VREF_BULK": {
+    "x": 29,
+    "y": 19.7,
+    "layer": 2,
+    "rotation": 90
+  },
+  "C_VREF_HF": {
+    "x": 27,
+    "y": 21.5,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_USB_BULK": {
+    "x": 30,
+    "y": 14,
+    "layer": 1,
+    "rotation": 0
+  },
+  "C_USB_HF": {
+    "x": 28.6,
+    "y": 16,
+    "layer": 1,
+    "rotation": 0
+  },
+  "C_VBAT_BULK": {
+    "x": 24.6,
+    "y": 14,
+    "layer": 1,
+    "rotation": 0
+  },
+  "C_VBAT_HF": {
+    "x": 25.8,
+    "y": 20,
+    "layer": 2,
+    "rotation": 0
+  },
+  "U2": {
+    "x": 21.5,
+    "y": 12.8,
+    "layer": 2,
+    "rotation": 0
+  },
+  "L2": {
+    "x": 27.4,
+    "y": 12.8,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_BUCK_IN": {
+    "x": 17.7,
+    "y": 9.3,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_BUCK_IN2": {
+    "x": 22.0,
+    "y": 9.3,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_BUCK_IN3": {
+    "x": 26.299999999999997,
+    "y": 9.3,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_BUCK_HF": {
+    "x": 18.7,
+    "y": 12,
+    "layer": 2,
+    "rotation": 90
+  },
+  "C_BUCK_SS": {
+    "x": 17.8,
+    "y": 14.1,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_BUCK_OUT": {
+    "x": 17.7,
+    "y": 16.7,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_BUCK_OUT2": {
+    "x": 22.0,
+    "y": 16.7,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_BUCK_OUT3": {
+    "x": 26.299999999999997,
+    "y": 16.7,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_BUCK_OUT4": {
+    "x": 18,
+    "y": 19.3,
+    "layer": 2,
+    "rotation": 0
+  },
+  "R_BUCK_PG": {
+    "x": 16.2,
+    "y": 12.4,
+    "layer": 2,
+    "rotation": 0
+  },
+  "R_FB_TOP": {
+    "x": 24.2,
+    "y": 14.1,
+    "layer": 2,
+    "rotation": 90
+  },
+  "R_FB_BOT": {
+    "x": 24.2,
+    "y": 11.4,
+    "layer": 2,
+    "rotation": 90
+  },
+  "U_AUX": {
+    "x": 21,
+    "y": 26,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_AUX_IN": {
+    "x": 17,
+    "y": 24.7,
+    "layer": 2,
+    "rotation": 90
+  },
+  "C_AUX_IN_HF": {
+    "x": 17.5,
+    "y": 21.9,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_AUX_OUT": {
+    "x": 24.7,
+    "y": 26,
+    "layer": 2,
+    "rotation": 90
+  },
+  "C_AUX_OUT_HF": {
+    "x": 23.7,
+    "y": 23,
+    "layer": 2,
+    "rotation": 0
+  },
+  "R_AUX_EN": {
+    "x": 18.8,
+    "y": 29,
+    "layer": 2,
+    "rotation": 0
+  },
+  "R_AUX_ILIM": {
+    "x": 21.1,
+    "y": 29,
+    "layer": 2,
+    "rotation": 0
+  },
+  "R_AUX_FAULT": {
+    "x": 23.4,
+    "y": 29,
+    "layer": 2,
+    "rotation": 0
+  },
+  "U_HEAT_GATE": {
+    "x": 6.8,
+    "y": 13,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_U_HEAT_GATE": {
+    "x": 5,
+    "y": 15.4,
+    "layer": 2,
+    "rotation": 0
+  },
+  "R_HEAT_ALLOW": {
+    "x": 9.8,
+    "y": 13.8,
+    "layer": 2,
+    "rotation": 0
+  },
+  "U_HEAT_POWER": {
+    "x": 11.2,
+    "y": 10.2,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_U_HEAT_POWER_IN": {
+    "x": 7.2,
+    "y": 9.4,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_U_HEAT_POWER_OUT": {
+    "x": 14.2,
+    "y": 9.4,
+    "layer": 2,
+    "rotation": 0
+  },
+  "R_U_HEAT_POWER_QOD": {
+    "x": 14.1,
+    "y": 11.4,
+    "layer": 2,
+    "rotation": 0
+  },
+  "R_NTC_TOP": {
+    "x": 17.0,
+    "y": 28.4,
+    "layer": 1,
+    "rotation": 0
+  },
+  "R_NTC_ADC": {
+    "x": 19.5,
+    "y": 28.4,
+    "layer": 1,
+    "rotation": 0
+  },
+  "C_NTC": {
+    "x": 22.0,
+    "y": 28.4,
+    "layer": 1,
+    "rotation": 0
+  },
+  "R_V5_TOP": {
+    "x": 27.0,
+    "y": 29.5,
+    "layer": 2,
+    "rotation": 0
+  },
+  "R_V5_BOT": {
+    "x": 29.5,
+    "y": 29.5,
+    "layer": 2,
+    "rotation": 0
+  },
+  "R_V5_ADC": {
+    "x": 32.0,
+    "y": 29.5,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_V5": {
+    "x": 33.8,
+    "y": 30.8,
+    "layer": 2,
+    "rotation": 0
+  },
+  "U_USB_ESD": {
+    "x": 31.9,
+    "y": 19,
+    "layer": 2,
+    "rotation": 90
+  },
+  "R_USB_DP": {
+    "x": 29.5,
+    "y": 22.8,
+    "layer": 2,
+    "rotation": 90
+  },
+  "R_USB_DM": {
+    "x": 31.5,
+    "y": 22.8,
+    "layer": 2,
+    "rotation": 90
+  },
+  "R_CC1": {
+    "x": 37.7,
+    "y": 17.4,
+    "layer": 2,
+    "rotation": 90
+  },
+  "R_CC2": {
+    "x": 37.7,
+    "y": 21.9,
+    "layer": 2,
+    "rotation": 90
+  },
+  "R_USB_SHELL": {
+    "x": 34,
+    "y": 26.1,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_USB_VBUS": {
+    "x": 35.1,
+    "y": 17,
+    "layer": 2,
+    "rotation": 90
+  },
+  "U_VBUS": {
+    "x": 32.5,
+    "y": 10.7,
+    "layer": 2,
+    "rotation": 0
+  },
+  "R_VBUS_SER": {
+    "x": 31.5,
+    "y": 13.1,
+    "layer": 2,
+    "rotation": 0
+  },
+  "R_VBUS_PD": {
+    "x": 31.5,
+    "y": 14.5,
+    "layer": 2,
+    "rotation": 0
+  },
+  "C_VBUS_U": {
+    "x": 34.6,
+    "y": 13.2,
+    "layer": 2,
+    "rotation": 0
+  },
+  "TP_5V_IN": {
+    "x": 7.0,
+    "y": 29.3,
+    "layer": 2,
+    "rotation": 0
+  },
+  "TP_3V3_D": {
+    "x": 8.3,
+    "y": 29.3,
+    "layer": 2,
+    "rotation": 0
+  },
+  "TP_3V3_A": {
+    "x": 9.6,
+    "y": 29.3,
+    "layer": 2,
+    "rotation": 0
+  },
+  "TP_3V3_AUX": {
+    "x": 10.9,
+    "y": 29.3,
+    "layer": 2,
+    "rotation": 0
+  },
+  "TP_VCORE": {
+    "x": 12.2,
+    "y": 29.3,
+    "layer": 2,
+    "rotation": 0
+  },
+  "TP_GND": {
+    "x": 13.5,
+    "y": 29.3,
+    "layer": 2,
+    "rotation": 0
+  },
+  "TP_NRST": {
+    "x": 14.8,
+    "y": 29.3,
+    "layer": 2,
+    "rotation": 0
+  },
+  "TP_BOOT0": {
+    "x": 7.0,
+    "y": 30.8,
+    "layer": 2,
+    "rotation": 0
+  },
+  "TP_TEMP_OK": {
+    "x": 8.3,
+    "y": 30.8,
+    "layer": 2,
+    "rotation": 0
+  },
+  "TP_HEAT_ALLOW": {
+    "x": 9.6,
+    "y": 30.8,
+    "layer": 2,
+    "rotation": 0
+  },
+  "TP_HEAT_5V": {
+    "x": 10.9,
+    "y": 30.8,
+    "layer": 2,
+    "rotation": 0
+  },
+  "TP_AUX_FAULT_N": {
+    "x": 12.2,
+    "y": 30.8,
+    "layer": 2,
+    "rotation": 0
+  },
+  "TP_BUCK_PG": {
+    "x": 13.5,
+    "y": 30.8,
+    "layer": 2,
+    "rotation": 0
+  }
+}

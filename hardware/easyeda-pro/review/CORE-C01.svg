@@ -1,0 +1,755 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1654" height="1169" viewBox="0 0 1654 1169">
+<rect width="1654" height="1169" fill="white"/>
+<rect x="15" y="15" width="1624" height="1139" fill="none" stroke="#9c2938"/>
+<text x="35" y="59" font-size="18" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">CORE / C01 / MCU and Direct SMPS</text>
+<text x="35" y="89" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">SCHEMATIC DRAFT | Footprints pending | NC pins intentionally unwired | Not for fabrication</text>
+<text x="417.5" y="136.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">U1</text>
+<text x="417.5" y="149.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">STM32H735VGH6</text>
+<line x1="282.5" y1="169.0" x2="247.5" y2="169.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="167.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">IMU_MOSI</text>
+<line x1="282.5" y1="184.0" x2="247.5" y2="184.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="182.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">IMU_MISO</text>
+<line x1="282.5" y1="199.0" x2="247.5" y2="199.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="197.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">IMU_SCK</text>
+<line x1="282.5" y1="214.0" x2="247.5" y2="214.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="212.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">CAN1_RX</text>
+<line x1="282.5" y1="229.0" x2="247.5" y2="229.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="227.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">BOOT0</text>
+<line x1="282.5" y1="244.0" x2="247.5" y2="244.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="242.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">CAN2_RX</text>
+<line x1="282.5" y1="259.0" x2="247.5" y2="259.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="257.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PD6</text>
+<line x1="282.5" y1="274.0" x2="247.5" y2="274.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="272.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">CAN1_STB</text>
+<line x1="282.5" y1="289.0" x2="247.5" y2="289.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="287.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PD2</text>
+<line x1="282.5" y1="304.0" x2="247.5" y2="304.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="302.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PC12</text>
+<line x1="282.5" y1="319.0" x2="247.5" y2="319.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="317.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">LSE_IN</text>
+<line x1="282.5" y1="334.0" x2="247.5" y2="334.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="332.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">LSE_OUT</text>
+<line x1="282.5" y1="349.0" x2="247.5" y2="349.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="347.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">IMU_ACC_CS</text>
+<line x1="282.5" y1="364.0" x2="247.5" y2="364.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="362.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PE0</text>
+<line x1="282.5" y1="379.0" x2="247.5" y2="379.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="377.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PB7</text>
+<line x1="282.5" y1="394.0" x2="247.5" y2="394.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="392.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PB3</text>
+<line x1="282.5" y1="409.0" x2="247.5" y2="409.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="407.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">CAN2_STB</text>
+<line x1="282.5" y1="424.0" x2="247.5" y2="424.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="422.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PD1</text>
+<line x1="282.5" y1="439.0" x2="247.5" y2="439.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="437.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PC11</text>
+<line x1="282.5" y1="454.0" x2="247.5" y2="454.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="452.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PC10</text>
+<line x1="282.5" y1="469.0" x2="247.5" y2="469.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="467.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">GND</text>
+<line x1="282.5" y1="484.0" x2="247.5" y2="484.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="482.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_D</text>
+<line x1="282.5" y1="499.0" x2="247.5" y2="499.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="497.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">IMU_GYRO_CS</text>
+<line x1="282.5" y1="514.0" x2="247.5" y2="514.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="512.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PE1</text>
+<line x1="282.5" y1="529.0" x2="247.5" y2="529.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="527.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PB4</text>
+<line x1="282.5" y1="544.0" x2="247.5" y2="544.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="542.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">CAN3_STB</text>
+<line x1="282.5" y1="559.0" x2="247.5" y2="559.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="557.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PD0</text>
+<line x1="282.5" y1="574.0" x2="247.5" y2="574.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="572.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PA15</text>
+<line x1="282.5" y1="589.0" x2="247.5" y2="589.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="587.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">SWCLK</text>
+<line x1="282.5" y1="604.0" x2="247.5" y2="604.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="602.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">SWDIO</text>
+<line x1="282.5" y1="619.0" x2="247.5" y2="619.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="617.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">GND</text>
+<line x1="282.5" y1="634.0" x2="247.5" y2="634.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="632.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">SMPS_SW</text>
+<line x1="282.5" y1="649.0" x2="247.5" y2="649.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="647.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_D</text>
+<line x1="282.5" y1="664.0" x2="247.5" y2="664.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="662.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">CAN2_TX</text>
+<line x1="282.5" y1="679.0" x2="247.5" y2="679.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="677.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">GND</text>
+<line x1="282.5" y1="694.0" x2="247.5" y2="694.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="692.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_D</text>
+<line x1="282.5" y1="709.0" x2="247.5" y2="709.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="707.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PD5</text>
+<line x1="282.5" y1="724.0" x2="247.5" y2="724.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="722.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">VCORE</text>
+<line x1="282.5" y1="739.0" x2="247.5" y2="739.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="737.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">USB_DP</text>
+<line x1="282.5" y1="754.0" x2="247.5" y2="754.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="752.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">USB_DM</text>
+<line x1="282.5" y1="769.0" x2="247.5" y2="769.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="767.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_D</text>
+<line x1="282.5" y1="784.0" x2="247.5" y2="784.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="782.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">VCORE</text>
+<line x1="282.5" y1="799.0" x2="247.5" y2="799.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="797.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">CAN1_TX</text>
+<line x1="282.5" y1="814.0" x2="247.5" y2="814.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="812.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">IMU_ACC_IRQ</text>
+<line x1="282.5" y1="829.0" x2="247.5" y2="829.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="827.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_D</text>
+<line x1="282.5" y1="844.0" x2="247.5" y2="844.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="842.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">VCORE</text>
+<line x1="282.5" y1="859.0" x2="247.5" y2="859.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="857.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">GND</text>
+<line x1="282.5" y1="874.0" x2="247.5" y2="874.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="872.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_D</text>
+<line x1="282.5" y1="889.0" x2="247.5" y2="889.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="887.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">VBUS_PRESENT</text>
+<line x1="282.5" y1="904.0" x2="247.5" y2="904.0" stroke="#19804a" stroke-width="1"/>
+<text x="247.5" y="902.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">EXP_PA10</text>
+<line x1="552.5" y1="169.0" x2="587.5" y2="169.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="167.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PC1</text>
+<line x1="552.5" y1="184.0" x2="587.5" y2="184.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="182.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">NRST</text>
+<line x1="552.5" y1="199.0" x2="587.5" y2="199.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="197.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PC0</text>
+<line x1="552.5" y1="214.0" x2="587.5" y2="214.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="212.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">LOCAL_5V_ADC</text>
+<line x1="552.5" y1="229.0" x2="587.5" y2="229.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="227.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<line x1="552.5" y1="244.0" x2="587.5" y2="244.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="242.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">3V3_D</text>
+<line x1="552.5" y1="259.0" x2="587.5" y2="259.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="257.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">VCORE</text>
+<line x1="552.5" y1="274.0" x2="587.5" y2="274.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="272.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PC6</text>
+<line x1="552.5" y1="289.0" x2="587.5" y2="289.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="287.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PC9</text>
+<line x1="552.5" y1="304.0" x2="587.5" y2="304.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="302.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PA8</text>
+<line x1="552.5" y1="319.0" x2="587.5" y2="319.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="317.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">HSE_IN</text>
+<line x1="552.5" y1="334.0" x2="587.5" y2="334.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="332.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">HSE_RESERVED</text>
+<line x1="552.5" y1="349.0" x2="587.5" y2="349.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="347.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PA0</text>
+<line x1="552.5" y1="364.0" x2="587.5" y2="364.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="362.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">IMU_HEATER_NTC</text>
+<line x1="552.5" y1="379.0" x2="587.5" y2="379.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="377.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PA3</text>
+<line x1="552.5" y1="394.0" x2="587.5" y2="394.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="392.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">VCORE</text>
+<line x1="552.5" y1="409.0" x2="587.5" y2="409.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="407.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PD14</text>
+<line x1="552.5" y1="424.0" x2="587.5" y2="424.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="422.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PD15</text>
+<line x1="552.5" y1="439.0" x2="587.5" y2="439.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="437.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PC7</text>
+<line x1="552.5" y1="454.0" x2="587.5" y2="454.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="452.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PC8</text>
+<line x1="552.5" y1="469.0" x2="587.5" y2="469.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="467.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">3V3_A</text>
+<line x1="552.5" y1="484.0" x2="587.5" y2="484.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="482.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<line x1="552.5" y1="499.0" x2="587.5" y2="499.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="497.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PA2</text>
+<line x1="552.5" y1="514.0" x2="587.5" y2="514.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="512.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PC4</text>
+<line x1="552.5" y1="529.0" x2="587.5" y2="529.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="527.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PE7</text>
+<line x1="552.5" y1="544.0" x2="587.5" y2="544.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="542.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PE10</text>
+<line x1="552.5" y1="559.0" x2="587.5" y2="559.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="557.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PD11</text>
+<line x1="552.5" y1="574.0" x2="587.5" y2="574.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="572.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PD9</text>
+<line x1="552.5" y1="589.0" x2="587.5" y2="589.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="587.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">CAN3_RX</text>
+<line x1="552.5" y1="604.0" x2="587.5" y2="604.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="602.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">CAN3_TX</text>
+<line x1="552.5" y1="619.0" x2="587.5" y2="619.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="617.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">3V3_A</text>
+<line x1="552.5" y1="634.0" x2="587.5" y2="634.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="632.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PA1</text>
+<line x1="552.5" y1="649.0" x2="587.5" y2="649.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="647.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PA6</text>
+<line x1="552.5" y1="664.0" x2="587.5" y2="664.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="662.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PC5</text>
+<line x1="552.5" y1="679.0" x2="587.5" y2="679.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="677.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PB2</text>
+<line x1="552.5" y1="694.0" x2="587.5" y2="694.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="692.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PE8</text>
+<line x1="552.5" y1="709.0" x2="587.5" y2="709.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="707.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PB11</text>
+<line x1="552.5" y1="724.0" x2="587.5" y2="724.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="722.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PB13</text>
+<line x1="552.5" y1="739.0" x2="587.5" y2="739.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="737.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PD8</text>
+<line x1="552.5" y1="754.0" x2="587.5" y2="754.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="752.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">IMU_GYRO_IRQ</text>
+<line x1="552.5" y1="769.0" x2="587.5" y2="769.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="767.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PA4</text>
+<line x1="552.5" y1="784.0" x2="587.5" y2="784.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="782.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PA5</text>
+<line x1="552.5" y1="799.0" x2="587.5" y2="799.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="797.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PA7</text>
+<line x1="552.5" y1="814.0" x2="587.5" y2="814.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="812.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PB0</text>
+<line x1="552.5" y1="829.0" x2="587.5" y2="829.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="827.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PB1</text>
+<line x1="552.5" y1="844.0" x2="587.5" y2="844.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="842.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">IMU_HEATER_PWM</text>
+<line x1="552.5" y1="859.0" x2="587.5" y2="859.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="857.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PB10</text>
+<line x1="552.5" y1="874.0" x2="587.5" y2="874.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="872.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PB12</text>
+<line x1="552.5" y1="889.0" x2="587.5" y2="889.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="887.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PB14</text>
+<line x1="552.5" y1="904.0" x2="587.5" y2="904.0" stroke="#19804a" stroke-width="1"/>
+<text x="587.5" y="902.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">EXP_PB15</text>
+<text x="1010" y="136.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">L1</text>
+<text x="1010" y="149.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">VLS252012HBX-2R2M-1</text>
+<line x1="985" y1="167.0" x2="950" y2="167.0" stroke="#19804a" stroke-width="1"/>
+<text x="950" y="165.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">SMPS_SW</text>
+<line x1="1035" y1="167.0" x2="1070" y2="167.0" stroke="#19804a" stroke-width="1"/>
+<text x="1070" y="165.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">VCORE</text>
+<text x="1405" y="136.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">C_SMPS_IN</text>
+<text x="1405" y="149.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">10uF</text>
+<line x1="1380" y1="167.0" x2="1345" y2="167.0" stroke="#19804a" stroke-width="1"/>
+<text x="1345" y="165.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_D</text>
+<line x1="1430" y1="167.0" x2="1465" y2="167.0" stroke="#19804a" stroke-width="1"/>
+<text x="1465" y="165.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<text x="1010" y="202.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">C_SMPS_HF</text>
+<text x="1010" y="215.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">100nF</text>
+<line x1="985" y1="233.0" x2="950" y2="233.0" stroke="#19804a" stroke-width="1"/>
+<text x="950" y="231.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_D</text>
+<line x1="1035" y1="233.0" x2="1070" y2="233.0" stroke="#19804a" stroke-width="1"/>
+<text x="1070" y="231.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<text x="1405" y="202.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">C_SMPS_SW</text>
+<text x="1405" y="215.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">220pF</text>
+<line x1="1380" y1="233.0" x2="1345" y2="233.0" stroke="#19804a" stroke-width="1"/>
+<text x="1345" y="231.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">SMPS_SW</text>
+<line x1="1430" y1="233.0" x2="1465" y2="233.0" stroke="#19804a" stroke-width="1"/>
+<text x="1465" y="231.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<text x="1010" y="268.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">C_VCORE1</text>
+<text x="1010" y="281.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">10uF</text>
+<line x1="985" y1="299.0" x2="950" y2="299.0" stroke="#19804a" stroke-width="1"/>
+<text x="950" y="297.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">VCORE</text>
+<line x1="1035" y1="299.0" x2="1070" y2="299.0" stroke="#19804a" stroke-width="1"/>
+<text x="1070" y="297.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<text x="1405" y="268.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">C_VCORE2</text>
+<text x="1405" y="281.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">10uF</text>
+<line x1="1380" y1="299.0" x2="1345" y2="299.0" stroke="#19804a" stroke-width="1"/>
+<text x="1345" y="297.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">VCORE</text>
+<line x1="1430" y1="299.0" x2="1465" y2="299.0" stroke="#19804a" stroke-width="1"/>
+<text x="1465" y="297.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<text x="1010" y="334.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">C_VCAP_D8</text>
+<text x="1010" y="347.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">100nF</text>
+<line x1="985" y1="365.0" x2="950" y2="365.0" stroke="#19804a" stroke-width="1"/>
+<text x="950" y="363.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">VCORE</text>
+<line x1="1035" y1="365.0" x2="1070" y2="365.0" stroke="#19804a" stroke-width="1"/>
+<text x="1070" y="363.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<text x="1405" y="334.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">C_VCAP_G6</text>
+<text x="1405" y="347.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">100nF</text>
+<line x1="1380" y1="365.0" x2="1345" y2="365.0" stroke="#19804a" stroke-width="1"/>
+<text x="1345" y="363.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">VCORE</text>
+<line x1="1430" y1="365.0" x2="1465" y2="365.0" stroke="#19804a" stroke-width="1"/>
+<text x="1465" y="363.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<text x="1010" y="400.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">C_VDD_D6</text>
+<text x="1010" y="413.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">100nF</text>
+<line x1="985" y1="431.0" x2="950" y2="431.0" stroke="#19804a" stroke-width="1"/>
+<text x="950" y="429.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_D</text>
+<line x1="1035" y1="431.0" x2="1070" y2="431.0" stroke="#19804a" stroke-width="1"/>
+<text x="1070" y="429.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<text x="1405" y="400.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">C_VDD_E5</text>
+<text x="1405" y="413.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">100nF</text>
+<line x1="1380" y1="431.0" x2="1345" y2="431.0" stroke="#19804a" stroke-width="1"/>
+<text x="1345" y="429.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_D</text>
+<line x1="1430" y1="431.0" x2="1465" y2="431.0" stroke="#19804a" stroke-width="1"/>
+<text x="1465" y="429.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<text x="1010" y="466.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">C_VDD_F6</text>
+<text x="1010" y="479.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">100nF</text>
+<line x1="985" y1="497.0" x2="950" y2="497.0" stroke="#19804a" stroke-width="1"/>
+<text x="950" y="495.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_D</text>
+<line x1="1035" y1="497.0" x2="1070" y2="497.0" stroke="#19804a" stroke-width="1"/>
+<text x="1070" y="495.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<text x="1405" y="466.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">C_VDD_BULK</text>
+<text x="1405" y="479.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">10uF</text>
+<line x1="1380" y1="497.0" x2="1345" y2="497.0" stroke="#19804a" stroke-width="1"/>
+<text x="1345" y="495.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_D</text>
+<line x1="1430" y1="497.0" x2="1465" y2="497.0" stroke="#19804a" stroke-width="1"/>
+<text x="1465" y="495.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<text x="1010" y="532.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">R_ANALOG</text>
+<text x="1010" y="545.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">0R</text>
+<line x1="985" y1="563.0" x2="950" y2="563.0" stroke="#19804a" stroke-width="1"/>
+<text x="950" y="561.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_D</text>
+<line x1="1035" y1="563.0" x2="1070" y2="563.0" stroke="#19804a" stroke-width="1"/>
+<text x="1070" y="561.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">3V3_A</text>
+<text x="1405" y="532.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">C_VDDA_BULK</text>
+<text x="1405" y="545.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">1uF</text>
+<line x1="1380" y1="563.0" x2="1345" y2="563.0" stroke="#19804a" stroke-width="1"/>
+<text x="1345" y="561.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_A</text>
+<line x1="1430" y1="563.0" x2="1465" y2="563.0" stroke="#19804a" stroke-width="1"/>
+<text x="1465" y="561.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<text x="1010" y="598.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">C_VDDA_HF</text>
+<text x="1010" y="611.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">100nF</text>
+<line x1="985" y1="629.0" x2="950" y2="629.0" stroke="#19804a" stroke-width="1"/>
+<text x="950" y="627.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_A</text>
+<line x1="1035" y1="629.0" x2="1070" y2="629.0" stroke="#19804a" stroke-width="1"/>
+<text x="1070" y="627.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<text x="1405" y="598.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">C_VREF_BULK</text>
+<text x="1405" y="611.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">1uF</text>
+<line x1="1380" y1="629.0" x2="1345" y2="629.0" stroke="#19804a" stroke-width="1"/>
+<text x="1345" y="627.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_A</text>
+<line x1="1430" y1="629.0" x2="1465" y2="629.0" stroke="#19804a" stroke-width="1"/>
+<text x="1465" y="627.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<text x="1010" y="664.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">C_VREF_HF</text>
+<text x="1010" y="677.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">100nF</text>
+<line x1="985" y1="695.0" x2="950" y2="695.0" stroke="#19804a" stroke-width="1"/>
+<text x="950" y="693.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_A</text>
+<line x1="1035" y1="695.0" x2="1070" y2="695.0" stroke="#19804a" stroke-width="1"/>
+<text x="1070" y="693.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<text x="1405" y="664.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">C_USB_BULK</text>
+<text x="1405" y="677.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">1uF</text>
+<line x1="1380" y1="695.0" x2="1345" y2="695.0" stroke="#19804a" stroke-width="1"/>
+<text x="1345" y="693.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_D</text>
+<line x1="1430" y1="695.0" x2="1465" y2="695.0" stroke="#19804a" stroke-width="1"/>
+<text x="1465" y="693.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<text x="1010" y="730.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">C_USB_HF</text>
+<text x="1010" y="743.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">100nF</text>
+<line x1="985" y1="761.0" x2="950" y2="761.0" stroke="#19804a" stroke-width="1"/>
+<text x="950" y="759.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_D</text>
+<line x1="1035" y1="761.0" x2="1070" y2="761.0" stroke="#19804a" stroke-width="1"/>
+<text x="1070" y="759.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<text x="1405" y="730.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">C_VBAT_BULK</text>
+<text x="1405" y="743.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">1uF</text>
+<line x1="1380" y1="761.0" x2="1345" y2="761.0" stroke="#19804a" stroke-width="1"/>
+<text x="1345" y="759.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_D</text>
+<line x1="1430" y1="761.0" x2="1465" y2="761.0" stroke="#19804a" stroke-width="1"/>
+<text x="1465" y="759.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<text x="1010" y="796.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">C_VBAT_HF</text>
+<text x="1010" y="809.0" font-size="9" font-family="Arial, sans-serif" text-anchor="middle" fill="#16243e">100nF</text>
+<line x1="985" y1="827.0" x2="950" y2="827.0" stroke="#19804a" stroke-width="1"/>
+<text x="950" y="825.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">3V3_D</text>
+<line x1="1035" y1="827.0" x2="1070" y2="827.0" stroke="#19804a" stroke-width="1"/>
+<text x="1070" y="825.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">GND</text>
+<rect x="297.5" y="159.0" width="240.0" height="755.0" fill="none" stroke="#9c2938"/>
+<line x1="282.5" y1="169.0" x2="297.5" y2="169.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="171.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PE6</text>
+<text x="287.5" y="166.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">A1</text>
+<line x1="282.5" y1="184.0" x2="297.5" y2="184.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="186.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PE5</text>
+<text x="287.5" y="181.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">A2</text>
+<line x1="282.5" y1="199.0" x2="297.5" y2="199.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="201.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PE2</text>
+<text x="287.5" y="196.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">A3</text>
+<line x1="282.5" y1="214.0" x2="297.5" y2="214.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="216.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PB8</text>
+<text x="287.5" y="211.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">A4</text>
+<line x1="282.5" y1="229.0" x2="297.5" y2="229.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="231.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">BOOT0</text>
+<text x="287.5" y="226.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">A5</text>
+<line x1="282.5" y1="244.0" x2="297.5" y2="244.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="246.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PB5</text>
+<text x="287.5" y="241.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">A6</text>
+<line x1="282.5" y1="259.0" x2="297.5" y2="259.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="261.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PD6</text>
+<text x="287.5" y="256.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">A7</text>
+<line x1="282.5" y1="274.0" x2="297.5" y2="274.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="276.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PD3</text>
+<text x="287.5" y="271.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">A8</text>
+<line x1="282.5" y1="289.0" x2="297.5" y2="289.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="291.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PD2</text>
+<text x="287.5" y="286.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">A9</text>
+<line x1="282.5" y1="304.0" x2="297.5" y2="304.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="306.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PC12</text>
+<text x="287.5" y="301.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">A10</text>
+<line x1="282.5" y1="319.0" x2="297.5" y2="319.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="321.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PC14-OSC32_IN</text>
+<text x="287.5" y="316.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">B1</text>
+<line x1="282.5" y1="334.0" x2="297.5" y2="334.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="336.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PC15-OSC32_OUT</text>
+<text x="287.5" y="331.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">B2</text>
+<line x1="282.5" y1="349.0" x2="297.5" y2="349.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="351.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PE3</text>
+<text x="287.5" y="346.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">B3</text>
+<line x1="282.5" y1="364.0" x2="297.5" y2="364.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="366.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PE0</text>
+<text x="287.5" y="361.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">B4</text>
+<line x1="282.5" y1="379.0" x2="297.5" y2="379.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="381.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PB7</text>
+<text x="287.5" y="376.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">B5</text>
+<line x1="282.5" y1="394.0" x2="297.5" y2="394.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="396.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PB3(JTDO/TRACESWO)</text>
+<text x="287.5" y="391.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">B6</text>
+<line x1="282.5" y1="409.0" x2="297.5" y2="409.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="411.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PD4</text>
+<text x="287.5" y="406.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">B7</text>
+<line x1="282.5" y1="424.0" x2="297.5" y2="424.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="426.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PD1</text>
+<text x="287.5" y="421.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">B8</text>
+<line x1="282.5" y1="439.0" x2="297.5" y2="439.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="441.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PC11</text>
+<text x="287.5" y="436.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">B9</text>
+<line x1="282.5" y1="454.0" x2="297.5" y2="454.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="456.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PC10</text>
+<text x="287.5" y="451.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">B10</text>
+<line x1="282.5" y1="469.0" x2="297.5" y2="469.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="471.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">VSS</text>
+<text x="287.5" y="466.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">C1</text>
+<line x1="282.5" y1="484.0" x2="297.5" y2="484.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="486.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">VBAT</text>
+<text x="287.5" y="481.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">C2</text>
+<line x1="282.5" y1="499.0" x2="297.5" y2="499.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="501.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PE4</text>
+<text x="287.5" y="496.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">C3</text>
+<line x1="282.5" y1="514.0" x2="297.5" y2="514.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="516.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PE1</text>
+<text x="287.5" y="511.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">C4</text>
+<line x1="282.5" y1="529.0" x2="297.5" y2="529.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="531.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PB4(NJTRST)</text>
+<text x="287.5" y="526.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">C5</text>
+<line x1="282.5" y1="544.0" x2="297.5" y2="544.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="546.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PD7</text>
+<text x="287.5" y="541.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">C6</text>
+<line x1="282.5" y1="559.0" x2="297.5" y2="559.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="561.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PD0</text>
+<text x="287.5" y="556.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">C7</text>
+<line x1="282.5" y1="574.0" x2="297.5" y2="574.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="576.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PA15(JTDI)</text>
+<text x="287.5" y="571.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">C8</text>
+<line x1="282.5" y1="589.0" x2="297.5" y2="589.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="591.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PA14(JTCK/SWCLK)</text>
+<text x="287.5" y="586.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">C9</text>
+<line x1="282.5" y1="604.0" x2="297.5" y2="604.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="606.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PA13(JTMS/SWDIO)</text>
+<text x="287.5" y="601.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">C10</text>
+<line x1="282.5" y1="619.0" x2="297.5" y2="619.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="621.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">VSSSMPS</text>
+<text x="287.5" y="616.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">D1</text>
+<line x1="282.5" y1="634.0" x2="297.5" y2="634.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="636.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">VLXSMPS</text>
+<text x="287.5" y="631.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">D2</text>
+<line x1="282.5" y1="649.0" x2="297.5" y2="649.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="651.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PDR_ON</text>
+<text x="287.5" y="646.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">D3</text>
+<line x1="282.5" y1="664.0" x2="297.5" y2="664.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="666.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PB6</text>
+<text x="287.5" y="661.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">D4</text>
+<line x1="282.5" y1="679.0" x2="297.5" y2="679.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="681.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">VSS</text>
+<text x="287.5" y="676.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">D5</text>
+<line x1="282.5" y1="694.0" x2="297.5" y2="694.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="696.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">VDD</text>
+<text x="287.5" y="691.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">D6</text>
+<line x1="282.5" y1="709.0" x2="297.5" y2="709.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="711.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PD5</text>
+<text x="287.5" y="706.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">D7</text>
+<line x1="282.5" y1="724.0" x2="297.5" y2="724.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="726.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">VCAP</text>
+<text x="287.5" y="721.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">D8</text>
+<line x1="282.5" y1="739.0" x2="297.5" y2="739.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="741.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PA12</text>
+<text x="287.5" y="736.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">D9</text>
+<line x1="282.5" y1="754.0" x2="297.5" y2="754.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="756.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PA11</text>
+<text x="287.5" y="751.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">D10</text>
+<line x1="282.5" y1="769.0" x2="297.5" y2="769.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="771.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">VDDSMPS</text>
+<text x="287.5" y="766.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">E1</text>
+<line x1="282.5" y1="784.0" x2="297.5" y2="784.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="786.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">VFBSMPS</text>
+<text x="287.5" y="781.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">E2</text>
+<line x1="282.5" y1="799.0" x2="297.5" y2="799.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="801.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PB9</text>
+<text x="287.5" y="796.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">E3</text>
+<line x1="282.5" y1="814.0" x2="297.5" y2="814.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="816.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PC13</text>
+<text x="287.5" y="811.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">E4</text>
+<line x1="282.5" y1="829.0" x2="297.5" y2="829.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="831.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">VDD</text>
+<text x="287.5" y="826.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">E5</text>
+<line x1="282.5" y1="844.0" x2="297.5" y2="844.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="846.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">VDDLDO</text>
+<text x="287.5" y="841.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">E6</text>
+<line x1="282.5" y1="859.0" x2="297.5" y2="859.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="861.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">VSS</text>
+<text x="287.5" y="856.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">E7</text>
+<line x1="282.5" y1="874.0" x2="297.5" y2="874.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="876.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">VDD33USB</text>
+<text x="287.5" y="871.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">E8</text>
+<line x1="282.5" y1="889.0" x2="297.5" y2="889.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="891.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PA9</text>
+<text x="287.5" y="886.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">E9</text>
+<line x1="282.5" y1="904.0" x2="297.5" y2="904.0" stroke="#9c2938" stroke-width="1"/>
+<text x="301.5" y="906.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">PA10</text>
+<text x="287.5" y="901.0" font-size="8" font-family="Arial, sans-serif" text-anchor="start" fill="#16243e">E10</text>
+<line x1="552.5" y1="169.0" x2="537.5" y2="169.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="171.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PC1</text>
+<text x="547.5" y="166.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">F1</text>
+<line x1="552.5" y1="184.0" x2="537.5" y2="184.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="186.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">NRST</text>
+<text x="547.5" y="181.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">F2</text>
+<line x1="552.5" y1="199.0" x2="537.5" y2="199.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="201.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PC0</text>
+<text x="547.5" y="196.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">F3</text>
+<line x1="552.5" y1="214.0" x2="537.5" y2="214.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="216.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PC2_C</text>
+<text x="547.5" y="211.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">F4</text>
+<line x1="552.5" y1="229.0" x2="537.5" y2="229.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="231.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">VSS</text>
+<text x="547.5" y="226.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">F5</text>
+<line x1="552.5" y1="244.0" x2="537.5" y2="244.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="246.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">VDD</text>
+<text x="547.5" y="241.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">F6</text>
+<line x1="552.5" y1="259.0" x2="537.5" y2="259.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="261.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">VDDLDO</text>
+<text x="547.5" y="256.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">F7</text>
+<line x1="552.5" y1="274.0" x2="537.5" y2="274.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="276.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PC6</text>
+<text x="547.5" y="271.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">F8</text>
+<line x1="552.5" y1="289.0" x2="537.5" y2="289.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="291.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PC9</text>
+<text x="547.5" y="286.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">F9</text>
+<line x1="552.5" y1="304.0" x2="537.5" y2="304.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="306.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PA8</text>
+<text x="547.5" y="301.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">F10</text>
+<line x1="552.5" y1="319.0" x2="537.5" y2="319.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="321.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PH0-OSC_IN</text>
+<text x="547.5" y="316.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">G1</text>
+<line x1="552.5" y1="334.0" x2="537.5" y2="334.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="336.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PH1-OSC_OUT</text>
+<text x="547.5" y="331.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">G2</text>
+<line x1="552.5" y1="349.0" x2="537.5" y2="349.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="351.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PA0</text>
+<text x="547.5" y="346.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">G3</text>
+<line x1="552.5" y1="364.0" x2="537.5" y2="364.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="366.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PC3_C</text>
+<text x="547.5" y="361.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">G4</text>
+<line x1="552.5" y1="379.0" x2="537.5" y2="379.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="381.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PA3</text>
+<text x="547.5" y="376.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">G5</text>
+<line x1="552.5" y1="394.0" x2="537.5" y2="394.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="396.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">VCAP</text>
+<text x="547.5" y="391.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">G6</text>
+<line x1="552.5" y1="409.0" x2="537.5" y2="409.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="411.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PD14</text>
+<text x="547.5" y="406.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">G7</text>
+<line x1="552.5" y1="424.0" x2="537.5" y2="424.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="426.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PD15</text>
+<text x="547.5" y="421.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">G8</text>
+<line x1="552.5" y1="439.0" x2="537.5" y2="439.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="441.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PC7</text>
+<text x="547.5" y="436.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">G9</text>
+<line x1="552.5" y1="454.0" x2="537.5" y2="454.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="456.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PC8</text>
+<text x="547.5" y="451.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">G10</text>
+<line x1="552.5" y1="469.0" x2="537.5" y2="469.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="471.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">VDDA</text>
+<text x="547.5" y="466.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">H1</text>
+<line x1="552.5" y1="484.0" x2="537.5" y2="484.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="486.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">VSSA</text>
+<text x="547.5" y="481.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">H2</text>
+<line x1="552.5" y1="499.0" x2="537.5" y2="499.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="501.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PA2</text>
+<text x="547.5" y="496.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">H3</text>
+<line x1="552.5" y1="514.0" x2="537.5" y2="514.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="516.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PC4</text>
+<text x="547.5" y="511.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">H4</text>
+<line x1="552.5" y1="529.0" x2="537.5" y2="529.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="531.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PE7</text>
+<text x="547.5" y="526.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">H5</text>
+<line x1="552.5" y1="544.0" x2="537.5" y2="544.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="546.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PE10</text>
+<text x="547.5" y="541.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">H6</text>
+<line x1="552.5" y1="559.0" x2="537.5" y2="559.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="561.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PD11</text>
+<text x="547.5" y="556.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">H7</text>
+<line x1="552.5" y1="574.0" x2="537.5" y2="574.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="576.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PD9</text>
+<text x="547.5" y="571.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">H8</text>
+<line x1="552.5" y1="589.0" x2="537.5" y2="589.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="591.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PD12</text>
+<text x="547.5" y="586.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">H9</text>
+<line x1="552.5" y1="604.0" x2="537.5" y2="604.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="606.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PD13</text>
+<text x="547.5" y="601.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">H10</text>
+<line x1="552.5" y1="619.0" x2="537.5" y2="619.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="621.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">VREF+</text>
+<text x="547.5" y="616.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">J1</text>
+<line x1="552.5" y1="634.0" x2="537.5" y2="634.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="636.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PA1</text>
+<text x="547.5" y="631.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">J2</text>
+<line x1="552.5" y1="649.0" x2="537.5" y2="649.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="651.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PA6</text>
+<text x="547.5" y="646.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">J3</text>
+<line x1="552.5" y1="664.0" x2="537.5" y2="664.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="666.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PC5</text>
+<text x="547.5" y="661.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">J4</text>
+<line x1="552.5" y1="679.0" x2="537.5" y2="679.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="681.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PB2</text>
+<text x="547.5" y="676.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">J5</text>
+<line x1="552.5" y1="694.0" x2="537.5" y2="694.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="696.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PE8</text>
+<text x="547.5" y="691.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">J6</text>
+<line x1="552.5" y1="709.0" x2="537.5" y2="709.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="711.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PB11</text>
+<text x="547.5" y="706.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">J7</text>
+<line x1="552.5" y1="724.0" x2="537.5" y2="724.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="726.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PB13</text>
+<text x="547.5" y="721.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">J8</text>
+<line x1="552.5" y1="739.0" x2="537.5" y2="739.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="741.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PD8</text>
+<text x="547.5" y="736.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">J9</text>
+<line x1="552.5" y1="754.0" x2="537.5" y2="754.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="756.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PD10</text>
+<text x="547.5" y="751.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">J10</text>
+<line x1="552.5" y1="769.0" x2="537.5" y2="769.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="771.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PA4</text>
+<text x="547.5" y="766.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">K1</text>
+<line x1="552.5" y1="784.0" x2="537.5" y2="784.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="786.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PA5</text>
+<text x="547.5" y="781.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">K2</text>
+<line x1="552.5" y1="799.0" x2="537.5" y2="799.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="801.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PA7</text>
+<text x="547.5" y="796.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">K3</text>
+<line x1="552.5" y1="814.0" x2="537.5" y2="814.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="816.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PB0</text>
+<text x="547.5" y="811.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">K4</text>
+<line x1="552.5" y1="829.0" x2="537.5" y2="829.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="831.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PB1</text>
+<text x="547.5" y="826.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">K5</text>
+<line x1="552.5" y1="844.0" x2="537.5" y2="844.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="846.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PE9</text>
+<text x="547.5" y="841.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">K6</text>
+<line x1="552.5" y1="859.0" x2="537.5" y2="859.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="861.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PB10</text>
+<text x="547.5" y="856.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">K7</text>
+<line x1="552.5" y1="874.0" x2="537.5" y2="874.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="876.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PB12</text>
+<text x="547.5" y="871.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">K8</text>
+<line x1="552.5" y1="889.0" x2="537.5" y2="889.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="891.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PB14</text>
+<text x="547.5" y="886.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">K9</text>
+<line x1="552.5" y1="904.0" x2="537.5" y2="904.0" stroke="#9c2938" stroke-width="1"/>
+<text x="533.5" y="906.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">PB15</text>
+<text x="547.5" y="901.0" font-size="8" font-family="Arial, sans-serif" text-anchor="end" fill="#16243e">K10</text>
+<rect x="1000.0" y="159.0" width="20.0" height="16.0" fill="none" stroke="#9c2938"/>
+<line x1="985" y1="167.0" x2="1000.0" y2="167.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1035" y1="167.0" x2="1020.0" y2="167.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1402" y1="175.0" x2="1402" y2="159.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1408" y1="175.0" x2="1408" y2="159.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1395" y1="167.0" x2="1402" y2="167.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1408" y1="167.0" x2="1415" y2="167.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1380" y1="167.0" x2="1395.0" y2="167.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1430" y1="167.0" x2="1415.0" y2="167.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1007" y1="241.0" x2="1007" y2="225.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1013" y1="241.0" x2="1013" y2="225.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1000" y1="233.0" x2="1007" y2="233.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1013" y1="233.0" x2="1020" y2="233.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="985" y1="233.0" x2="1000.0" y2="233.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1035" y1="233.0" x2="1020.0" y2="233.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1402" y1="241.0" x2="1402" y2="225.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1408" y1="241.0" x2="1408" y2="225.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1395" y1="233.0" x2="1402" y2="233.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1408" y1="233.0" x2="1415" y2="233.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1380" y1="233.0" x2="1395.0" y2="233.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1430" y1="233.0" x2="1415.0" y2="233.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1007" y1="307.0" x2="1007" y2="291.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1013" y1="307.0" x2="1013" y2="291.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1000" y1="299.0" x2="1007" y2="299.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1013" y1="299.0" x2="1020" y2="299.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="985" y1="299.0" x2="1000.0" y2="299.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1035" y1="299.0" x2="1020.0" y2="299.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1402" y1="307.0" x2="1402" y2="291.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1408" y1="307.0" x2="1408" y2="291.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1395" y1="299.0" x2="1402" y2="299.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1408" y1="299.0" x2="1415" y2="299.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1380" y1="299.0" x2="1395.0" y2="299.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1430" y1="299.0" x2="1415.0" y2="299.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1007" y1="373.0" x2="1007" y2="357.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1013" y1="373.0" x2="1013" y2="357.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1000" y1="365.0" x2="1007" y2="365.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1013" y1="365.0" x2="1020" y2="365.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="985" y1="365.0" x2="1000.0" y2="365.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1035" y1="365.0" x2="1020.0" y2="365.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1402" y1="373.0" x2="1402" y2="357.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1408" y1="373.0" x2="1408" y2="357.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1395" y1="365.0" x2="1402" y2="365.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1408" y1="365.0" x2="1415" y2="365.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1380" y1="365.0" x2="1395.0" y2="365.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1430" y1="365.0" x2="1415.0" y2="365.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1007" y1="439.0" x2="1007" y2="423.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1013" y1="439.0" x2="1013" y2="423.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1000" y1="431.0" x2="1007" y2="431.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1013" y1="431.0" x2="1020" y2="431.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="985" y1="431.0" x2="1000.0" y2="431.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1035" y1="431.0" x2="1020.0" y2="431.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1402" y1="439.0" x2="1402" y2="423.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1408" y1="439.0" x2="1408" y2="423.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1395" y1="431.0" x2="1402" y2="431.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1408" y1="431.0" x2="1415" y2="431.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1380" y1="431.0" x2="1395.0" y2="431.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1430" y1="431.0" x2="1415.0" y2="431.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1007" y1="505.0" x2="1007" y2="489.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1013" y1="505.0" x2="1013" y2="489.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1000" y1="497.0" x2="1007" y2="497.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1013" y1="497.0" x2="1020" y2="497.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="985" y1="497.0" x2="1000.0" y2="497.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1035" y1="497.0" x2="1020.0" y2="497.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1402" y1="505.0" x2="1402" y2="489.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1408" y1="505.0" x2="1408" y2="489.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1395" y1="497.0" x2="1402" y2="497.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1408" y1="497.0" x2="1415" y2="497.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1380" y1="497.0" x2="1395.0" y2="497.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1430" y1="497.0" x2="1415.0" y2="497.0" stroke="#9c2938" stroke-width="1"/>
+<rect x="1000.0" y="555.0" width="20.0" height="16.0" fill="none" stroke="#9c2938"/>
+<line x1="985" y1="563.0" x2="1000.0" y2="563.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1035" y1="563.0" x2="1020.0" y2="563.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1402" y1="571.0" x2="1402" y2="555.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1408" y1="571.0" x2="1408" y2="555.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1395" y1="563.0" x2="1402" y2="563.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1408" y1="563.0" x2="1415" y2="563.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1380" y1="563.0" x2="1395.0" y2="563.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1430" y1="563.0" x2="1415.0" y2="563.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1007" y1="637.0" x2="1007" y2="621.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1013" y1="637.0" x2="1013" y2="621.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1000" y1="629.0" x2="1007" y2="629.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1013" y1="629.0" x2="1020" y2="629.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="985" y1="629.0" x2="1000.0" y2="629.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1035" y1="629.0" x2="1020.0" y2="629.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1402" y1="637.0" x2="1402" y2="621.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1408" y1="637.0" x2="1408" y2="621.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1395" y1="629.0" x2="1402" y2="629.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1408" y1="629.0" x2="1415" y2="629.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1380" y1="629.0" x2="1395.0" y2="629.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1430" y1="629.0" x2="1415.0" y2="629.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1007" y1="703.0" x2="1007" y2="687.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1013" y1="703.0" x2="1013" y2="687.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1000" y1="695.0" x2="1007" y2="695.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1013" y1="695.0" x2="1020" y2="695.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="985" y1="695.0" x2="1000.0" y2="695.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1035" y1="695.0" x2="1020.0" y2="695.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1402" y1="703.0" x2="1402" y2="687.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1408" y1="703.0" x2="1408" y2="687.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1395" y1="695.0" x2="1402" y2="695.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1408" y1="695.0" x2="1415" y2="695.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1380" y1="695.0" x2="1395.0" y2="695.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1430" y1="695.0" x2="1415.0" y2="695.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1007" y1="769.0" x2="1007" y2="753.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1013" y1="769.0" x2="1013" y2="753.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1000" y1="761.0" x2="1007" y2="761.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1013" y1="761.0" x2="1020" y2="761.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="985" y1="761.0" x2="1000.0" y2="761.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1035" y1="761.0" x2="1020.0" y2="761.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1402" y1="769.0" x2="1402" y2="753.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1408" y1="769.0" x2="1408" y2="753.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1395" y1="761.0" x2="1402" y2="761.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1408" y1="761.0" x2="1415" y2="761.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1380" y1="761.0" x2="1395.0" y2="761.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1430" y1="761.0" x2="1415.0" y2="761.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1007" y1="835.0" x2="1007" y2="819.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1013" y1="835.0" x2="1013" y2="819.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1000" y1="827.0" x2="1007" y2="827.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1013" y1="827.0" x2="1020" y2="827.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="985" y1="827.0" x2="1000.0" y2="827.0" stroke="#9c2938" stroke-width="1"/>
+<line x1="1035" y1="827.0" x2="1020.0" y2="827.0" stroke="#9c2938" stroke-width="1"/>
+<text x="35" y="1110" font-family="Arial" font-size="12">Local EDA-record preview. Not an editor-rendered PDF. Footprints / ERC / PCB not released.</text></svg>

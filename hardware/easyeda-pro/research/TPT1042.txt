@@ -1,0 +1,1842 @@
+Features
+•
+Meets the ISO 11898-2:2016 and SAE J2284-1 to SAE
+J2284-5 Physical Layer Standards
+•
+Supports CAN FD and Data Rating up to 5 Mbps
+•
+Short Propagation Delay Times and Fast Loop Times
+•
+5-V Power Supply, I/O Voltage Range Supports 2.8-V
+to 5.5-V MCU Interface
+•
+Ultra-Low Current Standby Mode with Bus Wake-up
+Capability
+•
+Ideal Passive Behavior to CAN Bus when Unpowered
+•
+Common-Mode Input Voltage: ±30 V
+•
+Protection Feature:
+–
+IEC 61000-4-2 ESD Protection up to ±15 kV
+–
+Bus Fault Protection: ±70 V
+–
+VCC and VIO (V variants only) Under-Voltage
+Protection
+–
+TXD Dominant Time-out Function and Bus-
+Dominant Time-out Function
+–
+Thermal Shutdown Protection
+•
+Available in SOP8 Package and Leadless DFN3X3
+Package
+Applications
+•
+All Devices Supporting Highly Loaded CAN Networks
+•
+Field Industrial Automation, Sensor and Driver Systems
+•
+Building, Security Control Systems
+•
+Energy Storage Systems
+•
+Telecom Base Station Status and Control
+Description
+The TPT1042 is a CAN transceiver that meets the
+ISO11898 high-speed CAN (Controller Area Network)
+physical layer standard. The device is designed to be used
+in CAN FD networks up to 5 Mbps, with enhanced timing
+margin and higher data rates in long and highly loaded
+networks. As designed, the device features crosswire,
+overvoltage, and loss of ground protection from −70 V
+to +70 V, over-temperature shutdown, with a −30 V to
++30 V common-mode input voltage range. The TPT1042V
+has a secondary power supply input for I/O level shifting
+the input pin thresholds and RXD output level. This family
+has a low-current standby mode with CAN BUS waked-up
+capability. Additionally, all devices include many protection
+features to enhance the device and network robustness.
+The TPT1042 and TPT1042V are available in SOP8 and
+DFN3X3-8L packages and are characterized from −40°C
+to +125°C.
+Typical Application Circuit
+                 
+MCU             
+                 
+TPT1042             
+                 
+3.3/5V Voltage                  
+Regulator             
+                 
+STB             
+                 
+CAN                 
+Controller             
+                 
+I/O                 
+Interface             
+                 
+TXD             
+                 
+RXD             
+                 
+5V Voltage                  
+Regulator             
+                 
+VIO             
+                 
+VCC             
+                 
+VOUT             
+                 
+VOUT             
+                 
+BAT             
+                 
+CANH             
+                 
+CANL             
+                 
+Optional             
+                 
+VCC             
+                 
+3             
+                 
+5             
+                 
+8             
+                 
+1             
+                 
+4             
+                 
+7             
+                 
+6             
+                 
+2             
+                 
+Port_x             
+                 
+TX             
+                 
+RX             
+TPT1042V, TPT1042
+Fault Protected High-Speed CAN FD Transceiver with Standby
+Mode
+www.3peak.com
+1 / 24
+CA20230202A2
+
+Table of Contents
+Features................................................................................................................................................................1
+Applications......................................................................................................................................................... 1
+Description...........................................................................................................................................................1
+Typical Application Circuit..................................................................................................................................1
+Product Family Table...........................................................................................................................................3
+Revision History...................................................................................................................................................3
+Pin Configuration and Functions....................................................................................................................... 4
+Specifications.......................................................................................................................................................6
+Absolute Maximum Ratings ...........................................................................................................................6
+ESD (Electrostatic Discharge Protection).......................................................................................................6
+Recommended Operating Conditions............................................................................................................ 7
+Thermal Information........................................................................................................................................7
+Electrical Characteristics................................................................................................................................ 8
+AC Timing Requirements..............................................................................................................................11
+Parameter Measurement Information.............................................................................................................. 13
+Test Circuit....................................................................................................................................................13
+Parameter Diagram...................................................................................................................................... 14
+Detailed Description..........................................................................................................................................15
+Overview.......................................................................................................................................................15
+Functional Block Diagram.............................................................................................................................15
+Feature Description...................................................................................................................................... 16
+Device Operating Modes.......................................................................................................................16
+Device Local Faults...............................................................................................................................16
+Application and Implementation...................................................................................................................... 18
+Application Information ................................................................................................................................18
+Typical Application........................................................................................................................................18
+Tape and Reel Information................................................................................................................................19
+Package Outline Dimensions........................................................................................................................... 20
+SOP8............................................................................................................................................................20
+DFN3X3-8.....................................................................................................................................................21
+Order Information.............................................................................................................................................. 22
+IMPORTANT NOTICE AND DISCLAIMER.........................................................................................................23
+TPT1042V, TPT1042
+Fault Protected High-Speed CAN FD Transceiver with Standby
+Mode
+www.3peak.com
+2 / 24
+CA20230202A2
+
+Product Family Table
+Order Number
+VCC (V)
+VIO (V)
+BUS Protection (V)
+Package
+TPT1042V-SO1R-S
+4.5 to 5.5
+2.8 to 5.5
+±70
+SOP8
+TPT1042V-DF6R-S
+4.5 to 5.5
+2.8 to 5.5
+±70
+DFN3X3-8L
+TPT1042-SO1R-S
+4.5 to 5.5
+NC
+±70
+SOP8
+TPT1042-DF6R-S
+4.5 to 5.5
+NC
+±70
+DFN3X3-8L
+Revision History
+Date
+Revision
+Notes
+2020-12-05
+Rev.Pre.0
+Initial version
+2022-11-20
+Rev.A.0
+Released version
+2025-05-23
+Rev.A.1
+Corrected typos for the Conditons of the Standby Mode Supply Current parameter
+2026-07-28
+Rev.A.2
+Updated the Functional Block Diagram
+The actual product remains unchanged.
+TPT1042V, TPT1042
+Fault Protected High-Speed CAN FD Transceiver with Standby
+Mode
+www.3peak.com
+3 / 24
+CA20230202A2
+
+Pin Configuration and Functions
+TPT1042V
+SOP8 Package
+Top View
+TPT1042V
+DFN3X3-8 Package
+Top View
+TXD
+GND
+VCC
+RXD
+STB
+CANH
+CANL
+VIO
+4
+3
+2
+1
+5
+6
+7
+8
+1
+2
+3
+4
+8
+7
+6
+5
+TXD
+VCC
+RXD
+STB
+CANH
+CANL
+VIO
+8
+7
+6
+5
+1
+2
+3
+4
+GND
+Table 1. Pin Functions: TPT1042VQ
+Pin
+I/O
+Description
+No.
+Name
+1
+TXD
+I
+CAN transmit data input (LOW for dominant and HIGH for recessive bus states)
+2
+GND
+GND
+Ground
+3
+VCC
+POWER
+Transceiver 5 V supply voltage
+4
+RXD
+O
+CAN receive data output (LOW for dominant and HIGH for recessive bus states)
+5
+VIO
+POWER
+Transceiver I/O level shifting supply voltage
+6
+CANL
+BUS I/O
+Low level CAN bus input/output line
+7
+CANH
+BUS I/O
+High level CAN bus lnput/output line
+8
+STB
+I
+Standby Mode control input (active high)
+TPT1042V, TPT1042
+Fault Protected High-Speed CAN FD Transceiver with Standby
+Mode
+www.3peak.com
+4 / 24
+CA20230202A2
+
+TPT1042
+SOP8 Package
+Top View
+TPT1042
+DFN3X3-8 Package
+Top View
+TXD
+GND
+VCC
+RXD
+STB
+CANH
+CANL
+NC
+4
+3
+2
+1
+5
+6
+7
+8
+1
+2
+3
+4
+8
+7
+6
+5
+TXD
+VCC
+RXD
+STB
+CANH
+CANL
+NC
+8
+7
+6
+5
+1
+2
+3
+4
+GND
+Table 2. Pin Functions: TPT1042Q
+Pin
+I/O
+Description
+No.
+Name
+1
+TXD
+I
+CAN transmit data input (LOW for dominant and HIGH for recessive bus states)
+2
+GND
+GND
+Ground
+3
+VCC
+Power
+Transceiver 5 V supply voltage
+4
+RXD
+O
+CAN receive data output (LOW for dominant and HIGH for recessive bus states)
+5
+NC
+−
+Not Connected
+6
+CANL
+Bus I/O
+Low-level CAN bus input/output line
+7
+CANH
+Bus I/O
+High-level CAN bus input/output line
+8
+STB
+I
+Standby Mode control input (active high)
+TPT1042V, TPT1042
+Fault Protected High-Speed CAN FD Transceiver with Standby
+Mode
+www.3peak.com
+5 / 24
+CA20230202A2
+
+Specifications
+Absolute Maximum Ratings
+Parameter
+Min
+Max
+Unit
+VCC
+5-V Bus Supply Voltage Range
+−0.3
+7
+V
+VIO
+I/O Level-Shifting Voltage Range
+−0.3
+7
+V
+VBUS
+CAN Bus I/O Voltage Range (CANH, CANL)
+−70
+70
+V
+VBUS_DIFF
+Differential Voltage of CAN Bus, CANH - CANL
+−70
+70
+V
+VLOGIC
+Logic Input and Output Terminal Voltage Range (TXD, STB, RXD)
+−0.3
+7
+V
+IO_RXD
+RXD (Receiver) Output Current
+−8
+8
+mA
+TJ
+Maximum Junction Temperature
+−40
+150
+°C
+TSTG
+Storage Temperature Range
+−65
+150
+°C
+TOTP
+Shutdown Junction Temperature
+170
+°C
+(1) Stresses beyond those listed under Absolute Maximum Ratings may cause permanent damage to the device. Exposure
+to any Absolute Maximum Rating condition for extended periods may affect device reliability and lifetime.
+(2) This data was taken with the JEDEC low effective thermal conductivity test board.
+(3) This data was taken with the JEDEC standard multilayer test boards.
+ESD (Electrostatic Discharge Protection)
+Parameter
+Condition
+Minimum Level
+Unit
+IEC
+IEC Contact Discharge
+IEC-61000-4-2, Bus Pin
+±15
+kV
+IEC Air-Gap Discharge
+IEC-61000-4-2, Bus Pin
+±15
+kV
+HBM
+Human Body Model ESD
+ANSI/ESDA/JEDEC JS-001, CAN
+Bus Pin
+±8
+kV
+ANSI/ESDA/JEDEC JS-001, All Pin
+±7
+kV
+CDM
+Charged Device Model ESD
+ANSI/ESDA/JEDEC JS-002, All Pin
+±1.5
+kV
+LU
+Latch up
+Latch up per JESD78, All Pin
+±500
+mA
+Vtran
+ISO7637-2 transients per IEC
+62228-3, CANH, CANL
+Pulse 1
+-100
+V
+Pulse 2a
+75
+V
+Pulse 3a
+-150
+V
+Pulse 3b
+100
+V
+(1) JEDEC document JEP155 states that 500-V HBM allows safe manufacturing with a standard ESD control process.
+(2) JEDEC document JEP157 states that 250-V CDM allows safe manufacturing with a standard ESD control process.
+TPT1042V, TPT1042
+Fault Protected High-Speed CAN FD Transceiver with Standby
+Mode
+www.3peak.com
+6 / 24
+CA20230202A2
+
+Recommended Operating Conditions
+Parameter
+Min
+Max
+Unit
+VIO
+Input/output voltage, TXD, RXD, STB
+2.8
+5.5
+V
+VCC
+Power Supply
+4.5
+5.5
+V
+IOH(RXD)
+RXD Terminal High-Level Output Current
+−2
+mA
+IOL(RXD)
+RXD Terminal Low-Level Output Current
+2
+mA
+TA
+Operating Ambient Temperature
+−40
+125
+°C
+Thermal Information
+Package Type
+θJA
+θJC
+Unit
+SOP8
+118
+48
+°C/W
+DFN3x3-8
+51
+23
+°C/W
+TPT1042V, TPT1042
+Fault Protected High-Speed CAN FD Transceiver with Standby
+Mode
+www.3peak.com
+7 / 24
+CA20230202A2
+
+Electrical Characteristics
+All test conditions: VCC = 4.5 V to 5.5 V, VIO = 2.8 V to 5.5 V, RL= 60 Ω, T = −40°C to 125°C, unless otherwise noted.
+Parameter
+Conditions
+Min
+Typ
+Max
+Unit
+Pin VCC, (Power supply)
+VCC
+Supply Voltage
+　
+4.5
+　
+5.5
+V
+VUV_VCC
+Rising Undervoltage Detection on Vcc for
+Protected Mode
+　
+-
+4.1
+4.5
+V
+Falling Undervoltage Detection on Vcc for
+Protected Mode
+　
+3.6
+3.9
+-
+V
+VHYS_UVVCC Hysteresis Voltage on UVVCC (1)
+　
+-
+200
+-
+mV
+ICC
+Standby Mode Supply Current
+1042V, device with the "V"
+suffix, Standby Mode, VTXD
+= VIO, RL = 60 Ω,
+CL = open, VSTB = VIO
+-
+3.5
+5
+μA
+1042, device without the
+"V" suffix, Standby Mode,
+VTXD = VCC, RL = 60 Ω,
+CL = open, VSTB = VCC
+-
+10
+20
+μA
+Normal Mode Supply Current
+Recessive, VTXD = VCC, RL
+= 50 Ω, CL = open,
+VSTB = 0 V
+0.5
+1.3
+5
+mA
+Dominant, VTXD = 0 V, RL =
+60 Ω, CL = open, VSTB = 0 V
+20
+50
+80
+mA
+Dominant bus fault, short
+circuit on bus lines, VTXD =
+VSTB = 0 V, −3 V < (VCANH
+= VCANL) < +18V, RL = CL =
+open
+2
+60
+110
+mA
+PIN VIO, (I/O Level Adapter Supply) (2)
+VIO
+Supply Voltage on Vio Pin
+　
+2.8
+-
+5.5
+V
+VUV_VIO
+Rising Undervoltage Detection on Vio for
+Protected Mode
+　
+-
+2
+2.7
+V
+Falling Undervoltage Detection on Vio for
+Protected Mode
+　
+1.3
+1.9
+-
+V
+VHYS_UVVIO
+Hysteresis Voltage on uvvio for Protected
+Mode
+　
+-
+100
+-
+mV
+IIO
+Standby Mode Supply Current on Pin vio
+Standby Mode, RXD
+Floating, VTXD = VSTB = VIO
+5
+10
+14
+µA
+Normal Mode Supply Current on Pin vio
+Recessive, VSTB = 0 V,
+VTXD = VIO
+-
+15
+30
+µA
+TPT1042V, TPT1042
+Fault Protected High-Speed CAN FD Transceiver with Standby
+Mode
+www.3peak.com
+8 / 24
+CA20230202A2
+
+Parameter
+Conditions
+Min
+Typ
+Max
+Unit
+Dominant, VSTB = 0 V,
+VTXD = 0 V
+-
+200
+600
+µA
+Pin STB, (Standby Mode Control Input)
+VIH
+High-Level Input Voltage
+　
+0.7 x
+VIO
+-
+VIO+
+0.3
+V
+VIL
+Low-Level Input Voltage
+　
+−0.3
+-
+0.3 x
+VIO
+V
+IIH
+High-Level Input Current
+VSTB = VCC = VIO = 5.5 V
+−2
+0
+2
+μA
+IIL
+Low-Level Input Current
+VSTB = 0 V,
+VCC = VIO = 5.5 V
+−20
+-11
+-2
+μA
+Ilkg(OFF)
+Unpowered Leakage Current
+VSTB = 5.5 V,
+VCC = VIO = 0 V
+−1
+0
+1
+uA
+Pin TXD, (CAN Transmit Data Input)
+VIH
+High-Level Input Voltage
+　
+0.7 x
+VIO
+-
+VIO+
+0.3
+V
+VIL
+Low-Level Input Voltage
+　
+−0.3
+-
+0.3 x
+VIO
+V
+IIH
+High-Level Input Current
+VTXD = VCC = VIO =5.5 V
+−2
+0
+2
+μA
+IIL
+Low-Level Input Current
+VTXD =0 V, VCC = VIO = 5.5 V
+−250
+−160
+−30
+μA
+ILKG_OFF
+Unpowered Leakage Current
+VTXD = 5.5 V,
+VCC = VIO= 5.5 V
+−1
+0
+1
+μA
+CI
+Input Capacitance (1)
+　
+-
+5
+10
+pF
+Pin RXD, (CAN Receive Data Output)
+IOH
+High-Level Output Current
+VRXD = VIO − 0.4 V
+−8
+−6
+−1
+mA
+IOL
+Low-Level Output Current
+VRXD = 0.4 V,
+bus dominant
+2
+5
+12
+mA
+ILKG_OFF
+Unpowered Leakage Current
+VRXD = 5.5 V,
+VCC = VIO = 0 V
+−1
+0
+1
+µA
+Pins CANH and CANL, (CAN Bus Lines)
+VO_DOM
+Dominant Bus Output
+Voltage
+CANH
+VTXD = 0 V, VSTB = 0 V, 50 Ω
+≤ RL ≤ 65 Ω, CL = open, t <
+tto(dom)TXD
+2.75
+3.5
+4.5
+V
+CANL
+0.5
+1.5
+2.25
+V
+VSYM_DC
+DC Output Symmetry (dominant or
+recessive) (VCC – VO(CANH) – VO(CANL))
+VSTB = 0 V, RL = 60 Ω, CL =
+open,
+−0.4
+-
+0.84
+V
+VSYM
+Transient Symmetry (dominant or recessive)
+(VO(CANH) + VO(CANL)) / VCC (1)
+4.75V ≤ VCC ≤ 5.25 V, VSTB
+= 0 V, RL = 60 Ω, CSPLIT =
+4.7 nF, CL = open, TXD =
+250 kHz, 1 MHz
+0.9
+1
+1.1
+V/V
+VOD_DOM
+Differential Output Voltage (dominant)
+Normal mode, t < tto(dom)TXD,
+VTXD = 0 V, VSTB = 0 V,
+1.5
+-
+3
+V
+TPT1042V, TPT1042
+Fault Protected High-Speed CAN FD Transceiver with Standby
+Mode
+www.3peak.com
+9 / 24
+CA20230202A2
+
+Parameter
+Conditions
+Min
+Typ
+Max
+Unit
+4.75V ≤ VCC ≤ 5.25 V, 45 Ω
+≤ RL < 50 Ω, CL = open
+Normal mode, t <
+tto(dom)TXD,VTXD = 0 V, VSTB
+= 0 V, 4.75V ≤ VCC ≤ 5.25
+V, 50 Ω ≤ RL < 65 Ω, CL =
+open
+1.5
+-
+3
+V
+Normal mode, t < tto(dom)TXD,
+VTXD = 0 V, VSTB = 0 V,
+4.75V ≤ VCC ≤ 5.25 V, 65 Ω
+≤ RL ≤ 70 Ω, CL = open
+1.5
+-
+3.3
+V
+Normal mode, t < tto(dom)TXD,
+VTXD = 0 V, VSTB = 0 V,
+4.75V ≤ VCC ≤ 5.25 V, RL =
+2240 Ω, CL = open
+1.5
+-
+5
+V
+VOD_REC
+Differential Output Voltage (recessive)
+Normal mode, VTXD = VCC,
+VSTB = 0 V, no load
+−50
+-
+50
+mV
+Standby mode, VTXD = VSTB
+= VCC, no load
+−150
+-
+150
+mV
+VO_REC
+Recessive Bus Output Voltage
+Normal mode, VTXD = VIO =
+VCC, VSTB = 0 V, no load
+2
+0.5 x
+VCC
+3
+V
+Standby mode, VTXD = VSTB
+= VIO = VCC, no load
+−0.1
+-
+0.1
+V
+VCM
+Common Mode Range
+VSTB = 0 or VCCor VIO
+−30
+-
+30
+V
+VTH_RX_DIF
+Differential Receiver Threshold Voltage
+Normal mode, VSTB = 0 V,
+0.5
+0.7
+0.9
+V
+−30 V ≤ VCANH/ VCANL ≤ 30
+V
+Standby mode, VSTB = VIO,
+0.4
+0.7
+1.15
+V
+−30 V ≤ VCANH/ VCANL ≤ 30
+V
+VREC_RX
+Receiver Recessive Voltage, Normal Mode
+−30 V ≤ VCANH/VCANL ≤ 30 V
+−4
+-
+0.5
+V
+Receiver Recessive Voltage, Standby Mode
+−4
+-
+0.4
+V
+VDOM_RX
+Receiver Dominant Voltage, Normal Mode
+−30 V ≤VCANH/VCANL ≤ 30 V
+0.9
+-
+9
+V
+Receiver Dominant Voltage, Standby Mode
+1.15
+-
+9
+V
+VHYS_RX_DI
+F
+Differential Receiver Hysteresis Voltage
+Normal mode, −30 V ≤
+VCANH/ VCANL ≤ 30 V
+50
+120
+200
+mV
+Standby mode, −30 V ≤
+VCANH/ VCANL ≤ 30 V
+20
+70
+120
+mV
+IO_SC_DOM
+Dominant Short-Circuit
+Output Current
+CANH
+VSTB = 0 V, VCANH = −15 V
+to 18 V, CANL = open,
+VTXD = 0 V
+−115
+-
+-
+mA
+TPT1042V, TPT1042
+Fault Protected High-Speed CAN FD Transceiver with Standby
+Mode
+www.3peak.com
+10 / 24
+CA20230202A2
+
+Parameter
+Conditions
+Min
+Typ
+Max
+Unit
+CANL
+VSTB = 0 V, VCANL = −15
+V to 18 V, CANH = open,
+VTXD = 0 V
+-
+-
+115
+mA
+IO_SC_REC
+Recessive Short-Circuit Output Current
+−27 V ≤ VCANH/ VCANL ≤ 32
+V, VTXD = VCC,
+normal modes
+−5
+-
+5
+mA
+ILKG_IOFF
+Power-off (unpowered) Bus Input Leakage
+Current
+VCC = VIO = 0 V or
+VCC = VIO
+shorted to ground via 47kΩ,
+VCANH = 5 V, VCANL = 5 V
+−5
+-
+5
+µA
+RIN
+Input Resistance (CANH or CANL)
+VTXD = VCC = VIO = 5 V, VSTB
+= 0 V, −30 V ≤ VCM ≤ +30 V
+10
+23
+35
+kΩ
+RIN_M
+Input Resistance Matching: [1 − RIN(CANH) /
+RIN(CANL)] × 100%
+VTXD = VCC = VIO = 5 V, VSTB
+=0 V
+−2
+-
+2
+%
+VCANH = VCANL =5 V
+RID
+Differential Input Resistance
+VTXD = VCC = VIO = 5 V, VSTB
+= 0 V, −30 V ≤ VCM ≤ +30 V
+30
+47
+60
+kΩ
+CI
+Input Capacitance to Ground (CANH or
+CANL) (1)
+　
+-
+-
+20
+pF
+CID
+Differential Input Capacitance (1)
+　
+-
+-
+10
+pF
+(1) The data is based on bench test and design simulation.
+(2) Only device with V suffix (TPT1042V) have a VIO Pin, device without V suffix (TPT1042) VIO connoted to VCC internally.
+AC Timing Requirements
+All test conditions: VCC = 4.5 V to 5.5 V, VIO = 2.8 V to 5.5 V, RL= 60 Ω, TA = −40°C to 125°C, unless otherwise noted.
+Parameter
+Conditions
+Min
+Typ
+Max
+Unit
+Transceiver Switching Characteristics
+tpLD
+Propagation delay time, low
+TXD to driver dominant
+(recessive to dominant)
+Normal mode, VSTB = 0 V,
+RL = 60 Ω, CL = 100 pF
+-
+60
+100
+ns
+tpHR
+Propagation delay time, high
+TXD to driver recessive
+(dominant to recessive)
+-
+60
+100
+ns
+tSK_P
+Pulse Skew (|tpHR− tpLD|)
+-
+10
+35
+ns
+tR
+Differential Output Signal Rise
+Time (1)
+-
+45
+-
+ns
+tF
+Differential Output Signal Fall
+Time (1)
+-
+45
+-
+ns
+tPROP_TXDL-
+RXDL
+Total loop delay, driver input
+(TXD) low to receiver output
+Normal mode, VSTB = 0 V,
+-
+110
+220
+ns
+TPT1042V, TPT1042
+Fault Protected High-Speed CAN FD Transceiver with Standby
+Mode
+www.3peak.com
+11 / 24
+CA20230202A2
+
+Parameter
+Conditions
+Min
+Typ
+Max
+Unit
+(RXD) low, recessive to
+dominant
+RL = 60 Ω, CL = 100 pF, CL(RXD) =
+15 pF,
+tPROP_TXDH-
+RXDH
+Total loop delay, driver input
+(TXD) high to receiver output
+(RXD) high, dominant to
+recessive
+-
+140
+220
+ns
+tpRH
+Propagation Delay Time, Bus
+Recessive Input to RXD
+High Output (Dominant to
+Recessive) (1)
+VSTB = 0 V, CL(RXD) = 15 pF
+-
+90
+120
+ns
+tpDL
+Propagation Delay Time, Bus
+Dominant Input to RXD
+Low Output (Recessive to
+Dominant) (1)
+-
+90
+120
+ns
+tR_R
+RXD Output Signal Rise Time
+(1)
+-
+20
+-
+ns
+tR_F
+RXD Output Signal Fall Time (1)
+-
+20
+-
+ns
+FD Timing Parameters
+tBIT_BUS
+Bit time on CAN bus output
+pins with tBIT(TXD) = 500 ns(1)
+VSTB = 0 V, RL = 60 Ω, CL =
+100 pF, CL(RXD) = 15 pF, ΔtREC =
+tBIT(RXD) − tBIT(BUS)
+435
+-
+530
+ns
+Bit time on CAN bus output
+pins with tBIT(TXD) = 200 ns(1)
+155
+-
+210
+ns
+tBIT_RXD
+Bit time on RXD output pins
+with tBIT(TXD) = 500 ns
+400
+-
+550
+ns
+Bit time on RXD output pins
+with tBIT(TXD) = 200 ns
+120
+-
+220
+ns
+ΔtREC
+Receiver timing symmetry with
+tBIT(TXD) = 500 ns(1)
+−65
+-
+40
+ns
+Receiver timing symmetry with
+tBIT(TXD) = 200 ns(1)
+−45
+-
+15
+ns
+Device Timing Parameters
+tTXD_DTO
+TXD dominant time-out time
+normal mode, VSTB = 0 V, RL = 60
+Ω, CL = open, VTXD = 0 V
+0.3
+2
+5
+ms
+tBUS_DTO
+Bus dominant time-out time
+Standby mode
+0.3
+2
+5
+ms
+tBUS_WAKE_FIL
+TER
+Bus wake-up filter time
+Standby mode
+0.5
+1.5
+5
+µs
+tdMODE
+Standby to normal mode delay
+time
+　
+3
+8
+50
+µs
+(1) The data is based on bench test and design simulation.
+TPT1042V, TPT1042
+Fault Protected High-Speed CAN FD Transceiver with Standby
+Mode
+www.3peak.com
+12 / 24
+CA20230202A2
+
+Parameter Measurement Information
+Test Circuit
+CAN Transceiver
+CANH
+CANL
+TXD
+RXD
+RL=60Ω
+CL=100pF
+15pF
+Figure 1. CAN transceiver timing parameter test circuit
+CAN Transceiver
+CANH
+CANL
+TXD
+RXD
+30Ω
+30Ω
+CSPLIT=4.7nF
+Figure 2. CAN transceiver driver symmetry test circuit
+TPT1042V, TPT1042
+Fault Protected High-Speed CAN FD Transceiver with Standby
+Mode
+www.3peak.com
+13 / 24
+CA20230202A2
+
+Parameter Diagram
+                 
+30%             
+                 
+70%             
+                 
+30%             
+                 
+70%             
+                 
+0.5V             
+                 
+0.9V             
+                 
+TXD             
+                 
+CANH             
+                 
+CANL             
+                 
+V                 
+OD             
+                 
+RXD             
+                 
+High             
+                 
+Low             
+                 
+Dominant             
+                 
+Recessive             
+                 
+High             
+                 
+Low             
+                 
+t                 
+pLD             
+                 
+t                 
+pHR             
+                 
+t                 
+PROP_TXDL_RXDL             
+                 
+t                 
+PROP_TXDH_RXDH             
+                 
+t                 
+pDL             
+                 
+t                 
+pRH             
+                 
+10%             
+                 
+90%             
+                 
+t                 
+R             
+                 
+t                 
+F             
+Figure 3. CAN transceiver timing diagram
+                 
+30%             
+                 
+70%             
+                 
+TXD             
+                 
+30%             
+                 
+t                 
+bit_TXD             
+                 
+5 × t                 
+bit_TXD             
+                 
+High             
+                 
+Low             
+                 
+0.5V             
+                 
+0.9V             
+                 
+t                 
+bit_BUS             
+                 
+70%             
+                 
+30%             
+                 
+t                 
+bit_RXD             
+                 
+High             
+                 
+Low             
+                 
+RXD             
+                 
+V                 
+OD             
+                 
+Dominant             
+                 
+Recessive             
+Figure 4. CAN FD timing parameter diagram
+                 
+RXD             
+                 
+CANH             
+                 
+CANL             
+                 
+t                 
+BUS_WAKE_FILTER             
+                 
+t                 
+BUS_WAKE_FILTER             
+                 
+t < t                 
+BUS_WAKE_FILTER             
+                 
+t                 
+BUS_WAKE_FILTER             
+                 
+t < t                 
+BUS_WAKE_FILTER       
+                 
+t                 
+BUS_WAKE_FILTER             
+Figure 5. Wake-up timing diagram
+TPT1042V, TPT1042
+Fault Protected High-Speed CAN FD Transceiver with Standby
+Mode
+www.3peak.com
+14 / 24
+CA20230202A2
+
+Detailed Description
+Overview
+The TPT1042 is a CAN transceiver that meets the ISO11898 high-speed CAN (Controller Area Network) physical layer
+standard. The device is designed to be used in CAN FD networks up to 5 Mbps, with enhanced timing margin and higher
+data rates in long and highly loaded networks. As designed, the device features crosswire, overvoltage, and loss of ground
+protection from −70 V to +70 V, over-temperature shutdown, with a −30 V to +30 V common-mode input voltage range. The
+TPT1042V has a secondary power supply input for I/O level shifting the input pin thresholds and RXD output level. This
+family has a low-current standby mode with CAN BUS waked-up capability. Additionally, all devices include many protection
+features to enhance the device and network robustness.
+Functional Block Diagram
+Slope
+Control
++
+Short 
+Detection
++
+TX Driver
+Temperature
+Protection
+Time-out
+Detection
+Mode
+Control
+Mux
++
+RX Driver
+Wake-up
+Filter
+VIO
+VIO
+VCC
+TXD
+STB
+RXD
+VIO
+VCC
+CANH
+CANL
+GND
+3
+5
+1
+8
+4
+2
+6
+7
+TPT1042
+Figure 6. Functional Block Diagram
+TPT1042V, TPT1042
+Fault Protected High-Speed CAN FD Transceiver with Standby
+Mode
+www.3peak.com
+15 / 24
+CA20230202A2
+
+Feature Description
+Table 3. Driver Function Table
+Device
+Inputs
+Outputs
+Driven BUS State
+STB
+TXD
+CANH
+CANL
+All Devices
+L
+L
+H
+L
+Dominant
+H or Open
+Z
+Z
+Recessive
+H or Open
+X
+Z
+Z
+Recessive
+Table 4. Receiver Function Table
+Device Mode
+CAN Differential Inputs VID
+= VCANH − VCANL
+Bus State
+RXD Terminal
+Normal or Standby
+VID ≥ VIT+(MAX)
+Dominant
+L
+VIT−(MIN) < VID < VIT+(MAX)
+Indeterminate
+Indeterminate
+VID ≤ VIT−(MIN)
+Recessive
+H
+Open (VID ≈ 0 V)
+Open
+H
+Device Operating Modes
+Normal Mode
+A low level on the STB pin selects the normal mode. In this mode, the transceiver will transmit and receive data via the bus
+lines CANH and CANL. The differential receiver converts the analog data on the bus lines into digital data, which is output to
+the RXD pin. The slopes of the output signals on the bus lines are controlled internally and optimized to guarantee the lowest
+possibility for Electro Magnetic Emission (EME).
+Standby Mode
+Activate the low-power standby mode by setting the STB terminal high. In this mode, the bus transmitter will not send data,
+nor will the normal mode receiver accept data as the bus lines are biased to ground minimizing the system supply current.
+Only the low-power receiver will be actively monitoring the bus for activity. RXD indicates a valid wake-up event after a valid
+wake-up signal has been detected on the Bus. The low-power receiver is powered using the VIO pin only. This allows VCC to
+be removed reducing power consumption further.
+Device Local Faults
+TXD Dominant Time-out
+The device will detect TXD dominant time-out and prevents a permanent low on the TXD pin drive CAN bus into permanent
+dominant blocking the CAN bus network. If the TXD remains low for longer than tTXD_DTO, the transmitter will be disabled until
+the fault flag has been cleared. The TXD dominant time-out time also defines that the data rate should be faster than 40
+kbit/s.
+Bus Dominant Time-out
+The device will detect Bus dominant time-out and prevent a permanent dominant on the CAN bus blocking the CAN bus
+network. The fault flag is set if the CAN bus remains dominant for longer than tBUS_DTO, and is released as soon as the bus
+returns to recessive.
+TPT1042V, TPT1042
+Fault Protected High-Speed CAN FD Transceiver with Standby
+Mode
+www.3peak.com
+16 / 24
+CA20230202A2
+
+Under-Voltage Lockout (UVLO)
+The device integrated under-voltage detect and lockout circuit of the supply terminal to keep the device in the protected mode
+if the supply voltage drops below the threshold until the supply voltage is higher than the UVLO threshold. This protects the
+device and system during the under-voltage event on supply terminals.
+Over-Temperature Protection (OTP)
+The output drivers are protected against over-temperature conditions. If the virtual junction temperature exceeds the
+shutdown junction temperature TOTP, the output drivers will be disabled until the virtual junction temperature falls below
+TOTP and TXD becomes recessive again. Including the TXD condition minimizes output driver oscillation due to temperature
+drift.
+TPT1042V, TPT1042
+Fault Protected High-Speed CAN FD Transceiver with Standby
+Mode
+www.3peak.com
+17 / 24
+CA20230202A2
+
+Application and Implementation
+Note
+Information in the following application sections is not part of the 3PEAK's component specification and 3PEAK does not
+warrant its accuracy or completeness. 3PEAK's customers are responsible for determining suitability of components for
+their purposes. Customers should validate and test their design implementation to confirm system functionality.
+Application Information
+The TPT1042 is a CAN transceiver to support CAN FD function up to 5 Mbps, with BUS protection voltage from –70 V to +70
+V, overtemperature shutdown, a −30 V to +30 V common-mode range. The VIO of TPT1042 can support the voltage level of
+TXD and RXD from 2.8 V to 5.5 V. The following sections show a typical application of the TPT1042.
+Typical Application
+Figure 7 shows the typical application schematic of the TPT1042.
+                 
+MCU             
+                 
+TPT1042             
+                 
+3.3/5V Voltage                  
+Regulator             
+                 
+STB             
+                 
+CAN                 
+Controller             
+                 
+I/O                 
+Interface             
+                 
+TXD             
+                 
+RXD             
+                 
+5V Voltage                  
+Regulator             
+                 
+VIO             
+                 
+VCC             
+                 
+VOUT             
+                 
+VOUT             
+                 
+BAT             
+                 
+CANH             
+                 
+CANL             
+                 
+Optional             
+                 
+VCC             
+                 
+3             
+                 
+5             
+                 
+8             
+                 
+1             
+                 
+4             
+                 
+7             
+                 
+6             
+                 
+2             
+                 
+Port_x             
+                 
+TX             
+                 
+RX             
+Figure 7. Typical Application Circuit
+TPT1042V, TPT1042
+Fault Protected High-Speed CAN FD Transceiver with Standby
+Mode
+www.3peak.com
+18 / 24
+CA20230202A2
+
+Tape and Reel Information
+Order Number
+Package
+D1 (mm)
+W1 (mm)
+A0 (mm)
+B0 (mm)
+K0 (mm)
+P0 (mm)
+W0 (mm)
+Pin1
+Quadrant
+TPT1042V-
+SO1R-S
+SOP8
+330
+17.6
+6.5
+5.4
+2.0
+8.0
+12.0
+Q1
+TPT1042V-
+DF6R-S
+DFN3x3-8
+330
+17.6
+3.3
+3.3
+1.1
+8.0
+12.0
+Q1
+TPT1042-
+SO1R-S
+SOP8
+330
+17.6
+6.5
+5.4
+2.0
+8.0
+12.0
+Q1
+TPT1042-
+DF6R-S
+DFN3x3-8
+330
+17.6
+3.3
+3.3
+1.1
+8.0
+12.0
+Q1
+TPT1042V, TPT1042
+Fault Protected High-Speed CAN FD Transceiver with Standby
+Mode
+www.3peak.com
+19 / 24
+CA20230202A2
+
+Package Outline Dimensions
+SOP8
+TPT1042V, TPT1042
+Fault Protected High-Speed CAN FD Transceiver with Standby
+Mode
+www.3peak.com
+20 / 24
+CA20230202A2
+
+DFN3X3-8
+6
+TPT1042V, TPT1042
+Fault Protected High-Speed CAN FD Transceiver with Standby
+Mode
+www.3peak.com
+21 / 24
+CA20230202A2
+
+Order Information
+Order Number
+Operating Temperature
+Range
+Package
+Marking Information
+MSL
+Transport Media, Quantity
+Eco Plan
+TPT1042V-SO1R-S
+−40 to 125°C
+SOP8
+1042V
+MSL3
+Tape and Reel, 4000
+Green
+TPT1042V-DF6R-S
+−40 to 125°C
+DFN3x3-8
+1042V
+MSL3
+Tape and Reel, 4000
+Green
+TPT1042-SO1R-S
+−40 to 125°C
+SOP8
+T1042
+MSL3
+Tape and Reel, 4000
+Green
+TPT1042-DF6R-S
+−40 to 125°C
+DFN3x3-8
+T1042
+MSL3
+Tape and Reel, 4000
+Green
+Green: 3PEAK defines "Green" to mean RoHS compatible and free of halogen substances.
+TPT1042V, TPT1042
+Fault Protected High-Speed CAN FD Transceiver with Standby Mode
+www.3peak.com
+22 / 24
+CA20230202A2
+
+IMPORTANT NOTICE AND DISCLAIMER
+Copyright© 3PEAK 2012-2026. All rights reserved.
+Trademarks. Any of the 思瑞浦 or 3PEAK trade names, trademarks, graphic marks, and domain names contained in
+this document /material are the property of 3PEAK. You may NOT reproduce, modify, publish, transmit or distribute any
+Trademark without the prior written consent of 3PEAK.
+Performance Information. Performance tests or performance range contained in this document/material are either results
+of design simulation or actual tests conducted under designated testing environment. Any variation in testing environment or
+simulation environment, including but not limited to testing method, testing process or testing temperature, may affect actual
+performance of the product.
+Disclaimer. 3PEAK provides technical and reliability data (including data sheets), design resources (including reference
+designs), application or other design recommendations, networking tools, security information and other resources "As Is".
+3PEAK makes no warranty as to the absence of defects, and makes no warranties of any kind, express or implied, including
+without limitation, implied warranties as to merchantability, fitness for a particular purpose or non-infringement of any third-
+party’s intellectual property rights. Unless otherwise specified in writing, products supplied by 3PEAK are not designed to
+be used in any life-threatening scenarios, including critical medical applications, automotive safety-critical systems, aviation,
+aerospace, or any situations where failure could result in bodily harm, loss of life, or significant property damage. 3PEAK
+disclaims all liability for any such unauthorized use.
+TPT1042V, TPT1042
+Fault Protected High-Speed CAN FD Transceiver with Standby
+Mode
+www.3peak.com
+23 / 24
+CA20230202A2
+
+TPT1042V, TPT1042
+Fault Protected High-Speed CAN FD Transceiver with Standby
+Mode
+This page intentionally left blank
+www.3peak.com
+24 / 24
+CA20230202A2

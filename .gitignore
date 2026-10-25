@@ -1,0 +1,16 @@
+# Local runtime caches and operating-system metadata only.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local credentials must not become project deliverables.
+.env
+.env.local
+.env.*.local
+
+# Keep native EDA files, previews, datasheets and historical archives tracked.

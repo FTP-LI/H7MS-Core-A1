@@ -1,0 +1,15 @@
+# Preserve native EDA source bytes and exported archive checksums.
+*.epro binary
+*.epro2 binary
+*.esch -text
+*.epcb -text
+*.esym -text
+*.efoo -text
+*.eblob binary
+*.zip binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.step -text
+*.STEP -text

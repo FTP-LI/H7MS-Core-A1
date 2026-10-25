@@ -1,0 +1,100 @@
+﻿board,side,reference,x_mm,y_mm,width_mm,height_mm,kind,notes
+CORE,BOTTOM,J1,19.9,4.8,36.8,6.35,stack,center is mating-array datum; exact lands from v0.9.2; peg holes pass through PCB
+CORE,BOTTOM,J2,19.9,35.0,36.8,6.35,stack,center is mating-array datum; exact lands from v0.9.2; peg holes pass through PCB
+CORE,BOTH,H1,2.5,11,4.2,4.2,hole,NPTH dia2.2; dia4.2 screw/washer/copper keepout
+CORE,BOTH,H2,37.3,11,4.2,4.2,hole,NPTH dia2.2; dia4.2 screw/washer/copper keepout
+CORE,BOTH,H3,2.5,28.8,4.2,4.2,hole,NPTH dia2.2; dia4.2 screw/washer/copper keepout
+CORE,BOTH,H4,37.3,28.0,4.2,4.2,hole,NPTH dia2.2; dia4.2 screw/washer/copper keepout
+BASE_CAN,TOP,J1,19.9,4.8,36.8,6.35,stack,center is mating-array datum; exact lands from v0.9.2; peg holes pass through PCB
+BASE_CAN,TOP,J2,19.9,35.0,36.8,6.35,stack,center is mating-array datum; exact lands from v0.9.2; peg holes pass through PCB
+BASE_CAN,BOTH,H1,2.5,11,4.2,4.2,hole,NPTH dia2.2; dia4.2 screw/washer/copper keepout
+BASE_CAN,BOTH,H2,37.3,11,4.2,4.2,hole,NPTH dia2.2; dia4.2 screw/washer/copper keepout
+BASE_CAN,BOTH,H3,2.5,28.8,4.2,4.2,hole,NPTH dia2.2; dia4.2 screw/washer/copper keepout
+BASE_CAN,BOTH,H4,37.3,28.0,4.2,4.2,hole,NPTH dia2.2; dia4.2 screw/washer/copper keepout
+BASE_485,TOP,J1,19.9,4.8,36.8,6.35,stack,center is mating-array datum; exact lands from v0.9.2; peg holes pass through PCB
+BASE_485,TOP,J2,19.9,35.0,36.8,6.35,stack,center is mating-array datum; exact lands from v0.9.2; peg holes pass through PCB
+BASE_485,BOTH,H1,2.5,11,4.2,4.2,hole,NPTH dia2.2; dia4.2 screw/washer/copper keepout
+BASE_485,BOTH,H2,37.3,11,4.2,4.2,hole,NPTH dia2.2; dia4.2 screw/washer/copper keepout
+BASE_485,BOTH,H3,2.5,28.8,4.2,4.2,hole,NPTH dia2.2; dia4.2 screw/washer/copper keepout
+BASE_485,BOTH,H4,37.3,28.0,4.2,4.2,hole,NPTH dia2.2; dia4.2 screw/washer/copper keepout
+BASE_LINK,TOP,J1,19.9,4.8,36.8,6.35,stack,center is mating-array datum; exact lands from v0.9.2; peg holes pass through PCB
+BASE_LINK,TOP,J2,19.9,35.0,36.8,6.35,stack,center is mating-array datum; exact lands from v0.9.2; peg holes pass through PCB
+BASE_LINK,BOTH,H1,2.5,11,4.2,4.2,hole,NPTH dia2.2; dia4.2 screw/washer/copper keepout
+BASE_LINK,BOTH,H2,37.3,11,4.2,4.2,hole,NPTH dia2.2; dia4.2 screw/washer/copper keepout
+BASE_LINK,BOTH,H3,2.5,28.8,4.2,4.2,hole,NPTH dia2.2; dia4.2 screw/washer/copper keepout
+BASE_LINK,BOTH,H4,37.3,28.0,4.2,4.2,hole,NPTH dia2.2; dia4.2 screw/washer/copper keepout
+BASE_IO,TOP,J1,19.9,4.8,36.8,6.35,stack,center is mating-array datum; exact lands from v0.9.2; peg holes pass through PCB
+BASE_IO,TOP,J2,19.9,35.0,36.8,6.35,stack,center is mating-array datum; exact lands from v0.9.2; peg holes pass through PCB
+BASE_IO,BOTH,H1,2.5,11,4.2,4.2,hole,NPTH dia2.2; dia4.2 screw/washer/copper keepout
+BASE_IO,BOTH,H2,37.3,11,4.2,4.2,hole,NPTH dia2.2; dia4.2 screw/washer/copper keepout
+BASE_IO,BOTH,H3,2.5,28.8,4.2,4.2,hole,NPTH dia2.2; dia4.2 screw/washer/copper keepout
+BASE_IO,BOTH,H4,37.3,28.0,4.2,4.2,hole,NPTH dia2.2; dia4.2 screw/washer/copper keepout
+CORE,TOP,U1 + L1 + local decoupling,23,19,14,14,component,"U1 body 8x8 at 23,19; local SMPS loop placed first; no claim of completed BGA escape"
+CORE,TOP,IMU + heater + NTC + TMP302,9,20,11,11,component,"thermal region; BMI088 near 9,20; four 1206 resistors around sensor; separate from buck"
+CORE,TOP,Y1 + R_HSE + C_HSE,22,9,5,3,component,"short HSE to MCU, no LSE footprint"
+CORE,TOP,RESET supervisor + pulls,10,9,8,4,component,low-noise control circuitry
+CORE,TOP,J_USB,35.8,19.9,8.0,10,component,mouth east at X39.8; signal-pad datum X32.445 Y19.9; rear pad edge X31.87; local +Y maps to global +X
+CORE,TOP,J_SWD,30,5.5,7.2,7.2,component,top access; nine populated contacts; leave mating-cable clearance above
+CORE,TOP,SW_RESET,5.5,2,5.4,3.8,component,actuator north
+CORE,TOP,SW_BOOT,12.5,2,5.4,3.8,component,actuator north
+CORE,TOP,SW_AUX_RESET,19.5,2,5.4,3.8,component,actuator north
+CORE,TOP,CAN1 cell,8.6,33,7,7,component,U_CAN1 + ESD + RC
+CORE,TOP,CAN2 cell,17,33,7,7,component,U_CAN2 + ESD + RC
+CORE,TOP,CAN3 cell,26,33,7,7,component,U_CAN3 + ESD + RC
+CORE,BOTTOM,USB ESD + VBUS buffer,35,20,7,8,component,close to J_USB; keep differential pair short
+CORE,BOTTOM,BUCK + L2 + Cin/Cout,24,12.5,14,8,group,"112mm2 reservation includes L2, U2, seven0805 capacitors and SS/HF/PG; max2mm; do not place below IMU"
+CORE,BOTTOM,AUX + heater logic + analog RC,25,23,12,12,group,max1.5mm component height; passives may move within reservation during escape
+CORE,BOTTOM,13 core probe pads,11,29.9,10,3,group,bare ENIG pads; access when separated or via fixture
+BASE_CAN,BOTTOM,J_PWR,8.5,4.5,9,8,component,SMT PH; not the previous VH PTH; pin1 marked; cable exits downward
+BASE_CAN,BOTTOM,F1,20,4.5,8,4,component,"replaceable by soldering, 451 2.5A"
+BASE_CAN,BOTTOM,SW_MAIN,29.8,36.0,9.5,6.8,component,"SC vertical actuator, underside access; 3 SMT terminals; no locating-hole variant"
+BASE_CAN,BOTTOM,SW_FAULT,30,2.0,5.4,3.8,component,"side push north, no through holes"
+BASE_CAN,TOP,Power + AUX monitor cell,9,19.8,8,20,group,"U_MAIN, CT, input/output capacitors, U_AUX_MON; allow underside header PTH keepouts within cell"
+BASE_CAN,TOP,DEV4 RS485 cell,22,19.8,13,20,group,SOIC8 + TX/DIR buffers + TVS + pulse resistors; connector TVS first
+BASE_485,BOTTOM,J_PWR,8.5,4.5,9,8,component,SMT PH; not the previous VH PTH; pin1 marked; cable exits downward
+BASE_485,BOTTOM,F1,20,4.5,8,4,component,"replaceable by soldering, 451 2.5A"
+BASE_485,BOTTOM,SW_MAIN,29.8,36.0,9.5,6.8,component,"SC vertical actuator, underside access; 3 SMT terminals; no locating-hole variant"
+BASE_485,BOTTOM,SW_FAULT,30,2.0,5.4,3.8,component,"side push north, no through holes"
+BASE_485,TOP,Power + AUX monitor cell,9,19.8,8,20,group,"U_MAIN, CT, input/output capacitors, U_AUX_MON; allow underside header PTH keepouts within cell; HOST/RC receive buffers may share this cell; dense RS485 pull resistors may use underside gaps"
+BASE_485,TOP,DEV1/2 RS485 cells,20.5,19.8,11,20,group,"two SOIC8, buffers, TVS, RC; no components on PTH annuli"
+BASE_485,TOP,DEV3/4 + HOST/RC cells,31,19.8,8,20,group,two SOIC8 plus interface buffers; detailed packing required before PCB release
+BASE_LINK,BOTTOM,J_PWR,8.5,4.5,9,8,component,SMT PH; not the previous VH PTH; pin1 marked; cable exits downward
+BASE_LINK,BOTTOM,F1,20,4.5,8,4,component,"replaceable by soldering, 451 2.5A"
+BASE_LINK,BOTTOM,SW_MAIN,29.8,36.0,9.5,6.8,component,"SC vertical actuator, underside access; 3 SMT terminals; no locating-hole variant"
+BASE_LINK,BOTTOM,SW_FAULT,30,2.0,5.4,3.8,component,"side push north, no through holes"
+BASE_LINK,TOP,Power + AUX monitor cell,9,19.8,8,20,group,"U_MAIN, CT, input/output capacitors, U_AUX_MON; allow underside header PTH keepouts within cell"
+BASE_LINK,TOP,SPI + TTL buffer cells,25,19.8,20,20,group,all SN74LVC1G125; master/slave resistors exclusive; no RS485 receiver connected
+BASE_IO,BOTTOM,J_PWR,8.5,4.5,9,8,component,SMT PH; not the previous VH PTH; pin1 marked; cable exits downward
+BASE_IO,BOTTOM,F1,20,4.5,8,4,component,"replaceable by soldering, 451 2.5A"
+BASE_IO,BOTTOM,SW_MAIN,29.8,36.0,9.5,6.8,component,"SC vertical actuator, underside access; 3 SMT terminals; no locating-hole variant"
+BASE_IO,BOTTOM,SW_FAULT,21,36,5.4,3.8,component,"side push north, no through holes"
+BASE_IO,TOP,Power + AUX monitor cell,9,19.8,8,20,group,"U_MAIN, CT, input/output capacitors, U_AUX_MON; allow underside header PTH keepouts within cell"
+BASE_IO,TOP,SD/I2C isolation + ADC + load gate,25,19.8,20,20,group,"TSSOP20, gates and local RC; dummy resistors kept away from core IMU"
+BASE_CAN,BOTTOM,J_CAN1,10,12,10.5,7.0,component,XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard
+BASE_CAN,BOTTOM,J_CAN2,24,12,10.5,7.0,component,XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard
+BASE_CAN,BOTTOM,J_CAN3,10,21,10.5,7.0,component,XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard
+BASE_CAN,BOTTOM,J_DEV4_485,24,21,10.5,7.0,component,XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard
+BASE_CAN,BOTTOM,J_ESTOP,10,30,8,7.0,component,XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard
+BASE_485,BOTTOM,J_DEV1_485,10,12,10.5,7.0,component,XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard
+BASE_485,BOTTOM,J_DEV2_485,24,12,10.5,7.0,component,XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard
+BASE_485,BOTTOM,J_DEV3_485,10,21,10.5,7.0,component,XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard
+BASE_485,BOTTOM,J_DEV4_485,24,21,10.5,7.0,component,XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard
+BASE_485,BOTTOM,J_HOST,11.2,29,13,7.0,component,XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard
+BASE_485,BOTTOM,J_RC,25,29,13,7.0,component,XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard
+BASE_485,BOTTOM,J_ESTOP,35,20,7.8,7.0,component,XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard
+BASE_LINK,BOTTOM,J_DEV1_TTL,11.2,12,13,7.0,component,XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard
+BASE_LINK,BOTTOM,J_DEV2_TTL,25.2,12,13,7.0,component,XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard
+BASE_LINK,BOTTOM,J_DEV3_TTL,11.2,21,13,7.0,component,XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard
+BASE_LINK,BOTTOM,J_DEV4_TTL,25.2,21,13,7.0,component,XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard
+BASE_LINK,BOTTOM,J_HOST,11.2,29,13,7.0,component,XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard
+BASE_LINK,BOTTOM,J_RC,25,29,13,7.0,component,XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard
+BASE_LINK,BOTTOM,J_ESTOP,35.7,20,7.8,7.0,component,XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard
+BASE_LINK,BOTTOM,J_LINK,15,36.1,8.4,7.0,component,FTSH-106-01-L-DV 1.27mm SMT; no TH tails; 12 pins odd signal/even ground; mating cable exits down
+BASE_IO,BOTTOM,J_SD,12.8,19,16,16,component,microSD insertion west; exact DM3AT shell and card travel checked in 3D
+BASE_IO,BOTTOM,J_ESTOP,26,29,8,7.0,component,XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard
+BASE_IO,BOTTOM,J_LOAD,26,12,8,7.0,component,XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard
+BASE_IO,BOTTOM,J_I2C,28,21,13,7.0,component,XH outward-facing; pin-row and body origin reconciled in EDA; keep PTH tails out of SFM courtyard
+BASE_IO,BOTTOM,RV_PC0 + RV_PC1,11,35.5,10,4.5,group,"two TC33X-2-103E, adjustment from underside"
+BASE_IO,TOP,24 south probe pads,19.9,39.0,31,1.2,group,"49 pads split: 25 north at y0.8, 24 south at y39.0, pitch1.27, dia0.8; TOP fixture access before stacking"
+BASE_IO,BOTTOM,J_PWM,30,4.5,6.5,7.0,component,FTSH-104-01-L-DV 2x4 SMT; four PWM plus four GND; no motor power
+BASE_IO,TOP,25 north probe pads,19.9,0.8,31.3,1.2,group,"25 bare pads, 1.27 pitch; 24 remaining pads at south edge"

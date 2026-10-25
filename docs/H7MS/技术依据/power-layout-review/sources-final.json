@@ -1,0 +1,17 @@
+[
+  {
+    "file": "JST-PH.pdf",
+    "url": "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf",
+    "sha256": "447624f4f2f7d37c58c1eaa7ee314ad757fe7aff48f6186491ef6f69fbc00b96"
+  },
+  {
+    "file": "CK-JS.pdf",
+    "url": "https://staging.ckswitches.com/media/1422/js.pdf",
+    "error": "Redirect returned a rendered landing page rather than the datasheet; rejected and removed. Use original web-viewed JS datasheet."
+  },
+  {
+    "file": "TDK-1u.pdf",
+    "url": "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1608x7r1c105k080ac.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

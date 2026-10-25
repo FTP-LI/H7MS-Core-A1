@@ -1,0 +1,512 @@
+{
+  "C08": {
+    "itemType": "Schematic Page",
+    "uuid": "66937affee44c7b8",
+    "name": "c08_四组uart直立接口",
+    "parentSchematicUuid": "2121c62f1518d7c9",
+    "titleBlockData": {
+      "Symbol": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "Drawing-Symbol_A4"
+      },
+      "Company": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "嘉立创EDA"
+      },
+      "Drawed": {
+        "showTitle": false,
+        "showValue": true,
+        "value": ""
+      },
+      "Reviewed": {
+        "showTitle": false,
+        "showValue": true,
+        "value": ""
+      },
+      "Part Number": {
+        "showTitle": false,
+        "showValue": true,
+        "value": ""
+      },
+      "Version": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "V1.0"
+      },
+      "Page Size": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "A4"
+      },
+      "@Project Name": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "H7MS-Core-A1"
+      },
+      "@Update Date": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "2026-10-17"
+      },
+      "@Create Date": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "2026-10-17"
+      },
+      "Device": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "Drawing-Symbol_A4"
+      },
+      "@Board Name": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "CORE_H735核心板"
+      },
+      "@Page Name": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "C08_四组UART直立接口"
+      },
+      "@Create Time": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "19:00:17"
+      },
+      "@Page Count": {
+        "showTitle": null,
+        "showValue": null,
+        "value": 11
+      },
+      "@Page No": {
+        "showTitle": null,
+        "showValue": null,
+        "value": 9
+      },
+      "@Schematic Name": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "H7MS_CORE_H735_A1_核心板原理图"
+      },
+      "@Update Time": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "19:22:04"
+      },
+      "@Assembly Variant": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "Basic"
+      },
+      "Border": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "1"
+      },
+      "Title Block Position": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "3"
+      },
+      "Size": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "A4"
+      },
+      "Width": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "1655"
+      },
+      "Height": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "1170"
+      },
+      "Region Start": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "1"
+      },
+      "X Region Count": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "6"
+      },
+      "Y Region Count": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "4"
+      },
+      "Blade Width": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "10"
+      },
+      "Color": {
+        "showTitle": null,
+        "showValue": null,
+        "value": ""
+      },
+      "Title Block": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "1"
+      },
+      "Name": {
+        "showTitle": null,
+        "showValue": null,
+        "value": ""
+      },
+      "Description": {
+        "showTitle": null,
+        "showValue": null,
+        "value": ""
+      },
+      "ID": {}
+    },
+    "showTitleBlock": true
+  },
+  "C09": {
+    "itemType": "Schematic Page",
+    "uuid": "013e6b27f342bef6",
+    "name": "c09_spi_i2c自定义排针与接口供电",
+    "parentSchematicUuid": "2121c62f1518d7c9",
+    "titleBlockData": {
+      "Symbol": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "Drawing-Symbol_A4"
+      },
+      "Company": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "嘉立创EDA"
+      },
+      "Drawed": {
+        "showTitle": false,
+        "showValue": true,
+        "value": ""
+      },
+      "Reviewed": {
+        "showTitle": false,
+        "showValue": true,
+        "value": ""
+      },
+      "Part Number": {
+        "showTitle": false,
+        "showValue": true,
+        "value": ""
+      },
+      "Version": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "V1.0"
+      },
+      "Page Size": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "A4"
+      },
+      "@Project Name": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "H7MS-Core-A1"
+      },
+      "@Update Date": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "2026-10-17"
+      },
+      "@Create Date": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "2026-10-17"
+      },
+      "Device": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "Drawing-Symbol_A4"
+      },
+      "@Board Name": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "CORE_H735核心板"
+      },
+      "@Page Name": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "C09_SPI_I2C自定义排针与接口供电"
+      },
+      "@Create Time": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "19:00:18"
+      },
+      "@Page Count": {
+        "showTitle": null,
+        "showValue": null,
+        "value": 11
+      },
+      "@Page No": {
+        "showTitle": null,
+        "showValue": null,
+        "value": 10
+      },
+      "@Schematic Name": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "H7MS_CORE_H735_A1_核心板原理图"
+      },
+      "@Update Time": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "19:22:11"
+      },
+      "@Assembly Variant": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "Basic"
+      },
+      "Border": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "1"
+      },
+      "Title Block Position": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "3"
+      },
+      "Size": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "A4"
+      },
+      "Width": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "1170"
+      },
+      "Height": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "825"
+      },
+      "Region Start": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "1"
+      },
+      "X Region Count": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "6"
+      },
+      "Y Region Count": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "4"
+      },
+      "Blade Width": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "10"
+      },
+      "Color": {
+        "showTitle": null,
+        "showValue": null,
+        "value": ""
+      },
+      "Title Block": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "1"
+      },
+      "Name": {
+        "showTitle": null,
+        "showValue": null,
+        "value": ""
+      },
+      "Description": {
+        "showTitle": null,
+        "showValue": null,
+        "value": ""
+      },
+      "ID": {}
+    },
+    "showTitleBlock": true
+  },
+  "C10": {
+    "itemType": "Schematic Page",
+    "uuid": "35dfedba983ef484",
+    "name": "c10_xt30宽压输入与5v电源",
+    "parentSchematicUuid": "2121c62f1518d7c9",
+    "titleBlockData": {
+      "Symbol": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "Drawing-Symbol_A4"
+      },
+      "Company": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "嘉立创EDA"
+      },
+      "Drawed": {
+        "showTitle": false,
+        "showValue": true,
+        "value": ""
+      },
+      "Reviewed": {
+        "showTitle": false,
+        "showValue": true,
+        "value": ""
+      },
+      "Part Number": {
+        "showTitle": false,
+        "showValue": true,
+        "value": ""
+      },
+      "Version": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "V1.0"
+      },
+      "Page Size": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "A4"
+      },
+      "@Project Name": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "H7MS-Core-A1"
+      },
+      "@Update Date": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "2026-10-17"
+      },
+      "@Create Date": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "2026-10-17"
+      },
+      "Device": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "Drawing-Symbol_A4"
+      },
+      "@Board Name": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "CORE_H735核心板"
+      },
+      "@Page Name": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "C10_XT30宽压输入与5V电源"
+      },
+      "@Create Time": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "19:06:24"
+      },
+      "@Page Count": {
+        "showTitle": null,
+        "showValue": null,
+        "value": 11
+      },
+      "@Page No": {
+        "showTitle": null,
+        "showValue": null,
+        "value": 11
+      },
+      "@Schematic Name": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "H7MS_CORE_H735_A1_核心板原理图"
+      },
+      "@Update Time": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "19:25:39"
+      },
+      "@Assembly Variant": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "Basic"
+      },
+      "Border": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "1"
+      },
+      "Title Block Position": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "3"
+      },
+      "Size": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "A4"
+      },
+      "Width": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "1655"
+      },
+      "Height": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "1170"
+      },
+      "Region Start": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "1"
+      },
+      "X Region Count": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "6"
+      },
+      "Y Region Count": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "4"
+      },
+      "Blade Width": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "10"
+      },
+      "Color": {
+        "showTitle": null,
+        "showValue": null,
+        "value": ""
+      },
+      "Title Block": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "1"
+      },
+      "Name": {
+        "showTitle": null,
+        "showValue": null,
+        "value": ""
+      },
+      "Description": {
+        "showTitle": null,
+        "showValue": null,
+        "value": ""
+      },
+      "ID": {}
+    },
+    "showTitleBlock": true
+  }
+}

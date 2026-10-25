@@ -1,0 +1,46 @@
+{
+  "C01": {
+    "wire_groups": 97,
+    "duplicate_net_labels": 0
+  },
+  "C01B": {
+    "wire_groups": 15,
+    "duplicate_net_labels": 0
+  },
+  "C02": {
+    "wire_groups": 39,
+    "duplicate_net_labels": 0
+  },
+  "C03": {
+    "wire_groups": 31,
+    "duplicate_net_labels": 0
+  },
+  "C04": {
+    "wire_groups": 68,
+    "duplicate_net_labels": 0
+  },
+  "C05": {
+    "wire_groups": 71,
+    "duplicate_net_labels": 0
+  },
+  "C06": {
+    "wire_groups": 42,
+    "duplicate_net_labels": 0
+  },
+  "C07": {
+    "wire_groups": 73,
+    "duplicate_net_labels": 0
+  },
+  "C08": {
+    "wire_groups": 44,
+    "duplicate_net_labels": 0
+  },
+  "C09": {
+    "wire_groups": 65,
+    "duplicate_net_labels": 0
+  },
+  "C10": {
+    "wire_groups": 39,
+    "duplicate_net_labels": 0
+  }
+}

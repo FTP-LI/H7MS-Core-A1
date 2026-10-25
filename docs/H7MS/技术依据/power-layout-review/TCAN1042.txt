@@ -1,0 +1,4878 @@
+TCAN1042-Q1 Automotive Fault Protected CAN Transceiver with CAN FD
+1 Features
+•
+AEC-Q100 (grade 1): Qualified for automotive 
+applications
+•
+Meets the ISO 11898-2:2016 and
+ISO 11898-5:2007 physical layer standards
+•
+Functional Safety-Capable
+–
+Documentation available to aid functional safety 
+system design
+•
+'Turbo' CAN:
+–
+All devices support classic CAN and 2 Mbps 
+CAN FD (flexible data rate) and "G" options 
+support 5 Mbps
+–
+Short and symmetrical propagation delay times 
+and fast loop times for enhanced timing margin
+–
+Higher data rates in loaded CAN networks
+•
+EMC performance: supports SAE J2962-2 and IEC 
+62228-3 (up to 500 kbps) without common mode 
+choke
+•
+I/O Voltage range supports 3.3 V and 5 V MCUs
+•
+Ideal passive behavior when unpowered
+–
+Bus and logic terminals are high impedance
+(no load)
+–
+Power up/down with glitch free operation on 
+bus and RXD output
+•
+Protection features
+–
+IEC ESD protection up to ±15 kV
+–
+Bus Fault protection: ±58 V (non-H variants) 
+and ±70 V (H variants)
+–
+Undervoltage protection on VCC and VIO
+(V variants only) supply terminals
+–
+Driver dominant time out (TXD DTO) - Data 
+rates down to 10 kbps
+–
+Thermal shutdown protection (TSD)
+•
+Receiver common mode input voltage: ±30 V
+•
+Typical loop delay: 110 ns
+•
+Junction temperatures from –55°C to 150°C
+•
+Available in SOIC(8) package and leadless VSON 
+(8) package (3.0 mm x 3.0 mm) with improved 
+automated optical inspection (AOI) capability
+2 Applications
+•
+Automotive and Transportation
+•
+All devices support highly loaded CAN networks
+•
+Heavy machinery ISOBUS applications –
+ISO 11783
+•
+SAE J2284 High-speed CAN for automotive 
+applications
+•
+GMW3122 Dual-wire CAN physical layer
+•
+Meets requirements of SAE J2962, GIFT/ICT, 
+ISO16845
+3 Description
+This CAN transceiver family meets the ISO11898-2 
+(2016) High Speed CAN (Controller Area Network) 
+physical layer standard. All devices are designed for 
+use in CAN FD networks up to 2 Mbps (megabits 
+per second). Devices with part numbers that include 
+the "G" suffix are designed for data rates up to 5 
+Mbps, and versions with the "V" have a secondary 
+power supply input for I/O level shifting the input 
+pin thresholds and RXD output level. This family 
+has a low power standby mode with remote wake 
+request feature. Additionally, all devices include many 
+protection features to enhance device and network 
+robustness.
+Device Information
+PART NUMBER
+PACKAGE(1)
+BODY SIZE
+TCAN1042x-Q1
+SOIC (8)
+4.90 mm × 3.91 mm
+VSON (8)
+3.00 mm x 3.00 mm
+(1)
+For all available packages, see the orderable addendum at 
+the end of the data sheet.
+6
+7
+TSD
+UVP
+Mode Select
+4
+8
+Logic Output
+TXD
+STB
+RXD
+CANH
+CANL
+GND
+5
+NC or VIO
+3
+VCC
+1
+2
+VCC or VIO
+VCC or VIO
+Dominant
+time-out
+VCC or VIO
+WUP Monitor
+MUX
+Low Power Receiver
+A.
+Terminal 5 function is device dependent; NC on devices 
+without the "V" suffix, and VIO for I/O level shifting for devices 
+with the "V" suffix.
+B.
+RXD logic output is driven to VCC on devices without the "V" 
+suffix, and VIO for devices with the "V" suffix.
+Functional Block Diagram
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications, 
+intellectual property matters and other important disclaimers. PRODUCTION DATA.
+
+Table of Contents
+1 Features............................................................................1
+2 Applications.....................................................................1
+3 Description.......................................................................1
+4 Revision History.............................................................. 2
+5 Device Comparison Table...............................................4
+6 Pin Configurations and Functions.................................5
+7 Specifications.................................................................. 6
+7.1 Absolute Maximum Ratings........................................ 6
+7.2 ESD Ratings............................................................... 6
+7.3 ESD Ratings, Specifications....................................... 7
+7.4 Recommended Operating Conditions.........................8
+7.5 Thermal Information....................................................8
+7.6 Power Rating.............................................................. 8
+7.7 Electrical Characteristics.............................................9
+7.8 Switching Characteristics..........................................12
+7.9 Typical Characteristics..............................................13
+8 Parameter Measurement Information..........................14
+9 Detailed Description......................................................18
+9.1 Overview...................................................................18
+9.2 Functional Block Diagram.........................................18
+9.3 Feature Description...................................................19
+9.4 Device Functional Modes..........................................22
+10 Application Information Disclaimer...........................26
+10.1 Application Information........................................... 26
+10.2 Typical Applications................................................ 26
+11 Power Supply Recommendations..............................29
+12 Device and Documentation Support..........................32
+12.1 Receiving Notification of Documentation Updates..32
+12.2 Support Resources................................................. 32
+12.3 Trademarks.............................................................32
+12.4 Electrostatic Discharge Caution..............................32
+12.5 Glossary..................................................................32
+13 Mechanical, Packaging, and Orderable 
+Information.................................................................... 32
+4 Revision History
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version.
+Changes from Revision C (March 2019) to Revision D (October 2021)
+Page
+•
+Added Feature: EMC performance:.. .................................................................................................................1
+•
+Added Feature "Functional Safety-Capable"......................................................................................................1
+•
+Changed the automotive feature, removed temperatures and classification levels ...........................................1
+•
+Deleted "Product Preview" from the DRB pin images in the Pin Configurations and Functions ........................5
+•
+Added footnote to the GND pin in the Pin Functions table ................................................................................ 5
+•
+Changed the ESD Ratingstable, added HBM and CDM classification levels.....................................................6
+•
+Changed the DRB (VSON) values in the Thermal Information table .................................................................8
+•
+Changed the title in Section 9.3.7.1 .................................................................................................................21
+•
+Changed the title in Section 9.3.7.2 .................................................................................................................21
+Changes from Revision B (May 2017) to Revision C (March 2019)
+Page
+•
+Changed the ICC MAX value From: 180 mA To: 110 mA in the Electrical Characteristics .................................9
+•
+Changed the tWK_FILTER MAX value From: 1.85 µs To: 1.8 µs in the Switching Characteristics ......................12
+Changes from Revision A (May 2016) to Revision B (May 2017)
+Page
+•
+Changed Feature "Meets the Released ISO 11898-2:2007 and ISO 11898-2:2003 Physical Layer Standards" 
+To: Meets the ISO 11898-2:2016 and ISO 11898-5:2007 Physical Layer Standards......................................... 1
+•
+Deleted Feature From: Meets the December 17th, 2015 Draft of ISO 11898-2 Physical Layer Update............ 1
+•
+Changed Feature From: "All devices support 2 Mbps CAN FD.." To: "All Devices Support Classic CAN and 2 
+Mbps CAN FD.."................................................................................................................................................. 1
+•
+Added Feature "Available in SOIC(8) package and leadless VSON(8) package..."...........................................1
+•
+Changed the Applications list............................................................................................................................. 1
+•
+Changed Feature From: "EMC: SAE J2962, GIFT/ICT, ISO 16845" To: "Meets requirements of SAE J2962, 
+GIFT/ICT, ISO16845" .........................................................................................................................................1
+•
+Added new devices to the Device Comparison Table ........................................................................................4
+•
+Added Storage temperature range to the Absolute Maximum Ratings table......................................................6
+•
+Changed the ESD Ratings table to show the D(SOIC) and DRB (VSON) values..............................................6
+•
+Changed Charged Device Model (CDM) From: ±750 To: ±1500 in the ESD Ratings table................................6
+•
+Changed TBD to values for the DRB (VSON) Package in the ESD Ratings table.............................................6
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+www.ti.com
+2
+Submit Document Feedback
+Copyright © 2021 Texas Instruments Incorporated
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+•
+Added the DRB package to the Thermal Information table ............................................................................... 8
+•
+Added the Power Rating table ...........................................................................................................................8
+•
+Changed VSYM in the Driver Electrical Characteristics table.............................................................................. 9
+•
+Changed VSYM_DC in the Driver Electrical Characteristics table.........................................................................9
+•
+Deleted "VI = 0.4 sin (4E6 π t) + 2.5 V" from the Test Condition of CI in the Receiver Electrical Characteristics 
+table....................................................................................................................................................................9
+•
+Deleted "VI = 0.4 sin (4E6 π t)" in the Test Condition of CID in the Receiver Electrical Characteristics table.....9
+•
+Added "-30 V ≤ VCM ≤ +30" to the Test Condition of RID and RIN in the Receiver Electrical Characteristics 
+table....................................................................................................................................................................9
+•
+Changed the tMODE TYP value From: 1 µs To: 9 µS in the Switching Characteristics table............................. 12
+•
+Added Note 2 and Changed Table 9-2, BUS OUTPUT colum..........................................................................20
+•
+Changed Standby Mode section ......................................................................................................................23
+Changes from Revision * (March 2016) to Revision A (May 2016)
+Page
+•
+Added Features "Meets the Released ISO 11898-2:2007 and ISO 11898-2:2003 Physical Layer Standards" .1
+•
+Changed Feature From: Meets the Requirements of ISO11898-2 (2016) To: Meets the December 17th, 2015 
+Draft of ISO 11898-2 Physical Layer Update .....................................................................................................1
+•
+Changed the Applications list............................................................................................................................. 1
+•
+Added the VSON (8) pin package to the Device Information table.....................................................................1
+•
+Added the VSON (8) pin package to the Pin Configuration and Functions ....................................................... 5
+•
+Added V(Diff) to the Absolute Maximum Ratings table ........................................................................................6
+•
+Changed OTP to TSD in the Functional Block Diagram ..................................................................................18
+•
+Added Note 2 to Table 9-1 ...............................................................................................................................20
+•
+Added Note 1 to Table 9-2 ...............................................................................................................................20
+•
+Added pin number to the Layout Example image ............................................................................................31
+www.ti.com
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+Copyright © 2021 Texas Instruments Incorporated
+Submit Document Feedback
+3
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+5 Device Comparison Table
+DEVICE
+NUMBER
+BUS FAULT PROTECTION
+5-Mbps FLEXIBLE DATA 
+RATE
+3-V LEVEL SHIFTER 
+INTEGRATED
+PIN 8 MODE SELECTION
+TCAN1042-Q1 (Base)
+±58 V
+Low Power Standby Mode 
+with Remote Wake
+TCAN1042G-Q1
+±58 V
+X
+TCAN1042GV-Q1
+±58 V
+X
+X
+TCAN1042V-Q1
+±58 V
+X
+TCAN1042H-Q1
+±70 V
+TCAN1042HG-Q1
+±70 V
+X
+TCAN1042HGV-Q1
+±70 V
+X
+X
+TCAN1042HV-Q1
+±70 V
+X
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+www.ti.com
+4
+Submit Document Feedback
+Copyright © 2021 Texas Instruments Incorporated
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+6 Pin Configurations and Functions
+TXD
+RXD
+GND
+VCC
+STB
+CANH
+CANL
+NC
+1
+2
+3
+4
+8
+7
+6
+5
+Figure 6-1. D Package for Base, (H), (G) and (HG) 
+Devices8 PIN (SOIC) Top View 
+TXD
+RXD
+GND
+VCC
+STB
+CANH
+CANL
+NC
+1
+2
+3
+4
+8
+7
+6
+5
+Figure 6-2. DRB Package for Base, (H), (G) and 
+(HG) Devices 8 PIN (VSON) Top View 
+TXD
+RXD
+GND
+VCC
+STB
+CANH
+CANL
+VIO
+1
+2
+3
+4
+8
+7
+6
+5
+Figure 6-3. D Package for (V), (HV), (GV), and 
+(HGV) Devices 8 PIN (SOIC) Top View 
+TXD
+RXD
+GND
+VCC
+STB
+CANH
+CANL
+VIO
+1
+2
+3
+4
+8
+7
+6
+5
+Figure 6-4. DRB Package for (V), (HV), (GV), and 
+(HGV) Devices 8 PIN (VSON) Top View 
+Table 6-1. Pin Functions
+PINS
+TYPE
+DESCRIPTION
+NAME
+Base, (H), (G), 
+(HG)
+(V), (GV), (HV), 
+(HGV)
+TXD
+1
+1
+DIGITAL INPUT
+CAN transmit data input (LOW for dominant and HIGH for recessive bus states)
+GND(1)
+2
+2
+GND
+Ground connection
+VCC
+3
+3
+POWER
+Transceiver 5-V supply voltage
+RXD
+4
+4
+DIGITAL OUTPUT
+CAN receive data output (LOW for dominant and HIGH for recessive bus states)
+NC
+5
+—
+—
+No Connect
+VIO
+—
+5
+POWER
+Transceiver I/O level shifting supply voltage (Devices with "V" suffix only)
+CANL
+6
+6
+BUS I/O
+Low level CAN bus input/output line
+CANH
+7
+7
+BUS I/O
+High level CAN bus input/output line
+STB
+8
+8
+DIGITAL INPUT
+Standby Mode control input (active high)
+(1)
+For DRB (VSON) package options, the thermal pad may be connected to GND in order to optimize the thermal characteristics of the 
+package.
+www.ti.com
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+Copyright © 2021 Texas Instruments Incorporated
+Submit Document Feedback
+5
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+7 Specifications
+over operating free-air temperature range (unless otherwise noted) (1) (2)
+7.1 Absolute Maximum Ratings
+MIN
+MAX
+UNIT
+VCC
+5-V bus supply voltage range
+–0.3
+7
+V
+VIO
+I/O Level Shifting Voltage Range
+Devices with the "V" suffix
+–0.3
+7
+V
+VBUS
+CAN Bus I/O voltage range
+(CANH, CANL)
+Devices without the "H" suffix
+–58
+58
+V
+V(Diff)
+Max differential voltage between
+CANH and CANL
+Devices without the “H” suffix
+–58
+58
+V
+VBUS
+CAN Bus I/O voltage range
+(CANH, CANL)
+Devices with the "H" suffix
+–70
+70
+V
+V(Diff)
+Max differential voltage between
+CANH and CANL
+Devices with the “H” suffix
+–70
+70
+V
+V(Logic_Input)
+Logic input terminal voltage range (TXD, STB)
+–0.3
+7 and VI ≤ VIO + 0.3
+V
+V(Logic_Output)
+Logic output terminal voltage range (RXD)
+–0.3
+7 and VI ≤ VIO + 0.3
+V
+IO(RXD)
+RXD (Receiver) output current
+–8
+8
+mA
+TJ
+Virtual junction temperature range (see Thermal Information)
+–55
+150
+°C
+TSTG
+Storage temperature range (see Thermal Information)
+–65
+150
+°C
+(1)
+Operation outside the Absolute Maximum Ratings may cause permanent device damage. Absolute Maximum Ratings do not imply 
+functional operation of the device at these or any other conditions beyond those listed under Recommended Operating Conditions. 
+If used outside the Recommended Operating Conditions but within the Absolute Maximum Ratings, the device may not be fully 
+functional, and this may affect device reliability, functionality, performance, and shorten the device lifetime.
+(2)
+All voltage values, except differential I/O bus voltages, are with respect to ground terminal.
+7.2 ESD Ratings
+VALUE
+UNIT
+VESD
+Electrostatic discharge
+Human-body model (HBM), per AEC Q100-002(1)
+HBM classification level 3A for 
+all pins
+±6000
+V
+HBM classification level 3B for 
+global pins CANH and CANL 
+with respect to GND
+±16000
+V
+Charged-device model (CDM), per AEC Q100-011
+CDM classification level C6 for all pins
+±1500
+V
+Machine Model (MM), in accordance to JEDEC Standard 22, Test Method A115
+±200
+V
+(1)
+AEC Q100-002 indicates that HBM stressing shall be in accordance with the ANSI/ESDA/JEDEC JS-001 specification.
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+www.ti.com
+6
+Submit Document Feedback
+Copyright © 2021 Texas Instruments Incorporated
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+7.3 ESD Ratings, Specifications
+TEST CONDITIONS
+VALUE
+UNIT
+D (SOIC) Package
+System Level Electro-Static Discharge (ESD)
+CAN bus terminals (CANH, 
+CANL) to GND
+SAE J2962-2 per ISO 10605: 
+Powered Air Discharge
+±15000
+V
+SAE J2962-2 per ISO 10605: 
+Powered Contact Discharge
+±8000
+System Level Electro-Static Discharge (ESD)
+CAN bus terminals (CANH, 
+CANL) to GND
+IEC 61000-4-2: Unpowered 
+Contact Discharge
+±15000
+V
+IEC 61000-4-2: Powered on 
+Contact Discharge
+±8000
+System Level Electrical fast transient (EFT)
+CAN bus terminals (CANH, 
+CANL) to GND
+IEC 61000-4-4: Criteria A
+±4000
+V
+ISO7637-2 Transients according to GIFT - ICT CAN EMC test 
+specification(1)
+CAN bus terminals (CANH, 
+CANL) to GND
+Pulse 1
+–100
+V
+Pulse 2
++75
+Pulse 3a
+–150
+Pulse 3b
++100
+ISO7637-3 Transients
+CAN bus terminals (CANH, 
+CANL) to GND
+Direct Coupling Capacitor 
+"Slow Transient Pulse" with 
+100 nF coupling capacitor - 
+Powered
+±85
+DRB (VSON) Package
+System Level Electro-Static Discharge (ESD)
+CAN bus terminals (CANH, 
+CANL) to GND
+SAE J2962-2 per ISO 10605: 
+Powered Air Discharge
+±15000
+V
+SAE J2962-2 per ISO 10605: 
+Powered Contact Discharge
+±8000
+System Level Electro-Static Discharge (ESD)
+CAN bus terminals (CANH, 
+CANL) to GND
+IEC 61000-4-2: Unpowered 
+Contact Discharge
+±14000
+V
+IEC 61000-4-2: Powered on 
+Contact Discharge
+±8000
+System Level Electrical fast transient (EFT)
+CAN bus terminals (CANH, 
+CANL) to GND
+IEC 61000-4-4: Criteria A
+±4000
+V
+ISO7637-2 Transients according to GIFT - ICT CAN EMC test 
+specification(1)
+CAN bus terminals (CANH, 
+CANL) to GND
+Pulse 1
+–100
+V
+Pulse 2
++75
+Pulse 3a
+–150
+Pulse 3b
++100
+ISO7637-3 Transients
+CAN bus terminals (CANH, 
+CANL) to GND
+Direct Coupling Capacitor 
+"Slow Transient Pulse" with 
+100 nF coupling capacitor - 
+Powered
+±85
+(1)
+ISO7637 is a system level transient test. Results given here are specific to the GIFT-ICT CAN EMC Test specification conditions. 
+Different system level configurations may lead to different results.
+www.ti.com
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+Copyright © 2021 Texas Instruments Incorporated
+Submit Document Feedback
+7
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+7.4 Recommended Operating Conditions
+MIN
+MAX
+UNIT
+VCC
+5-V Bus Supply Voltage Range
+4.5
+5.5
+V
+VIO
+I/O Level-Shifting Voltage Range
+3
+5.5
+IOH(RXD)
+RXD terminal HIGH level output current
+–2
+mA
+IOL(RXD)
+RXD terminal LOW level output current
+2
+7.5 Thermal Information
+Thermal Metric(1)
+TEST CONDITIONS
+TCAN1042-Q1
+UNIT
+D (SOIC)
+DRB (VSON)
+8 Pins
+8 Pins
+RθJA
+Junction-to-air thermal resistance
+High-K thermal resistance(2)
+105.8
+48.3
+°C/W
+RθJB
+Junction-to-board thermal resistance(3)
+46.8
+17.2
+°C/W
+RθJC(TOP)
+Junction-to-case (top) thermal 
+resistance(4)
+48.3
+37.6
+°C/W
+ΨJT
+Junction-to-top characterization 
+parameter(5)
+8.7
+1.8
+°C/W
+ΨJB
+Junction-to-board characterization 
+parameter(6)
+46.2
+17.1
+°C/W
+TTSD
+Thermal shutdown temperature
+170
+170
+°C
+TTSD_HYS
+Thermal shutdown hysteresis
+5
+5
+°C
+(1)
+For more information about traditional and new thermal metrics, see the Semiconductor and IC Package Thermal Metrics application 
+report.
+(2)
+The junction-to-ambient thermal resistance under natural convection is obtained in a simulation on a JEDEC-standard, High-K board, 
+as specified in JESD51-7, in an environment described in JESD51-2a.
+(3)
+The junction-to-board thermal resistance is obtained by simulating in an environment with a ring cold plate fixture to control the PCB 
+temperature, as described in JESD51-8.
+(4)
+The junction-to-case (top) thermal resistance is obtained by simulating a cold plate test on the package top. No specific JEDEC-
+standard test exists, but a close description can be found in the ANSI SEMI standard G30-88.
+(5)
+The junction-to-top characterization parameter, ΨJT, estimates the junction temperature of a device in a real system and is extracted 
+from the simulation data for obtaining θJA, using a procedure described in JESD51-2a (sections 6 and 7).
+(6)
+The junction-to-board characterization parameter, ΨJB estimates the junction temperature of a device in a real system and is extracted 
+from the simulation data for obtaining θJA, using a procedure described in JESD51-2a (sections 6 and 7).
+7.6 Power Rating
+PARAMETER
+TEST CONDITIONS
+POWER DISSIPATION
+UNIT
+PD
+Average power dissipation
+VCC = 5 V, VIO = 5 V (if applicable), TJ = 27°C, RL = 60 Ω, 
+S at 0 V, Input to TXD at 250 kHz, CL_RXD = 15 pF. Typical 
+CAN operating conditions at 500 kbps with 25% transmission 
+(dominant) rate.
+52
+mW
+VCC = 5.5 V, VIO = 5.5 V (if applicable), TJ = 150°C, RL = 50 Ω, 
+S at 0 V, Input to TXD at 500 kHz, CL_RXD = 15 pF.  Typical high 
+load CAN operating conditions at 1 Mbps with 50% transmission 
+(dominant) rate and loaded network.
+124
+mW
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+www.ti.com
+8
+Submit Document Feedback
+Copyright © 2021 Texas Instruments Incorporated
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+7.7 Electrical Characteristics
+Over recommended operating conditions with TA = –55°C to 125°C (unless otherwise noted).
+PARAMETER
+TEST CONDITIONS
+MIN
+TYP(1)
+MAX
+UNIT
+Supply Characteristics
+ICC
+5-V supply current
+Normal mode 
+(dominant)
+See Figure 8-1, TXD = 0 V, RL = 60 Ω,
+CL = open, RCM = open, STB = 0 V, Typical 
+Bus Load
+40
+70
+mA
+See Figure 8-1, TXD = 0 V, RL = 50 Ω,
+CL = open, RCM = open, STB = 0 V,
+High Bus Load
+45
+80
+Normal mode (dominant 
+– with bus fault)
+See Figure 8-1, TXD = 0 V, STB = 0 V, 
+CANH = -12 V, RL = open, CL = open, RCM = 
+open
+110
+Normal mode 
+(recessive)
+See Figure 8-1, TXD = VCC or VIO, RL = 50 
+Ω, CL = open, RCM = open,
+STB = 0 V
+1.5
+2.5
+Standby mode
+Devices with the "V" suffix (I/O level-
+shifting), VCC not needed in Standby mode, 
+See Figure 8-1,
+TXD = VIO, RL = 50 Ω, CL = open,
+RCM = open, STB = VIO
+0.5
+5
+µA
+Devices without the "V" suffix (5-V only), 
+See Figure 8-1, TXD = VCC, RL = 50 Ω, CL = 
+open, RCM = open, STB = VCC
+22
+IIO
+I/O supply current
+Normal mode
+RXD floating, TXD = STB = 0 or 5.5 V
+90
+300
+Standby mode
+RXD floating, TXD = STB = VIO,
+VCC = 0 or 5.5 V
+12
+17
+UVVCC
+Rising undervoltage detection on VCC for 
+protected mode
+All devices
+4.2
+4.4
+V
+Falling undervoltage detection on VCC for 
+protected mode
+3.8
+4.0
+4.25
+VHYS(UVVCC)
+Hysteresis voltage on UVVCC
+200
+mV
+UVVIO
+Undervoltage detection on VIO for protected 
+mode
+Devices with the "V" suffix (I/O level-shifting)
+1.3
+2.75
+V
+VHYS(UVVIO)
+Hysteresis voltage on UVVIO for protected mode
+80
+mV
+STB Terminal (Mode Select Input)
+VIH
+High-level input voltage
+Devices with the "V" suffix (I/O level-shifting)
+0.7 x VIO
+V
+Devices without the "V" suffix (5-V only)
+2
+VIL
+Low-level input voltage
+Devices with the "V" suffix (I/O level-shifting)
+0.3 x VIO
+Devices without the "V" suffix (5-V only)
+0.8
+IIH
+High-level input leakage current
+STB = VCC = VIO = 5.5 V
+-2
+2
+µA
+IIL
+Low-level input leakage current
+STB = 0V, VCC = VIO = 5.5 V
+–20
+0
+-2
+Ilkg(OFF)
+Unpowered leakage current
+STB = 5.5 V, VCC = VIO = 0 V
+-1
+0
+1
+TXD Terminal (CAN Transmit Data Input)
+VIH
+High-level input voltage
+Devices with the "V" suffix (I/O level-shifting)
+0.7 x VIO
+V
+Devices without the "V" suffix (5-V only)
+2
+VIL
+Low-level input voltage
+Devices with the "V" suffix (I/O level-shifting)
+0.3 x VIO
+Devices without the "V" suffix (5-V only)
+0.8
+IIH
+High-level input leakage current
+TXD = VCC = VIO = 5.5 V
+–2.5
+0
+1
+µA
+IIL
+Low-level input leakage current
+TXD = 0 V, VCC = VIO = 5.5 V
+–100
+-25
+–7
+Ilkg(OFF)
+Unpowered leakage current
+TXD = 5.5 V, VCC = VIO = 0 V
+–1
+0
+1
+CI
+Input capacitance
+VIN = 0.4 x sin(2 x π x 2 x 106 x t) + 2.5 V
+5
+pF
+www.ti.com
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+Copyright © 2021 Texas Instruments Incorporated
+Submit Document Feedback
+9
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+7.7 Electrical Characteristics (continued)
+Over recommended operating conditions with TA = –55°C to 125°C (unless otherwise noted).
+PARAMETER
+TEST CONDITIONS
+MIN
+TYP(1)
+MAX
+UNIT
+RXD Terminal (Can Receive Data Output)
+VOH
+High-level output voltage
+Devices with the "V" suffix (I/O level-
+shifting), See Figure 8-2,
+IO = –2 mA.
+0.8 × VIO
+V
+Devices without the "V" suffix
+(5V only), See Figure 8-2,
+IO = –2 mA.
+4
+4.6
+VOL
+Low-level output voltage
+Devices with the "V" suffix (I/O level-
+shifting), See Figure 8-2, IO = +2 mA.
+0.2 x VIO
+Devices without the "V" suffix (5-V only), 
+See Figure 8-2,
+IO = +2 mA.
+0.2
+0.4
+Ilkg(OFF)
+Unpowered leakage current
+RXD = 5.5 V, VCC = 0 V, VIO = 0 V
+–1
+0
+1
+µA
+Driver Electrical Characteristics
+VO(DOM)
+Bus output voltage 
+(dominant)
+CANH
+See Figure 8-1 and Figure 9-3, TXD = 0 V, 
+STB = 0 V, 50 Ω ≤ RL ≤ 65 Ω,
+CL = open, RCM = open
+2.75
+4.5
+V
+CANL
+0.5
+2.25
+VO(REC)
+Bus output voltage 
+(recessive)
+CANH and CANL
+See Figure 8-1 and Figure 9-3, TXD = VCC 
+or VIO, VIO = VCC, STB = 0 V ,
+RL = open (no load), RCM = open
+2
+0.5 × VCC
+3
+VO(STB)
+Bus output voltage 
+(Standby mode)
+CANH
+See Figure 8-1 and Figure 9-3, STB = VIO, 
+RL = open (no load), RCM = open
+-0.1
+0
+0.1
+CANL
+-0.1
+0
+0.1
+CANH - CANL
+-0.2
+0
+0.2
+VOD(DOM)
+Differential output 
+voltage (dominant)
+CANH - CANL
+See Figure 8-1 and Figure 9-3, TXD = 0 V, 
+STB = 0 V, 45 Ω ≤ RL < 50 Ω,
+CL = open, RCM = open
+1.4
+3
+See Figure 8-1 and Figure 9-3, TXD = 0 V, 
+STB = 0 V, 50 Ω ≤ RL ≤ 65 Ω,
+CL = open, RCM = open
+1.5
+3
+See Figure 8-1 and Figure 9-3, TXD = 0 V, 
+STB = 0 V, RL = 2240 Ω, CL = open, RCM = 
+open
+1.5
+5
+VOD(REC)
+Differential output 
+voltage (recessive)
+CANH - CANL
+See Figure 8-1 and Figure 9-3, TXD = VCC, 
+STB = 0 V, RL = 60 Ω, CL = open, RCM = 
+open
+–120
+12
+mV
+See Figure 8-1 and Figure 9-3, TXD = VCC, 
+STB = 0 V, RL = open (no load), CL = open, 
+RCM = open
+–50
+50
+VSYM
+Output symmetry (dominant or recessive)
+( VO(CANH) + VO(CANL)) / VCC
+See Figure 8-1 and Figure 10-2, STB at 0 V, 
+Rterm = 60 Ω, Csplit = 4.7 nF, CL = open,
+RCM = open, TXD = 250 kHz, 1 MHz
+0.9
+1.1
+V/V
+VSYM_DC
+DC Output symmetry (dominant or recessive)
+(VCC – VO(CANH) – VO(CANL))
+See Figure 8-1 and Figure 9-3, STB = 0 V,
+RL = 60 Ω, CL = open, RCM = open
+–0.4
+0.4
+V
+IOS(SS_DOM)
+Short-circuit steady-state output current, 
+dominant, Normal mode
+See Figure 9-3 and Figure 8-7, STB at 0 V, 
+VCANH = -5 V to 40 V, CANL = open,
+TXD = 0 V
+–100
+mA
+See Figure 9-3 and Figure 8-7, STB at 0 V, 
+VCANL = -5 V to 40 V, CANH = open,
+TXD = 0 V
+100
+IOS(SS_REC)
+Short-circuit steady-state output current, 
+recessive, Normal mode
+See Figure 9-3 and Figure 8-7, STB at 0 V, 
+–27 V ≤ VBUS ≤ 32 V,
+Where VBUS = CANH = CANL, TXD = VCC
+–5
+5
+mA
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+www.ti.com
+10
+Submit Document Feedback
+Copyright © 2021 Texas Instruments Incorporated
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+7.7 Electrical Characteristics (continued)
+Over recommended operating conditions with TA = –55°C to 125°C (unless otherwise noted).
+PARAMETER
+TEST CONDITIONS
+MIN
+TYP(1)
+MAX
+UNIT
+Receiver Electrical Characteristics
+VCM
+Common mode range, Normal mode
+See Figure 8-2 and Table 8-1, STB = 0 V
+-30
++30
+V
+VIT+
+Positive-going input threshold voltage, Normal 
+mode
+See Figure 8-2, Table 9-5 and Table 8-1,
+STB = 0 V, -20 V ≤ VCM ≤ +20 V
+900
+mV
+VIT–
+Negative-going input threshold voltage, Normal 
+mode
+500
+VIT+
+Positive-going input threshold voltage, Normal 
+mode
+See Figure 8-2, Table 9-5 and Table 8-1,
+STB = 0 V, -30 V ≤ VCM ≤ +30 V
+1000
+VIT–
+Negative-going input threshold voltage, Normal 
+mode
+400
+VHYS
+Hysteresis voltage (VIT+ - VIT–), Normal mode
+See Figure 8-2, Table 9-5 and Table 8-1,
+STB = 0 V
+120
+VCM
+Common mode range, Standby mode
+Devices with the "V" suffix (I/O level-
+shifting), See Figure 8-2, Table 9-5 and 
+Table 8-1, STB = VIO, 4.5 V ≤ VIO ≤ 5.5 V
+-12
+12
+V
+Devices with the "V" suffix (I/O level-
+shifting), See Figure 8-2, Table 9-5 and 
+Table 8-1, STB = VIO, 3.0 V ≤ VIO ≤ 4.5 V
+-2
++7
+Devices without the "V" suffix (5V only), See 
+Figure 8-2, Table 9-5 and Table 8-1, STB = 
+VCC
+-12
+12
+VIT(STANDBY)
+Input threshold voltage, Standby mode
+STB = VCC or VIO
+400
+1150
+mV
+ILKG(IOFF)
+Power-off (unpowered) bus input leakage current
+CANH = CANL = 5 V, VCC = VIO = 0 V
+4.8
+µA
+CI
+Input capacitance to ground (CANH or CANL)
+TXD = VCC, VIO = VCC
+24
+30
+pF
+CID
+Differential input capacitance (CANH to CANL)
+TXD = VCC, VIO = VCC
+12
+15
+RID
+Differential input resistance
+TXD = VCC = VIO = 5 V, STB = 0 V,
+-30 V ≤ VCM ≤ +30 V
+30
+80
+kΩ
+RIN
+Input resistance (CANH or CANL)
+15
+40
+RIN(M)
+Input resistance matching:
+[1 – RIN(CANH) / RIN(CANL)] × 100%
+VCANH = VCANL = 5 V
+–2%
++2%
+(1)
+All typical values are at 25°C and supply voltages of VCC = 5 V and VIO = 5 V (if applicable), RL = 60 Ω.
+www.ti.com
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+Copyright © 2021 Texas Instruments Incorporated
+Submit Document Feedback
+11
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+7.8 Switching Characteristics
+Over recommended operating conditions with TA = -55°C to 125°C (unless otherwise noted)
+PARAMETER
+TEST CONDITIONS
+MIN
+TYP(1)
+MAX UNIT
+Device Switching Characteristics
+tPROP(LOOP1)
+Total loop delay, driver input (TXD) to receiver 
+output (RXD), recessive to dominant
+See Figure 8-4, STB = 0 V,
+RL = 60 Ω,
+CL = 100 pF, CL(RXD) = 15 pF
+100
+160
+ns
+tPROP(LOOP2)
+Total loop delay, driver input (TXD) to receiver 
+output (RXD), dominant to recessive
+110
+175
+tMODE
+Mode change time, from Normal to Standby or 
+from Standby to Normal
+See Figure 8-3
+9
+45
+µs
+tWK_FILTER
+Filter time for valid wake up pattern
+0.5
+1.8
+µs
+Driver Switching Characteristics
+tpHR
+Propagation delay time, high TXD to driver 
+recessive (dominant to recessive)
+See Figure 8-1, STB = 0 V,
+RL = 60 Ω,
+CL = 100 pF, RCM = open
+75
+ns
+tpLD
+Propagation delay time, low TXD to driver 
+dominant (recessive to dominant)
+55
+tsk(p)
+Pulse skew (|tpHR - tpLD|)
+20
+tR
+Differential output signal rise time
+45
+tF
+Differential output signal fall time
+45
+tTXD_DTO
+Dominant timeout
+See Figure 8-6, STB = 0 V,
+RL = 60 Ω, CL = open
+1.2
+3.8
+ms
+Receiver Switching Characteristics
+tpRH
+Propagation delay time, bus recessive input to 
+high output (Dominant to Recessive)
+See Figure 8-2, STB = 0 V,
+CL(RXD) = 15 pF
+65
+ns
+tpDL
+Propagation delay time, bus dominant input to 
+low output (Recessive to Dominant)
+50
+ns
+tR
+RXD Output signal rise time
+10
+ns
+tF
+RXD Output signal fall time
+10
+ns
+FD Timing Parameters
+tBIT(BUS)
+Bit time on CAN bus output pins with tBIT(TXD) = 
+500 ns, all devices
+See Figure 8-5 , STB = 0 V,
+RL = 60 Ω, CL = 100 pF,
+CL(RXD) = 15 pF,
+ΔtREC = tBIT(RXD) - tBIT(BUS)
+435
+530
+ns
+Bit time on CAN bus output pins with tBIT(TXD) = 
+200 ns, G device variants only
+155
+210
+tBIT(RXD)
+Bit time on RXD output pins with tBIT(TXD) = 
+500 ns, all devices
+400
+550
+Bit time on RXD output pins with tBIT(TXD) = 
+200 ns, G device variants only
+120
+220
+ΔtREC
+Receiver timing symmetry with tBIT(TXD) = 500 
+ns, all devices
+-65
+40
+Receiver timing symmetry with tBIT(TXD) = 200 
+ns, G device variants only
+-45
+15
+(1)
+All typical values are at 25°C and supply voltages of VCC = 5 V and VIO = 5 V (if applicable), RL = 60 Ω
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+www.ti.com
+12
+Submit Document Feedback
+Copyright © 2021 Texas Instruments Incorporated
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+7.9 Typical Characteristics
+Temperature (°C)
+VOD(D) (V)
+-55
+-35
+-15
+5
+25
+45
+65
+85
+105
+125
+0
+0.5
+1
+1.5
+2
+2.5
+3
+D001
+VCC = 5 V
+VIO = 3.3 V
+RL = 60 Ω
+CL = Open
+RCM = Open
+STB = 0 V
+Figure 7-1. VOD(D) over Temperature
+VCC (V)
+VOD(D) (V)
+4.5
+4.6
+4.7
+4.8
+4.9
+5
+5.1
+5.2
+5.3
+5.4
+5.5
+0
+0.5
+1
+1.5
+2
+2.5
+3
+D002
+VIO = 5 V
+STB = 0 V
+RL = 60 Ω
+CL = Open
+RCM = Open
+Temp = 25°C
+Figure 7-2. VOD(D) over VCC 
+Temperature (°C)
+ICC Recessive (mA)
+-55
+-35
+-15
+5
+25
+45
+65
+85
+105
+125
+1.41
+1.42
+1.43
+1.44
+1.45
+1.46
+1.47
+1.48
+D003
+VCC = 5 V
+VIO = 3.3 V
+RL = 60 Ω
+CL = Open
+RCM = Open
+STB = 0 V
+Figure 7-3. ICC Recessive over Temperature
+Temperature (°C)
+Total Loop Delay (ns)
+-55
+-35
+-15
+5
+25
+45
+65
+85
+105
+125
+0
+25
+50
+75
+100
+125
+150
+D004
+VCC = 5 V
+VIO = 3.3 V
+RL = 60 Ω
+CL = 100 pF
+CL_RXD = 15 pF
+STB = 0 V
+Figure 7-4. Total Loop Delay over Temperature
+www.ti.com
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+Copyright © 2021 Texas Instruments Incorporated
+Submit Document Feedback
+13
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+8 Parameter Measurement Information
+VOD
+RL
+CANH
+CANL
+TXD
+RCM
+RCM
+VCM
+CL
+TXD
+0.9V
+0.5V
+VOD
+tpLD
+tpHR
+50%
+50%
+VO(CANH)
+VO(CANL)
+10%
+tR
+tF
+90%
+0V
+VCC
+Copyright © 2016, Texas Instruments Incorporated
+Figure 8-1. Driver Test Circuit and Measurement
+VO
+CL_RXD
+CANH
+RXD
+CANL
+VID
+VID
+0.5V
+0.9V
+1.5V
+0V
+VO(RXD)
+50%
+VOH
+VOL
+tpDL
+tpRH
+90%
+10%
+tR
+tF
+IO
+Copyright © 2016, Texas Instruments Incorporated
+Figure 8-2. Receiver Test Circuit and Measurement
+Table 8-1. Receiver Differential Input Voltage Threshold Test
+INPUT (See Receiver Test Circuit and Measurement
+OUTPUT
+VCANH
+VCANL
+|VID|
+RXD
+-29.5 V
+-30.5 V
+1000 mV
+L
+VOL
+30.5 V
+29.5 V
+1000 mV
+L
+-19.55 V
+-20.45 V
+900 mV
+L
+20.45 V
+19.55 V
+900 mV
+L
+-19.75 V
+-20.25 V
+500 mV
+H
+VOH
+20.25 V
+19.75 V
+500 mV
+H
+-29.8 V
+-30.2 V
+400 mV
+H
+30.2 V
+29.8 V
+400 mV
+H
+Open
+Open
+X
+H
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+www.ti.com
+14
+Submit Document Feedback
+Copyright © 2021 Texas Instruments Incorporated
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+RL
+CANH
+CANL
+TXD
+CL
+VO
+CL_RXD
+RXD
+STB
+VI
+0V
+tMODE
+STB
+RXD
+VOH
+VOL
+VIH
+0V
+50%
+50%
+Copyright © 2016, Texas Instruments Incorporated
+Figure 8-3. tMODE Test Circuit and Measurement
+RL
+CANH
+CANL
+TXD
+CL
+VO
+CL_RXD
+RXD
+STB
+VI
+0V
+tPROP(LOOP1)
+TXD
+RXD
+VOH
+VOL
+VCC
+0V
+50%
+50%
+tPROP(LOOP2)
+Copyright © 2016, Texas Instruments Incorporated
+Figure 8-4. TPROP(LOOP) Test Circuit and Measurement
+www.ti.com
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+Copyright © 2021 Texas Instruments Incorporated
+Submit Document Feedback
+15
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+RL
+CANH
+CANL
+TXD
+CL
+VO
+CL_RXD
+RXD
+STB
+VI
+0V
+5 x tBIT
+TXD
+VDIFF
+70%
+500mV
+30%
+30%
+900mV
+VI
+0V
+tBIT(BUS)
+RXD
+VOH
+VOL
+70%
+30%
+tBIT(RXD)
+tBIT(TXD)
+Figure 8-5. CAN FD Timing Parameter Measurement
+VOD
+RL
+CANH
+CANL
+TXD
+CL
+TXD
+0.9V
+0.5V
+VOD
+0V
+VIH
+tTXD_DTO
+0V
+VOD(D)
+Copyright © 2016, Texas Instruments Incorporated
+Figure 8-6. TXD Dominant Timeout Test Circuit and Measurement
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+www.ti.com
+16
+Submit Document Feedback
+Copyright © 2021 Texas Instruments Incorporated
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+CANH
+CANL
+TXD
+0V
+VBUS
+VBUS
+IOS
+VBUS
+0V
+VBUS
+VBUS
+or
+200 s
+IOS
+Copyright © 2016, Texas Instruments Incorporated
+Figure 8-7. Driver Short Circuit Current Test and Measurement
+www.ti.com
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+Copyright © 2021 Texas Instruments Incorporated
+Submit Document Feedback
+17
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+9 Detailed Description
+9.1 Overview
+These CAN transceivers meet the ISO11898-2 (2016) High Speed CAN (Controller Area Network) physical 
+layer standard. They are designed for data rates in excess of 1 Mbps for CAN FD and enhanced timing 
+margin / higher data rates in long and highly-loaded networks. These devices provide many protection features 
+to enhance device and CAN robustness.
+9.2 Functional Block Diagram
+6
+7
+TSD
+UVP
+Mode Select
+4
+8
+Logic Output
+TXD
+STB
+RXD
+CANH
+CANL
+GND
+5
+NC or VIO
+3
+VCC
+1
+2
+VCC or VIO
+VCC or VIO
+Dominant
+time-out
+VCC or VIO
+WUP Monitor
+MUX
+Low Power Receiver
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+www.ti.com
+18
+Submit Document Feedback
+Copyright © 2021 Texas Instruments Incorporated
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+9.3 Feature Description
+9.3.1 TXD Dominant Timeout (DTO)
+During normal mode (the only mode where the CAN driver is active), the TXD DTO circuit prevents the 
+transceiver from blocking network communication in the event of a hardware or software failure where TXD 
+is held dominant longer than the timeout period tTXD_DTO. The DTO circuit timer starts on a falling edge on TXD. 
+The DTO circuit disables the CAN bus driver if no rising edge is seen before the timeout period expires. This 
+frees the bus for communication between other nodes on the network. The CAN driver is re-activated when 
+a recessive signal is seen on the TXD terminal, thus clearing the TXD DTO condition. The receiver and RXD 
+terminal still reflect activity on the CAN bus, and the bus terminals are biased to the recessive level during a TXD 
+dominant timeout.
+Normal CAN 
+communication
+CAN 
+Bus
+Signal 
+TXD fault stuck dominant: example PCB 
+failure or bad software
+Fault is repaired & transmission 
+capability restored
+TXD 
+(driver)
+%XVZRXOGEH³VWXFNGRPLQDQW´EORFNLQJFRPPXQLFDWLRQIRUWKH
+whole network but TXD DTO prevents this and frees the bus for 
+communication after the time tTXD_DTO.
+ tTXD_DTO 
+Communication from 
+local node
+Communication from 
+repaired node
+RXD 
+(receiver)
+Communication from 
+other bus node(s)
+Communication from 
+repaired local node
+Communication from 
+other bus node(s)
+ tTXD_DTO 
+Driver disabled freeing bus for other nodes
+Figure 9-1. Example Timing Diagram for TXD DTO
+Note
+The minimum dominant TXD time allowed by the TXD DTO circuit limits the minimum possible 
+transmitted data rate of the device. The CAN protocol allows a maximum of eleven successive 
+dominant bits (on TXD) for the worst case, where five successive dominant bits are followed 
+immediately by an error frame. This, along with the tTXD_DTO minimum, limits the minimum data rate. 
+Calculate the minimum transmitted data rate by: Minimum Data Rate = 11 / tTXD_DTO.
+9.3.2 Thermal Shutdown (TSD)
+If the junction temperature of the device exceeds the thermal shutdown threshold (TTSD), the device turns off 
+the CAN driver circuits thus blocking the TXD-to-bus transmission path. The CAN bus terminals are biased to 
+the recessive level during a thermal shutdown, and the receiver-to-RXD path remains operational. The shutdown 
+condition is cleared when the junction temperature drops at least the thermal shutdown hysteresis temperature 
+(TTSD_HYS) below the thermal shutdown temperature (TTSD) of the device.
+www.ti.com
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+Copyright © 2021 Texas Instruments Incorporated
+Submit Document Feedback
+19
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+9.3.3 Undervoltage Lockout
+The supply terminals have undervoltage detection that places the device in protected mode. This protects the 
+bus during an undervoltage event on either the VCC or VIO supply terminals.
+Table 9-1. Undervoltage Lockout 5 V Only Devices (Devices without the "V" Suffix)
+VCC
+DEVICE STATE(1)
+BUS OUTPUT
+RXD
+> UVVCC
+Normal
+Per TXD
+Mirrors Bus(2)
+< UVVCC
+Protected
+High Impedance
+High Impedance
+(1)
+See the VIT section of the Electrical Characteristics.
+(2)
+Mirrors bus state: low if CAN bus is dominant, high if CAN bus is recessive.
+Table 9-2. Undervoltage Lockout I/O Level Shifting Devices (Devices with the "V" Suffix)
+VCC
+VIO
+DEVICE STATE
+BUS OUTPUT
+RXD
+> UVVCC
+> UVVIO
+Normal
+Per TXD
+Mirrors Bus(1)
+< UVVCC
+> UVVIO
+STB = High: Standby Mode
+Recessive
+Bus Wake RXD Request(2)
+STB =Low: Protected 
+Mode
+High Impedance
+High (Recessive)
+> UVVCC
+< UVVIO
+Protected
+High Impedance
+High Impedance
+< UVVCC
+< UVVIO
+Protected
+High Impedance
+High Impedance
+(1)
+Mirrors bus state: low if CAN bus is dominant, high if CAN bus is recessive.
+(2)
+Refer to Section 9.4.3.1
+Note
+After an undervoltage condition is cleared and the supplies have returned to valid levels, the device 
+typically resumes normal operation within 50 µs.
+9.3.4 Unpowered Device
+The device is designed to be 'ideal passive' or 'no load' to the CAN bus if it is unpowered. The bus terminals 
+(CANH, CANL) have extremely low leakage currents when the device is unpowered to avoid loading down the 
+bus. This is critical if some nodes of the network are unpowered while the rest of the of network remains in 
+operation. The logic terminals also have extremely low leakage currents when the device is unpowered to avoid 
+loading down other circuits that may remain powered.
+9.3.5 Floating Terminals
+These devices have internal pull ups on critical terminals to place the device into known states if the terminals 
+float. The TXD terminal is pulled up to VCC or VIO to force a recessive input level if the terminal floats. The STB 
+terminal is also pulled up to force the device into low power Standby mode if the terminal floats.
+9.3.6 CAN Bus Short Circuit Current Limiting
+The device has two protection features that limit the short circuit current when a CAN bus line is short-circuit 
+fault condition: driver current limiting (both dominant and recessive states) and TXD dominant state time out 
+to prevent permanent higher short circuit current of the dominant state during a system fault. During CAN 
+communication the bus switches between dominant and recessive states, thus the short circuit current may be 
+viewed either as the instantaneous current during each bus state or as an average current of the two states. For 
+system current (power supply) and power considerations in the termination resistors and common-mode choke 
+ratings, use the average short circuit current. Determine the ratio of dominant and recessive bits by the data 
+in the CAN frame plus the following factors of the protocol and PHY that force either recessive or dominant at 
+certain times:
+•
+Control fields with set bits
+•
+Bit stuffing
+•
+Interframe space
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+www.ti.com
+20
+Submit Document Feedback
+Copyright © 2021 Texas Instruments Incorporated
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+•
+TXD dominant time out (fault case limiting)
+These ensure a minimum recessive amount of time on the bus even if the data field contains a high percentage 
+of dominant bits. The short circuit current of the bus depends on the ratio of recessive to dominant bits and their 
+respective short circuit currents. The average short circuit current may be calculated with the following formula:
+IOS(AVG) = %Transmit × [(%REC_Bits × IOS(SS)_REC) + (%DOM_Bits × IOS(SS)_DOM)] + [%Receive × IOS(SS)_REC]
+(1)
+Where:
+•
+IOS(AVG) is the average short circuit current
+•
+%Transmit is the percentage the node is transmitting CAN messages
+•
+%Receive is the percentage the node is receiving CAN messages
+•
+%REC_Bits is the percentage of recessive bits in the transmitted CAN messages
+•
+%DOM_Bits is the percentage of dominant bits in the transmitted CAN messages
+•
+IOS(SS)_REC is the recessive steady state short circuit current
+•
+IOS(SS)_DOM is the dominant steady state short circuit current
+Note
+Consider the short circuit current and possible fault cases of the network when sizing the power 
+ratings of the termination resistance and other network components.
+9.3.7 Digital Inputs and Outputs
+9.3.7.1 Devices with VCC Only (Devices without the "V" Suffix):
+The 5-V VCC only devices are supplied by a single 5-V rail. The digital inputs have TTL input thresholds and are 
+therefore 5 V and 3.3 V compatible. The RXD outputs on these devices are driven to the VCC rail for logic high 
+output. Additionally, the TXD and STB pins are internally pulled up to VCC. The internal bias of the mode pins 
+may only place the device into a known state if the terminals float, they may not be adequate for system-level 
+biasing during transients or noisy environments.
+Note
+TXD pull up strength and CAN bit timing require special consideration when these devices are used 
+with CAN controllers with an open-drain TXD output. An adequate external pull up resistor must be 
+used to ensure that the CAN controller output of the microcontroller maintains adequate bit timing to 
+the TXD input.
+9.3.7.2 Devices with VIO I/O Level Shifting (Devices with "V" Suffix):
+These devices use a 5 V VCC power supply for the CAN driver and high speed receiver blocks. These 
+transceivers have a second power supply for I/O level-shifting (VIO). This supply is used to set the CMOS 
+input thresholds of the TXD and pins and the RXD high level output voltage. Additionally, the internal pull ups on 
+TXD and STB are pulled up to VIO.
+www.ti.com
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+Copyright © 2021 Texas Instruments Incorporated
+Submit Document Feedback
+21
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+9.4 Device Functional Modes
+The device has two main operating modes: Normal mode and Standby mode. Operating mode selection is made 
+via the STB input terminal.
+Table 9-3. Operating Modes
+STB Terminal
+MODE
+DRIVER
+RECEIVER
+RXD Terminal
+LOW
+Normal Mode
+Enabled (ON)
+Enabled (ON)
+Mirrors Bus State(1)
+HIGH
+Standby Mode
+Disabled (OFF)
+Disabled (OFF) (Low 
+Power Bus Monitor is 
+Active)
+High (Unless valid WUP 
+has been received)
+(1)
+Mirrors bus state: low if CAN bus is dominant, high if CAN bus is recessive.
+9.4.1 CAN Bus States
+The CAN bus has two states during powered operation of the device: dominant and recessive. A dominant bus 
+state is when the bus is driven differentially, corresponding to a logic low on the TXD and RXD terminal. A 
+recessive bus state is when the bus is biased to VCC / 2 via the high-resistance internal input resistors RIN of the 
+receiver, corresponding to a logic high on the TXD and RXD terminals.
+Figure 9-2. Bus States (Physical Bit Representation)
+Figure 9-3. Bias Unit (Recessive Common Mode Bias) and Receiver
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+www.ti.com
+22
+Submit Document Feedback
+Copyright © 2021 Texas Instruments Incorporated
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+9.4.2 Normal Mode
+Select the Normal mode of device operation by setting STB terminal low. The CAN driver and receiver are fully 
+operational and CAN communication is bi-directional. The driver translates a digital input on TXD to a differential 
+output on CANH and CANL. The receiver translates the differential signal from CANH and CANL to a digital 
+output on RXD.
+9.4.3 Standby Mode
+Activate low power Standby mode by setting STB terminal high. In this mode the bus transmitter will not send 
+data nor will the normal mode receiver accept data as the bus lines are biased to ground minimizing the system 
+supply current. Only the low power receiver will be actively monitoring the bus for activity. RXD indicates a valid 
+wake up event after a wake-up pattern (WUP) has been detected on the Bus. The low power receiver is powered 
+using only the VIO pin. This allows VCC to be removed reducing power consumption further.
+The bus lines are biased to ground in Standby mode to minimize the required system supply current. The low 
+power receiver is supplied by VIO and is capable of detecting CAN bus activity even if VIO is the only supply 
+voltage available to the transceiver.
+www.ti.com
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+Copyright © 2021 Texas Instruments Incorporated
+Submit Document Feedback
+23
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+9.4.3.1 Remote Wake Request via Wake Up Pattern (WUP) in Standby Mode
+The family offers a remote wake request feature that is used to indicate to the host microcontroller that the bus is 
+active and the node should return to normal operation.
+These devices use the multiple filtered dominant wake up pattern (WUP) from the ISO11898-2 (2016) to qualify 
+bus activity. Once a valid WUP has been received the wake request will be indicated to the microcontroller by a 
+falling edge and low corresponding to a "filtered" dominant on the RXD output terminal.
+The WUP consists of a filtered dominant pulse, followed by a filtered recessive pulse, and finally by a second 
+filtered dominant pulse. These filtered dominant, recessive, dominant pulses do not need to occur in immediate 
+succession. There is no timeout that will occur between filtered bits of the WUP. Once a full WUP has been 
+detected the device will continue to drive the RXD output low every time an additional filtered dominant signal is 
+received from the bus.
+For a dominant or recessive signal to be considered "filtered", the bus must continually remain in that state for 
+more than tWK_FILTER. Due to variability in the tWK_FILTER, the following three scenarios can exist:
+1.
+Bus signals that last less than tWK_FILTER(MIN) will never be detected as part of a valid WUP
+2.
+Bus signals that last more than tWK_FILTER(MIN) but less than tWK_FILTER(MAX) may be detected as part of a 
+valid WUP
+3.
+Bus signals that last more than tWK_FILTER(MAX) will always be detected as part of a valid WUP
+Once the first filtered dominant signal is received, the device is now waiting on a filtered recessive signal, other 
+bus traffic will not reset the bus monitor. Once the filtered recessive signal is received, the monitor is now waiting 
+on a second filtered dominant signal, and again other bus traffic will not reset the monitor. After reception of the 
+full WUP, the device will transition to driving the RXD output pin low for the remainder of any dominant signal that 
+remains on the bus for longer than tWK_FILTER.
+Bus VDiff
+• tWK_FILTER
+• tWK_FILTER
+• tWK_FILTER
+Bus
+Filtered
+Dominant
+Filtered
+Dominant
+Filtered
+Recessive
+Wake Up Pattern (WUP)
+RXD
+• tWK_FILTER
+ Filtered Dominant RXD Output
+Bus Wake Via 
+RXD Requests 
+Bus Wake via 
+RXD Request
+Waiting for 
+Filtered 
+Recessive
+Waiting for 
+Filtered 
+Dominant
+Figure 9-4. Wake Up Pattern (WUP)
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+www.ti.com
+24
+Submit Document Feedback
+Copyright © 2021 Texas Instruments Incorporated
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+9.4.4 Driver and Receiver Function Tables
+Table 9-4. Driver Function Table
+DEVICE
+INPUTS
+OUTPUTS
+DRIVEN BUS STATE
+STB (1)
+TXD(1) (2)
+CANH(1)
+CANL(1)
+All Devices
+L
+L
+H
+L
+Dominant
+H or Open
+Z
+Z
+Recessive
+H or Open
+X
+Z
+Z
+Recessive
+(1)
+H = high level, L = low level, X = irrelevant, Z = common mode (recessive) bias to VCC / 2. See CAN Bus States for bus state and 
+common mode bias information.
+(2)
+Devices have an internal pull up to VCC or VIO on TXD terminal. If the TXD terminal is open, the terminal is pulled high and the 
+transmitter remain in recessive (non-driven) state.
+Table 9-5. Receiver Function Table
+DEVICE MODE
+CAN DIFFERENTIAL INPUTS
+VID = VCANH – VCANL
+BUS STATE
+RXD TERMINAL(1)
+Normal
+VID ≥ VIT+(MAX)
+Dominant
+L(2)
+VIT-(MIN) < VID < VIT+(MAX)
+?
+?(2)
+VID ≤ VIT-(MIN)
+Recessive
+H(2)
+Open (VID ≈ 0 V)
+Open
+H
+(1)
+H = high level, L = low level, ? = indeterminate.
+(2)
+See Receiver Electrical Characteristics section for input thresholds.
+www.ti.com
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+Copyright © 2021 Texas Instruments Incorporated
+Submit Document Feedback
+25
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+10 Application Information Disclaimer
+Note
+Information in the following applications sections is not part of the TI component specification, 
+and TI does not warrant its accuracy or completeness. TI’s customers are responsible for 
+determining suitability of components for their purposes, as well as validating and testing their design 
+implementation to confirm system functionality.
+10.1 Application Information
+These CAN transceivers are typically used in applications with a host microprocessor or FPGA that includes the 
+data link layer portion of the CAN protocol. Below are typical application configurations for both 5 V and 3.3 V 
+microprocessor applications. The bus termination is shown for illustrative purposes.
+10.2 Typical Applications
+MCU or DSP
+CAN 
+Controller
+CAN 
+Transceiver
+Node 1
+MCU or DSP
+CAN 
+Controller
+CAN 
+Transceiver
+Node 2
+MCU or DSP
+CAN 
+Controller
+CAN 
+Transceiver
+Node 3
+MCU or DSP
+CAN 
+Controller
+CAN 
+Transceiver
+Node n
+(with termination)
+RTERM
+RTERM
+Figure 10-1. Typical CAN Bus Application
+10.2.1 Design Requirements
+10.2.1.1 Bus Loading, Length and Number of Nodes
+The ISO 11898-2 Standard specifies a maximum bus length of 40 m and maximum stub length of 0.3 m. 
+However, with careful design, users can have longer cables, longer stub lengths, and many more nodes to a 
+bus. A large number of nodes requires transceivers with high input impedance such as the TCAN1042 family of 
+transceivers.
+Many CAN organizations and standards have scaled the use of CAN for applications outside the original ISO 
+11898-2. They have made system-level trade-offs for data rate, cable length, and parasitic loading of the bus. 
+Examples of some of these specifications are ARINC825, CANopen, DeviceNet and NMEA2000.
+The TCAN1042 family is specified to meet the 1.5 V requirement with a 50Ω load, incorporating the worst case 
+including parallel transceivers. The differential input resistance of the TCAN1042 family is a minimum of 30 kΩ. 
+If 100 TCAN1042 family transceivers are in parallel on a bus, this is equivalent to a 300Ω differential load worst 
+case. That transceiver load of 300 Ω in parallel with the 60Ω gives an equivalent loading of 50 Ω. Therefore, 
+the TCAN1042 family theoretically supports up to 100 transceivers on a single bus segment. However, for CAN 
+network design margin must be given for signal loss across the system and cabling, parasitic loadings, network 
+imbalances, ground offsets and signal integrity thus a practical maximum number of nodes is typically much 
+lower. Bus length may also be extended beyond the original ISO 11898 standard of 40 m by careful system 
+design and data rate tradeoffs. For example, CANopen network design guidelines allow the network to be up to 
+1 km with changes in the termination resistance, cabling, less than 64 nodes and significantly lowered data rate.
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+www.ti.com
+26
+Submit Document Feedback
+Copyright © 2021 Texas Instruments Incorporated
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+This flexibility in CAN network design is one of the key strengths of the various extensions and additional 
+standards that have been built on the original ISO 11898-2 CAN standard. In using this flexibility comes the 
+responsibility of good network design and balancing these tradeoffs.
+10.2.2 Detailed Design Procedures
+10.2.2.1 CAN Termination
+The ISO 11898 standard specifies the interconnect to be a twisted pair cable (shielded or unshielded) with 120-Ω 
+characteristic impedance (ZO). Resistors equal to the characteristic impedance of the line should be used to 
+terminate both ends of the cable to prevent signal reflections. Unterminated drop lines (stubs) connecting nodes 
+to the bus should be kept as short as possible to minimize signal reflections. The termination may be on the 
+cable or in a node, but if nodes may be removed from the bus, the termination must be carefully placed so that 
+two terminations always exist on the network.
+Termination may be a single 120-Ω resistor at the end of the bus, either on the cable or in a terminating node. 
+If filtering and stabilization of the common mode voltage of the bus is desired, then split termination may be 
+used. (See Figure 10-2). Split termination improves the electromagnetic emissions behavior of the network by 
+eliminating fluctuations in the bus common-mode voltages at the start and end of message transmissions.
+CAN
+Transceiver
+CANL
+CANH
+RTERM/2
+CSPLIT
+CAN
+Transceiver
+RTERM
+RTERM/2
+Standard Termination
+Split Termination
+CANL
+CANH
+Copyright © 2016, Texas Instruments Incorporated
+Figure 10-2. CAN Bus Termination Concepts
+The family of transceivers have variants for both 5-V only applications and applications where level shifting is 
+needed for a 3.3-V microcontroller.
+www.ti.com
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+Copyright © 2021 Texas Instruments Incorporated
+Submit Document Feedback
+27
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+Figure 10-3. Typical CAN Bus Application Using 5V CAN Controller
+Figure 10-4. Typical CAN Bus Application Using 3.3 V CAN Controller
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+www.ti.com
+28
+Submit Document Feedback
+Copyright © 2021 Texas Instruments Incorporated
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+10.2.3 Application Curves
+VCC (V)
+ICC Dominant (mA)
+4.5
+4.6
+4.7
+4.8
+4.9
+5
+5.1
+5.2
+5.3
+5.4
+5.5
+0
+10
+20
+30
+40
+50
+D005
+VCC = 4.5 V to 5.5 V
+VIO = 3.3 V
+RL = 60 Ω
+CL = Open
+Temp = 25°C
+STB = 0 V
+Figure 10-5. ICC Dominant Current over VCC Supply Voltage
+11 Power Supply Recommendations
+These devices are designed to operate from a VCC input supply voltage range between 4.5 V and 5.5 V. Some 
+devices have an output level shifting supply input, VIO, designed for a range between 3 V and 5.5 V. Both supply 
+inputs must be well regulated. A bulk capacitance, typically 4.7 μF, should be placed near the CAN transceiver's 
+main VCC supply output, and in addition a bypass capacitor, typically 0.1 μF, should be placed as close to the 
+device VCC and VIO supply terminals. This helps to reduce supply voltage ripple present on the outputs of the 
+switched-mode power supplies and also helps to compensate for the resistance and inductance of the PCB 
+power planes and traces.
+www.ti.com
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+Copyright © 2021 Texas Instruments Incorporated
+Submit Document Feedback
+29
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+Layout
+Robust and reliable bus node design often requires the use of external transient protection device in order to 
+protect against EFT and surge transients that may occur in industrial environments. Because ESD and transients 
+have a wide frequency bandwidth from approximately 3 MHz to 3 GHz, high-frequency layout techniques must 
+be applied during PCB design. The family comes with high on-chip IEC ESD protection, but if higher levels of 
+system level immunity are desired external TVS diodes can be used. TVS diodes and bus filtering capacitors 
+should be placed as close to the on-board connectors as possible to prevent noisy transient events from 
+propagating further into the PCB and system.
+12.1 Layout Guidelines
+•
+Place the protection and filtering circuitry as close to the bus connector, J1, to prevent transients, ESD and 
+noise from propagating onto the board. In this layout example a transient voltage suppression (TVS) device, 
+D1, has been used for added protection. The production solution can be either bi-directional TVS diode 
+or varistor with ratings matching the application requirements. This example also shows optional bus filter 
+capacitors C4 and C5. Additionally (not shown) a series common mode choke (CMC) can be placed on the 
+CANH and CANL lines between the transceiver U1 and connector J1.
+•
+Design the bus protection components in the direction of the signal path. Do not force the transient current to 
+divert from the signal path to reach the protection device.
+•
+Use supply (VCC) and ground planes to provide low inductance.
+Note
+High-frequency currents follows the path of least impedance and not the path of least resistance.
+•
+Use at least two vias for supply (VCC) and ground connections of bypass capacitors and protection devices to 
+minimize trace and via inductance.
+•
+Bypass and bulk capacitors should be placed as close as possible to the supply terminals of transceiver, 
+examples are C1, C2 on the VCC supply and C6 and C7 on the VIO supply.
+•
+Bus termination: this layout example shows split termination. This is where the termination is split into two 
+resistors, R6 and R7, with the center or split tap of the termination connected to ground via capacitor C3. Split 
+termination provides common mode filtering for the bus. When bus termination is placed on the board instead 
+of directly on the bus, additional care must be taken to ensure the terminating node is not removed from the 
+bus thus also removing the termination. See the application section for information on power ratings needed 
+for the termination resistor(s).
+•
+To limit current of digital lines, serial resistors may be used. Examples are R2, R3, and R4. These are not 
+required.
+•
+Terminal 1: R1 is shown optionally for the TXD input of the device. If an open drain host processor is used, 
+this is mandatory to ensure the bit timing into the device is met.
+•
+Terminal 5: For "V" variants of the family, bypass capacitors should be placed as close to the pin as possible 
+(example C6 and C7). For device options without VIO I/O level shifting, this pin is not internally connected and 
+can be left floating or tied to any existing net, for example a split pin connection.
+•
+Terminal 8: is shown assuming the mode terminal, STB, will be used. If the device will only be used in normal 
+mode, R4 is not needed and R5 could be used for the pull down resistor to GND.
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+www.ti.com
+30
+Submit Document Feedback
+Copyright © 2021 Texas Instruments Incorporated
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+12.2 Layout Example
+GND
+J1
+U1
+U1
+R3
+R2
+RXD
+C2
+VCC
+TXD
+C3
+C1
+C6
+GND
+C7
+STB
+GND
+GND
+R4
+R7
+R6
+C4
+C5
+D1
+R5
+GND
+VIO
+VCC or VIO
+R1
+1
+2
+3
+4
+5
+6
+7
+8
+Figure 12-1. Layout Example
+www.ti.com
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+Copyright © 2021 Texas Instruments Incorporated
+Submit Document Feedback
+31
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+12 Device and Documentation Support
+12.1 Receiving Notification of Documentation Updates
+To receive notification of documentation updates, navigate to the device product folder on ti.com. Click on 
+Subscribe to updates to register and receive a weekly digest of any product information that has changed. For 
+change details, review the revision history included in any revised document.
+12.2 Support Resources
+TI E2E™ support forums are an engineer's go-to source for fast, verified answers and design help — straight 
+from the experts. Search existing answers or ask your own question to get the quick design help you need.
+Linked content is provided "AS IS" by the respective contributors. They do not constitute TI specifications and do 
+not necessarily reflect TI's views; see TI's Terms of Use.
+12.3 Trademarks
+TI E2E™ is a trademark of Texas Instruments.
+All trademarks are the property of their respective owners.
+12.4 Electrostatic Discharge Caution
+This integrated circuit can be damaged by ESD. Texas Instruments recommends that all integrated circuits be handled 
+with appropriate precautions. Failure to observe proper handling and installation procedures can cause damage.
+ESD damage can range from subtle performance degradation to complete device failure. Precision integrated circuits may 
+be more susceptible to damage because very small parametric changes could cause the device not to meet its published 
+specifications.
+12.5 Glossary
+TI Glossary 
+This glossary lists and explains terms, acronyms, and definitions.
+13 Mechanical, Packaging, and Orderable Information
+The following pages include mechanical, packaging, and orderable information. This information is the most 
+current data available for the designated devices. This data is subject to change without notice and revision of 
+this document. For browser-based versions of this data sheet, refer to the left-hand navigation.
+TCAN1042-Q1, TCAN1042V-Q1, TCAN1042H-Q1, TCAN1042HV-Q1
+TCAN1042G-Q1, TCAN1042GV-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1
+SLLSES9D – FEBRUARY 2016 – REVISED OCTOBER 2021
+www.ti.com
+32
+Submit Document Feedback
+Copyright © 2021 Texas Instruments Incorporated
+Product Folder Links: TCAN1042-Q1 TCAN1042V-Q1 TCAN1042H-Q1 TCAN1042HV-Q1 TCAN1042G-Q1 
+TCAN1042GV-Q1 TCAN1042HG-Q1 TCAN1042HGV-Q1
+
+PACKAGE OPTION ADDENDUM
+www.ti.com
+9-Nov-2025
+PACKAGING INFORMATION
+Orderable part number
+Status
+(1)
+Material type
+(2)
+Package | Pins
+Package qty | Carrier
+RoHS
+(3)
+Lead finish/
+Ball material
+(4)
+MSL rating/
+Peak reflow
+(5)
+Op temp (°C)
+Part marking
+(6)
+TCAN1042DQ1
+Obsolete
+Production
+SOIC (D) | 8
+-
+-
+Call TI
+Call TI
+-55 to 125
+1042
+TCAN1042DRBRQ1
+Active
+Production
+SON (DRB) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU | SN
+Level-2-260C-1 YEAR
+-55 to 125
+1042
+TCAN1042DRBRQ1.A
+Active
+Production
+SON (DRB) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042
+TCAN1042DRBRQ1.B
+Active
+Production
+SON (DRB) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042
+TCAN1042DRBTQ1
+Active
+Production
+SON (DRB) | 8
+250 | SMALL T&R
+Yes
+NIPDAU | SN
+Level-2-260C-1 YEAR
+-55 to 125
+1042
+TCAN1042DRBTQ1.B
+Active
+Production
+SON (DRB) | 8
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042
+TCAN1042DRQ1
+Active
+Production
+SOIC (D) | 8
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-55 to 125
+1042
+TCAN1042DRQ1.A
+Active
+Production
+SOIC (D) | 8
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-55 to 125
+1042
+TCAN1042DRQ1.B
+Active
+Production
+SOIC (D) | 8
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-55 to 125
+1042
+TCAN1042GDQ1
+Obsolete
+Production
+SOIC (D) | 8
+-
+-
+Call TI
+Call TI
+-55 to 125
+1042
+TCAN1042GDRBRQ1
+Active
+Production
+SON (DRB) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU | SN
+Level-2-260C-1 YEAR
+-55 to 125
+1042
+TCAN1042GDRBRQ1.A
+Active
+Production
+SON (DRB) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042
+TCAN1042GDRBRQ1.B
+Active
+Production
+SON (DRB) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042
+TCAN1042GDRBTQ1
+Active
+Production
+SON (DRB) | 8
+250 | SMALL T&R
+Yes
+NIPDAU | SN
+Level-2-260C-1 YEAR
+-55 to 125
+1042
+TCAN1042GDRBTQ1.B
+Active
+Production
+SON (DRB) | 8
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042
+TCAN1042GDRQ1
+Active
+Production
+SOIC (D) | 8
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-55 to 125
+1042
+TCAN1042GDRQ1.A
+Active
+Production
+SOIC (D) | 8
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-55 to 125
+1042
+TCAN1042GDRQ1.B
+Active
+Production
+SOIC (D) | 8
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-55 to 125
+1042
+TCAN1042GVDQ1
+Obsolete
+Production
+SOIC (D) | 8
+-
+-
+Call TI
+Call TI
+-55 to 125
+1042V
+TCAN1042GVDRBRQ1
+Active
+Production
+SON (DRB) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU | SN
+Level-2-260C-1 YEAR
+-55 to 125
+1042V
+TCAN1042GVDRBRQ1.A
+Active
+Production
+SON (DRB) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042V
+TCAN1042GVDRBRQ1.B
+Active
+Production
+SON (DRB) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042V
+TCAN1042GVDRBTQ1
+Active
+Production
+SON (DRB) | 8
+250 | SMALL T&R
+Yes
+NIPDAU | SN
+Level-2-260C-1 YEAR
+-55 to 125
+1042V
+TCAN1042GVDRBTQ1.A
+Active
+Production
+SON (DRB) | 8
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042V
+TCAN1042GVDRBTQ1.B
+Active
+Production
+SON (DRB) | 8
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042V
+TCAN1042GVDRQ1
+Active
+Production
+SOIC (D) | 8
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-55 to 125
+1042V
+TCAN1042GVDRQ1.A
+Active
+Production
+SOIC (D) | 8
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-55 to 125
+1042V
+TCAN1042GVDRQ1.B
+Active
+Production
+SOIC (D) | 8
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-55 to 125
+1042V
+TCAN1042HDQ1
+Obsolete
+Production
+SOIC (D) | 8
+-
+-
+Call TI
+Call TI
+-55 to 125
+1042
+Addendum-Page 1
+
+PACKAGE OPTION ADDENDUM
+www.ti.com
+9-Nov-2025
+Orderable part number
+Status
+(1)
+Material type
+(2)
+Package | Pins
+Package qty | Carrier
+RoHS
+(3)
+Lead finish/
+Ball material
+(4)
+MSL rating/
+Peak reflow
+(5)
+Op temp (°C)
+Part marking
+(6)
+TCAN1042HDRBRQ1
+Active
+Production
+SON (DRB) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU | SN
+Level-2-260C-1 YEAR
+-55 to 125
+1042
+TCAN1042HDRBRQ1.A
+Active
+Production
+SON (DRB) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042
+TCAN1042HDRBRQ1.B
+Active
+Production
+SON (DRB) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042
+TCAN1042HDRBTQ1
+Active
+Production
+SON (DRB) | 8
+250 | SMALL T&R
+Yes
+NIPDAU | SN
+Level-2-260C-1 YEAR
+-55 to 125
+1042
+TCAN1042HDRBTQ1.B
+Active
+Production
+SON (DRB) | 8
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042
+TCAN1042HDRQ1
+Active
+Production
+SOIC (D) | 8
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-55 to 125
+1042
+TCAN1042HDRQ1.A
+Active
+Production
+SOIC (D) | 8
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-55 to 125
+1042
+TCAN1042HDRQ1.B
+Active
+Production
+SOIC (D) | 8
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-55 to 125
+1042
+TCAN1042HGDQ1
+Obsolete
+Production
+SOIC (D) | 8
+-
+-
+Call TI
+Call TI
+-55 to 125
+1042
+TCAN1042HGDRBRQ1
+Active
+Production
+SON (DRB) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU | SN
+Level-2-260C-1 YEAR
+-55 to 125
+1042
+TCAN1042HGDRBRQ1.A
+Active
+Production
+SON (DRB) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042
+TCAN1042HGDRBRQ1.B
+Active
+Production
+SON (DRB) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042
+TCAN1042HGDRBTQ1
+Active
+Production
+SON (DRB) | 8
+250 | SMALL T&R
+Yes
+NIPDAU | SN
+Level-2-260C-1 YEAR
+-55 to 125
+1042
+TCAN1042HGDRBTQ1.A
+Active
+Production
+SON (DRB) | 8
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042
+TCAN1042HGDRBTQ1.B
+Active
+Production
+SON (DRB) | 8
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042
+TCAN1042HGDRQ1
+Active
+Production
+SOIC (D) | 8
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-55 to 125
+1042
+TCAN1042HGDRQ1.A
+Active
+Production
+SOIC (D) | 8
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-55 to 125
+1042
+TCAN1042HGDRQ1.B
+Active
+Production
+SOIC (D) | 8
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-55 to 125
+1042
+TCAN1042HGVDQ1
+Obsolete
+Production
+SOIC (D) | 8
+-
+-
+Call TI
+Call TI
+-55 to 125
+1042V
+TCAN1042HGVDRBRQ1
+Active
+Production
+SON (DRB) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU | SN
+Level-2-260C-1 YEAR
+-55 to 125
+1042V
+TCAN1042HGVDRBRQ1.A
+Active
+Production
+SON (DRB) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042V
+TCAN1042HGVDRBRQ1.B
+Active
+Production
+SON (DRB) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042V
+TCAN1042HGVDRBTQ1
+Active
+Production
+SON (DRB) | 8
+250 | SMALL T&R
+Yes
+NIPDAU | SN
+Level-2-260C-1 YEAR
+-55 to 125
+1042V
+TCAN1042HGVDRBTQ1.A
+Active
+Production
+SON (DRB) | 8
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042V
+TCAN1042HGVDRBTQ1.B
+Active
+Production
+SON (DRB) | 8
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042V
+TCAN1042HGVDRQ1
+Active
+Production
+SOIC (D) | 8
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-55 to 125
+1042V
+TCAN1042HGVDRQ1.A
+Active
+Production
+SOIC (D) | 8
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-55 to 125
+1042V
+TCAN1042HGVDRQ1.B
+Active
+Production
+SOIC (D) | 8
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-55 to 125
+1042V
+TCAN1042HVDQ1
+Obsolete
+Production
+SOIC (D) | 8
+-
+-
+Call TI
+Call TI
+-55 to 125
+1042V
+TCAN1042HVDRBRQ1
+Active
+Production
+SON (DRB) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU | SN
+Level-2-260C-1 YEAR
+-55 to 125
+1042V
+TCAN1042HVDRBRQ1.A
+Active
+Production
+SON (DRB) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042V
+Addendum-Page 2
+
+PACKAGE OPTION ADDENDUM
+www.ti.com
+9-Nov-2025
+Orderable part number
+Status
+(1)
+Material type
+(2)
+Package | Pins
+Package qty | Carrier
+RoHS
+(3)
+Lead finish/
+Ball material
+(4)
+MSL rating/
+Peak reflow
+(5)
+Op temp (°C)
+Part marking
+(6)
+TCAN1042HVDRBRQ1.B
+Active
+Production
+SON (DRB) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042V
+TCAN1042HVDRBTQ1
+Active
+Production
+SON (DRB) | 8
+250 | SMALL T&R
+Yes
+NIPDAU | SN
+Level-2-260C-1 YEAR
+-55 to 125
+1042V
+TCAN1042HVDRBTQ1.A
+Active
+Production
+SON (DRB) | 8
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042V
+TCAN1042HVDRBTQ1.B
+Active
+Production
+SON (DRB) | 8
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042V
+TCAN1042HVDRQ1
+Active
+Production
+SOIC (D) | 8
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-55 to 125
+1042V
+TCAN1042HVDRQ1.A
+Active
+Production
+SOIC (D) | 8
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-55 to 125
+1042V
+TCAN1042HVDRQ1.B
+Active
+Production
+SOIC (D) | 8
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-55 to 125
+1042V
+TCAN1042VDQ1
+Obsolete
+Production
+SOIC (D) | 8
+-
+-
+Call TI
+Call TI
+-55 to 125
+1042V
+TCAN1042VDRBRQ1
+Active
+Production
+SON (DRB) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU | SN
+Level-2-260C-1 YEAR
+-55 to 125
+1042V
+TCAN1042VDRBRQ1.A
+Active
+Production
+SON (DRB) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042V
+TCAN1042VDRBRQ1.B
+Active
+Production
+SON (DRB) | 8
+3000 | LARGE T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042V
+TCAN1042VDRBTQ1
+Active
+Production
+SON (DRB) | 8
+250 | SMALL T&R
+Yes
+NIPDAU | SN
+Level-2-260C-1 YEAR
+-55 to 125
+1042V
+TCAN1042VDRBTQ1.A
+Active
+Production
+SON (DRB) | 8
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042V
+TCAN1042VDRBTQ1.B
+Active
+Production
+SON (DRB) | 8
+250 | SMALL T&R
+Yes
+NIPDAU
+Level-2-260C-1 YEAR
+-55 to 125
+1042V
+TCAN1042VDRQ1
+Active
+Production
+SOIC (D) | 8
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-55 to 125
+1042V
+TCAN1042VDRQ1.A
+Active
+Production
+SOIC (D) | 8
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-55 to 125
+1042V
+TCAN1042VDRQ1.B
+Active
+Production
+SOIC (D) | 8
+2500 | LARGE T&R
+Yes
+NIPDAU
+Level-1-260C-UNLIM
+-55 to 125
+1042V
+ 
+(1) Status:  For more details on status, see our product life cycle.
+ 
+(2) Material type:  When designated, preproduction parts are prototypes/experimental devices, and are not yet approved or released for full production. Testing and final process, including without limitation quality assurance,
+reliability performance testing, and/or process qualification, may not yet be complete, and this item is subject to further changes or possible discontinuation. If available for ordering, purchases will be subject to an additional
+waiver at checkout, and are intended for early internal evaluation purposes only. These items are sold without warranties of any kind.
+ 
+(3) RoHS values:  Yes, No, RoHS Exempt. See the TI RoHS Statement for additional information and value definition.
+ 
+(4) Lead finish/Ball material:  Parts may have multiple material finish options. Finish options are separated by a vertical ruled line. Lead finish/Ball material values may wrap to two lines if the finish value exceeds the maximum
+column width.
+ 
+(5) MSL rating/Peak reflow:  The moisture sensitivity level ratings and peak solder (reflow) temperatures. In the event that a part has multiple moisture sensitivity ratings, only the lowest level per JEDEC standards is shown.
+Refer to the shipping label for the actual reflow temperature that will be used to mount the part to the printed circuit board.
+ 
+Addendum-Page 3
+
+PACKAGE OPTION ADDENDUM
+www.ti.com
+9-Nov-2025
+(6) Part marking:  There may be an additional marking, which relates to the logo, the lot trace code information, or the environmental category of the part.
+ 
+Multiple part markings will be inside parentheses. Only one part marking contained in parentheses and separated by a "~" will appear on a part. If a line is indented then it is a continuation of the previous line and the two
+combined represent the entire part marking for that device.
+ 
+Important Information and Disclaimer:The information provided on this page represents TI's knowledge and belief as of the date that it is provided. TI bases its knowledge and belief on information provided by third parties, and
+makes no representation or warranty as to the accuracy of such information. Efforts are underway to better integrate information from third parties. TI has taken and continues to take reasonable steps to provide representative
+and accurate information but may not have conducted destructive testing or chemical analysis on incoming materials and chemicals. TI and TI suppliers consider certain information to be proprietary, and thus CAS numbers
+and other limited information may not be available for release.
+ 
+In no event shall TI's liability arising out of such information exceed the total purchase price of the TI part(s) at issue in this document sold by TI to Customer on an annual basis.
+ 
+ OTHER QUALIFIED VERSIONS OF TCAN1042H-Q1, TCAN1042HG-Q1, TCAN1042HGV-Q1, TCAN1042HV-Q1 :
+• Catalog : TCAN1042H, TCAN1042HG, TCAN1042HGV, TCAN1042HV
+ NOTE: Qualified Version Definitions:
+• Catalog - TI's standard catalog product
+Addendum-Page 4
+
+PACKAGE MATERIALS INFORMATION
+ 
+ 
+www.ti.com
+3-Aug-2026
+TAPE AND REEL INFORMATION
+Reel Width (W1)
+REEL DIMENSIONS
+A0
+B0
+K0
+W
+Dimension designed to accommodate the component length
+Dimension designed to accommodate the component thickness
+Overall width of the carrier tape
+Pitch between successive cavity centers
+Dimension designed to accommodate the component width
+TAPE DIMENSIONS
+K0
+ P1
+B0 W
+A0
+Cavity
+QUADRANT ASSIGNMENTS FOR PIN 1 ORIENTATION IN TAPE
+Pocket Quadrants
+Sprocket Holes
+Q1
+Q1
+Q2
+Q2
+Q3
+Q3
+Q4
+Q4
+User Direction of Feed
+P1
+Reel
+Diameter
+ 
+*All dimensions are nominal
+Device
+Package
+Type
+Package
+Drawing
+Pins
+SPQ
+Reel
+Diameter
+(mm)
+Reel
+Width
+W1 (mm)
+A0
+(mm)
+B0
+(mm)
+K0
+(mm)
+P1
+(mm)
+W
+(mm)
+Pin1
+Quadrant
+TCAN1042DRBRQ1
+SON
+DRB
+8
+3000
+330.0
+12.4
+3.3
+3.3
+1.1
+8.0
+12.0
+Q2
+TCAN1042DRBTQ1
+SON
+DRB
+8
+250
+180.0
+12.4
+3.3
+3.3
+1.1
+8.0
+12.0
+Q2
+TCAN1042DRQ1
+SOIC
+D
+8
+2500
+330.0
+12.5
+6.4
+5.2
+2.1
+8.0
+12.0
+Q1
+TCAN1042GDRBRQ1
+SON
+DRB
+8
+3000
+330.0
+12.4
+3.3
+3.3
+1.0
+8.0
+12.0
+Q2
+TCAN1042GDRBRQ1
+SON
+DRB
+8
+3000
+330.0
+12.4
+3.3
+3.3
+1.1
+8.0
+12.0
+Q2
+TCAN1042GDRBTQ1
+SON
+DRB
+8
+250
+180.0
+12.4
+3.3
+3.3
+1.0
+8.0
+12.0
+Q2
+TCAN1042GDRBTQ1
+SON
+DRB
+8
+250
+180.0
+12.4
+3.3
+3.3
+1.1
+8.0
+12.0
+Q2
+TCAN1042GDRQ1
+SOIC
+D
+8
+2500
+330.0
+12.5
+6.4
+5.2
+2.1
+8.0
+12.0
+Q1
+TCAN1042GVDRBRQ1
+SON
+DRB
+8
+3000
+330.0
+12.4
+3.3
+3.3
+1.1
+8.0
+12.0
+Q2
+TCAN1042GVDRBRQ1
+SON
+DRB
+8
+3000
+330.0
+12.4
+3.3
+3.3
+1.0
+8.0
+12.0
+Q2
+TCAN1042GVDRBTQ1
+SON
+DRB
+8
+250
+180.0
+12.4
+3.3
+3.3
+1.0
+8.0
+12.0
+Q2
+TCAN1042GVDRBTQ1
+SON
+DRB
+8
+250
+180.0
+12.4
+3.3
+3.3
+1.1
+8.0
+12.0
+Q2
+TCAN1042GVDRQ1
+SOIC
+D
+8
+2500
+330.0
+12.4
+6.4
+5.2
+2.1
+8.0
+12.0
+Q1
+TCAN1042GVDRQ1
+SOIC
+D
+8
+2500
+330.0
+12.5
+6.4
+5.2
+2.1
+8.0
+12.0
+Q1
+TCAN1042HDRBRQ1
+SON
+DRB
+8
+3000
+330.0
+12.4
+3.3
+3.3
+1.1
+8.0
+12.0
+Q2
+TCAN1042HDRBRQ1
+SON
+DRB
+8
+3000
+330.0
+12.4
+3.3
+3.3
+1.0
+8.0
+12.0
+Q2
+Pack Materials-Page 1
+
+PACKAGE MATERIALS INFORMATION
+ 
+ 
+www.ti.com
+3-Aug-2026
+Device
+Package
+Type
+Package
+Drawing
+Pins
+SPQ
+Reel
+Diameter
+(mm)
+Reel
+Width
+W1 (mm)
+A0
+(mm)
+B0
+(mm)
+K0
+(mm)
+P1
+(mm)
+W
+(mm)
+Pin1
+Quadrant
+TCAN1042HDRBTQ1
+SON
+DRB
+8
+250
+180.0
+12.4
+3.3
+3.3
+1.0
+8.0
+12.0
+Q2
+TCAN1042HDRBTQ1
+SON
+DRB
+8
+250
+180.0
+12.4
+3.3
+3.3
+1.1
+8.0
+12.0
+Q2
+TCAN1042HDRQ1
+SOIC
+D
+8
+2500
+330.0
+12.5
+6.4
+5.2
+2.1
+8.0
+12.0
+Q1
+TCAN1042HGDRBRQ1
+SON
+DRB
+8
+3000
+330.0
+12.4
+3.3
+3.3
+1.1
+8.0
+12.0
+Q2
+TCAN1042HGDRBRQ1
+SON
+DRB
+8
+3000
+330.0
+12.4
+3.3
+3.3
+1.0
+8.0
+12.0
+Q2
+TCAN1042HGDRBTQ1
+SON
+DRB
+8
+250
+180.0
+12.4
+3.3
+3.3
+1.0
+8.0
+12.0
+Q2
+TCAN1042HGDRBTQ1
+SON
+DRB
+8
+250
+180.0
+12.4
+3.3
+3.3
+1.1
+8.0
+12.0
+Q2
+TCAN1042HGDRQ1
+SOIC
+D
+8
+2500
+330.0
+12.5
+6.4
+5.2
+2.1
+8.0
+12.0
+Q1
+TCAN1042HGVDRBRQ1
+SON
+DRB
+8
+3000
+330.0
+12.4
+3.3
+3.3
+1.0
+8.0
+12.0
+Q2
+TCAN1042HGVDRBRQ1
+SON
+DRB
+8
+3000
+330.0
+12.4
+3.3
+3.3
+1.1
+8.0
+12.0
+Q2
+TCAN1042HGVDRBTQ1
+SON
+DRB
+8
+250
+180.0
+12.4
+3.3
+3.3
+1.1
+8.0
+12.0
+Q2
+TCAN1042HGVDRBTQ1
+SON
+DRB
+8
+250
+180.0
+12.4
+3.3
+3.3
+1.0
+8.0
+12.0
+Q2
+TCAN1042HGVDRQ1
+SOIC
+D
+8
+2500
+330.0
+12.4
+6.4
+5.2
+2.1
+8.0
+12.0
+Q1
+TCAN1042HGVDRQ1
+SOIC
+D
+8
+2500
+330.0
+12.5
+6.4
+5.2
+2.1
+8.0
+12.0
+Q1
+TCAN1042HVDRBRQ1
+SON
+DRB
+8
+3000
+330.0
+12.4
+3.3
+3.3
+1.1
+8.0
+12.0
+Q2
+TCAN1042HVDRBRQ1
+SON
+DRB
+8
+3000
+330.0
+12.4
+3.3
+3.3
+1.0
+8.0
+12.0
+Q2
+TCAN1042HVDRBTQ1
+SON
+DRB
+8
+250
+180.0
+12.4
+3.3
+3.3
+1.1
+8.0
+12.0
+Q2
+TCAN1042HVDRBTQ1
+SON
+DRB
+8
+250
+180.0
+12.4
+3.3
+3.3
+1.0
+8.0
+12.0
+Q2
+TCAN1042HVDRQ1
+SOIC
+D
+8
+2500
+330.0
+12.5
+6.4
+5.2
+2.1
+8.0
+12.0
+Q1
+TCAN1042HVDRQ1
+SOIC
+D
+8
+2500
+330.0
+12.4
+6.4
+5.2
+2.1
+8.0
+12.0
+Q1
+TCAN1042VDRBRQ1
+SON
+DRB
+8
+3000
+330.0
+12.4
+3.3
+3.3
+1.1
+8.0
+12.0
+Q2
+TCAN1042VDRBRQ1
+SON
+DRB
+8
+3000
+330.0
+12.4
+3.3
+3.3
+1.0
+8.0
+12.0
+Q2
+TCAN1042VDRBTQ1
+SON
+DRB
+8
+250
+180.0
+12.4
+3.3
+3.3
+1.1
+8.0
+12.0
+Q2
+TCAN1042VDRBTQ1
+SON
+DRB
+8
+250
+180.0
+12.4
+3.3
+3.3
+1.0
+8.0
+12.0
+Q2
+TCAN1042VDRQ1
+SOIC
+D
+8
+2500
+330.0
+12.4
+6.4
+5.2
+2.1
+8.0
+12.0
+Q1
+TCAN1042VDRQ1
+SOIC
+D
+8
+2500
+330.0
+12.5
+6.4
+5.2
+2.1
+8.0
+12.0
+Q1
+Pack Materials-Page 2
+
+PACKAGE MATERIALS INFORMATION
+ 
+ 
+www.ti.com
+3-Aug-2026
+TAPE AND REEL BOX DIMENSIONS
+Width (mm)
+W
+L
+H
+ 
+*All dimensions are nominal
+Device
+Package Type
+Package Drawing
+Pins
+SPQ
+Length (mm)
+Width (mm)
+Height (mm)
+TCAN1042DRBRQ1
+SON
+DRB
+8
+3000
+367.0
+367.0
+35.0
+TCAN1042DRBTQ1
+SON
+DRB
+8
+250
+210.0
+185.0
+35.0
+TCAN1042DRQ1
+SOIC
+D
+8
+2500
+353.0
+353.0
+32.0
+TCAN1042GDRBRQ1
+SON
+DRB
+8
+3000
+346.0
+346.0
+35.0
+TCAN1042GDRBRQ1
+SON
+DRB
+8
+3000
+367.0
+367.0
+35.0
+TCAN1042GDRBTQ1
+SON
+DRB
+8
+250
+200.0
+183.0
+25.0
+TCAN1042GDRBTQ1
+SON
+DRB
+8
+250
+210.0
+185.0
+35.0
+TCAN1042GDRQ1
+SOIC
+D
+8
+2500
+353.0
+353.0
+32.0
+TCAN1042GVDRBRQ1
+SON
+DRB
+8
+3000
+367.0
+367.0
+35.0
+TCAN1042GVDRBRQ1
+SON
+DRB
+8
+3000
+346.0
+346.0
+35.0
+TCAN1042GVDRBTQ1
+SON
+DRB
+8
+250
+200.0
+183.0
+25.0
+TCAN1042GVDRBTQ1
+SON
+DRB
+8
+250
+210.0
+185.0
+35.0
+TCAN1042GVDRQ1
+SOIC
+D
+8
+2500
+353.0
+353.0
+32.0
+TCAN1042GVDRQ1
+SOIC
+D
+8
+2500
+353.0
+353.0
+32.0
+TCAN1042HDRBRQ1
+SON
+DRB
+8
+3000
+367.0
+367.0
+35.0
+TCAN1042HDRBRQ1
+SON
+DRB
+8
+3000
+346.0
+346.0
+35.0
+TCAN1042HDRBTQ1
+SON
+DRB
+8
+250
+200.0
+183.0
+25.0
+TCAN1042HDRBTQ1
+SON
+DRB
+8
+250
+210.0
+185.0
+35.0
+Pack Materials-Page 3
+
+PACKAGE MATERIALS INFORMATION
+ 
+ 
+www.ti.com
+3-Aug-2026
+Device
+Package Type
+Package Drawing
+Pins
+SPQ
+Length (mm)
+Width (mm)
+Height (mm)
+TCAN1042HDRQ1
+SOIC
+D
+8
+2500
+353.0
+353.0
+32.0
+TCAN1042HGDRBRQ1
+SON
+DRB
+8
+3000
+367.0
+367.0
+35.0
+TCAN1042HGDRBRQ1
+SON
+DRB
+8
+3000
+346.0
+346.0
+35.0
+TCAN1042HGDRBTQ1
+SON
+DRB
+8
+250
+200.0
+183.0
+25.0
+TCAN1042HGDRBTQ1
+SON
+DRB
+8
+250
+210.0
+185.0
+35.0
+TCAN1042HGDRQ1
+SOIC
+D
+8
+2500
+353.0
+353.0
+32.0
+TCAN1042HGVDRBRQ1
+SON
+DRB
+8
+3000
+346.0
+346.0
+35.0
+TCAN1042HGVDRBRQ1
+SON
+DRB
+8
+3000
+367.0
+367.0
+35.0
+TCAN1042HGVDRBTQ1
+SON
+DRB
+8
+250
+210.0
+185.0
+35.0
+TCAN1042HGVDRBTQ1
+SON
+DRB
+8
+250
+200.0
+183.0
+25.0
+TCAN1042HGVDRQ1
+SOIC
+D
+8
+2500
+353.0
+353.0
+32.0
+TCAN1042HGVDRQ1
+SOIC
+D
+8
+2500
+353.0
+353.0
+32.0
+TCAN1042HVDRBRQ1
+SON
+DRB
+8
+3000
+367.0
+367.0
+35.0
+TCAN1042HVDRBRQ1
+SON
+DRB
+8
+3000
+346.0
+346.0
+35.0
+TCAN1042HVDRBTQ1
+SON
+DRB
+8
+250
+210.0
+185.0
+35.0
+TCAN1042HVDRBTQ1
+SON
+DRB
+8
+250
+200.0
+183.0
+25.0
+TCAN1042HVDRQ1
+SOIC
+D
+8
+2500
+353.0
+353.0
+32.0
+TCAN1042HVDRQ1
+SOIC
+D
+8
+2500
+353.0
+353.0
+32.0
+TCAN1042VDRBRQ1
+SON
+DRB
+8
+3000
+367.0
+367.0
+35.0
+TCAN1042VDRBRQ1
+SON
+DRB
+8
+3000
+346.0
+346.0
+35.0
+TCAN1042VDRBTQ1
+SON
+DRB
+8
+250
+210.0
+185.0
+35.0
+TCAN1042VDRBTQ1
+SON
+DRB
+8
+250
+200.0
+183.0
+25.0
+TCAN1042VDRQ1
+SOIC
+D
+8
+2500
+353.0
+353.0
+32.0
+TCAN1042VDRQ1
+SOIC
+D
+8
+2500
+353.0
+353.0
+32.0
+Pack Materials-Page 4
+
+www.ti.com
+PACKAGE OUTLINE
+C
+.228-.244 TYP
+[5.80-6.19]
+.069 MAX
+[1.75]     
+6X .050
+[1.27]
+8X .012-.020
+     [0.31-0.51]
+2X
+.150
+[3.81]
+.005-.010 TYP
+[0.13-0.25]
+0 - 8
+.004-.010
+[0.11-0.25]
+.010
+[0.25]
+.016-.050
+[0.41-1.27]
+4X (0 -15 )
+A
+.189-.197
+[4.81-5.00]
+NOTE 3
+B
+.150-.157
+[3.81-3.98]
+NOTE 4
+4X (0 -15 )
+(.041)
+[1.04]
+SOIC - 1.75 mm max height
+D0008A
+SMALL OUTLINE INTEGRATED CIRCUIT
+4214825/C   02/2019
+NOTES: 
+ 
+1. Linear dimensions are in inches [millimeters]. Dimensions in parenthesis are for reference only. Controlling dimensions are in inches.
+    Dimensioning and tolerancing per ASME Y14.5M. 
+2. This drawing is subject to change without notice. 
+3. This dimension does not include mold flash, protrusions, or gate burrs. Mold flash, protrusions, or gate burrs shall not
+    exceed .006 [0.15] per side. 
+4. This dimension does not include interlead flash.
+5. Reference JEDEC registration MS-012, variation AA.
+ 
+1
+8
+.010 [0.25]
+C A B
+5
+4
+PIN 1 ID AREA
+SEATING PLANE
+.004 [0.1] C
+ SEE DETAIL A
+DETAIL A
+TYPICAL
+SCALE  2.800
+
+www.ti.com
+EXAMPLE BOARD LAYOUT
+.0028 MAX
+[0.07]
+ALL AROUND
+.0028 MIN
+[0.07]
+ALL AROUND
+ 
+(.213)
+[5.4]
+6X (.050 )
+[1.27]
+8X (.061 )
+[1.55]
+8X (.024)
+[0.6]
+(R.002 ) TYP
+[0.05]
+SOIC - 1.75 mm max height
+D0008A
+SMALL OUTLINE INTEGRATED CIRCUIT
+4214825/C   02/2019
+NOTES: (continued)
+ 
+6. Publication IPC-7351 may have alternate designs. 
+7. Solder mask tolerances between and around signal pads can vary based on board fabrication site.
+ 
+METAL
+SOLDER MASK
+OPENING
+NON SOLDER MASK
+DEFINED
+SOLDER MASK DETAILS
+EXPOSED
+METAL
+OPENING
+SOLDER MASK
+METAL UNDER
+SOLDER MASK
+SOLDER MASK
+DEFINED
+EXPOSED
+METAL
+LAND PATTERN EXAMPLE
+EXPOSED METAL SHOWN
+SCALE:8X
+SYMM
+1
+4
+5
+8
+SEE
+DETAILS
+SYMM
+
+www.ti.com
+EXAMPLE STENCIL DESIGN
+8X (.061 )
+[1.55]
+8X (.024)
+[0.6]
+6X (.050 )
+[1.27]
+(.213)
+[5.4]
+(R.002 ) TYP
+[0.05]
+SOIC - 1.75 mm max height
+D0008A
+SMALL OUTLINE INTEGRATED CIRCUIT
+4214825/C   02/2019
+NOTES: (continued)
+ 
+8. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+    design recommendations.   
+9. Board assembly site may have different recommendations for stencil design.
+ 
+SOLDER PASTE EXAMPLE
+BASED ON .005 INCH [0.125 MM] THICK STENCIL
+SCALE:8X
+SYMM
+SYMM
+1
+4
+5
+8
+
+
+A
+A
+www.ti.com
+PACKAGE OUTLINE
+C
+8X 0.35
+0.25
+2.4
+0.05
+2X
+1.95
+1.6
+0.05
+6X 0.65
+1 MAX
+8X 0.5
+0.3
+0.05
+0.00
+A
+3.1
+2.9
+B
+3.1
+2.9
+(0.2) TYP
+0.1 MIN
+(0.05)
+VSON - 1 mm max height
+DRB0008F
+PLASTIC SMALL OUTLINE - NO LEAD
+4222121/C   10/2016
+PIN 1 INDEX AREA
+SEATING PLANE
+0.08 C
+1
+4
+5
+8
+(OPTIONAL)
+PIN 1 ID
+0.1
+C A B
+0.05
+C
+THERMAL PAD
+EXPOSED
+NOTES:
+ 
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+    per ASME Y14.5M. 
+2. This drawing is subject to change without notice. 
+3. The package thermal pad must be soldered to the printed circuit board for thermal and mechanical performance.
+SCALE  4.000
+SCALE  30.000
+SECTION  A-A
+SECTION A-A
+TYPICAL
+
+www.ti.com
+EXAMPLE BOARD LAYOUT
+0.07 MIN
+ALL AROUND
+0.07 MAX
+ALL AROUND
+8X (0.3)
+(2.4)
+(2.8)
+6X (0.65)
+(1.6)
+(
+0.2) VIA
+TYP
+(0.55)
+(0.95)
+8X (0.6)
+(R0.05) TYP
+VSON - 1 mm max height
+DRB0008F
+PLASTIC SMALL OUTLINE - NO LEAD
+4222121/C   10/2016
+SYMM
+1
+4
+5
+8
+LAND PATTERN EXAMPLE
+SCALE:20X
+NOTES: (continued)
+ 
+4. This package is designed to be soldered to a thermal pad on the board. For more information, see Texas Instruments literature
+    number SLUA271 (www.ti.com/lit/slua271).
+5. Vias are optional depending on application, refer to device data sheet. If any vias are implemented, refer to their locations shown
+    on this view. It is recommended that vias under paste be filled, plugged or tented.
+ 
+SOLDER MASK
+OPENING
+SOLDER MASK
+METAL UNDER
+SOLDER MASK
+DEFINED
+METAL
+SOLDER MASK
+OPENING
+SOLDER MASK DETAILS
+NON SOLDER MASK
+DEFINED
+(PREFERRED)
+
+www.ti.com
+EXAMPLE STENCIL DESIGN
+(R0.05) TYP
+8X (0.3)
+8X (0.6)
+(1.47)
+(1.07)
+(2.8)
+(0.635)
+6X (0.65)
+VSON - 1 mm max height
+DRB0008F
+PLASTIC SMALL OUTLINE - NO LEAD
+4222121/C   10/2016
+NOTES: (continued)
+ 
+6. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+    design recommendations. 
+ 
+SOLDER PASTE EXAMPLE
+BASED ON 0.125 mm THICK STENCIL
+ 
+EXPOSED PAD
+ 82% PRINTED SOLDER COVERAGE BY AREA
+SCALE:25X
+SYMM
+1
+4
+5
+8
+METAL
+TYP
+SYMM
+
+A
+A
+www.ti.com
+PACKAGE OUTLINE
+C
+8X 0.35
+0.25
+2.4
+0.05
+2X
+1.95
+1.6
+0.05
+6X 0.65
+1.0
+0.8
+8X 0.5
+0.3
+(0.13)
+0.1 MIN
+(0.19) TYP
+0.05
+0.00
+A
+3.1
+2.9
+B
+3.1
+2.9
+(0.2) TYP
+VSON - 1 mm max height
+DRB0008L
+PLASTIC SMALL OUTLINE - NO LEAD
+4228694/B   07/2022
+PIN 1 INDEX AREA
+SEATING PLANE
+0.08 C
+1
+4
+5
+8
+X 0.3)
+(45
+PIN 1 ID
+0.1
+C A B
+0.05
+C
+THERMAL PAD
+EXPOSED
+SYMM
+SYMM
+9
+NOTES:
+ 
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+    per ASME Y14.5M. 
+2. This drawing is subject to change without notice. 
+3. The package thermal pad must be soldered to the printed circuit board for optimal thermal and mechanical performance.
+SCALE  4.000
+SCALE  30.000
+SECTION  A-A
+SECTION A-A
+TYPICAL
+
+www.ti.com
+EXAMPLE BOARD LAYOUT
+6X (0.65)
+(R0.05) TYP
+0.07 MIN
+ALL AROUND
+0.07 MAX
+ALL AROUND
+8X (0.3)
+(2.4)
+(2.8)
+(1.6)
+(
+0.2) VIA
+TYP
+(0.95)
+8X (0.6)
+(0.55)
+VSON - 1 mm max height
+DRB0008L
+PLASTIC SMALL OUTLINE - NO LEAD
+4228694/B   07/2022
+SYMM
+1
+4
+5
+8
+LAND PATTERN EXAMPLE
+EXPOSED METAL SHOWN
+SCALE:20X
+9
+SYMM
+NOTES: (continued)
+ 
+4. This package is designed to be soldered to a thermal pad on the board. For more information, see Texas Instruments literature
+    number SLUA271 (www.ti.com/lit/slua271).
+5. Vias are optional depending on application, refer to device data sheet. If any vias are implemented, refer to their locations shown
+    on this view. It is recommended that vias under paste be filled, plugged or tented.
+SOLDER MASK
+OPENING
+SOLDER MASK
+METAL UNDER
+SOLDER MASK
+DEFINED
+EXPOSED METAL
+METAL
+SOLDER MASK
+OPENING
+SOLDER MASK DETAILS
+NON SOLDER MASK
+DEFINED
+(PREFERRED)
+EXPOSED METAL
+
+www.ti.com
+EXAMPLE STENCIL DESIGN
+6X (0.65)
+(R0.05) TYP
+8X (0.3)
+8X (0.6)
+2X (1.5)
+2X
+(1.06)
+(2.8)
+(0.63)
+VSON - 1 mm max height
+DRB0008L
+PLASTIC SMALL OUTLINE - NO LEAD
+4228694/B   07/2022
+NOTES: (continued)
+ 
+6. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+    design recommendations. 
+ 
+SOLDER PASTE EXAMPLE
+BASED ON 0.125 mm THICK STENCIL
+ 
+EXPOSED PAD 9:
+ 80% PRINTED SOLDER COVERAGE BY AREA
+SCALE:25X
+SYMM
+1
+4
+5
+8
+9
+SYMM
+
+IMPORTANT NOTICE AND DISCLAIMER
+TI PROVIDES TECHNICAL AND RELIABILITY DATA (INCLUDING DATASHEETS), DESIGN RESOURCES (INCLUDING REFERENCE 
+DESIGNS), APPLICATION OR OTHER DESIGN ADVICE, WEB TOOLS, SAFETY INFORMATION, AND OTHER RESOURCES “AS IS” 
+AND WITH ALL FAULTS, AND DISCLAIMS ALL WARRANTIES, EXPRESS AND IMPLIED, INCLUDING WITHOUT LIMITATION ANY 
+IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD 
+PARTY INTELLECTUAL PROPERTY RIGHTS.
+These resources are intended for skilled developers designing with TI products. You are solely responsible for (1) selecting the appropriate 
+TI products for your application, (2) designing, validating and testing your application, and (3) ensuring your application meets applicable 
+standards, and any other safety, security, regulatory or other requirements.
+These resources are subject to change without notice. TI grants you permission to use these resources only for development of an 
+application that uses the TI products described in the resource. Other reproduction and display of these resources is prohibited. No license 
+is granted to any other TI intellectual property right or to any third party intellectual property right. TI disclaims responsibility for, and you fully 
+indemnify TI and its representatives against any claims, damages, costs, losses, and liabilities arising out of your use of these resources.
+TI’s products are provided subject to TI’s Terms of Sale, TI’s General Quality Guidelines, or other applicable terms available either on 
+ti.com or provided in conjunction with such TI products. TI’s provision of these resources does not expand or otherwise alter TI’s applicable 
+warranties or warranty disclaimers for TI products. Unless TI explicitly designates a product as custom or customer-specified, TI products 
+are standard, catalog, general purpose devices.
+TI objects to and rejects any additional or different terms you may propose.
+IMPORTANT NOTICE
+Copyright © 2026, Texas Instruments Incorporated
+Last updated 10/2025

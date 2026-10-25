@@ -1,0 +1,841 @@
+- 1 -
+VH CONNECTOR
+3.96 mm pitch/Wire-to-Board connectors/Crimp style and Mating style
+This wire-to-board connector with a 3.96 mm 
+pitch is commonly used in power supply 
+circuits for a wide variety of electrical and 
+electronic devices. It supports currents up to 
+10 A.
+・ Compact size, high current capability
+　Compact design with a mounting height of 16.5 mm 
+  and a depth of 10.5 mm (for top-entry type), 
+  combined with a high current rating of 10 A
+  (when using AWG #16 wire).
+・Box-shaped leaf spring contact
+　The contact is highly reliable, featuring a leaf-
+   shaped design with excellent spring characteristics
+   housed within a box.
+・Secure lock mechanism
+　The large, highly visible outer-type housing with 
+   a strong lock ensures easy and secure insertion and
+   removal.  Additionally, it offers excellent mechanical
+   reliability in the mated condition.　
+5
+3
+4
+6
+2
+1
+JST
+6
+■Specifications
+・ Current rating: 10 A　AC/DC
+　　　　　　　       ＊When using AWG #16 with the standard type header.
+　　　　　　     7A　AC/DC
+　　　　　　　       ＊When using AWG #18 with the shrouded type header.
+　Note:  Do not branch in parallel current which exceeds the rated current.  
+　　　　If branched in parallel, current imbalance or other problems may occur. 
+　　　　 If it is absolutely necessary to branch such a large current in parallel,
+             design the circuits without causing any imbalance and provide extra 
+             margin for each circuit.
+・Voltage rating: 250 V　AC/DC
+・Temperature range: -40℃ to +105℃
+ 
+  
+ 
+ 
+ 
+  (including temperature rise in 
+                               applying electrical current)
+・Contact resistance: Initial value/ 10 mΩ max.
+ 
+                      After test/ 20 mΩ max.
+・Insulation resistance: 1,000 MΩ min.
+・Withstanding voltage: 
+      There shall be no breakdown or flashover while
+      applying 1,500 VAC for one minute.
+・Applicable wire range: 
+      Conductor size/ AWG #22 to AWG #16
+     Insulation O.D./ φ 1.7 mm to φ 3.0 mm
+・Applicable PC board thickness: 1.6 mm
+* Please refer to the "Handling Precautions for Terminals
+   and Connectors" on our website (listed in the “Technical
+   Documents” column on the Product Information page)
+   before use.
+* RoHS2 compliance
+* Dimensional unit: mm
+* Contact JST for details.
+■Standards
+For information on overseas standard registrations, 
+please refer to the "List of Registered Overseas 
+Standards" on our website (listed in the “Technical 
+Documents” column on the Product Information page).
+* Specifications registered to overseas standards may 
+   differ from the general specifications listed above.
+
+- 2 -
+VH CONNECTOR
+　Contact
+Crimping machine
+3
+3.8
+10.6
+Material and Surface ﬁnish, etc.
+Model No.
+Applicable wire range
+Q'ty/
+reel
+Conductor size AWG (mm2)
+Insulation O.D.(mm)
+1.7 to 3.0
+1.7 to 3.0
+#22 to #18 (0.33 to 0.83)
+#20 to #16 (0.5 to 1.25)
+SVH-21T-P1.1
+SVH-41T-P1.1
+Copper alloy, tin-plated
+4,500
+3,500
+Note:  When using the retainer mountable type housing, the applicable 
+         wire insulation outer diameter is φ 1.7 to φ 2.2.　
+Note: Contact JST for fully automatic crimping applicator.
+Contact
+Crimping machine
+Crimp applicator with dies
+Applicator
+SVH-21T-P1.1
+SVH-41T-P1.1
+AP-K2N
+MKS-L
+APLMK SVH21-11
+APLMK SVH41-11
+　Housing
+No. of
+circuits
+Model No.
+Dimensions (mm)
+Q’ty/bag
+A
+B
+N type
+M type
+Retainer
+compatible type
+Material and Surface ﬁnish, etc.
+PA, natural (white)
+N type
+M type
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+10
+11
+VHR-2N
+VHR-3N
+VHR-4N
+VHR-5N
+VHR-6N
+VHR-7N
+VHR-8N
+VHR-9N
+VHR-10N
+VHR-11N
+Retainer compatible type
+      VHRR-2NNote 2
+VHRR-3N
+-
+VHRR-5N
+-
+VHRR-7N
+VHRR-8N
+VHRR-9N
+-
+-
+VHR-2M
+VHR-3M
+VHR-4M
+VHR-5M
+VHR-6M
+VHR-7M
+-
+VHR-9M
+-
+-
+  3.96
+  7.92
+11.88
+15.84
+19.80
+23.76
+27.72
+31.68
+35.64
+39.60
+  7.86
+11.82
+15.78
+19.74
+23.70
+27.66
+31.62
+35.58
+39.54
+43.50
+1,000
+500
+1,000
+500
+500
+500
+500
+500
+500
+500
+1,000
+1,000
+1,000
+1,000
+500
+500
+500
+500
+500
+500
+13.3
+10.6
+3.96
+A
+B
+No. 1circuit
+15
+10.5
+3.96
+A
+B
+No. 1circuit
+13.3
+10.5
+3.96
+A
+B
+No. 1circuit
+ M type
+ N type
+ Retainer compatible type
+Note: 1. With the M type, the exposed contact lances from the N type are covered by resin which is integrally formed and molded into the housing body
+            as a single unit, further improving electrical safety.
+     2. Please note that the retainer mountable type housing for 2 circuits can only be used with the standard type header. It cannot be used with
+         the shrouded type header.
+        3. For flame retardant grade of resin material used, please refer to the "List of Registered Overseas Standards" on our website
+            (listed in the “Technical Documents” column on the Product Information page).
+
+- 3 -
+VH CONNECTOR
+　Header (Standard type)
+　Retainer
+A
+B
+7.1
+No. of
+circuits
+Model No.
+Q'ty/bag
+2
+3
+5
+7
+8
+9
+VHS-2V
+VHS-3V
+VHS-5V
+VHS-7V
+VHS-8V
+VHS-9V
+B
+A
+Dimensions (mm)
+6.9  
+10.72
+18.64
+26.56
+30.52
+34.48
+3.7  
+7.52
+15.44
+23.36
+27.32
+31.28
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+Material and Surface ﬁnish, etc.
+PA (GF), natural (ivory)
+Note: For ﬂame retardant grade of resin material used, please refer to 
+         the "List of Registered Overseas Standards" on our website (listed  in
+         the "Technical Documents" column on the Product Information page).
+Note: 1. This product displays (LF)(SN) on a label.
+        2. Headers with posts omitted are also available. Please contact JST for further details.
+        3. For flame retardant grade of resin material used, please refer to the "List of Registered Overseas Standards" on our website
+            (listed in the “Technical Documents” column on the Product Information page).
+ Top entry type
+ Side entry type
+A
+3.96
+B
+10.9
+3.7
+8.5
+No. 1
+circuit
+1
+8
+H JST
+3.96
+A
+B
+10.9
+3.6
+8.5
+No. 1
+circuit
+1
+H JST
+8
+ Top entry type with PBT
+ Side entry type with stopper
+8.5
+10.9
+3.7
+3.96
+A
+B
+No. 1
+circuit
+3.6
+8.5
+10.9
+4.5
+B
+No. 1
+circuit
+3.96
+A
+No. of
+circuits
+Model No.
+Dimensions (mm)
+A
+B
+Material and Surface ﬁnish, etc.
+Top entry
+type
+Side entry
+type
+Q'ty/box
+  3.96
+  7.92
+11.88
+15.84
+19.80
+23.76
+27.72
+31.68
+35.64
+39.60
+1,000
+1,000
+   500
+   500
+   250
+   250
+   200
+   200
+   200
+   200
+1,000
+500
+500
+250
+250
+250
+200
+200
+100
+ - 
+  7.86
+11.82
+15.78
+19.74
+23.70
+27.66
+31.62
+35.58
+39.54
+43.50
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+10
+11
+S2P-VH
+S3P-VH
+S4P-VH
+S5P-VH
+S6P-VH
+S7P-VH
+-
+-
+-
+-
+B2P-VH-B
+B3P-VH-B
+B4P-VH-B
+B5P-VH-B
+B6P-VH-B
+B7P-VH-B
+B8P-VH-B
+B9P-VH-B
+B10P-VH-B
+B11P-VH-B
+Post: Copper alloy, tin-plated
+Base housing: Non-PBT/ PA, natural (white)
+　　　　　　  PBT/ PBT (GF), natural (white)
+Top entry typeNote2
+Side entry type
+with stopper
+Top entry type
+with PBT
+Side entry typeNote2
+B2PS-VH
+B3PS-VH
+B4PS-VH
+B5PS-VH
+B6PS-VH
+B7PS-VH
+B8PS-VH
+B9PS-VH
+B10PS-VH
+  -
+B2P-VH
+B3P-VH
+B4P-VH
+B5P-VH
+B6P-VH
+B7P-VH
+B8P-VH
+B9P-VH
+B10P-VH
+  -
+
+- 4 -
+VH CONNECTOR
+　Header (Shrouded Header)
+<2, 3 circuits>
+<4 to 10 circuits>
+B
+A
+3.96
+No. 1 circuit
+(3.7)
+11
+9.7
+9.7
+(3.7)
+11
+A
+No. 1 circuit
+3.96
+B
+Note: 1. This product displays (LF)(SN) on a label.
+        2. The housings that mate with the two position are the N-type and 
+            M-type. 
+            Please note that retainer mountable type cannot be used.
+         3. For flame retardant grade of resin material used, please refer to 
+             the "List of Registered Overseas Standards" on our website 
+            (listed in the "Technical Documents" column on the Product 
+              Information page).
+No. of
+circuits
+Model No.
+Dimensions (mm)
+A
+B
+Material and Surface ﬁnish, etc.
+Q'ty/box
+  3.96
+  7.92
+11.88
+15.84
+19.80
+23.76
+27.72
+31.68
+35.64
+250
+200
+150
+200
+200
+100
+100
+100
+125
+  9.8  
+13.76
+17.72
+21.68
+25.64
+29.60
+33.56
+37.52
+41.48
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+10
+B2P-VH-FB-BNote2
+B3P-VH-FB-B
+B4P-VH-FB-B
+B5P-VH-FB-B
+B6P-VH-FB-B
+B7P-VH-FB-B
+B8P-VH-FB-B
+B9P-VH-FB-B
+B10P-VH-FB-B
+Post: Copper alloy, tin-plated
+Base housing: PBT (GF), natural (white)
+　PC board layout and Assembly layout
+ Top entry type
+ Side entry type with stopper
+Note: 1. The PC board layout figure shown is viewed from the connector mounting surface.
+        2. Tolerance for the PCB hole pitch shall be ± 0.05 and shall not accumulate.
+         3. Hole dimensions differ depending on the type of PCB and PCB drilling method.
+　　　    The above dimensions are for reference only.  Please contact JST for further details.
+         4. The assembly layout is for N-type housings.
+　　　    For housings other than N-type, please contact JST.
+10.5
+（16.5）
+(4.8)
+φ1.65
++0.1
+ 0
+3.96±0.05
+Connector outline
+No. 1
+circuit
+(21)
+ 
+10.5
+5.7min.
+19
+3.96±0.05
+φ1.65
++0.1
+ 0
+5.7min.
+Connector
+outline
+No. 1 circuit
+PC board edge
+ Side entry type
+ Shrouded Header
+＊11.0 max when used with the VR connector socket
+7.2 min.
+(20.5)
+10.5
+8
+3.96±0.05
+7.2min.＊
+(4)
+Connector
+outline
+φ1.65
++0.1
+ 0
+PC board edge
+No. 1
+circuit
+ 
+ 
+φ1.65
++0.1
+ 0
+(5.3)
+3.96±0.05 1.5±0.05
+3.4±0.05
+Connector
+outline
+φ1.4
++0.1
+ 0
+No. 1
+circuit
+10.5
+（16.5）
+
+- 5 -
+VH CONNECTOR
+Supply form: S…Strip form
+                  B…Loose piece
+Series name
+Applicable wire range: 
+      21…AWG #22 to AWG #18
+      41…AWG #20 to AWG #16
+Surface ﬁnish: Tin-plated
+Material: Copper alloy
+Applicable post size
+VH
+S
+- 21 T
+P
+-
+1.1
+ Contact
+Series name
+Type: For receptacle contact
+No. of circuits
+Shape: N…Contact lance exposed
+　　　  M…Contact lance covered by resin
+Color: No indication…Natural (White), BK…Black, R…Red, 
+　　   BL…Blue, M…Green, D…Orange, Y…Yellow, PK…Pink,
+         H…Gray
+VH R
+N
+2
+-
+-
+ Housing/ N type, M type
+Series name
+Type: For receptacle contact
+Retainer compatible type
+No. of circuits
+Shape: Contact lance exposed
+Color: No indication…Natural (White)
+VH R R
+N
+2
+-
+-
+ Housing/ Retainer compatible type
+Series name
+Type: Retainer
+No. of circuits
+Sub model number
+VH S
+V
+2
+-
+ Retainer
+Assembly product
+No. of circuits
+Header type: No indication…Top entry type
+                  Ｓ…Side entry type
+Series name
+Color: No indication…Natural (White), BK…Black, R…Red, 
+　　   BL…Blue, M…Green, O…Orange, Y…Yellow, PK…Pink,
+　　   H…Gray, TR…Tomato red
+B
+-
+2P
+VH -
+ Header (Standard type)
+Header type: Side entry type with stopper
+No. of circuits
+Series name
+Color: No indication…Natural (White), BK…Black, 
+　　   Red, BL…Blue, M…Green, Y…Yellow
+S
+-
+2P VH -
+ Header (Standard type)/ Side entry type with stopper
+Assembly product
+No. of circuits
+Series name
+Sub model numbe
+Material: PBT (GF)
+Color: No indication…Natural (White), C…Black, R…Red,
+　　    E…Blue, M…Green, O…Orange, Y…Yellow, 
+         PK…Pink, H…Gray, 
+B
+-
+-
+2P VH
+FB
+B -
+-
+ Header (Shrouded Header)
+Assembly product
+No. of circuits
+Series name
+Material: PBT (GF)
+Color: No indication…Natural (White), C…Black, R…Red,
+　　   E…Blue, M…Green, Y…Yellow 
+B
+-
+2P VH B -
+-
+ Header (Standard type)/ Top entry type with PBT
+　Model number allocation
+
+- 6 -
+VH CONNECTOR
+Note) ＊1: Actual number of circuits (actual number of posts)
+　      ＊2: Total number of circuits (including post-omitted circuits)
+Headers with posts omitted (standard type)
+　Model number allocation
+       
+2）
+  Polarized header with circuit No. 2 post omitted
+　  However, this only applies when 4 posts or more are used
+1）
+  Polarized header (N-1) with post omitted
+　  However, this only applies when 4 posts or more are used
+       
+①Header with pitch size doubled (7.92 mm)
+3）
+  Header with pitch size doubled by omitting even numbered posts
+　  However, this only applies if the total number of circuits
+     (including circuits without posts) is an odd number.
+B＊1 P＊2 -VH-L
+B＊1 P＊2 -VH
+B＊1 P＊2 -VH
+B＊1 P＊2 -VH
+B＊1 P＊2 -VH
+②Header with pitch size tripled (11.88 mm)
+③Header with pitch size quadrupled (15.84 mm)
+○: with post
+×: without post
+○: with post
+×: without post
+○: with post
+×: without post
+○: with post
+×: without post
+○: with post
+×: without post
+Circuit No. 
+1 2 3 4
+ 5
+ 6
+ 7
+ 8
+ 
+9
+ 
+Circuit (post)
+ 
+○ × × ×
+ ○
+ ×
+ 
+×
+ 
+×
+ 
+○
+ 
+Model No.
+ 
+ B3P9-VH
+Example）
+Circuit No. 
+1 2 3 4
+ 5
+ 6
+ 7
+ 
+ 
+ 
+Circuit (post)
+ 
+○ × × ○
+ ×
+ ×
+ 
+○
+ 
+ 
+ 
+Model No.
+ 
+ B3P7-VH
+Example）
+Circuit No. 
+1 2 3 4
+ 5
+ 6
+ 7
+ 
+ 
+Circuit (post)
+ 
+○ × ○ ×
+ ○
+ ×
+ 
+○
+ 
+ 
+Model No.
+ 
+ B4P7-VH
+Example）
+Circuit No. 
+1 2 3 4
+ 5
+ 6
+ 7
+ 
+ 
+Circuit (post)
+ 
+○ × ○ ○
+ ○
+ ○
+ 
+○
+ 
+ 
+Model No.
+ 
+ B6P7-VH-L
+Example）
+Circuit No. 
+1 2 3 4
+ 5
+ 6
+ 7
+ 
+Circuit (post)
+ 
+○ ○ ○ ○
+ ○
+ ×
+ 
+○
+ 
+ 
+Model No.
+ 
+ B6P7-VH
+Example）

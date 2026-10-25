@@ -1,0 +1,28 @@
+"""12-48 V regulated input schematic. Prototype qualification remains mandatory."""
+import json
+import native_design as n
+p=n.HERE/'core-interface-revision.json';d=json.loads(p.read_text(encoding='utf-8'));cat=n.catalog()
+assert not any(r['page']=='C10' for r in d['add'])
+def add(ref,code,pins,**kw):d['add'].append(dict(reference=ref,page='C10',supplierId=code,part=cat[code]['manufacturerId'],pins={str(k):v for k,v in pins.items()},**kw))
+add('J_XT30','C428721',{1:'GND',2:'VIN_RAW'},notes='XT30UPB-M vertical. Manufacturer current drawing recommends 1.90 mm drill; library 1.80 mm is not released for fabrication until corrected.')
+add('F_INPUT','C99547',{1:'VIN_RAW',2:'VIN_FUSED'},notes='2A 125V DC fuse; input is a regulated supply, maximum 48V.')
+add('D_REVERSE','C283521',{2:'VIN_FUSED',1:'VIN_PROT'},notes='100V Schottky reverse polarity blocking; allocate dissipation at low input voltage.')
+add('D_INPUT_TVS','C135078',{1:'VIN_PROT',2:'GND'},notes='48V standoff; 77.4V clamp at specified datasheet pulse. Hot-plug overshoot must be measured below 80V operating / 85V absolute.')
+add('U_HV','C22405313',{1:'GND',2:'GND',3:'HV_EN',4:'NC',5:'VIN_PROT',6:'VIN_PROT',7:'HV_RT',8:'HV_FB',9:'HV_PG',10:'HV_BOOT',11:'HV_SW',12:'HV_SW',13:'GND'})
+add('L_HV','C19191628',{1:'HV_SW',2:'5V_IN'},notes='15uH; saturation 5.8A at 25C; tall part requires upper-board clearance/opening.')
+for i in range(1,5):add('C_HV_IN'+str(i),'C162515',{1:'VIN_PROT',2:'GND'},notes='4.7uF 100V X7R 1210, four in parallel. Require total effective input C >=4.7uF at 48V including tolerance/temperature/bias.')
+add('C_HV_HF','C77058',{1:'VIN_PROT',2:'GND'})
+add('C_HV_BOOT','C2181015',{1:'HV_BOOT',2:'HV_SW'},notes='100nF bootstrap, rated >=16V; both terminals float on switching node.')
+for i in range(1,4):add('C_HV_OUT'+str(i),'C77088',{1:'5V_IN',2:'GND'},notes='22uF 16V X5R 1206; three in parallel per TI 48V/5V/300kHz design table.')
+add('C_HV_OUT_HF','C2181015',{1:'5V_IN',2:'GND'})
+add('R_HV_FB_TOP','C60491',{1:'5V_IN',2:'HV_FB'})
+add('R_HV_FB_BOT','C138027',{1:'HV_FB',2:'GND'})
+add('R_HV_RT','C477808',{1:'HV_RT',2:'GND'},notes='88.7k -> approximately 299kHz by TI RT equation.')
+add('R_HV_EN_TOP1','C138006',{1:'VIN_PROT',2:'HV_EN_MID'})
+add('R_HV_EN_TOP2','C138006',{1:'HV_EN_MID',2:'HV_EN'})
+add('R_HV_EN_BOT','C60491',{1:'HV_EN',2:'GND'},notes='330k + 330k / 100k: nominal UVLO turn-on 9.5V at protected input; guaranteed application range starts at 12V.')
+add('SW_POWER_EN','C431540',{1:'GND',2:'HV_EN',3:'NC',4:'GND'},notes='Low-current EN switch; OFF grounds EN, ON disconnects EN from GND. Not a galvanic disconnection of XT30 input. Shell is pad 4.')
+add('R_HV_PG','C60491',{1:'3V3_D',2:'HV_PG'})
+add('TP_HV_PG','LOCAL_TP_0.8',{1:'HV_PG'})
+d['power_design']={'input_V':[12,48],'source':'regulated DC supply, 48V maximum, not a 48V battery','output_V_nominal':1+100/24.9,'continuous_5V_budget_A':2.0,'converter_rating_A':2.5,'release_state':'schematic prototype; MLCC DC-bias, hot-plug, thermal and startup tests pending','USB_power_input':False}
+p.write_text(json.dumps(d,ensure_ascii=False,indent=2),encoding='utf-8');print('Added',sum(r['page']=='C10' for r in d['add']),'HV parts')

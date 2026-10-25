@@ -1,0 +1,1090 @@
+PAGE 1
+ 
+DMN2056U 
+Document number: DS38480 Rev. 2 - 2 
+1 of 8 
+www.diodes.com  
+July 2021 
+© Diodes Incorporated 
+ 
+DMN2056U 
+ 
+ 
+20V N-CHANNEL ENHANCEMENT MODE MOSFET 
+ 
+Product Summary 
+BVDSS 
+RDS(on) max 
+ID max 
+TA = +25°C 
+20V 
+38mΩ @ VGS = 4.5V 
+4.0A 
+45mΩ @ VGS = 2.5V 
+3.7A 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Description and Applications 
+This MOSFET is designed to minimize the on-state resistance 
+(RDS(on)) and yet maintain superior switching performance, making it 
+ideal for high-efficiency power management applications. 
+ 
+• 
+Battery Charging 
+• 
+Power Management Functions 
+• 
+DC-DC Converters 
+• 
+Portable Power Adaptors 
+ 
+Features and Benefits 
+• 
+Low On-Resistance 
+• 
+Low Gate Threshold Voltage 
+• 
+Low Input Capacitance 
+• 
+Fast Switching Speed  
+• 
+Low Input/Output Leakage 
+• 
+Totally Lead-Free & Fully RoHS Compliant (Notes 1 & 2) 
+• 
+Halogen and Antimony Free. “Green” Device (Note 3) 
+• 
+For automotive applications requiring specific change control 
+(i.e.: parts qualified to AEC-Q100/101/200, PPAP capable, and 
+manufactured in IATF 16949 certified facilities), please refer 
+to the related automotive grade (Q-suffix) part. A listing can 
+be found at 
+https://www.diodes.com/products/automotive/automotive-
+products/. 
+• 
+This part is qualified to JEDEC standards (as references in 
+AEC-Q) for High Reliability.  
+https://www.diodes.com/quality/product-definitions/ 
+ 
+Mechanical Data 
+• 
+Case: SOT23 (Standard) 
+• 
+Case Material: Molded Plastic, “Green” Molding Compound.  
+UL Flammability Classification Rating 94V-0 
+• 
+Moisture Sensitivity: Level 1 per J-STD-020 
+• 
+Terminals: FinishMatte Tin Annealed over Copper Leadframe.  
+Solderable per MIL-STD-202, Method 208 
+• 
+Terminals Connections: See Diagram Below 
+• 
+Weight: 0.009 grams (Approximate) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ordering Information (Note 4) 
+Part Number 
+Case 
+Packaging 
+DMN2056U-7 
+SOT23 (Standard) 
+3000/Tape & Reel 
+DMN2056U-13 
+SOT23 (Standard) 
+10000/Tape & Reel 
+Notes: 
+1. No purposely added lead. Fully EU Directive 2002/95/EC (RoHS), 2011/65/EU (RoHS 2) & 2015/863/EU (RoHS 3) compliant. 
+2. See https://www.diodes.com/quality/lead-free/ for more information about Diodes Incorporated’s definitions of Halogen- and Antimony-free, "Green" and 
+Lead-free. 
+ 
+3. Halogen- and Antimony-free "Green” products are defined as those which contain <900ppm bromine, <900ppm chlorine (<1500ppm total Br + Cl) and  
+    
+    <1000ppm antimony compounds. 
+4. For packaging details, go to our website at https://www.diodes.com/design/support/packaging/diodes-packaging/. 
+ 
+ 
+Top View 
+Internal Schematic
+Top View 
+D
+G
+S
+D
+S
+G
+
+PAGE 2
+ 
+DMN2056U 
+Document number: DS38480 Rev. 2 - 2 
+2 of 8 
+www.diodes.com  
+July 2021 
+© Diodes Incorporated 
+ 
+DMN2056U 
+ 
+ 
+ 
+ 
+Marking Information 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Date Code Key 
+Year 
+2016 
+…… 
+2021 
+2022 
+2023 
+2024 
+2025 
+2026 
+2027 
+2028 
+2029 
+2030 
+Code 
+D 
+…… 
+I 
+J 
+K 
+L 
+M 
+N 
+O 
+P 
+R 
+S 
+ 
+Month 
+Jan 
+Feb 
+Mar 
+Apr 
+May 
+Jun 
+Jul 
+Aug 
+Sep 
+Oct 
+Nov 
+Dec 
+Code 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+O 
+N 
+D 
+ 
+ 
+ 
+ 
+ 
+Maximum Ratings (@ TA = +25°C, unless otherwise specified.) 
+Characteristic 
+Symbol 
+Value 
+Units 
+Drain-Source Voltage 
+VDSS 
+20 
+V 
+Gate-Source Voltage 
+VGSS 
+±8 
+V 
+Continuous Drain Current (Note 6) VGS = 4.5V 
+Steady 
+State 
+TA = +25°C 
+TA = +70°C 
+ID 
+4.0 
+3.2 
+A 
+Maximum Body Diode Forward Current (Note 6) 
+IS 
+1.0 
+A 
+Pulsed Drain Current (10µs pulse, duty cycle = 1%) 
+IDM 
+22 
+A 
+ 
+ 
+ 
+Thermal Characteristics 
+Characteristic 
+Symbol 
+Value 
+Unit 
+Power Dissipation (Note 5) 
+PD 
+0.66 
+W 
+Thermal Resistance, Junction to Ambient (Note 5) 
+Steady State 
+RθJA 
+192 
+°C/W 
+Power Dissipation (Note 6) 
+PD 
+0.94 
+W 
+Thermal Resistance, Junction to Ambient (Note 6) 
+Steady State 
+RθJA 
+136 
+°C/W 
+Operating and Storage Temperature Range 
+TJ, TSTG 
+-55 to +150 
+°C 
+ 
+ 
+ 
+56U = Product Type Marking Code  
+YM = Date Code Marking 
+Y or Y = Year (ex: I = 2021) 
+M = Month (ex: 9 = September)
+56U
+YM
+
+PAGE 3
+ 
+DMN2056U 
+Document number: DS38480 Rev. 2 - 2 
+3 of 8 
+www.diodes.com  
+July 2021 
+© Diodes Incorporated 
+ 
+DMN2056U 
+ 
+ 
+ 
+ 
+Electrical Characteristics (@ TA = +25°C, unless otherwise specified.) 
+Characteristic 
+Symbol 
+Min 
+Typ 
+Max 
+Unit 
+Test Condition 
+OFF CHARACTERISTICS (Note 7) 
+Drain-Source Breakdown Voltage 
+BVDSS 
+20 
+ 
+ 
+V 
+VGS = 0V, ID = 250µA 
+Zero Gate Voltage Drain Current 
+IDSS 
+ 
+ 
+1 
+µA 
+VDS = 20V, VGS = 0V 
+Gate-Source Leakage 
+IGSS 
+ 
+ 
+±100 
+nA 
+VGS = ±8V, VDS = 0V 
+ON CHARACTERISTICS (Note 7) 
+Gate Threshold Voltage 
+VGS(th) 
+0.4 
+0.6 
+1.0 
+V 
+VDS = VGS, ID = 250µA 
+Static Drain-Source On-Resistance 
+RDS(on) 
+ 
+30 
+38 
+mΩ 
+VGS = 4.5V, ID = 3.6A 
+ 
+34 
+45 
+VGS = 2.5V, ID = 3.1A 
+ 
+52 
+85 
+VGS = 1.5V, ID = 2.0A 
+Diode Forward Voltage  
+VSD 
+ 
+0.7 
+1.2 
+V 
+VGS = 0V, IS = 1A 
+DYNAMIC CHARACTERISTICS (Note 8) 
+Input Capacitance 
+Ciss 
+ 
+339 
+ 
+pF 
+VDS = 10V, VGS = 0V 
+f = 1.0MHz 
+Output Capacitance 
+Coss 
+ 
+47 
+ 
+Reverse Transfer Capacitance 
+Crss 
+ 
+34 
+ 
+Gate Resistance 
+RG 
+ 
+2.6 
+ 
+Ω 
+VDS = 0V, VGS = 0V, f = 1.0MHz 
+Total Gate Charge  
+Qg 
+ 
+4.3 
+ 
+nC 
+VDS = 10V, VGS = 4.5V, ID = 3.6A 
+Gate-Source Charge  
+Qgs 
+ 
+0.5 
+ 
+Gate-Drain Charge  
+Qgd 
+ 
+0.8 
+ 
+Turn-On Delay Time  
+tD(on) 
+ 
+1.8 
+ 
+ns 
+VGS = 4.5V, VDD = 10V, RG = 1Ω, 
+ID = 3.6A 
+Turn-On Rise Time  
+tR 
+ 
+2.8 
+ 
+Turn-Off Delay Time  
+tD(off) 
+ 
+8.5 
+ 
+Turn-Off Fall Time  
+tF 
+ 
+1.7 
+ 
+Body Diode Reverse Recovery Time 
+tRR 
+ 
+4.7 
+ 
+ns 
+IF = 3.6A, dI/dt = 100A/μs 
+Body Diode Reverse Recovery Charge 
+QRR 
+ 
+0.7 
+ 
+nC 
+IF = 3.6A, dI/dt = 100A/μs 
+Notes: 
+5. Device mounted on FR-4 substrate PC board, 2oz copper, with minimum recommended pad layout. 
+ 
+6. Device mounted on FR-4 substrate PC board, 2oz copper, with thermal bias to bottom layer 1inch square copper plate. 
+7. Short duration pulse test used to minimize self-heating effect. 
+8. Guaranteed by design. Not subject to product testing. 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 4
+ 
+DMN2056U 
+Document number: DS38480 Rev. 2 - 2 
+4 of 8 
+www.diodes.com  
+July 2021 
+© Diodes Incorporated 
+ 
+DMN2056U 
+ 
+ 
+ 
+           
+ 
+ 
+        
+ 
+ 
+      
+ 
+0.0
+1.0
+2.0
+3.0
+4.0
+5.0
+6.0
+7.0
+8.0
+9.0
+10.0
+0
+0.5
+1
+1.5
+2
+2.5
+3
+ID, DRAIN CURRENT (A) 
+VDS, DRAIN-SOURCE VOLTAGE (V) 
+Figure 1. Typical Output Characteristic 
+  
+VGS = 0.9V 
+VGS = 1.0V 
+VGS = 1.2V 
+VGS = 1.5V 
+VGS = 2.0V 
+VGS = 2.5V 
+VGS = 3.0V 
+VGS = 4.0V 
+VGS = 4.5V 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0
+0.5
+1
+1.5
+2
+2.5
+ID, DRAIN CURRENT (A) 
+VGS, GATE-SOURCE VOLTAGE (V) 
+Figure 2. Typical Transfer Characteristic 
+VDS = 5V 
+TA = -55oC 
+TA = 25oC 
+TA =  85oC 
+TA = 125oC 
+TA = 150oC 
+0
+0.01
+0.02
+0.03
+0.04
+0.05
+0.06
+0.07
+0.08
+0.09
+0.1
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+RDS(ON), DRAIN-SOURCE ON-RESISTANCE (Ω) 
+ID, DRAIN-SOURCE CURRENT (A)  
+Figure 3. Typical On-Resistance vs Drain Current 
+and Gate Voltage  
+VGS = 1.5V 
+VGS = 2.5V 
+VGS = 4.5V 
+0
+0.01
+0.02
+0.03
+0.04
+0.05
+0.06
+0.07
+0.08
+0.09
+0.1
+0
+2
+4
+6
+8
+RDS(ON), DRAIN-SOURCE ON-RESISTANCE (Ω) 
+VGS, GATE-SOURCE VOLTAGE (V)  
+Figure 4. Typical Transfer Characteristic  
+ID = 3.6A 
+ID = 2.0A 
+0
+0.01
+0.02
+0.03
+0.04
+0.05
+0.06
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+RDS(ON),  DRAIN-SOURCE ON-RESISTANCE (Ω) 
+ID, DRAIN CURRENT (A) 
+Figure 5. Typical On-Resistance vs Drain Current 
+and Junction Temperature 
+VGS = 4.5V 
+TJ = -55oC 
+TJ = 25oC 
+TJ =  85oC 
+TJ = 125oC 
+TJ = 150oC 
+0
+0.5
+1
+1.5
+2
+2.5
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+RDS(ON), DRAIN-SOURCE ON-RESISTANCE 
+(NORMALIZED) 
+TJ, JUNCTION TEMPERATURE (℃) 
+Figure 6. On-Resistance Variation with Junction 
+Temperature 
+VGS = 4.5V, ID = 3.6A 
+VGS = 2.5V, ID = 3.1A 
+VGS = 1.5V, ID = 2.0A 
+
+PAGE 5
+ 
+DMN2056U 
+Document number: DS38480 Rev. 2 - 2 
+5 of 8 
+www.diodes.com  
+July 2021 
+© Diodes Incorporated 
+ 
+DMN2056U 
+ 
+ 
+ 
+           
+   
+ 
+       
+ 
+ 
+   
+ 
+0
+0.01
+0.02
+0.03
+0.04
+0.05
+0.06
+0.07
+0.08
+0.09
+0.1
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+RDS(ON), DRAIN-SOURCE ON-RESISTANCE (Ω) 
+TJ, JUNCTION TEMPERATURE (℃) 
+Figure 7. On-Resistance Variation with Junction 
+Temperature 
+VGS = 1.5V, ID = 2.0A 
+VGS = 4.5V, ID = 3.6A 
+VGS = 2.5V, ID = 3.1A 
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+VGS(TH), GATE THRESHOLD VOLTAGE (V) 
+TJ, JUNCTION TEMPERATURE (℃) 
+Figure 8. Gate Threshold Variation vs Junction  
+Temperature 
+ID = 1mA 
+ID = 250µA 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0
+0.3
+0.6
+0.9
+1.2
+1.5
+IS, SOURCE CURRENT (A) 
+VSD, SOURCE-DRAIN VOLTAGE (V) 
+Figure 9. Diode Forward Voltage vs Current 
+TJ = -55oC 
+VGS = 0V 
+TJ = 25oC 
+TJ = 85oC 
+TJ = 125oC 
+TJ = 150oC 
+10
+100
+1000
+0
+5
+10
+15
+20
+CT, JUNCTION CAPACITANCE (pF) 
+VDS, DRAIN-SOURCE VOLTAGE (V) 
+Figure 10. Typical Junction Capacitance 
+f = 1MHz 
+Ciss 
+Coss 
+Crss 
+0
+2
+4
+6
+8
+0
+1
+2
+3
+4
+5
+6
+7
+8
+VGS (V) 
+Qg (nC) 
+Figure 11. Gate Charge 
+VDS = 10V, ID = 3.6A 
+0.01
+0.1
+1
+10
+100
+0.1
+1
+10
+100
+ID, DRAIN CURRENT (A) 
+VDS, DRAIN-SOURCE VOLTAGE (V) 
+Figure 12. SOA, Safe Operation Area 
+TJ(Max) = 150℃  
+TC = 25℃  
+Single Pulse 
+DUT on 1*MRP Board 
+VGS = 4.5V 
+RDS(ON) 
+Limited 
+DC 
+PW = 10s 
+PW = 1s 
+PW = 100ms 
+PW = 10ms 
+PW = 1ms 
+PW = 100µs 
+
+PAGE 6
+ 
+DMN2056U 
+Document number: DS38480 Rev. 2 - 2 
+6 of 8 
+www.diodes.com  
+July 2021 
+© Diodes Incorporated 
+ 
+DMN2056U 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+0.001
+0.01
+0.1
+1
+0.00001
+0.0001
+0.001
+0.01
+0.1
+1
+10
+100
+1000
+r(t), TRANSIENT THERMAL RESISTANCE 
+t1, PULSE DURATION TIME (sec) 
+Figure 13. Transient Thermal Resistance 
+RθJA (t) = r(t) * RθJA 
+RθJA = 189℃/W 
+Duty Cycle, D = t1/t2 
+D=Single Pulse 
+D=0.005 
+D=0.01 
+D=0.02 
+D=0.05 
+D=0.1 
+D=0.3 
+D=0.5 
+D=0.7 
+D=0.9 
+
+PAGE 7
+ 
+DMN2056U 
+Document number: DS38480 Rev. 2 - 2 
+7 of 8 
+www.diodes.com  
+July 2021 
+© Diodes Incorporated 
+ 
+DMN2056U 
+ 
+ 
+ 
+ 
+Package Outline Dimensions 
+Please see http://www.diodes.com/package-outlines.html for the latest version. 
+ 
+SOT23 (Standard) 
+ 
+ 
+ 
+SOT23 (Standard) 
+Dim 
+Min 
+Max 
+Typ 
+A 
+0.90 
+1.15 
+1.025 
+A1 
+0.00 
+0.10 
+0.05 
+A2 
+0.85 
+1.10 
+0.975 
+b 
+0.30 
+0.51 
+0.40 
+c 
+0.080 0.202 
+0.11 
+D 
+2.80 
+3.00 
+2.90 
+E 
+2.25 
+2.55 
+2.40 
+E1 
+1.20 
+1.40 
+1.30 
+e 
+0.89 
+1.03 
+0.915 
+e1 
+1.78 
+2.05 
+1.83 
+F 
+0.40 
+0.60 
+0.535 
+L1 
+0.45 
+0.61 
+0.55 
+L 
+0.25 
+0.55 
+0.40 
+a 
+0° 
+8° 
+-- 
+All Dimensions in mm 
+ 
+ 
+ 
+ 
+ 
+Suggested Pad Layout 
+Please see http://www.diodes.com/package-outlines.html for the latest version. 
+ 
+SOT23 (Standard) 
+ 
+ 
+ 
+Dimensions 
+Value (in mm) 
+C 
+2.0 
+X 
+0.8 
+X1 
+1.35 
+Y 
+0.9 
+Y1 
+2.9 
+ 
+ 
+ 
+ 
+ 
+A1
+A
+A2
+L
+GAUGE PLANE
+0.25
+D
+L1
+b
+E
+E1
+e
+e1
+F
+a
+c
+X
+Y
+Y1
+C
+X1
+
+PAGE 8
+ 
+DMN2056U 
+Document number: DS38480 Rev. 2 - 2 
+8 of 8 
+www.diodes.com  
+July 2021 
+© Diodes Incorporated 
+ 
+DMN2056U 
+ 
+ 
+ 
+ 
+ 
+IMPORTANT NOTICE 
+ 
+1. 
+DIODES INCORPORATED AND ITS SUBSIDIARIES (“DIODES”) MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+WITH REGARDS TO ANY INFORMATION CONTAINED IN THIS DOCUMENT, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD PARTY 
+INTELLECTUAL PROPERTY RIGHTS (AND THEIR EQUIVALENTS UNDER THE LAWS OF ANY JURISDICTION).   
+ 
+2. 
+The Information contained herein is for informational purpose only and is provided only to illustrate the operation of Diodes products 
+described herein and application examples. Diodes does not assume any liability arising out of the application or use of this document or any 
+product described herein. This document is intended for skilled and technically trained engineering customers and users who design with Diodes 
+products. Diodes products may be used to facilitate safety-related applications; however, in all instances customers and users are responsible for 
+(a) selecting the appropriate Diodes products for their applications, (b) evaluating the suitability of the Diodes products for their intended 
+applications, (c) ensuring their applications, which incorporate Diodes products, comply the applicable legal and regulatory requirements as well 
+as safety and functional-safety related standards, and (d) ensuring they design with appropriate safeguards (including testing, validation, quality 
+control techniques, redundancy, malfunction prevention, and appropriate treatment for aging degradation) to minimize the risks associated with 
+their applications.    
+ 
+3. 
+Diodes assumes no liability for any application-related information, support, assistance or feedback that may be provided by Diodes 
+from time to time. Any customer or user of this document or products described herein will assume all risks and liabilities associated with such 
+use, and will hold Diodes and all companies whose products are represented herein or on Diodes’ websites, harmless against all damages and 
+liabilities.   
+ 
+4. 
+Products described herein may be covered by one or more United States, international or foreign patents and pending patent 
+applications. Product names and markings noted herein may also be covered by one or more United States, international or foreign trademarks 
+and trademark applications. Diodes does not convey any license under any of its intellectual property rights or the rights of any third parties 
+(including third parties whose products and services may be described in this document or on Diodes’ website) under this document.   
+ 
+5. 
+Diodes 
+products 
+are 
+provided 
+subject 
+to 
+Diodes’ 
+Standard 
+Terms 
+and 
+Conditions 
+of 
+Sale 
+(https://www.diodes.com/about/company/terms-and-conditions/terms-and-conditions-of-sales/)  or other applicable terms. This document does not 
+alter or expand the applicable warranties provided by Diodes. Diodes does not warrant or accept any liability whatsoever in respect of any 
+products purchased through unauthorized sales channel.   
+ 
+6. 
+Diodes products and technology may not be used for or incorporated into any products or systems whose manufacture, use or sale is 
+prohibited under any applicable laws and regulations. Should customers or users use Diodes products in contravention of any applicable laws or 
+regulations, or for any unintended or unauthorized application, customers and users will (a) be solely responsible for any damages, losses or 
+penalties arising in connection therewith or as a result thereof, and (b) indemnify and hold Diodes and its representatives and agents harmless 
+against any and all claims, damages, expenses, and attorney fees arising out of, directly or indirectly, any claim relating to any noncompliance with 
+the applicable laws and regulations, as well as any unintended or unauthorized application. 
+ 
+7. 
+While efforts have been made to ensure the information contained in this document is accurate, complete and current, it may contain 
+technical inaccuracies, omissions and typographical errors. Diodes does not warrant that information contained in this document is error-free and 
+Diodes is under no obligation to update or otherwise correct this information. Notwithstanding the foregoing, Diodes reserves the right to make 
+modifications, enhancements, improvements, corrections or other changes without further notice to this document and any product described 
+herein. This document is written in English but may be translated into multiple languages for reference. Only the English version of this document 
+is the final and determinative format released by Diodes. 
+ 
+8. 
+Any unauthorized copying, modification, distribution, transmission, display or other use of this document (or any portion hereof) is 
+prohibited. Diodes assumes no responsibility for any losses incurred by the customers or users or any third parties arising from any such 
+unauthorized use. 
+ 
+Copyright © 2021 Diodes Incorporated 
+ 
+www.diodes.com 
+ 
+ 
+ 

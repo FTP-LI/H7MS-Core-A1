@@ -1,0 +1,2381 @@
+PAGE 1
+Crystal Oscillator (SPXO)
+· Package size (2.5 mm × 2.0 mm × 0.8 mm)
+· Fundamental mode SPXO
+· Output: CMOS
+· Reference weight Typ.14 mg
+X1G0041710015xx
+[ 1 ] Product Number / Product Name
+(1-1) Product Number / Ordering Code
+X1G0041710015xx
+Last 2 digits code(xx) defines Quantity.
+The standard is "00", 3 000 pcs/Reel.
+(1-2)  Product Name / Model Name
+SG-210STF     8.000000  MHz L
+[ 2 ] Operating Range
+Min.
+Typ.
+Max.
+VCC
+1.60
+-
+3.63
+V
+-
+GND
+0
+-
+0
+V
+-
+Operating temperature range
+T_use
+-40
+-
++85
+°C
+-
+CMOS load condition 
+L_CMOS
+-
+-
+15
+pF
+-
+[ 3 ] Frequency Characteristics
+(Unless stated otherwise [ 2 ] Operating Range)
+Min.
+Typ.
+Max.
+Output frequency
+fo
+-
+8.000000
+-
+MHz
+-
+Frequency tolerance *1
+f_tol
+-50
+-
++50
+×10-6
+T_use
+Frequency aging
+f_age
+-3
+-
++3
+×10-6
++25 ºC, First year
+*1 Frequency tolerance includes Initial frequency tolerance, Frequency / temperature characteristics, Frequency / voltage coefficient
+and Frequency / load coefficient.
+[ 4 ] Electrical Characteristics
+(Unless stated otherwise [ 2 ] Operating Range)
+Min.
+Typ.
+Max.
+Start-up time
+t_str
+-
+-
+3
+ms
+t = 0 at 90 % Vcc
+Current consumption
+ICC
+-
+-
+1.8
+mA
+No load condition, Vcc = 3.3 V
+Stand-by current
+I_std
+-
+-
+2.7
+μA
+S̅T̅ = GND, Vcc = 3.3 V
+VOH
+90 % Vcc
+-
+-
+V
+Ioʜ = -4 mA @Vcc = 3.3 V
+VOL
+-
+-
+10 % Vcc
+V
+Ioʟ = 4 mA @Vcc = 3.3 V
+Rise time
+tr
+-
+-
+3.0
+ns
+20 % Vcc to 80 % Vcc Level, 
+L_CMOS = 15 pF, Vcc = 3.3 V
+Fall time
+tf
+-
+-
+3.0
+ns
+80 % Vcc to 20 % Vcc Level, 
+L_CMOS = 15 pF, Vcc = 3.3 V
+Symmetry
+SYM
+45
+-
+55
+%
+50 % Vcc Level, L_CMOS ≤ 15 pF
+VIH
+80 % Vcc
+-
+-
+V
+S̅T̅ terminal
+VIL
+-
+-
+20 % Vcc
+V
+S̅T̅ terminal
+Output disable time (ST)
+tstp_st
+-
+-
+100
+ns
+S̅T̅ terminal HIGH → LOW
+Output enable time (ST)
+tsta_st
+-
+-
+3
+ms
+S̅T̅ terminal LOW → HIGH
+[ For other general specifications, please refer to the attached Full Data Sheet below ]
+Supply voltage
+Parameter
+Symbol
+Specifications
+Unit
+Conditions
+Unit
+Conditions
+Parameter
+Symbol
+Specifications
+Unit
+Conditions
+Output voltage
+Input voltage
+Parameter
+Symbol
+Specifications
+1 / 35 Page
+2025/6/18
+
+PAGE 2
+Features
+●    Crystal oscillator (SPXO)
+●    Frequency:
+1.2 MHz to 75 MHz
+(20 standard frequencies)
+●    Output:
+CMOS
+●    Supply voltage:
+1.6 V to 3.63 V
+●    Operating temperature:
+-20 °C to +70 °C
+-40 °C to +85 °C
+-40 °C to +105 °C
+Applications
+●    IoT, Wearable device
+●    Data center, Storage
+●    Medical, Industrial automation
+Description
+Epson’s SGxxxxCAN & SG-210STF are Simple Packaged Crystal Oscillator (SPXO) series with CMOS output.
+These SPXO’s are ideal for variety of applications from IoT, wearables, medical, industrial automation, etc. 
+These SPXO have low current consumption, wide operating voltage from 1.6 V to 3.63 V and wide operating
+temperature range from -40 °C to 85 °C, in addition operation up to 105 °C is available. 
+These SPXO’s are available in five different package size from 2.0 × 1.6 mm to 7.0 × 5.0 mm and available in
+standard pin out’s.
+Outline Drawing and Terminal Assignment
+SG2016CAN
+SG-210STF
+SG3225CAN
+SG5032CAN
+SG7050CAN
+Terminal Assignment
+Crystal oscillator: SG2016 / 3225 / 5032 / 7050CAN & SG-210STF
+SG2016CAN
+(2.0 × 1.6 mm)
+SG-210STF
+(2.5 × 2.0 mm)
+SG3225CAN
+(3.2 × 2.5 mm)
+SG5032CAN
+(5.0 × 3.2 mm)
+SG7050CAN
+(7.0 × 5.0 mm)
+Pin #
+Connection
+S̅T̅ function
+Osc. Circuit
+Output
+“H” or OPEN
+Oscillation
+Specified frequency: Enable
+“L”
+Oscillation stop
+High impedance: Disable
+#2
+GND
+#3
+OUT
+#4
+VCC
+Output terminal
+VCC terminal
+Function
+#1
+S̅T̅
+S̅T̅ terminal
+GND terminal
+Page 2 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 3
+[ 1 ] Product Name / Product Number
+(1-1) SG2016CAN
+(1) Product Name (Standard Form)
+a: Model    b: Output (C:CMOS)    c: Frequency    d: Supply voltage
+e: Frequency tolerance    f: Operating temperature    g: Internal identification code ("A" is default)
+(2) Product Number / Ordering Code
+DB
+DG
+JG
+JH
+±25 × 10-6
+±25 × 10-6
+±50 × 10-6
+±50 × 10-6
+-20 °C to +70 °C
+-40 °C to +85 °C
+-40 °C to +85 °C
+-40 °C to +105 °C
+4
+-
+X1G004801008300
+X1G004801003000
+X1G004801004900
+8
+-
+X1G004801008400
+X1G004801004500
+X1G004801004600
+10
+-
+X1G004801008500
+X1G004801002900
+X1G004801002700
+12
+X1G004801005000
+X1G004801009600
+X1G004801000700
+X1G004801005100
+12.288
+X1G004801005200
+X1G004801008600
+X1G004801004400
+X1G004801005300
+14.7456
+-
+X1G004801008700
+X1G004801005400
+X1G004801005500
+16
+-
+X1G004801008800
+X1G004801001400
+X1G004801005600
+20
+X1G004801005700
+X1G004801008900
+X1G004801005800
+X1G004801001800
+24
+X1G004801005900
+X1G004801007900
+X1G004801000200
+X1G004801004000
+24.576
+-
+X1G004801009000
+X1G004801006000
+X1G004801003100
+25
+X1G004801002400
+X1G004801008200
+X1G004801001200
+X1G004801003500
+26
+-
+X1G004801009100
+X1G004801000300
+X1G004801003900
+27
+-
+X1G004801008000
+X1G004801006100
+X1G004801002100
+32
+-
+X1G004801009200
+X1G004801006200
+X1G004801006300
+33.33
+-
+-
+X1G004801006400
+X1G004801006500
+33.3333
+-
+-
+X1G004801002600
+X1G004801006600
+40
+-
+X1G004801009300
+X1G004801006700
+X1G004801003600
+48
+X1G004801006800
+X1G004801009400
+X1G004801002000
+X1G004801006900
+50
+X1G004801007000
+X1G004801009500
+X1G004801001300
+X1G004801002800
+72
+X1G004801007100
+-
+X1G004801007200
+X1G004801007300
+Frequency tolerance / Operating temperature
+Frequency
+[MHz]
+SG2016 C AN
+25.000000MHz
+T J H A
+a
+b
+c
+d e f g
+e: Frequency tolerance / f: Operating temperature
+T
+1.8 V to 3.3 V Typ.
+DB ±25 × 10-6 / -20 °C to +70 °C
+K
+2.5 V to 3.3 V Typ.
+DG ±25 × 10-6 / -40 °C to +85 °C
+*Figure 1 is on the next page
+JG ±50 × 10-6 / -40 °C to +85 °C
+JH ±50 × 10-6 / -40 °C to +105 °C
+d: Supply voltage  Refer to Figure 1
+Page 3 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 4
+(1-2) SG-210STF
+(1) Product Name (Standard Form)
+a: Model    b: Function (S:Standby)    c: Supply voltage
+d: Frequency    e: Frequency tolerance / Operating temperature
+(2) Product Number / Ordering Code
+S
+J
+L
+Y
+±25 × 10-6
+±25 × 10-6
+±50 × 10-6
+±50 × 10-6
+-20 °C to +70 °C
+-40 °C to +85 °C
+-40 °C to +85 °C
+-40 °C to +105 °C
+4
+-
+X1G004171039800
+X1G004171000900
+X1G004171029900
+8
+-
+X1G004171039900
+X1G004171001500
+X1G004171006900
+10
+-
+X1G004171040000
+X1G004171001600
+X1G004171036500
+12
+X1G004171016300
+X1G004171041400
+X1G004171001800
+X1G004171028000
+12.288
+X1G004171006100
+X1G004171040100
+X1G004171001900
+X1G004171036600
+14.7456
+-
+X1G004171040200
+X1G004171002500
+X1G004171036700
+16
+-
+X1G004171040300
+X1G004171002700
+X1G004171015400
+20
+X1G004171021800
+X1G004171040400
+X1G004171002900
+X1G004171023800
+24
+X1G004171015600
+X1G004171040500
+X1G004171003100
+X1G004171019700
+24.576
+-
+X1G004171040600
+X1G004171003200
+X1G004171036800
+25
+X1G004171007700
+X1G004171040700
+X1G004171003300
+X1G004171005900
+26
+-
+X1G004171040800
+X1G004171003400
+X1G004171024400
+27
+-
+X1G004171040900
+X1G004171003500
+X1G004171025000
+32
+-
+X1G004171041000
+X1G004171004000
+X1G004171012700
+33.33
+-
+-
+X1G004171011900
+X1G004171030000
+33.3333
+-
+-
+X1G004171012000
+X1G004171007500
+40
+-
+X1G004171041100
+X1G004171004500
+X1G004171020600
+48
+X1G004171007800
+X1G004171041200
+X1G004171004600
+X1G004171036900
+50
+X1G004171007900
+X1G004171041300
+X1G004171004700
+X1G004171012600
+72
+X1G004171037000
+-
+X1G004171012400
+X1G004171037100
+Frequency
+[MHz]
+Frequency tolerance / Operating temperature
+SG-210 S T F
+25.000000MHz
+Y
+a
+b c
+d
+e
+T
+1.8 V to 3.3 V Typ.
+S
+±25 × 10-6 / -20 °C to +70 °C
+*Figure 1 is on the next page
+J
+±25 × 10-6 / -40 °C to +85 °C
+L
+±50 × 10-6 / -40 °C to +85 °C
+Y
+±50 × 10-6 / -40 °C to +105 °C
+c: Supply voltage  Refer to Figure 1
+e: Frequency tolerance / Operating temperature
+Page 4 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 5
+(1-3) SG3225CAN
+(1) Product Name (Standard Form)
+a: Model    b: Output (C:CMOS)    c: Frequency    d: Supply voltage
+e: Frequency tolerance    f: Operating temperature    g: Internal identification code ("A" is default)
+(2) Product Number / Ordering Code
+DB
+DG
+JG
+JH
+±25 × 10-6
+±25 × 10-6
+±50 × 10-6
+±50 × 10-6
+-20 °C to +70 °C
+-40 °C to +85 °C
+-40 °C to +85 °C
+-40 °C to +105 °C
+4
+-
+X1G005961005815
+X1G005961001115
+X1G005961001215
+8
+-
+X1G005961005915
+X1G005961000415
+X1G005961001315
+10
+-
+X1G005961006015
+X1G005961000515
+X1G005961001415
+12
+X1G005961001515
+X1G005961006715
+X1G005961000615
+X1G005961001615
+12.288
+X1G005961001715
+X1G005961006115
+X1G005961001815
+X1G005961001915
+14.7456
+-
+X1G005961006215
+X1G005961002015
+X1G005961002115
+16
+-
+X1G005961005115
+X1G005961002215
+X1G005961002315
+20
+X1G005961002415
+X1G005961006315
+X1G005961000715
+X1G005961002515
+24
+X1G005961002615
+X1G005961005215
+X1G005961000115
+X1G005961002715
+24.576
+-
+X1G005961006415
+X1G005961000815
+X1G005961002815
+25
+X1G005961002915
+X1G005961005315
+X1G005961000215
+X1G005961003015
+26
+-
+X1G005961006515
+X1G005961003115
+X1G005961003215
+27
+-
+X1G005961005415
+X1G005961003315
+X1G005961003415
+32
+-
+X1G005961006615
+X1G005961003515
+X1G005961003615
+33.33
+-
+-
+X1G005961003715
+X1G005961003815
+33.3333
+-
+-
+X1G005961003915
+X1G005961004015
+40
+-
+X1G005961005515
+X1G005961000915
+X1G005961004115
+48
+X1G005961004215
+X1G005961005615
+X1G005961000315
+X1G005961004315
+50
+X1G005961004415
+X1G005961005715
+X1G005961001015
+X1G005961004515
+72
+X1G005961004615
+-
+X1G005961004715
+X1G005961004815
+Frequency
+[MHz]
+Frequency tolerance / Operating temperature
+SG3225 C AN
+25.000000MHz
+T J H A
+a
+b
+c
+d e f g
+e: Frequency tolerance / f: Operating temperature
+T
+1.8 V to 3.3 V Typ.
+DB ±25 × 10-6 / -20 °C to +70 °C
+K
+2.5 V to 3.3 V Typ.
+DG ±25 × 10-6 / -40 °C to +85 °C
+*Figure 1 is on the next page
+JG ±50 × 10-6 / -40 °C to +85 °C
+JH ±50 × 10-6 / -40 °C to +105 °C
+d: Supply voltage  Refer to Figure 1
+Page 5 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 6
+(1-4) SG5032CAN
+(1) Product Name (Standard Form)
+a: Model    b: Output (C:CMOS)    c: Frequency    d: Supply voltage
+e: Frequency tolerance    f: Operating temperature    g: Internal identification code ("A" is default)
+(2) Product Number / Ordering Code
+DB
+DG
+JG
+JH
+±25 × 10-6
+±25 × 10-6
+±50 × 10-6
+±50 × 10-6
+-20 °C to +70 °C
+-40 °C to +85 °C
+-40 °C to +85 °C
+-40 °C to +105 °C
+4
+-
+X1G004451022100
+X1G004451003400
+X1G004451019600
+8
+-
+X1G004451022200
+X1G004451002100
+X1G004451019700
+10
+-
+X1G004451022300
+X1G004451001300
+X1G004451017800
+12
+X1G004451019800
+X1G004451023700
+X1G004451002800
+X1G004451019900
+12.288
+X1G004451020000
+X1G004451022400
+X1G004451000100
+X1G004451020100
+14.7456
+-
+X1G004451022500
+X1G004451001900
+X1G004451020200
+16
+-
+X1G004451022600
+X1G004451000200
+X1G004451020300
+20
+X1G004451020400
+X1G004451022700
+X1G004451001100
+X1G004451020500
+24
+X1G004451017200
+X1G004451022800
+X1G004451000300
+X1G004451020600
+24.576
+-
+X1G004451022900
+X1G004451002900
+X1G004451020700
+25
+X1G004451009700
+X1G004451023000
+X1G004451000400
+X1G004451020800
+26
+-
+X1G004451023100
+X1G004451008200
+X1G004451020900
+27
+-
+X1G004451023200
+X1G004451000500
+X1G004451021000
+32
+-
+X1G004451023300
+X1G004451001400
+X1G004451021100
+33.33
+-
+-
+X1G004451021200
+X1G004451021300
+33.3333
+-
+-
+X1G004451016700
+X1G004451021400
+40
+-
+X1G004451023400
+X1G004451001200
+X1G004451021500
+48
+X1G004451014900
+X1G004451023500
+X1G004451000700
+X1G004451011200
+50
+X1G004451011500
+X1G004451023600
+X1G004451000800
+X1G004451003600
+72
+X1G004451021600
+-
+X1G004451021700
+X1G004451021800
+Frequency
+[MHz]
+Frequency tolerance / Operating temperature
+SG5032 C AN
+25.000000MHz
+T J H A
+a
+b
+c
+d e f g
+e: Frequency tolerance / f: Operating temperature
+T
+1.8 V to 3.3 V Typ.
+DB ±25 × 10-6 / -20 °C to +70 °C
+K
+2.5 V to 3.3 V Typ.
+DG ±25 × 10-6 / -40 °C to +85 °C
+*Figure 1 is on the next page
+JG ±50 × 10-6 / -40 °C to +85 °C
+JH ±50 × 10-6 / -40 °C to +105 °C
+d: Supply voltage  Refer to Figure 1
+Page 6 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 7
+(1-5) SG7050CAN
+(1) Product Name (Standard Form)
+a: Model    b: Output (C:CMOS)    c: Frequency    d: Supply voltage
+e: Frequency tolerance    f: Operating temperature    g: Internal identification code ("A" is default)
+(2) Product Number / Ordering Code
+DB
+DG
+JG
+JH
+±25 × 10-6
+±25 × 10-6
+±50 × 10-6
+±50 × 10-6
+-20 °C to +70 °C
+-40 °C to +85 °C
+-40 °C to +85 °C
+-40 °C to +105 °C
+4
+-
+X1G004481027400
+X1G004481005100
+X1G004481025200
+8
+-
+X1G004481027500
+X1G004481001400
+X1G004481025300
+10
+-
+X1G004481027600
+X1G004481000500
+X1G004481025400
+12
+X1G004481025500
+X1G004481029000
+X1G004481000600
+X1G004481025600
+12.288
+X1G004481025700
+X1G004481027700
+X1G004481000100
+X1G004481025800
+14.7456
+-
+X1G004481027800
+X1G004481002500
+X1G004481025900
+16
+-
+X1G004481027900
+X1G004481000700
+X1G004481026000
+20
+X1G004481012800
+X1G004481028000
+X1G004481000800
+X1G004481026100
+24
+X1G004481002200
+X1G004481028100
+X1G004481000200
+X1G004481026200
+24.576
+-
+X1G004481028200
+X1G004481001600
+X1G004481026300
+25
+X1G004481011600
+X1G004481028300
+X1G004481000300
+X1G004481026400
+26
+-
+X1G004481028400
+X1G004481003500
+X1G004481026500
+27
+-
+X1G004481028500
+X1G004481000400
+X1G004481026600
+32
+-
+X1G004481028600
+X1G004481000900
+X1G004481026700
+33.33
+-
+-
+X1G004481017900
+X1G004481026800
+33.3333
+-
+-
+X1G004481003300
+X1G004481026900
+40
+-
+X1G004481028700
+X1G004481001500
+X1G004481027000
+48
+X1G004481022600
+X1G004481028800
+X1G004481001100
+X1G004481027100
+50
+X1G004481011200
+X1G004481028900
+X1G004481001200
+X1G004481016000
+72
+X1G004481027200
+-
+X1G004481018300
+X1G004481027300
+Frequency
+[MHz]
+Frequency tolerance / Operating temperature
+SG7050 C AN
+25.000000MHz
+T J H A
+a
+b
+c
+d e f g
+e: Frequency tolerance / f: Operating temperature
+T
+1.8 V to 3.3 V Typ.
+DB ±25 × 10-6 / -20 °C to +70 °C
+K
+2.5 V to 3.3 V Typ.
+DG ±25 × 10-6 / -40 °C to +85 °C
+*Figure 1 is on the next page
+JG ±50 × 10-6 / -40 °C to +85 °C
+JH ±50 × 10-6 / -40 °C to +105 °C
+d: Supply voltage  Refer to Figure 1
+Page 7 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 8
+[ 2 ] Absolute Maximum Ratings
+Min.
+Typ.
+Max.
+Maximum supply voltage
+VCC
+-0.3
+-
+4
+V
+Input voltage
+Vin
+-0.3
+-
+VCC + 0.3
+V
+S̅T̅ terminal
+-55
+-
++125
+°C
+SG2016CAN, SG3225CAN
+-40
+-
++125
+°C
+All other
+[ 3 ] Operating Range
+Min.
+Typ.
+Max.
+1.6
+-
+3.63
+V
+1.2 MHz ≤ fo ≤ 60 MHz, 
+T_use = +105 °C Max.
+1.71
+-
+3.63
+V
+60 MHz < fo ≤ 75 MHz, 
+T_use = +85 °C Max.
+2.25
+-
+3.63
+V
+60 MHz < fo ≤ 75 MHz,
+T_use = +105 °C Max.
+Supply voltage
+GND
+0.0
+0.0
+0.0
+V
+-20
++25
++70
+°C
+-40
++25
++85
+°C
+-40
++25
++105
+°C
+CMOS load condition 
+L_CMOS
+-
+-
+15
+pF
+* Power supply startup time (0 %VCC → 90 %VCC) should be more than 150 μs
+* A 0.01 μF to a 0.1 μF bypass capacitor should be connected between VCC and GND pins located close to the device
+[ 4 ] Frequency Characteristics
+(Unless stated otherwise [ 3 ] Operating Range)
+Min.
+Typ.
+Max.
+1.2
+-
+75
+×10-6
+Please contact us for frequencies 
+other than the standard ones.
+MHz
+Standard frequency
+-25
+-
++25
+×10-6
+T_use = -20 °C ~ +70 °C,
+                -40 °C ~ +85 °C
+-50
+-
++50
+×10-6
+T_use = -40 °C ~ +85 °C,
+                -40 °C ~ +105 °C
+Frequency aging
+f_age
+-3
++3
+×10-6
+T_use = +25 °C, First year
+*1 Frequency tolerance includes initial frequency tolerance, frequency / temperature characteristics, frequency / voltage coefficient,
+and frequency / load coefficient
+Output frequency
+fo
+4, 8, 10, 12, 12.288, 14.7456, 16, 20, 24, 
+24.576, 25, 26, 27, 32, 33.33, 33.3333, 
+40, 48, 50, 72
+Frequency tolerance *1
+f_tol
+Figure 1: The upper limit of Operating temperature and the related conditions
+Parameter
+Symbol
+Specification
+Unit
+Conditions
+Conditions
+Supply voltage
+VCC
+Operating temperature range
+ (Refer to Figure 1)
+T_use
+Please note that Supply voltage range (VCC) 
+depends on Output frequency(fo) and upper limit of 
+Operating temperature(T_use Max.).
+Storage temperature range
+T_stg
+Parameter
+Symbol
+Specification
+Unit
+Parameter
+Symbol
+Specification
+Unit
+Conditions
+f0[MHz]
+Vcc[V]
+1.60
+1.71
+3.63
+1.2
+60
+75
+105℃
+85℃
+2.25
+3.63
+2.25
+1.60
+1.2
+1.71
+60
+75
+Page 8 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 9
+[ 5 ] Electrical Characteristics
+(Unless stated otherwise [ 3 ] Operating Range)
+Min.
+Typ.
+Max.
+Start-up time
+t_str
+-
+-
+3
+ms
+t = 0 at 90 %VCC
+-
+-
+1.5
+mA
+1.2 MHz ≤ fo ≤ 20 MHz
+-
+-
+1.8
+mA
+20 MHz < fo ≤ 40 MHz
+-
+-
+2.1
+mA
+40 MHz < fo ≤ 60 MHz
+     VCC = 1.8 V ± 5 %
+-
+-
+2.4
+mA
+60 MHz < fo ≤ 75 MHz
+-
+-
+1.6
+mA
+1.2 MHz ≤ fo ≤ 20 MHz
+-
+-
+2.0
+mA
+20 MHz < fo ≤ 40 MHz
+-
+-
+2.4
+mA
+40 MHz < fo ≤ 60 MHz
+-
+-
+2.8
+mA
+60 MHz < fo ≤ 75 MHz
+-
+-
+1.8
+mA
+1.2 MHz ≤ fo ≤ 20 MHz
+-
+-
+2.2
+mA
+20 MHz < fo ≤ 40 MHz
+-
+-
+2.6
+mA
+40 MHz < fo ≤ 60 MHz
+-
+-
+3.0
+mA
+60 MHz < fo ≤ 75 MHz
+-
+-
+2.1
+µA
+VCC = 1.8 V ± 10 % or ± 5 %, 
+S̅T̅ = GND
+-
+-
+2.5
+µA
+VCC = 2.5 V ± 10 %, S̅T̅ = GND
+-
+-
+2.7
+µA
+VCC = 3.3 V ± 10 %, S̅T̅ = GND
+VOH
+90 % VCC
+-
+-
+V
+VOL
+-
+-
+10 % VCC
+V
+VOH
+VCC - 0.4
+-
+-
+V
+VOL
+-
+-
+0.4
+V
+Symmetry
+SYM
+45
+50
+55
+%
+50 % VCC level,
+L_CMOS ≤ 15 pF
+-
+-
+3
+ns
+VCC = 2.5 V or 3.3 V ± 10 %,
+20 % VCC to 80 % VCC Level, 
+L_CMOS = 15 pF
+-
+-
+3.5
+ns
+VCC = 1.8 V ± 10 % or ± 5 %,
+20 % VCC to 80 % VCC Level, 
+L_CMOS = 15 pF
+VIH
+80 % Vcc
+-
+-
+V
+VIL
+-
+-
+20 % Vcc
+V
+Output disable time (ST)
+tstp_st
+-
+-
+100
+ns
+S̅T̅ terminal HIGH → LOW
+Output enable time (ST)
+tsta_st
+-
+-
+3
+ms
+S̅T̅ terminal LOW → HIGH
+[ 6 ] Thermal resistance  (For reference only)
+Min.
+Typ.
+Max.
+Junction temperature
+Tj
+-
+-
++125
+°C
+-
+9.8
+-
+°C/W
+SG2016CAN
+-
+15.2
+-
+°C/W
+SG-210STF
+-
+23.1
+-
+°C/W
+SG3225CAN
+-
+16.1
+-
+°C/W
+SG5032CAN
+-
+28.0
+-
+°C/W
+SG7050CAN
+-
+99.6
+-
+°C/W
+SG2016CAN
+-
+91.9
+-
+°C/W
+SG-210STF
+-
+103.8
+-
+°C/W
+SG3225CAN
+-
+82.5
+-
+°C/W
+SG5032CAN
+-
+78.8
+-
+°C/W
+SG7050CAN
+Junction to ambient
+θja
+Parameter
+Symbol
+Specification
+Unit
+Conditions
+Junction to case
+θjc
+Input voltage
+S̅T̅ terminal
+Stand-by current
+I_std
+Output voltage
+Rise time/Fall time
+tr / tf
+Unit
+Conditions
+Current consumption (No load)
+     VCC = 1.8 V ± 10 %
+ICC
+Current consumption (No load)
+     VCC = 2.5 V ± 10 %
+Current consumption (No load)
+     VCC = 3.3 V ± 10 %
+Parameter
+Symbol
+Specification
+Load current condition
+1.8 V ± 10 % 2.5 V ± 10 % 3.3 V ± 10 %
+IOH
+-1.5 mA
+-3 mA
+-4 mA
+IOL
+1.5 mA
+3 mA
+4 mA
+Load current condition
+1.8 V ± 10 % 2.5 V ± 10 % 3.3 V ± 10 %
+IOH
+-3 mA
+-4 mA
+-6 mA
+IOL
+3 mA
+4 mA
+6 mA
+Page 9 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 10
+[ 7 ] Typical Performance Characteristics  (For reference only)
+The following data shows typical performance characteristics
+(7-1) Frequency / Temperature Characteristics
+fo = 25 MHz, ±25 × 10-6 at -20 °C to +70 °C
+     n = 50 pcs
+fo = 25 MHz, ±50 × 10-6 at -40 °C to +85 °C/+105 °C
+     n = 50 pcs
+Page 10 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 11
+(7-2) Current Consumption
+No load, T_use = +25 °C, Freq. Dependency
+L_CMOS = 15 pF, T_use = +25 °C, Freq. Dependency
+fo = 20 MHz
+L_CMOS = 5 pF, Temperature Characteristic
+T_use = +25 °C, Output load(L_CMOS) Characteristics
+fo = 40 MHz
+L_CMOS = 5 pF, Temperature Characteristic
+T_use = +25 °C, Output load(L_CMOS) Characteristics
+fo = 72 MHz
+L_CMOS = 5 pF, Temperature Characteristic
+T_use = +25 °C, Output load(L_CMOS) Characteristics
+* Output load condition under L_CMOS > 15 pF (dotted line area) is not guaranteed, and the data is for reference. 
+The actual current consumption  is the total of the current under the condition of no load and the current to drive the
+output load (fo × L_CMOS × VCC). To reduce the current consumption, it is effective to use lower frequency, lower
+supply voltage and lower output load.
+Page 11 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 12
+(7-3) Rise Time / Fall Time
+fo = 20 MHz, Rise Time
+20 % - 80 %VCC, L_CMOS = 15 pF, Temp. Char.
+20 % - 80 %VCC, T_use = +25 °C, Output load Char.
+10 % - 90 %VCC, L_CMOS = 15 pF, Temp. Char.
+10 % - 90 %VCC, T_use = +25 °C, Output load Char.
+* Output load condition under L_CMOS > 15 pF (dotted line area) is not guaranteed, and the data is for reference. 
+fo = 20 MHz, Fall Time
+20 % - 80 %VCC, L_CMOS = 15 pF, Temp. Char.
+20 % - 80 %VCC, T_use = +25 °C, Output load Char.
+10 % - 90 %VCC, L_CMOS = 15 pF, Temp. Char.
+10 % - 90 %VCC, T_use = +25 °C, Output load Char.
+* Output load condition under L_CMOS > 15 pF (dotted line area) is not guaranteed, and the data is for reference. 
+Page 12 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 13
+(7-3) Rise Time / Fall Time [cont'd]
+fo = 40 MHz, Rise Time
+20 % - 80 %VCC, L_CMOS = 15 pF, Temp. Char.
+20 % - 80 %VCC, T_use = +25 °C, Output load Char.
+10 % - 90 %VCC, L_CMOS = 15 pF, Temp. Char.
+10 % - 90 %VCC, T_use = +25 °C, Output load Char.
+* Output load condition under L_CMOS > 15 pF (dotted line area) is not guaranteed, and the data is for reference. 
+fo = 40 MHz, Fall Time
+20 % - 80 %VCC, L_CMOS = 15 pF, Temp. Char.
+20 % - 80 %VCC, T_use = +25 °C, Output load Char.
+10 % - 90 %VCC, L_CMOS = 15 pF, Temp. Char.
+10 % - 90 %VCC, T_use = +25 °C, Output load Char.
+* Output load condition under L_CMOS > 15 pF (dotted line area) is not guaranteed, and the data is for reference. 
+Page 13 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 14
+(7-3) Rise Time / Fall Time [cont'd]
+fo = 72 MHz, Rise Time
+20 % - 80 %VCC, L_CMOS = 15 pF, Temp. Char.
+20 % - 80 %VCC, T_use = +25 °C, Output load Char.
+10 % - 90 %VCC, L_CMOS = 15 pF, Temp. Char.
+10 % - 90 %VCC, T_use = +25 °C, Output load Char.
+* Output load condition under L_CMOS > 15 pF (dotted line area) is not guaranteed, and the data is for reference. 
+  There are some missing data in the graph. It is unmeasurable because of low amplitude under the condition of
+  L CMOS > 15 pF.
+fo = 72 MHz, Fall Time
+20 % - 80 %VCC, L_CMOS = 15 pF, Temp. Char.
+20 % - 80 %VCC, T_use = +25 °C, Output load Char.
+10 % - 90 %VCC, L_CMOS = 15 pF, Temp. Char.
+10 % - 90 %VCC, T_use = +25 °C, Output load Char.
+* Output load condition under L_CMOS > 15 pF (dotted line area) is not guaranteed, and the data is for reference. 
+  There are some missing data in the graph. It is unmeasurable because of low amplitude under the condition of
+  L CMOS > 15 pF.
+Page 14 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 15
+(7-4) Symmetry
+fo = 20 MHz
+50 %VCC, L_CMOS = 15 pF, Temp. Char.
+fo = 40 MHz
+50 %VCC, L_CMOS = 15 pF, Temp. Char.
+fo = 72 MHz
+50 %VCC, L_CMOS = 15 pF, Temp. Char.
+Page 15 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 16
+(7-5) Output Voltage
+fo = 20 MHz
+VOH, L_CMOS = 15 pF, Temp. Char.
+VOL, L_CMOS = 15 pF, Temp. Char.
+fo = 40 MHz
+VOH, L_CMOS = 15 pF, Temp. Char.
+VOL, L_CMOS = 15 pF, Temp. Char.
+fo = 72 MHz
+VOH, L_CMOS = 15 pF, Temp. Char.
+VOL, L_CMOS = 15 pF, Temp. Char.
+Page 16 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 17
+(7-6) Phase Noise, Phase Jitter, and Jitter
+fo = 20 MHz
+VCC = 3.3 V, T_use = +25 °C
+VCC = 2.5 V, T_use = +25 °C
+VCC = 1.8 V, T_use = +25 °C
+Phase Jitter (Offset frequency: 12 kHz to 5 MHz)
+VCC
+3.3 V
+2.5 V
+1.8 V
+Jitter (T_use = +25 °C, VCC = 3.3 V)
+31.3 ps
+1.8 ps
+15 ps
+fo = 40 MHz
+VCC = 3.3 V, T_use = +25 °C
+VCC = 2.5 V, T_use = +25 °C
+VCC = 1.8 V, T_use = +25 °C
+Phase Jitter (Offset frequency: 12 kHz to 20 MHz)
+VCC
+3.3 V
+2.5 V
+1.8 V
+Jitter (T_use = +25 °C, VCC = 3.3 V)
+22.3 ps
+1.8 ps
+16 ps
+0.32 ps
+Total jitter (BER = 10-12)
+RMS jitter
+Peak to peak jitter
+Total jitter (BER = 10-12)
+RMS jitter
+Peak to peak jitter
+Phase Jitter
+0.24 ps
+0.26 ps
+Phase Jitter
+0.31 ps
+0.31 ps
+0.32 ps
+-180
+-160
+-140
+-120
+-100
+-80
+-60
+-40
+-20
+0
+1
+10
+100
+1k
+10k
+100k
+1M
+10M
+100M
+Phase Noise  d c Hz 
+Offset fre uency  Hz 
+-180
+-160
+-140
+-120
+-100
+-80
+-60
+-40
+-20
+0
+1
+10
+100
+1k
+10k
+100k
+1M
+10M
+100M
+Phase Noise  d c Hz 
+Offset fre uency  Hz 
+-180
+-160
+-140
+-120
+-100
+-80
+-60
+-40
+-20
+0
+1
+10
+100
+1k
+10k
+100k
+1M
+10M
+100M
+Phase Noise  d c Hz 
+Offset fre uency  Hz 
+-180
+-160
+-140
+-120
+-100
+-80
+-60
+-40
+-20
+0
+1
+10
+100
+1k
+10k
+100k
+1M
+10M
+100M
+Phase Noise  d c Hz 
+Offset fre uency  Hz 
+-180
+-160
+-140
+-120
+-100
+-80
+-60
+-40
+-20
+0
+1
+10
+100
+1k
+10k
+100k
+1M
+10M
+100M
+Phase Noise  d c Hz 
+Offset fre uency  Hz 
+-180
+-160
+-140
+-120
+-100
+-80
+-60
+-40
+-20
+0
+1
+10
+100
+1k
+10k
+100k
+1M
+10M
+100M
+Phase Noise  d c Hz 
+Offset fre uency  Hz 
+Page 17 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 18
+(7-6) Phase Noise and Phase Jitter [cont'd]
+fo = 72 MHz
+VCC = 3.3 V, T_use = +25 °C
+VCC = 2.5 V, T_use = +25 °C
+VCC = 1.8 V, T_use = +25 °C
+Phase Jitter (Offset frequency: 12 kHz to 20 MHz)
+VCC
+3.3 V
+2.5 V
+1.8 V
+Jitter (T_use = +25 °C, VCC = 3.3 V)
+21.8 ps
+1.8 ps
+16 ps
+0.17 ps
+0.20 ps
+Total jitter (BER = 10-12)
+RMS jitter
+Peak to peak jitter
+Phase Jitter
+0.16 ps
+-180
+-160
+-140
+-120
+-100
+-80
+-60
+-40
+-20
+0
+1
+10
+100
+1k
+10k
+100k
+1M
+10M
+100M
+Phase Noise  d c Hz 
+Offset fre uency  Hz 
+-180
+-160
+-140
+-120
+-100
+-80
+-60
+-40
+-20
+0
+1
+10
+100
+1k
+10k
+100k
+1M
+10M
+100M
+Phase Noise  d c Hz 
+Offset fre uency  Hz 
+-180
+-160
+-140
+-120
+-100
+-80
+-60
+-40
+-20
+0
+1
+10
+100
+1k
+10k
+100k
+1M
+10M
+100M
+Phase Noise  d c Hz 
+Offset fre uency  Hz 
+Page 18 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 19
+(7-7) Output Waveform
+fo = 20 MHz
+VCC = 3.3 V, L_CMOS = 15 pF, T_use = +25 °C
+VCC = 2.5 V,  L_CMOS = 15 pF, T_use = +25 °C
+VCC = 1.8 V, L_CMOS = 15 pF, T_use = +25 °C
+fo = 40 MHz
+VCC = 3.3 V, L_CMOS = 15 pF, T_use = +25 °C
+VCC = 2.5 V,  L_CMOS = 15 pF, T_use = +25 °C
+VCC = 1.8 V, L_CMOS = 15 pF, T_use = +25 °C
+Page 19 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 20
+(7-7) Output Waveform [cont'd]
+fo = 72 MHz
+VCC = 3.3 V, L_CMOS = 15 pF, T_use = +25 °C
+VCC = 2.5 V,  L_CMOS = 15 pF, T_use = +25 °C
+VCC = 1.8 V, L_CMOS = 15 pF, T_use = +25 °C
+Page 20 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 21
+[ 8 ] Test Circuit
+(8-1) Waveform Observation
+(8-2) Current Consumption Test
+*Standby current test should be S̅T̅ = GND.
+(8-3) Condition
+(1) Oscilloscope
+The bandwidth should be minimum 5 times wider than measurement frequency
+The probe ground should be placed closely to the test point and the lead length should be 
+              as short as possible
+* It is recommended to use miniature socket. (Don’t use earth lead.)
+(2) L_CMOS includes probe capacitance. 
+(3) A 0.01 μF to a 0.1 μF bypass capacitor should be connected between VCC and GND pins located
+     close to the device
+(4) Use a current meter with a low internal impedance
+(5) Power Supply
+Power supply startup time (0 %VCC → 90 %VCC) should be more than 150 μs
+Power supply impedance should be as low as possible
+VCC 
+ST  
+OUT 
+GND 
+Switch 
+supply 
+by-pass 
+capacitor 
+L_CMOS 
+Test Point 
+VCC 
+ST  
+OUT
+GND 
+Switch 
+supply 
+by-pass 
+capacitor 
+Test 
+Point 
+A 
+Page 21 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 22
+(8-4) Timing Chart
+(1) Output Waveform and Level
+(2) Output Frequency Timing
+(3) S̅T̅ Function and Timing
+*1  The period from S̅T̅ = VIL to OUT = High impedance (Disable)
+*2  The period from S̅T̅ = VIH to OUT = Enable
+*  Judge of starting output: VOH ≥ 80 %VCC, VOL ≤ 20 %Vcc, fout is within fo ± 1 000 × 10-6
+*  S̅T̅ terminal voltage level should not exceed supply voltage when using S̅T̅ function.
+  Please note that S̅T̅ rise time should not exceed supply voltage rise time at the start-up.
+S̅T̅ Terminal
+Osc. circuit
+Output status
+“H” or OPEN
+Oscillation
+Specified frequency: Enable
+“L”
+Oscillation stop
+High impedance: Disable
+VCC
+OUT
+Output Stable
+t_str
+90 %VCC
+0 V
+0 V
+VIH
+VIL
+Enable
+S̅T̅
+OUT
+High impedance
+Disable
+tstp_st
+tsta_st
+*1
+*2
+Page 22 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 23
+[ 9 ] Outline Drawing  and Recommended Footprint
+(9-1) SG2016CAN
+    
+Units: mm
+For stable operation, it is recommended that
+0.01 µF to 0.1 µF bypass capacitors should be
+connected between VCC and GND and placed
+as close to the VCC pin as possible.
+Reference Weight Typ.: 9.9 mg
+Terminal Assignment
+Marking
+Terminal coating : Au plating
+Frequency tolerance /
+Operating temperature
+Frequency [MHz]
+Production lot number
+Location of Pin #1
+Model
+Pin #
+Connection
+S̅T̅ function
+Osc. Circuit
+Output
+“H” or OPEN
+Oscillation
+Specified frequency: Enable
+“L”
+Oscillation stop
+High impedance: Disable
+#2
+GND
+#3
+OUT
+#4
+VCC
+GND terminal
+Output terminal
+VCC terminal
+Function
+#1
+S̅T̅
+S̅T̅ terminal
+Page 23 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 24
+(9-2) SG-210STF
+    
+Units: mm
+For stable operation, it is recommended that
+0.01 µF to 0.1 µF bypass capacitors should be
+connected between VCC and GND and placed
+as close to the VCC pin as possible.
+Reference Weight Typ.: 14 mg
+Terminal Assignment
+Marking
+Terminal coating : Au plating
+Model
+Production lot number
+Location of Pin #1
+Frequency [MHz]
+Pin #
+Connection
+S̅T̅ function
+Osc. Circuit
+Output
+“H” or OPEN
+Oscillation
+Specified frequency: Enable
+“L”
+Oscillation stop
+High impedance: Disable
+#2
+GND
+#3
+OUT
+#4
+VCC
+GND terminal
+Output terminal
+VCC terminal
+Function
+#1
+S̅T̅
+S̅T̅ terminal
+Page 24 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 25
+(9-3) SG3225CAN
+    
+Units: mm
+For stable operation, it is recommended that
+0.01 µF to 0.1 µF bypass capacitors should be
+connected between VCC and GND and placed
+as close to the VCC pin as possible.
+Reference Weight Typ.: 25 mg
+Terminal Assignment
+Marking
+Terminal coating : Au plating
+Lot code /
+Operating temperature
+Frequency [MHz]
+Production lot number
+Location of Pin #1
+Model
+Pin #
+Connection
+S̅T̅ function
+Osc. Circuit
+Output
+“H” or OPEN
+Oscillation
+Specified frequency: Enable
+“L”
+Oscillation stop
+High impedance: Disable
+#2
+GND
+#3
+OUT
+#4
+VCC
+GND terminal
+Output terminal
+VCC terminal
+Function
+#1
+S̅T̅
+S̅T̅ terminal
+Page 25 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 26
+(9-4) SG5032CAN
+    
+Units: mm
+For stable operation, it is recommended that
+0.01 µF to 0.1 µF bypass capacitors should be
+connected between VCC and GND and placed
+as close to the VCC pin as possible.
+Reference Weight Typ.: 52 mg
+Terminal Assignment
+Marking
+Terminal coating : Au plating
+Location of Pin #1
+Model
+Symbol
+Frequency [MHz]
+Production lot number
+Pin #
+Connection
+S̅T̅ function
+Osc. Circuit
+Output
+“H” or OPEN
+Oscillation
+Specified frequency: Enable
+“L”
+Oscillation stop
+High impedance: Disable
+#2
+GND
+#3
+OUT
+#4
+VCC
+GND terminal
+Output terminal
+VCC terminal
+Function
+#1
+S̅T̅
+S̅T̅ terminal
+Page 26 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 27
+(9-5) SG7050CAN
+Units: mm
+For stable operation, it is recommended that
+0.01 µF to 0.1 µF bypass capacitors should be
+connected between VCC and GND and placed
+as close to the VCC pin as possible.
+Reference Weight Typ.: 147 mg
+Terminal Assignment
+Marking
+Location of Pin #1
+Model
+Symbol
+Frequency [MHz]
+Production lot number
+Terminal coating : Au plating
+Pin #
+Connection
+S̅T̅ function
+Osc. Circuit
+Output
+“H” or OPEN
+Oscillation
+Specified frequency: Enable
+“L”
+Oscillation stop
+High impedance: Disable
+#2
+GND
+#3
+OUT
+#4
+VCC
+GND terminal
+Output terminal
+VCC terminal
+Function
+#1
+S̅T̅
+S̅T̅ terminal
+Page 27 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 28
+[ 10 ] Moisture Sensitivity Level
+Parameter
+MSL
+[ 11 ] Reflow Profiles
+IPC/JEDEC J-STD-020D.1
+Specification
+Conditions
+LEVEL 1
+IPC/JEDEC J-STD-020D.1
+Page 28 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 29
+[ 12 ] Packing Information
+(12-1) SG2016CAN
+(1) Packing Quantity
+The last two digits of the Product Number (X1G004801xxxxxx) are a code that defines the packing
+quantity. The standard is "00" for a 3 000 pcs/Reel.
+(2) Taping Specification
+Subject to EIA-481, IEC-60286 and JIS C0806
+1) Tape Dimensions  
+Carrier Tape Material: PS (Polystyrene)
+Top Tape Material: PET (Polyethylene Terephthalate) +PE (Polyethylene)
+Units: mm
+2) Reel Dimensions
+Center Material: PS (Polystyrene)
+Reel Material: PS (Polystyrene)
+Units: mm
+3) Storage Environment
+We recommend to keep less than +30 °C and 85 %RH of humidity in a packed condition,
+and to use it less than 6 months after delivery.
+11.41.0
+9 . 0 0 . 3
+Φ60.0  
+Φ13.00.2
+2.0 0.5
+Φ180.0 
+ 
+0
++0 .1
+0
++0 .1
+1 .85±0 .1
+3 .5±0 .1
+1 .0±0 .1
+0 .25±0 .05
+8 .0±0 .2
+1 .75±0 .1
+2 .0±0 .1
+2 .25±0 .1
+4 .0±0 .1
+4 .0 ±0 .1
+φ1 .5
+φ1 .0
+○Epson
+○Epson
+User direction of feed
+Page 29 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 30
+(12-2) SG-210STF
+(1) Packing Quantity
+The last two digits of the Product Number (X1G004171xxxxxx) are a code that defines the packing
+quantity. The standard is "00" for a 3 000 pcs/Reel.
+(2) Taping Specification
+Subject to EIA-481, IEC-60286 and JIS C0806
+1) Tape Dimensions  
+Carrier Tape Material: PS (Polystyrene)
+Top Tape Material: PET (Polyethylene Terephthalate) +PE (Polyethylene)
+Units: mm
+2) Reel Dimensions
+Center Material: PS (Polystyrene)
+Reel Material: PS (Polystyrene)
+Units: mm
+3) Storage Environment
+We recommend to keep less than +30 °C and 85 %RH of humidity in a packed condition,
+and to use it less than 6 months after delivery.
+○Epson
+○Epson
+User direction of feed
+Page 30 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 31
+(12-3) SG3225CAN
+(1) Packing Quantity
+The last two digits of the Product Number (X1G005961xxxxxx) are a code that defines the packing
+quantity. The standard is "15" for a 2 000 pcs/Reel.
+(2) Taping Specification
+Subject to EIA-481, IEC-60286 and JIS C0806
+1) Tape Dimensions  
+Carrier Tape Material: PS (Polystyrene)
+Top Tape Material: PET (Polyethylene Terephthalate) +PE (Polyethylene)
+Units: mm
+2) Reel Dimensions
+Center Material: PS (Polystyrene)
+Reel Material: PS (Polystyrene)
+Units: mm
+3) Storage Environment
+We recommend to keep less than +30 °C and 85 %RH of humidity in a packed condition,
+and to use it less than 6 months after delivery.
+User direction of feed
+○Epson
+○Epson
+Page 31 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 32
+(12-4) SG5032CAN
+(1) Packing Quantity
+The last two digits of the Product Number (X1G004451xxxxxx) are a code that defines the packing
+quantity. The standard is "00" for a 1 000 pcs/Reel.
+(2) Taping Specification
+Subject to EIA-481, IEC-60286 and JIS C0806
+1) Tape Dimensions  
+Carrier Tape Material: PS (Polystyrene)
+Top Tape Material: PET (Polyethylene Terephthalate) +PE (Polyethylene)
+Units: mm
+2) Reel Dimensions
+Center Material: PS (Polystyrene)
+Reel Material: PS (Polystyrene)
+Units: mm
+3) Storage Environment
+We recommend to keep less than +30 °C and 85 %RH of humidity in a packed condition,
+and to use it less than 6 months after delivery.
+User direction of feed
+○Epson
+○Epson
+13.0±1.0 
+Φ60±1 
+Φ180±2 
+2±0.2 
+Page 32 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 33
+(12-5) SG7050CAN
+(1) Packing Quantity
+The last two digits of the Product Number (X1G004481xxxxxx) are a code that defines the packing
+quantity. The standard is "00" for a 1 000 pcs/Reel.
+(2) Taping Specification
+Subject to EIA-481, IEC-60286 and JIS C0806
+1) Tape Dimensions  
+Carrier Tape Material: PS (Polystyrene)
+Top Tape Material: PET (Polyethylene Terephthalate) +PE (Polyethylene)
+Units: mm
+2) Reel Dimensions
+Center Material: PS (Polystyrene)
+Reel Material: PS (Polystyrene)
+Units: mm
+3) Storage Environment
+We recommend to keep less than +30 °C and 85 %RH of humidity in a packed condition,
+and to use it less than 6 months after delivery.
+User direction of feed
+〇Epson
+〇Epson
+Page 33 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 34
+[ 13 ] Handling Precautions
+Prior to using this product, please carefully read the section entitled “Precautions” on our Web site
+(https://www5.epsondevice.com/en/information/#precaution) for instructions on how to handle and use
+the product properly to ensure optimal performance of the product in your equipment.
+Before using the product under any conditions other than those specified therein,
+please consult with us to verify and confirm that the performance of the product will not be negatively
+affected by use under such conditions.
+In addition to the foregoing precautions, in order to avoid the deteriorating performance of the product,
+we strongly recommend that you DO NOT use the product under ANY of the following conditions:
+(1)    Do not expose this product to excessive mechanical shock or vibration.
+(2)    This product can be damaged by mechanical shock during the soldering process depending on the equipment used, process
+conditions, and any impact forces experienced. Always follow appropriate procedures, particularly when changing the assembly
+process in any way and be sure to follow applicable process qualification standards before starting production. 
+(3)    These devices are sensitive to ESD, use appropriate precautions during handling, assembly, test, shipment, and installation.
+(4)    The use of ultrasonic technology for cleaning, bonding, etc. can damage the Xtal unit inside this product.
+Please carefully check for this consideration before using ultrasonic equipment for volume production with this product.
+(5)    Noise and ripple on the power supply may have undesirable affects on operation and cause degradation of phase noise
+characteristics. Evaluate the operation of this device with appropriate power supplies carefully before use.
+(6)    When applying power, ensure that the supply voltage increases monotonically for proper operation.
+On power down, do not reapply power until the supplies, bypass capacitors, and any bulk capacitors are completely discharged
+since that may cause the unit to malfunction.
+(7)    Aging specifications are estimated from environmental reliability tests and expected frequency variation over time.
+They do not provide a guarantee of aging over the product lifecycle. 
+(8)    The metal cap on top of the device is directly connected to the GND terminal. Take necessary precautions to prevent any
+conductor not at ground potential from contacting the cap as that could cause a short circuit to GND.
+(9)    To avoid any issues due to interference of other signal lines, please take care not to place signal lines near the product as this
+may have an adverse affect on the performance of the product.
+(10)  A bypass capacitor of the recommended value(s) must be connected between the VCC and GND terminals of the product.
+Whenever possible, mount the capacitor(s) on the same side of the PCB and as close to the product as possible to keep the
+routing traces short.
+(11)  Power supply connections to VCC and GND pins should be routed as thick as possible while keeping the high frequency
+impedance low in order to get the best performance.
+(12)  The use of a filter or similar element in series with the power supply connections to protect from electromagnetic radiation noise
+may increase the high frequency impedance of the power supply line and may cause the oscillator to not operate properly.
+Please verify the design to ensure sufficient operational margin prior to use.
+(13)  Keep PCB routing from the output terminal(s) to the load as short as possible for best performance.
+(14)  The Enable (S̅T̅) input terminal is high impedance and so susceptible to noise. Connect it to a low impedance source when used
+and when not used it is recommended to connect it to Vcc for active high inputs and GND for active low inputs.
+(15)  Do not short the output to GND as that will damage the product. Always use with an appropriate load resistor connected.
+(16) This product should be reflowed no more than 3 times.
+[Availability of mounting conditions]
+If rework is needed after reflow, please correct it with a soldering
+iron with the tip set for a temperature of +350 °C or less and only
+contact each terminal once and for no more than 5 seconds.
+If this product is mounted on the bottom of the board during a reflow
+please check that it soldered down properly afterwards.
+(17)  Product failures during the warranty period only apply when the product is used according to the recommended operating
+conditions described in the specifications. Products that have been opened for analysis or damaged will not be covered.
+It is recommended to store and use in normal temperature and humidity environments described in the specifications to ensure
+frequency accuracy and prevent moisture condensation. If the product is stored for more than one year, please confirm the pin
+solderability prior to use.
+(18)  If the oscillation circuit is exposed to condensation, the frequency may change or oscillation may stop. Do not use in any
+conditions where condensation occurs.
+(19)  Do not store or use the product in an environment where it can be exposed to chemical substances that are corrosive to metal or
+plastics such as salt water, organic solvents, chemical gasses, etc. Do not use the product when it is exposed to sunlight, dust,
+corrosive gasses, or other materials for long periods of time.
+(20)  When using water-soluble solder flux make sure to completely remove the flux residue after soldering.
+Pay particular attention when the residues contain active halogens which will negatively affect the product and its performance.
+(21)  Terminals on the side of the product are internally connected to the IC, be careful not to cause short-circuits or reduce the
+insulation resistance of them in any way.
+(22)  Should any customer use the product in any manner contrary to the precautions and/or advice herein,
+such use shall be done at the customer’s own risk.
+Page 34 / 35
+Spec No : SGxxxxCAN_E_Ver3.0
+
+PAGE 35
+PROMOTION OF ENVIRONMENTAL MANAGEMENT SYSTEM
+CONFORMING TO INTERNATIONAL STANDARDS
+At Seiko Epson, all environmental initiatives operate under the
+Plan-Do-Check-Action (PDCA) cycle designed to achieve continuous
+improvements. The environmental management system (EMS)
+operates under the ISO 14001 environmental management standard. 
+All of our major manufacturing and non-manufacturing sites, in
+Japan and overseas, completed the acquisition of ISO 14001 certification. 
+WORKING FOR HIGH QUALITY
+In order provide high quality and reliable products and services
+than meet customer needs, Seiko Epson made early efforts towards
+obtaining ISO9000 series certification and has acquired ISO9001 for
+all business establishments in Japan and abroad. We have also
+acquired IATF 16949 certification that is requested strongly by major
+manufacturers as standard.
+■ Explanation of marks used in this datasheet
+――――――――――――――――――――――――――――――――――――――――――――――――――――
+1. The content of this document is subject to change without notice. 　Before purchasing or using Epson products, please contact with sales
+representative of Seiko Epson Corporation (“Epson”) for the latest information and be always sure to check the latest information 
+published on Epson’s official web sites and resources. 
+2. This document may not be copied, reproduced, or used for any other purposes, in whole or in part, without Epson’s prior consent.
+3. Information provided in this document including, but not limited to application circuits, programs and usage, is for reference purpose only. 
+Epson makes no guarantees against any infringements or damages to any third parties’ intellectual property rights or any other rights 
+resulting from the information. This document does not grant you any licenses, any intellectual property rights or any other rights with 
+respect to Epson products owned by Epson or any third parties.
+4. Epson has prepared this document carefully to be accurate and dependable, but Epson does not guarantee that the information is always 
+accurate and complete.  Epson assumes no responsibility for any damages you incurred due to any misinformation in this document.
+5. No dismantling, analysis, reverse engineering, modification, alteration, adaptation, reproduction, etc., of Epson products is allowed.
+regarding Epson products (including, but not limited to this document, specifications, data sheets, manuals, and Epson’s web site).  
+Using technical contents such as product data, graphic and chart, and technical information, including programs, algorithms and 
+application circuit examples under this document, you shall evaluate your products thoroughly both in stand-alone basis and within your 
+overall systems. You shall be solely responsible for deciding whether to adopt/use Epson products with your products.
+6. Epson assumes no responsibility for any damages (whether direct or indirect) caused by or in relation with your non-compliance with the 
+terms and conditions in this document or for any damages (whether direct or indirect) incurred by any third party that you give, transfer or 
+assign Epson products.
+7. For more details or other concerns about this document, please contact our sales representative.
+8. Company names and product names listed in this document are trademarks or registered trademarks of their respective companies.
+●Disclaimer
+1. Epson products are designed for use in general electronic equipment applications that do not require extremely high reliability or safety.
+2. Epson does not represent or warrant that its products will not cause a failure for any particular application, except for cases where the
+failure is a direct result caused by defects in materials and workmanship of this product.
+If a product fails due to defects in materials and workmanship, to the maximum extent permitted by law, we will, at our sole discretion, 
+refund or replace the affected product.
+3. When products for used directly or indirectly in certain devices or applications (ex. Nuclear power, aerospace, infrastructure facilities, 
+medical equipment, etc.) which are connected to or affect safety of human life or property, Customer is solely responsible for determining 
+Customer shall implement necessary and proper safety design and measures (including redundant design, malfunction prevention 
+design, etc.) to ensure reliability and safety before using the products in with customer’s E uipment.
+4. No dismantling, analysis, reverse engineering, modification, alteration, adaptation, reproduction, etc., of Epson products is allowed.
+Furthermore, any defects caused by this are not covered by the warranty.
+©Seiko Epson Corporation 2025
+NOTICE: PLEASE READ CAREFULLY BELOW BEFORE THE USE OF THIS DOCUMENT
+●Complies with EU RoHS directive.
+*About the products without the Pb-free mark.
+Contains Pb in products exempted by EU RoHS directive
+(Contains Pb in sealing glass, high melting temperature type solder or other)
+●Pb free.
+ISO 14000 is an international standard for environmental management that 
+was established by the International Standards Organization in 1996 against 
+the background of growing concern regarding global warming, destruction of 
+the ozone layer, and global deforestation.
+IATF 16949 is the international standard that added the sector-specific supplemental 
+requirements for automotive industry based on ISO9001. 
+Page 35 / 35
+Spec No : SGxxxxCAN_E_Ver3.0

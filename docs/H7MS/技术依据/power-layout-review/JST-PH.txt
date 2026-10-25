@@ -1,0 +1,698 @@
+- 1 -
+2
+3
+4
+5
+6
+PH CONNECTOR
+2.0 mm pitch/Wire-to-Board connectors/Crimp style and Mating style
+With a mounting height of 8 mm and a width 
+of only 4.5 mm in the top-entry version, this 
+low-profile wire-to board connector features 
+a pitch of 2.0 mm.  The PH series is suitable 
+for a wide range of applications, including 
+use in high-density PCBs where space in 
+electronic equipment is limited.
+・Space-saving design
+・High reliability connector
+・Boxed-shaped shrouded header
+・Excellent functionality in PCB mounting 
+　as a wire-to-board connector
+・Available in surface mount style with 
+　SMT headers ranging from 2 to 16 positions.
+■Specifications
+・ Current rating: 2 A　AC/DC (AWG #24）
+・ Voltage rating: 100 V　AC/DC
+・Temperature range: -40℃ to +105℃
+                              (including temperature rise in
+                               applying  electrical current)
+・Contact resistance: Initial value/ 10 mΩ max. 
+                               After test/ 20 mΩ max.
+・ Insulation resistance: 1,000 MΩ min.
+・Withstanding voltage: 
+      There shall be no breakdown or flashover while
+      applying 800 VAC for one minute.
+・Applicable wire range:
+     Conductor size/ AWG #32 to AWG #24
+　　Insulation O.D./ φ0.5 mm to φ1.5 mm
+・Applicable PC board thickness: 0.8 mm to 1.6 mm
+* Please refer to the "Handling Precautions for Terminals
+   and Connectors" on our website (listed in the "Technical
+   Documents" column on the Product Information page)
+   before use.
+*  RoHS2 compliance
+*  Dimensional unit: mm
+*  Contact JST for details.
+■Standards
+For information on overseas standard registrations, 
+please refer to the "List of Registered Overseas 
+Standards" on our website (listed in the "Technical 
+Documents" column on the Product Information page).
+* Specifications registered to overseas standards may 
+   differ from the general specifications listed above.
+　PC board layout and Assembly layout（Through-hole type）
+(1.95)
+2±0.05
+φ0.7
++0.1
+ 0
+Connector
+outline
+4.5
+(8)
+(1.7)
+No. 1
+circuit
+Note:  1. The PC board layout figure shown is viewed from the connector mounting surface.
+         2. Tolerance for the PCB hole pitch shall be ± 0.05 and shall not accumulate.
+         3. Hole dimensions differ depending on the type of PCB and PCB drilling method.
+　　       When using PCB made of hard material composed of fiberglass cloth, please consider a larger hole diameter.
+　　      The above dimensions are for reference only. Please contact JST for further details.
+ Top entry type
+ Side entry type
+2±0.05
+φ0.7
++0.1
+ 0
+Connector
+outline
+(9.6)
+(4.8)
+(6.25)
+(1.95)
+No. 1
+circuit
+
+- 2 -
+5.7
+1.5
+2.08
+Note:  1. Contact JST for gold-plated products.
+         2.  SPH-002T-P0.5L is a low-insertion force type contact for easier
+            insertion/withdrawal operation.  Please take the application and
+            environment into consideration as the low-insertion force type 
+            contact is less resistant to vibration.  Please note that the crimp
+            height is different from the standard PH contact.
+            Please contact JST for further details.
+PH CONNECTOR
+Note: Contact JST for fully automatic crimping applicator
+　Contact
+　PC board layout and Assembly layout（SMT type）
+(5.5)
+(9.6)
+(2.6)
+(0.2)
+3.4±0.1
+1min.
+2±0.05
+1.6±0.1
+1.5±0.1
+5.5max.
+9min.
+No. 1 circuit
+Connector
+outline
+ Top entry type
+ Side entry type
+(8.6)
+5
+(2)
+2±0.05
+1.6±0.1
+1.6±0.1
+(1)
+3±0.1
+1min.
+7.5min.
+2max.
+No. 1 circuit
+Connector 
+outline
+Note:  1. The PC board layout figure shown is viewed from the connector mounting surface.
+         2. Tolerance for the PCB pattern pitch shall be ± 0.05 and shall not accumulate.
+　　      The above dimensions are for reference only. Please contact JST for further details.
+Material and Surface ﬁnish, etc.
+Model No.
+Applicable wire range
+Q’ty/
+reel
+Conductor size AWG (mm2)
+Insulation O.D.(mm)
+Copper alloy, tin-plated
+SPH-004T-P0.5S
+SPH-002T-P0.5S
+SPH-002T-P0.5L
+#32 to #28 (0.032 to 0.08)
+#30 to #24 (0.05 to 0.22)
+#28 to #24 (0.08 to 0.22)
+0.5 to 0.9
+0.8 to 1.5
+0.8 to 1.5
+10,000
+8,000
+Contact
+Crimping
+machine
+Crimp applicator with dies
+Applicator
+SPH-004T-P0.5S
+SPH-002T-P0.5S
+SPH-002T-P0.5L
+AP-K2N
+MKS-L-10
+MKS-L
+APLMK SPH004-05S
+APLMK SPH002-05S
+APLMK SPH002-05L
+Crimping machine
+
+- 3 -
+Note: For ﬂame retardant grade of resin material used, please refer to 
+         the "List of Registered Overseas Standards" on our website (listed  in
+         the "Technical Documents" column on the Product Information page).
+Note:  1. This product displays (LF)(SN) on a label.
+        2. For flame retardant grade of resin material used, please refer to 
+             the "List of Registered Overseas Standards" on our website 
+            (listed in the "Technical Documents" column on the Product 
+               Information page).
+B
+4.5
+6
+(3.4)
+A
+2
+Mark of 
+No. 1 circuit
+4.5
+B
+A
+6
+(3.4)
+Mark of 
+No. 1 circuit
+ Top entry type
+ Side entry type
+<2 circuits>
+<3 circuits or more>
+B
+(3.4)
+4.8
+A
+2
+7.6
+Mark of 
+No. 1 circuit
+　Header（Through-hole type）
+B
+A
+2
+No. 1 circuit
+4.5
+6.85
+Ｈ　ＪＳＴ
+　Housing
+PH CONNECTOR
+No. of
+circuits
+Model No.
+PHR-2
+PHR-3
+PHR-4
+PHR-5
+PHR-6
+PHR-7
+PHR-8
+PHR-9
+PHR-10
+PHR-11
+PHR-12
+PHR-13
+PHR-14
+PHR-15
+PHR-16
+Dimensions (mm)
+Q'ty/bag
+A
+B
+Material and Surface ﬁnish, etc.
+PA, natural (white)
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+10
+11
+12
+13
+14
+15
+16
+  2.0
+  4.0
+  6.0
+  8.0
+10.0
+12.0
+14.0
+16.0
+18.0
+20.0
+22.0
+24.0
+26.0
+28.0
+30.0
+  5.8
+  7.8
+  9.8
+11.8
+13.8
+15.8
+17.8
+19.8
+21.8
+23.8
+25.8
+27.8
+29.8
+31.8
+33.8
+2,000
+2,000
+2,000
+2,000
+2,000
+2,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+No. of
+circuits
+Model No.
+Dimensions (mm)
+A
+B
+Material and Surface ﬁnish, etc.
+Top entry
+type
+Top entry type
+Side entry type
+Side entry
+type
+Q'ty/box
+Post: Copper alloy, tin-plated
+Base housing: PA, natural (white)
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+10
+11
+12
+13
+14
+15
+16
+S2B-PH-K-S
+S3B-PH-K-S
+S4B-PH-K-S
+S5B-PH-K-S
+S6B-PH-K-S
+S7B-PH-K-S
+S8B-PH-K-S
+S9B-PH-K-S
+S10B-PH-K-S
+S11B-PH-K-S
+S12B-PH-K-S
+S13B-PH-K-S
+S14B-PH-K-S
+S15B-PH-K-S
+S16B-PH-K-S
+  2.0
+  4.0
+  6.0
+  8.0
+10.0
+12.0
+14.0
+16.0
+18.0
+20.0
+22.0
+24.0
+26.0
+28.0
+30.0
+  5.9
+  7.9
+  9.9
+11.9
+13.9
+15.9
+17.9
+19.9
+21.9
+23.9
+25.9
+27.9
+29.9
+31.9
+33.9
+1,000
+1,000
+1,000
+1,000
+1,000
+   500
+   500
+   500
+   500
+   500
+   400
+   250
+   250
+   250
+   250
+1,000
+1,000
+   500
+   500
+   500
+   500
+   250
+   250
+   250
+   250
+   250
+   250
+   250
+   200
+   200
+B2B-PH-K-S
+B3B-PH-K-S
+B4B-PH-K-S
+B5B-PH-K-S
+B6B-PH-K-S
+B7B-PH-K-S
+B8B-PH-K-S
+B9B-PH-K-S
+B10B-PH-K-S
+B11B-PH-K-S
+B12B-PH-K-S
+B13B-PH-K-S
+B14B-PH-K-S
+B15B-PH-K-S
+B16B-PH-K-S
+
+- 4 -
+PH CONNECTOR
+ Top entry type
+ Side entry type
+A
+2
+5
+(2)
+6.6
+B
+Mark of 
+No. 1 circuit
+5.5
+A
+2
+6
+(2.6)
+B
+Mark of 
+No. 1 circuit
+Note:  1. This product displays (LF)(SN) on a label.
+        2. Top-entry headers with suction tape are also available.
+        3. For flame retardant grade of resin material used, please refer to 
+             the "List of Registered Overseas Standards" on our website 
+            (listed in the "Technical Documents" column on the Product 
+               Information page).
+Note:  1. This product displays (LF)(SN) on a label.
+        2. For flame retardant grade of resin material used, please refer to 
+             the "List of Registered Overseas Standards" on our website 
+            (listed in the "Technical Documents" column on the Product 
+               Information page).
+　Header（SMT type）
+No. of
+circuits
+Model No.
+B
+A
+Material and Surface ﬁnish, etc.
+Q'ty/reel
+Post: Copper alloy, tin-plated
+Base housing: PA (Heat resistance), natural (ivory)
+Reinforcement: Copper alloy, tin-plated
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+10
+11
+12
+13
+14
+15
+16
+  2.0
+4.0
+6.0
+8.0
+10.0
+12.0
+14.0
+16.0
+18.0
+20.0
+22.0
+24.0
+26.0
+28.0
+30.0
+  7.95
+9.95
+11.95
+13.95
+15.95
+17.95
+19.95
+21.95
+23.95
+25.95
+27.95
+29.95
+31.95
+33.95
+35.95
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+B2B-PH-SM4-TB
+B3B-PH-SM4-TB
+B4B-PH-SM4-TB
+B5B-PH-SM4-TB
+B6B-PH-SM4-TB
+B7B-PH-SM4-TB
+B8B-PH-SM4-TB
+B9B-PH-SM4-TB
+B10B-PH-SM4-TB
+B11B-PH-SM4-TB
+B12B-PH-SM4-TB
+B13B-PH-SM4-TB
+B14B-PH-SM4-TB
+B15B-PH-SM4-TB
+B16B-PH-SM4-TB
+Dimensions (mm)
+No. of
+circuits
+Model No.
+B
+A
+Material and Surface ﬁnish, etc.
+Q'ty/reel
+Post: Copper alloy, tin-plated
+Base housing: PA (Heat resistance), natural (ivory)
+Reinforcement: Copper alloy, tin-plated
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+10
+11
+12
+13
+14
+15
+  2.0
+4.0
+6.0
+8.0
+10.0
+12.0
+14.0
+16.0
+18.0
+20.0
+22.0
+24.0
+26.0
+28.0
+  7.9
+9.9
+11.9
+13.9
+15.9
+17.9
+19.9
+21.9
+23.9
+25.9
+27.9
+29.9
+31.9
+33.9
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+1,000
+S2B-PH-SM4-TB
+S3B-PH-SM4-TB
+S4B-PH-SM4-TB
+S5B-PH-SM4-TB
+S6B-PH-SM4-TB
+S7B-PH-SM4-TB
+S8B-PH-SM4-TB
+S9B-PH-SM4-TB
+S10B-PH-SM4-TB
+S11B-PH-SM4-TB
+S12B-PH-SM4-TB
+S13B-PH-SM4-TB
+S14B-PH-SM4-TB
+S15B-PH-SM4-TB
+Dimensions (mm)
+ Top entry type
+ Side entry type
+
+- 5 -
+PH CONNECTOR
+ Contact
+ Housing
+ Header (Through-hole type）
+ Header (SMT type）
+　Model number allocation
+Supply form: Strip form
+Series name
+Applicable wire range:
+    Standard type  004…AWG #32 to AWG #28
+　　　　　　       002…AWG #30 to AWG #24
+　 Low insertion force type  
+                         002…AWG #28 to AWG #24
+Surface ﬁnish: Tin-plated 
+Material: Copper alloy
+Applicable post size
+Type: S…Standard type, L…Low insertion force type
+PH
+S
+- 002 T
+P
+-
+S
+0.5
+Series name
+Type: For receptacle contact
+No. of circuits
+Color: No indication…Natural (White), 
+　　   BK…Black, BL…Blue, D…Orange, DPK…Dark pink,
+　　   FY…Fluorescent yellow, H…Gray, L…Lemon yellow,
+         LE…Light blue, M…Green, N…Brown, P…Purple, 
+         PK…Pink, R…Red, TR…Tomato red, Y…Yellow
+PH R
+2
+-
+-
+Header type: B…Top entry type
+ 
+ S…Side entry type
+No. of circuits
+Assembly product
+Series name
+Clinched (Kinked) / Not clinched: Clinched
+Color: S…Natural(White),
+　　   No indication…Ivory, E…Blue, FY…Fluorescent yellow, 
+　　   H…Gray, K…Black, L…Lemon yellow, LE…Light blue, 
+　　  M…Green, N…Brown, O…Orange, P…Purple, PK…Pink, 
+　　   R…Red, TR…Tomato red, Y…Yellow
+B
+-
+2 B
+PH
+K S
+-
+-
+Header type: 
+    B…Top entry type
+    S…Side entry type
+No. of circuits
+Assembly product
+Series name
+SMT type
+Product version
+Color: No indication…Natural (Ivory）,
+　　   DPK…Dark pink, E…Blue, K…Black, 
+　　   M…Green, L…Lemon yellow, R…Red
+Packaging style: Embossed taping
+Suction tape: No indication…No, T…Yes
+B
+-
+2 B PH SM 4
+TB
+-
+-
+-

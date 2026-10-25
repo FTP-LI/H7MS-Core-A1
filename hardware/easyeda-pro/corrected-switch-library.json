@@ -1,0 +1,18 @@
+{
+  "libraryUuid": "e5af7ca27c24475d8c8223cdd36b7089",
+  "supplierId": "C79167",
+  "mapping": {
+    "1'": "3",
+    "2'": "4",
+    "1&apos;": "3",
+    "2&apos;": "4"
+  },
+  "symbolUuid": "17c11c1af1a242b7902b9b90581a548a",
+  "footprintUuid": "ee5e15b99f354b33a4f57c17bcfcc855",
+  "symbolUpdated": true,
+  "footprintUpdated": true,
+  "deviceUuid": "adde30c6511e4d1394c3b330ffad57dd",
+  "previousSymbolUuid": "43ef890d6bf742c59194709ea01576f2",
+  "previousDeviceUuid": "a57b236362934aaaa5f39ae3ade464f6",
+  "orientationFixed": true
+}

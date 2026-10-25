@@ -1,0 +1,154 @@
+[
+  {
+    "file": "adc_main.c",
+    "url": "https://raw.githubusercontent.com/STMicroelectronics/STM32CubeH7/master/Projects/STM32H735G-DK/Examples/ADC/ADC_DMA_Transfer/Src/main.c",
+    "sha256": "c2690db5d77a488b35a557c513d8c5959bb45a1527b9069963c6e41df7c9fae2",
+    "bytes": 12764
+  },
+  {
+    "file": "adc_msp.c",
+    "url": "https://raw.githubusercontent.com/STMicroelectronics/STM32CubeH7/master/Projects/STM32H735G-DK/Examples/ADC/ADC_DMA_Transfer/Src/stm32h7xx_hal_msp.c",
+    "sha256": "973d05a49dc18de1869fa48220b03ee825b7c1aac736cef62806680cd57d6977",
+    "bytes": 4232
+  },
+  {
+    "file": "dma.h",
+    "url": "https://raw.githubusercontent.com/STMicroelectronics/stm32h7xx-hal-driver/master/Inc/stm32h7xx_hal_dma.h",
+    "sha256": "564d6d26015155743f4990a354d26124d5d434673813c75df5da9572e4ac2eae",
+    "bytes": 72371
+  },
+  {
+    "file": "rcc_ex.h",
+    "url": "https://raw.githubusercontent.com/STMicroelectronics/stm32h7xx-hal-driver/master/Inc/stm32h7xx_hal_rcc_ex.h",
+    "sha256": "cbebc9c87db8acada7da2fd06994a998528d447960ec62737fd65cace4fd34bf",
+    "bytes": 211252
+  },
+  {
+    "file": "fdcan.c",
+    "url": "https://raw.githubusercontent.com/STMicroelectronics/stm32h7xx-hal-driver/master/Src/stm32h7xx_hal_fdcan.c",
+    "sha256": "32236e2c46624998e2b16d112cf5d1617258c80e91dfc96ef74aeabd21467fc0",
+    "bytes": 212823
+  },
+  {
+    "file": "TMP302.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/tmp302.pdf",
+    "sha256": "5413acb9f08d49360a8f2f60474895ea84890e4a9bb20e06cbc03af96bfe275b",
+    "bytes": 577304
+  },
+  {
+    "file": "RM0468.pdf",
+    "url": "https://www.st.com/resource/en/reference_manual/rm0468-stm32h723733-stm32h725735-and-stm32h730-value-line-advanced-armbased-32bit-mcus-stmicroelectronics.pdf",
+    "sha256": "e93804cc95acbe39134b1e7cbca5a663d2d2a9607c62b1d140a922e5d180dcf9",
+    "bytes": 66309457,
+    "retained_file": "RM0468-selected-pages.pdf",
+    "retained_original_pages_1based": [
+      1,
+      136,
+      137,
+      138,
+      161,
+      208,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      482,
+      582,
+      585,
+      1119,
+      1120,
+      2497,
+      2498,
+      2499,
+      2516
+    ],
+    "retained_sha256": "1b9e64bd609aa1f729d6f937fd0a300249940bca0f1a24c1455d5a78491a731f",
+    "full_download_retained": false
+  },
+  {
+    "file": "DS13312.pdf",
+    "url": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf",
+    "sha256": "48fc619b23cdb3e0e5b8b7fa33f3fe3410ec9c78f5127d0cc37ac36d45dfaf67",
+    "bytes": 3736397
+  },
+  {
+    "file": "TPS22919.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/tps22919.pdf",
+    "sha256": "743c59b01fb0891d2d0f1faba779161cd2d2b6c18edf68e6d5b3279016240c84",
+    "bytes": 1454791
+  },
+  {
+    "file": "DMN2056U.pdf",
+    "url": "https://www.diodes.com/datasheet/download/DMN2056U.pdf",
+    "sha256": "4bf71d7780cec6ebb11681b05d7f5f5cb270d146d749d2f1d603a74777b46e39",
+    "bytes": 454314
+  },
+  {
+    "file": "HSE_8MHz.pdf",
+    "url": "https://download.epsondevice.com/td/pdf/td_spxo_spso_mhz/SG-210STF_X1G0041710015_en.pdf",
+    "sha256": "a9417b396884953105829fcde2f7fdcf9f7db0f22065a3e1d2d996d9a26fdaf5",
+    "bytes": 2973863
+  },
+  {
+    "file": "NTC.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "PESD2CANFD.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "USB4105.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "TPS3808.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+    "sha256": "74d889c0f68af88032f1633c26381817cc03e10d9fd3b4c177a044ad3ed86eed",
+    "bytes": 2046179
+  },
+  {
+    "file": "SN74LVC1G08.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf",
+    "sha256": "30b963cc44233cf3ca35c891ff987c8323a2244ecc765e23296ec96ca4b42666",
+    "bytes": 2837825
+  },
+  {
+    "file": "adc.h",
+    "url": "https://raw.githubusercontent.com/STMicroelectronics/stm32h7xx-hal-driver/master/Inc/stm32h7xx_hal_adc.h",
+    "sha256": "7a67f8a941d0d6e1803a2d59e3f4134c1e863f62142a2ff42b35a1761b1b42b0"
+  },
+  {
+    "file": "sn74lvc1g125.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf",
+    "sha256": "1098d46e4565695e9823a08309bc581e2c9ead26b19e99a43a011a38642b27ca"
+  },
+  {
+    "file": "sn74cb3q3245.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/sn74cb3q3245.pdf",
+    "sha256": "97c7177a3203d8eb431478e5b973256d51a3c68718ebe4d1acb81ac823731d23"
+  }
+]

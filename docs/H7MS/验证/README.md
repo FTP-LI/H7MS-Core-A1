@@ -1,5 +1,7 @@
 # 规划验证
 
+当前 v0.9 使用[独立资源校验](../工程规划/validate_resources.py)，结果见[validation.json](../工程规划/validation.json)。执行 `python -X utf8 docs/H7MS/工程规划/validate_resources.py` 检查新核心固定资源与七套应用配置。下列 `validate_plan.py` 保留检查 v0.8 历史表及公共链接，不代表 v0.9 的时钟/DMA/硬件验证。
+
 从 `H7MS-Core-A1` 项目根目录执行：
 
 ```powershell

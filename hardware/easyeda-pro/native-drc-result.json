@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "api": "sch_Drc.check(true,false,true)",
+  "groups": [
+    {
+      "type": "warn",
+      "count": 1
+    }
+  ],
+  "ui_used": false,
+  "detail_supported": "severity/count only",
+  "client_version": "3.2.149.88089769"
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "file": "Murata-10u-25V.pdf",
+    "url": "https://www.farnell.com/datasheets/1747469.pdf",
+    "sha256": "2835550987c7b95437be5712c0f6b15a493305ce874b988c92937c17a9510e9b",
+    "pages": 2
+  },
+  {
+    "file": "AN5419.pdf",
+    "url": "https://www.st.com/resource/en/application_note/an5419-getting-started-with-stm32h723733-stm32h725735-and-stm32h730-value-line-hardware-development-stmicroelectronics.pdf",
+    "sha256": "94ab1c7d0ca0fae31f6227badfe48bc99c94d87516252bc7ebd5f38bc775ac30",
+    "pages": 52
+  },
+  {
+    "file": "EVQP7.pdf",
+    "url": "https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/245500",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  {
+    "file": "TC33.pdf",
+    "url": "https://www.bourns.com/docs/product-datasheets/tc33.pdf",
+    "sha256": "b13258ee9f777b70198554ad4ed43cab2167b2bdf31bdcbe52c4956bfff1adbf",
+    "pages": 3
+  },
+  {
+    "file": "Fuse451.pdf",
+    "url": "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_451_453_datasheet.pdf.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "CK-JS.pdf",
+    "url": "https://www.ckswitches.com/media/1422/js.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]
